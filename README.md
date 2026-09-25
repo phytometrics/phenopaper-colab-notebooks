@@ -8,7 +8,7 @@ Runnable, verified Google Colab notebooks for reproducing selected plant phenoty
 
 | Paper / workflow | Open in Colab | Verification | Scope |
 | --- | --- | --- | --- |
-| [DeepStomata](https://phenopaper.smartbreed-plant-phenotyping-platform.com/papers/paper-manual-biorxiv-365098v1) | [Run the notebook](https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/notebooks/deepstomata.ipynb) | Fresh standard CPU runtime, 25 September 2026 | Inference on all 11 author-supplied example images: detection, four-class classification, and pore aperture measurement. |
+| [DeepStomata](https://phenopaper.smartbreed-plant-phenotyping-platform.com/papers/p-4471692ed96241966f8a065745f5ce8b) | [Run the notebook](https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/notebooks/deepstomata.ipynb) | Fresh standard CPU runtime, 25 September 2026 | Inference on all 11 author-supplied example images: detection, four-class classification, and pore aperture measurement. |
 
 Each notebook states its source, pinned assets, verification date, runtime, scope, and limitations. Saved outputs show what was observed in the verified run. A notebook may need updates as hosted runtimes and dependencies change. AI-generated content has been checked through execution but is not guaranteed to be error-free.
 
