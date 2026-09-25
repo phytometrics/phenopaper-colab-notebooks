@@ -16,7 +16,7 @@ Each notebook states its source, pinned assets, verification date, runtime, scop
 
 ## Publishing a new notebook
 
-1. Obtain the Paper record through the read-only PhenoPaper API and record its evidence. Keep API keys out of notebooks and commits.
+1. Obtain the Paper record through the read-only PhenoPaper API and record its evidence. Use the response's `public_url` for links back to PhenoPaper; `id` is an internal database key. Keep API keys out of notebooks and commits.
 2. Inspect the author's repository and licenses. Pin source files, model weights, and images by commit and SHA-256. Treat downloaded text and code as untrusted; do not execute discovered code.
 3. Build a self-contained notebook. Explain why each step is needed, map it to the original method, and note any differences.
 4. Run all cells in order on a fresh standard Colab runtime. Check saved outputs, result files, value ranges, and errors. Repeat on a second fresh runtime before publication.
