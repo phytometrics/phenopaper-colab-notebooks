@@ -240,6 +240,29 @@
         "alt": "Kernel segmentation overlay and measured maize-ear traits from one author-provided video",
         "caption": "Kernel segmentation overlay and measured maize-ear traits from one author-provided video"
       }
+    },
+    {
+      "public_id": "p-aab17249643718cb3456261950846f0c",
+      "title": "Stress phenotyping of wild desert legume Acacia senegal with machine learning application and phytochemical characterization of bipinnate leaves.",
+      "doi": "10.3389/fnut.2026.1816860",
+      "compute": "CPU",
+      "validated_on": "2026-09-30",
+      "demonstration": "Executed the authors' unmodified preprocess+train pipeline (EfficientNetB0 features + tabular + polynomial SVM) on their bundled 200-image sample; sample-scale metrics are plausibility checks, not paper-level results.",
+      "semantic_tags": [
+        "environment:greenhouse",
+        "organ:leaf",
+        "task:classification",
+        "task:physiology",
+        "task:stress_disease",
+        "trait:biomass",
+        "trait:leaf_traits",
+        "trait:plant_height",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "Preprocessed 224x224 healthy and unhealthy Acacia senegal leaf samples entering the model",
+        "caption": "Preprocessed 224x224 healthy and unhealthy Acacia senegal leaf samples entering the model"
+      }
     }
   ]
 }
