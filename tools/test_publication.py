@@ -12,6 +12,12 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(len(data["notebooks"]), 8)
         self.assertEqual(publication.render(data), publication.README.read_text(encoding="utf-8"))
 
+    def test_preview_from_line_wrapped_notebook_output(self):
+        notebook = {"cells": [{"cell_type": "code", "outputs": [
+            {"data": {"image/png": "iVBORw0KGgo=\n"}}
+        ]}]}
+        self.assertEqual(publication.get_preview(notebook, 0), publication.PNG_MAGIC)
+
     def test_notebook_with_error_output_is_rejected(self):
         notebook = {
             "nbformat": 4,

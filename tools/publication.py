@@ -162,6 +162,8 @@ def get_preview(notebook: dict, index: int) -> bytes:
     payload = images[index]
     if isinstance(payload, list):
         payload = "".join(payload)
+    # nbformat permits line-wrapped base64 data in a saved output.
+    payload = "".join(payload.split())
     try:
         image = base64.b64decode(payload, validate=True)
     except (ValueError, binascii.Error) as exc:
