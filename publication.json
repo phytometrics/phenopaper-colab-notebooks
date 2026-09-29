@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "notebooks": [
+    {
+      "public_id": "p-744d06547d0cf81dc008f601a6fe839c",
+      "title": "NeuraLeaf: Disentangled Neural Parametric Modeling of Leaf Shape, Deformation, and Appearance",
+      "doi": "10.1007/s11263-026-03024-6",
+      "compute": "T4 GPU",
+      "validated_on": "2026-09-26",
+      "demonstration": "Shape generation plus leaf deformation transfer and interpolation. The fitting example is a model-generated round-trip; appearance modeling and dataset-level benchmarks are outside this run.",
+      "semantic_tags": [
+        "modality:rgbd",
+        "organ:leaf",
+        "task:morphology",
+        "task:reconstruction",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Leaf shape and deformation results across four examples",
+        "caption": "Leaf shape and deformation results across four examples"
+      }
+    },
+    {
+      "public_id": "p-02f6f83e31a71dc69ce32db56b013ca3",
+      "title": "Seed Morphology in Key Spanish Grapevine Cultivars",
+      "doi": "10.20944/preprints202103.0578.v1",
+      "compute": "CPU",
+      "validated_on": "2026-09-27",
+      "demonstration": "Seed silhouette/model overlap and J-index for Albillo Real (30 seeds). Single-cultivar demo; scale-calibration discrepancy is documented.",
+      "semantic_tags": [
+        "crop:grapevine",
+        "organ:seed",
+        "task:classification",
+        "task:morphology",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Grapevine seed image and model overlap",
+        "caption": "Grapevine seed image and model overlap"
+      }
+    },
+    {
+      "public_id": "p-076a5cd5ebdeed1a9ffaf2ec05b49074",
+      "title": "3D sorghum reconstructions from depth images enable identification of quantitative trait loci regulating shoot architecture",
+      "doi": "10.1101/062174",
+      "compute": "CPU",
+      "validated_on": "2026-09-27",
+      "demonstration": "Compares the authors’ and reproduced chromosome 4 QTL profiles for sorghum leaf length. Depth-image acquisition and 3D reconstruction are documented but not executed.",
+      "semantic_tags": [
+        "crop:sorghum",
+        "environment:greenhouse",
+        "modality:rgbd",
+        "organ:leaf",
+        "organ:seed",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:reconstruction",
+        "task:segmentation",
+        "trait:architecture",
+        "trait:leaf_traits",
+        "trait:plant_height"
+      ],
+      "preview": {
+        "alt": "Sorghum chromosome 4 QTL profile comparison",
+        "caption": "Sorghum chromosome 4 QTL profile comparison"
+      }
+    },
+    {
+      "public_id": "p-0e108836e8a4514b8486db589101c1d8",
+      "title": "Looking behind occlusions: A study on amodal segmentation for robust on-tree apple fruit size estimation",
+      "doi": "10.1016/j.compag.2023.107854",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-09-27",
+      "demonstration": "Amodal segmentation contours and depth maps for two apple images. Both runtime paths were validated; the saved outputs use CPU. Not a test-set performance evaluation.",
+      "semantic_tags": [
+        "crop:apple",
+        "environment:field",
+        "modality:rgbd",
+        "organ:fruit",
+        "task:morphology",
+        "task:segmentation",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Apple detections, amodal contours, and depth map",
+        "caption": "Apple detections, amodal contours, and depth map"
+      }
+    },
+    {
+      "public_id": "p-0f6c6d73a489f456dd530c51fce2b6f8",
+      "title": "Deep aerenchyma: a transformer-based pipeline for scalable phenotyping of rice root aerenchyma lacunae across environments.",
+      "doi": "10.1186/s13007-026-01546-1",
+      "compute": "CPU",
+      "validated_on": "2026-09-27",
+      "demonstration": "Segmentation overlays for three rice-root images. Not a multi-environment dataset-scale evaluation.",
+      "semantic_tags": [
+        "crop:rice",
+        "organ:root",
+        "organ:tissue",
+        "task:morphology",
+        "task:segmentation",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "Rice-root aerenchyma segmentation overlays",
+        "caption": "Rice-root aerenchyma segmentation overlays"
+      }
+    },
+    {
+      "public_id": "p-4471692ed96241966f8a065745f5ce8b",
+      "title": "DeepStomata: Facial Recognition Technology for Automated Stomatal Aperture Measurement",
+      "doi": "10.1101/365098",
+      "compute": "CPU",
+      "validated_on": "2026-09-26",
+      "demonstration": "Stomata detections, four-class labels, and aperture overlays on one author-provided image. Paper-wide performance is not claimed.",
+      "semantic_tags": [
+        "organ:stomata",
+        "task:classification",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:stomatal_traits"
+      ],
+      "preview": {
+        "alt": "Detected stomata with aperture annotations",
+        "caption": "Detected stomata with aperture annotations"
+      }
+    },
+    {
+      "public_id": "p-cac607b350005b99ef850fe315328b02",
+      "title": "Operational Framework for Field-Scale Crop Sowing and Emergence Date Estimation Using Daily Synthetic Harmonized Landsat Sentinel-2 Time Series",
+      "doi": "10.34133/remotesensing.0878",
+      "compute": "CPU",
+      "validated_on": "2026-09-26",
+      "demonstration": "Seasonal EVI fit and estimated phenological stages for one site-year (`goodwaterbau`, 2023). Not a multi-site reproduction.",
+      "semantic_tags": [
+        "crop:maize",
+        "crop:soybean",
+        "environment:field",
+        "modality:spectral",
+        "organ:whole_plant",
+        "task:time_series",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Seasonal EVI and estimated phenological stages",
+        "caption": "Seasonal EVI and estimated phenological stages"
+      }
+    },
+    {
+      "public_id": "p-3f9aa46c732dc37158c82721d4b77927",
+      "title": "FQGR-net: Morphology-based litchi flower quantification and gender recognition.",
+      "doi": "10.1016/j.plaphe.2026.100217",
+      "compute": "T4 GPU",
+      "validated_on": "2026-09-27",
+      "demonstration": "Predicted male/female flower-density maps and masks on two author-provided samples. Not the 1,150-image benchmark; the code repository declares no license.",
+      "semantic_tags": [
+        "environment:field",
+        "organ:flower",
+        "task:classification",
+        "task:counting",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Litchi flowers with male/female point annotations",
+        "caption": "Litchi flowers with male/female point annotations"
+      }
+    }
+  ]
+}
