@@ -245,9 +245,9 @@
       "public_id": "p-aab17249643718cb3456261950846f0c",
       "title": "Stress phenotyping of wild desert legume Acacia senegal with machine learning application and phytochemical characterization of bipinnate leaves.",
       "doi": "10.3389/fnut.2026.1816860",
-      "compute": "CPU",
+      "compute": "CPU + T4 GPU",
       "validated_on": "2026-09-30",
-      "demonstration": "Executed the authors' unmodified preprocess+train pipeline (EfficientNetB0 features + tabular + polynomial SVM) on their bundled 200-image sample; sample-scale metrics are plausibility checks, not paper-level results.",
+      "demonstration": "Runs the authors unmodified preprocessing and training pipeline on 200 bundled images (800 after augmentation), combining EfficientNetB0 features and six tabular variables with polynomial SVM. Fresh CPU and T4 runs passed; sample-scale metrics are not paper-level results.",
       "semantic_tags": [
         "environment:greenhouse",
         "organ:leaf",
