@@ -56,7 +56,7 @@ def validate_entry(entry: dict) -> None:
     doi = entry.get("doi")
     if doi is not None:
         clean_text(doi, "doi")
-        if not doi.startswith("10.") or "/" not in doi:
+        if not re.fullmatch(r"10\.\d{4,9}/\S+", doi):
             fail(f"Invalid DOI for {public_id}")
     tags = entry.get("semantic_tags")
     if not isinstance(tags, list) or not all(isinstance(t, str) and re.fullmatch(r"[a-z_]+:[a-z0-9_]+", t) for t in tags):
@@ -92,7 +92,7 @@ def row(entry: dict) -> str:
     public_id = entry["public_id"]
     colab = f"https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/notebooks/{public_id}.ipynb"
     paper = f"https://phenopaper.smartbreed-plant-phenotyping-platform.com/papers/{public_id}"
-    title = html.escape(entry["title"])
+    title = html.escape(entry["title"]).replace("\\", "\\\\").replace("[", "\\[").replace("]", "\\]")
     details = f"**[{title}]({paper})**<br>"
     if entry.get("doi"):
         details += f"[![DOI](https://img.shields.io/badge/DOI-paper-326CE5?style=flat-square)](https://doi.org/{quote(entry['doi'], safe='/')}) "

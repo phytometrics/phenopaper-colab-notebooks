@@ -40,6 +40,11 @@ class PublicationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "table-breaking"):
             publication.validate_entry(entry)
 
+    def test_title_cannot_break_markdown_link(self):
+        entry = dict(publication.load_manifest()["notebooks"][0])
+        entry["title"] = "A [linked] title"
+        self.assertIn("A \\[linked\\] title", publication.row(entry))
+
 
 if __name__ == "__main__":
     unittest.main()
