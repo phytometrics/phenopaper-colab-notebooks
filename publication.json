@@ -164,6 +164,24 @@
         "alt": "Litchi flowers with male/female point annotations",
         "caption": "Litchi flowers with male/female point annotations"
       }
+    },
+    {
+      "public_id": "p-53f95a3aee70cb34c44b841dc78ab66c",
+      "title": "Spatial analysis of cell patterning to aid genetic and phenotypic understanding of grass stomatal density: A case study in maize",
+      "doi": "10.1002/ppj2.70066",
+      "compute": "CPU",
+      "validated_on": "2026-09-29",
+      "demonstration": "Executed the pySPP SPP pipeline (ranked Manhattan NN, KDD heatmap, trait extraction, random-null OEScore) on the authors' shipped maize example; single genotype/replicate only — no SEM/QTL or population-level results.",
+      "semantic_tags": [
+        "crop:maize",
+        "organ:stomata",
+        "task:morphology",
+        "trait:stomatal_traits"
+      ],
+      "preview": {
+        "alt": "SPP kernel density heatmap (±150 µm, 1 µm² kernels) for maize genotype Z019E0047 with two in-file neighbor hotspots flanking the origin.",
+        "caption": "SPP kernel density heatmap (±150 µm, 1 µm² kernels) for maize genotype Z019E0047 with two in-file neighbor hotspots flanking the origin."
+      }
     }
   ]
 }
