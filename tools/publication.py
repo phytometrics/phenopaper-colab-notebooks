@@ -185,6 +185,12 @@ def ensure_github_access() -> None:
     status = subprocess.run(["gh", "auth", "status"], text=True, capture_output=True)
     if status.returncode:
         fail("GitHub CLI is not authenticated in this process environment")
+    access = subprocess.run(
+        ["gh", "api", "repos/phytometrics/phenopaper-colab-notebooks", "--jq", ".full_name"],
+        text=True, capture_output=True,
+    )
+    if access.returncode or access.stdout.strip() != "phytometrics/phenopaper-colab-notebooks":
+        fail("GitHub CLI credential cannot access the publication repository; check token lifetime and repository permissions")
     # This setting is local to the persistent checkout; the token stays in gh's store/environment.
     git("config", "--local", "credential.helper", "!gh auth git-credential")
 
