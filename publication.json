@@ -219,6 +219,27 @@
         "alt": "Sample UAV rice image with detected 4-keypoint plant polygons and tiller angles from vertical",
         "caption": "Sample UAV rice image with detected 4-keypoint plant polygons and tiller angles from vertical"
       }
+    },
+    {
+      "public_id": "p-fe5b7b0c511e3a6e2185295a6dd692ad",
+      "title": "OpenEar: an ultra-affordable, high-throughput, and accurate maize ear phenotyping system.",
+      "doi": "10.1186/s13007-026-01504-x",
+      "compute": "CPU",
+      "validated_on": "2026-09-30",
+      "demonstration": "Processes one maize turntable video into a cylindrical projection and six ear views, then segments kernels and calculates ten traits; no dataset benchmark or paper-level accuracy claim.",
+      "semantic_tags": [
+        "crop:maize",
+        "organ:inflorescence",
+        "organ:seed",
+        "task:classification",
+        "task:morphology",
+        "task:segmentation",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Kernel segmentation overlay and measured maize-ear traits from one author-provided video",
+        "caption": "Kernel segmentation overlay and measured maize-ear traits from one author-provided video"
+      }
     }
   ]
 }
