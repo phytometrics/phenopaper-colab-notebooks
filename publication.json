@@ -199,6 +199,26 @@
         "alt": "Predicted plant performance for rice under individual vs combined drought-heat stress (ANN output, model-scaled units)",
         "caption": "Predicted plant performance for rice under individual vs combined drought-heat stress (ANN output, model-scaled units)"
       }
+    },
+    {
+      "public_id": "p-e7f7198f538d43be30658816c05dc291",
+      "title": "Automatic measurement of rice tiller angle from unmanned aerial vehicle images",
+      "doi": "10.1002/ppj2.70089",
+      "compute": "CPU",
+      "validated_on": "2026-09-29",
+      "demonstration": "Inference with the authors' released YOLO11-pose keypoint model and angle computation on the public UAV image subset on CPU; training and paper accuracy metrics are not reproduced.",
+      "semantic_tags": [
+        "crop:rice",
+        "environment:aerial",
+        "organ:stem",
+        "task:morphology",
+        "task:pose",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Sample UAV rice image with detected 4-keypoint plant polygons and tiller angles from vertical",
+        "caption": "Sample UAV rice image with detected 4-keypoint plant polygons and tiller angles from vertical"
+      }
     }
   ]
 }
