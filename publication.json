@@ -221,27 +221,6 @@
       }
     },
     {
-      "public_id": "p-fe5b7b0c511e3a6e2185295a6dd692ad",
-      "title": "OpenEar: an ultra-affordable, high-throughput, and accurate maize ear phenotyping system.",
-      "doi": "10.1186/s13007-026-01504-x",
-      "compute": "CPU",
-      "validated_on": "2026-09-30",
-      "demonstration": "Processes one maize turntable video into a cylindrical projection and six ear views, then segments kernels and calculates ten traits; no dataset benchmark or paper-level accuracy claim.",
-      "semantic_tags": [
-        "crop:maize",
-        "organ:inflorescence",
-        "organ:seed",
-        "task:classification",
-        "task:morphology",
-        "task:segmentation",
-        "trait:reproductive_traits"
-      ],
-      "preview": {
-        "alt": "Kernel segmentation overlay and measured maize-ear traits from one author-provided video",
-        "caption": "Kernel segmentation overlay and measured maize-ear traits from one author-provided video"
-      }
-    },
-    {
       "public_id": "p-aab17249643718cb3456261950846f0c",
       "title": "Stress phenotyping of wild desert legume Acacia senegal with machine learning application and phytochemical characterization of bipinnate leaves.",
       "doi": "10.3389/fnut.2026.1816860",
@@ -262,6 +241,27 @@
       "preview": {
         "alt": "Preprocessed 224x224 healthy and unhealthy Acacia senegal leaf samples entering the model",
         "caption": "Preprocessed 224x224 healthy and unhealthy Acacia senegal leaf samples entering the model"
+      }
+    },
+    {
+      "public_id": "p-fe5b7b0c511e3a6e2185295a6dd692ad",
+      "title": "OpenEar: an ultra-affordable, high-throughput, and accurate maize ear phenotyping system.",
+      "doi": "10.1186/s13007-026-01504-x",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-09-30",
+      "demonstration": "Processes one author-provided maize video through frame correction, cylindrical projection, YOLO segmentation, ten trait calculations, and CNN quality control. Fresh CPU and T4 runs completed all 14 code cells with matching outputs; sample-scale demonstration only, not a dataset benchmark.",
+      "semantic_tags": [
+        "crop:maize",
+        "organ:inflorescence",
+        "organ:seed",
+        "task:classification",
+        "task:morphology",
+        "task:segmentation",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Kernel segmentation overlay from one author-provided maize video; one-sample demonstration.",
+        "caption": "Kernel segmentation overlay from one author-provided maize video; one-sample demonstration."
       }
     }
   ]
