@@ -42,7 +42,7 @@ python3 tools/publication.py publish \
   --public-id p-... \
   --run-dir /home/phyto/phenotyping-colab/runs/RUN_NAME \
   --executed-output /home/phyto/phenotyping-colab/runs/RUN_NAME/logs/final_output.ipynb \
-  --cli-log /home/phyto/phenotyping-colab/runs/RUN_NAME/logs/final.log \
+  --cli-log /home/phyto/phenotyping-colab/runs/RUN_NAME/logs/final_session.md \
   --compute CPU --validated-on YYYY-MM-DD \
   --demonstration "Short, evidence-backed scope and limitation." \
   --preview-index 0 --preview-caption "What the saved result shows"

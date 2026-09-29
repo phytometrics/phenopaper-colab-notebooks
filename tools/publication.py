@@ -274,6 +274,9 @@ def publish(args: argparse.Namespace) -> None:
             return
         git("commit", "-m", f"Publish validated Colab notebook {args.public_id}")
         git("push", "origin", "main")
+        remote_head = git("ls-remote", "origin", "refs/heads/main").split()[0]
+        if remote_head != git("rev-parse", "HEAD"):
+            fail("Push returned but origin/main does not match the local publication commit")
         print(f"Published: https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/notebooks/{args.public_id}.ipynb")
 
 
