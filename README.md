@@ -4,6 +4,12 @@ Execution-verified Google Colab demonstrations for selected plant phenotyping pa
 
 公開論文の解析手順を小さな例で実行できる Colab ノートブックです。
 
+![Colab runtime: Default (latest)](https://img.shields.io/badge/Colab%20runtime-Default%20(latest)-4285F4?style=flat-square&logo=googlecolab&logoColor=white) ![Validation dates: 2026-09-26 to 2026-09-27](https://img.shields.io/badge/validated-2026--09--26%E2%80%9327-6f42c1?style=flat-square)
+
+**Validation runtime:** All eight notebooks were run in Colab’s default/latest runtime on 2026-09-26–27; no past Runtime Version was selected. The archived runs record Python and library versions, but not Colab’s runtime image release ID (for example, `2026.07`), so that exact ID cannot be confirmed. See [Colab’s runtime-version FAQ](https://research.google.com/colaboratory/runtime-version-faq.html).
+
+**動作確認環境:** 8件とも2026年9月26〜27日にColabの既定（Default/latest）ランタイムで実行しました。過去のRuntime Versionは選択していません。 保存ログにはColabのイメージリリース番号（例: `2026.07`）が残っていないため、番号は特定できません。
+
 ## Notebooks
 
 Badges summarize the DOI, runtime, and Colab launch link. Previews link to Colab and come from saved notebook outputs, not paper figures; wide multi-panel results are cropped to a representative panel. Paper titles link to their individual PhenoPaper pages. Semantic tags are copied from the corresponding PhenoPaper record.
