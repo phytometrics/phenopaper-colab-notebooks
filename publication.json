@@ -182,6 +182,23 @@
         "alt": "SPP kernel density heatmap (±150 µm, 1 µm² kernels) for maize genotype Z019E0047 with two in-file neighbor hotspots flanking the origin.",
         "caption": "SPP kernel density heatmap (±150 µm, 1 µm² kernels) for maize genotype Z019E0047 with two in-file neighbor hotspots flanking the origin."
       }
+    },
+    {
+      "public_id": "p-f3519059a34a39dca007cc56c27c6112",
+      "title": "An artificial neural network-based deep learning model to predict combined stress impact and interaction in plants.",
+      "doi": "10.1002/aps3.70047",
+      "compute": "CPU",
+      "validated_on": "2026-09-29",
+      "demonstration": "Runs the authors' published trained TANH ANN inference on their 21-row example (classification agreement 21/21 and zero regression deviation vs the authors' shipped Real_output.csv) plus a rice Control/Drought/Heat/D+H scenario; training reproduction is out of scope because the repository does not ship the training data.",
+      "semantic_tags": [
+        "task:classification",
+        "trait:stress_response",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Predicted plant performance for rice under individual vs combined drought-heat stress (ANN output, model-scaled units)",
+        "caption": "Predicted plant performance for rice under individual vs combined drought-heat stress (ANN output, model-scaled units)"
+      }
     }
   ]
 }
