@@ -1,6 +1,6 @@
 # PhenoPaper Colab notebooks
 
-![Daily commit activity (JTC)](https://metrics.lecoq.io/phytometrics?template=classic&plugin_habits=1&plugin_habits_charts=1&plugin_habits_facts=0&config_timezone=Asia%2FTokyo)
+![Daily commit activity (JTC)](metrics.plugin.habits.svg)
 
 Execution-verified Google Colab demonstrations for selected plant phenotyping papers. Each notebook runs a small, documented part of a paper’s workflow; it does not establish paper-wide performance or reproduce every experiment.
 
