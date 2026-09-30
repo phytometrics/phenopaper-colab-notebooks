@@ -94,6 +94,7 @@ def row(entry: dict) -> str:
     paper = f"https://phenopaper.smartbreed-plant-phenotyping-platform.com/papers/{public_id}"
     title = html.escape(entry["title"]).replace("\\", "\\\\").replace("[", "\\[").replace("]", "\\]")
     details = f"**[{title}]({paper})**<br>"
+    details += f"[![Open in Colab](https://img.shields.io/badge/Open_in-Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)]({colab})"
     if entry.get("doi"):
         details += f"[![DOI](https://img.shields.io/badge/DOI-paper-326CE5?style=flat-square)](https://doi.org/{quote(entry['doi'], safe='/')}) "
     compute = entry["compute"]
@@ -101,7 +102,6 @@ def row(entry: dict) -> str:
     details += f"[![Compute: {compute}](https://img.shields.io/badge/compute-{badge[0]}-{badge[1]}?style=flat-square)]({colab}) "
     date_badge = entry["validated_on"].replace("-", "--")
     details += f"![Validated {entry['validated_on']}](https://img.shields.io/badge/validated-{date_badge}-6c757d?style=flat-square) "
-    details += f"[![Open in Colab](https://img.shields.io/badge/Open_in-Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)]({colab})"
     details += f"<br><sub><b>Demonstration:</b> {html.escape(entry['demonstration'])}</sub>"
     if entry["semantic_tags"]:
         details += f"<br><br><sub><b>Semantic tags:</b> {', '.join(entry['semantic_tags'])}</sub>"
