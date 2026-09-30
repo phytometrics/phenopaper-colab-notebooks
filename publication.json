@@ -283,6 +283,27 @@
         "alt": "Nuclei detected by the iRoCS SVM pipeline, colored by assigned root layer over the DAPI projection.",
         "caption": "Nuclei detected by the iRoCS SVM pipeline, colored by assigned root layer over the DAPI projection."
       }
+    },
+    {
+      "public_id": "p-15bcc9628ba4264fba5bb4e0db4759eb",
+      "title": "The shape of aroma: measuring and modeling citrus oil gland distribution",
+      "doi": "10.22541/au.166497077.71904444/v1",
+      "compute": "CPU",
+      "validated_on": "2026-09-30",
+      "demonstration": "One-sample reproduction of the citrus oil-gland ellipsoid fit, geocentric projection, k-NN, and five sphunif uniformity tests, validated against the author's outputs to ~1e-15; Directional/Bingham/vMF nulls omitted due to Rfast2 build time.",
+      "semantic_tags": [
+        "crop:citrus",
+        "modality:xray_ct",
+        "organ:fruit",
+        "organ:tissue",
+        "task:morphology",
+        "task:reconstruction",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Gland centers and best-fit ellipsoid for citrus sample WR05_CRC3605_18B-19-5_L03",
+        "caption": "Gland centers and best-fit ellipsoid for citrus sample WR05_CRC3605_18B-19-5_L03"
+      }
     }
   ]
 }
