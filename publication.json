@@ -263,6 +263,26 @@
         "alt": "Kernel segmentation overlay from one author-provided maize video; one-sample demonstration.",
         "caption": "Kernel segmentation overlay from one author-provided maize video; one-sample demonstration."
       }
+    },
+    {
+      "public_id": "p-90a1ec533d4072d493ab8988b00cbe88",
+      "title": "Light dynamically regulates growth rate and cellular organisation of the Arabidopsis root meristem.",
+      "doi": "10.1101/353987",
+      "compute": "CPU",
+      "validated_on": "2026-09-30",
+      "demonstration": "Ran the authors' iRoCS nuclei-analysis pipeline (SVM nucleus detection, epidermis labelling, iRoCS coordinate attachment, cell-layer assignment) end-to-end on the author sample DAPI root-tip stack and reproduced the paper's root-zonation model; partial demonstration on one DAPI-only sample, not the full atlas.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "modality:microscopy",
+        "organ:cell",
+        "organ:root",
+        "task:morphology",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Nuclei detected by the iRoCS SVM pipeline, colored by assigned root layer over the DAPI projection.",
+        "caption": "Nuclei detected by the iRoCS SVM pipeline, colored by assigned root layer over the DAPI projection."
+      }
     }
   ]
 }
