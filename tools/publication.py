@@ -94,7 +94,7 @@ def row(entry: dict) -> str:
     paper = f"https://phenopaper.smartbreed-plant-phenotyping-platform.com/papers/{public_id}"
     title = html.escape(entry["title"]).replace("\\", "\\\\").replace("[", "\\[").replace("]", "\\]")
     details = f"**[{title}]({paper})**<br>"
-    details += f"[![Open in Colab](https://img.shields.io/badge/Open_in-Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)]({colab})"
+    details += f"[![Open in Colab](https://img.shields.io/badge/Open_in-Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)]({colab}) "
     if entry.get("doi"):
         details += f"[![DOI](https://img.shields.io/badge/DOI-paper-326CE5?style=flat-square)](https://doi.org/{quote(entry['doi'], safe='/')}) "
     compute = entry["compute"]
