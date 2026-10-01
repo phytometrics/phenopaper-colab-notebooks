@@ -181,6 +181,13 @@ def check_notebook(path: Path) -> dict:
     code_cells = [c for c in notebook["cells"] if c.get("cell_type") == "code"]
     if not code_cells:
         fail("Notebook has no code cells")
+    for index, cell in enumerate(notebook["cells"]):
+        if cell.get("cell_type") == "code":
+            previous = notebook["cells"][index - 1] if index else None
+            source = previous.get("source", []) if previous else []
+            if isinstance(source, list): source = "".join(source)
+            if not previous or previous.get("cell_type") != "markdown" or not source.strip():
+                fail(f"Code cell {index + 1} has no explanatory Markdown predecessor")
     output_count = 0
     image_count = 0
     for cell in code_cells:
