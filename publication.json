@@ -547,6 +547,27 @@
         "alt": "NoC selection histograms across 20x5-fold outer CV: PRESS vs repeated-CV MSE vs single-CV MSE for SLA and Vmax",
         "caption": "NoC selection histograms across 20x5-fold outer CV: PRESS vs repeated-CV MSE vs single-CV MSE for SLA and Vmax"
       }
+    },
+    {
+      "public_id": "p-ead632fb0835e0a94127f2d9adc08be6",
+      "title": "Drought stress detection technique for wheat crop using machine learning",
+      "doi": "10.7717/peerj-cs.1268",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Reproduces the paper's nine Table-3-tuned water-stress classifiers on the authors' deposited 17,328x32 wheat CF feature matrix with 10-fold CV (RF test AUC 0.9705 vs published 0.9116, ranking reproduced), plus a one-image TV-L1+min-max pre-processing demo; feature re-derivation and Cfit k-means segmentation are out of scope.",
+      "semantic_tags": [
+        "crop:wheat",
+        "organ:whole_plant",
+        "task:classification",
+        "task:object_detection",
+        "task:segmentation",
+        "task:stress_disease",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "Out-of-fold ROC curves of the nine reproduced classifiers (RF highlighted), generated from the deposited wheat stress feature matrix.",
+        "caption": "Out-of-fold ROC curves of the nine reproduced classifiers (RF highlighted), generated from the deposited wheat stress feature matrix."
+      }
     }
   ]
 }
