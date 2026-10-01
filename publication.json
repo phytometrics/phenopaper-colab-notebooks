@@ -339,6 +339,22 @@
         "alt": "Scoring progress per trait over time on the authors' exemplar barley trial (GridScore Timeline logic reproduced)",
         "caption": "Scoring progress per trait over time on the authors' exemplar barley trial (GridScore Timeline logic reproduced)"
       }
+    },
+    {
+      "public_id": "p-315c655a33b6833a2eeaeabc3bd74d9f",
+      "title": "Active Learning with Gaussian Processes for High Throughput Phenotyping",
+      "doi": "10.48550/arxiv.1901.06803",
+      "compute": "CPU",
+      "validated_on": "2026-10-01",
+      "demonstration": "Executes the authors' MaxEnt informative-planning simulation (greedy entropy selection, budget-feasible path search, fused static/mobile Matern GP) on their synthetic 30x30 field for 6 rounds with per-round test MAE; the real sorghum data is request-only and the paper's 20-run benchmark is out of scope.",
+      "semantic_tags": [
+        "crop:sorghum",
+        "environment:field"
+      ],
+      "preview": {
+        "alt": "GP-predicted phenotype field after adaptive sampling (ground truth beside it)",
+        "caption": "GP-predicted phenotype field after adaptive sampling (ground truth beside it)"
+      }
     }
   ]
 }
