@@ -373,6 +373,23 @@
         "alt": "DiSCount output on the Zenodo test image series1_27-1.png: input (left) and detections (right) with Seed boxes in magenta and Radicle boxes in green",
         "caption": "DiSCount output on the Zenodo test image series1_27-1.png: input (left) and detections (right) with Seed boxes in magenta and Radicle boxes in green"
       }
+    },
+    {
+      "public_id": "p-777b4fc5fbfd2aec864a56327234d76b",
+      "title": "Kinetic parameter prediction using neural networks identifies limitations to C 4 photosynthesis",
+      "doi": "10.1111/nph.71280",
+      "compute": "CPU",
+      "validated_on": "2026-10-01",
+      "demonstration": "Runs the authors' pretrained C4TUNE network on the 68 measured 2022 maize A/CO2 and A/light curves to predict all 236 kinetic parameters; training, ODE re-simulation and the limitation analysis are not executed.",
+      "semantic_tags": [
+        "crop:maize",
+        "task:physiology",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "Measured 2022 A/CO2 (11 CO2 steps) and A/light (6 light steps) curves of the 68 MAGIC maize genotypes, genotype SSA_00001 highlighted",
+        "caption": "Measured 2022 A/CO2 (11 CO2 steps) and A/light (6 light steps) curves of the 68 MAGIC maize genotypes, genotype SSA_00001 highlighted"
+      }
     }
   ]
 }
