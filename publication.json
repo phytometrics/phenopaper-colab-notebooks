@@ -355,6 +355,24 @@
         "alt": "GP-predicted phenotype field after adaptive sampling (ground truth beside it)",
         "caption": "GP-predicted phenotype field after adaptive sampling (ground truth beside it)"
       }
+    },
+    {
+      "public_id": "p-970513dc011c14d8207ae3d9cf35b642",
+      "title": "DiSCount: computer vision for automated quantification of Striga seed germination.",
+      "doi": "10.1186/s13007-020-00602-8",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-01",
+      "demonstration": "The authors' DiSCount YOLOv3 inference pipeline (epoch-9000 weights, P=0.06, 608x608) run verbatim on one author-supplied Zenodo test image, counting 52 seeds and 1 radicle (1.92% germination) identically on CPU and T4; single-image scope does not verify the paper's dataset-level accuracy.",
+      "semantic_tags": [
+        "environment:laboratory",
+        "organ:seed",
+        "task:counting",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "DiSCount output on the Zenodo test image series1_27-1.png: input (left) and detections (right) with Seed boxes in magenta and Radicle boxes in green",
+        "caption": "DiSCount output on the Zenodo test image series1_27-1.png: input (left) and detections (right) with Seed boxes in magenta and Radicle boxes in green"
+      }
     }
   ]
 }
