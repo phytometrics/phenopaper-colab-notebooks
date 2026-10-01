@@ -304,6 +304,24 @@
         "alt": "Gland centers and best-fit ellipsoid for citrus sample WR05_CRC3605_18B-19-5_L03",
         "caption": "Gland centers and best-fit ellipsoid for citrus sample WR05_CRC3605_18B-19-5_L03"
       }
+    },
+    {
+      "public_id": "p-07c9da3eccfa6f320360b76303c5390b",
+      "title": "LeafGen: Structure-aware Leaf Image Generation for Annotation-free Leaf Instance Segmentation.",
+      "doi": "10.1016/j.plaphe.2025.100092",
+      "compute": "CPU",
+      "validated_on": "2026-10-01",
+      "demonstration": "Single-plant LeafGen pipeline (L-system Blender mask generation, GT instance masks, pretrained komatsuna pix2pix texturing) on CPU; dataset-scale generation, training, and downstream segmentation are out of scope.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "modality:rgb",
+        "organ:leaf",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "LeafGen synthetic komatsuna plant textured with the pretrained pix2pix leaf generator (left) beside its auto-generated ground-truth instance mask (right).",
+        "caption": "LeafGen synthetic komatsuna plant textured with the pretrained pix2pix leaf generator (left) beside its auto-generated ground-truth instance mask (right)."
+      }
     }
   ]
 }
