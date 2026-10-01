@@ -390,6 +390,25 @@
         "alt": "Measured 2022 A/CO2 (11 CO2 steps) and A/light (6 light steps) curves of the 68 MAGIC maize genotypes, genotype SSA_00001 highlighted",
         "caption": "Measured 2022 A/CO2 (11 CO2 steps) and A/light (6 light steps) curves of the 68 MAGIC maize genotypes, genotype SSA_00001 highlighted"
       }
+    },
+    {
+      "public_id": "p-40268bb6a161b9ba8f5788fd628251c1",
+      "title": "Registration of spatio-temporal point clouds of plants for phenotyping.",
+      "doi": "10.1371/journal.pone.0247243",
+      "compute": "CPU",
+      "validated_on": "2026-10-01",
+      "demonstration": "Runs the authors' HMM skeleton matching, iterative non-rigid registration, and point-cloud deformation on one maize scan pair with the pinned author code; our transforms match the shipped reference to 3.6e-5, but SVM segmentation/SOM skeleton extraction and dataset-level results are out of scope.",
+      "semantic_tags": [
+        "modality:point_cloud",
+        "organ:whole_plant",
+        "task:registration",
+        "task:skeletonization",
+        "task:time_series"
+      ],
+      "preview": {
+        "alt": "Deformed 2020-03-13 maize point cloud (blue) registered onto the 2020-03-14 target scan (red) after skeleton-based non-rigid registration",
+        "caption": "Deformed 2020-03-13 maize point cloud (blue) registered onto the 2020-03-14 target scan (red) after skeleton-based non-rigid registration"
+      }
     }
   ]
 }
