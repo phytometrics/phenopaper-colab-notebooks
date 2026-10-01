@@ -8,6 +8,10 @@ Execution-verified Google Colab demonstrations for selected plant phenotyping pa
 
 公開論文の解析手順を小さな例で実行できる Colab ノートブックです。
 
+## Unverified references
+
+[Unverified and incomplete notebooks](UNVERIFIED.md) — drafts and stopped attempts, with reasons. Excluded from the execution-verified count.
+
 ## Notebooks
 
 Each row starts with an Open in PhenoPaper badge, followed by DOI paper, Open in Colab, compute hardware, and validation date. Previews link to Colab and come from saved notebook outputs, not paper figures; wide multi-panel results are cropped to a representative panel. Paper titles are plain text; the Open in PhenoPaper badge links to each paper’s PhenoPaper page. Semantic tags are copied from the corresponding PhenoPaper record.

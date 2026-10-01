@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "notebooks": [
+    {
+      "public_id": "p-24b915f099a92f385eba9e54c3b86e2f",
+      "title": "Ground far-red sun-induced chlorophyll fluorescence and vegetation indices in the US Midwestern agroecosystems.",
+      "investigation_run_id": "p-24b915f099a92f385eba9e54c3b86e2f-20260930T232955Z-3816053",
+      "status": "blocked",
+      "reason": "The required ORNL DAAC CSV could not be downloaded anonymously (HTTPS 401 / S3 AccessDenied); NASA Earthdata Login is required on the tested routes. No manual login validation was performed. Acquisition failed and downstream analysis is unverified.",
+      "created_on": "2026-10-01",
+      "notebook_path": "notebooks/unverified/p-24b915f099a92f385eba9e54c3b86e2f.ipynb",
+      "notebook_sha256": "f3435ead475aafe9688c6cc0b3a9057b04098a48f31d6f4c11e962c763491d95",
+      "source_sha256": "9519a6966bffc6664a75e13055ab8bb91b67cd3fc4fb809bd020275024da18ea",
+      "code_cells": 8
+    }
+  ]
+}
