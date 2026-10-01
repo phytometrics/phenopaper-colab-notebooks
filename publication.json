@@ -448,6 +448,27 @@
         "alt": "Ducke canopy gap counts by size class, 2017 vs 2020 ALS flights",
         "caption": "Ducke canopy gap counts by size class, 2017 vs 2020 ALS flights"
       }
+    },
+    {
+      "public_id": "p-ba72ff372a5624ef5f676f99fee55860",
+      "title": "Simultaneous and Dynamic Super-Resolution Imaging of Two Proteins in Arabidopsis thaliana using dual-color sptPALM",
+      "doi": "10.1101/2024.03.13.584811",
+      "compute": "CPU",
+      "validated_on": "2026-10-01",
+      "demonstration": "Partial CPU reproduction of the paper's Figure 5C dual-color sptPALM diffusion statistics: per-cell log10(D) Gaussian peak fits (exact port of OneFlowTraX batchAnalysis.m) and Shapiro-Wilk/Kruskal-Wallis reanalysis of the authors' deposited batch results; the upstream MATLAB localization/tracking pipeline is out of scope.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "crop:tobacco",
+        "environment:laboratory",
+        "modality:microscopy",
+        "organ:cell",
+        "task:tracking",
+        "task:visualization"
+      ],
+      "preview": {
+        "alt": "Per-cell log10(D) distributions with Gaussian fits for the six Figure 5C conditions (BRI1 and RLP44, each PA-GFP/PATagRFP/mEos3.2)",
+        "caption": "Per-cell log10(D) distributions with Gaussian fits for the six Figure 5C conditions (BRI1 and RLP44, each PA-GFP/PATagRFP/mEos3.2)"
+      }
     }
   ]
 }
