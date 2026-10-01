@@ -24,6 +24,9 @@ from urllib.parse import quote
 REPO = Path(__file__).resolve().parents[1]
 MANIFEST = REPO / "publication.json"
 README = REPO / "README.md"
+SUMMARY = REPO / "assets" / "notebook-summary.svg"
+SUMMARY_START = "<!-- publication-summary:start -->"
+SUMMARY_END = "<!-- publication-summary:end -->"
 START = "<!-- publication-table:start -->"
 END = "<!-- publication-table:end -->"
 PUBLIC_ID = re.compile(r"p-[a-f0-9]{32}\Z")
@@ -116,10 +119,55 @@ def row(entry: dict) -> str:
     return f"| {details} | {image} |"
 
 
+def render_summary(data: dict) -> str:
+    count = len(data["notebooks"])
+    label_x = 48 + max(136, len(str(count)) * 64 + 28)
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-labelledby="title description">
+  <title id="title">PhenoPaper × Google Colab</title>
+  <desc id="description">{count} execution-verified notebooks</desc>
+  <defs>
+    <linearGradient id="forest" x2="1" y2="1">
+      <stop stop-color="#123d32"/>
+      <stop offset="1" stop-color="#09291f"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="240" rx="24" fill="url(#forest)"/>
+  <circle cx="911" cy="237" r="173" fill="#205240" opacity=".3"/>
+  <circle cx="965" cy="211" r="116" fill="none" stroke="#a5c6ad" stroke-opacity=".12"/>
+  <g transform="translate(48 39)" fill="none" stroke="#b5d9a9" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15 29V11M15 21C3 23 0 16 1 8c9-1 15 3 14 13ZM15 14C15 3 24-1 32 1c0 9-5 15-17 13Z"/>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="96" y="66" fill="#f1f6ed" font-size="29" font-weight="600">PhenoPaper <tspan fill="#95b6a5">×</tspan> Google Colab</text>
+    <text x="46" y="185" fill="#ffffff" font-size="104" font-weight="700" letter-spacing="-5">{count}</text>
+    <rect x="{label_x}" y="120" width="36" height="4" rx="2" fill="#f9ab00"/>
+    <text x="{label_x}" y="154" fill="#f1f6ed" font-size="21" font-weight="600" letter-spacing="2">EXECUTION-VERIFIED</text>
+    <text x="{label_x}" y="185" fill="#b2cbbc" font-size="19" font-weight="500" letter-spacing="3">NOTEBOOKS</text>
+  </g>
+  <g transform="translate(832 44)" fill="none" stroke-width="8" stroke-linecap="round">
+    <path d="M27 9a17 17 0 1 0 0 26" stroke="#f9ab00"/>
+    <path d="M47 9a17 17 0 1 1 0 26" stroke="#ffcc64"/>
+  </g>
+</svg>
+'''
+
+
+def write_summary(data: dict) -> None:
+    SUMMARY.parent.mkdir(parents=True, exist_ok=True)
+    SUMMARY.write_text(render_summary(data), encoding="utf-8")
+
+
 def render(data: dict) -> str:
     current = README.read_text(encoding="utf-8")
     if current.count(START) != 1 or current.count(END) != 1:
         fail("README must contain exactly one publication-table marker pair")
+    if current.count(SUMMARY_START) != 1 or current.count(SUMMARY_END) != 1:
+        fail("README must contain exactly one publication-summary marker pair")
+    count = len(data["notebooks"])
+    before_summary, summary_rest = current.split(SUMMARY_START, 1)
+    _, after_summary = summary_rest.split(SUMMARY_END, 1)
+    card = f'<a href="#notebooks"><img src="assets/notebook-summary.svg" width="960" alt="PhenoPaper × Google Colab — {count} execution-verified notebooks" /></a>'
+    current = before_summary + SUMMARY_START + "\n" + card + "\n" + SUMMARY_END + after_summary
     table = "\n".join(["| Paper and run details | Preview |", "| --- | --- |", *(row(e) for e in data["notebooks"])])
     before, rest = current.split(START, 1)
     _, after = rest.split(END, 1)
@@ -269,7 +317,8 @@ def publish(args: argparse.Namespace) -> None:
         MANIFEST.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         load_manifest()
         README.write_text(render(data), encoding="utf-8")
-        git("add", "--", str(target_notebook.relative_to(REPO)), str(target_preview.relative_to(REPO)), "publication.json", "README.md")
+        write_summary(data)
+        git("add", "--", str(target_notebook.relative_to(REPO)), str(target_preview.relative_to(REPO)), "publication.json", "README.md", str(SUMMARY.relative_to(REPO)))
         if not git("diff", "--cached", "--name-only"):
             print(f"Already up to date: {args.public_id}")
             return
@@ -284,7 +333,7 @@ def publish(args: argparse.Namespace) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
-    render_parser = sub.add_parser("render", help="Regenerate README from publication.json")
+    render_parser = sub.add_parser("render", help="Regenerate README and summary card from publication.json")
     render_parser.add_argument("--check", action="store_true")
     pub = sub.add_parser("publish", help="Publish an executed, validated notebook")
     pub.add_argument("--public-id", required=True)
@@ -304,9 +353,12 @@ def main() -> None:
         if args.check:
             if README.read_text(encoding="utf-8") != generated:
                 fail("README is out of sync with publication.json")
-            print(f"README matches {len(data['notebooks'])} manifest entries")
+            if not SUMMARY.is_file() or SUMMARY.read_text(encoding="utf-8") != render_summary(data):
+                fail("Summary card is out of sync with publication.json")
+            print(f"README and summary card match {len(data['notebooks'])} manifest entries")
         else:
             README.write_text(generated, encoding="utf-8")
+            write_summary(data)
             print(f"Rendered {len(data['notebooks'])} entries")
     else:
         publish(args)

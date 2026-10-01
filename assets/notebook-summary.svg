@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-labelledby="title description">
+  <title id="title">PhenoPaper × Google Colab</title>
+  <desc id="description">21 execution-verified notebooks</desc>
+  <defs>
+    <linearGradient id="forest" x2="1" y2="1">
+      <stop stop-color="#123d32"/>
+      <stop offset="1" stop-color="#09291f"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="240" rx="24" fill="url(#forest)"/>
+  <circle cx="911" cy="237" r="173" fill="#205240" opacity=".3"/>
+  <circle cx="965" cy="211" r="116" fill="none" stroke="#a5c6ad" stroke-opacity=".12"/>
+  <g transform="translate(48 39)" fill="none" stroke="#b5d9a9" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15 29V11M15 21C3 23 0 16 1 8c9-1 15 3 14 13ZM15 14C15 3 24-1 32 1c0 9-5 15-17 13Z"/>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="96" y="66" fill="#f1f6ed" font-size="29" font-weight="600">PhenoPaper <tspan fill="#95b6a5">×</tspan> Google Colab</text>
+    <text x="46" y="185" fill="#ffffff" font-size="104" font-weight="700" letter-spacing="-5">21</text>
+    <rect x="204" y="120" width="36" height="4" rx="2" fill="#f9ab00"/>
+    <text x="204" y="154" fill="#f1f6ed" font-size="21" font-weight="600" letter-spacing="2">EXECUTION-VERIFIED</text>
+    <text x="204" y="185" fill="#b2cbbc" font-size="19" font-weight="500" letter-spacing="3">NOTEBOOKS</text>
+  </g>
+  <g transform="translate(832 44)" fill="none" stroke-width="8" stroke-linecap="round">
+    <path d="M27 9a17 17 0 1 0 0 26" stroke="#f9ab00"/>
+    <path d="M47 9a17 17 0 1 1 0 26" stroke="#ffcc64"/>
+  </g>
+</svg>
