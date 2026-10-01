@@ -628,6 +628,26 @@
         "alt": "Distribution of WISER breeding values (v_hat, Trunk_increment) for the 30-genotype apple subset",
         "caption": "Distribution of WISER breeding values (v_hat, Trunk_increment) for the 30-genotype apple subset"
       }
+    },
+    {
+      "public_id": "p-947828c971e3a9b186c0001caf61e052",
+      "title": "Novel method for the quantification of rosette area from images of Arabidopsis seedlings grown on agar plates.",
+      "doi": "10.1002/aps3.11504",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Executed the authors' pinned plate-as-scale demo (plantcv 3.14.1) on their own test image p6.jpg in a fresh Colab CPU runtime; per-rosette raw pixel areas exactly match the demo's saved outputs. One image only - dataset-level validation and ANOVA/heritability analyses are not reproducible (data not public).",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "environment:laboratory",
+        "organ:leaf",
+        "task:morphology",
+        "task:segmentation",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Author demo image p6.jpg: agar plate with six Arabidopsis seedlings before analysis",
+        "caption": "Author demo image p6.jpg: agar plate with six Arabidopsis seedlings before analysis"
+      }
     }
   ]
 }
