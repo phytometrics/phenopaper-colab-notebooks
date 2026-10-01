@@ -505,6 +505,28 @@
         "alt": "Sample labeled 151x258 sub-images: stomata (top row) vs non-stoma (bottom row) from the pinned dataset revision",
         "caption": "Sample labeled 151x258 sub-images: stomata (top row) vs non-stoma (bottom row) from the pinned dataset revision"
       }
+    },
+    {
+      "public_id": "p-4ac8d64107193c40c6d43e0cc1923edd",
+      "title": "Plant cell wall enzymatic deconstruction: Bridging the gap between micro and nano scales.",
+      "doi": "10.1016/j.biortech.2024.131551",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Runs the pinned WallTrack pipeline (segmentation, registration, segmentation propagation, voxel deconstruction map) on the authors' two-stack demo dataset; partial demonstration only, with matplotlib rendering in place of the BioModLab GUI.",
+      "semantic_tags": [
+        "crop:poplar",
+        "modality:microscopy",
+        "organ:cell",
+        "organ:tissue",
+        "task:morphology",
+        "task:time_series",
+        "task:tracking",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Deconstruction map z-slices: orange = deconstructed wall voxels, green = wall remaining, over the pre-hydrolysis confocal stack.",
+        "caption": "Deconstruction map z-slices: orange = deconstructed wall voxels, green = wall remaining, over the pre-hydrolysis confocal stack."
+      }
     }
   ]
 }
