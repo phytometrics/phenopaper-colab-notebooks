@@ -93,7 +93,7 @@ def row(entry: dict) -> str:
     colab = f"https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/notebooks/{public_id}.ipynb"
     paper = f"https://phenopaper.smartbreed-plant-phenotyping-platform.com/papers/{public_id}"
     title = html.escape(entry["title"]).replace("\\", "\\\\").replace("[", "\\[").replace("]", "\\]")
-    details = f"**{title}**<br>"
+    details = f"**{title}**<br><br>"
     details += f"[![Open in PhenoPaper](https://img.shields.io/badge/Open_in-PhenoPaper-356859?style=flat-square)]({paper}) "
     if entry.get("doi"):
         details += f"[![DOI paper](https://img.shields.io/badge/DOI-paper-326CE5?style=flat-square)](https://doi.org/{quote(entry['doi'], safe='/')}) "
