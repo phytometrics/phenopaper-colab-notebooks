@@ -591,6 +591,25 @@
         "alt": "Observed GCC index series with the four fitted senescence curves for example plot RGB0001",
         "caption": "Observed GCC index series with the four fitted senescence curves for example plot RGB0001"
       }
+    },
+    {
+      "public_id": "p-cb702ccf3249852f0a993bad5fd464be",
+      "title": "Semi-automated high content analysis of pollen performance using tubetracker.",
+      "doi": "10.1007/s00497-025-00526-0",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Headless run of the authors' TubeTracker pipeline (segmentation, grain detection, segment-edge tips, tip-overlap germination, motpy elongation) on the bundled 129-frame sample_movie.avi; single-example demo with uncalibrated units, not the six-cultivar validation.",
+      "semantic_tags": [
+        "crop:tomato",
+        "organ:flower",
+        "task:morphology",
+        "task:time_series",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "TubeTracker track overlay on a sample-movie frame (author draw_results output)",
+        "caption": "TubeTracker track overlay on a sample-movie frame (author draw_results output)"
+      }
     }
   ]
 }
