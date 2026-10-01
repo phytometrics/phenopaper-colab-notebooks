@@ -41,4 +41,4 @@ See [PUBLISHING.md](PUBLISHING.md) for the notebook validation and publication p
 
 ## Sources and rights
 
-Each notebook identifies its paper, implementation, pinned revision, asset provenance, and known license or reuse limitations. Preview images are figures saved by the notebooks; check the upstream terms documented in each notebook before reusing code, weights, images, or paper content. No PhenoPaper API key is needed to run a published notebook.
+Each notebook identifies its paper, implementation, pinned revision, asset provenance, and known license or reuse limitations. Preview images are figures saved by the notebooks; check the upstream terms documented in each notebook before reusing code, weights, images, or paper content.
