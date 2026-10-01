@@ -529,6 +529,26 @@
       }
     },
     {
+      "public_id": "p-adf65bce9a7077b3dc0142a48ae262b1",
+      "title": "Generalizability of machine learning models for plant traits using hyperspectral reflectance data: The case of maize",
+      "doi": "10.1101/2025.07.03.661070",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Executed the authors' R NoC-selection comparison (PRESS vs repeated/single-CV MSE) for SLA and Vmax on 2021 genotype-averaged hyperspectral data under 20x5-fold CV; reduced 2-trait scope, not a full-paper reproduction.",
+      "semantic_tags": [
+        "crop:maize",
+        "environment:field",
+        "modality:fluorescence",
+        "modality:spectral",
+        "organ:whole_plant",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "NoC selection histograms across 20x5-fold outer CV: PRESS vs repeated-CV MSE vs single-CV MSE for SLA and Vmax",
+        "caption": "NoC selection histograms across 20x5-fold outer CV: PRESS vs repeated-CV MSE vs single-CV MSE for SLA and Vmax"
+      }
+    },
+    {
       "public_id": "p-ead632fb0835e0a94127f2d9adc08be6",
       "title": "Drought stress detection technique for wheat crop using machine learning",
       "doi": "10.7717/peerj-cs.1268",
@@ -547,26 +567,6 @@
       "preview": {
         "alt": "Out-of-fold ROC curves of the nine reproduced classifiers (RF highlighted), generated from the deposited wheat stress feature matrix.",
         "caption": "Out-of-fold ROC curves of the nine reproduced classifiers (RF highlighted), generated from the deposited wheat stress feature matrix."
-      }
-    },
-    {
-      "public_id": "p-adf65bce9a7077b3dc0142a48ae262b1",
-      "title": "Generalizability of machine learning models for plant traits using hyperspectral reflectance data: The case of maize",
-      "doi": "10.1101/2025.07.03.661070",
-      "compute": "CPU",
-      "validated_on": "2026-10-02",
-      "demonstration": "Executed the authors' R NoC-selection comparison (PRESS vs repeated/single-CV MSE) for SLA and Vmax on 2021 genotype-averaged hyperspectral data under 20x5-fold CV; reduced 2-trait scope, not a full-paper reproduction.",
-      "semantic_tags": [
-        "crop:maize",
-        "environment:field",
-        "modality:fluorescence",
-        "modality:spectral",
-        "organ:whole_plant",
-        "trait:photosynthesis"
-      ],
-      "preview": {
-        "alt": "NoC selection histograms across 20x5-fold outer CV: PRESS vs repeated-CV MSE vs single-CV MSE for SLA and Vmax",
-        "caption": "NoC selection histograms across 20x5-fold outer CV: PRESS vs repeated-CV MSE vs single-CV MSE for SLA and Vmax"
       }
     }
   ]
