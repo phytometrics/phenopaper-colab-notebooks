@@ -610,6 +610,24 @@
         "alt": "TubeTracker track overlay on a sample-movie frame (author draw_results output)",
         "caption": "TubeTracker track overlay on a sample-movie frame (author draw_results output)"
       }
+    },
+    {
+      "public_id": "p-f91efd84027a58fbe6f03a9730173049",
+      "title": "WISER: an innovative and efficient method for correcting population structure in omics-based selection and association studies",
+      "doi": "10.1101/2025.02.07.637171",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Executed the author's wiser R example (pinned commit d467f97): WISER breeding values for Trunk_increment on the embedded 30-genotype apple subset with default ZCA-cor whitening on Colab CPU; not a reproduction of the paper's Tables 1-2 benchmark.",
+      "semantic_tags": [
+        "crop:apple",
+        "crop:maize",
+        "crop:rice",
+        "modality:spectroscopy"
+      ],
+      "preview": {
+        "alt": "Distribution of WISER breeding values (v_hat, Trunk_increment) for the 30-genotype apple subset",
+        "caption": "Distribution of WISER breeding values (v_hat, Trunk_increment) for the 30-genotype apple subset"
+      }
     }
   ]
 }
