@@ -24,6 +24,18 @@
       "notebook_sha256": "3c8e48d250052ced78d57b10694fb21a87175266fb247e74bcdc717df9faad01",
       "source_sha256": "0acb3581b01ba6cf14f90bdd6117b597457dacd615137bd7a536306b07b1aa07",
       "code_cells": 8
+    },
+    {
+      "public_id": "p-6bfa2db1181f5e96758699694fbe8691",
+      "title": "Temporal resolution trumps spectral resolution in UAV-based monitoring of canopy senescence dynamics",
+      "investigation_run_id": "p-6bfa2db1181f5e96758699694fbe8691-20260930T143328Z-3726778",
+      "status": "failed",
+      "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-6bfa2db1181f5e96758699694fbe8691-20261001T195501Z/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\nFileNotFoundError: No such file or directory: '/content/dsm/out/fits.png'\n! permission requested: external_directory (/tmp/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
+      "created_on": "2026-10-02",
+      "notebook_path": "notebooks/unverified/p-6bfa2db1181f5e96758699694fbe8691.ipynb",
+      "notebook_sha256": "d1a3a2837546ed0426dd4c55ab8c45f4194ebaab7de15b9c026295f29ed3326c",
+      "source_sha256": "c7b3eba152d38195c4432f03f7ed62bb21b0992e7dfabba57c6da27dff49e4c8",
+      "code_cells": 9
     }
   ]
 }
