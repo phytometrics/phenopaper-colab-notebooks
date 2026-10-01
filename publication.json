@@ -568,6 +568,29 @@
         "alt": "Out-of-fold ROC curves of the nine reproduced classifiers (RF highlighted), generated from the deposited wheat stress feature matrix.",
         "caption": "Out-of-fold ROC curves of the nine reproduced classifiers (RF highlighted), generated from the deposited wheat stress feature matrix."
       }
+    },
+    {
+      "public_id": "p-6bfa2db1181f5e96758699694fbe8691",
+      "title": "Temporal resolution trumps spectral resolution in UAV-based monitoring of canopy senescence dynamics",
+      "doi": "10.1101/2023.12.13.571461",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Fit the author's four senescence models (linear, constrained/flexible Gompertz, penalized spline) to the provided RGB and SPC example index series and extract the seven key senescence time points; single small example subset, not full-paper comparison.",
+      "semantic_tags": [
+        "crop:wheat",
+        "environment:aerial",
+        "environment:field",
+        "modality:rgb",
+        "modality:spectral",
+        "organ:whole_plant",
+        "task:time_series",
+        "trait:pigment_color",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Observed GCC index series with the four fitted senescence curves for example plot RGB0001",
+        "caption": "Observed GCC index series with the four fitted senescence curves for example plot RGB0001"
+      }
     }
   ]
 }
