@@ -12,6 +12,18 @@
       "notebook_sha256": "f3435ead475aafe9688c6cc0b3a9057b04098a48f31d6f4c11e962c763491d95",
       "source_sha256": "9519a6966bffc6664a75e13055ab8bb91b67cd3fc4fb809bd020275024da18ea",
       "code_cells": 8
+    },
+    {
+      "public_id": "p-ba72ff372a5624ef5f676f99fee55860",
+      "title": "Simultaneous and Dynamic Super-Resolution Imaging of Two Proteins in Arabidopsis thaliana using dual-color sptPALM",
+      "investigation_run_id": "p-ba72ff372a5624ef5f676f99fee55860-20260930T232110Z-3810163",
+      "status": "failed",
+      "reason": "Prior attempt stopped during output capture: local DGX CLI images were mistaken for remote files, then external-directory access was auto-rejected. Separate cell logs exist, but a full executed notebook was not saved. A saved-run retry is in progress; this copy is an unverified reference snapshot.",
+      "created_on": "2026-10-01",
+      "notebook_path": "notebooks/unverified/p-ba72ff372a5624ef5f676f99fee55860.ipynb",
+      "notebook_sha256": "3c8e48d250052ced78d57b10694fb21a87175266fb247e74bcdc717df9faad01",
+      "source_sha256": "0acb3581b01ba6cf14f90bdd6117b597457dacd615137bd7a536306b07b1aa07",
+      "code_cells": 8
     }
   ]
 }
