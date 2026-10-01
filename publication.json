@@ -322,6 +322,23 @@
         "alt": "LeafGen synthetic komatsuna plant textured with the pretrained pix2pix leaf generator (left) beside its auto-generated ground-truth instance mask (right).",
         "caption": "LeafGen synthetic komatsuna plant textured with the pretrained pix2pix leaf generator (left) beside its auto-generated ground-truth instance mask (right)."
       }
+    },
+    {
+      "public_id": "p-324daa00b292d7c0cf2927ddbb2643c6",
+      "title": "GridScore: a tool for accurate, cross-platform phenotypic data collection and visualization.",
+      "doi": "10.1186/s12859-022-04755-2",
+      "compute": "CPU",
+      "validated_on": "2026-10-01",
+      "demonstration": "Headless ADAPTED PYTHON port of GridScore's pipeline (guided-walk collection, trait validation, timeline/heatmap/stats charts, tab-delimited export) executed on the authors' exemplar barley trial; GUI/device features and any quantitative paper claims are not covered.",
+      "semantic_tags": [
+        "environment:field",
+        "task:annotation_qc",
+        "task:visualization"
+      ],
+      "preview": {
+        "alt": "Scoring progress per trait over time on the authors' exemplar barley trial (GridScore Timeline logic reproduced)",
+        "caption": "Scoring progress per trait over time on the authors' exemplar barley trial (GridScore Timeline logic reproduced)"
+      }
     }
   ]
 }
