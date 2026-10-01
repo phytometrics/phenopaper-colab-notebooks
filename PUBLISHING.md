@@ -20,3 +20,7 @@ python3 tools/publication.py publish \
 ```
 
 Notebook publication does not approve a Paper, Tool, or Repository for the PhenoPaper Catalog; catalog records are reviewed separately.
+
+## Unverified references
+
+The operator authorizes automatic publication of partial/incomplete notebooks using `python3 tools/publish_unverified.py publish --public-id PUBLIC_ID --run-dir RUN_DIR --status failed --reason REASON`. This only reads notebook JSON and never executes scientific code. It clears outputs in the published draft, adds an opening notice, preserves the original DGX run, and updates `unverified.json` and `UNVERIFIED.md`. It does not update `publication.json` or the execution-verified SVG count. No manual login validation is performed. Papers with no authored code get an attempt reason in PhenoPaper but no placeholder notebook. Only a later fresh verified execution can promote a notebook into the verified manifest; historical draft files remain reference artifacts.
