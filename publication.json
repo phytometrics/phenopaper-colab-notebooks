@@ -409,6 +409,24 @@
         "alt": "Deformed 2020-03-13 maize point cloud (blue) registered onto the 2020-03-14 target scan (red) after skeleton-based non-rigid registration",
         "caption": "Deformed 2020-03-13 maize point cloud (blue) registered onto the 2020-03-14 target scan (red) after skeleton-based non-rigid registration"
       }
+    },
+    {
+      "public_id": "p-bab1929257e5e75c090a909e256e0bc1",
+      "title": "The Performances of Hyperspectral Sensors for Proximal Sensing of Nitrogen Levels in Wheat.",
+      "doi": "10.3390/s20164550",
+      "compute": "CPU",
+      "validated_on": "2026-10-01",
+      "demonstration": "PLSR prediction of wheat leaf nitrogen from the authors' released FieldSpec 3 spectra with 5-fold cross-validation (R2 0.86 on the 543-sample example); limited to one sensor, no raw-image segmentation.",
+      "semantic_tags": [
+        "crop:wheat",
+        "modality:spectral",
+        "organ:leaf",
+        "task:physiology"
+      ],
+      "preview": {
+        "alt": "Pre-processed leaf reflectance spectra (first 10 samples) for the three sensors",
+        "caption": "Pre-processed leaf reflectance spectra (first 10 samples) for the three sensors"
+      }
     }
   ]
 }
