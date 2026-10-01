@@ -485,6 +485,26 @@
         "alt": "Cumulative photo-beta thermal time per experiment, recomputed from the authors' FAIRified weather RDF; all five values match the paper exactly.",
         "caption": "Cumulative photo-beta thermal time per experiment, recomputed from the authors' FAIRified weather RDF; all five values match the paper exactly."
       }
+    },
+    {
+      "public_id": "p-aed3b833ea96ef7e087ce2bdfd29de23",
+      "title": "A stomata classification and detection system in microscope images of maize cultivars.",
+      "doi": "10.1371/journal.pone.0258679",
+      "compute": "CPU",
+      "validated_on": "2026-10-01",
+      "demonstration": "Executed the paper's best handcrafted classification branch: HOG features + the authors' SVM/MLP/AdaBoost configurations on all 2,000 labeled stomata sub-images under 5-fold cross-validation (mean accuracy 0.87-0.93); the DCNN-feature and sliding-window detection stages are not included.",
+      "semantic_tags": [
+        "crop:maize",
+        "modality:microscopy",
+        "organ:stomata",
+        "task:classification",
+        "task:object_detection",
+        "trait:stomatal_traits"
+      ],
+      "preview": {
+        "alt": "Sample labeled 151x258 sub-images: stomata (top row) vs non-stoma (bottom row) from the pinned dataset revision",
+        "caption": "Sample labeled 151x258 sub-images: stomata (top row) vs non-stoma (bottom row) from the pinned dataset revision"
+      }
     }
   ]
 }
