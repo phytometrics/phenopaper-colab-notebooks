@@ -469,6 +469,22 @@
         "alt": "Per-cell log10(D) distributions with Gaussian fits for the six Figure 5C conditions (BRI1 and RLP44, each PA-GFP/PATagRFP/mEos3.2)",
         "caption": "Per-cell log10(D) distributions with Gaussian fits for the six Figure 5C conditions (BRI1 and RLP44, each PA-GFP/PATagRFP/mEos3.2)"
       }
+    },
+    {
+      "public_id": "p-3a7d5de0efc679750c07a5a798c3ec04",
+      "title": "The benefits and struggles of FAIR data: the case of reusing plant phenotyping data",
+      "doi": "10.1038/s41597-023-02364-z",
+      "compute": "CPU",
+      "validated_on": "2026-10-01",
+      "demonstration": "Re-executes the paper's FAIR data-reuse scenario (101/292 genotype overlap, station matching, tuber-weight aggregation, PBTT) on the authors' pinned RDF via rdflib; Fuseki/FDP infrastructure itself is not reproduced.",
+      "semantic_tags": [
+        "crop:potato",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Cumulative photo-beta thermal time per experiment, recomputed from the authors' FAIRified weather RDF; all five values match the paper exactly.",
+        "caption": "Cumulative photo-beta thermal time per experiment, recomputed from the authors' FAIRified weather RDF; all five values match the paper exactly."
+      }
     }
   ]
 }
