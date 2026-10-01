@@ -277,9 +277,15 @@ def publish(args: argparse.Namespace) -> None:
         fail("Archived Colab CLI log is missing or empty")
     # Colab CLI can leave execution_count null, but its session log records each cell.
     code_count = len(notebook_sources(result["notebook"]))
-    execution_count = len(re.findall(r"^### Execution\b", args.cli_log.read_text(encoding="utf-8"), re.M))
-    if execution_count < code_count:
-        fail(f"CLI log has {execution_count} executions for {code_count} code cells")
+    cli_log = args.cli_log.read_text(encoding="utf-8")
+    session_execution_count = len(re.findall(r"^### Execution\b", cli_log, re.M))
+    cli_records = re.findall(r"^\[colab\] Executing cell (\d+)/(\d+) -", cli_log, re.M)
+    cli_complete = (
+        cli_records == [(str(index), str(code_count)) for index in range(1, code_count + 1)]
+        and re.search(r"^\[colab\] Saving notebook with outputs to ", cli_log, re.M) is not None
+    )
+    if session_execution_count < code_count and not cli_complete:
+        fail(f"CLI log has {session_execution_count} session executions and no complete ordered CLI record for {code_count} code cells")
     report = report_path.read_text(encoding="utf-8").lower()
     if any(term in report for term in ("code-only / not executed", "execution failed", "not validated")):
         fail("Report indicates notebook is unexecuted or failed")
