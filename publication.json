@@ -427,6 +427,27 @@
         "alt": "Pre-processed leaf reflectance spectra (first 10 samples) for the three sensors",
         "caption": "Pre-processed leaf reflectance spectra (first 10 samples) for the three sensors"
       }
+    },
+    {
+      "public_id": "p-d258d4f4dcf8eb5d33bc8f892b665c15",
+      "title": "Tracking canopy gap dynamics across four sites in the Brazilian Amazon",
+      "doi": "10.1101/2022.09.03.506473",
+      "compute": "CPU",
+      "validated_on": "2026-10-01",
+      "demonstration": "Executed the pinned author R logic (gap size-class tables, year chi-squared test, transition matrix) on the author-shipped Ducke gap/overlay layers for one Amazon site; other sites and the raw ALS pipeline are out of scope.",
+      "semantic_tags": [
+        "environment:aerial",
+        "environment:field",
+        "modality:point_cloud",
+        "organ:whole_plant",
+        "task:time_series",
+        "task:tracking",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Ducke canopy gap counts by size class, 2017 vs 2020 ALS flights",
+        "caption": "Ducke canopy gap counts by size class, 2017 vs 2020 ALS flights"
+      }
     }
   ]
 }
