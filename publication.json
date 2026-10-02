@@ -1174,6 +1174,29 @@
         "alt": "Soil point cloud (top view) and derived 5 mm soil height map H_S from the CAHST test dataset",
         "caption": "Soil point cloud (top view) and derived 5 mm soil height map H_S from the CAHST test dataset"
       }
+    },
+    {
+      "public_id": "p-b01140e333cf94b9e0d92f3df1020c27",
+      "title": "Improving Wheat Yield Prediction Using Secondary Traits and High-Density Phenotyping Under Heat-Stressed Environments.",
+      "doi": "10.3389/fpls.2021.633651",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Executed the authors' 2015-16-season R pipeline (per-trial BLUEs, stepwise/LASSO/ridge/ENet all-trait yield prediction with leave-one-trial-out CV); accuracy r=0.58 matched paper Table 2, other seasons and analyses excluded.",
+      "semantic_tags": [
+        "crop:wheat",
+        "environment:field",
+        "modality:spectral",
+        "modality:thermal",
+        "organ:whole_plant",
+        "task:yield_biomass",
+        "trait:pigment_color",
+        "trait:temperature",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Observed vs predicted grain-yield BLUEs (t/ha) per model and per-trial prediction accuracy, 2015-16 season",
+        "caption": "Observed vs predicted grain-yield BLUEs (t/ha) per model and per-trial prediction accuracy, 2015-16 season"
+      }
     }
   ]
 }
