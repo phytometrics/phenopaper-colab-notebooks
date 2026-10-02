@@ -976,6 +976,22 @@
         "alt": "Smallest RGB orthomosaic of TTADDA_NARO_2021 field F1 (2021-05-18), extracted via HTTP-range partial download and displayed with rasterio",
         "caption": "Smallest RGB orthomosaic of TTADDA_NARO_2021 field F1 (2021-05-18), extracted via HTTP-range partial download and displayed with rasterio"
       }
+    },
+    {
+      "public_id": "p-509b4366cbaad85fe7ae50a6209dbfdb",
+      "title": "The effectiveness of Large Language Models with RAG for auto-annotating phenotype descriptions",
+      "doi": "10.1101/2024.11.24.625102",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Recomputed the DCRAG embedding-similarity candidate selection and full gold scoring for the 100 TAIR phenotypes with the author's pinned R code; the live GPT-4o RAG step uses the author's pinned output and was not re-run.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "task:annotation_qc"
+      ],
+      "preview": {
+        "alt": "Per-descriptor recall and Lin semantic similarity of the DCRAG run on the 100 TAIR gold phenotypes, with means (recall 0.585, semsim 0.779).",
+        "caption": "Per-descriptor recall and Lin semantic similarity of the DCRAG run on the 100 TAIR gold phenotypes, with means (recall 0.585, semsim 0.779)."
+      }
     }
   ]
 }
