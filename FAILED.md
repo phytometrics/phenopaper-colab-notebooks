@@ -1,4 +1,4 @@
-# Failed reproduction attempts
+# Failed attempts without a saved notebook
 
 This page lists failed attempts that did not leave a saved draft notebook for reference. When a draft exists, the paper appears only on [Unverified and incomplete notebooks](UNVERIFIED.md), with its failure reason and Colab link. A failed attempt does not establish that the paper is irreproducible. Failure details are drawn from queue reports and captured tool diagnostics.
 
