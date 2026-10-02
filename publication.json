@@ -1150,6 +1150,30 @@
         "alt": "Bundled sample image A with every grain detected by the VGA macro: centroids (red +) and fitted-ellipse axes (yellow) from the actual result table.",
         "caption": "Bundled sample image A with every grain detected by the VGA macro: centroids (red +) and fitted-ellipse axes (yellow) from the actual result table."
       }
+    },
+    {
+      "public_id": "p-afc9a52f508f9e671d1286f1768c4f20",
+      "title": "Terrestrial 3D laser scanning to track the increase in canopy height of both monocot and dicot crop species under field conditions",
+      "doi": "10.1186/s13007-016-0109-7",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Python port of the CAHST TLS pipeline (stationing, 5 mm soil-relative height map, FA_ALLPOINTS P99 canopy heights) executed on the authors' reduced soybean test dataset; does not reproduce the paper's field-scale results.",
+      "semantic_tags": [
+        "crop:maize",
+        "crop:soybean",
+        "crop:wheat",
+        "environment:field",
+        "modality:point_cloud",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:time_series",
+        "trait:growth_development",
+        "trait:plant_height"
+      ],
+      "preview": {
+        "alt": "Soil point cloud (top view) and derived 5 mm soil height map H_S from the CAHST test dataset",
+        "caption": "Soil point cloud (top view) and derived 5 mm soil height map H_S from the CAHST test dataset"
+      }
     }
   ]
 }
