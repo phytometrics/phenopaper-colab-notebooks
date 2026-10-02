@@ -8,6 +8,10 @@ Execution-verified Google Colab demonstrations for selected plant phenotyping pa
 
 公開論文の解析手順を小さな例で実行できる Colab ノートブックです。
 
+## Failed attempts
+
+[Failed reproduction attempts](FAILED.md) — failed runs and recorded reasons.
+
 ## Unverified references
 
 [Unverified and incomplete notebooks](UNVERIFIED.md) — drafts and stopped attempts, with reasons. Excluded from the execution-verified count.
