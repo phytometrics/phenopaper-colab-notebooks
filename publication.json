@@ -1274,6 +1274,27 @@
         "alt": "Traffic-light DSS confusion matrix from the retrained classifier (test split of the released N-row matrix)",
         "caption": "Traffic-light DSS confusion matrix from the retrained classifier (test split of the released N-row matrix)"
       }
+    },
+    {
+      "public_id": "p-8eb90bb31facdd5a480f07afd1ce3074",
+      "title": "Fruit Mapping with Shape Completion for Autonomous Crop Monitoring",
+      "doi": "10.48550/arxiv.2203.15489",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Partial CPU demonstration of the paper's Section IV-C path: superellipsoid fitting of a single capsicum fruit point cloud with volume accuracy acc_V 0.99 (full cloud) and 0.91 (partial-view shape completion); the full Gazebo/ROS pipeline is not executed.",
+      "semantic_tags": [
+        "environment:greenhouse",
+        "modality:rgbd",
+        "organ:fruit",
+        "task:morphology",
+        "task:reconstruction",
+        "task:segmentation",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Fitted superellipsoid surface vs the observed partial point cloud and the completed unobserved surface (static 3D views)",
+        "caption": "Fitted superellipsoid surface vs the observed partial point cloud and the completed unobserved surface (static 3D views)"
+      }
     }
   ]
 }
