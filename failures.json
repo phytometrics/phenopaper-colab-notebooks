@@ -3,9 +3,9 @@
   "failures": [
     {
       "public_id": "p-ba13883f7b82cc94cac3648cf3a69310",
-      "title": "p-ba13883f7b82cc94cac3648cf3a69310",
+      "title": "The shape and volume of air, kernels, and cracks, in a nutshell",
       "investigation_run_id": null,
-      "run_id": null,
+      "run_id": "p-ba13883f7b82cc94cac3648cf3a69310-20261002T014045Z",
       "status": "failed",
       "reason": "The run planned a Colab-only probe because the PCA notebook is 2.13 MB and exceeds the DGX code-fetch cap. One fetch request used a .py path absent at the pinned commit (the source is a .ipynb); a diagnostic probe notebook was then authored, but Colab CPU allocation was refused. No completed reproduction notebook or queue-result was produced. The recorded OpenCode exit -10 does not identify which preceding issue terminated the overall run.",
       "created_on": "2026-10-02"
