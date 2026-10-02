@@ -41,6 +41,15 @@
       "created_on": "2026-10-02"
     },
     {
+      "public_id": "p-b72c635278b9713daa70b49a32b1a3b9",
+      "title": "p-b72c635278b9713daa70b49a32b1a3b9",
+      "investigation_run_id": null,
+      "run_id": null,
+      "status": "failed",
+      "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-b72c635278b9713daa70b49a32b1a3b9/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\nError: The user rejected permission to use this specific tool call.\n! permission requested: external_directory (/tmp/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
+      "created_on": "2026-10-02"
+    },
+    {
       "public_id": "p-88d0f80b038259b9b4b2891d38bdcb0a",
       "title": "KineticGP: a computational framework for genomic prediction of leaf photosynthesis traits",
       "investigation_run_id": "p-88d0f80b038259b9b4b2891d38bdcb0a-20260930T125150Z-3670543",
