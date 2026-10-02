@@ -751,6 +751,25 @@
         "alt": "Predicted vs observed leaf nitrogen (%) on the 18-sample validation set with jackknife confidence intervals (blue TRJ, red IND; open circles N2, filled N1)",
         "caption": "Predicted vs observed leaf nitrogen (%) on the 18-sample validation set with jackknife confidence intervals (blue TRJ, red IND; open circles N2, filled N1)"
       }
+    },
+    {
+      "public_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85",
+      "title": "Bayesian hierarchical models can infer interpretable predictions of leaf area index from heterogeneous datasets",
+      "doi": "10.1101/2021.09.20.461084",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Executes the paper's three Bayesian GLMs (naive pooled, hierarchical bias, full hierarchical) on the authors' pinned wheat spectra/LAI data with PyMC 5 NUTS, reproducing the PSIS-LOO model comparison and 80/20 test predictions; limited to the minimal reproduction (no per-field naive models or feature-importance figures) and a documented fixed split seed.",
+      "semantic_tags": [
+        "crop:wheat",
+        "modality:spectral",
+        "organ:leaf",
+        "task:morphology",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Test-set posterior predictive medians with 95% intervals versus observed LAI for the three models",
+        "caption": "Test-set posterior predictive medians with 95% intervals versus observed LAI for the three models"
+      }
     }
   ]
 }

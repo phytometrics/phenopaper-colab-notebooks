@@ -26,18 +26,6 @@
       "code_cells": 10
     },
     {
-      "public_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85",
-      "title": "Bayesian hierarchical models can infer interpretable predictions of leaf area index from heterogeneous datasets",
-      "investigation_run_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85-20260930T231512Z-3806436",
-      "status": "failed",
-      "reason": "Notebook authored and statically validated but not executed: Colab CPU allocation refused 12 times ('Allocation refused (precondition failed)') over ~75 min (02:02-03:14Z 2026-10-02). Environment/capacity failure, not missing material. Notebook preserved as UNVERIFIED reference at deliverables/p-dca1f8bc026f5ddf6d23c5a61e5d7b85.ipynb; log at logs/allocation_refusals.log.",
-      "created_on": "2026-10-02",
-      "notebook_path": "notebooks/unverified/p-dca1f8bc026f5ddf6d23c5a61e5d7b85.ipynb",
-      "notebook_sha256": "a46906bcc63ae520e00cc2c31135593ae177977f7ef79769d8488869747186f2",
-      "source_sha256": "63d28e8b3dfe5ff0fdbb45d8ea4057ef9071eed07f236cbb586c1d14b891c931",
-      "code_cells": 10
-    },
-    {
       "public_id": "p-0dfec3c680bb0e32ef572c9bcc0a1d2c",
       "title": "A Low-Cost Photogrammetry System for 3D Plant Modeling and Phenotyping",
       "investigation_run_id": "p-0dfec3c680bb0e32ef572c9bcc0a1d2c-20260930T141953Z-3718748",
