@@ -48,6 +48,18 @@
       "notebook_sha256": "6417a7980e4e5db92e435b4a6c7fa2881227bafc3287c5bd077094f23b90bca7",
       "source_sha256": "396ece09069a69c0515aafa7147fba1f6ac35dd1100f20ebd63651a73013a7f8",
       "code_cells": 10
+    },
+    {
+      "public_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85",
+      "title": "Bayesian hierarchical models can infer interpretable predictions of leaf area index from heterogeneous datasets",
+      "investigation_run_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85-20260930T231512Z-3806436",
+      "status": "failed",
+      "reason": "Notebook authored and statically validated but not executed: Colab CPU allocation refused 12 times ('Allocation refused (precondition failed)') over ~75 min (02:02-03:14Z 2026-10-02). Environment/capacity failure, not missing material. Notebook preserved as UNVERIFIED reference at deliverables/p-dca1f8bc026f5ddf6d23c5a61e5d7b85.ipynb; log at logs/allocation_refusals.log.",
+      "created_on": "2026-10-02",
+      "notebook_path": "notebooks/unverified/p-dca1f8bc026f5ddf6d23c5a61e5d7b85.ipynb",
+      "notebook_sha256": "a46906bcc63ae520e00cc2c31135593ae177977f7ef79769d8488869747186f2",
+      "source_sha256": "63d28e8b3dfe5ff0fdbb45d8ea4057ef9071eed07f236cbb586c1d14b891c931",
+      "code_cells": 10
     }
   ]
 }

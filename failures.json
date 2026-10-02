@@ -2,15 +2,6 @@
   "schema_version": 1,
   "failures": [
     {
-      "public_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85",
-      "title": "Bayesian hierarchical models can infer interpretable predictions of leaf area index from heterogeneous datasets",
-      "investigation_run_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85-20260930T231512Z-3806436",
-      "run_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85",
-      "status": "failed",
-      "reason": "The job ended without queue-result.json, so the host could not register its result. The latest captured diagnostic says OpenCode auto-rejected a request for access to the DGX host's external /tmp/* path. The record does not establish whether that was the originating cause.",
-      "created_on": "2026-10-02"
-    },
-    {
       "public_id": "p-cd3b7c4a2dfbfd18ed589bd4fe9fbe29",
       "title": "Mapping lignification dynamics with a combination of chemistry, data segmentation and ratiometric analysis",
       "investigation_run_id": "p-cd3b7c4a2dfbfd18ed589bd4fe9fbe29-20260930T130004Z-3675324",
@@ -73,6 +64,16 @@
       "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-f4b6761b68409a38fe07554143d7229c-20261002T020041Z/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\nError: No changes to apply: oldString and newString are identical.\n! permission requested: external_directory (/dev/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
       "created_on": "2026-10-02",
       "notebook_path": "notebooks/unverified/p-f4b6761b68409a38fe07554143d7229c.ipynb"
+    },
+    {
+      "public_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85",
+      "title": "Bayesian hierarchical models can infer interpretable predictions of leaf area index from heterogeneous datasets",
+      "investigation_run_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85-20260930T231512Z-3806436",
+      "run_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85-20261002T020043Z",
+      "status": "failed",
+      "reason": "Notebook authored and statically validated but not executed: Colab CPU allocation refused 12 times ('Allocation refused (precondition failed)') over ~75 min (02:02-03:14Z 2026-10-02). Environment/capacity failure, not missing material. Notebook preserved as UNVERIFIED reference at deliverables/p-dca1f8bc026f5ddf6d23c5a61e5d7b85.ipynb; log at logs/allocation_refusals.log.",
+      "created_on": "2026-10-02",
+      "notebook_path": "notebooks/unverified/p-dca1f8bc026f5ddf6d23c5a61e5d7b85.ipynb"
     }
   ]
 }
