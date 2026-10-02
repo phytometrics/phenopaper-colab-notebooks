@@ -59,6 +59,15 @@
       "created_on": "2026-10-02"
     },
     {
+      "public_id": "p-8d1e171ca872b7e24d1f590750fd419d",
+      "title": "Label3DMaize: toolkit for 3D point cloud data annotation of maize shoots.",
+      "investigation_run_id": "p-8d1e171ca872b7e24d1f590750fd419d-20260930T021458Z-3175058",
+      "run_id": "p-8d1e171ca872b7e24d1f590750fd419d-20261002T143950Z",
+      "status": "failed",
+      "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-8d1e171ca872b7e24d1f590750fd419d-20261002T143950Z/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xa2 in position 2344: invalid start byte\n! permission requested: external_directory (/home/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
+      "created_on": "2026-10-02"
+    },
+    {
       "public_id": "p-88d0f80b038259b9b4b2891d38bdcb0a",
       "title": "KineticGP: a computational framework for genomic prediction of leaf photosynthesis traits",
       "investigation_run_id": "p-88d0f80b038259b9b4b2891d38bdcb0a-20260930T125150Z-3670543",
