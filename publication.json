@@ -916,6 +916,26 @@
         "alt": "Areole area distribution per leaf (mm^2) computed in Colab from the compiled phenoVein sample data.",
         "caption": "Areole area distribution per leaf (mm^2) computed in Colab from the compiled phenoVein sample data."
       }
+    },
+    {
+      "public_id": "p-693a2a56425e76b3c425cc929186f228",
+      "title": "Topological properties accurately predict cell division events and organization of shoot apical meristem in Arabidopsis thaliana.",
+      "doi": "10.1242/dev.201024",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Executed the authors' WT SAM division-event pipeline (linear-kernel nested SVM, leave-one-plant-out CV, test plants P2/P9) on five precomputed feature sets in the pinned repository; test accuracies exactly match the authors' archived results and the paper's ~76%, at ~5.6 h CPU training time.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "organ:cell",
+        "organ:tissue",
+        "task:classification",
+        "trait:architecture",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Test accuracy per feature set: this notebook's run vs. the authors' archived results (identical), with the paper's ~76% reference line.",
+        "caption": "Test accuracy per feature set: this notebook's run vs. the authors' archived results (identical), with the paper's ~76% reference line."
+      }
     }
   ]
 }

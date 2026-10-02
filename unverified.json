@@ -24,18 +24,6 @@
       "notebook_sha256": "46e9bb3eb6a1f5975e454b02441709cb2a78abf41b4df18b63299a363d73ed0d",
       "source_sha256": "adf8fa35081254ec2cca57928cbb50763be8615bc2ce5f1adc89b2531876aacc",
       "code_cells": 10
-    },
-    {
-      "public_id": "p-693a2a56425e76b3c425cc929186f228",
-      "title": "Topological properties accurately predict cell division events and organization of shoot apical meristem in Arabidopsis thaliana.",
-      "investigation_run_id": "p-693a2a56425e76b3c425cc929186f228-20260930T145222Z-3737548",
-      "status": "failed",
-      "reason": "A CPU execution progressed through data preparation and began nested SVM cross-validation, but no completed output or queue-result was recorded. Earlier attempt failures included a notebook-builder guard that incorrectly rejected a function-local pandas import; that guard was corrected. The notebook is preserved as an unverified draft; execution verification remains incomplete.",
-      "created_on": "2026-10-02",
-      "notebook_path": "notebooks/unverified/p-693a2a56425e76b3c425cc929186f228.ipynb",
-      "notebook_sha256": "557ff5086021de69ba9b0eac090d1bc93e2df8521166424673f1f4c6bee9e1b1",
-      "source_sha256": "0d9e68a1b983a687c3ed631f321e606835edd0fc7c816887092c79dbfe1d9249",
-      "code_cells": 12
     }
   ]
 }
