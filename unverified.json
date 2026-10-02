@@ -14,18 +14,6 @@
       "code_cells": 8
     },
     {
-      "public_id": "p-f4b6761b68409a38fe07554143d7229c",
-      "title": "Assessing the hydromechanical control of plant growth.",
-      "investigation_run_id": "p-f4b6761b68409a38fe07554143d7229c-20260930T040812Z-3247314",
-      "status": "failed",
-      "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-f4b6761b68409a38fe07554143d7229c-20261002T020041Z/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\nError: No changes to apply: oldString and newString are identical.\n! permission requested: external_directory (/dev/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
-      "created_on": "2026-10-02",
-      "notebook_path": "notebooks/unverified/p-f4b6761b68409a38fe07554143d7229c.ipynb",
-      "notebook_sha256": "6417a7980e4e5db92e435b4a6c7fa2881227bafc3287c5bd077094f23b90bca7",
-      "source_sha256": "396ece09069a69c0515aafa7147fba1f6ac35dd1100f20ebd63651a73013a7f8",
-      "code_cells": 10
-    },
-    {
       "public_id": "p-cd3b7c4a2dfbfd18ed589bd4fe9fbe29",
       "title": "Mapping lignification dynamics with a combination of chemistry, data segmentation and ratiometric analysis",
       "investigation_run_id": "p-cd3b7c4a2dfbfd18ed589bd4fe9fbe29-20260930T130004Z-3675324",

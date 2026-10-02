@@ -879,6 +879,25 @@
         "alt": "Six-trait PCA (PC1 63.4% / PC2 22.0%) of standardized walnut image phenotypes, colored by Ease of Removal, Shell Strength and Kernel Weight Ratio; the EaseOfRemoval==7.5 accession is the cyan star",
         "caption": "Six-trait PCA (PC1 63.4% / PC2 22.0%) of standardized walnut image phenotypes, colored by Ease of Removal, Shell Strength and Kernel Weight Ratio; the EaseOfRemoval==7.5 accession is the cyan star"
       }
+    },
+    {
+      "public_id": "p-f4b6761b68409a38fe07554143d7229c",
+      "title": "Assessing the hydromechanical control of plant growth.",
+      "doi": "10.1098/rsif.2024.0008",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "CPU reanalysis of the authors' deposited fitted area-curve CSVs (Zenodo 10848423) for one control experiment: growth parameters Ts and G, osmotic-step hydromechanics E, Lapp and irreversibility, and per-gemma Spearman correlations; segmentation and treated conditions are not covered.",
+      "semantic_tags": [
+        "environment:growth_chamber",
+        "organ:whole_plant",
+        "task:physiology",
+        "trait:growth_development",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Measured area curves of six control gemmae with the authors' deposited delayed-exponential fit overlay (Ts and G per gemma)",
+        "caption": "Measured area curves of six control gemmae with the authors' deposited delayed-exponential fit overlay (Ts and G per gemma)"
+      }
     }
   ]
 }
