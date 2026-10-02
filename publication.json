@@ -1093,6 +1093,23 @@
         "alt": "Testing accuracy of the L1-penalized selection index versus number of active predictors (per fold) and optimal regularized SI versus canonical SI, computed with the authors' R code",
         "caption": "Testing accuracy of the L1-penalized selection index versus number of active predictors (per fold) and optimal regularized SI versus canonical SI, computed with the authors' R code"
       }
+    },
+    {
+      "public_id": "p-ac414e4ecdfa36a5ca662778c487df9d",
+      "title": "The photosynthetic pathways of plant species surveyed in Australia's national terrestrial monitoring network.",
+      "doi": "10.1038/s41597-021-00877-z",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Executes the paper's own Supplementary File 1 R tutorial (ausplotsR get_ausplots + species_table, merged with the paper-version v1 photosynthetic-pathway XLSX) for one deterministically chosen TERN plot (NSABBS0001), yielding 10.5% C3 cover and no C4 species; limited to a single plot and omits the optional environmental-raster step.",
+      "semantic_tags": [
+        "environment:field",
+        "task:classification",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "Bar chart of summed % C3 and C4 species cover computed from the point-intercept data of TERN plot NSABBS0001",
+        "caption": "Bar chart of summed % C3 and C4 species cover computed from the point-intercept data of TERN plot NSABBS0001"
+      }
     }
   ]
 }
