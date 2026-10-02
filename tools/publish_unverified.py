@@ -26,26 +26,32 @@ def load_failures():
 
 def render(data):
     verified_ids={e['public_id'] for e in verified.load_manifest()['notebooks']}
-    failed_ids={e['public_id'] for e in load_failures()['failures']}
     rows=[]
     for e in data['notebooks']:
-        if e['public_id'] in verified_ids or e['public_id'] in failed_ids or e.get('status')=='failed':continue
+        if e['public_id'] in verified_ids:continue
+        notebook_path=Path(e.get('notebook_path',''))
+        if notebook_path.is_absolute() or '..' in notebook_path.parts or not (REPO/notebook_path).is_file():continue
         notebook=e['notebook_path'];colab=f'https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/{notebook}'
         reason=html.escape(e['reason']).replace('|','&#124;').replace('\n','<br>')
         title=html.escape(e['title']).replace('|','&#124;')
         rows.append(f'| **{title}**<br>`{e["public_id"]}`<br>[Open in Colab]({colab}) · [Notebook]({notebook}) · [PhenoPaper](https://phenopaper.smartbreed-plant-phenotyping-platform.com/papers/{e["public_id"]}) | **Unverified / incomplete** · {e["created_on"]}<br>Attempt: {e["status"]}<br>{reason} |')
-    return '# Unverified and incomplete notebooks\n\nThese are reference drafts, not execution-verified reproductions. They may stop partway, require authenticated data access, contain implementation errors, or be incomplete. No manual login validation was performed. Read each notebook’s opening notice before running it. Saved draft outputs are cleared; failure evidence remains in the DGX run logs. A stopped attempt does not establish that the paper is impossible to reproduce.\n\n未検証・途中までのNotebookです。停止理由を添えて参考資料として公開しています。検証済み件数には含めません。\n\n[Execution-verified notebooks](README.md#notebooks)\n\n| Paper / notebook | Status and stopping reason |\n| --- | --- |\n'+'\n'.join(rows)+'\n'
+    return '# Unverified and incomplete notebooks\n\nThis page lists every saved draft notebook that has not passed full execution verification, including drafts from attempts that ended in failure. Use the recorded attempt status and stopping reason to interpret each artifact; a saved draft is not evidence of successful execution. Failed attempts with no saved notebook are listed on [Failed reproduction attempts](FAILED.md).\n\n未検証または途中までのNotebookを、実行結果にかかわらずここに集約しています。作成済みであることは実行成功を意味しません。Notebookを残せなかった失敗試行は[失敗一覧](FAILED.md)を参照してください。\n\n[Execution-verified notebooks](README.md#notebooks)\n\n| Paper / notebook | Status and stopping reason |\n| --- | --- |\n'+'\n'.join(rows)+'\n'
 
 
 def render_failed(failures, unverified):
     verified_ids={e['public_id'] for e in verified.load_manifest()['notebooks']}
-    # One page row per paper. Keep the newest failure details and enrich it with
-    # draft metadata from unverified.json when that same attempt produced a notebook.
+    draft_ids=set()
+    for item in unverified['notebooks']:
+        notebook_path=Path(item.get('notebook_path',''))
+        if not notebook_path.is_absolute() and '..' not in notebook_path.parts and (REPO/notebook_path).is_file():
+            draft_ids.add(item['public_id'])
+    # A paper with a saved draft belongs only on UNVERIFIED.md; FAILED.md is
+    # reserved for failed attempts that produced no public draft artifact.
     by_id={}
     candidates=[*failures['failures'], *(item for item in unverified['notebooks'] if item.get('status')=='failed')]
     candidates.sort(key=lambda e:e.get('created_on',''))
     for entry in candidates:
-        if entry['public_id'] in verified_ids:
+        if entry['public_id'] in verified_ids or entry['public_id'] in draft_ids:
             continue
         merged={**by_id.get(entry['public_id'],{}),**entry}
         if not merged.get('notebook_path'):
@@ -58,15 +64,11 @@ def render_failed(failures, unverified):
         public_id=e['public_id'];title=html.escape(e.get('title') or public_id).replace('|','&#124;')
         reason=html.escape(e.get('reason') or 'No detailed reason was recorded.').replace('|','&#124;').replace('\n','<br>')
         links=[f'[PhenoPaper](https://phenopaper.smartbreed-plant-phenotyping-platform.com/papers/{public_id})']
-        notebook=e.get('notebook_path')
-        if notebook:
-            colab=f'https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/{notebook}'
-            links.extend([f'[Open draft in Colab]({colab})',f'[Notebook]({notebook})'])
         attempt=e.get('investigation_run_id') or e.get('run_id') or 'run ID not recorded'
         rows.append(f'| **{title}**<br>`{public_id}`<br>{" · ".join(links)} | {e.get("created_on","date unknown")}<br>`{html.escape(str(attempt))}` | {reason} |')
     if not rows:
         rows=['| No failed attempts have been recorded yet. | — | — |']
-    return '# Failed reproduction attempts\n\nThis page records attempts that ended with `failed`, including the recorded stopping reason. A failure describes that attempt; it does not establish that the paper is irreproducible. Partial notebooks, when available, are linked separately and remain unverified. Failure reasons come from the queue report and recent tool diagnostics; consult the linked PhenoPaper record for current status.\n\n再現処理が失敗で終了した試行と、その時点で記録された理由です。論文の再現が不可能だと判定した一覧ではありません。途中までのNotebookがある場合は別途リンクし、未検証として扱います。\n\n[Execution-verified notebooks](README.md#notebooks) · [Unverified and incomplete notebooks](UNVERIFIED.md)\n\n| Paper / record | Failed date / investigation run | Recorded failure reason |\n| --- | --- | --- |\n'+'\n'.join(rows)+'\n'
+    return '# Failed reproduction attempts\n\nThis page lists failed attempts that did not leave a saved draft notebook for reference. When a draft exists, the paper appears only on [Unverified and incomplete notebooks](UNVERIFIED.md), with its failure reason and Colab link. A failed attempt does not establish that the paper is irreproducible. Failure details are drawn from queue reports and captured tool diagnostics.\n\nNotebook草稿を残せなかった失敗試行を掲載しています。草稿を保存できた論文は重複させず、未検証一覧に理由とColabリンクをまとめています。失敗は論文が再現不可能であることを意味しません。\n\n[Execution-verified notebooks](README.md#notebooks) · [Unverified and incomplete notebooks](UNVERIFIED.md)\n\n| Paper / record | Failed date / investigation run | Recorded failure reason |\n| --- | --- | --- |\n'+'\n'.join(rows)+'\n'
 
 
 def ensure_readme_link():
@@ -118,7 +120,10 @@ def main():
                 data=json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {'schema_version':1,'notebooks':[]}
                 save_pages(data)
                 commit=git_publish(['unverified.json','UNVERIFIED.md','FAILED.md','README.md'], 'Reconcile verified, unverified, and failed notebook lists')
-            print(json.dumps({'repository_commit':commit,'unverified':sum(1 for e in data['notebooks'] if e.get('status')!='failed'),'failed':len({e['public_id'] for e in load_failures()['failures']} | {e['public_id'] for e in data['notebooks'] if e.get('status')=='failed'})}))
+            verified_ids={e['public_id'] for e in verified.load_manifest()['notebooks']}
+            draft_ids={e['public_id'] for e in data['notebooks'] if not Path(e.get('notebook_path','')).is_absolute() and '..' not in Path(e.get('notebook_path','')).parts and (REPO/Path(e.get('notebook_path',''))).is_file()}
+            failed_ids=({e['public_id'] for e in load_failures()['failures']} | {e['public_id'] for e in data['notebooks'] if e.get('status')=='failed'})-verified_ids-draft_ids
+            print(json.dumps({'repository_commit':commit,'unverified':len(draft_ids-verified_ids),'failed':len(failed_ids)}))
             return
         data=json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {'schema_version':1,'notebooks':[]}
         save_pages(data);return
