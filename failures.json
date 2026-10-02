@@ -60,16 +60,6 @@
       "notebook_path": "notebooks/unverified/p-cd3b7c4a2dfbfd18ed589bd4fe9fbe29.ipynb"
     },
     {
-      "public_id": "p-28f074ee4e709feeb203a3120b869fa0",
-      "title": "Quantifying physiological trait variation with automated hyperspectral imaging in rice.",
-      "investigation_run_id": "p-28f074ee4e709feeb203a3120b869fa0-20260930T134827Z-3703157",
-      "run_id": "p-28f074ee4e709feeb203a3120b869fa0-20261002T031700Z",
-      "status": "failed",
-      "reason": "Colab execution reached the analysis but failed: the PURR /serve/1 URL returned a 27 KB HTML response instead of the expected ZIP (cell 3 assertion: not a ZIP archive); downstream R analysis and metrics then failed. The notebook is preserved as an unverified draft. A later attempt has not yet produced a successful run result.",
-      "created_on": "2026-10-02",
-      "notebook_path": "notebooks/unverified/p-28f074ee4e709feeb203a3120b869fa0.ipynb"
-    },
-    {
       "public_id": "p-693a2a56425e76b3c425cc929186f228",
       "title": "Topological properties accurately predict cell division events and organization of shoot apical meristem in Arabidopsis thaliana.",
       "investigation_run_id": "p-693a2a56425e76b3c425cc929186f228-20260930T145222Z-3737548",
@@ -78,6 +68,16 @@
       "reason": "A CPU execution progressed through data preparation and began nested SVM cross-validation, but no completed output or queue-result was recorded. Earlier attempt failures included a notebook-builder guard that incorrectly rejected a function-local pandas import; that guard was corrected. The notebook is preserved as an unverified draft; execution verification remains incomplete.",
       "created_on": "2026-10-02",
       "notebook_path": "notebooks/unverified/p-693a2a56425e76b3c425cc929186f228.ipynb"
+    },
+    {
+      "public_id": "p-28f074ee4e709feeb203a3120b869fa0",
+      "title": "Quantifying physiological trait variation with automated hyperspectral imaging in rice.",
+      "investigation_run_id": "p-28f074ee4e709feeb203a3120b869fa0-20260930T134827Z-3703157",
+      "run_id": "p-28f074ee4e709feeb203a3120b869fa0-20261002T031700Z",
+      "status": "failed",
+      "reason": "An initial Colab run failed because PURR /serve/1 returned an HTML show-contents page instead of the ZIP. The corrected ?render=archive route and nested bundle.zip download were validated in Colab; the author pipeline then reproduced the validation split metrics (R2=0.758, RMSEP=0.268). A fresh full-notebook execution is now running; this draft remains unverified until that run and publication checks finish.",
+      "created_on": "2026-10-02",
+      "notebook_path": "notebooks/unverified/p-28f074ee4e709feeb203a3120b869fa0.ipynb"
     }
   ]
 }

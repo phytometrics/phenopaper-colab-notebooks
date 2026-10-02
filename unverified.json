@@ -62,18 +62,6 @@
       "code_cells": 10
     },
     {
-      "public_id": "p-28f074ee4e709feeb203a3120b869fa0",
-      "title": "Quantifying physiological trait variation with automated hyperspectral imaging in rice.",
-      "investigation_run_id": "p-28f074ee4e709feeb203a3120b869fa0-20260930T134827Z-3703157",
-      "status": "failed",
-      "reason": "Colab execution reached the analysis but failed: the PURR /serve/1 URL returned a 27 KB HTML response instead of the expected ZIP (cell 3 assertion: not a ZIP archive); downstream R analysis and metrics then failed. The notebook is preserved as an unverified draft. A later attempt has not yet produced a successful run result.",
-      "created_on": "2026-10-02",
-      "notebook_path": "notebooks/unverified/p-28f074ee4e709feeb203a3120b869fa0.ipynb",
-      "notebook_sha256": "445653db5dd13abe4e68d9932b843b0a2e444865a9cd46dccb747f2f27de7ac2",
-      "source_sha256": "b17719709e8f8d49e5ea18e4e19fcc144d4a20b233afd877ea783630e6359638",
-      "code_cells": 6
-    },
-    {
       "public_id": "p-693a2a56425e76b3c425cc929186f228",
       "title": "Topological properties accurately predict cell division events and organization of shoot apical meristem in Arabidopsis thaliana.",
       "investigation_run_id": "p-693a2a56425e76b3c425cc929186f228-20260930T145222Z-3737548",
@@ -84,6 +72,18 @@
       "notebook_sha256": "557ff5086021de69ba9b0eac090d1bc93e2df8521166424673f1f4c6bee9e1b1",
       "source_sha256": "0d9e68a1b983a687c3ed631f321e606835edd0fc7c816887092c79dbfe1d9249",
       "code_cells": 12
+    },
+    {
+      "public_id": "p-28f074ee4e709feeb203a3120b869fa0",
+      "title": "Quantifying physiological trait variation with automated hyperspectral imaging in rice.",
+      "investigation_run_id": "p-28f074ee4e709feeb203a3120b869fa0-20260930T134827Z-3703157",
+      "status": "failed",
+      "reason": "An initial Colab run failed because PURR /serve/1 returned an HTML show-contents page instead of the ZIP. The corrected ?render=archive route and nested bundle.zip download were validated in Colab; the author pipeline then reproduced the validation split metrics (R2=0.758, RMSEP=0.268). A fresh full-notebook execution is now running; this draft remains unverified until that run and publication checks finish.",
+      "created_on": "2026-10-02",
+      "notebook_path": "notebooks/unverified/p-28f074ee4e709feeb203a3120b869fa0.ipynb",
+      "notebook_sha256": "3eb452580bf31c1bc8ca4f6c86adfd886a778a13e107da491873adf1066165a9",
+      "source_sha256": "1c36bf1fefea0a1c08fb92bc32d027278a3ea2d961d3bc029ea4ec313b083c64",
+      "code_cells": 6
     }
   ]
 }
