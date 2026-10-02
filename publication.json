@@ -1073,6 +1073,26 @@
         "alt": "Multiclass XGBoost confusion matrix and feature importance on the pinned CAM anatomy dataset",
         "caption": "Multiclass XGBoost confusion matrix and feature importance on the pinned CAM anatomy dataset"
       }
+    },
+    {
+      "public_id": "p-f147c5d63cc9dab480984041d56ee80b",
+      "title": "Genetic image-processing using regularized selection indices",
+      "doi": "10.1101/625251",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Executed the SFSI R-package vignette protocol for a single-environment single-time-point penalized selection index (L1-PSI, PC-SI) versus the canonical SI on the reduced CIMMYT wheatHTP hyperspectral dataset with the authors' 4 trial-level folds; small-sample REML variance components can make individual fold accuracies unstable.",
+      "semantic_tags": [
+        "crop:maize",
+        "crop:wheat",
+        "modality:spectral",
+        "organ:seed",
+        "task:yield_biomass",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Testing accuracy of the L1-penalized selection index versus number of active predictors (per fold) and optimal regularized SI versus canonical SI, computed with the authors' R code",
+        "caption": "Testing accuracy of the L1-penalized selection index versus number of active predictors (per fold) and optimal regularized SI versus canonical SI, computed with the authors' R code"
+      }
     }
   ]
 }
