@@ -26,18 +26,6 @@
       "code_cells": 10
     },
     {
-      "public_id": "p-0dfec3c680bb0e32ef572c9bcc0a1d2c",
-      "title": "A Low-Cost Photogrammetry System for 3D Plant Modeling and Phenotyping",
-      "investigation_run_id": "p-0dfec3c680bb0e32ef572c9bcc0a1d2c-20260930T141953Z-3718748",
-      "status": "failed",
-      "reason": "Notebook authored and statically validated but never executed: Colab CPU session allocation refused on 16 attempts over ~38 min (02:46-03:27 UTC 2026-10-02) because the account's four concurrent-session slots are held by other queue workers' sessions; this run must not stop them. All source materials (PhotoPi code @fab92caf, FRDR 10.20383/103.01255, arXiv 2504.16840v1 Sec VI) were verified accessible. Execution environment failure, not missing material.",
-      "created_on": "2026-10-02",
-      "notebook_path": "notebooks/unverified/p-0dfec3c680bb0e32ef572c9bcc0a1d2c.ipynb",
-      "notebook_sha256": "36eace1270eb089b34317598a511c7406a1677fafc28be7733eb00d9290f787e",
-      "source_sha256": "0605da48f47fb3edda2cedfc93a6c03acd2fc253d4d32ff4d22b75583f23cc35",
-      "code_cells": 9
-    },
-    {
       "public_id": "p-cd3b7c4a2dfbfd18ed589bd4fe9fbe29",
       "title": "Mapping lignification dynamics with a combination of chemistry, data segmentation and ratiometric analysis",
       "investigation_run_id": "p-cd3b7c4a2dfbfd18ed589bd4fe9fbe29-20260930T130004Z-3675324",
