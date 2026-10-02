@@ -1131,6 +1131,25 @@
         "alt": "Measured transmission spectrum (circles) versus the gradient-descent-fitted theoretical curve, in the -10 dB fitting band and extrapolated over the full measured range.",
         "caption": "Measured transmission spectrum (circles) versus the gradient-descent-fitted theoretical curve, in the -10 dB fitting band and extrapolated over the full measured range."
       }
+    },
+    {
+      "public_id": "p-28d396da9e31523d20a4971b9e1cf174",
+      "title": "Wheat grain width: a clue for re-exploring visual indicators of grain weight.",
+      "doi": "10.1186/s13007-022-00891-1",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Executed the authors' Visual Grain Analyzer ImageJ macro headlessly in Colab on the three bundled non-touching sample grain images (89/166/408 grains), applying the paper's linear MGW prediction formulas; dataset-level statistics and watershed separation of touching grains are not reproduced.",
+      "semantic_tags": [
+        "crop:wheat",
+        "environment:field",
+        "organ:seed",
+        "task:morphology",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Bundled sample image A with every grain detected by the VGA macro: centroids (red +) and fitted-ellipse axes (yellow) from the actual result table.",
+        "caption": "Bundled sample image A with every grain detected by the VGA macro: centroids (red +) and fitted-ellipse axes (yellow) from the actual result table."
+      }
     }
   ]
 }
