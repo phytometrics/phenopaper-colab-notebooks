@@ -836,6 +836,26 @@
         "alt": "Measured vs Q-scaled modeled ED-sampler concentrations for the 12 45-min windows (log-log) beside the authors' deposited ground-level relative-concentration field for Aug 2 14:00-14:45 with sampler positions.",
         "caption": "Measured vs Q-scaled modeled ED-sampler concentrations for the 12 45-min windows (log-log) beside the authors' deposited ground-level relative-concentration field for Aug 2 14:00-14:45 with sampler positions."
       }
+    },
+    {
+      "public_id": "p-2edda3dbdfadc4a75a267219d46751a5",
+      "title": "Root phenotypic detection of different vigorous maize seeds based on Progressive Corrosion Joining algorithm of image.",
+      "doi": "10.1186/s13007-019-0518-5",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "PCJ repair (thinning, progressive-corrosion splitting, adapted matching d1-d4, quintic joining) of one maize root image with pixel-unit RTN/RTL/RTW/REL; AI-assisted C++ port, single sample only.",
+      "semantic_tags": [
+        "crop:maize",
+        "environment:laboratory",
+        "organ:root",
+        "task:morphology",
+        "task:reconstruction",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "Binarized input, PCJ-repaired result, and author-processed reference for sample test_1",
+        "caption": "Binarized input, PCJ-repaired result, and author-processed reference for sample test_1"
+      }
     }
   ]
 }
