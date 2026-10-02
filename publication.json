@@ -1197,6 +1197,21 @@
         "alt": "Observed vs predicted grain-yield BLUEs (t/ha) per model and per-trial prediction accuracy, 2015-16 season",
         "caption": "Observed vs predicted grain-yield BLUEs (t/ha) per model and per-trial prediction accuracy, 2015-16 season"
       }
+    },
+    {
+      "public_id": "p-6969756b25d1518115626bfbea413f28",
+      "title": "Breedbase: a digital ecosystem for modern plant breeding.",
+      "doi": "10.1093/g3journal/jkac078",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Live read-only BrAPI v2 queries against the flagship Cassavabase Breedbase instance (serverinfo, programs incl. IITA, trials/germplasm totals, cyanide trait variables) compared with the paper's 2022 figures; local Docker deployment is documented but not executed.",
+      "semantic_tags": [
+        "task:visualization"
+      ],
+      "preview": {
+        "alt": "Live Cassavabase BrAPI v2 totalCount values (germplasm, trials) observed from the validated Colab CPU run",
+        "caption": "Live Cassavabase BrAPI v2 totalCount values (germplasm, trials) observed from the validated Colab CPU run"
+      }
     }
   ]
 }
