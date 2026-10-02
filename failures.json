@@ -47,15 +47,6 @@
       "created_on": "2026-10-02"
     },
     {
-      "public_id": "p-0dfec3c680bb0e32ef572c9bcc0a1d2c",
-      "title": "A Low-Cost Photogrammetry System for 3D Plant Modeling and Phenotyping",
-      "investigation_run_id": "p-0dfec3c680bb0e32ef572c9bcc0a1d2c-20260930T141953Z-3718748",
-      "run_id": "p-0dfec3c680bb0e32ef572c9bcc0a1d2c-20261002T223000Z",
-      "status": "failed",
-      "reason": "The job ended without queue-result.json, so the host could not register its result. Captured diagnostics include KeyError: slice(None, 5, None) and an auto-rejected request for access to the DGX host's external /tmp/* path. The record does not establish which error caused the missing result.",
-      "created_on": "2026-10-02"
-    },
-    {
       "public_id": "p-f4b6761b68409a38fe07554143d7229c",
       "title": "Assessing the hydromechanical control of plant growth.",
       "investigation_run_id": "p-f4b6761b68409a38fe07554143d7229c-20260930T040812Z-3247314",
@@ -74,6 +65,16 @@
       "reason": "Notebook authored and statically validated but not executed: Colab CPU allocation refused 12 times ('Allocation refused (precondition failed)') over ~75 min (02:02-03:14Z 2026-10-02). Environment/capacity failure, not missing material. Notebook preserved as UNVERIFIED reference at deliverables/p-dca1f8bc026f5ddf6d23c5a61e5d7b85.ipynb; log at logs/allocation_refusals.log.",
       "created_on": "2026-10-02",
       "notebook_path": "notebooks/unverified/p-dca1f8bc026f5ddf6d23c5a61e5d7b85.ipynb"
+    },
+    {
+      "public_id": "p-0dfec3c680bb0e32ef572c9bcc0a1d2c",
+      "title": "A Low-Cost Photogrammetry System for 3D Plant Modeling and Phenotyping",
+      "investigation_run_id": "p-0dfec3c680bb0e32ef572c9bcc0a1d2c-20260930T141953Z-3718748",
+      "run_id": "p-0dfec3c680bb0e32ef572c9bcc0a1d2c-20261002T023735Z",
+      "status": "failed",
+      "reason": "Notebook authored and statically validated but never executed: Colab CPU session allocation refused on 16 attempts over ~38 min (02:46-03:27 UTC 2026-10-02) because the account's four concurrent-session slots are held by other queue workers' sessions; this run must not stop them. All source materials (PhotoPi code @fab92caf, FRDR 10.20383/103.01255, arXiv 2504.16840v1 Sec VI) were verified accessible. Execution environment failure, not missing material.",
+      "created_on": "2026-10-02",
+      "notebook_path": "notebooks/unverified/p-0dfec3c680bb0e32ef572c9bcc0a1d2c.ipynb"
     }
   ]
 }
