@@ -955,6 +955,27 @@
         "alt": "Confusion matrix of the D2nd-IVISSA-SPA-SVM maturity classifier on the 375-seed test set",
         "caption": "Confusion matrix of the D2nd-IVISSA-SPA-SVM maturity classifier on the 375-seed test set"
       }
+    },
+    {
+      "public_id": "p-cbd73b97da4fe4be89e0a1d69b29641a",
+      "title": "TTADDA-UAV: A multi-season RGB and multispectral UAV dataset of potato fields collected in Japan and the Netherlands.",
+      "doi": "10.1016/j.dib.2025.112004",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Loads the TTADDA_NARO_2021 study with the authors' verbatim MIAPPE loader after a ranged partial download of the 12.6 GB 4TU zip, showing observation units, variables, sensors, ground-truth yield, on-site weather and RGB orthomosaic links; only one small (46 MB) orthomosaic is displayed and ground-coverage comparisons are not executed.",
+      "semantic_tags": [
+        "crop:potato",
+        "environment:aerial",
+        "environment:field",
+        "modality:rgb",
+        "modality:spectral",
+        "organ:whole_plant",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Smallest RGB orthomosaic of TTADDA_NARO_2021 field F1 (2021-05-18), extracted via HTTP-range partial download and displayed with rasterio",
+        "caption": "Smallest RGB orthomosaic of TTADDA_NARO_2021 field F1 (2021-05-18), extracted via HTTP-range partial download and displayed with rasterio"
+      }
     }
   ]
 }
