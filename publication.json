@@ -898,6 +898,24 @@
         "alt": "Measured area curves of six control gemmae with the authors' deposited delayed-exponential fit overlay (Ts and G per gemma)",
         "caption": "Measured area curves of six control gemmae with the authors' deposited delayed-exponential fit overlay (Ts and G per gemma)"
       }
+    },
+    {
+      "public_id": "p-668b86393f43ba07d15d1b0dd8036b29",
+      "title": "Variation within laminae: Semi-automated methods for quantifying leaf venation using phenoVein.",
+      "doi": "10.1002/aps3.11346",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Ran the authors' CompilePhenoVein.R (pinned commit c753f9f) verbatim on their three sample phenoVein CSVs in Colab, reproducing their sample compiled output exactly; the phenoVein segmentation GUI and statistical models remain out of scope.",
+      "semantic_tags": [
+        "modality:microscopy",
+        "organ:leaf",
+        "task:morphology",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Areole area distribution per leaf (mm^2) computed in Colab from the compiled phenoVein sample data.",
+        "caption": "Areole area distribution per leaf (mm^2) computed in Colab from the compiled phenoVein sample data."
+      }
     }
   ]
 }
