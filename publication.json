@@ -713,6 +713,25 @@
         "alt": "Measured vs TLS-estimated tree height and DBH for 35 Guyana trees (1:1 line and fit)",
         "caption": "Measured vs TLS-estimated tree height and DBH for 35 Guyana trees (1:1 line and fit)"
       }
+    },
+    {
+      "public_id": "p-42f16e56ceb965c67ac889ef03b65eee",
+      "title": "A high resolution model of the grapevine leaf morphospace predicts synthetic leaves",
+      "doi": "10.1101/2024.03.08.584086",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Partial reproduction: GPA/Procrustes, PCA eigenleaves, genotype and developmental LDA confusion matrices, and 500 synthetic leaves from the author's bundled trace dataset, run on a fresh Colab CPU runtime; LDA accuracies are resubstitution values only.",
+      "semantic_tags": [
+        "crop:grapevine",
+        "organ:leaf",
+        "task:classification",
+        "task:morphology",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "GPA mean leaf colored by vein identity (proximal/distal lobes and midvein), reproduced with the author's code",
+        "caption": "GPA mean leaf colored by vein identity (proximal/distal lobes and midvein), reproduced with the author's code"
+      }
     }
   ]
 }
