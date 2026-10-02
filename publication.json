@@ -815,6 +815,27 @@
         "alt": "rrBLUP-predicted vs actual values for the best-predicted kinetic parameter in fold out1/inner1 (n=23 genotypes)",
         "caption": "rrBLUP-predicted vs actual values for the best-predicted kinetic parameter in fold out1/inner1 (n=23 genotypes)"
       }
+    },
+    {
+      "public_id": "p-31395b78d4983e57d3118f644d1e91b1",
+      "title": "From field to sky: measurement and modeling of transgenic switchgrass pollen dispersal in the atmosphere",
+      "doi": "10.1007/s10661-026-15632-3",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Executed the authors' model-measurement fusion for all 12 Aug 2022 45-min windows (pooled R=0.47 vs paper's 0.19; the authors' private measured-concentration file is not in the deposit) and an AI-assisted NumPy re-run of the Lagrangian stochastic model for Aug 2 14:00-14:45 that matches the deposited field (Spearman 0.99).",
+      "semantic_tags": [
+        "crop:maize",
+        "environment:aerial",
+        "environment:field",
+        "modality:fluorescence",
+        "organ:whole_plant",
+        "task:tracking",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Measured vs Q-scaled modeled ED-sampler concentrations for the 12 45-min windows (log-log) beside the authors' deposited ground-level relative-concentration field for Aug 2 14:00-14:45 with sampler positions.",
+        "caption": "Measured vs Q-scaled modeled ED-sampler concentrations for the 12 45-min windows (log-log) beside the authors' deposited ground-level relative-concentration field for Aug 2 14:00-14:45 with sampler positions."
+      }
     }
   ]
 }
