@@ -856,6 +856,29 @@
         "alt": "Binarized input, PCJ-repaired result, and author-processed reference for sample test_1",
         "caption": "Binarized input, PCJ-repaired result, and author-processed reference for sample test_1"
       }
+    },
+    {
+      "public_id": "p-ba13883f7b82cc94cac3648cf3a69310",
+      "title": "The shape and volume of air, kernels, and cracks, in a nutshell",
+      "doi": "10.1101/2023.09.26.559651",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Re-executes the authors' trait-prediction pipeline (Spearman screening, Lasso alpha sweep and 1-6 variable stepwise best-subset selection for Ease of Removal, Shell Strength and Kernel Weight Ratio) and the six-trait PCA on accession-averaged walnut phenotypes; single CPU run of the statistical subsections, CT-volume and topology analyses out of scope.",
+      "semantic_tags": [
+        "modality:xray_ct",
+        "organ:fruit",
+        "organ:seed",
+        "organ:tissue",
+        "task:morphology",
+        "task:reconstruction",
+        "trait:architecture",
+        "trait:biomass",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Six-trait PCA (PC1 63.4% / PC2 22.0%) of standardized walnut image phenotypes, colored by Ease of Removal, Shell Strength and Kernel Weight Ratio; the EaseOfRemoval==7.5 accession is the cyan star",
+        "caption": "Six-trait PCA (PC1 63.4% / PC2 22.0%) of standardized walnut image phenotypes, colored by Ease of Removal, Shell Strength and Kernel Weight Ratio; the EaseOfRemoval==7.5 accession is the cyan star"
+      }
     }
   ]
 }
