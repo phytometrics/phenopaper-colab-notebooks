@@ -123,6 +123,16 @@
       "reason": "Notebook authored and statically validated but never executed: Colab CPU session allocation refused on 16 attempts over ~38 min (02:46-03:27 UTC 2026-10-02) because the account's four concurrent-session slots are held by other queue workers' sessions; this run must not stop them. All source materials (PhotoPi code @fab92caf, FRDR 10.20383/103.01255, arXiv 2504.16840v1 Sec VI) were verified accessible. Execution environment failure, not missing material.",
       "created_on": "2026-10-02",
       "notebook_path": "notebooks/unverified/p-0dfec3c680bb0e32ef572c9bcc0a1d2c.ipynb"
+    },
+    {
+      "public_id": "p-b437e7e7fb6660387c003ea80e5bd235",
+      "title": "3dCAP-Wheat: An Open-Source Comprehensive Computational Framework Precisely Quantifies Wheat Foliar, Nonfoliar, and Canopy Photosynthesis.",
+      "investigation_run_id": "p-b437e7e7fb6660387c003ea80e5bd235-20260930T014823Z-3159857",
+      "run_id": "p-b437e7e7fb6660387c003ea80e5bd235-20261002T172449Z-2011",
+      "status": "failed",
+      "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-b437e7e7fb6660387c003ea80e5bd235-20261002T172449Z-2011/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\nSyntaxError: unterminated f-string literal (detected at line 10)\n! permission requested: external_directory (/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
+      "created_on": "2026-10-03",
+      "notebook_path": "notebooks/unverified/p-b437e7e7fb6660387c003ea80e5bd235.ipynb"
     }
   ]
 }
