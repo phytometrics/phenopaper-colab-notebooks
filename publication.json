@@ -992,6 +992,26 @@
         "alt": "Per-descriptor recall and Lin semantic similarity of the DCRAG run on the 100 TAIR gold phenotypes, with means (recall 0.585, semsim 0.779).",
         "caption": "Per-descriptor recall and Lin semantic similarity of the DCRAG run on the 100 TAIR gold phenotypes, with means (recall 0.585, semsim 0.779)."
       }
+    },
+    {
+      "public_id": "p-f9a489165e744785cca13c6c4acd9895",
+      "title": "OpenAlea.HydroRoot: A modelling framework to dissect, predict and phenotype branched root hydraulic architecture",
+      "doi": "10.64898/2026.03.19.713025",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "HydroRoot Tutorial 1 on Colab: hydrostatic water-flux solve of a measured Arabidopsis root (RSML) with the author's pinned code; single-example CPU run, 3D viewer replaced by matplotlib rendering.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "crop:maize",
+        "crop:millet",
+        "organ:root",
+        "task:physiology",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "Total water uptake Jv vs radial (k) and axial (K) conductivity scaling, computed in-notebook from actual solves (paper Figs 4-5 style sensitivity)",
+        "caption": "Total water uptake Jv vs radial (k) and axial (K) conductivity scaling, computed in-notebook from actual solves (paper Figs 4-5 style sensitivity)"
+      }
     }
   ]
 }
