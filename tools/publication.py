@@ -333,7 +333,7 @@ def publish(args: argparse.Namespace) -> None:
         write_summary(data)
         if (REPO / "unverified.json").exists():
             subprocess.run([sys.executable, str(REPO / "tools/publish_unverified.py"), "render"], check=True)
-            git("add", "--", "UNVERIFIED.md", "FAILED.md")
+            git("add", "--", "unverified.json", "UNVERIFIED.md", "FAILED.md", "README.md")
         git("add", "--", str(target_notebook.relative_to(REPO)), str(target_preview.relative_to(REPO)), "publication.json", "README.md", str(SUMMARY.relative_to(REPO)))
         if not git("diff", "--cached", "--name-only"):
             print(f"Already up to date: {args.public_id}")

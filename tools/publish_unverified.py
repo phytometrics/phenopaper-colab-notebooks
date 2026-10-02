@@ -26,9 +26,10 @@ def load_failures():
 
 def render(data):
     verified_ids={e['public_id'] for e in verified.load_manifest()['notebooks']}
+    failed_ids={e['public_id'] for e in load_failures()['failures']}
     rows=[]
     for e in data['notebooks']:
-        if e['public_id'] in verified_ids:continue
+        if e['public_id'] in verified_ids or e['public_id'] in failed_ids or e.get('status')=='failed':continue
         notebook=e['notebook_path'];colab=f'https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/{notebook}'
         reason=html.escape(e['reason']).replace('|','&#124;').replace('\n','<br>')
         title=html.escape(e['title']).replace('|','&#124;')
@@ -38,15 +39,19 @@ def render(data):
 
 def render_failed(failures, unverified):
     verified_ids={e['public_id'] for e in verified.load_manifest()['notebooks']}
-    entries=[]
-    seen=set()
-    for e in [*failures['failures'], *(item for item in unverified['notebooks'] if item.get('status')=='failed')]:
-        if e['public_id'] in verified_ids:
+    # One page row per paper. Keep the newest failure details and enrich it with
+    # draft metadata from unverified.json when that same attempt produced a notebook.
+    by_id={}
+    candidates=[*failures['failures'], *(item for item in unverified['notebooks'] if item.get('status')=='failed')]
+    candidates.sort(key=lambda e:e.get('created_on',''))
+    for entry in candidates:
+        if entry['public_id'] in verified_ids:
             continue
-        key=(e['public_id'],e.get('investigation_run_id') or e.get('run_id') or '')
-        if key in seen:
-            continue
-        seen.add(key);entries.append(e)
+        merged={**by_id.get(entry['public_id'],{}),**entry}
+        if not merged.get('notebook_path'):
+            merged.pop('notebook_path',None)
+        by_id[entry['public_id']]=merged
+    entries=list(by_id.values())
     entries.sort(key=lambda e:(e.get('created_on',''),e['public_id']),reverse=True)
     rows=[]
     for e in entries:
@@ -77,6 +82,11 @@ def ensure_readme_link():
 
 
 def save_pages(unverified):
+    verified_ids={e['public_id'] for e in verified.load_manifest()['notebooks']}
+    # Verified records leave the draft manifest; failures remain in failures.json
+    # and failed papers are rendered only on FAILED.md.
+    unverified['notebooks']=[e for e in unverified['notebooks'] if e['public_id'] not in verified_ids]
+    MANIFEST.write_text(json.dumps(unverified,ensure_ascii=False,indent=2)+'\n')
     PAGE.write_text(render(unverified))
     FAILED_PAGE.write_text(render_failed(load_failures(),unverified))
     ensure_readme_link()
@@ -95,11 +105,21 @@ def git_publish(files, message):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__);sub=p.add_subparsers(dest='command',required=True)
-    sub.add_parser('render');pub=sub.add_parser('publish')
+    sub.add_parser('render');sub.add_parser('reconcile');pub=sub.add_parser('publish')
     pub.add_argument('--public-id',required=True);pub.add_argument('--run-dir',type=Path)
     pub.add_argument('--title');pub.add_argument('--reason',required=True);pub.add_argument('--status',choices=['failed','blocked'],required=True)
     a=p.parse_args()
-    if a.command=='render':
+    if a.command in {'render','reconcile'}:
+        if a.command=='reconcile':
+            with (REPO/'.git/publication.lock').open('a') as handle:
+                fcntl.flock(handle,fcntl.LOCK_EX)
+                if verified.git('status','--porcelain'):raise ValueError('Publication checkout has uncommitted changes')
+                verified.ensure_github_access();verified.git('pull','--ff-only','origin','main')
+                data=json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {'schema_version':1,'notebooks':[]}
+                save_pages(data)
+                commit=git_publish(['unverified.json','UNVERIFIED.md','FAILED.md','README.md'], 'Reconcile verified, unverified, and failed notebook lists')
+            print(json.dumps({'repository_commit':commit,'unverified':sum(1 for e in data['notebooks'] if e.get('status')!='failed'),'failed':len(render_failed(load_failures(),data).splitlines())}))
+            return
         data=json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {'schema_version':1,'notebooks':[]}
         save_pages(data);return
     if not verified.PUBLIC_ID.fullmatch(a.public_id):raise ValueError('Invalid paper identifier')
