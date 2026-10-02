@@ -692,6 +692,27 @@
         "alt": "LOOCV predicted vs observed values for the four headline models (elemental PCs to belowground biomass and spectral PCs to total root length, raw and biomass-adjusted), one point per withheld plant.",
         "caption": "LOOCV predicted vs observed values for the four headline models (elemental PCs to belowground biomass and spectral PCs to total root length, raw and biomass-adjusted), one point per withheld plant."
       }
+    },
+    {
+      "public_id": "p-5c9a697cdcf4a609715f4223aa5e9646",
+      "title": "Improving the 3D representation of plant architecture and parameterization efficiency of functional–structural tree models using terrestrial LiDAR data",
+      "doi": "10.1093/aobpla/plae071",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Recomputes TLS-derived branch angles, internode lengths and height/DBH accuracy from the archived 4TU QSM outputs using the authors' scripts; GroIMP model runs and the Table 4 branch-angle/internode RMSE are not reproduced.",
+      "semantic_tags": [
+        "modality:point_cloud",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:object_detection",
+        "task:reconstruction",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Measured vs TLS-estimated tree height and DBH for 35 Guyana trees (1:1 line and fit)",
+        "caption": "Measured vs TLS-estimated tree height and DBH for 35 Guyana trees (1:1 line and fit)"
+      }
     }
   ]
 }
