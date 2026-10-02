@@ -1034,6 +1034,24 @@
         "alt": "Two-way Manhattan plot of PIP for PH/SD/SDM under B+/B- managements, generated with the authors' app.R code",
         "caption": "Two-way Manhattan plot of PIP for PH/SD/SDM under B+/B- managements, generated with the authors' app.R code"
       }
+    },
+    {
+      "public_id": "p-da8b7fe022c16f028b094d90ebcf00fd",
+      "title": "Remote sensing and machine learning for yield prediction of lowland paddy crops",
+      "doi": "10.12688/f1000research.110608.1",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Retrains the authors' Gradient Boosting Regressor on the paper's published 267-row dataset (best scenario: 2000 estimators, lr 0.001, depth 4) and recomputes test RMSE against the reported 9766.72 quintal; ENVI remote-sensing preprocessing and the 90-scenario sweep are out of scope.",
+      "semantic_tags": [
+        "crop:rice",
+        "environment:field",
+        "organ:whole_plant",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Observed vs predicted paddy yield (quintal) on the 53-row test split, authors' scatter plot with recomputed RMSE",
+        "caption": "Observed vs predicted paddy yield (quintal) on the 53-row test split, authors' scatter plot with recomputed RMSE"
+      }
     }
   ]
 }
