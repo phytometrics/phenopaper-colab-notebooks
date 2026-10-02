@@ -7,7 +7,7 @@
       "investigation_run_id": null,
       "run_id": null,
       "status": "failed",
-      "reason": "OpenCode/reporter exited with status -10; see run log p-ba13883f7b82cc94cac3648cf3a69310-20261002T014012Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nfetch_github_code.py: error: Selected source exceeds 500 KB; inspect a narrower source file\nfetch_github_code.py: error: Selected path is not present at pinned commit f8047379b290df451005d8733b31f8947f09c8f3: jupyter/11_data_reduction.py\nError: NotFound: FileSystem.access (/home/phyto/phenotyping-colab/runs/p-ba13883f7b82cc94cac3648cf3a69310-20261002T014045Z/probe)",
+      "reason": "The run planned a Colab-only probe because the PCA notebook is 2.13 MB and exceeds the DGX code-fetch cap. One fetch request used a .py path absent at the pinned commit (the source is a .ipynb); a diagnostic probe notebook was then authored, but Colab CPU allocation was refused. No completed reproduction notebook or queue-result was produced. The recorded OpenCode exit -10 does not identify which preceding issue terminated the overall run.",
       "created_on": "2026-10-02"
     },
     {
@@ -16,7 +16,7 @@
       "investigation_run_id": "p-88d0f80b038259b9b4b2891d38bdcb0a-20260930T125150Z-3670543",
       "run_id": "p-88d0f80b038259b9b4b2891d38bdcb0a-20261002T233401Z-4094580",
       "status": "failed",
-      "reason": "The job ended without queue-result.json, so the host could not register its result. The latest captured diagnostic says OpenCode auto-rejected a request for access to the DGX host's external /tmp/* path. The record does not establish whether that was the originating cause.",
+      "reason": "The recorded run fetched the paper metadata, then stopped before authoring a notebook or launching Colab. OpenCode auto-rejected a command that accessed the DGX host's external /tmp directory; the run log does not establish that this rejection was the sole cause. No notebook or queue-result was produced, so this is an authoring/runner interruption, not a failed scientific execution.",
       "created_on": "2026-10-02"
     },
     {
