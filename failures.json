@@ -20,15 +20,6 @@
       "created_on": "2026-10-02"
     },
     {
-      "public_id": "p-693a2a56425e76b3c425cc929186f228",
-      "title": "Topological properties accurately predict cell division events and organization of shoot apical meristem in Arabidopsis thaliana.",
-      "investigation_run_id": "p-693a2a56425e76b3c425cc929186f228-20260930T145222Z-3737548",
-      "run_id": "p-693a2a56425e76b3c425cc929186f228-20261002T182345Z",
-      "status": "failed",
-      "reason": "The job ended without queue-result.json, so the host could not register its result. Captured diagnostics include BrokenPipeError and an auto-rejected request for access to the DGX host's external /tmp/* path. The saved run also included a notebook hash. The record does not establish which error caused the missing result.",
-      "created_on": "2026-10-02"
-    },
-    {
       "public_id": "p-f4b6761b68409a38fe07554143d7229c",
       "title": "Assessing the hydromechanical control of plant growth.",
       "investigation_run_id": "p-f4b6761b68409a38fe07554143d7229c-20260930T040812Z-3247314",
@@ -77,6 +68,16 @@
       "reason": "Colab execution reached the analysis but failed: the PURR /serve/1 URL returned a 27 KB HTML response instead of the expected ZIP (cell 3 assertion: not a ZIP archive); downstream R analysis and metrics then failed. The notebook is preserved as an unverified draft. A later attempt has not yet produced a successful run result.",
       "created_on": "2026-10-02",
       "notebook_path": "notebooks/unverified/p-28f074ee4e709feeb203a3120b869fa0.ipynb"
+    },
+    {
+      "public_id": "p-693a2a56425e76b3c425cc929186f228",
+      "title": "Topological properties accurately predict cell division events and organization of shoot apical meristem in Arabidopsis thaliana.",
+      "investigation_run_id": "p-693a2a56425e76b3c425cc929186f228-20260930T145222Z-3737548",
+      "run_id": "p-693a2a56425e76b3c425cc929186f228-20261002T020440Z",
+      "status": "failed",
+      "reason": "A CPU execution progressed through data preparation and began nested SVM cross-validation, but no completed output or queue-result was recorded. Earlier attempt failures included a notebook-builder guard that incorrectly rejected a function-local pandas import; that guard was corrected. The notebook is preserved as an unverified draft; execution verification remains incomplete.",
+      "created_on": "2026-10-02",
+      "notebook_path": "notebooks/unverified/p-693a2a56425e76b3c425cc929186f228.ipynb"
     }
   ]
 }
