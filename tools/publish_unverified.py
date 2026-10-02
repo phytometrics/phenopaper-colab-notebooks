@@ -26,9 +26,11 @@ def load_failures():
 
 def render(data):
     verified_ids={e['public_id'] for e in verified.load_manifest()['notebooks']}
+    partial_path=REPO/'partially_verified.json'
+    partial_ids={e['public_id'] for e in json.loads(partial_path.read_text()).get('notebooks',[])} if partial_path.exists() else set()
     rows=[]
     for e in data['notebooks']:
-        if e['public_id'] in verified_ids:continue
+        if e['public_id'] in verified_ids or e['public_id'] in partial_ids:continue
         notebook_path=Path(e.get('notebook_path',''))
         if notebook_path.is_absolute() or '..' in notebook_path.parts or not (REPO/notebook_path).is_file():continue
         notebook=e['notebook_path'];colab=f'https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/{notebook}'
@@ -40,6 +42,10 @@ def render(data):
 
 def render_failed(failures, unverified):
     verified_ids={e['public_id'] for e in verified.load_manifest()['notebooks']}
+    partial_path=REPO/'partially_verified.json'
+    partial_ids={e['public_id'] for e in json.loads(partial_path.read_text()).get('notebooks',[])} if partial_path.exists() else set()
+    partial_path=REPO/'partially_verified.json'
+    partial_ids={e['public_id'] for e in json.loads(partial_path.read_text()).get('notebooks',[])} if partial_path.exists() else set()
     draft_ids=set()
     for item in unverified['notebooks']:
         notebook_path=Path(item.get('notebook_path',''))
@@ -51,7 +57,7 @@ def render_failed(failures, unverified):
     candidates=[*failures['failures'], *(item for item in unverified['notebooks'] if item.get('status')=='failed')]
     candidates.sort(key=lambda e:e.get('created_on',''))
     for entry in candidates:
-        if entry['public_id'] in verified_ids or entry['public_id'] in draft_ids:
+        if entry['public_id'] in verified_ids or entry['public_id'] in partial_ids or entry['public_id'] in draft_ids:
             continue
         merged={**by_id.get(entry['public_id'],{}),**entry}
         if not merged.get('notebook_path'):
