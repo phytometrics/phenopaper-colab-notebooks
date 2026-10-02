@@ -1232,6 +1232,27 @@
         "alt": "bot-p1 point with bootstrap uncertainty overlaid on the Fig. 6G-style master curve (gray: all Data.mat series)",
         "caption": "bot-p1 point with bootstrap uncertainty overlaid on the Fig. 6G-style master curve (gray: all Data.mat series)"
       }
+    },
+    {
+      "public_id": "p-64d8b1b4cd1285cfc9085533d39f04d1",
+      "title": "Evaluation of Low-Cost Multi-Spectral Sensors for Measuring Chlorophyll Levels Across Diverse Leaf Types.",
+      "doi": "10.3390/s25072198",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Partial reproduction: PLS regression (8 components) predicting banana-leaf total chlorophyll from AS7265x spectra with the authors' 200-repeat stratified-group cross-validation; validation R² 0.961±0.011, MAE 3.06 µg/cm². Only one of the paper's 15 sensor×leaf combinations is executed.",
+      "semantic_tags": [
+        "crop:banana",
+        "crop:mango",
+        "crop:rice",
+        "modality:spectral",
+        "organ:leaf",
+        "task:physiology",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "Predicted vs. measured banana-leaf chlorophyll (µg/cm²) from the authors' PLS pipeline under stratified-group CV",
+        "caption": "Predicted vs. measured banana-leaf chlorophyll (µg/cm²) from the authors' PLS pipeline under stratified-group CV"
+      }
     }
   ]
 }
