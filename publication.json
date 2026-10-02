@@ -1052,6 +1052,27 @@
         "alt": "Observed vs predicted paddy yield (quintal) on the 53-row test split, authors' scatter plot with recomputed RMSE",
         "caption": "Observed vs predicted paddy yield (quintal) on the 53-row test split, authors' scatter plot with recomputed RMSE"
       }
+    },
+    {
+      "public_id": "p-aaa04d55ed02d6b59bb4dbe28c44b888",
+      "title": "Predicting photosynthetic pathway from anatomy using machine learning",
+      "doi": "10.1101/2023.09.11.557216",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Reproduces the paper's XGBoost CAM-phenotype classifiers (10-fold CV accuracy 0.958 multiclass / 0.965 binary vs reported 95.7%/96.1%) and the ROS recall improvement on the released 5,745-taxon anatomical dataset; only the supervised-classification subsection, not image phenotyping or phylogenetic analyses.",
+      "semantic_tags": [
+        "organ:cell",
+        "organ:leaf",
+        "organ:tissue",
+        "task:classification",
+        "task:morphology",
+        "trait:leaf_traits",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "Multiclass XGBoost confusion matrix and feature importance on the pinned CAM anatomy dataset",
+        "caption": "Multiclass XGBoost confusion matrix and feature importance on the pinned CAM anatomy dataset"
+      }
     }
   ]
 }
