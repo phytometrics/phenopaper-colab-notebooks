@@ -36,6 +36,18 @@
       "notebook_sha256": "d1a3a2837546ed0426dd4c55ab8c45f4194ebaab7de15b9c026295f29ed3326c",
       "source_sha256": "c7b3eba152d38195c4432f03f7ed62bb21b0992e7dfabba57c6da27dff49e4c8",
       "code_cells": 9
+    },
+    {
+      "public_id": "p-f4b6761b68409a38fe07554143d7229c",
+      "title": "Assessing the hydromechanical control of plant growth.",
+      "investigation_run_id": "p-f4b6761b68409a38fe07554143d7229c-20260930T040812Z-3247314",
+      "status": "failed",
+      "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-f4b6761b68409a38fe07554143d7229c-20261002T020041Z/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\nError: No changes to apply: oldString and newString are identical.\n! permission requested: external_directory (/dev/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
+      "created_on": "2026-10-02",
+      "notebook_path": "notebooks/unverified/p-f4b6761b68409a38fe07554143d7229c.ipynb",
+      "notebook_sha256": "6417a7980e4e5db92e435b4a6c7fa2881227bafc3287c5bd077094f23b90bca7",
+      "source_sha256": "396ece09069a69c0515aafa7147fba1f6ac35dd1100f20ebd63651a73013a7f8",
+      "code_cells": 10
     }
   ]
 }

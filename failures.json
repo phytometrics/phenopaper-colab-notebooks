@@ -63,6 +63,16 @@
       "status": "failed",
       "reason": "The job ended without queue-result.json, so the host could not register its result. Captured diagnostics include KeyError: slice(None, 5, None) and an auto-rejected request for access to the DGX host's external /tmp/* path. The record does not establish which error caused the missing result.",
       "created_on": "2026-10-02"
+    },
+    {
+      "public_id": "p-f4b6761b68409a38fe07554143d7229c",
+      "title": "Assessing the hydromechanical control of plant growth.",
+      "investigation_run_id": "p-f4b6761b68409a38fe07554143d7229c-20260930T040812Z-3247314",
+      "run_id": "p-f4b6761b68409a38fe07554143d7229c-20261002T020041Z",
+      "status": "failed",
+      "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-f4b6761b68409a38fe07554143d7229c-20261002T020041Z/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\nError: No changes to apply: oldString and newString are identical.\n! permission requested: external_directory (/dev/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
+      "created_on": "2026-10-02",
+      "notebook_path": "notebooks/unverified/p-f4b6761b68409a38fe07554143d7229c.ipynb"
     }
   ]
 }
