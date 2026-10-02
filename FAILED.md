@@ -8,4 +8,4 @@ Notebook草稿を残せなかった失敗試行を掲載しています。草稿
 
 | Paper / record | Failed date / investigation run | Recorded failure reason |
 | --- | --- | --- |
-| No failed attempts have been recorded yet. | — | — |
+| **Plant, space and time - linked together in an integrative and scalable data management system for phenomic approaches in agronomic field trials**<br>`p-2b2f036450a96d50015e96cdb2b602fa`<br>[PhenoPaper](https://phenopaper.smartbreed-plant-phenotyping-platform.com/papers/p-2b2f036450a96d50015e96cdb2b602fa) | 2026-10-02<br>`p-2b2f036450a96d50015e96cdb2b602fa-20260930T121200Z-3644626` | Automatic publication/registration stopped: [Errno 2] No such file or directory: &#x27;/home/phyto/phenotyping-colab/runs/p-2b2f036450a96d50015e96cdb2b602fa-20261002T100122Z/queue-result.json&#x27; |
