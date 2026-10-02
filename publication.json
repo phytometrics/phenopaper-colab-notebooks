@@ -796,6 +796,25 @@
         "alt": "Orthographic projections (front/side/top) of the Wheat_Alsen_F0 fused day-14 point cloud from FRDR 10.20383/103.01255",
         "caption": "Orthographic projections (front/side/top) of the Wheat_Alsen_F0 fused day-14 point cloud from FRDR 10.20383/103.01255"
       }
+    },
+    {
+      "public_id": "p-88d0f80b038259b9b4b2891d38bdcb0a",
+      "title": "KineticGP: a computational framework for genomic prediction of leaf photosynthesis traits",
+      "doi": "10.1101/2025.07.16.665083",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Executed the authors' unmodified R rrBLUP cross-validation (fold out1/inner1) of their estimated top-11 C4 kinetic parameters against the 70k-SNP MAGIC maize matrix, matching their published fold output exactly; MCMC parameterization and C4 simulation are out of scope.",
+      "semantic_tags": [
+        "crop:maize",
+        "environment:field",
+        "organ:leaf",
+        "task:physiology",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "rrBLUP-predicted vs actual values for the best-predicted kinetic parameter in fold out1/inner1 (n=23 genotypes)",
+        "caption": "rrBLUP-predicted vs actual values for the best-predicted kinetic parameter in fold out1/inner1 (n=23 genotypes)"
+      }
     }
   ]
 }
