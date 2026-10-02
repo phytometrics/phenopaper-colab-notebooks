@@ -1315,6 +1315,27 @@
         "alt": "Amphistomy advantage (AA) per leaf with 95% posterior intervals by habitat, from this run's posterior (notebook-created visualization)",
         "caption": "Amphistomy advantage (AA) per leaf with 95% posterior intervals by habitat, from this run's posterior (notebook-created visualization)"
       }
+    },
+    {
+      "public_id": "p-cc11f812b657fdb55b484614bdebe334",
+      "title": "Phenology and health of Stenocereus Queretaroensis : A multimodal dataset combining multispectral imagery and spectrophotometry.",
+      "doi": "10.1016/j.dib.2025.112315",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Reproduces the paper's 2 nm cubic-spline spectral resampling to machine precision against the authors' own interpolated .mat files and computes an adapted monthly CARI distribution for 109 plants (Jan-May); the paper's exact CARI normalization is unstated and drone imagery is absent from dataset v1.",
+      "semantic_tags": [
+        "environment:field",
+        "modality:multimodal",
+        "modality:spectral",
+        "modality:spectroscopy",
+        "organ:whole_plant",
+        "task:preprocessing",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Monthly CARI boxplots (0-1 display-normalized) for 109 S. queretaroensis plants, January-May 2025, adapted computation",
+        "caption": "Monthly CARI boxplots (0-1 display-normalized) for 109 S. queretaroensis plants, January-May 2025, adapted computation"
+      }
     }
   ]
 }
