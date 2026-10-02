@@ -1295,6 +1295,26 @@
         "alt": "Fitted superellipsoid surface vs the observed partial point cloud and the completed unobserved surface (static 3D views)",
         "caption": "Fitted superellipsoid surface vs the observed partial point cloud and the completed unobserved surface (static 3D views)"
       }
+    },
+    {
+      "public_id": "p-cdc0de3c4676cb6979306758217e42dc",
+      "title": "Amphistomy increases leaf photosynthesis more in coastal than montane plants of Hawaiian 'ilima (Sida fallax).",
+      "doi": "10.1002/ajb2.16284",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Partial reproduction: the authors' pinned R pipeline (brms 2.20.4/CmdStan 2.33.1) re-estimates per-leaf amphistomy advantage from 13 raw LI-6800 curves and matches the published coastal (0.12) vs montane (0.027) habitat-level AA; trait models and manuscript build are out of scope.",
+      "semantic_tags": [
+        "environment:field",
+        "organ:leaf",
+        "organ:stomata",
+        "task:physiology",
+        "trait:photosynthesis",
+        "trait:stomatal_traits"
+      ],
+      "preview": {
+        "alt": "Amphistomy advantage (AA) per leaf with 95% posterior intervals by habitat, from this run's posterior (notebook-created visualization)",
+        "caption": "Amphistomy advantage (AA) per leaf with 95% posterior intervals by habitat, from this run's posterior (notebook-created visualization)"
+      }
     }
   ]
 }
