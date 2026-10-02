@@ -1253,6 +1253,27 @@
         "alt": "Predicted vs. measured banana-leaf chlorophyll (µg/cm²) from the authors' PLS pipeline under stratified-group CV",
         "caption": "Predicted vs. measured banana-leaf chlorophyll (µg/cm²) from the authors' PLS pipeline under stratified-group CV"
       }
+    },
+    {
+      "public_id": "p-e88e02e32c4282a27c3e0b0eef2b803f",
+      "title": "Physiology-Driven Irrigation Scheduling in Ananas comosus via Hybrid Machine Learning: UAV-Based Phenotyping of Water-Related Traits Coupled with FAO-56 Soil Water Balance.",
+      "doi": "10.3390/plants15142112",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Retrains the released PIML-GB GBM regressor and traffic-light DSS classifier on the pinned Mendeley fused matrix, reproducing the paper's R2=0.842/RMSE=0.0705 hold-out regression; UAV image processing and CROPWAT water balance are out of scope.",
+      "semantic_tags": [
+        "crop:pineapple",
+        "environment:aerial",
+        "environment:field",
+        "modality:spectral",
+        "organ:whole_plant",
+        "task:physiology",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Traffic-light DSS confusion matrix from the retrained classifier (test split of the released N-row matrix)",
+        "caption": "Traffic-light DSS confusion matrix from the retrained classifier (test split of the released N-row matrix)"
+      }
     }
   ]
 }
