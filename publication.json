@@ -1212,6 +1212,26 @@
         "alt": "Live Cassavabase BrAPI v2 totalCount values (germplasm, trials) observed from the validated Colab CPU run",
         "caption": "Live Cassavabase BrAPI v2 totalCount values (germplasm, trials) observed from the validated Colab CPU run"
       }
+    },
+    {
+      "public_id": "p-2b897db4c4c96991c5e7e563953acd79",
+      "title": "Growth couples temporal and spatial fluctuations of tissue properties during morphogenesis",
+      "doi": "10.1101/2023.10.23.563640",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Recomputes the authors' documented minimal example (bot-p1 sepal, 0-72 h): CFT growth spectrum, scaling exponent alpha_t, SD, Kendall temporal correlation Gt, and the Fig. 6G master curve; deterministic quantities match the authors' Data.mat within 1e-12, one example only.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "organ:cell",
+        "organ:flower",
+        "organ:tissue",
+        "task:time_series",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "bot-p1 point with bootstrap uncertainty overlaid on the Fig. 6G-style master curve (gray: all Data.mat series)",
+        "caption": "bot-p1 point with bootstrap uncertainty overlaid on the Fig. 6G-style master curve (gray: all Data.mat series)"
+      }
     }
   ]
 }
