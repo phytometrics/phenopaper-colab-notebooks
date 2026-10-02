@@ -936,6 +936,25 @@
         "alt": "Test accuracy per feature set: this notebook's run vs. the authors' archived results (identical), with the paper's ~76% reference line.",
         "caption": "Test accuracy per feature set: this notebook's run vs. the authors' archived results (identical), with the paper's ~76% reference line."
       }
+    },
+    {
+      "public_id": "p-93fa928d5885615b855d12b533c5ccf4",
+      "title": "Maturity Classification of Rapeseed Using Hyperspectral Image Combined with Machine Learning.",
+      "doi": "10.34133/plantphenomics.0139",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "D2nd, IVISSA-SPA and RBF-SVM rapeseed maturity classification on the authors' deposited 1500-seed reflectance table; 375-seed test accuracy 97.07 percent vs paper 97.86 percent. AI-assisted Python port of the authors' MATLAB code with per-sample scaling and grid-search adaptations.",
+      "semantic_tags": [
+        "crop:rapeseed",
+        "modality:spectral",
+        "organ:whole_plant",
+        "task:classification",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Confusion matrix of the D2nd-IVISSA-SPA-SVM maturity classifier on the 375-seed test set",
+        "caption": "Confusion matrix of the D2nd-IVISSA-SPA-SVM maturity classifier on the 375-seed test set"
+      }
     }
   ]
 }
