@@ -648,6 +648,30 @@
         "alt": "Author demo image p6.jpg: agar plate with six Arabidopsis seedlings before analysis",
         "caption": "Author demo image p6.jpg: agar plate with six Arabidopsis seedlings before analysis"
       }
+    },
+    {
+      "public_id": "p-39a81e5461357163ba90bf2d25a1f8d6",
+      "title": "Viral infection impacts the 3D subcellular structure of the abundant marine diatom Guinardia delicatula",
+      "doi": "10.1101/2022.09.06.505714",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Re-runs the authors' pinned R scripts on their own intermediate Excel tables to regenerate the paper's Figure 1/3/4/5-style morphometry, biovolume/biomass, titer and Fv/Fm panels; upstream confocal/FIJI stages are not reproduced.",
+      "semantic_tags": [
+        "environment:field",
+        "modality:microscopy",
+        "organ:cell",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:object_detection",
+        "task:physiology",
+        "task:time_series",
+        "trait:architecture",
+        "trait:biomass"
+      ],
+      "preview": {
+        "alt": "Figure 4-style panel: chloroplast sphericity, chloroplast volume and nucleus volume per time point, infected (top) vs control (bottom)",
+        "caption": "Figure 4-style panel: chloroplast sphericity, chloroplast volume and nucleus volume per time point, infected (top) vs control (bottom)"
+      }
     }
   ]
 }
