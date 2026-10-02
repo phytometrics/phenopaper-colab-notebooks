@@ -732,6 +732,25 @@
         "alt": "GPA mean leaf colored by vein identity (proximal/distal lobes and midvein), reproduced with the author's code",
         "caption": "GPA mean leaf colored by vein identity (proximal/distal lobes and midvein), reproduced with the author's code"
       }
+    },
+    {
+      "public_id": "p-28f074ee4e709feeb203a3120b869fa0",
+      "title": "Quantifying physiological trait variation with automated hyperspectral imaging in rice.",
+      "doi": "10.3389/fpls.2023.1229161",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Executes the authors' R RReliefF-PLSR pipeline for leaf nitrogen from Week-9 side-view hyperspectral reflectance (70/18 split, 400 wavelengths, LOO-selected 6 components); validation R2 0.758 / RMSEP 0.268 vs the paper's 0.797 / 0.264, CPU-only, single-trait scope.",
+      "semantic_tags": [
+        "crop:rice",
+        "modality:spectral",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:classification"
+      ],
+      "preview": {
+        "alt": "Predicted vs observed leaf nitrogen (%) on the 18-sample validation set with jackknife confidence intervals (blue TRJ, red IND; open circles N2, filled N1)",
+        "caption": "Predicted vs observed leaf nitrogen (%) on the 18-sample validation set with jackknife confidence intervals (blue TRJ, red IND; open circles N2, filled N1)"
+      }
     }
   ]
 }
