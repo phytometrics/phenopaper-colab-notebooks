@@ -672,6 +672,26 @@
         "alt": "Figure 4-style panel: chloroplast sphericity, chloroplast volume and nucleus volume per time point, infected (top) vs control (bottom)",
         "caption": "Figure 4-style panel: chloroplast sphericity, chloroplast volume and nucleus volume per time point, infected (top) vs control (bottom)"
       }
+    },
+    {
+      "public_id": "p-62932b4d8903b310dda0752a343426c5",
+      "title": "A leaf phenomics approach for estimating belowground traits in North American licorice.",
+      "doi": "10.1002/ajb2.70198",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Rebuilds the authors' licorice phenotype table from the released CSVs and reproduces their leave-one-out cross-validated PC regressions (ePCs to belowground biomass R2 0.48 vs paper 0.47; sPCs to total root length R2 0.36 vs 0.36, with and without biomass adjustment) on a Colab CPU runtime; raw root-scan image extraction and paper-wide figures are out of scope.",
+      "semantic_tags": [
+        "modality:spectral",
+        "organ:leaf",
+        "organ:root",
+        "task:morphology",
+        "trait:leaf_traits",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "LOOCV predicted vs observed values for the four headline models (elemental PCs to belowground biomass and spectral PCs to total root length, raw and biomass-adjusted), one point per withheld plant.",
+        "caption": "LOOCV predicted vs observed values for the four headline models (elemental PCs to belowground biomass and spectral PCs to total root length, raw and biomass-adjusted), one point per withheld plant."
+      }
     }
   ]
 }
