@@ -1012,6 +1012,28 @@
         "alt": "Total water uptake Jv vs radial (k) and axial (K) conductivity scaling, computed in-notebook from actual solves (paper Figs 4-5 style sensitivity)",
         "caption": "Total water uptake Jv vs radial (k) and axial (K) conductivity scaling, computed in-notebook from actual solves (paper Figs 4-5 style sensitivity)"
       }
+    },
+    {
+      "public_id": "p-7477b41db6eeb5a2e9715fd1cb6e033e",
+      "title": "Genome-wide association analysis of hyperspectral reflectance data to dissect growth-related traits genetic architecture in maize under inoculation with plant growth-promoting bacteria",
+      "doi": "10.1101/2022.08.11.503682",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Headless reproduction of the ShinyGWASPheWAS two-way Manhattan and PheWAS panels from the authors' pinned R code on their bundled GWAS result CSVs; interactive ggplotly layer and the GWA analyses themselves are out of scope.",
+      "semantic_tags": [
+        "crop:maize",
+        "modality:spectral",
+        "organ:whole_plant",
+        "task:physiology",
+        "trait:architecture",
+        "trait:biomass",
+        "trait:growth_development",
+        "trait:plant_height"
+      ],
+      "preview": {
+        "alt": "Two-way Manhattan plot of PIP for PH/SD/SDM under B+/B- managements, generated with the authors' app.R code",
+        "caption": "Two-way Manhattan plot of PIP for PH/SD/SDM under B+/B- managements, generated with the authors' app.R code"
+      }
     }
   ]
 }
