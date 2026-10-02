@@ -29,15 +29,6 @@
       "created_on": "2026-10-02"
     },
     {
-      "public_id": "p-28f074ee4e709feeb203a3120b869fa0",
-      "title": "Quantifying physiological trait variation with automated hyperspectral imaging in rice.",
-      "investigation_run_id": "p-28f074ee4e709feeb203a3120b869fa0-20260930T134827Z-3703157",
-      "run_id": "p-28f074ee4e709feeb203a3120b869fa0-20261001T223044Z",
-      "status": "failed",
-      "reason": "The job ended without queue-result.json, so the host could not register its result. The latest captured diagnostic says OpenCode auto-rejected a request for access to the DGX host's external /tmp/* path. The record does not establish whether that was the originating cause.",
-      "created_on": "2026-10-02"
-    },
-    {
       "public_id": "p-f4b6761b68409a38fe07554143d7229c",
       "title": "Assessing the hydromechanical control of plant growth.",
       "investigation_run_id": "p-f4b6761b68409a38fe07554143d7229c-20260930T040812Z-3247314",
@@ -76,6 +67,16 @@
       "reason": "Notebook authored and statically validated (ADAPTED PYTHON DEMONSTRATION of REPRISAL parametric segmentation + RM1/RM2, CPU-only), but every Colab CPU session allocation was refused ('Allocation refused (precondition failed)') across 6 attempts over ~40 min (logs/colab_alloc_final.log). No owned runtime could be created, so the notebook was never executed and was not published. Source materials are fully verified and pinned; blocker is runtime capacity/quota on the host Colab account.",
       "created_on": "2026-10-02",
       "notebook_path": "notebooks/unverified/p-cd3b7c4a2dfbfd18ed589bd4fe9fbe29.ipynb"
+    },
+    {
+      "public_id": "p-28f074ee4e709feeb203a3120b869fa0",
+      "title": "Quantifying physiological trait variation with automated hyperspectral imaging in rice.",
+      "investigation_run_id": "p-28f074ee4e709feeb203a3120b869fa0-20260930T134827Z-3703157",
+      "run_id": "p-28f074ee4e709feeb203a3120b869fa0-20261002T031700Z",
+      "status": "failed",
+      "reason": "Colab execution reached the analysis but failed: the PURR /serve/1 URL returned a 27 KB HTML response instead of the expected ZIP (cell 3 assertion: not a ZIP archive); downstream R analysis and metrics then failed. The notebook is preserved as an unverified draft. A later attempt has not yet produced a successful run result.",
+      "created_on": "2026-10-02",
+      "notebook_path": "notebooks/unverified/p-28f074ee4e709feeb203a3120b869fa0.ipynb"
     }
   ]
 }

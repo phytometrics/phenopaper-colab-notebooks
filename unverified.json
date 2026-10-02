@@ -60,6 +60,18 @@
       "notebook_sha256": "46e9bb3eb6a1f5975e454b02441709cb2a78abf41b4df18b63299a363d73ed0d",
       "source_sha256": "adf8fa35081254ec2cca57928cbb50763be8615bc2ce5f1adc89b2531876aacc",
       "code_cells": 10
+    },
+    {
+      "public_id": "p-28f074ee4e709feeb203a3120b869fa0",
+      "title": "Quantifying physiological trait variation with automated hyperspectral imaging in rice.",
+      "investigation_run_id": "p-28f074ee4e709feeb203a3120b869fa0-20260930T134827Z-3703157",
+      "status": "failed",
+      "reason": "Colab execution reached the analysis but failed: the PURR /serve/1 URL returned a 27 KB HTML response instead of the expected ZIP (cell 3 assertion: not a ZIP archive); downstream R analysis and metrics then failed. The notebook is preserved as an unverified draft. A later attempt has not yet produced a successful run result.",
+      "created_on": "2026-10-02",
+      "notebook_path": "notebooks/unverified/p-28f074ee4e709feeb203a3120b869fa0.ipynb",
+      "notebook_sha256": "445653db5dd13abe4e68d9932b843b0a2e444865a9cd46dccb747f2f27de7ac2",
+      "source_sha256": "b17719709e8f8d49e5ea18e4e19fcc144d4a20b233afd877ea783630e6359638",
+      "code_cells": 6
     }
   ]
 }
