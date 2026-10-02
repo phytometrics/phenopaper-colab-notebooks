@@ -118,7 +118,7 @@ def main():
                 data=json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {'schema_version':1,'notebooks':[]}
                 save_pages(data)
                 commit=git_publish(['unverified.json','UNVERIFIED.md','FAILED.md','README.md'], 'Reconcile verified, unverified, and failed notebook lists')
-            print(json.dumps({'repository_commit':commit,'unverified':sum(1 for e in data['notebooks'] if e.get('status')!='failed'),'failed':len(render_failed(load_failures(),data).splitlines())}))
+            print(json.dumps({'repository_commit':commit,'unverified':sum(1 for e in data['notebooks'] if e.get('status')!='failed'),'failed':len({e['public_id'] for e in load_failures()['failures']} | {e['public_id'] for e in data['notebooks'] if e.get('status')=='failed'})}))
             return
         data=json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {'schema_version':1,'notebooks':[]}
         save_pages(data);return
