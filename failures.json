@@ -2,10 +2,10 @@
   "schema_version": 1,
   "failures": [
     {
-      "public_id": "p-88d0f80b038259b9b4b2891d38bdcb0a",
-      "title": "KineticGP: a computational framework for genomic prediction of leaf photosynthesis traits",
-      "investigation_run_id": "p-88d0f80b038259b9b4b2891d38bdcb0a-20260930T125150Z-3670543",
-      "run_id": "p-88d0f80b038259b9b4b2891d38bdcb0a-20261002T233401Z-4094580",
+      "public_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85",
+      "title": "Bayesian hierarchical models can infer interpretable predictions of leaf area index from heterogeneous datasets",
+      "investigation_run_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85-20260930T231512Z-3806436",
+      "run_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85",
       "status": "failed",
       "reason": "The job ended without queue-result.json, so the host could not register its result. The latest captured diagnostic says OpenCode auto-rejected a request for access to the DGX host's external /tmp/* path. The record does not establish whether that was the originating cause.",
       "created_on": "2026-10-02"
@@ -17,6 +17,33 @@
       "run_id": "p-cd3b7c4a2dfbfd18ed589bd4fe9fbe29-20261002T231946Z",
       "status": "failed",
       "reason": "The job ended without queue-result.json, so the host could not register its result. Captured diagnostics include BrokenPipeError and an auto-rejected request for access to the DGX host's external /tmp/* path. The record does not establish which error caused the missing result.",
+      "created_on": "2026-10-02"
+    },
+    {
+      "public_id": "p-ba13883f7b82cc94cac3648cf3a69310",
+      "title": "p-ba13883f7b82cc94cac3648cf3a69310",
+      "investigation_run_id": null,
+      "run_id": null,
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status -10; see run log p-ba13883f7b82cc94cac3648cf3a69310-20261002T014012Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nfetch_github_code.py: error: Selected source exceeds 500 KB; inspect a narrower source file\nfetch_github_code.py: error: Selected path is not present at pinned commit f8047379b290df451005d8733b31f8947f09c8f3: jupyter/11_data_reduction.py\nError: NotFound: FileSystem.access (/home/phyto/phenotyping-colab/runs/p-ba13883f7b82cc94cac3648cf3a69310-20261002T014045Z/probe)",
+      "created_on": "2026-10-02"
+    },
+    {
+      "public_id": "p-88d0f80b038259b9b4b2891d38bdcb0a",
+      "title": "KineticGP: a computational framework for genomic prediction of leaf photosynthesis traits",
+      "investigation_run_id": "p-88d0f80b038259b9b4b2891d38bdcb0a-20260930T125150Z-3670543",
+      "run_id": "p-88d0f80b038259b9b4b2891d38bdcb0a-20261002T233401Z-4094580",
+      "status": "failed",
+      "reason": "The job ended without queue-result.json, so the host could not register its result. The latest captured diagnostic says OpenCode auto-rejected a request for access to the DGX host's external /tmp/* path. The record does not establish whether that was the originating cause.",
+      "created_on": "2026-10-02"
+    },
+    {
+      "public_id": "p-693a2a56425e76b3c425cc929186f228",
+      "title": "Topological properties accurately predict cell division events and organization of shoot apical meristem in Arabidopsis thaliana.",
+      "investigation_run_id": "p-693a2a56425e76b3c425cc929186f228-20260930T145222Z-3737548",
+      "run_id": "p-693a2a56425e76b3c425cc929186f228-20261002T182345Z",
+      "status": "failed",
+      "reason": "The job ended without queue-result.json, so the host could not register its result. Captured diagnostics include BrokenPipeError and an auto-rejected request for access to the DGX host's external /tmp/* path. The saved run also included a notebook hash. The record does not establish which error caused the missing result.",
       "created_on": "2026-10-02"
     },
     {
@@ -35,24 +62,6 @@
       "run_id": "p-0dfec3c680bb0e32ef572c9bcc0a1d2c-20261002T223000Z",
       "status": "failed",
       "reason": "The job ended without queue-result.json, so the host could not register its result. Captured diagnostics include KeyError: slice(None, 5, None) and an auto-rejected request for access to the DGX host's external /tmp/* path. The record does not establish which error caused the missing result.",
-      "created_on": "2026-10-02"
-    },
-    {
-      "public_id": "p-693a2a56425e76b3c425cc929186f228",
-      "title": "Topological properties accurately predict cell division events and organization of shoot apical meristem in Arabidopsis thaliana.",
-      "investigation_run_id": "p-693a2a56425e76b3c425cc929186f228-20260930T145222Z-3737548",
-      "run_id": "p-693a2a56425e76b3c425cc929186f228-20261002T182345Z",
-      "status": "failed",
-      "reason": "The job ended without queue-result.json, so the host could not register its result. Captured diagnostics include BrokenPipeError and an auto-rejected request for access to the DGX host's external /tmp/* path. The saved run also included a notebook hash. The record does not establish which error caused the missing result.",
-      "created_on": "2026-10-02"
-    },
-    {
-      "public_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85",
-      "title": "Bayesian hierarchical models can infer interpretable predictions of leaf area index from heterogeneous datasets",
-      "investigation_run_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85-20260930T231512Z-3806436",
-      "run_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85",
-      "status": "failed",
-      "reason": "The job ended without queue-result.json, so the host could not register its result. The latest captured diagnostic says OpenCode auto-rejected a request for access to the DGX host's external /tmp/* path. The record does not establish whether that was the originating cause.",
       "created_on": "2026-10-02"
     }
   ]
