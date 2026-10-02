@@ -1110,6 +1110,27 @@
         "alt": "Bar chart of summed % C3 and C4 species cover computed from the point-intercept data of TERN plot NSABBS0001",
         "caption": "Bar chart of summed % C3 and C4 species cover computed from the point-intercept data of TERN plot NSABBS0001"
       }
+    },
+    {
+      "public_id": "p-dc3f89f59fbebda2aed792de1c7d31ab",
+      "title": "Ultrasonic Sensing of Plant Water Needs for Agriculture.",
+      "doi": "10.3390/s16071089",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Runs the paper's published CT14_GD inverse problem (Sensors 2016 16:1089, Sect. 3.5) on the authors' sample membrane spectrum, extracting thickness/density/velocity/attenuation close to the authors' reference output and independent measurements; single generic-plate example, not the paper's leaf results.",
+      "semantic_tags": [
+        "crop:coffee",
+        "crop:grapevine",
+        "organ:leaf",
+        "task:morphology",
+        "task:physiology",
+        "trait:leaf_traits",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Measured transmission spectrum (circles) versus the gradient-descent-fitted theoretical curve, in the -10 dB fitting band and extrapolated over the full measured range.",
+        "caption": "Measured transmission spectrum (circles) versus the gradient-descent-fitted theoretical curve, in the -10 dB fitting band and extrapolated over the full measured range."
+      }
     }
   ]
 }
