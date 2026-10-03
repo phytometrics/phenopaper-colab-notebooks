@@ -1582,6 +1582,26 @@
         "alt": "Mean prediction accuracy per DAS timepoint (single CV iteration, validation-set genotypes): iterative and recursive dynamicGP versus the first-timepoint RR-BLUP baseline. Additional notebook visualization, not an author figure.",
         "caption": "Mean prediction accuracy per DAS timepoint (single CV iteration, validation-set genotypes): iterative and recursive dynamicGP versus the first-timepoint RR-BLUP baseline. Additional notebook visualization, not an author figure."
       }
+    },
+    {
+      "public_id": "p-86c185fe2f37a319f44e780d01bf0002",
+      "title": "Drone phenotyping and machine learning enable discovery of loci regulating daily floral opening in lettuce",
+      "doi": "10.1101/2020.07.16.206953",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Reproduces the paper's SVM floral-pixel classification (HSV features, ~99% CV accuracy) and Bayesian peak floral-opening-time MCMC on the authors' bundled example data on a Colab CPU runtime, via the authors' own R code with rstan replacing the now-uninstallable rethinking front-end; upstream orthomosaic/plot-delineation, genotyping and QTL stages are out of scope.",
+      "semantic_tags": [
+        "crop:lettuce",
+        "environment:aerial",
+        "organ:flower",
+        "task:segmentation",
+        "task:time_series",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Fitted Gaussian-like floral opening curves for the demo RILs (RIL51, RIL29, RIL214) over standardized floral pixel counts at hourly time points, estimated by MCMC in Colab.",
+        "caption": "Fitted Gaussian-like floral opening curves for the demo RILs (RIL51, RIL29, RIL214) over standardized floral pixel counts at hourly time points, estimated by MCMC in Colab."
+      }
     }
   ]
 }
