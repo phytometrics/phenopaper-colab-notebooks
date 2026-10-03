@@ -1563,6 +1563,25 @@
         "alt": "Calibrated QE-Pro spectra for the bundled 2017-05-02 sample: irradiance and radiance (mW m-2 sr-1 nm-1), reflectance, and SF-retrieved SIF in the 759-764 nm O2-A window.",
         "caption": "Calibrated QE-Pro spectra for the bundled 2017-05-02 sample: irradiance and radiance (mW m-2 sr-1 nm-1), reflectance, and SF-retrieved SIF in the 759-764 nm O2-A window."
       }
+    },
+    {
+      "public_id": "p-34089365c8e5fb9d8b8e750c505484f8",
+      "title": "Predicting plant trait dynamics from genetic markers",
+      "doi": "10.1038/s41477-025-01986-y",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "One CV iteration (of the paper's 10) of the authors' maize dynamicGP pipeline: Schur DMD (r=2) plus RR-BLUP prediction of operator entries from 70,846 SNPs; iterative dynamicGP reached 0.447 mean accuracy vs 0.140 for the first-timepoint RR-BLUP baseline on the author validation set.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "crop:maize",
+        "task:time_series",
+        "trait:architecture",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "Mean prediction accuracy per DAS timepoint (single CV iteration, validation-set genotypes): iterative and recursive dynamicGP versus the first-timepoint RR-BLUP baseline. Additional notebook visualization, not an author figure.",
+        "caption": "Mean prediction accuracy per DAS timepoint (single CV iteration, validation-set genotypes): iterative and recursive dynamicGP versus the first-timepoint RR-BLUP baseline. Additional notebook visualization, not an author figure."
+      }
     }
   ]
 }
