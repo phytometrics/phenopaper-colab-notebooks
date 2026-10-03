@@ -1497,6 +1497,30 @@
         "alt": "Reproduced Figure 2A-style northern-edge latitude by flower color through spring in the eastern U.S. (LOWESS-smoothed 80th-percentile latitude per 15-day window); red and orange trail white and other colors.",
         "caption": "Reproduced Figure 2A-style northern-edge latitude by flower color through spring in the eastern U.S. (LOWESS-smoothed 80th-percentile latitude per 15-day window); red and orange trail white and other colors."
       }
+    },
+    {
+      "public_id": "p-62c7cba3ad70919fc6c3454f3aa8535b",
+      "title": "Advancing fine branch biomass estimation with lidar and structural models",
+      "doi": "10.1093/aob/mcae083",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Fits the paper's six-variable structural cross-section model with the authors' verbatim Julia code and 10-fold CV on 3462 segments; segment-scale only (branch/tree-scale biomass and lidar reconstruction are out of scope).",
+      "semantic_tags": [
+        "modality:point_cloud",
+        "organ:root",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:preprocessing",
+        "task:reconstruction",
+        "task:skeletonization",
+        "task:yield_biomass",
+        "trait:biomass"
+      ],
+      "preview": {
+        "alt": "Measured vs predicted segment cross-sectional area (log-log) for the structural model (SM) and pipe-model baseline (PMT); SM nRMSE 0.011, EF 0.98",
+        "caption": "Measured vs predicted segment cross-sectional area (log-log) for the structural model (SM) and pipe-model baseline (PMT); SM nRMSE 0.011, EF 0.98"
+      }
     }
   ]
 }
