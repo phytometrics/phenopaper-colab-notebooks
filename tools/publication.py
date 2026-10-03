@@ -34,6 +34,7 @@ INDEX_END = "<!-- notebook-index:end -->"
 PUBLIC_ID = re.compile(r"p-[a-f0-9]{32}\Z")
 PNG_MAGIC = b"\x89PNG\r\n\x1a\n"
 MAX_PREVIEW_BYTES = 8_000_000
+MUTATION_HEAD: str | None = None
 
 
 def fail(message: str) -> None:
@@ -285,6 +286,30 @@ def git(*args: str) -> str:
     return result.stdout.strip()
 
 
+def begin_mutation() -> None:
+    global MUTATION_HEAD
+    MUTATION_HEAD = git("rev-parse", "HEAD")
+
+
+def finish_mutation() -> None:
+    global MUTATION_HEAD
+    MUTATION_HEAD = None
+
+
+def rollback_mutation() -> None:
+    """Restore a previously clean publication checkout after an interrupted write."""
+    global MUTATION_HEAD
+    if MUTATION_HEAD is None:
+        return
+    head = MUTATION_HEAD
+    reset = subprocess.run(["git", "-C", str(REPO), "reset", "--hard", head], text=True, capture_output=True)
+    clean = subprocess.run(["git", "-C", str(REPO), "clean", "-fd"], text=True, capture_output=True)
+    if reset.returncode or clean.returncode:
+        detail = (reset.stderr + clean.stderr).strip()[:600]
+        raise RuntimeError("Could not restore publication checkout after an interrupted write: " + detail)
+    MUTATION_HEAD = None
+
+
 def ensure_github_access() -> None:
     expected = "https://github.com/phytometrics/phenopaper-colab-notebooks.git"
     if git("remote", "get-url", "origin") != expected:
@@ -362,6 +387,7 @@ def publish(args: argparse.Namespace) -> None:
             fail("Publication repository has uncommitted changes")
         ensure_github_access()
         git("pull", "--ff-only", "origin", "main")
+        begin_mutation()
         data = load_manifest()
         existing = next((e for e in data["notebooks"] if e["public_id"] == args.public_id), None)
         target_notebook = REPO / "notebooks" / f"{args.public_id}.ipynb"
@@ -369,6 +395,7 @@ def publish(args: argparse.Namespace) -> None:
         if existing and not args.replace:
             if target_notebook.read_bytes() == notebook_path.read_bytes():
                 print(f"Already published: {args.public_id}")
+                finish_mutation()
                 return
             fail("Notebook already exists; pass --replace for an intentional update")
         if existing:
@@ -386,12 +413,14 @@ def publish(args: argparse.Namespace) -> None:
         git("add", "--", str(target_notebook.relative_to(REPO)), str(target_preview.relative_to(REPO)), "publication.json", "README.md", str(SUMMARY.relative_to(REPO)))
         if not git("diff", "--cached", "--name-only"):
             print(f"Already up to date: {args.public_id}")
+            finish_mutation()
             return
         git("commit", "-m", f"Publish validated Colab notebook {args.public_id}")
         git("push", "origin", "main")
         remote_head = git("ls-remote", "origin", "refs/heads/main").split()[0]
         if remote_head != git("rev-parse", "HEAD"):
             fail("Push returned but origin/main does not match the local publication commit")
+        finish_mutation()
         print(f"Published: https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/notebooks/{args.public_id}.ipynb")
 
 
@@ -432,6 +461,10 @@ def main() -> None:
 if __name__ == "__main__":
     try:
         main()
-    except (ValueError, KeyError, OSError, json.JSONDecodeError) as exc:
+    except (ValueError, KeyError, OSError, json.JSONDecodeError, subprocess.CalledProcessError) as exc:
+        try:
+            rollback_mutation()
+        except RuntimeError as rollback_error:
+            print(str(rollback_error), file=sys.stderr)
         print(f"publication error: {exc}", file=sys.stderr)
         sys.exit(1)

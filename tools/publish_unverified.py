@@ -123,9 +123,11 @@ def main():
                 fcntl.flock(handle,fcntl.LOCK_EX)
                 if verified.git('status','--porcelain'):raise ValueError('Publication checkout has uncommitted changes')
                 verified.ensure_github_access();verified.git('pull','--ff-only','origin','main')
+                verified.begin_mutation()
                 data=json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {'schema_version':1,'notebooks':[]}
                 save_pages(data)
                 commit=git_publish(['unverified.json','UNVERIFIED.md','FAILED.md','README.md'], 'Reconcile verified, unverified, and failed notebook lists')
+                verified.finish_mutation()
             verified_ids={e['public_id'] for e in verified.load_manifest()['notebooks']}
             draft_ids={e['public_id'] for e in data['notebooks'] if not Path(e.get('notebook_path','')).is_absolute() and '..' not in Path(e.get('notebook_path','')).parts and (REPO/Path(e.get('notebook_path',''))).is_file()}
             failed_ids=({e['public_id'] for e in load_failures()['failures']} | {e['public_id'] for e in data['notebooks'] if e.get('status')=='failed'})-verified_ids-draft_ids
@@ -164,7 +166,9 @@ def main():
             fcntl.flock(handle,fcntl.LOCK_EX)
             if verified.git('status','--porcelain'):raise ValueError('Publication checkout has uncommitted changes')
             verified.ensure_github_access();verified.git('pull','--ff-only','origin','main')
-            if any(e['public_id']==a.public_id for e in verified.load_manifest()['notebooks']):print(json.dumps({'skipped':'already_verified'}));return
+            verified.begin_mutation()
+            if any(e['public_id']==a.public_id for e in verified.load_manifest()['notebooks']):
+                verified.finish_mutation();print(json.dumps({'skipped':'already_verified'}));return
             failures=load_failures();key=(a.public_id,inv or failure_entry.get('run_id') or '')
             failures['failures']=[item for item in failures['failures'] if (item['public_id'],item.get('investigation_run_id') or item.get('run_id') or '')!=key]
             failures['failures'].append(failure_entry);failures['failures'].sort(key=lambda item:(item.get('created_on',''),item['public_id']),reverse=True)
@@ -172,6 +176,7 @@ def main():
             data=json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {'schema_version':1,'notebooks':[]}
             save_pages(data)
             commit=git_publish(['failures.json','FAILED.md','UNVERIFIED.md','README.md'],f'Record failed notebook attempt {a.public_id}')
+            verified.finish_mutation()
         print(json.dumps({'failure_recorded':True,'public_id':a.public_id,'title':title,'investigation_run_id':inv,'repository_commit':commit}));return
     if len(raw)>10_000_000:raise ValueError('Draft notebook is too large')
     if re.search(r'(?i)Bearer\s+[A-Za-z0-9._~+/-]{8,}',json.dumps(nb)):raise ValueError('Draft contains a bearer credential')
@@ -186,7 +191,9 @@ def main():
         fcntl.flock(handle,fcntl.LOCK_EX)
         if verified.git('status','--porcelain'):raise ValueError('Publication checkout has uncommitted changes')
         verified.ensure_github_access();verified.git('pull','--ff-only','origin','main')
-        if any(e['public_id']==a.public_id for e in verified.load_manifest()['notebooks']):print(json.dumps({'skipped':'already_verified'}));return
+        verified.begin_mutation()
+        if any(e['public_id']==a.public_id for e in verified.load_manifest()['notebooks']):
+            verified.finish_mutation();print(json.dumps({'skipped':'already_verified'}));return
         data=json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {'schema_version':1,'notebooks':[]}
         data['notebooks']=[e for e in data['notebooks'] if e['public_id']!=a.public_id]+[unverified_entry]
         target=REPO/path;target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(output)
@@ -199,8 +206,12 @@ def main():
         files=[path,'unverified.json','UNVERIFIED.md','FAILED.md','README.md']
         if a.status=='failed':files.append('failures.json')
         commit=git_publish(files,f'Publish unverified notebook reference {a.public_id}')
+        verified.finish_mutation()
     print(json.dumps({'repository_commit':commit,'notebook_sha256':digest,'public_id':a.public_id,'investigation_run_id':inv,'notebook_path':path}))
 
 if __name__=='__main__':
     try:main()
-    except (ValueError,OSError,KeyError,json.JSONDecodeError,subprocess.CalledProcessError) as e:print(str(e),file=sys.stderr);sys.exit(1)
+    except (ValueError,OSError,KeyError,json.JSONDecodeError,subprocess.CalledProcessError) as e:
+        try:verified.rollback_mutation()
+        except RuntimeError as rollback_error:print(str(rollback_error),file=sys.stderr)
+        print(str(e),file=sys.stderr);sys.exit(1)
