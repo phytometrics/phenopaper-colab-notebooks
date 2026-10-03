@@ -1442,6 +1442,24 @@
         "alt": "Observed vs. waves-PLSR-predicted root dry matter content on the held-out C16Mval test set (best pretreatment SNV, mean R2p 0.838).",
         "caption": "Observed vs. waves-PLSR-predicted root dry matter content on the held-out C16Mval test set (best pretreatment SNV, mean R2p 0.838)."
       }
+    },
+    {
+      "public_id": "p-9d34a23737718edc5e1277da0358385a",
+      "title": "Model selection and parameter estimation for root architecture models using likelihood-free inference.",
+      "doi": "10.1098/rsif.2019.0293",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Runs the authors' pinned MATLAB ABC-SMC root-architecture inference (StochasticBiology/root-inference @ da98de2) under GNU Octave on the embedded Arabidopsis summary statistics (N=100, final tolerance 3), reproducing parameter posteriors and model selection; a single minimal example, not a full-paper verification.",
+      "semantic_tags": [
+        "organ:root",
+        "task:morphology",
+        "trait:growth_development",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "ABC-SMC parameter posteriors for growth rate g, branching rate b, lateral ratio gl and l_max on the embedded Arabidopsis data (final tolerance 3)",
+        "caption": "ABC-SMC parameter posteriors for growth rate g, branching rate b, lateral ratio gl and l_max on the embedded Arabidopsis data (final tolerance 3)"
+      }
     }
   ]
 }
