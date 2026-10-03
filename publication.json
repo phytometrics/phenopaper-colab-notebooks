@@ -1360,6 +1360,26 @@
         "alt": "Per-panel cumulative germination (SeedGerm pipeline output, tomato release v0.1.1 series)",
         "caption": "Per-panel cumulative germination (SeedGerm pipeline output, tomato release v0.1.1 series)"
       }
+    },
+    {
+      "public_id": "p-a19e4f562c64e84e85556bde60dcad78",
+      "title": "Natural variation in stomata size contributes to the local adaptation of water-use efficiency in Arabidopsis thaliana.",
+      "doi": "10.1111/mec.14838",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Executed the authors' Appendix S2 R code on the published Dryad tables to reproduce stomata-size/density heritabilities (0.372/0.294), trait correlations and climatic-PC GLMs; genotype-dependent sections (GWAS, QST-FST, genetic-PC covariates) are not reproducible from published data.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "modality:microscopy",
+        "organ:stomata",
+        "task:morphology",
+        "trait:stomatal_traits",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Stomata size vs density accession means (r = -0.51) and broad-sense heritabilities from the authors' lme models and the Python cross-check, compared with the paper's values.",
+        "caption": "Stomata size vs density accession means (r = -0.51) and broad-sense heritabilities from the authors' lme models and the Python cross-check, compared with the paper's values."
+      }
     }
   ]
 }
