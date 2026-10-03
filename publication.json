@@ -1380,6 +1380,27 @@
         "alt": "Stomata size vs density accession means (r = -0.51) and broad-sense heritabilities from the authors' lme models and the Python cross-check, compared with the paper's values.",
         "caption": "Stomata size vs density accession means (r = -0.51) and broad-sense heritabilities from the authors' lme models and the Python cross-check, compared with the paper's values."
       }
+    },
+    {
+      "public_id": "p-7a5704f55833f08e19e9f134202c93d5",
+      "title": "The shape and volume of air, kernels, and cracks, in a nutshell",
+      "doi": "10.22541/essoar.169699675.53069509/v1",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Reproduces the paper's OLS prediction subsection (Figure 5): accession-level breeding scores predicted from CT morphology traits by the authors' pinned pipeline, with mean test R2 of 0.303 (ease of removal), 0.616 (shell strength), and 0.817 (kernel weight ratio) over 100 seeded 70/30 splits on a Colab CPU runtime; segmentation and other paper sections are out of scope.",
+      "semantic_tags": [
+        "modality:xray_ct",
+        "organ:fruit",
+        "organ:seed",
+        "task:morphology",
+        "task:reconstruction",
+        "trait:architecture",
+        "trait:biomass"
+      ],
+      "preview": {
+        "alt": "Mean train/test R2 of the best morphological-feature combination per model size for the three breeding targets, over 100 seeded 70/30 accession splits; dashed lines mark the paper's reported best R2 (Figure 5).",
+        "caption": "Mean train/test R2 of the best morphological-feature combination per model size for the three breeding targets, over 100 seeded 70/30 accession splits; dashed lines mark the paper's reported best R2 (Figure 5)."
+      }
     }
   ]
 }
