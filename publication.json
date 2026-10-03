@@ -1542,6 +1542,27 @@
         "alt": "Zero-altered gamma (hurdle) GLMM fit of root dry weight across soil depth by priority-effect treatment (paper Figure 4 analog), generated from the authors' shared data.",
         "caption": "Zero-altered gamma (hurdle) GLMM fit of root dry weight across soil depth by priority-effect treatment (paper Figure 4 analog), generated from the authors' shared data."
       }
+    },
+    {
+      "public_id": "p-922683b82a1bc389b720ed916b63b03e",
+      "title": "FluoSpec 2-An Automated Field Spectroscopy System to Monitor Canopy Solar-Induced Fluorescence.",
+      "doi": "10.3390/s18072063",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Runs the FluoSpec 2 author R post-processing (dark subtraction, nonlinearity correction, calibration to irradiance/radiance, reflectance, SF SIF retrieval) verbatim on the repository's bundled 2017-05-02 QE-Pro/HR2000+ sample pair; single-example scope, hardware acquisition and SVD retrieval not covered.",
+      "semantic_tags": [
+        "environment:field",
+        "modality:fluorescence",
+        "modality:spectroscopy",
+        "organ:whole_plant",
+        "task:physiology",
+        "task:preprocessing",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "Calibrated QE-Pro spectra for the bundled 2017-05-02 sample: irradiance and radiance (mW m-2 sr-1 nm-1), reflectance, and SF-retrieved SIF in the 759-764 nm O2-A window.",
+        "caption": "Calibrated QE-Pro spectra for the bundled 2017-05-02 sample: irradiance and radiance (mW m-2 sr-1 nm-1), reflectance, and SF-retrieved SIF in the 759-764 nm O2-A window."
+      }
     }
   ]
 }
