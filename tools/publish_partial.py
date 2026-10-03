@@ -60,6 +60,7 @@ def main():
         readme=README.read_text();link='[Partially verified notebooks](PARTIALLY_VERIFIED.md)'
         if link not in readme: readme=readme.replace('## Notebooks',f'## Partially verified\\n\\n{link} — executed reduced-scope examples with limitations. Excluded from the verified count.\\n\\n## Notebooks',1)
         README.write_text(readme)
+        README.write_text(verified.render(verified.load_manifest()),encoding='utf-8')
         unv=REPO/'unverified.json'
         if unv.exists():
             u=json.loads(unv.read_text());u['notebooks']=[x for x in u.get('notebooks',[]) if x['public_id']!=a.public_id];unv.write_text(json.dumps(u,ensure_ascii=False,indent=2)+'\\n')

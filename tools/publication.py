@@ -29,6 +29,8 @@ SUMMARY_START = "<!-- publication-summary:start -->"
 SUMMARY_END = "<!-- publication-summary:end -->"
 START = "<!-- publication-table:start -->"
 END = "<!-- publication-table:end -->"
+INDEX_START = "<!-- notebook-index:start -->"
+INDEX_END = "<!-- notebook-index:end -->"
 PUBLIC_ID = re.compile(r"p-[a-f0-9]{32}\Z")
 PNG_MAGIC = b"\x89PNG\r\n\x1a\n"
 MAX_PREVIEW_BYTES = 8_000_000
@@ -157,17 +159,64 @@ def write_summary(data: dict) -> None:
     SUMMARY.write_text(render_summary(data), encoding="utf-8")
 
 
+def render_notebook_index(data: dict) -> str:
+    entries = sorted(data["notebooks"], key=lambda entry: (entry["title"].casefold(), entry["public_id"]))
+    items = []
+    for entry in entries:
+        public_id = entry["public_id"]
+        title = entry["title"].replace(chr(92), chr(92) * 2).replace("[", chr(92) + "[").replace("]", chr(92) + "]")
+        notebook = f"notebooks/{public_id}.ipynb"
+        colab = f"https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/{notebook}"
+        items.append(f"- [{title}]({notebook}) · [Open in Colab]({colab})")
+    if not items:
+        items.append("- No execution-verified notebooks have been published yet.")
+
+    links = [
+        "- [Notebook index](#notebook-index)",
+        "- [Failed attempts](FAILED.md)",
+        "- [Unverified and incomplete notebooks](UNVERIFIED.md)",
+    ]
+    if (REPO / "PARTIALLY_VERIFIED.md").is_file():
+        links.insert(2, "- [Partially verified notebooks](PARTIALLY_VERIFIED.md)")
+    links.extend([
+        "- [Validation and limitations](#validation-and-limitations)",
+        "- [Maintainers](#maintainers)",
+        "- [Sources and rights](#sources-and-rights)",
+    ])
+    count = len(entries)
+    return "\n".join([
+        "## Contents",
+        "",
+        *links,
+        "",
+        "### Notebook index",
+        "",
+        "<details>",
+        f"<summary>Browse all {count} execution-verified notebooks alphabetically</summary>",
+        "",
+        *items,
+        "",
+        "</details>",
+    ])
+
+
 def render(data: dict) -> str:
     current = README.read_text(encoding="utf-8")
     if current.count(START) != 1 or current.count(END) != 1:
         fail("README must contain exactly one publication-table marker pair")
     if current.count(SUMMARY_START) != 1 or current.count(SUMMARY_END) != 1:
         fail("README must contain exactly one publication-summary marker pair")
+    if current.count(INDEX_START) != 1 or current.count(INDEX_END) != 1:
+        fail("README must contain exactly one notebook-index marker pair")
     count = len(data["notebooks"])
     before_summary, summary_rest = current.split(SUMMARY_START, 1)
     _, after_summary = summary_rest.split(SUMMARY_END, 1)
     card = f'<a href="#notebooks"><img src="assets/notebook-summary.svg" width="960" alt="PhenoPaper × Google Colab — {count} execution-verified notebooks" /></a>'
     current = before_summary + SUMMARY_START + "\n" + card + "\n" + SUMMARY_END + after_summary
+    before, rest = current.split(INDEX_START, 1)
+    _, after = rest.split(INDEX_END, 1)
+    index = render_notebook_index(data)
+    current = before + INDEX_START + "\n" + index + "\n" + INDEX_END + after
     table = "\n".join(["| Paper and run details | Preview |", "| --- | --- |", *(row(e) for e in data["notebooks"])])
     before, rest = current.split(START, 1)
     _, after = rest.split(END, 1)

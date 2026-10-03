@@ -4,9 +4,9 @@
 2. Inspect and pin the source revision, model/data assets, and their licenses. Keep credentials out of notebooks and commits.
 3. Build a self-contained notebook and state exactly which part of the method it demonstrates.
 4. Run all cells on a fresh Colab runtime. Inspect saved outputs, errors, and generated result files.
-5. Run `tools/publication.py publish` from the persistent DGX checkout. It validates the saved notebook and archived Colab result, updates the single `publication.json`, extracts a preview from a saved PNG output, regenerates the README table and summary card, commits, and pushes. See the command example below.
+5. Run the publication tool from the persistent DGX checkout. It validates the saved notebook and archived Colab result, updates publication.json, extracts a preview from a saved PNG output, regenerates the README notebook index, publication table, and summary card, commits, and pushes. See the command example below.
 
-The README summary card (`assets/notebook-summary.svg`), its accessible notebook count, and the table between the marker comments are generated from [`publication.json`](publication.json). Edit the manifest for metadata corrections, then run `python3 tools/publication.py render`. The card counts the manifest’s unique published notebooks, regardless of runtime type. Every successful publication updates and commits the card automatically; no external badge service or scheduled job is needed. Do not edit the SVG, summary block, or table rows by hand. A successful publication requires GitHub authentication in the process environment or `gh auth` configuration. Failed or code-only runs stay in the DGX run directory and are not published.
+The README summary card, collapsible alphabetized notebook index, publication table, and accessible notebook count are generated from publication.json. The index links to each GitHub notebook and its Colab launch page. Edit the manifest for metadata corrections, then run the publication tool in render mode. Every successful verified publication refreshes and commits the index, table, and card automatically; no external badge service or scheduled job is needed. Do not edit the SVG, generated index, summary block, or table rows by hand.
 
 ```bash
 python3 tools/publication.py publish \
