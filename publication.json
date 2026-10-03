@@ -1426,6 +1426,22 @@
         "alt": "Per-descriptor agreement between the Python port of PhenoApp's export logic and the authors' real app output (Output_example.xls).",
         "caption": "Per-descriptor agreement between the Python port of PhenoApp's export logic and the authors' real app output (Output_example.xls)."
       }
+    },
+    {
+      "public_id": "p-57dbb7f466cda2e3dae16b3ae6a2857e",
+      "title": "Making WAVES in Breedbase: An Integrated Spectral Data Storage and Analysis Pipeline for Plant Breeding Programs",
+      "doi": "10.1101/2020.09.18.278549",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Reproduces the paper's example-dataset evaluation: waves (pinned GoreLab commit) PLSR on the bundled ikeogu.2017 cassava spectra in Colab via Rscript; test-set R2p 0.84 (RDMC, SNV) and 0.92 (TCC, SGD1) versus reported 0.86/0.95, CPU only, C16Mcal/C16Mval split instead of the unpublished Supplemental Table 2 split.",
+      "semantic_tags": [
+        "modality:spectroscopy",
+        "task:preprocessing"
+      ],
+      "preview": {
+        "alt": "Observed vs. waves-PLSR-predicted root dry matter content on the held-out C16Mval test set (best pretreatment SNV, mean R2p 0.838).",
+        "caption": "Observed vs. waves-PLSR-predicted root dry matter content on the held-out C16Mval test set (best pretreatment SNV, mean R2p 0.838)."
+      }
     }
   ]
 }
