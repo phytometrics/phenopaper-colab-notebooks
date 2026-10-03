@@ -1602,6 +1602,25 @@
         "alt": "Fitted Gaussian-like floral opening curves for the demo RILs (RIL51, RIL29, RIL214) over standardized floral pixel counts at hourly time points, estimated by MCMC in Colab.",
         "caption": "Fitted Gaussian-like floral opening curves for the demo RILs (RIL51, RIL29, RIL214) over standardized floral pixel counts at hourly time points, estimated by MCMC in Colab."
       }
+    },
+    {
+      "public_id": "p-ca62c72d99e31786d8df4af17a50ccc1",
+      "title": "Root Phenotyping Using Pose Estimation",
+      "doi": "10.22541/essoar.169870225.52041777/v1",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Reproduces the paper's dicot trait-extraction stage with sleap-roots DicotPipeline on the authors' 919QDUH canola fixture (72 frames), matching the authors' reference trait CSV; SLEAP inference and dataset-level results are not included.",
+      "semantic_tags": [
+        "organ:root",
+        "task:classification",
+        "task:morphology",
+        "task:pose",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "919QDUH frame 0 RADICYL gel-cylinder image with the authors' SLEAP-predicted primary (orange) and lateral (cyan) root landmarks",
+        "caption": "919QDUH frame 0 RADICYL gel-cylinder image with the authors' SLEAP-predicted primary (orange) and lateral (cyan) root landmarks"
+      }
     }
   ]
 }
