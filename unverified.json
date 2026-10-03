@@ -36,6 +36,18 @@
       "notebook_sha256": "ba9685711eb2d8fb616798fb78b66749ba92c966c21feb5022459aa224d5b821",
       "source_sha256": "9e7f4af4ce007c38cf72050cbb84b265c8e0e3ba9446c3b64fac5cfbf6f6fc5d",
       "code_cells": 8
+    },
+    {
+      "public_id": "p-138a6dea3b64aadf4843d6d64fcbf37b",
+      "title": "OrchardQuant ‐ 3D : combining drone and LiDAR to perform scalable 3D phenotyping for characterising key canopy and floral traits in fruit orchards",
+      "investigation_run_id": "p-138a6dea3b64aadf4843d6d64fcbf37b-20260929T234939Z-3086179",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-138a6dea3b64aadf4843d6d64fcbf37b-20261003T030644Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nTimeoutError: Timeout waiting for reply\nTypeError: 'int' object is not subscriptable\nError: Cannot connect to API: Unable to connect. Is the computer able to access the url?",
+      "created_on": "2026-10-03",
+      "notebook_path": "notebooks/unverified/p-138a6dea3b64aadf4843d6d64fcbf37b.ipynb",
+      "notebook_sha256": "7be7db9c3de1a1300aa59b98b2964cb59dd40e40bd6598b832235abc2758c436",
+      "source_sha256": "33e58c0ec28c0b284640e8c6cb9ae422f9eb196ae0f248459b6a366b05cd966d",
+      "code_cells": 13
     }
   ]
 }
