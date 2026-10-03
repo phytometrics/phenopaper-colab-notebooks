@@ -1401,6 +1401,31 @@
         "alt": "Mean train/test R2 of the best morphological-feature combination per model size for the three breeding targets, over 100 seeded 70/30 accession splits; dashed lines mark the paper's reported best R2 (Figure 5).",
         "caption": "Mean train/test R2 of the best morphological-feature combination per model size for the three breeding targets, over 100 seeded 70/30 accession splits; dashed lines mark the paper's reported best R2 (Figure 5)."
       }
+    },
+    {
+      "public_id": "p-70fa1c051d6fb330e7e8104d716387cf",
+      "title": "PhenoApp: A mobile tool for plant phenotyping to record field and greenhouse observations",
+      "doi": "10.12688/f1000research.74239.1",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Adapted CPU demonstration of PhenoApp's file-based import/export workflow: parses the authors' Input_example.xls, ports the Writer.java export transformation to Python, and verifies it cell-by-cell against the authors' real Output_example.xls; the Android GUI itself is not runnable in Colab.",
+      "semantic_tags": [
+        "crop:apple",
+        "crop:grapevine",
+        "crop:maize",
+        "crop:potato",
+        "crop:rapeseed",
+        "crop:rice",
+        "environment:field",
+        "environment:greenhouse",
+        "environment:laboratory",
+        "organ:whole_plant",
+        "task:annotation_qc"
+      ],
+      "preview": {
+        "alt": "Per-descriptor agreement between the Python port of PhenoApp's export logic and the authors' real app output (Output_example.xls).",
+        "caption": "Per-descriptor agreement between the Python port of PhenoApp's export logic and the authors' real app output (Output_example.xls)."
+      }
     }
   ]
 }
