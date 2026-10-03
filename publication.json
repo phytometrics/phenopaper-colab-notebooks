@@ -1336,6 +1336,30 @@
         "alt": "Monthly CARI boxplots (0-1 display-normalized) for 109 S. queretaroensis plants, January-May 2025, adapted computation",
         "caption": "Monthly CARI boxplots (0-1 display-normalized) for 109 S. queretaroensis plants, January-May 2025, adapted computation"
       }
+    },
+    {
+      "public_id": "p-4b9e17d68a546cca54a31f48c22f9375",
+      "title": "SeedGerm: a cost‐effective phenotyping platform for automated seed imaging and machine‐learning based phenotypic analysis of crop seed germination",
+      "doi": "10.1111/nph.16736",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Runs the pinned SeedGerm author pipeline end-to-end on the released tomato image series (167 hourly frames, 6 panels x 64 seeds) in Colab CPU, regenerating the germination CSVs and figures; GUI-only YUV slider values are replaced by a documented automatic threshold and per-panel germination fractions of 0.92-1.00 were observed.",
+      "semantic_tags": [
+        "crop:barley",
+        "crop:maize",
+        "crop:pepper",
+        "crop:rapeseed",
+        "crop:tomato",
+        "environment:field",
+        "environment:greenhouse",
+        "organ:seed",
+        "organ:whole_plant",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Per-panel cumulative germination (SeedGerm pipeline output, tomato release v0.1.1 series)",
+        "caption": "Per-panel cumulative germination (SeedGerm pipeline output, tomato release v0.1.1 series)"
+      }
     }
   ]
 }
