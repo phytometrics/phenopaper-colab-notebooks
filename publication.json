@@ -1639,6 +1639,30 @@
         "alt": "Ensemble-scaling Monte Carlo from stored predictions (blue, 6 types) against the authors' stored per-model-type result curves (dashed).",
         "caption": "Ensemble-scaling Monte Carlo from stored predictions (blue, 6 types) against the authors' stored per-model-type result curves (dashed)."
       }
+    },
+    {
+      "public_id": "p-6ae840df1b23fe0c8f41e6ec273e7230",
+      "title": "Drought-Spec-Net: Early Tomato Drought Detection and Potential Yield-Impact Assessment Using Vis–NIR Data",
+      "doi": "10.64898/2026.09.24.754113",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Recomputed plant-level RGB-derived DSI and healthy fraction for all 44 author-released ilastik masks using the authors' pinned, unmodified script on Colab CPU; spectral Drought-Spec-Net training and AgriLLaMA reporting are out of scope (no released weights).",
+      "semantic_tags": [
+        "crop:tomato",
+        "environment:greenhouse",
+        "modality:rgb",
+        "modality:spectral",
+        "organ:whole_plant",
+        "task:classification",
+        "task:segmentation",
+        "task:stress_disease",
+        "trait:stress_response",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Original greenhouse tomato image with the author-supplied ilastik mask overlay (green=healthy 128, red=visibly stressed 255)",
+        "caption": "Original greenhouse tomato image with the author-supplied ilastik mask overlay (green=healthy 128, red=visibly stressed 255)"
+      }
     }
   ]
 }
