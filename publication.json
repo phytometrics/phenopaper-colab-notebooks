@@ -1621,6 +1621,24 @@
         "alt": "919QDUH frame 0 RADICYL gel-cylinder image with the authors' SLEAP-predicted primary (orange) and lateral (cyan) root landmarks",
         "caption": "919QDUH frame 0 RADICYL gel-cylinder image with the authors' SLEAP-predicted primary (orange) and lateral (cyan) root landmarks"
       }
+    },
+    {
+      "public_id": "p-b8857f10f1bb9955b5001d4f6deb2885",
+      "title": "Ensemble of BLUP, Machine Learning, and Deep Learning Models Predict Maize Yield Better Than Each Model Alone",
+      "doi": "10.21203/rs.3.rs-2757632/v1",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Partial reproduction of the ensemble-composition analyses (pairwise improvement probability, scaling Monte Carlo, genetic-algorithm search) from the authors' stored predictions for 6 of 8 model types; DNN-CO/DNN-SO predictions are not publicly archived.",
+      "semantic_tags": [
+        "crop:maize",
+        "environment:field",
+        "task:yield_biomass",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Ensemble-scaling Monte Carlo from stored predictions (blue, 6 types) against the authors' stored per-model-type result curves (dashed).",
+        "caption": "Ensemble-scaling Monte Carlo from stored predictions (blue, 6 types) against the authors' stored per-model-type result curves (dashed)."
+      }
     }
   ]
 }
