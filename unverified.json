@@ -48,6 +48,18 @@
       "notebook_sha256": "7be7db9c3de1a1300aa59b98b2964cb59dd40e40bd6598b832235abc2758c436",
       "source_sha256": "33e58c0ec28c0b284640e8c6cb9ae422f9eb196ae0f248459b6a366b05cd966d",
       "code_cells": 13
+    },
+    {
+      "public_id": "p-50e1c2fb18dfbb4e76ee141d512cf54b",
+      "title": "Evaluation of a low-cost staining method for improved visualization of sweet potato whitefly (Bemisia tabaci) eggs on multiple crop plant species",
+      "investigation_run_id": "p-50e1c2fb18dfbb4e76ee141d512cf54b-20260929T231738Z-3062754",
+      "status": "failed",
+      "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-50e1c2fb18dfbb4e76ee141d512cf54b-20261003T053520Z-b64d8905/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\n[2026-10-03T05:40:29.055Z] ! permission requested: external_directory (/home/notes/*); auto-rejecting",
+      "created_on": "2026-10-03",
+      "notebook_path": "notebooks/unverified/p-50e1c2fb18dfbb4e76ee141d512cf54b.ipynb",
+      "notebook_sha256": "7ba18040ee73652cb1244468eb9f46fa447c488a599e0f79b604ffba8e435590",
+      "source_sha256": "a935e95a104d42a2a2686c03b07bace9379553ed559b9df2b424543e23978376",
+      "code_cells": 5
     }
   ]
 }

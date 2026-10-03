@@ -161,6 +161,16 @@
       "reason": "OpenCode/reporter exited with status 1; see run log p-138a6dea3b64aadf4843d6d64fcbf37b-20261003T030644Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nTimeoutError: Timeout waiting for reply\nTypeError: 'int' object is not subscriptable\nError: Cannot connect to API: Unable to connect. Is the computer able to access the url?",
       "created_on": "2026-10-03",
       "notebook_path": "notebooks/unverified/p-138a6dea3b64aadf4843d6d64fcbf37b.ipynb"
+    },
+    {
+      "public_id": "p-50e1c2fb18dfbb4e76ee141d512cf54b",
+      "title": "Evaluation of a low-cost staining method for improved visualization of sweet potato whitefly (Bemisia tabaci) eggs on multiple crop plant species",
+      "investigation_run_id": "p-50e1c2fb18dfbb4e76ee141d512cf54b-20260929T231738Z-3062754",
+      "run_id": "p-50e1c2fb18dfbb4e76ee141d512cf54b-20261003T053520Z-b64d8905",
+      "status": "failed",
+      "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-50e1c2fb18dfbb4e76ee141d512cf54b-20261003T053520Z-b64d8905/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\n[2026-10-03T05:40:29.055Z] ! permission requested: external_directory (/home/notes/*); auto-rejecting",
+      "created_on": "2026-10-03",
+      "notebook_path": "notebooks/unverified/p-50e1c2fb18dfbb4e76ee141d512cf54b.ipynb"
     }
   ]
 }
