@@ -1479,6 +1479,24 @@
         "alt": "GBIF training leaves in the plane of the two traits retained by the Lasso (ellipsoid score vs petiole:blade ratio), colored by species (notebook-created visualization)",
         "caption": "GBIF training leaves in the plane of the two traits retained by the Lasso (ellipsoid score vs petiole:blade ratio), colored by species (notebook-created visualization)"
       }
+    },
+    {
+      "public_id": "p-1b1ab42c1c7a9204d2b3804fdede6367",
+      "title": "A massive community-science flower color dataset reveals convergent evolution of delayed flowering phenology in North American red-flowering plants",
+      "doi": "10.1101/2024.09.25.614826",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Regenerates the authors' color-labeled iNaturalist observation dataset (notebooks 1+3) and reproduces the Figure 2A-style eastern-U.S. northern-edge flowering lag from the pinned repository; GPT-4V labeling, MaxEnt and TRY analyses are out of scope.",
+      "semantic_tags": [
+        "organ:flower",
+        "task:classification",
+        "trait:growth_development",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "Reproduced Figure 2A-style northern-edge latitude by flower color through spring in the eastern U.S. (LOWESS-smoothed 80th-percentile latitude per 15-day window); red and orange trail white and other colors.",
+        "caption": "Reproduced Figure 2A-style northern-edge latitude by flower color through spring in the eastern U.S. (LOWESS-smoothed 80th-percentile latitude per 15-day window); red and orange trail white and other colors."
+      }
     }
   ]
 }
