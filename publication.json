@@ -1460,6 +1460,25 @@
         "alt": "ABC-SMC parameter posteriors for growth rate g, branching rate b, lateral ratio gl and l_max on the embedded Arabidopsis data (final tolerance 3)",
         "caption": "ABC-SMC parameter posteriors for growth rate g, branching rate b, lateral ratio gl and l_max on the embedded Arabidopsis data (final tolerance 3)"
       }
+    },
+    {
+      "public_id": "p-a0e294445f62e5511c479afcf51c9cb9",
+      "title": "Garryanalyzer: A morphometric workflow and open-source ImageJ plug-in for quantitative morphological analysis of Pacific Northwest Quercus leaves.",
+      "doi": "10.1002/aps3.70069",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Reproduces the paper's two-trait Lasso logistic regression (ellipsoid score + petiole:blade ratio) from the authors' own R script and measurement CSVs, verifying the published coefficients and 38/40 GBIF accuracy, and applies it to the 42 Portland trees; the ImageJ plug-in workflow itself is out of scope.",
+      "semantic_tags": [
+        "environment:laboratory",
+        "organ:leaf",
+        "task:classification",
+        "task:morphology",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "GBIF training leaves in the plane of the two traits retained by the Lasso (ellipsoid score vs petiole:blade ratio), colored by species (notebook-created visualization)",
+        "caption": "GBIF training leaves in the plane of the two traits retained by the Lasso (ellipsoid score vs petiole:blade ratio), colored by species (notebook-created visualization)"
+      }
     }
   ]
 }
