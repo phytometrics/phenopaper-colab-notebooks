@@ -1521,6 +1521,27 @@
         "alt": "Measured vs predicted segment cross-sectional area (log-log) for the structural model (SM) and pipe-model baseline (PMT); SM nRMSE 0.011, EF 0.98",
         "caption": "Measured vs predicted segment cross-sectional area (log-log) for the structural model (SM) and pipe-model baseline (PMT); SM nRMSE 0.011, EF 0.98"
       }
+    },
+    {
+      "public_id": "p-4d29b51e938eae2b1accf1c5affaf930",
+      "title": "Assembly history modulates vertical root distribution in a grassland experiment",
+      "doi": "10.1101/2021.08.24.457510",
+      "compute": "CPU",
+      "validated_on": "2026-10-03",
+      "demonstration": "Reproduces the paper's root-biomass depth-profile hurdle GLMM and image-derived MRD linear mixed model from the authors' shared data and pinned R code; CNN segmentation from raw photos is out of scope because the photographs are not public.",
+      "semantic_tags": [
+        "environment:laboratory",
+        "organ:root",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:segmentation",
+        "trait:biomass",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "Zero-altered gamma (hurdle) GLMM fit of root dry weight across soil depth by priority-effect treatment (paper Figure 4 analog), generated from the authors' shared data.",
+        "caption": "Zero-altered gamma (hurdle) GLMM fit of root dry weight across soil depth by priority-effect treatment (paper Figure 4 analog), generated from the authors' shared data."
+      }
     }
   ]
 }
