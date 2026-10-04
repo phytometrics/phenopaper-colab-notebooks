@@ -180,6 +180,16 @@
       "reason": "Notebook authored and statically validated but never executed: Colab CPU session allocation refused on 16 attempts over ~38 min (02:46-03:27 UTC 2026-10-02) because the account's four concurrent-session slots are held by other queue workers' sessions; this run must not stop them. All source materials (PhotoPi code @fab92caf, FRDR 10.20383/103.01255, arXiv 2504.16840v1 Sec VI) were verified accessible. Execution environment failure, not missing material.",
       "created_on": "2026-10-02",
       "notebook_path": "notebooks/unverified/p-0dfec3c680bb0e32ef572c9bcc0a1d2c.ipynb"
+    },
+    {
+      "public_id": "p-6f75092e4f4825ddd8125285022cfe18",
+      "title": "Quantitative analysis of plant ER architecture and dynamics.",
+      "investigation_run_id": "p-6f75092e4f4825ddd8125285022cfe18-20260929T122548Z-2606036",
+      "run_id": "p-6f75092e4f4825ddd8125285022cfe18-20261004T043802Z-a1251180",
+      "status": "failed",
+      "reason": "Adapted CPU notebook (ORA ground-truth skeleton validation, phasepack+skimage) executed 10/11 cells on fresh CPU runtimes twice; each run hit a one-line variable-shadowing bug (pc then bg). Both fixed in source, but the 3-session Colab budget was exhausted before a clean fresh full run; notebook source no longer matches any executed output, so no verified publication. Resume with one fresh CPU session to validate the fixed notebook.",
+      "created_on": "2026-10-04",
+      "notebook_path": "notebooks/unverified/p-6f75092e4f4825ddd8125285022cfe18.ipynb"
     }
   ]
 }

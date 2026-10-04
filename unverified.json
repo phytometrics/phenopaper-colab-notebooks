@@ -12,6 +12,18 @@
       "notebook_sha256": "f3435ead475aafe9688c6cc0b3a9057b04098a48f31d6f4c11e962c763491d95",
       "source_sha256": "9519a6966bffc6664a75e13055ab8bb91b67cd3fc4fb809bd020275024da18ea",
       "code_cells": 8
+    },
+    {
+      "public_id": "p-6f75092e4f4825ddd8125285022cfe18",
+      "title": "Quantitative analysis of plant ER architecture and dynamics.",
+      "investigation_run_id": "p-6f75092e4f4825ddd8125285022cfe18-20260929T122548Z-2606036",
+      "status": "failed",
+      "reason": "Adapted CPU notebook (ORA ground-truth skeleton validation, phasepack+skimage) executed 10/11 cells on fresh CPU runtimes twice; each run hit a one-line variable-shadowing bug (pc then bg). Both fixed in source, but the 3-session Colab budget was exhausted before a clean fresh full run; notebook source no longer matches any executed output, so no verified publication. Resume with one fresh CPU session to validate the fixed notebook.",
+      "created_on": "2026-10-04",
+      "notebook_path": "notebooks/unverified/p-6f75092e4f4825ddd8125285022cfe18.ipynb",
+      "notebook_sha256": "e3bf22a8eb692f5aacca28cd1b72d400de410e70cf470d23b4fbb1b3c15d9bda",
+      "source_sha256": "4f6e22a26a356bc5cf1533c93a9bca40de16e524a838184e19c689291f6a4c26",
+      "code_cells": 11
     }
   ]
 }
