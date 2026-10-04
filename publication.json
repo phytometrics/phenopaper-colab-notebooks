@@ -2030,6 +2030,21 @@
         "alt": "Bootstrapped Psi-LWmass slopes: diel (per-tree hydration) and laboratory PV-curve slopes broadly overlap after leaf expansion, while spatial slopes stay shallow and the pre-leafout temporal slope crosses zero.",
         "caption": "Bootstrapped Psi-LWmass slopes: diel (per-tree hydration) and laboratory PV-curve slopes broadly overlap after leaf expansion, while spatial slopes stay shallow and the pre-leafout temporal slope crosses zero."
       }
+    },
+    {
+      "public_id": "p-4d490655aff364e012a19a3dc5d16265",
+      "title": "Orangutan : An R Package for Analyzing and Visualizing Phenotypic Data in the Context of Species Descriptions and Population Comparisons.",
+      "doi": "10.1002/ece3.73111",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "run_orangutan() on the Torres 2024 anole dataset (34 specimens, allometric correction via main_length): PERMANOVA F=13.37, R2=0.648, p=0.001 vs paper 12.62/0.640/0.001; DAPC and PCA figures generated with the authors' pinned R code (Zenodo v2.0.0, commit 4df8536).",
+      "semantic_tags": [
+        "task:classification"
+      ],
+      "preview": {
+        "alt": "DAPC discriminant-space plot of the Torres 2024 anole dataset generated in this run by the pinned Orangutan 2.0.0 pipeline (author code; not a copy of a paper figure).",
+        "caption": "DAPC discriminant-space plot of the Torres 2024 anole dataset generated in this run by the pinned Orangutan 2.0.0 pipeline (author code; not a copy of a paper figure)."
+      }
     }
   ]
 }
