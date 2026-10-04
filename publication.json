@@ -2404,6 +2404,24 @@
         "alt": "SHAP beeswarm of the committed saved random forest for Yield_class, reproduced with the author's kernelshap/shapviz parameters.",
         "caption": "SHAP beeswarm of the committed saved random forest for Yield_class, reproduced with the author's kernelshap/shapviz parameters."
       }
+    },
+    {
+      "public_id": "p-0b16d2f84472b2dd6f481c1da6690fee",
+      "title": "Deep learning-driven automatic counting of petal number in cut chrysanthemum inflorescence.",
+      "doi": "10.1016/j.plaphe.2026.100238",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Runs the authors' released SE-CSRNet inference (test.py) on all 70 bundled chrysanthemum test images, comparing density-integral predicted counts against ground-truth .h5 density integrals (MAE 6.08, RMSE 9.42); training and RF calibration stages are not released and are out of scope.",
+      "semantic_tags": [
+        "organ:flower",
+        "organ:inflorescence",
+        "task:counting",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Authors' test image Q1-105_IMG_9614 with its ground-truth petal density map (integral = 21) overlaid.",
+        "caption": "Authors' test image Q1-105_IMG_9614 with its ground-truth petal density map (integral = 21) overlaid."
+      }
     }
   ]
 }
