@@ -2464,6 +2464,26 @@
         "alt": "CVRP sample T42_1220.jpg with the released Mask2Former panicle prediction: input, red panicle mask, and authors'-style overlay",
         "caption": "CVRP sample T42_1220.jpg with the released Mask2Former panicle prediction: input, red panicle mask, and authors'-style overlay"
       }
+    },
+    {
+      "public_id": "p-f5cc2b2abde4aecd698ddbc66195da9a",
+      "title": "SeptoSympto: A high-throughput image analysisof Septoria tritici blotch disease symptoms using deep learning methods",
+      "doi": "10.21203/rs.3.rs-3111942/v1",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Runs the authors' pinned SeptoSympto script (U-Net necrosis + YOLOv5 pycnidia inference) unchanged on two author-provided leaf images on CPU; raw 1200-dpi A4 scans are not public, so published evaluation-set JPGs are used.",
+      "semantic_tags": [
+        "crop:wheat",
+        "organ:leaf",
+        "task:object_detection",
+        "task:segmentation",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Author leaf image with SeptoSympto overlay: green necrosis contours and magenta pycnidia detections",
+        "caption": "Author leaf image with SeptoSympto overlay: green necrosis contours and magenta pycnidia detections"
+      }
     }
   ]
 }
