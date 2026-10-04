@@ -2,6 +2,15 @@
   "schema_version": 1,
   "failures": [
     {
+      "public_id": "p-b72c635278b9713daa70b49a32b1a3b9",
+      "title": "Leveraging data from the Genomes-to-Fields Initiative to investigate genotype-by-environment interactions in maize in North America.",
+      "investigation_run_id": "p-b72c635278b9713daa70b49a32b1a3b9-20260930T033734Z-3221700",
+      "run_id": "p-b72c635278b9713daa70b49a32b1a3b9-20261004T001318Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-04T00:20:39.557Z] ! permission requested: external_directory (/*); auto-rejecting | [2026-10-04T00:20:39.557Z] ✗ python3 /home/phyto/phenotyping-colab/runs/p-b72c635278b9713daa70b49a32b1a3b9-20261004T001318Z/logs/build_probe3.py && python3 -c \"import nbformat; nbformat.validate(nbformat.read('/home/phyto/phenotyping-colab/ | [2026-10-04T00:20:39.557Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-04"
+    },
+    {
       "public_id": "p-fa3906fba18509294e40956ca07453b8",
       "title": "Estimating photosynthetic capacity from leaf reflectance and Chl fluorescence by coupling radiative transfer to a model for photosynthesis.",
       "investigation_run_id": "p-fa3906fba18509294e40956ca07453b8-20260930T011633Z-3141819",
@@ -30,6 +39,16 @@
       "created_on": "2026-10-03"
     },
     {
+      "public_id": "p-50e1c2fb18dfbb4e76ee141d512cf54b",
+      "title": "Evaluation of a low-cost staining method for improved visualization of sweet potato whitefly (Bemisia tabaci) eggs on multiple crop plant species",
+      "investigation_run_id": "p-50e1c2fb18dfbb4e76ee141d512cf54b-20260929T231738Z-3062754",
+      "run_id": "p-50e1c2fb18dfbb4e76ee141d512cf54b-20261003T053520Z-b64d8905",
+      "status": "failed",
+      "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-50e1c2fb18dfbb4e76ee141d512cf54b-20261003T053520Z-b64d8905/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\n[2026-10-03T05:40:29.055Z] ! permission requested: external_directory (/home/notes/*); auto-rejecting",
+      "created_on": "2026-10-03",
+      "notebook_path": "notebooks/unverified/p-50e1c2fb18dfbb4e76ee141d512cf54b.ipynb"
+    },
+    {
       "public_id": "p-26803902b06687ba40965f751a09e633",
       "title": "Stepping up to the thermogradient plate: a data framework for predicting seed germination under climate change.",
       "investigation_run_id": "p-26803902b06687ba40965f751a09e633-20260930T015635Z-3164947",
@@ -37,6 +56,16 @@
       "status": "failed",
       "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-26803902b06687ba40965f751a09e633-20261002T163305Z/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\nFileNotFoundError: [Errno 2] No such file or directory: 'logs/probe2_output.ipynb'\n! permission requested: external_directory (/tmp/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
       "created_on": "2026-10-03"
+    },
+    {
+      "public_id": "p-138a6dea3b64aadf4843d6d64fcbf37b",
+      "title": "OrchardQuant ‐ 3D : combining drone and LiDAR to perform scalable 3D phenotyping for characterising key canopy and floral traits in fruit orchards",
+      "investigation_run_id": "p-138a6dea3b64aadf4843d6d64fcbf37b-20260929T234939Z-3086179",
+      "run_id": "p-138a6dea3b64aadf4843d6d64fcbf37b-20261003T030721Z",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-138a6dea3b64aadf4843d6d64fcbf37b-20261003T030644Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nTimeoutError: Timeout waiting for reply\nTypeError: 'int' object is not subscriptable\nError: Cannot connect to API: Unable to connect. Is the computer able to access the url?",
+      "created_on": "2026-10-03",
+      "notebook_path": "notebooks/unverified/p-138a6dea3b64aadf4843d6d64fcbf37b.ipynb"
     },
     {
       "public_id": "p-f4b6761b68409a38fe07554143d7229c",
@@ -151,26 +180,6 @@
       "reason": "Notebook authored and statically validated but never executed: Colab CPU session allocation refused on 16 attempts over ~38 min (02:46-03:27 UTC 2026-10-02) because the account's four concurrent-session slots are held by other queue workers' sessions; this run must not stop them. All source materials (PhotoPi code @fab92caf, FRDR 10.20383/103.01255, arXiv 2504.16840v1 Sec VI) were verified accessible. Execution environment failure, not missing material.",
       "created_on": "2026-10-02",
       "notebook_path": "notebooks/unverified/p-0dfec3c680bb0e32ef572c9bcc0a1d2c.ipynb"
-    },
-    {
-      "public_id": "p-138a6dea3b64aadf4843d6d64fcbf37b",
-      "title": "OrchardQuant ‐ 3D : combining drone and LiDAR to perform scalable 3D phenotyping for characterising key canopy and floral traits in fruit orchards",
-      "investigation_run_id": "p-138a6dea3b64aadf4843d6d64fcbf37b-20260929T234939Z-3086179",
-      "run_id": "p-138a6dea3b64aadf4843d6d64fcbf37b-20261003T030721Z",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-138a6dea3b64aadf4843d6d64fcbf37b-20261003T030644Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nTimeoutError: Timeout waiting for reply\nTypeError: 'int' object is not subscriptable\nError: Cannot connect to API: Unable to connect. Is the computer able to access the url?",
-      "created_on": "2026-10-03",
-      "notebook_path": "notebooks/unverified/p-138a6dea3b64aadf4843d6d64fcbf37b.ipynb"
-    },
-    {
-      "public_id": "p-50e1c2fb18dfbb4e76ee141d512cf54b",
-      "title": "Evaluation of a low-cost staining method for improved visualization of sweet potato whitefly (Bemisia tabaci) eggs on multiple crop plant species",
-      "investigation_run_id": "p-50e1c2fb18dfbb4e76ee141d512cf54b-20260929T231738Z-3062754",
-      "run_id": "p-50e1c2fb18dfbb4e76ee141d512cf54b-20261003T053520Z-b64d8905",
-      "status": "failed",
-      "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-50e1c2fb18dfbb4e76ee141d512cf54b-20261003T053520Z-b64d8905/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\n[2026-10-03T05:40:29.055Z] ! permission requested: external_directory (/home/notes/*); auto-rejecting",
-      "created_on": "2026-10-03",
-      "notebook_path": "notebooks/unverified/p-50e1c2fb18dfbb4e76ee141d512cf54b.ipynb"
     }
   ]
 }
