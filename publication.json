@@ -2225,6 +2225,29 @@
         "alt": "MVBLUP differential-evolution learning curve: per-view optimal weights across iterations, reproduced from the authors' pinned demo (author reference match).",
         "caption": "MVBLUP differential-evolution learning curve: per-view optimal weights across iterations, reproduced from the authors' pinned demo (author reference match)."
       }
+    },
+    {
+      "public_id": "p-b4752a1bb797dbe22bd57e5046de879a",
+      "title": "TomatoPGT: A 3D point cloud dataset of tomato plants for segmentation and plant-trait extraction.",
+      "doi": "10.1016/j.dib.2026.112642",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Adapted CPU re-implementation of TomatoPGT graph-based trait extraction (semantic graph, internode lengths, insertion/phyllotactic angles) on the authors' released annotated BFS_06242025 point cloud; the authors' CloudGraph binary is Windows-only and was not executed.",
+      "semantic_tags": [
+        "crop:tomato",
+        "environment:greenhouse",
+        "modality:photogrammetry",
+        "modality:point_cloud",
+        "modality:rgb",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:segmentation",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "BFS_06242025 annotated tomato point cloud (authors' released reference annotation overlay) rendered from three viewpoints",
+        "caption": "BFS_06242025 annotated tomato point cloud (authors' released reference annotation overlay) rendered from three viewpoints"
+      }
     }
   ]
 }
