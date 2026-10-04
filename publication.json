@@ -2292,6 +2292,25 @@
         "alt": "Scenario I: TLS ground-truth point cloud (green) vs NeRFacto reconstruction (red) after released-matrix + ICP alignment, with an input Polycam frame.",
         "caption": "Scenario I: TLS ground-truth point cloud (green) vs NeRFacto reconstruction (red) after released-matrix + ICP alignment, with an input Polycam frame."
       }
+    },
+    {
+      "public_id": "p-914960d699e096d19546d1101dd210a3",
+      "title": "Unravelling the different components of nonphotochemical quenching using a novel analytical pipeline.",
+      "doi": "10.1111/nph.20271",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Executed the Yggdrasill NPQ deconvolution pipeline (PCA, full-harmonic phasor analysis, adapted-ALS NMF) as an AI-assisted Python reimplementation on the authors' 85-curve wt and 37-curve npq1 datasets; the author implementation is an opaque Windows binary, so results are plausibility-checked against paper text values only.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "modality:fluorescence",
+        "organ:whole_plant",
+        "task:physiology",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "wt Arabidopsis NPQ induction curves (85) from the authors' pinned dataset, coloured by (1-qP)ss",
+        "caption": "wt Arabidopsis NPQ induction curves (85) from the authors' pinned dataset, coloured by (1-qP)ss"
+      }
     }
   ]
 }
