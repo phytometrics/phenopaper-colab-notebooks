@@ -2152,6 +2152,26 @@
         "alt": "Annual shoots (AS, green) and pruned shoots (PS, orange) extracted and clustered from the e1-8 sample tree point clouds.",
         "caption": "Annual shoots (AS, green) and pruned shoots (PS, orange) extracted and clustered from the e1-8 sample tree point clouds."
       }
+    },
+    {
+      "public_id": "p-1fad5a8aaeb9ad87574e562671e77946",
+      "title": "Predicting Phenotypic Traits Using a Massive RNA-seq Dataset",
+      "doi": "10.1101/2023.12.05.570195",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Retrains the paper's tissue-4 random forest from the authors' archived MRN BioProject-disjoint split pickle with their exact final hyperparameters; test accuracy 0.9955 / macro F1 0.9968 (paper: 0.994/0.995). Does not reproduce SRA reprocessing, normalization ANOVA, age regression, or later analyses.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "organ:tissue",
+        "task:classification",
+        "task:preprocessing",
+        "task:time_series",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Test-set confusion matrix (Flower/Leaf/Root/Seed) of the reproduced tissue-4 random forest, 300 DPI",
+        "caption": "Test-set confusion matrix (Flower/Leaf/Root/Seed) of the reproduced tissue-4 random forest, 300 DPI"
+      }
     }
   ]
 }
