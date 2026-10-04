@@ -1776,6 +1776,25 @@
         "alt": "Fitted net CO2 assimilation A-Q response curve for the sample leaf Y20-2D-2: measured points and the author program's fit produced by the executed notebook.",
         "caption": "Fitted net CO2 assimilation A-Q response curve for the sample leaf Y20-2D-2: measured points and the author program's fit produced by the executed notebook."
       }
+    },
+    {
+      "public_id": "p-fa3906fba18509294e40956ca07453b8",
+      "title": "Estimating photosynthetic capacity from leaf reflectance and Chl fluorescence by coupling radiative transfer to a model for photosynthesis.",
+      "doi": "10.1111/nph.15782",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Runs the authors' pinned Fluspect MATLAB code (d6c2fad) under Octave to invert per-leaf PROSPECT parameters (Cab, Cdm, Cw, Cs, Cca, N) from the repository's example measured leaf reflectance/transmittance — stage 1 of the paper's Method 3; the full Vcmax retrieval is not reproducible (chamber/FluoWat data and coupled-inversion script unpublished).",
+      "semantic_tags": [
+        "modality:fluorescence",
+        "modality:spectral",
+        "organ:leaf",
+        "task:physiology",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "Leaf 1: measured reflectance and 1−transmittance (x) versus the Fluspect-fitted spectra from the pinned author code inverted in Octave",
+        "caption": "Leaf 1: measured reflectance and 1−transmittance (x) versus the Fluspect-fitted spectra from the pinned author code inverted in Octave"
+      }
     }
   ]
 }
