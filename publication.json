@@ -1663,6 +1663,31 @@
         "alt": "Original greenhouse tomato image with the author-supplied ilastik mask overlay (green=healthy 128, red=visibly stressed 255)",
         "caption": "Original greenhouse tomato image with the author-supplied ilastik mask overlay (green=healthy 128, red=visibly stressed 255)"
       }
+    },
+    {
+      "public_id": "p-cd3b7c4a2dfbfd18ed589bd4fe9fbe29",
+      "title": "Mapping lignification dynamics with a combination of chemistry, data segmentation and ratiometric analysis",
+      "doi": "10.1101/2021.06.21.449296",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "ADAPTED PYTHON DEMONSTRATION — minimal single-example REPRISAL parametric cell-wall segmentation (Otsu wall mask, EDT Voronoi middle lamella, corner detection) and RM1/RM2 ratiometric tables on one 5-channel ND2 stem cross-section, ported from the authors' ImageJ macro parametric_segmentation.ijm",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "crop:flax",
+        "crop:maize",
+        "crop:poplar",
+        "modality:fluorescence",
+        "organ:cell",
+        "organ:flower",
+        "organ:stem",
+        "organ:tissue",
+        "task:physiology",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "H* reporter channel of the authors' representative sample1.nd2 (Zenodo 4809980) with the adapted parametric segmentation overlay: cell corners (yellow), middle lamella (cyan), secondary wall (magenta)",
+        "caption": "H* reporter channel of the authors' representative sample1.nd2 (Zenodo 4809980) with the adapted parametric segmentation overlay: cell corners (yellow), middle lamella (cyan), secondary wall (magenta)"
+      }
     }
   ]
 }
