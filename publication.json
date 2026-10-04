@@ -1859,6 +1859,23 @@
         "alt": "Between-counter percent difference in egg counts before vs. after staining (melon), boxplot reproduced from the authors' archived R script (paper Fig. 3-style).",
         "caption": "Between-counter percent difference in egg counts before vs. after staining (melon), boxplot reproduced from the authors' archived R script (paper Fig. 3-style)."
       }
+    },
+    {
+      "public_id": "p-f883e21e50d48220be739f6cefc2f867",
+      "title": "Converging functional phenotyping with systems mapping to illuminate the genotype-phenotype associations.",
+      "doi": "10.1093/hr/uhae256",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Executes the authors' own R pipeline on the committed 96-plant cowpea TR-VWC drought data, reproducing the Figure 1B loess dynamics and the two-equation Legendre/RK4 ODE fit (Figure 2 analog); the genome-wide 24-SNP association is not covered by available code or data.",
+      "semantic_tags": [
+        "task:physiology",
+        "task:reconstruction",
+        "task:time_series"
+      ],
+      "preview": {
+        "alt": "Reproduced Figure 1B analog (loess-smoothed VWC and transpiration means, 96 cowpea plants, 6 drought days) side by side with the authors' committed reference PDF.",
+        "caption": "Reproduced Figure 1B analog (loess-smoothed VWC and transpiration means, 96 cowpea plants, 6 drought days) side by side with the authors' committed reference PDF."
+      }
     }
   ]
 }
