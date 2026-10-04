@@ -1755,6 +1755,27 @@
         "alt": "The mc-v6-4k shoot colored by the authors' published coarse organ annotation (reference overlay; stem, 9 organ instances; pot removed before scoring)",
         "caption": "The mc-v6-4k shoot colored by the authors' published coarse organ annotation (reference overlay; stem, 9 organ instances; pot removed before scoring)"
       }
+    },
+    {
+      "public_id": "p-b437e7e7fb6660387c003ea80e5bd235",
+      "title": "3dCAP-Wheat: An Open-Source Comprehensive Computational Framework Precisely Quantifies Wheat Foliar, Nonfoliar, and Canopy Photosynthesis.",
+      "doi": "10.34133/2022/9758148",
+      "compute": "CPU",
+      "validated_on": "2026-10-02",
+      "demonstration": "Executed the released CAPpredictor leaf A-Q parameter fitting (leafAQ_fit2.py) on the authors' shipped sample in Colab CPU; fitted Amax, theta, Rd25 and R-squared for 18 leaves agree with the shipped reference output to about 1e-4 relative.",
+      "semantic_tags": [
+        "crop:wheat",
+        "organ:inflorescence",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:physiology",
+        "trait:architecture",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "Fitted net CO2 assimilation A-Q response curve for the sample leaf Y20-2D-2: measured points and the author program's fit produced by the executed notebook.",
+        "caption": "Fitted net CO2 assimilation A-Q response curve for the sample leaf Y20-2D-2: measured points and the author program's fit produced by the executed notebook."
+      }
     }
   ]
 }

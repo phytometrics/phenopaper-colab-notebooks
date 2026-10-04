@@ -14,18 +14,6 @@
       "code_cells": 8
     },
     {
-      "public_id": "p-b437e7e7fb6660387c003ea80e5bd235",
-      "title": "3dCAP-Wheat: An Open-Source Comprehensive Computational Framework Precisely Quantifies Wheat Foliar, Nonfoliar, and Canopy Photosynthesis.",
-      "investigation_run_id": "p-b437e7e7fb6660387c003ea80e5bd235-20260930T014823Z-3159857",
-      "status": "failed",
-      "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-b437e7e7fb6660387c003ea80e5bd235-20261002T172449Z-2011/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\nSyntaxError: unterminated f-string literal (detected at line 10)\n! permission requested: external_directory (/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
-      "created_on": "2026-10-03",
-      "notebook_path": "notebooks/unverified/p-b437e7e7fb6660387c003ea80e5bd235.ipynb",
-      "notebook_sha256": "ba9685711eb2d8fb616798fb78b66749ba92c966c21feb5022459aa224d5b821",
-      "source_sha256": "9e7f4af4ce007c38cf72050cbb84b265c8e0e3ba9446c3b64fac5cfbf6f6fc5d",
-      "code_cells": 8
-    },
-    {
       "public_id": "p-138a6dea3b64aadf4843d6d64fcbf37b",
       "title": "OrchardQuant ‐ 3D : combining drone and LiDAR to perform scalable 3D phenotyping for characterising key canopy and floral traits in fruit orchards",
       "investigation_run_id": "p-138a6dea3b64aadf4843d6d64fcbf37b-20260929T234939Z-3086179",
