@@ -2441,6 +2441,29 @@
         "alt": "CottonLeafNet Healthy sample (author Kaggle dataset) with Grad-CAM overlay from the pinned LEViT model (prediction: Healthy 99.4%)",
         "caption": "CottonLeafNet Healthy sample (author Kaggle dataset) with Grad-CAM overlay from the pinned LEViT model (prediction: Healthy 99.4%)"
       }
+    },
+    {
+      "public_id": "p-c2a47db78f63545f233b669b0d53bca4",
+      "title": "CVRP: A rice image dataset with high-quality annotations for image segmentation and plant phenomics research.",
+      "doi": "10.1016/j.plaphe.2025.100025",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Single-image partial reproduction: the authors' released Mask2Former checkpoint and config segment rice panicles on their bundled sample T42_1220.jpg with the authors' app.py inference/overlay logic; environment adapted (Python 3.11 venv, torch 2.1.2, mmcv 2.1.0, mmsegmentation 1.2.2) and no benchmark metrics re-measured.",
+      "semantic_tags": [
+        "crop:rice",
+        "environment:field",
+        "environment:laboratory",
+        "organ:inflorescence",
+        "organ:seed",
+        "organ:whole_plant",
+        "task:counting",
+        "task:reconstruction",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "CVRP sample T42_1220.jpg with the released Mask2Former panicle prediction: input, red panicle mask, and authors'-style overlay",
+        "caption": "CVRP sample T42_1220.jpg with the released Mask2Former panicle prediction: input, red panicle mask, and authors'-style overlay"
+      }
     }
   ]
 }
