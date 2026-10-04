@@ -1688,6 +1688,33 @@
         "alt": "H* reporter channel of the authors' representative sample1.nd2 (Zenodo 4809980) with the adapted parametric segmentation overlay: cell corners (yellow), middle lamella (cyan), secondary wall (magenta)",
         "caption": "H* reporter channel of the authors' representative sample1.nd2 (Zenodo 4809980) with the adapted parametric segmentation overlay: cell corners (yellow), middle lamella (cyan), secondary wall (magenta)"
       }
+    },
+    {
+      "public_id": "p-96dc254f7fd6d49e5304d420acb82d9d",
+      "title": "3D reconstruction identifies loci linked to variation in angle of individual sorghum leaves",
+      "doi": "10.7717/peerj.12628",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Regenerates the paper's GWAS Figures 2-3 with the authors' pinned plotting scripts and published result CSVs on CPU; GWAS recomputation and 3D reconstruction are out of scope.",
+      "semantic_tags": [
+        "crop:maize",
+        "crop:sorghum",
+        "modality:mesh_voxel",
+        "modality:photogrammetry",
+        "organ:leaf",
+        "organ:seed",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:reconstruction",
+        "task:segmentation",
+        "task:skeletonization",
+        "trait:architecture",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Reproduced Figure 2: GEMMA MLM Manhattan plot (A) and FarmCPU bootstrap support (B) for median leaves 1-4 leaf angle, regenerated from the authors' published result files.",
+        "caption": "Reproduced Figure 2: GEMMA MLM Manhattan plot (A) and FarmCPU bootstrap support (B) for median leaves 1-4 leaf angle, regenerated from the authors' published result files."
+      }
     }
   ]
 }
