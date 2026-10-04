@@ -2328,6 +2328,26 @@
         "alt": "Plant Village input preview: one real leaf image per selected class (Apple/Apple scab, Apple/Black rot, Apple/healthy, Tomato/Late blight, Tomato/Leaf mold, Tomato/healthy).",
         "caption": "Plant Village input preview: one real leaf image per selected class (Apple/Apple scab, Apple/Black rot, Apple/healthy, Tomato/Late blight, Tomato/Leaf mold, Tomato/healthy)."
       }
+    },
+    {
+      "public_id": "p-004ce732f6d0d7eb85c1fa4c08db5865",
+      "title": "Non-invasive hydrodynamic imaging in plant roots at cellular resolution",
+      "doi": "10.1038/s41467-021-24913-z",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Bounded Colab CPU re-run of the paper's inverse-modeling loop 2: the authors' MECHA 4D-solute D2O wash-out simulator driven against 30 measured Col-0 traces with a 7-point xylem-flow-rate grid scan (best Q_xyl 0.008 cm3/d); the full fmincon/MultiStart 4-parameter optimization and other genotypes are out of scope.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "modality:spectroscopy",
+        "organ:cell",
+        "organ:root",
+        "task:physiology",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Objective OF versus xylem flow rate over the scanned grid (left) and the best-fit simulated xylem D2O wash-out trace against the measured Col-0 mean ± SD of 30 plants (right)",
+        "caption": "Objective OF versus xylem flow rate over the scanned grid (left) and the best-fit simulated xylem D2O wash-out trace against the measured Col-0 mean ± SD of 30 plants (right)"
+      }
     }
   ]
 }
