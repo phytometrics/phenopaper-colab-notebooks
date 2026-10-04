@@ -1734,6 +1734,27 @@
         "alt": "Queried weather measurement series (LTmean/LTmax/LTmin air temperature, NSsum precipitation) after import through the author's CropWatch DMIS API; ADAPTED visualization, assumed units.",
         "caption": "Queried weather measurement series (LTmean/LTmax/LTmin air temperature, NSsum precipitation) after import through the author's CropWatch DMIS API; ADAPTED visualization, assumed units."
       }
+    },
+    {
+      "public_id": "p-8d1e171ca872b7e24d1f590750fd419d",
+      "title": "Label3DMaize: toolkit for 3D point cloud data annotation of maize shoots.",
+      "doi": "10.1093/gigascience/giab031",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Label3DMaize coarse segmentation (Sinkhorn OT) ported from MATLAB, one maize shoot vs authors' published coarse result (accuracy 0.9529)",
+      "semantic_tags": [
+        "crop:maize",
+        "modality:point_cloud",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:annotation_qc",
+        "task:segmentation",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "The mc-v6-4k shoot colored by the authors' published coarse organ annotation (reference overlay; stem, 9 organ instances; pot removed before scoring)",
+        "caption": "The mc-v6-4k shoot colored by the authors' published coarse organ annotation (reference overlay; stem, 9 organ instances; pot removed before scoring)"
+      }
     }
   ]
 }
