@@ -1983,6 +1983,30 @@
         "alt": "Input preview: author VG07_6 capsicum plant voxelization (grey) with reference fruit ROI cells (red), from the pinned .bt ground-truth files.",
         "caption": "Input preview: author VG07_6 capsicum plant voxelization (grey) with reference fruit ROI cells (red), from the pinned .bt ground-truth files."
       }
+    },
+    {
+      "public_id": "p-f9e85072e85f991349bd9c19f0104b00",
+      "title": "TomatoWUR: An annotated dataset of tomato plants to quantitatively evaluate segmentation, skeletonisation, and plant-trait extraction algorithms for 3D plant phenotyping",
+      "doi": "10.1016/j.dib.2025.111852",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Runs the authors' Xu point-cloud skeletonisation and their own node/edge/trait evaluation on one released test-split tomato plant (Harvest_01_PotNr_179) from the TomatoWUR v2 dataset; a single-example partial demonstration, not a dataset benchmark.",
+      "semantic_tags": [
+        "crop:tomato",
+        "modality:point_cloud",
+        "organ:leaf",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:segmentation",
+        "task:skeletonization",
+        "trait:architecture",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Test plant Harvest_01_PotNr_179: released point cloud with semantic annotation (red leaves, yellow main stem, green pole, blue side stems) and released ground-truth skeleton overlay (green).",
+        "caption": "Test plant Harvest_01_PotNr_179: released point cloud with semantic annotation (red leaves, yellow main stem, green pole, blue side stems) and released ground-truth skeleton overlay (green)."
+      }
     }
   ]
 }
