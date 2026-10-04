@@ -2132,6 +2132,26 @@
         "alt": "Manhattan plot of the GEMMA Plasmotype Association results for fam phenotype column 614 (Cybrid_allphi2_55.0136) across the plastid genome, with the 3.797 Bonferroni threshold line; reproduced in Colab and matching the authors' saved PAS summary.",
         "caption": "Manhattan plot of the GEMMA Plasmotype Association results for fam phenotype column 614 (Cybrid_allphi2_55.0136) across the plastid genome, with the 3.797 Bonferroni threshold line; reproduced in Colab and matching the authors' saved PAS summary."
       }
+    },
+    {
+      "public_id": "p-968ac05ebbfa7011f712219eb872049b",
+      "title": "Structural parameter determination and pruning pattern analysis of pear tree shoots for dormant pruning.",
+      "doi": "10.1016/j.plaphe.2025.100136",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Registers one sample pear tree's before/after-pruning TLS clouds (e1-8), extracts annual and pruned shoots by 4x-RMSE overlap removal with DBSCAN, and measures per-shoot OBB angle and length; partial demonstration on a single public tree, not the paper's 126-tree accuracy validation.",
+      "semantic_tags": [
+        "crop:pear",
+        "modality:point_cloud",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:morphology",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Annual shoots (AS, green) and pruned shoots (PS, orange) extracted and clustered from the e1-8 sample tree point clouds.",
+        "caption": "Annual shoots (AS, green) and pruned shoots (PS, orange) extracted and clustered from the e1-8 sample tree point clouds."
+      }
     }
   ]
 }
