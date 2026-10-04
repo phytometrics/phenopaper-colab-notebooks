@@ -1964,6 +1964,25 @@
         "alt": "Example RoPod time-lapse input (frames 1 and 34) with the authors' five hair-selection ROI lines drawn on the last frame.",
         "caption": "Example RoPod time-lapse input (frames 1 and 34) with the authors' five hair-selection ROI lines drawn on the last frame."
       }
+    },
+    {
+      "public_id": "p-b5b3ac3433945ba4a283ae8f5ad3f177",
+      "title": "Combining Local and Global Viewpoint Planning for Fruit Coverage",
+      "doi": "10.48550/arxiv.2108.08114",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Partial reproduction of the ground-truth fruit-ROI pipeline of arXiv:2108.08114 (ECMR 2021) on the authors' pinned octree data: OctoMap .bt parsing, Scenario-1 (world14) GT reconstruction and per-fruit statistics; the ROS/Gazebo closed-loop planning itself is not reproduced and the viewpoint-utility section is an explicitly adapted illustration.",
+      "semantic_tags": [
+        "environment:laboratory",
+        "modality:rgbd",
+        "organ:fruit",
+        "task:reconstruction",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Input preview: author VG07_6 capsicum plant voxelization (grey) with reference fruit ROI cells (red), from the pinned .bt ground-truth files.",
+        "caption": "Input preview: author VG07_6 capsicum plant voxelization (grey) with reference fruit ROI cells (red), from the pinned .bt ground-truth files."
+      }
     }
   ]
 }
