@@ -2270,6 +2270,28 @@
         "alt": "Examples/DSC_0385.JPG: input fruit with the 50 centroid-ray pseudolandmarks computed in this run",
         "caption": "Examples/DSC_0385.JPG: input fruit with the 50 centroid-ray pseudolandmarks computed in this run"
       }
+    },
+    {
+      "public_id": "p-91751d0a207149359810682ae9e8d398",
+      "title": "Evaluating Neural Radiance Fields for 3D Plant Geometry Reconstruction in Field Conditions",
+      "doi": "10.34133/plantphenomics.0235",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Scenario I single-plant NeRFacto (reduced 2000-iter T4 training) with TLS-ground-truth point-cloud F1 evaluation; recall 0.654 at d=0.005 m, precision low because the paper's manual evaluation-volume crop is not reproduced.",
+      "semantic_tags": [
+        "environment:field",
+        "modality:neural_3d",
+        "modality:point_cloud",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:object_detection",
+        "task:reconstruction",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Scenario I: TLS ground-truth point cloud (green) vs NeRFacto reconstruction (red) after released-matrix + ICP alignment, with an input Polycam frame.",
+        "caption": "Scenario I: TLS ground-truth point cloud (green) vs NeRFacto reconstruction (red) after released-matrix + ICP alignment, with an input Polycam frame."
+      }
     }
   ]
 }
