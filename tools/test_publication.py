@@ -2,15 +2,36 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 import publication
 
 
 class PublicationTests(unittest.TestCase):
-    def test_existing_catalog_is_reproducible(self):
+    def test_current_catalog_renders_from_publication_json(self):
         data = publication.load_manifest()
-        self.assertEqual(len(data["notebooks"]), 8)
+        self.assertGreater(len(data["notebooks"]), 0)
         self.assertEqual(publication.render(data), publication.README.read_text(encoding="utf-8"))
+        self.assertEqual(publication.render_montage(data), publication.MONTAGE.read_bytes())
+
+    def test_montage_selects_up_to_96_recent_real_previews(self):
+        entries = [
+            {"public_id": f"p-{index:032x}", "validated_on": f"2026-10-{index:03d}"}
+            for index in range(118)
+        ]
+        with patch("publication.has_real_preview", return_value=True):
+            selected = publication.select_montage_entries(entries)
+        self.assertEqual(len(selected), 96)
+        self.assertEqual(selected[0]["public_id"], entries[-1]["public_id"])
+        self.assertEqual(selected[-1]["public_id"], entries[-96]["public_id"])
+
+    def test_montage_grid_expands_for_96_tiles_and_fits_canvas(self):
+        columns, rows, tile_width, tile_height = publication.montage_layout(96)
+        self.assertEqual((columns, rows), (12, 8))
+        self.assertGreaterEqual(tile_width, 80)
+        self.assertGreaterEqual(tile_height, 50)
+        self.assertLessEqual(columns * tile_width + (columns - 1) * 8, 1200 - 48)
+        self.assertLessEqual(rows * tile_height + (rows - 1) * 8, 630 - 112 - 20)
 
     def test_preview_from_line_wrapped_notebook_output(self):
         notebook = {"cells": [{"cell_type": "code", "outputs": [
@@ -21,8 +42,11 @@ class PublicationTests(unittest.TestCase):
     def test_notebook_with_error_output_is_rejected(self):
         notebook = {
             "nbformat": 4,
-            "cells": [{"cell_type": "code", "source": ["raise RuntimeError()"],
-                       "outputs": [{"output_type": "error", "ename": "RuntimeError", "evalue": ""}]}],
+            "cells": [
+                {"cell_type": "markdown", "source": ["This cell checks error handling."]},
+                {"cell_type": "code", "source": ["raise RuntimeError()"],
+                 "outputs": [{"output_type": "error", "ename": "RuntimeError", "evalue": ""}]},
+            ],
         }
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "bad.ipynb"

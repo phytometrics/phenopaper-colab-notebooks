@@ -39,6 +39,8 @@ INDEX_END = "<!-- notebook-index:end -->"
 PUBLIC_ID = re.compile(r"p-[a-f0-9]{32}\Z")
 PNG_MAGIC = b"\x89PNG\r\n\x1a\n"
 MAX_PREVIEW_BYTES = 8_000_000
+MAX_MONTAGE_TILES = 96
+MAX_MONTAGE_COLUMNS = 16
 MUTATION_HEAD: str | None = None
 
 
@@ -216,14 +218,35 @@ def load_font(size: int, *, bold: bool = False) -> ImageFont.ImageFont:
     return ImageFont.load_default()
 
 
-def render_montage(data: dict) -> bytes:
-    """Build a wide README hero from up to 40 recent, nonblank verified previews."""
-    entries = sorted(
-        data["notebooks"],
+def select_montage_entries(entries: list[dict], limit: int = MAX_MONTAGE_TILES) -> list[dict]:
+    """Choose recent verified previews while keeping the README montage bounded."""
+    ordered = sorted(
+        entries,
         key=lambda entry: (entry["validated_on"], entry["public_id"]),
         reverse=True,
     )
-    selected = [entry for entry in entries if has_real_preview(entry)][:40]
+    return [entry for entry in ordered if has_real_preview(entry)][:limit]
+
+
+def montage_layout(count: int, width: int = 1200, height: int = 630) -> tuple[int, int, int, int]:
+    """Return a compact column/row layout that uses the montage canvas efficiently."""
+    if count < 1:
+        fail("Montage layout requires at least one preview")
+    columns = min(
+        count,
+        MAX_MONTAGE_COLUMNS,
+        max(1, math.ceil(math.sqrt(count * 1.5))),
+    )
+    rows = math.ceil(count / columns)
+    margin_x, gap, grid_top, margin_bottom = 24, 8, 112, 20
+    tile_width = (width - 2 * margin_x - (columns - 1) * gap) // columns
+    tile_height = (height - grid_top - margin_bottom - (rows - 1) * gap) // rows
+    return columns, rows, tile_width, tile_height
+
+
+def render_montage(data: dict) -> bytes:
+    """Build a wide README hero from up to 96 recent, nonblank verified previews."""
+    selected = select_montage_entries(data["notebooks"])
     if not selected:
         fail("No nonblank execution-verified notebook previews are available for the README montage")
 
@@ -251,11 +274,8 @@ def render_montage(data: dict) -> bytes:
     draw.text((width - 33 - count_width, 16), count, font=count_font, fill="#ffffff")
     draw.text((width - 34, 65), "VERIFIED NOTEBOOKS", font=load_font(13, bold=True), fill="#c9d8ca", anchor="ra")
 
-    columns = 8
-    rows = math.ceil(len(selected) / columns)
-    margin_x, gap, grid_top, margin_bottom = 24, 8, 112, 20
-    tile_width = (width - 2 * margin_x - (columns - 1) * gap) // columns
-    tile_height = (height - grid_top - margin_bottom - (rows - 1) * gap) // rows
+    columns, _rows, tile_width, tile_height = montage_layout(len(selected), width, height)
+    gap, grid_top = 8, 112
     for index, entry in enumerate(selected):
         row_index, col_index = divmod(index, columns)
         row_count = min(columns, len(selected) - row_index * columns)
