@@ -2191,6 +2191,27 @@
         "alt": "Drought phenotype prediction: mean 5-fold CV correlation per trait for GBLUP versus MetBLUP kernels built from the top 25% genome- and microbiome-predictable metabolites (executed run, seed 123).",
         "caption": "Drought phenotype prediction: mean 5-fold CV correlation per trait for GBLUP versus MetBLUP kernels built from the top 25% genome- and microbiome-predictable metabolites (executed run, seed 123)."
       }
+    },
+    {
+      "public_id": "p-25fc2dd035859c1889f9633edd77c633",
+      "title": "Lincoln's Annotated Spatio-Temporal Strawberry Dataset (LAST-Straw)",
+      "doi": "10.48550/arxiv.2403.00566",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Minimal CPU reproduction of LAST-Straw skeletonisation assessment on one annotated scan (5 stems): GT skeletons registered into the scan frame and scored with the authors' GraphMatching3D metrics; the simplified Shortest-Path re-implementation recovers stem length (MAPE 0.11 vs paper 0.17) but scores below the paper on dense-node matching at the tight 0.396 mm threshold.",
+      "semantic_tags": [
+        "crop:strawberry",
+        "modality:point_cloud",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:segmentation",
+        "task:skeletonization",
+        "trait:plant_height"
+      ],
+      "preview": {
+        "alt": "Stem point clouds (grey) with registered ground-truth skeletons (green) and estimated Shortest-Path skeletons (red) for the five petiole instances of scan A2_20220512_a, in the paper's Fig. 8 style.",
+        "caption": "Stem point clouds (grey) with registered ground-truth skeletons (green) and estimated Shortest-Path skeletons (red) for the five petiole instances of scan A2_20220512_a, in the paper's Fig. 8 style."
+      }
     }
   ]
 }
