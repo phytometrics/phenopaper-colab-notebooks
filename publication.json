@@ -1876,6 +1876,27 @@
         "alt": "Reproduced Figure 1B analog (loess-smoothed VWC and transpiration means, 96 cowpea plants, 6 drought days) side by side with the authors' committed reference PDF.",
         "caption": "Reproduced Figure 1B analog (loess-smoothed VWC and transpiration means, 96 cowpea plants, 6 drought days) side by side with the authors' committed reference PDF."
       }
+    },
+    {
+      "public_id": "p-2ef7965b4468bbda8e86cda4aec579ae",
+      "title": "CoverageTool: A semi-automated graphic software: applications for plant phenotyping",
+      "doi": "10.1186/s13007-019-0472-2",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "AI-assisted Python re-implementation of CoverageTool's documented color-metric coverage/PSA calculation applied to the paper's Additional file 5 wheat flag-leaf scan (RGB tolerance 40: 16.23 percent coverage, 104.07 cm2 at 200 DPI); the Windows GUI binary itself cannot run in Colab.",
+      "semantic_tags": [
+        "organ:leaf",
+        "organ:root",
+        "organ:whole_plant",
+        "task:morphology",
+        "trait:leaf_traits",
+        "trait:pigment_color",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "Additional file 5 wheat flag-leaf scan (left) beside the executed RGB tolerance-40 foreground mask (right, red) computed with the paper's documented metric.",
+        "caption": "Additional file 5 wheat flag-leaf scan (left) beside the executed RGB tolerance-40 foreground mask (right, red) computed with the paper's documented metric."
+      }
     }
   ]
 }
