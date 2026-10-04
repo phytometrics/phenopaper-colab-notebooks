@@ -2348,6 +2348,23 @@
         "alt": "Objective OF versus xylem flow rate over the scanned grid (left) and the best-fit simulated xylem D2O wash-out trace against the measured Col-0 mean ± SD of 30 plants (right)",
         "caption": "Objective OF versus xylem flow rate over the scanned grid (left) and the best-fit simulated xylem D2O wash-out trace against the measured Col-0 mean ± SD of 30 plants (right)"
       }
+    },
+    {
+      "public_id": "p-b47e5ef7351e1f4dfa343ee31bd353d7",
+      "title": "Petal to the metal: The slow road to automating large-scale phenology labeling for herbarium specimens.",
+      "doi": "10.1002/aps3.70085",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Runs the authors' published three-model flower ensemble (two ViT-384 classifiers + EfficientNet-528 regression with moved thresholds and two-thirds voting) on a 60-specimen balanced sample of the held-out test set, reproducing present/absent accuracy of the paper's order (0.966/0.897 vs 0.963/0.868); sample-size noise and the ~7.2 GB weight download are the main limitations.",
+      "semantic_tags": [
+        "organ:flower",
+        "task:object_detection",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Held-out herbarium specimen with per-model scores, thresholded votes and the ensemble verdict versus the expert label.",
+        "caption": "Held-out herbarium specimen with per-model scores, thresholded votes and the ensemble verdict versus the expert label."
+      }
     }
   ]
 }
