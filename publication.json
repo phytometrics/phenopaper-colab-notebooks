@@ -2060,6 +2060,24 @@
         "alt": "Mean clustering performance under the realistic fonio-calibrated simulation (100 repetitions), computed with the author's result_analysis.R: all 11 methods score near random (ARI well below 0.1).",
         "caption": "Mean clustering performance under the realistic fonio-calibrated simulation (100 repetitions), computed with the author's result_analysis.R: all 11 methods score near random (ARI well below 0.1)."
       }
+    },
+    {
+      "public_id": "p-f27ea170567a399e3ab6755b83bb9397",
+      "title": "Spatial ploidy inference using quantitative imaging",
+      "doi": "10.1101/2025.03.11.642217",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Executed the authors' iSPy 1D/2D Gaussian-mixture ploidy classification with spermatid normalization on one uninjured Drosophila pylorus sample, including the spatial ploidy map; single-sample scope only, no injury-severity comparison.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "organ:cell",
+        "organ:tissue",
+        "task:classification"
+      ],
+      "preview": {
+        "alt": "Spatial ploidy map of the uninjured Drosophila pylorus sample: sum projection with nuclei colored by the five-component 2D Gaussian-mixture ploidy prediction (iSPy author code, pinned commit).",
+        "caption": "Spatial ploidy map of the uninjured Drosophila pylorus sample: sum projection with nuclei colored by the five-component 2D Gaussian-mixture ploidy prediction (iSPy author code, pinned commit)."
+      }
     }
   ]
 }
