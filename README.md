@@ -1,7 +1,7 @@
 # PhenoPaper Colab notebooks
 
 <!-- publication-summary:start -->
-<a href="#notebooks"><img src="assets/notebook-summary.svg" width="960" alt="PhenoPaper × Google Colab — 97 execution-verified notebooks" /></a>
+<p align="center"><a href="#notebooks"><img src="assets/notebook-montage.png" width="100%" alt="PhenoPaper × Google Colab — 97 execution-verified notebooks" /></a></p>
 <!-- publication-summary:end -->
 
 Execution-verified Google Colab demonstrations for selected plant phenotyping papers. Each notebook runs a small, documented part of a paper’s workflow; it does not establish paper-wide performance or reproduce every experiment.

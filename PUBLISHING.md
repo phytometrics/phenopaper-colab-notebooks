@@ -4,9 +4,11 @@
 2. Inspect and pin the source revision, model/data assets, and their licenses. Keep credentials out of notebooks and commits.
 3. Build a self-contained notebook and state exactly which part of the method it demonstrates.
 4. Run all cells on a fresh Colab runtime. Inspect saved outputs, errors, and generated result files.
-5. Run the publication tool from the persistent DGX checkout. It validates the saved notebook and archived Colab result, updates publication.json, extracts a preview from a saved PNG output, regenerates the README notebook index, publication table, and summary card, commits, and pushes. See the command example below.
+5. Run the publication tool from the persistent DGX checkout. It validates the saved notebook and archived Colab result, updates publication.json, extracts a preview from a saved PNG output, regenerates the README montage, notebook index, publication table, and count card, commits, and pushes. See the command example below.
 
-The README summary card, collapsible alphabetized notebook index, publication table, and accessible notebook count are generated from publication.json. The index links to each GitHub notebook and its Colab launch page. Edit the manifest for metadata corrections, then run the publication tool in render mode. Every successful verified publication refreshes and commits the index, table, and card automatically; no external badge service or scheduled job is needed. Do not edit the SVG, generated index, summary block, or table rows by hand.
+The README hero image is a 1200 × 630 tile montage made from up to 40 recent, execution-verified paper previews. Missing previews and blank/placeholder images are excluded. The image includes the current verified-notebook count, so the collection size remains clear. The collapsible alphabetized notebook index, publication table, compact SVG count card, and accessible notebook count are also generated from `publication.json`. The index links to each GitHub notebook and its Colab launch page. Edit the manifest for metadata corrections, then run the publication tool in render mode. Every successful verified publication refreshes and commits the montage, index, table, and count automatically; no external badge service or scheduled job is needed. Do not edit the generated images, index, or table rows by hand.
+
+The image renderer requires Pillow. Install or update the publisher dependency with `python3 -m pip install -r tools/requirements.txt` before using `tools/publication.py` on a new host.
 
 ```bash
 python3 tools/publication.py publish \

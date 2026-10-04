@@ -12,7 +12,9 @@ import binascii
 import datetime as dt
 import fcntl
 import html
+import io
 import json
+import math
 from pathlib import Path
 import re
 import shutil
@@ -20,11 +22,14 @@ import subprocess
 import sys
 from urllib.parse import quote
 
+from PIL import Image, ImageDraw, ImageFont, ImageOps, ImageStat
+
 
 REPO = Path(__file__).resolve().parents[1]
 MANIFEST = REPO / "publication.json"
 README = REPO / "README.md"
 SUMMARY = REPO / "assets" / "notebook-summary.svg"
+MONTAGE = REPO / "assets" / "notebook-montage.png"
 SUMMARY_START = "<!-- publication-summary:start -->"
 SUMMARY_END = "<!-- publication-summary:end -->"
 START = "<!-- publication-table:start -->"
@@ -160,6 +165,130 @@ def write_summary(data: dict) -> None:
     SUMMARY.write_text(render_summary(data), encoding="utf-8")
 
 
+def has_real_preview(entry: dict) -> bool:
+    """Reject missing/placeholder previews and images with no visible content."""
+    preview = entry.get("preview")
+    if not isinstance(preview, dict):
+        return False
+    caption = str(preview.get("caption", "")).casefold()
+    if "no image or graph generated" in caption or "placeholder" in caption:
+        return False
+    path = REPO / "assets" / "previews" / f"{entry['public_id']}.png"
+    try:
+        with Image.open(path) as source:
+            if source.format != "PNG" or source.width < 32 or source.height < 32:
+                return False
+            if source.width * source.height > 50_000_000:
+                return False
+            source.load()
+            rgba = ImageOps.exif_transpose(source).convert("RGBA")
+        # Composite transparency onto the same light background used by the tiles.
+        background = Image.new("RGBA", rgba.size, (247, 248, 244, 255))
+        background.alpha_composite(rgba)
+        sample = background.convert("RGB")
+        sample.thumbnail((32, 32), Image.Resampling.LANCZOS)
+        detail_pixels = sum(1 for pixel in sample.getdata() if min(pixel) < 242)
+        variation = sum(ImageStat.Stat(sample).stddev) / 3
+        return detail_pixels >= 2 and variation >= 1.0
+    except (OSError, ValueError, Image.DecompressionBombError):
+        return False
+
+
+def load_font(size: int, *, bold: bool = False) -> ImageFont.ImageFont:
+    names = (
+        [
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+            "/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf",
+            "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        ]
+        if bold
+        else [
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+            "/usr/share/fonts/truetype/liberation2/LiberationSans-Regular.ttf",
+            "/System/Library/Fonts/Supplemental/Arial.ttf",
+        ]
+    )
+    for name in names:
+        try:
+            return ImageFont.truetype(name, size)
+        except OSError:
+            pass
+    return ImageFont.load_default()
+
+
+def render_montage(data: dict) -> bytes:
+    """Build a wide README hero from up to 40 recent, nonblank verified previews."""
+    entries = sorted(
+        data["notebooks"],
+        key=lambda entry: (entry["validated_on"], entry["public_id"]),
+        reverse=True,
+    )
+    selected = [entry for entry in entries if has_real_preview(entry)][:40]
+    if not selected:
+        fail("No nonblank execution-verified notebook previews are available for the README montage")
+
+    width, height = 1200, 630
+    canvas = Image.new("RGB", (width, height), "#0c2c24")
+    draw = ImageDraw.Draw(canvas)
+    top = (20, 62, 48)
+    bottom = (8, 34, 29)
+    for y in range(height):
+        blend = y / max(1, height - 1)
+        color = tuple(round(top[c] * (1 - blend) + bottom[c] * blend) for c in range(3))
+        draw.line((0, y, width, y), fill=color)
+    draw.ellipse((1015, -185, 1375, 175), fill=(27, 83, 62))
+    draw.ellipse((1060, -132, 1345, 153), outline=(68, 123, 91), width=2)
+
+    draw.rounded_rectangle((26, 22, 43, 61), radius=8, fill=(173, 214, 154))
+    draw.ellipse((24, 24, 38, 42), fill=(173, 214, 154))
+    draw.ellipse((32, 38, 46, 56), fill=(133, 185, 135))
+    draw.text((58, 22), "PhenoPaper  ×  Google Colab", font=load_font(31, bold=True), fill="#f2f6ef")
+    draw.text((60, 66), "PLANT PHENOTYPING REPRODUCTIONS", font=load_font(13, bold=True), fill="#a9c5b0")
+    count = f"{len(data['notebooks']):,}"
+    count_font = load_font(39, bold=True)
+    count_box = draw.textbbox((0, 0), count, font=count_font)
+    count_width = count_box[2] - count_box[0]
+    draw.text((width - 33 - count_width, 16), count, font=count_font, fill="#ffffff")
+    draw.text((width - 34, 65), "VERIFIED NOTEBOOKS", font=load_font(13, bold=True), fill="#c9d8ca", anchor="ra")
+
+    columns = 8
+    rows = math.ceil(len(selected) / columns)
+    margin_x, gap, grid_top, margin_bottom = 24, 8, 112, 20
+    tile_width = (width - 2 * margin_x - (columns - 1) * gap) // columns
+    tile_height = (height - grid_top - margin_bottom - (rows - 1) * gap) // rows
+    for index, entry in enumerate(selected):
+        row_index, col_index = divmod(index, columns)
+        row_count = min(columns, len(selected) - row_index * columns)
+        row_width = row_count * tile_width + (row_count - 1) * gap
+        x = (width - row_width) // 2 + col_index * (tile_width + gap)
+        y = grid_top + row_index * (tile_height + gap)
+        path = REPO / "assets" / "previews" / f"{entry['public_id']}.png"
+        with Image.open(path) as source:
+            source.load()
+            rgba = ImageOps.exif_transpose(source).convert("RGBA")
+            opaque = Image.new("RGBA", rgba.size, (247, 248, 244, 255))
+            opaque.alpha_composite(rgba)
+            tile = ImageOps.fit(
+                opaque.convert("RGB"),
+                (tile_width, tile_height),
+                method=Image.Resampling.LANCZOS,
+                centering=(0.5, 0.5),
+            )
+        mask = Image.new("L", tile.size, 0)
+        ImageDraw.Draw(mask).rounded_rectangle((0, 0, tile_width - 1, tile_height - 1), radius=7, fill=255)
+        canvas.paste(tile, (x, y), mask)
+        draw.rounded_rectangle((x, y, x + tile_width - 1, y + tile_height - 1), radius=7, outline=(135, 170, 143), width=1)
+
+    output = io.BytesIO()
+    canvas.save(output, format="PNG", optimize=True)
+    return output.getvalue()
+
+
+def write_montage(data: dict) -> None:
+    MONTAGE.parent.mkdir(parents=True, exist_ok=True)
+    MONTAGE.write_bytes(render_montage(data))
+
+
 def render_notebook_index(data: dict) -> str:
     entries = sorted(data["notebooks"], key=lambda entry: (entry["title"].casefold(), entry["public_id"]))
     items = []
@@ -212,7 +341,7 @@ def render(data: dict) -> str:
     count = len(data["notebooks"])
     before_summary, summary_rest = current.split(SUMMARY_START, 1)
     _, after_summary = summary_rest.split(SUMMARY_END, 1)
-    card = f'<a href="#notebooks"><img src="assets/notebook-summary.svg" width="960" alt="PhenoPaper × Google Colab — {count} execution-verified notebooks" /></a>'
+    card = f'<p align="center"><a href="#notebooks"><img src="assets/notebook-montage.png" width="100%" alt="PhenoPaper × Google Colab — {count} execution-verified notebooks" /></a></p>'
     current = before_summary + SUMMARY_START + "\n" + card + "\n" + SUMMARY_END + after_summary
     before, rest = current.split(INDEX_START, 1)
     _, after = rest.split(INDEX_END, 1)
@@ -407,10 +536,11 @@ def publish(args: argparse.Namespace) -> None:
         load_manifest()
         README.write_text(render(data), encoding="utf-8")
         write_summary(data)
+        write_montage(data)
         if (REPO / "unverified.json").exists():
             subprocess.run([sys.executable, str(REPO / "tools/publish_unverified.py"), "render"], check=True)
             git("add", "--", "unverified.json", "UNVERIFIED.md", "FAILED.md", "README.md")
-        git("add", "--", str(target_notebook.relative_to(REPO)), str(target_preview.relative_to(REPO)), "publication.json", "README.md", str(SUMMARY.relative_to(REPO)))
+        git("add", "--", str(target_notebook.relative_to(REPO)), str(target_preview.relative_to(REPO)), "publication.json", "README.md", str(SUMMARY.relative_to(REPO)), str(MONTAGE.relative_to(REPO)))
         if not git("diff", "--cached", "--name-only"):
             print(f"Already up to date: {args.public_id}")
             finish_mutation()
@@ -427,7 +557,7 @@ def publish(args: argparse.Namespace) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
-    render_parser = sub.add_parser("render", help="Regenerate README and summary card from publication.json")
+    render_parser = sub.add_parser("render", help="Regenerate README images and index from publication.json")
     render_parser.add_argument("--check", action="store_true")
     pub = sub.add_parser("publish", help="Publish an executed, validated notebook")
     pub.add_argument("--public-id", required=True)
@@ -449,10 +579,13 @@ def main() -> None:
                 fail("README is out of sync with publication.json")
             if not SUMMARY.is_file() or SUMMARY.read_text(encoding="utf-8") != render_summary(data):
                 fail("Summary card is out of sync with publication.json")
-            print(f"README and summary card match {len(data['notebooks'])} manifest entries")
+            if not MONTAGE.is_file() or MONTAGE.read_bytes() != render_montage(data):
+                fail("README montage is out of sync with publication.json previews")
+            print(f"README and generated images match {len(data['notebooks'])} manifest entries")
         else:
             README.write_text(generated, encoding="utf-8")
             write_summary(data)
+            write_montage(data)
             print(f"Rendered {len(data['notebooks'])} entries")
     else:
         publish(args)
