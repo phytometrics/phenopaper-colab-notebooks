@@ -2248,6 +2248,28 @@
         "alt": "BFS_06242025 annotated tomato point cloud (authors' released reference annotation overlay) rendered from three viewpoints",
         "caption": "BFS_06242025 annotated tomato point cloud (authors' released reference annotation overlay) rendered from three viewpoints"
       }
+    },
+    {
+      "public_id": "p-c8cd55dbad6ff8d5097de6e2073ea071",
+      "title": "Automatic Fruit Morphology Phenome and Genetic Analysis: An Application in the Octoploid Strawberry.",
+      "doi": "10.34133/2021/9812910",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Single-example DeepAFS strawberry phenotyping on Examples/DSC_0385.JPG: author threshold segmentation, fruit object extraction, linear shape descriptors with CIELAB color, 50 contour pseudolandmarks, and 4th-order elliptical Fourier descriptors; dataset-level, genetic, and VAE branches are not reproduced.",
+      "semantic_tags": [
+        "crop:strawberry",
+        "modality:rgb",
+        "organ:fruit",
+        "task:classification",
+        "task:morphology",
+        "task:segmentation",
+        "trait:pigment_color",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Examples/DSC_0385.JPG: input fruit with the 50 centroid-ray pseudolandmarks computed in this run",
+        "caption": "Examples/DSC_0385.JPG: input fruit with the 50 centroid-ray pseudolandmarks computed in this run"
+      }
     }
   ]
 }
