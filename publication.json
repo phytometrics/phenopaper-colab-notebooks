@@ -2045,6 +2045,21 @@
         "alt": "DAPC discriminant-space plot of the Torres 2024 anole dataset generated in this run by the pinned Orangutan 2.0.0 pipeline (author code; not a copy of a paper figure).",
         "caption": "DAPC discriminant-space plot of the Torres 2024 anole dataset generated in this run by the pinned Orangutan 2.0.0 pipeline (author code; not a copy of a paper figure)."
       }
+    },
+    {
+      "public_id": "p-7eee532480e40ef516c03c17bdc802e7",
+      "title": "Benchmarking Phenotypic Clustering Algorithms via Empirically Calibrated Simulations: A Diagnostic Framework to Improve Biodiversity Assessment in Neglected Crops",
+      "doi": "10.1101/2025.07.16.665063",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Runs the author's original R pipeline (Zenodo 15877863) for the realistic fonio-calibrated scenario: 100 repetitions x 11 clustering algorithms with ARI/NMI/Silhouette/Davies-Bouldin, confirming near-random recovery (max mean ARI 0.044); the fonio raw dataset is not archived, so calibration uses the published trait statistics in params.R.",
+      "semantic_tags": [
+        "task:classification"
+      ],
+      "preview": {
+        "alt": "Mean clustering performance under the realistic fonio-calibrated simulation (100 repetitions), computed with the author's result_analysis.R: all 11 methods score near random (ARI well below 0.1).",
+        "caption": "Mean clustering performance under the realistic fonio-calibrated simulation (100 repetitions), computed with the author's result_analysis.R: all 11 methods score near random (ARI well below 0.1)."
+      }
     }
   ]
 }
