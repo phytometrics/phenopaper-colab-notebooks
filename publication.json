@@ -2172,6 +2172,25 @@
         "alt": "Test-set confusion matrix (Flower/Leaf/Root/Seed) of the reproduced tissue-4 random forest, 300 DPI",
         "caption": "Test-set confusion matrix (Flower/Leaf/Root/Seed) of the reproduced tissue-4 random forest, 300 DPI"
       }
+    },
+    {
+      "public_id": "p-66b346f895818d607747eca86f411abc",
+      "title": "Reciprocal BLUP: A Predictability-Guided Multi-Omics Framework for Plant Phenotype Prediction.",
+      "doi": "10.3390/plants15010017",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Executed the authors' pinned R/RAINBOWR pipeline on the drought soybean panel: 265-metabolite BLUP predictability (genome and microbiome kernels) and a GBLUP vs top-25% MetBLUP 5-fold-CV phenotype comparison; single seed, single environment.",
+      "semantic_tags": [
+        "crop:soybean",
+        "organ:whole_plant",
+        "task:yield_biomass",
+        "trait:biomass",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "Drought phenotype prediction: mean 5-fold CV correlation per trait for GBLUP versus MetBLUP kernels built from the top 25% genome- and microbiome-predictable metabolites (executed run, seed 123).",
+        "caption": "Drought phenotype prediction: mean 5-fold CV correlation per trait for GBLUP versus MetBLUP kernels built from the top 25% genome- and microbiome-predictable metabolites (executed run, seed 123)."
+      }
     }
   ]
 }
