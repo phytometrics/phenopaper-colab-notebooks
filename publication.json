@@ -1897,6 +1897,34 @@
         "alt": "Additional file 5 wheat flag-leaf scan (left) beside the executed RGB tolerance-40 foreground mask (right, red) computed with the paper's documented metric.",
         "caption": "Additional file 5 wheat flag-leaf scan (left) beside the executed RGB tolerance-40 foreground mask (right, red) computed with the paper's documented metric."
       }
+    },
+    {
+      "public_id": "p-138a6dea3b64aadf4843d6d64fcbf37b",
+      "title": "OrchardQuant ‐ 3D : combining drone and LiDAR to perform scalable 3D phenotyping for characterising key canopy and floral traits in fruit orchards",
+      "doi": "10.1111/pbi.70229",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Executes the authors' OrchardQuant-3D pear LiDAR dormancy chain (SOR, CSF ground filter, CHM, RTK registration, tree detection, SLBC skeletons, canopy traits) on a small sub-orchard patch of the released Data_pear point cloud; the full 4.5 GB orchard and the apple fruit-detection branch are out of scope.",
+      "semantic_tags": [
+        "crop:apple",
+        "crop:pear",
+        "environment:aerial",
+        "environment:field",
+        "modality:point_cloud",
+        "modality:rgb",
+        "organ:flower",
+        "organ:fruit",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:object_detection",
+        "task:reconstruction",
+        "trait:architecture",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Annotated canopy height model of the pear-orchard patch: 9 automatically detected individual trees (authors' extract_bbox) outlined on the LiDAR CHM.",
+        "caption": "Annotated canopy height model of the pear-orchard patch: 9 automatically detected individual trees (authors' extract_bbox) outlined on the LiDAR CHM."
+      }
     }
   ]
 }
