@@ -1813,6 +1813,25 @@
         "alt": "Observed final germination proportion of Alectryon subdentatus across the thermogradient plate (day vs night temperature), author Step 2 quilt plot.",
         "caption": "Observed final germination proportion of Alectryon subdentatus across the thermogradient plate (day vs night temperature), author Step 2 quilt plot."
       }
+    },
+    {
+      "public_id": "p-53c30ffda67420ce4c09594eec1ecbce",
+      "title": "Non-invasive phenotyping for water and nitrogen uptake by deep roots explored using machine learning",
+      "doi": "10.1007/s11104-023-06253-7",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Minimal CPU reproduction of the CropML 2018 analysis: 30 Sqrt_pRLD interval features from raw root profiles, author nested-CV RF/GB prediction of log d15N and d13C (out-of-fold r 0.45/0.42 vs paper 0.46/0.41), with SI/D50 depth estimates; the author's stored SI values are not exactly reproduced (documented).",
+      "semantic_tags": [
+        "crop:wheat",
+        "organ:root",
+        "task:morphology",
+        "task:physiology",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "RF feature importance by 10-cm soil-depth interval (2018): deep layers around 150-170 cm rank highest for log d15N, reproducing the paper's key finding.",
+        "caption": "RF feature importance by 10-cm soil-depth interval (2018): deep layers around 150-170 cm rank highest for log d15N, reproducing the paper's key finding."
+      }
     }
   ]
 }
