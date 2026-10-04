@@ -1832,6 +1832,33 @@
         "alt": "RF feature importance by 10-cm soil-depth interval (2018): deep layers around 150-170 cm rank highest for log d15N, reproducing the paper's key finding.",
         "caption": "RF feature importance by 10-cm soil-depth interval (2018): deep layers around 150-170 cm rank highest for log d15N, reproducing the paper's key finding."
       }
+    },
+    {
+      "public_id": "p-50e1c2fb18dfbb4e76ee141d512cf54b",
+      "title": "Evaluation of a low-cost staining method for improved visualization of sweet potato whitefly (Bemisia tabaci) eggs on multiple crop plant species",
+      "doi": "10.1186/s13007-024-01209-z",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Runs the authors' archived R analysis and paired Wilcoxon tests on the Dryad egg-count data for melon, cowpea, and tomato (3 of 5 crops; cassava/sweet-potato scripts not archived).",
+      "semantic_tags": [
+        "crop:cassava",
+        "crop:cowpea",
+        "crop:melon",
+        "crop:potato",
+        "crop:sweet_potato",
+        "crop:tomato",
+        "modality:microscopy",
+        "organ:leaf",
+        "task:counting",
+        "task:preprocessing",
+        "task:tracking",
+        "task:visualization",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "Between-counter percent difference in egg counts before vs. after staining (melon), boxplot reproduced from the authors' archived R script (paper Fig. 3-style).",
+        "caption": "Between-counter percent difference in egg counts before vs. after staining (melon), boxplot reproduced from the authors' archived R script (paper Fig. 3-style)."
+      }
     }
   ]
 }
