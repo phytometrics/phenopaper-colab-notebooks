@@ -1715,6 +1715,25 @@
         "alt": "Reproduced Figure 2: GEMMA MLM Manhattan plot (A) and FarmCPU bootstrap support (B) for median leaves 1-4 leaf angle, regenerated from the authors' published result files.",
         "caption": "Reproduced Figure 2: GEMMA MLM Manhattan plot (A) and FarmCPU bootstrap support (B) for median leaves 1-4 leaf angle, regenerated from the authors' published result files."
       }
+    },
+    {
+      "public_id": "p-2b2f036450a96d50015e96cdb2b602fa",
+      "title": "Plant, space and time - linked together in an integrative and scalable data management system for phenomic approaches in agronomic field trials",
+      "doi": "10.1186/s13007-020-00596-3",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Headless execution of the author's pinned CropWatch backend (Node/Express + PostgreSQL/PostGIS) in Colab: the paper's published example weather CSV (216 rows x 7 traits) is imported through the author's own API flow and queried back (1512 rows); GUI, GeoServer and raster import are not covered and units/coordinates are labeled assumptions.",
+      "semantic_tags": [
+        "environment:field",
+        "organ:whole_plant",
+        "task:object_detection",
+        "task:visualization",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Queried weather measurement series (LTmean/LTmax/LTmin air temperature, NSsum precipitation) after import through the author's CropWatch DMIS API; ADAPTED visualization, assumed units.",
+        "caption": "Queried weather measurement series (LTmean/LTmax/LTmin air temperature, NSsum precipitation) after import through the author's CropWatch DMIS API; ADAPTED visualization, assumed units."
+      }
     }
   ]
 }
