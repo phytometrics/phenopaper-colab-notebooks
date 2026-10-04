@@ -2096,6 +2096,23 @@
         "alt": "Boxplots of conductance per flow meter (X1-X3) for the blue b1-b2 PEEK pair at 25 cm with the water-displacement b2 reference line, JSI and Bhattacharyya annotations (paper Figure 2 redrawn from the deposited data).",
         "caption": "Boxplots of conductance per flow meter (X1-X3) for the blue b1-b2 PEEK pair at 25 cm with the water-displacement b2 reference line, JSI and Bhattacharyya annotations (paper Figure 2 redrawn from the deposited data)."
       }
+    },
+    {
+      "public_id": "p-445c34da82cdb01531f293f0701af907",
+      "title": "A novel dual-excitation pulse-amplitude-modulation fluorometer for investigating photosynthesis of plants",
+      "doi": "10.1101/2024.04.18.589113",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Adapted Python regeneration of the Harmonizer paper's Figures 10-11 (leaf fluorescence-yield response to harmonic actinic light and two-light non-additivity) from the authors' processed KORDS data; partial one-dataset scope, CPU-only, and not an instrument or full-paper validation.",
+      "semantic_tags": [
+        "modality:fluorescence",
+        "task:physiology",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "Fig. 10 analogue: poinsettia leaf fluorescence yield (FY) with detected peaks and the actinic PPFD model (twin axis) at three irradiances, plus per-period phase delays; adapted Python demonstration from the authors' processedData.mat.",
+        "caption": "Fig. 10 analogue: poinsettia leaf fluorescence yield (FY) with detected peaks and the actinic PPFD model (twin axis) at three irradiances, plus per-period phase delays; adapted Python demonstration from the authors' processedData.mat."
+      }
     }
   ]
 }
