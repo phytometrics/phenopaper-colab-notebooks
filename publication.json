@@ -1925,6 +1925,24 @@
         "alt": "Annotated canopy height model of the pear-orchard patch: 9 automatically detected individual trees (authors' extract_bbox) outlined on the LiDAR CHM.",
         "caption": "Annotated canopy height model of the pear-orchard patch: 9 automatically detected individual trees (authors' extract_bbox) outlined on the LiDAR CHM."
       }
+    },
+    {
+      "public_id": "p-ea84fdc23cbdb4fa43830b2262339c66",
+      "title": "Self-pollinated cannabis seeds lead to less variation in shape: a technological approach of potential commercial interest.",
+      "doi": "10.1186/s12870-025-07989-3",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Retrains the paper's four scikit-learn cultivar classifiers and the GridSearchCV-optimized Random Forest on the released 713-seed landmark coordinates, reproducing ~70% (7 cultivars) and ~78.9% (5 cultivars) test accuracy with confusion matrices and PC1/PC2 variability heatmaps; the paper's desktop morphometrics stages (TPS, GPA, MorphoJ/InfoStat) are out of scope.",
+      "semantic_tags": [
+        "organ:seed",
+        "task:classification",
+        "task:morphology",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "All 713 seed outlines drawn from the released raw landmark coordinates (authors' 00-dataset.ipynb rendering), the actual input of the reproduction.",
+        "caption": "All 713 seed outlines drawn from the released raw landmark coordinates (authors' 00-dataset.ipynb rendering), the actual input of the reproduction."
+      }
     }
   ]
 }
