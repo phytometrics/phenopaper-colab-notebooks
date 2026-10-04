@@ -2007,6 +2007,29 @@
         "alt": "Test plant Harvest_01_PotNr_179: released point cloud with semantic annotation (red leaves, yellow main stem, green pole, blue side stems) and released ground-truth skeleton overlay (green).",
         "caption": "Test plant Harvest_01_PotNr_179: released point cloud with semantic annotation (red leaves, yellow main stem, green pole, blue side stems) and released ground-truth skeleton overlay (green)."
       }
+    },
+    {
+      "public_id": "p-eb5c040f3c23eee3fae265c35d253260",
+      "title": "The Unstable Relationship Between Drought Status and Leaf Water Content Complicates the Remote Sensing of Tree Drought Stress",
+      "doi": null,
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Executes the authors' pinned R code (v2.0) for blue oak Psi-LWmass diel/spatial/temporal bootstrapped slopes versus laboratory PV-curve slopes plus the Table-2 mixed model; single-dataset re-execution, not a CWC remote-sensing reproduction.",
+      "semantic_tags": [
+        "environment:aerial",
+        "environment:field",
+        "environment:laboratory",
+        "modality:spectral",
+        "organ:leaf",
+        "task:stress_disease",
+        "task:time_series",
+        "trait:stress_response",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Bootstrapped Psi-LWmass slopes: diel (per-tree hydration) and laboratory PV-curve slopes broadly overlap after leaf expansion, while spatial slopes stay shallow and the pre-leafout temporal slope crosses zero.",
+        "caption": "Bootstrapped Psi-LWmass slopes: diel (per-tree hydration) and laboratory PV-curve slopes broadly overlap after leaf expansion, while spatial slopes stay shallow and the pre-leafout temporal slope crosses zero."
+      }
     }
   ]
 }
