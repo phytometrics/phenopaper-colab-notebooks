@@ -2422,6 +2422,25 @@
         "alt": "Authors' test image Q1-105_IMG_9614 with its ground-truth petal density map (integral = 21) overlaid.",
         "caption": "Authors' test image Q1-105_IMG_9614 with its ground-truth petal density map (integral = 21) overlaid."
       }
+    },
+    {
+      "public_id": "p-2a57fe0d874b7f4710197a8f4ebaa5d4",
+      "title": "Explainable transformer framework for fast cotton leaf diagnostics and fabric defect detection.",
+      "doi": "10.1016/j.isci.2025.114411",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Single cotton leaf image classified with the author-shipped CottonLeafNet LEViT (levit_128s) and Grad-CAM overlay, following CottonVerse utils.py; one-sample demonstration, not a reproduction of the paper's 10-fold metrics.",
+      "semantic_tags": [
+        "crop:cotton",
+        "organ:leaf",
+        "task:classification",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "CottonLeafNet Healthy sample (author Kaggle dataset) with Grad-CAM overlay from the pinned LEViT model (prediction: Healthy 99.4%)",
+        "caption": "CottonLeafNet Healthy sample (author Kaggle dataset) with Grad-CAM overlay from the pinned LEViT model (prediction: Healthy 99.4%)"
+      }
     }
   ]
 }
