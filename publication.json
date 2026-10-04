@@ -2365,6 +2365,25 @@
         "alt": "Held-out herbarium specimen with per-model scores, thresholded votes and the ensemble verdict versus the expert label.",
         "caption": "Held-out herbarium specimen with per-model scores, thresholded votes and the ensemble verdict versus the expert label."
       }
+    },
+    {
+      "public_id": "p-26c2e1c7a8207e3c58ba42b0756e8ebe",
+      "title": "High-Throughput Phenotyping of Leaf Discs Infected with Grapevine Downy Mildew Using Shallow Convolutional Neural Networks",
+      "doi": "10.3390/agronomy11091768",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Runs the authors' unmodified two-CNN leaf-disc scoring pipeline (classify_leaf_disc.py + plot_coords.R + plot_pheno.R) on the four bundled example discs with the pretrained CNN1/CNN2 models, matching the authors' reference table; training and population-scale validation are not reproduced.",
+      "semantic_tags": [
+        "crop:grapevine",
+        "organ:leaf",
+        "task:segmentation",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Original microscope leaf-disc inputs with CNN2-predicted sporangiophore tile positions overlaid (four bundled examples, model predictions)",
+        "caption": "Original microscope leaf-disc inputs with CNN2-predicted sporangiophore tile positions overlaid (four bundled examples, model predictions)"
+      }
     }
   ]
 }
