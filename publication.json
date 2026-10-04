@@ -2384,6 +2384,26 @@
         "alt": "Original microscope leaf-disc inputs with CNN2-predicted sporangiophore tile positions overlaid (four bundled examples, model predictions)",
         "caption": "Original microscope leaf-disc inputs with CNN2-predicted sporangiophore tile positions overlaid (four bundled examples, model predictions)"
       }
+    },
+    {
+      "public_id": "p-783e81f38f776c444d5960f7c72f2f25",
+      "title": "YieldLearn: An interpretable machine-learning pipeline for estimating yield-related traits based on physiological indicators",
+      "doi": "10.64898/2026.09.22.753232",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Trains the author's five caret classifiers for Yield_class High/Low on the YieldLearn example Pocket PEA data and reproduces SHAP interpretation with the committed saved random forest; Yield_class only, single-example scope.",
+      "semantic_tags": [
+        "crop:wheat",
+        "environment:field",
+        "modality:fluorescence",
+        "task:classification",
+        "trait:photosynthesis",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "SHAP beeswarm of the committed saved random forest for Yield_class, reproduced with the author's kernelshap/shapviz parameters.",
+        "caption": "SHAP beeswarm of the committed saved random forest for Yield_class, reproduced with the author's kernelshap/shapviz parameters."
+      }
     }
   ]
 }
