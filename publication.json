@@ -2078,6 +2078,24 @@
         "alt": "Spatial ploidy map of the uninjured Drosophila pylorus sample: sum projection with nuclei colored by the five-component 2D Gaussian-mixture ploidy prediction (iSPy author code, pinned commit).",
         "caption": "Spatial ploidy map of the uninjured Drosophila pylorus sample: sum projection with nuclei colored by the five-component 2D Gaussian-mixture ploidy prediction (iSPy author code, pinned commit)."
       }
+    },
+    {
+      "public_id": "p-b7be1e0f7d7414d15b12905b922078b4",
+      "title": "Low-Cost Custom-Built Flow Meters for Plant Hydraulic Conductance: Validation of Accuracy, Precision, and Reproducibility.",
+      "doi": "10.1002/pld3.70154",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Recomputes the paper Section 3.3 flow-meter device comparison (blue b1-b2 PEEK pair at 25 cm, devices X1-X3, n=15 each) from the FRDR deposit, reproducing biases -0.36 to +1.90 percent, CVs 0.7-1.9 percent, Jaccard indices, and all pairwise mean differences below 2.3 percent; the Bhattacharyya binning convention is unverifiable (no author analysis script) and is documented as an adaptation.",
+      "semantic_tags": [
+        "environment:laboratory",
+        "organ:tissue",
+        "task:physiology",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Boxplots of conductance per flow meter (X1-X3) for the blue b1-b2 PEEK pair at 25 cm with the water-displacement b2 reference line, JSI and Bhattacharyya annotations (paper Figure 2 redrawn from the deposited data).",
+        "caption": "Boxplots of conductance per flow meter (X1-X3) for the blue b1-b2 PEEK pair at 25 cm with the water-displacement b2 reference line, JSI and Bhattacharyya annotations (paper Figure 2 redrawn from the deposited data)."
+      }
     }
   ]
 }
