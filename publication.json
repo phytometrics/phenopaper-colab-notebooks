@@ -1943,6 +1943,27 @@
         "alt": "All 713 seed outlines drawn from the released raw landmark coordinates (authors' 00-dataset.ipynb rendering), the actual input of the reproduction.",
         "caption": "All 713 seed outlines drawn from the released raw landmark coordinates (authors' 00-dataset.ipynb rendering), the actual input of the reproduction."
       }
+    },
+    {
+      "public_id": "p-872c60a837cfc85bf84b37dde14e20de",
+      "title": "RoPod, a customizable toolkit for non-invasive root imaging, reveals cell type-specific dynamics of plant autophagy",
+      "doi": "10.1101/2021.12.07.471480",
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Reproduces the paper's semi-automated Fiji root-hair tip tracking pipeline (Fig. 2) as a Python port on the authors' published example image (5 hairs, 34 frames); rates agree with the authors' example results within ~7% (one shortest-window hair ~17%), single-example scope only.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "environment:laboratory",
+        "modality:microscopy",
+        "organ:cell",
+        "organ:root",
+        "task:time_series",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Example RoPod time-lapse input (frames 1 and 34) with the authors' five hair-selection ROI lines drawn on the last frame.",
+        "caption": "Example RoPod time-lapse input (frames 1 and 34) with the authors' five hair-selection ROI lines drawn on the last frame."
+      }
     }
   ]
 }
