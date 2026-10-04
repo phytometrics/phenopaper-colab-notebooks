@@ -2311,6 +2311,23 @@
         "alt": "wt Arabidopsis NPQ induction curves (85) from the authors' pinned dataset, coloured by (1-qP)ss",
         "caption": "wt Arabidopsis NPQ induction curves (85) from the authors' pinned dataset, coloured by (1-qP)ss"
       }
+    },
+    {
+      "public_id": "p-fd7a0342f94d7b79c11a77e475eba4c7",
+      "title": "Deep Learning for Plant Identification and Disease Classification from Leaf Images: Multi-prediction Approaches",
+      "doi": "10.1145/3639816",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Minimal GSMo-CNN (stacked multi-output CNN) demo on a 6-class Plant Village subsample; scaled-down, not comparable to the paper's full 10-run benchmark.",
+      "semantic_tags": [
+        "organ:leaf",
+        "task:classification",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Plant Village input preview: one real leaf image per selected class (Apple/Apple scab, Apple/Black rot, Apple/healthy, Tomato/Late blight, Tomato/Leaf mold, Tomato/healthy).",
+        "caption": "Plant Village input preview: one real leaf image per selected class (Apple/Apple scab, Apple/Black rot, Apple/healthy, Tomato/Late blight, Tomato/Leaf mold, Tomato/healthy)."
+      }
     }
   ]
 }
