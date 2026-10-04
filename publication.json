@@ -2212,6 +2212,19 @@
         "alt": "Stem point clouds (grey) with registered ground-truth skeletons (green) and estimated Shortest-Path skeletons (red) for the five petiole instances of scan A2_20220512_a, in the paper's Fig. 8 style.",
         "caption": "Stem point clouds (grey) with registered ground-truth skeletons (green) and estimated Shortest-Path skeletons (red) for the five petiole instances of scan A2_20220512_a, in the paper's Fig. 8 style."
       }
+    },
+    {
+      "public_id": "p-2bd31da0e632a80444251edc20a538de",
+      "title": "Multi-view BLUP: a promising solution for post-omics data integrative prediction",
+      "doi": null,
+      "compute": "CPU",
+      "validated_on": "2026-10-04",
+      "demonstration": "Runs the authors' pinned MVBLUP R demo (8 views, 100 individuals, trait 1): differential-evolution view-weight learning with rrBLUP 5-fold CV fitness, achieving test accuracy 0.9459 identical to the author reference; the small bundled demo data do not validate the paper's published dataset-level results.",
+      "semantic_tags": [],
+      "preview": {
+        "alt": "MVBLUP differential-evolution learning curve: per-view optimal weights across iterations, reproduced from the authors' pinned demo (author reference match).",
+        "caption": "MVBLUP differential-evolution learning curve: per-view optimal weights across iterations, reproduced from the authors' pinned demo (author reference match)."
+      }
     }
   ]
 }
