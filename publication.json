@@ -2543,6 +2543,25 @@
         "alt": "Sample frame mid-slice: authors' ground-truth centroids (left) versus the pre-trained 2D U-Net detections (right).",
         "caption": "Sample frame mid-slice: authors' ground-truth centroids (left) versus the pre-trained 2D U-Net detections (right)."
       }
+    },
+    {
+      "public_id": "p-83b2a51c60a5a23fa6f5a266fc840633",
+      "title": "Phenotyping grapevine resistance to downy mildew: deep learning as a promising tool to assess sporulation and necrosis.",
+      "doi": "10.1186/s13007-024-01220-4",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Inference-only partial demonstration: the released Swin CORN scorer (pinned author code and checkpoint) predicts OIV 452-1 ranks for 15 expert-annotated test leaf patches on CPU and T4; it does not reproduce dataset-level metrics or the detector/training pipeline.",
+      "semantic_tags": [
+        "crop:grapevine",
+        "organ:leaf",
+        "task:classification",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "The 15 selected oiv_test leaf patches with their expert-annotated OIV 452-1 scores",
+        "caption": "The 15 selected oiv_test leaf patches with their expert-annotated OIV 452-1 scores"
+      }
     }
   ]
 }
