@@ -2853,6 +2853,24 @@
         "alt": "Generated farm outputs: randomized Delaunay terrain vertices colored by elevation (left) and 2700 soybean plant positions colored by terrain-adjusted pose Z (right)",
         "caption": "Generated farm outputs: randomized Delaunay terrain vertices colored by elevation (left) and 2700 soybean plant positions colored by terrain-adjusted pose Z (right)"
       }
+    },
+    {
+      "public_id": "p-b14550f882c89332ee9aeb58cdb49bba",
+      "title": "RhizoVision Explorer: open-source software for root image analysis and measurement standardization.",
+      "doi": "10.1093/aobpla/plab056",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Regenerates the paper's statistical validation (copper-wire RMSE/MBE, simulated-root and species software comparisons) from the authors' Zenodo data+code deposit on a fresh CPU Colab runtime; the RVE image-analysis GUI itself is not re-run and a missing ground-truth .Rdata is reconstructed from the cited Rose & Lobet 2019 record.",
+      "semantic_tags": [
+        "environment:laboratory",
+        "organ:root",
+        "task:morphology",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "Regenerated copper-wire validation: estimated vs ground-truth length, average diameter, surface area and volume for RVE, WinRhizo and IJ_Rhizo (Fig. 4-style 4-panel comparison).",
+        "caption": "Regenerated copper-wire validation: estimated vs ground-truth length, average diameter, surface area and volume for RVE, WinRhizo and IJ_Rhizo (Fig. 4-style 4-panel comparison)."
+      }
     }
   ]
 }
