@@ -2776,6 +2776,21 @@
         "alt": "AirSurf-L size-classification overlay on sample_region1.png: model predictions coloured blue (small), green (medium), red (large).",
         "caption": "AirSurf-L size-classification overlay on sample_region1.png: model predictions coloured blue (small), green (medium), red (large)."
       }
+    },
+    {
+      "public_id": "p-a6a0308cb166f8af9c1283324e171a00",
+      "title": "The flora phenotype ontology (FLOPO): tool for integrating morphological traits and phenotypes of vascular plants.",
+      "doi": "10.1186/s13326-016-0107-8",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Runs the authors' Lucene/OpenNLP entity-quality extraction on one Flore du Gabon volume plus the Flore d'Afrique Centrale table and generates an ELK-classified FLOPO subset (12,568 classes); the full multi-Flora corpus is not reproduced.",
+      "semantic_tags": [
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Most frequent PO anatomical entities among 246,347 extracted taxon-EQ description rows (FLOPO minimal demo; not an author figure).",
+        "caption": "Most frequent PO anatomical entities among 246,347 extracted taxon-EQ description rows (FLOPO minimal demo; not an author figure)."
+      }
     }
   ]
 }
