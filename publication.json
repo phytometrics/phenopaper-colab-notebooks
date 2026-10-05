@@ -2583,6 +2583,27 @@
         "alt": "Input demo image (left) and WheatSpikeNet prediction (right): predicted spike masks and boxes overlaid by the authors' show_result_pyplot.",
         "caption": "Input demo image (left) and WheatSpikeNet prediction (right): predicted spike masks and boxes overlaid by the authors' show_result_pyplot."
       }
+    },
+    {
+      "public_id": "p-08088351f8b61330a98bade47b5afb9c",
+      "title": "High throughput measurement of Arabidopsis thaliana fitness traits using transfer learning",
+      "doi": "10.1101/2021.07.01.450758",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Applied the authors' released frozen Faster R-CNN seed model (TF1 graph loaded via tensorflow.compat.v1) to two annotated 2900x2900 seed-scan tiles and reproduced the authors' score-at-least-0.5 counting rule, matching the XML ground truth within plus or minus 3 seeds; single-example scope only.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "organ:fruit",
+        "organ:seed",
+        "task:counting",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Seed-scan tile scan15_110918016.jpg_2_2 with the authors' frozen Faster R-CNN model detections (score threshold 0.5; 374 predicted vs 373 XML-annotated seeds)",
+        "caption": "Seed-scan tile scan15_110918016.jpg_2_2 with the authors' frozen Faster R-CNN model detections (score threshold 0.5; 374 predicted vs 373 XML-annotated seeds)"
+      }
     }
   ]
 }
