@@ -2732,6 +2732,27 @@
         "alt": "CGIARWheat 20-shot training samples (3 per class) from the author seed-15 split used for fine-tuning.",
         "caption": "CGIARWheat 20-shot training samples (3 per class) from the author seed-15 split used for fine-tuning."
       }
+    },
+    {
+      "public_id": "p-9baad9c5eb312453f79ed213979e5e7e",
+      "title": "Uncertainty Assessment in Deep Learning-based Plant Trait Retrievals from Hyperspectral data",
+      "doi": "10.5194/bg-23-2235-2026",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Executed the released Dis_UN pipeline on the EnMAP Leipzig clip: subsample-validated dissimilarity indices, per-trait 95%-quantile uncertainty maps, and veg/non-veg KS OOD contrast (0.675 vs paper 0.648); embedding-space DIs recomputed on a 300-pixel subsample due to free-CPU limits.",
+      "semantic_tags": [
+        "modality:spectral",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:physiology",
+        "trait:leaf_traits",
+        "trait:pigment_color",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "EnMAP Leipzig clip (NIR/R/G false color) with Dis_UN 95%-quantile uncertainty maps for LMA, LAI and N (257x226 px, 30 m).",
+        "caption": "EnMAP Leipzig clip (NIR/R/G false color) with Dis_UN 95%-quantile uncertainty maps for LMA, LAI and N (257x226 px, 30 m)."
+      }
     }
   ]
 }
