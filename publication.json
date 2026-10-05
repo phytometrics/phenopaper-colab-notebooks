@@ -2604,6 +2604,25 @@
         "alt": "Seed-scan tile scan15_110918016.jpg_2_2 with the authors' frozen Faster R-CNN model detections (score threshold 0.5; 374 predicted vs 373 XML-annotated seeds)",
         "caption": "Seed-scan tile scan15_110918016.jpg_2_2 with the authors' frozen Faster R-CNN model detections (score threshold 0.5; 374 predicted vs 373 XML-annotated seeds)"
       }
+    },
+    {
+      "public_id": "p-4c14194846cde3222f61f636951580e7",
+      "title": "imageseg: an R package for deep learning-based image segmentation",
+      "doi": "10.1101/2021.12.16.469125",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Executed the authors' imageseg R workflow (resizeImages, imagesToKerasInput, loadModel, imageSegmentation) with the pre-trained canopy model (Zenodo 6861157) on the package's 3 example canopy photos on Colab CPU; canopy densities 0.966/0.405/0.766 match the vignette reference 0.957/0.401/0.756 within 0.010, but dataset-level accuracy is not verified.",
+      "semantic_tags": [
+        "modality:rgb",
+        "organ:whole_plant",
+        "task:classification",
+        "task:segmentation",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Author imageSegmentation output: input canopy photo, predicted sky probability, and binary mask for the 3 imageseg example images (canopy densities 0.966/0.405/0.766)",
+        "caption": "Author imageSegmentation output: input canopy photo, predicted sky probability, and binary mask for the 3 imageseg example images (canopy densities 0.966/0.405/0.766)"
+      }
     }
   ]
 }
