@@ -2484,6 +2484,26 @@
         "alt": "Author leaf image with SeptoSympto overlay: green necrosis contours and magenta pycnidia detections",
         "caption": "Author leaf image with SeptoSympto overlay: green necrosis contours and magenta pycnidia detections"
       }
+    },
+    {
+      "public_id": "p-91db2d982b94ef65fa927d29ad3b6a64",
+      "title": "Foundation model-based apple ripeness and size estimation for selective harvesting",
+      "doi": null,
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Executed the authors' released Grounding-DINO + SAM ViT-H + 2D-LSeg pipeline on one UdL Fuji RGB-D test image (_MG_2657_24): 8 apples detected (5 ripe/3 unripe) with 2D-LSeg diameters 53.1-95.2 mm; single-example demonstration, not a dataset-level reproduction.",
+      "semantic_tags": [
+        "crop:apple",
+        "modality:rgbd",
+        "organ:fruit",
+        "task:morphology",
+        "task:object_detection",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Model predictions on _MG_2657_24: fine-tuned Grounding-DINO boxes (red=ripe, green=unripe), SAM ViT-H masks, and 2D-LSeg diameters (mm). Input from the authors' Kaggle dataset (GPL-3).",
+        "caption": "Model predictions on _MG_2657_24: fine-tuned Grounding-DINO boxes (red=ripe, green=unripe), SAM ViT-H masks, and 2D-LSeg diameters (mm). Input from the authors' Kaggle dataset (GPL-3)."
+      }
     }
   ]
 }
