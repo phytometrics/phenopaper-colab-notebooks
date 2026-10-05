@@ -2956,6 +2956,30 @@
         "alt": "Co-heritability heatmap of narea versus 350-365 nm wavelength ratios (authors' bundled subset), selected synthetic traits highlighted",
         "caption": "Co-heritability heatmap of narea versus 350-365 nm wavelength ratios (authors' bundled subset), selected synthetic traits highlighted"
       }
+    },
+    {
+      "public_id": "p-c68f024f754f5e5752d9bde93985eeb6",
+      "title": "Fruit Water Stress Index of Apple Measured by Means of Temperature-Annotated 3D Point Cloud.",
+      "doi": "10.34133/plantphenomics.0252",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Partial CPU reproduction: verifies the temperature-annotated DAFB132 fruit point clouds against References.xlsx and re-implements the paper's calibration and FWSI_I/FWSI_N/dT equations for one measuring day; FWSI_J and the non-public segmentation/calibration pipeline are out of scope.",
+      "semantic_tags": [
+        "crop:apple",
+        "environment:field",
+        "modality:point_cloud",
+        "modality:thermal",
+        "organ:fruit",
+        "task:physiology",
+        "task:reconstruction",
+        "task:segmentation",
+        "trait:temperature",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Temperature-annotated apple fruit point clouds (2022-09-01, DAFB132), each point coloured by annotated surface temperature (degC)",
+        "caption": "Temperature-annotated apple fruit point clouds (2022-09-01, DAFB132), each point coloured by annotated surface temperature (degC)"
+      }
     }
   ]
 }
