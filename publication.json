@@ -2562,6 +2562,27 @@
         "alt": "The 15 selected oiv_test leaf patches with their expert-annotated OIV 452-1 scores",
         "caption": "The 15 selected oiv_test leaf patches with their expert-annotated OIV 452-1 scores"
       }
+    },
+    {
+      "public_id": "p-b2c9032c744812c1d15f35db91dcbfd9",
+      "title": "WheatSpikeNet: an improved wheat spike segmentation model for accurate estimation from field imaging.",
+      "doi": "10.3389/fpls.2023.1226190",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Single-image wheat spike instance segmentation and counting (23 spikes) with the authors' released WheatSpikeNet checkpoint on their bundled demo image via the pinned mmdetection 2.28 stack on a Colab T4; not a dataset-level evaluation.",
+      "semantic_tags": [
+        "crop:wheat",
+        "environment:field",
+        "organ:inflorescence",
+        "task:counting",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Input demo image (left) and WheatSpikeNet prediction (right): predicted spike masks and boxes overlaid by the authors' show_result_pyplot.",
+        "caption": "Input demo image (left) and WheatSpikeNet prediction (right): predicted spike masks and boxes overlaid by the authors' show_result_pyplot."
+      }
     }
   ]
 }
