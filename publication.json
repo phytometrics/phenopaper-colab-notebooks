@@ -2504,6 +2504,24 @@
         "alt": "Model predictions on _MG_2657_24: fine-tuned Grounding-DINO boxes (red=ripe, green=unripe), SAM ViT-H masks, and 2D-LSeg diameters (mm). Input from the authors' Kaggle dataset (GPL-3).",
         "caption": "Model predictions on _MG_2657_24: fine-tuned Grounding-DINO boxes (red=ripe, green=unripe), SAM ViT-H masks, and 2D-LSeg diameters (mm). Input from the authors' Kaggle dataset (GPL-3)."
       }
+    },
+    {
+      "public_id": "p-edea3f34e04b2b1aa4089733cfec5483",
+      "title": "AI-Powered Automated Hydroponic System for Smart Agriculture",
+      "doi": null,
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Serves the authors' published spinach leaf-disease CNN (best_model.h5, 128x128/255 preprocessing) through the verbatim pinned FastAPI /predict path and classifies one sample per Mendeley dataset class; a 3-image demonstration that does not revalidate the paper's reported accuracy or IoT stages.",
+      "semantic_tags": [
+        "crop:spinach",
+        "organ:whole_plant",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Sample leaf images from the Mendeley Malabar spinach dataset, labeled by dataset folder (inputs to the reproduced /predict pipeline)",
+        "caption": "Sample leaf images from the Mendeley Malabar spinach dataset, labeled by dataset folder (inputs to the reproduced /predict pipeline)"
+      }
     }
   ]
 }
