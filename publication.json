@@ -3036,6 +3036,30 @@
         "alt": "Two-panel Manhattan plot of MTMC-SKAT P-values across 30 SNP windows on chromosome 10 (model-based and empirical), from the bundled 200-genotype poplar sample.",
         "caption": "Two-panel Manhattan plot of MTMC-SKAT P-values across 30 SNP windows on chromosome 10 (model-based and empirical), from the bundled 200-genotype poplar sample."
       }
+    },
+    {
+      "public_id": "p-116ad61400d168b145488899a4e023d4",
+      "title": "Earbox, an open tool for high-throughput measurement of the spatial organization of maize ears and inference of novel traits.",
+      "doi": "10.1186/s13007-022-00925-8",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Runs the authors' MATLAB Earbox trait analyser headless in GNU Octave on two repository sample maize ears with precomputed DL2 grain masks, computing ear length, diameter, grains per row, ring counts and fertile/aborted zones; CNN inference is not reproduced (unpublished weights) and only 2 ears x face 1 are executed.",
+      "semantic_tags": [
+        "crop:maize",
+        "environment:laboratory",
+        "organ:inflorescence",
+        "organ:seed",
+        "task:counting",
+        "task:morphology",
+        "task:segmentation",
+        "trait:architecture",
+        "trait:reproductive_traits",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "Sample ear RGB input with the authors' precomputed DL2 grain-mask contours (reference annotation) for B1E10_1 and 13_29_WW_Hyb_08_46_c_1.",
+        "caption": "Sample ear RGB input with the authors' precomputed DL2 grain-mask contours (reference annotation) for B1E10_1 and 13_29_WW_Hyb_08_46_c_1."
+      }
     }
   ]
 }
