@@ -2,6 +2,15 @@
   "schema_version": 1,
   "failures": [
     {
+      "public_id": "p-d0270e5cfded603928047f692df3bfce",
+      "title": "Integrating plant phenotypic and genotypic data in the AGENT project: a BrAPI service implementation.",
+      "investigation_run_id": "p-d0270e5cfded603928047f692df3bfce-20260930T141220Z-3714834",
+      "run_id": "p-d0270e5cfded603928047f692df3bfce-20261005T182535Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-05T18:36:46.417Z] EOF | [2026-10-05T18:36:46.417Z] mkdir -p probe_nb && mv /tmp_probe.ipynb probe_nb/probe.ipynb && colab exec -s agent-brapi-20261005T182535 -f probe_nb/probe.ipynb --timeout 120 2>&1 | grep -v \"━\\|eta 0\" | head -20 failed | [2026-10-05T18:36:46.417Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-06"
+    },
+    {
       "public_id": "p-4708ede3ed4975dbbd6c7ea269736398",
       "title": "TipQuant: a robust algorithm for quantitative analysis of spatiotemporally dynamic activities in tip-growing cells.",
       "investigation_run_id": "p-4708ede3ed4975dbbd6c7ea269736398-20260930T144900Z-3735473",
