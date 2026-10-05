@@ -3171,6 +3171,25 @@
         "alt": "Predicted vs observed grain yield for held-out lines (left) and per-fold Pearson correlation with average 0.497 (right) for M7/Alternative 2, B-spline L=23, BRR prior, 3-fold CV.",
         "caption": "Predicted vs observed grain yield for held-out lines (left) and per-fold Pearson correlation with average 0.497 (right) for M7/Alternative 2, B-spline L=23, BRR prior, 3-fold CV."
       }
+    },
+    {
+      "public_id": "p-f11327c20f89d4cca9b254e910691487",
+      "title": "Hyperbolic topological data analysis mapper reveals dynamic trait–environment patterns in plant phenomics",
+      "doi": "10.1016/j.plaphe.2026.100186",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Reproduces the paper's descriptor-branch HTDA-Mapper (Fig. 5) by running the authors' unmodified Poincare-ball components on their full 27,761-plant descriptor table; the gtda Mapper glue is a documented adaptation, and node-level identity with the published figure is not claimed.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:time_series",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "HTDA-Mapper graph of the 27,761-plant descriptor dataset (Poincare-ball branch, this run's output); nodes coloured by dominant growth condition.",
+        "caption": "HTDA-Mapper graph of the 27,761-plant descriptor dataset (Poincare-ball branch, this run's output); nodes coloured by dominant growth condition."
+      }
     }
   ]
 }
