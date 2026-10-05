@@ -2695,6 +2695,26 @@
         "alt": "PlantVillage test leaf input with the loaded model.h5 prediction overlay (Apple Black rot, confidence 100%)",
         "caption": "PlantVillage test leaf input with the loaded model.h5 prediction overlay (Apple Black rot, confidence 100%)"
       }
+    },
+    {
+      "public_id": "p-8c237a85e3bfd1e56afa9df78ac3a530",
+      "title": "Imaging with spatio-temporal modelling to characterize the dynamics of plant-pathogen lesions",
+      "doi": "10.1371/journal.pcbi.1011627",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Fits the Fisher-KPP lesion-growth model by variational assimilation to one author-bundled Solara stipule probability-map sequence (SciPy port of the PETSc solver), estimating D, a, K with comparison to paper S6 Appendix; single example only, no dataset-level ANOVA or cm^2/day calibration.",
+      "semantic_tags": [
+        "crop:pea",
+        "modality:rgb",
+        "organ:leaf",
+        "task:stress_disease",
+        "task:time_series",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Weka symptomatic-probability observations (reference annotations, top) versus the fitted Fisher-KPP model (bottom) at T=1..4 days for stipule 1_B1_Sol_1",
+        "caption": "Weka symptomatic-probability observations (reference annotations, top) versus the fitted Fisher-KPP model (bottom) at T=1..4 days for stipule 1_B1_Sol_1"
+      }
     }
   ]
 }
