@@ -96,6 +96,18 @@
       "notebook_sha256": "bfbedd629702297796c8505541c12447c05a6c535ee553db8a315f5c58318559",
       "source_sha256": "32f13fc74a372a7253bd183764c4099972dcbd82ca2cf7b3c7fa7f6cedcdeaab",
       "code_cells": 13
+    },
+    {
+      "public_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5",
+      "title": "GaussianPlant: Structure-aligned Gaussian Splatting for 3D Reconstruction of Plants",
+      "investigation_run_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5-20260930T010628Z-3136584",
+      "status": "failed",
+      "reason": "T4 session budget (3 distinct) exhausted after three repairable environment failures: (1) Colab py3.13/torch2.11+cu130 runtime required stack fixes; (2) numpy churn from requirements install + Drive per-file rate limits (fixed: filtered numpy<2, targeted throttled registered-only download); (3) pyvista stub lacked attribute fallback for import-time pv.PolyData annotation (fixed in build_notebook.py; notebook now statically valid, ready for resume). Dataset download cell fully passed in attempt 3. No scientific execution completed; gsplat JIT never ran inside the final notebook. Resume with resume_run_dir and a fresh session.",
+      "created_on": "2026-10-05",
+      "notebook_path": "notebooks/unverified/p-52e5cb26b52aa179b3db5eec9f4bd2d5.ipynb",
+      "notebook_sha256": "e7a640c8295355720a8fe126e2d1c9de1794c8ad99ea4e7b953ef4b3fcaf6a76",
+      "source_sha256": "4760886e02d8dcec61ad7e8ec0b0e709705821397781c5d80bce31e05374ca94",
+      "code_cells": 14
     }
   ]
 }
