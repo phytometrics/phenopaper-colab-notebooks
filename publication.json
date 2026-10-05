@@ -2832,6 +2832,27 @@
         "alt": "Manhattan plot of the empirical-Bayes NAM GWAS for PLSR-modeled Vcmax25 in this notebook; both reported MTAs (Chr 10, Chr 19) are recovered.",
         "caption": "Manhattan plot of the empirical-Bayes NAM GWAS for PLSR-modeled Vcmax25 in this notebook; both reported MTAs (Chr 10, Chr 19) are recovered."
       }
+    },
+    {
+      "public_id": "p-661ca6372a08bb11eab9cb4cf0f75a61",
+      "title": "Crop Height and Plot Estimation for Phenotyping from Unmanned Aerial Vehicles using 3D LiDAR",
+      "doi": "10.48550/arxiv.1910.14031",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Executed the pinned author farm_generation.py (IROS 2020 Sec. V) on CPU to generate and validate a randomized Gazebo soybean farm (2700 plants, Delaunay terrain, per-plot height CSV); LiDAR height-estimation pipeline and commercial plant meshes are not reproduced.",
+      "semantic_tags": [
+        "crop:wheat",
+        "environment:aerial",
+        "environment:field",
+        "modality:point_cloud",
+        "organ:whole_plant",
+        "task:morphology",
+        "trait:plant_height"
+      ],
+      "preview": {
+        "alt": "Generated farm outputs: randomized Delaunay terrain vertices colored by elevation (left) and 2700 soybean plant positions colored by terrain-adjusted pose Z (right)",
+        "caption": "Generated farm outputs: randomized Delaunay terrain vertices colored by elevation (left) and 2700 soybean plant positions colored by terrain-adjusted pose Z (right)"
+      }
     }
   ]
 }
