@@ -2,6 +2,65 @@
   "schema_version": 1,
   "failures": [
     {
+      "public_id": "p-4708ede3ed4975dbbd6c7ea269736398",
+      "title": "TipQuant: a robust algorithm for quantitative analysis of spatiotemporally dynamic activities in tip-growing cells.",
+      "investigation_run_id": "p-4708ede3ed4975dbbd6c7ea269736398-20260930T144900Z-3735473",
+      "run_id": "p-4708ede3ed4975dbbd6c7ea269736398-20261005T181107Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-05T18:25:25.362Z] for x in d['data'][:6]: print(x['attributes']['doi'], '|', x['attributes']['titles'][0]['title'][:90]) | [2026-10-05T18:25:25.362Z] \" ; rm -f /tmp_dc.json failed | [2026-10-05T18:25:25.362Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-06"
+    },
+    {
+      "public_id": "p-89e0e604d88be6ac51289b5224ee3bd0",
+      "title": "TTADDA-UAV: A multi-season RGB and multispectral UAV dataset of potato fields collected in Japan and the Netherlands",
+      "investigation_run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20260929T092357Z-2482508",
+      "run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20261005T150444Z-b5cf1743",
+      "status": "failed",
+      "reason": "Notebook authored and statically validated (CPU scope: authors' loadMIAPPE workflow from Data in Brief 62:112004 Fig. 2 on study TTADDA_NARO_2021). Two full Colab runs and six probes failed because data.4tu.nl was down: download endpoints returned 502 or stalled with no first byte for ~2 h (landing pages intermittently 200); the whole site was unreachable by the end. The MIAPPE xlsx and measurement CSVs are verified published (4TU items 20ef3f20/f2307c47 v1, xlsx 2,328,999 B MD5 1e935e229dc27c74efc9ff9a6f7da45b) but bytes could not be retrieved. Notebook retained in deliverables/ as unverified reference; rerun when 4TU recovers.",
+      "created_on": "2026-10-05",
+      "notebook_path": "notebooks/unverified/p-89e0e604d88be6ac51289b5224ee3bd0.ipynb"
+    },
+    {
+      "public_id": "p-8763982ed396003076d4f0310794187a",
+      "title": "Overcoming difficulties in segmentation of hyperspectral plant images with small projection areas using machine learning.",
+      "investigation_run_id": "p-8763982ed396003076d4f0310794187a-20260930T230127Z-3797379",
+      "run_id": "p-8763982ed396003076d4f0310794187a-20261005T212031Z-91ffb9c8",
+      "status": "failed",
+      "reason": "Authors' R segmentation (MCARI1 pre-mask + fixed 85-centroid K-means) executed successfully on the demo Zenodo image in 3 fresh CPU Colab sessions (13,715/9,087/13,077 kept pixels, 22-23 clusters), but the auxiliary WLs.txt parsing cell failed in all runs; root cause identified on attempt 3 (394x2 [band index, wavelength] table) and fixed in the deliverable, but the 3-session Colab budget was exhausted before a validating fresh run. Notebook preserved as UNVERIFIED/INCOMPLETE; no publication.",
+      "created_on": "2026-10-05",
+      "notebook_path": "notebooks/unverified/p-8763982ed396003076d4f0310794187a.ipynb"
+    },
+    {
+      "public_id": "p-6cd66ecb2c73a2bb32cdaff64b1a74d5",
+      "title": "Archetypes of inflorescence: genome-wide association networks of panicle morphometric, growth, and disease variables in a multiparent oat population.",
+      "investigation_run_id": "p-6cd66ecb2c73a2bb32cdaff64b1a74d5-20260929T104606Z-2534867",
+      "run_id": "p-6cd66ecb2c73a2bb32cdaff64b1a74d5-20261004T101735Z",
+      "status": "failed",
+      "reason": "Notebook (CPU, R via Rscript) executes top-to-bottom with zero cell errors and 4 saved PNG outputs on Colab CPU runtime, but only in a reused non-fresh session (oat6cd6-valid). The hard 3-distinct-session budget (oat6cd6-probe diagnostic; oat6cd6-final fresh validation attempt failed on notebook string-escaping bugs; oat6cd6-valid contingency) was exhausted before a fresh-runtime final validation could be rerun after the last repairs. Notebook retained in deliverables/ for UNVERIFIED reference publication; execution-verified publication requires one fresh CPU rerun (resume_run_dir).",
+      "created_on": "2026-10-05",
+      "notebook_path": "notebooks/unverified/p-6cd66ecb2c73a2bb32cdaff64b1a74d5.ipynb"
+    },
+    {
+      "public_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5",
+      "title": "GaussianPlant: Structure-aligned Gaussian Splatting for 3D Reconstruction of Plants",
+      "investigation_run_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5-20260930T010628Z-3136584",
+      "run_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5-20261005T052337Z",
+      "status": "failed",
+      "reason": "T4 session budget (3 distinct) exhausted after three repairable environment failures: (1) Colab py3.13/torch2.11+cu130 runtime required stack fixes; (2) numpy churn from requirements install + Drive per-file rate limits (fixed: filtered numpy<2, targeted throttled registered-only download); (3) pyvista stub lacked attribute fallback for import-time pv.PolyData annotation (fixed in build_notebook.py; notebook now statically valid, ready for resume). Dataset download cell fully passed in attempt 3. No scientific execution completed; gsplat JIT never ran inside the final notebook. Resume with resume_run_dir and a fresh session.",
+      "created_on": "2026-10-05",
+      "notebook_path": "notebooks/unverified/p-52e5cb26b52aa179b3db5eec9f4bd2d5.ipynb"
+    },
+    {
+      "public_id": "p-4c96e2dcd4f0c243f1c5d62101143904",
+      "title": "FruitPhenoBox - a device for rapid and automated fruit phenotyping of small sample sizes.",
+      "investigation_run_id": "p-4c96e2dcd4f0c243f1c5d62101143904-20260929T094656Z-2497507",
+      "run_id": "p-4c96e2dcd4f0c243f1c5d62101143904-20261004T135322Z",
+      "status": "failed",
+      "reason": "Notebook complete and fixed but not fully re-validated: the 3-distinct-Colab-session budget was exhausted (diag, final, contingency) after two deterministic Octave driver bugs (missing demo env vars; struct() 1x1-cell unwrapping) were found and fixed. Preserved as unverified reference at deliverables/p-4c96e2dcd4f0c243f1c5d62101143904.ipynb. Verified-public-input limitation: pixelsize.txt/sideshapes.mat/topshapes.mat absent from all four public affe files, so cm traits and 13-shape correlations are reported NaN; geometry/segmentation/color features run in px on the bundled testdata.",
+      "created_on": "2026-10-05",
+      "notebook_path": "notebooks/unverified/p-4c96e2dcd4f0c243f1c5d62101143904.ipynb"
+    },
+    {
       "public_id": "p-215a5217d9ca4a7536aa01cd18d16a54",
       "title": "\"Macrobot\": An Automated Segmentation-Based System for Powdery Mildew Disease Quantification.",
       "investigation_run_id": "p-215a5217d9ca4a7536aa01cd18d16a54-20260929T111233Z-2548823",
@@ -9,6 +68,16 @@
       "status": "failed",
       "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-04T08:54:53.330Z] z=zipfile.ZipFile('$RUN/logs/whl/macrobot-0.4.6-py3-none-any.whl') | [2026-10-04T08:54:53.330Z] for n in z.namelist(): print(n, z.getinfo(n).file_size)\" failed | [2026-10-04T08:54:53.330Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
       "created_on": "2026-10-05"
+    },
+    {
+      "public_id": "p-13d960f2f8637cfa0ec6e7dcfb20a5e5",
+      "title": "PhenoFly Planning Tool: flight planning for high-resolution optical remote sensing with unmanned areal systems.",
+      "investigation_run_id": "p-13d960f2f8637cfa0ec6e7dcfb20a5e5-20260930T233119Z-3816713",
+      "run_id": "p-13d960f2f8637cfa0ec6e7dcfb20a5e5-20261005T235500Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-05T11:48:26.973Z] print('extracted', len(ns['driver'])) | [2026-10-05T11:48:26.973Z] \" failed | [2026-10-05T11:48:26.973Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-05",
+      "notebook_path": "notebooks/unverified/p-13d960f2f8637cfa0ec6e7dcfb20a5e5.ipynb"
     },
     {
       "public_id": "p-b72c635278b9713daa70b49a32b1a3b9",
@@ -199,66 +268,6 @@
       "reason": "Notebook authored and statically validated but never executed: Colab CPU session allocation refused on 16 attempts over ~38 min (02:46-03:27 UTC 2026-10-02) because the account's four concurrent-session slots are held by other queue workers' sessions; this run must not stop them. All source materials (PhotoPi code @fab92caf, FRDR 10.20383/103.01255, arXiv 2504.16840v1 Sec VI) were verified accessible. Execution environment failure, not missing material.",
       "created_on": "2026-10-02",
       "notebook_path": "notebooks/unverified/p-0dfec3c680bb0e32ef572c9bcc0a1d2c.ipynb"
-    },
-    {
-      "public_id": "p-4c96e2dcd4f0c243f1c5d62101143904",
-      "title": "FruitPhenoBox - a device for rapid and automated fruit phenotyping of small sample sizes.",
-      "investigation_run_id": "p-4c96e2dcd4f0c243f1c5d62101143904-20260929T094656Z-2497507",
-      "run_id": "p-4c96e2dcd4f0c243f1c5d62101143904-20261004T135322Z",
-      "status": "failed",
-      "reason": "Notebook complete and fixed but not fully re-validated: the 3-distinct-Colab-session budget was exhausted (diag, final, contingency) after two deterministic Octave driver bugs (missing demo env vars; struct() 1x1-cell unwrapping) were found and fixed. Preserved as unverified reference at deliverables/p-4c96e2dcd4f0c243f1c5d62101143904.ipynb. Verified-public-input limitation: pixelsize.txt/sideshapes.mat/topshapes.mat absent from all four public affe files, so cm traits and 13-shape correlations are reported NaN; geometry/segmentation/color features run in px on the bundled testdata.",
-      "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-4c96e2dcd4f0c243f1c5d62101143904.ipynb"
-    },
-    {
-      "public_id": "p-6cd66ecb2c73a2bb32cdaff64b1a74d5",
-      "title": "Archetypes of inflorescence: genome-wide association networks of panicle morphometric, growth, and disease variables in a multiparent oat population.",
-      "investigation_run_id": "p-6cd66ecb2c73a2bb32cdaff64b1a74d5-20260929T104606Z-2534867",
-      "run_id": "p-6cd66ecb2c73a2bb32cdaff64b1a74d5-20261004T101735Z",
-      "status": "failed",
-      "reason": "Notebook (CPU, R via Rscript) executes top-to-bottom with zero cell errors and 4 saved PNG outputs on Colab CPU runtime, but only in a reused non-fresh session (oat6cd6-valid). The hard 3-distinct-session budget (oat6cd6-probe diagnostic; oat6cd6-final fresh validation attempt failed on notebook string-escaping bugs; oat6cd6-valid contingency) was exhausted before a fresh-runtime final validation could be rerun after the last repairs. Notebook retained in deliverables/ for UNVERIFIED reference publication; execution-verified publication requires one fresh CPU rerun (resume_run_dir).",
-      "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-6cd66ecb2c73a2bb32cdaff64b1a74d5.ipynb"
-    },
-    {
-      "public_id": "p-8763982ed396003076d4f0310794187a",
-      "title": "Overcoming difficulties in segmentation of hyperspectral plant images with small projection areas using machine learning.",
-      "investigation_run_id": "p-8763982ed396003076d4f0310794187a-20260930T230127Z-3797379",
-      "run_id": "p-8763982ed396003076d4f0310794187a-20261005T212031Z-91ffb9c8",
-      "status": "failed",
-      "reason": "Authors' R segmentation (MCARI1 pre-mask + fixed 85-centroid K-means) executed successfully on the demo Zenodo image in 3 fresh CPU Colab sessions (13,715/9,087/13,077 kept pixels, 22-23 clusters), but the auxiliary WLs.txt parsing cell failed in all runs; root cause identified on attempt 3 (394x2 [band index, wavelength] table) and fixed in the deliverable, but the 3-session Colab budget was exhausted before a validating fresh run. Notebook preserved as UNVERIFIED/INCOMPLETE; no publication.",
-      "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-8763982ed396003076d4f0310794187a.ipynb"
-    },
-    {
-      "public_id": "p-89e0e604d88be6ac51289b5224ee3bd0",
-      "title": "TTADDA-UAV: A multi-season RGB and multispectral UAV dataset of potato fields collected in Japan and the Netherlands",
-      "investigation_run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20260929T092357Z-2482508",
-      "run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20261005T150444Z-b5cf1743",
-      "status": "failed",
-      "reason": "Notebook authored and statically validated (CPU scope: authors' loadMIAPPE workflow from Data in Brief 62:112004 Fig. 2 on study TTADDA_NARO_2021). Two full Colab runs and six probes failed because data.4tu.nl was down: download endpoints returned 502 or stalled with no first byte for ~2 h (landing pages intermittently 200); the whole site was unreachable by the end. The MIAPPE xlsx and measurement CSVs are verified published (4TU items 20ef3f20/f2307c47 v1, xlsx 2,328,999 B MD5 1e935e229dc27c74efc9ff9a6f7da45b) but bytes could not be retrieved. Notebook retained in deliverables/ as unverified reference; rerun when 4TU recovers.",
-      "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-89e0e604d88be6ac51289b5224ee3bd0.ipynb"
-    },
-    {
-      "public_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5",
-      "title": "GaussianPlant: Structure-aligned Gaussian Splatting for 3D Reconstruction of Plants",
-      "investigation_run_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5-20260930T010628Z-3136584",
-      "run_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5-20261005T052337Z",
-      "status": "failed",
-      "reason": "T4 session budget (3 distinct) exhausted after three repairable environment failures: (1) Colab py3.13/torch2.11+cu130 runtime required stack fixes; (2) numpy churn from requirements install + Drive per-file rate limits (fixed: filtered numpy<2, targeted throttled registered-only download); (3) pyvista stub lacked attribute fallback for import-time pv.PolyData annotation (fixed in build_notebook.py; notebook now statically valid, ready for resume). Dataset download cell fully passed in attempt 3. No scientific execution completed; gsplat JIT never ran inside the final notebook. Resume with resume_run_dir and a fresh session.",
-      "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-52e5cb26b52aa179b3db5eec9f4bd2d5.ipynb"
-    },
-    {
-      "public_id": "p-13d960f2f8637cfa0ec6e7dcfb20a5e5",
-      "title": "PhenoFly Planning Tool: flight planning for high-resolution optical remote sensing with unmanned areal systems.",
-      "investigation_run_id": "p-13d960f2f8637cfa0ec6e7dcfb20a5e5-20260930T233119Z-3816713",
-      "run_id": "p-13d960f2f8637cfa0ec6e7dcfb20a5e5-20261005T235500Z",
-      "status": "failed",
-      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-05T11:48:26.973Z] print('extracted', len(ns['driver'])) | [2026-10-05T11:48:26.973Z] \" failed | [2026-10-05T11:48:26.973Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-13d960f2f8637cfa0ec6e7dcfb20a5e5.ipynb"
     }
   ]
 }
