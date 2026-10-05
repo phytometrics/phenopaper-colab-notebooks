@@ -8,6 +8,18 @@ Execution-verified Google Colab demonstrations for selected plant phenotyping pa
 
 公開論文の解析手順を小さな例で実行できる Colab ノートブックです。
 
+## About PhenoPaper / PhenoPaperについて
+
+This repository is part of [PhenoPaper](https://phenopaper.smartbreed-plant-phenotyping-platform.com/). Browse this collection on the [PhenoPaper Colab notebooks page](https://phenopaper.smartbreed-plant-phenotyping-platform.com/colab-notebooks).
+
+このリポジトリは[PhenoPaper](https://phenopaper.smartbreed-plant-phenotyping-platform.com/)プロジェクトの機能の一つです。ノートブック一覧は[PhenoPaperのColabノートブックページ](https://phenopaper.smartbreed-plant-phenotyping-platform.com/colab-notebooks)から閲覧できます。
+
+### What “AI-verified” means / 「AI-verified」の意味
+
+“AI-verified” means that the notebook completed its recorded execution checks in the stated Colab runtime. It does not authenticate the paper, repository, or notebook provenance, and it does not guarantee scientific correctness or faithful reproduction of the paper.
+
+「AI-verified」は、記載されたColabランタイムでノートブックの実行確認を行ったという意味です。論文・レポジトリ・ノートブックの出所や真正性、科学的な正確さ、原著の忠実な再現を保証するものではありません。
+
 <!-- notebook-index:start -->
 ## Contents
 
