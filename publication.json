@@ -3233,6 +3233,24 @@
         "alt": "Second-order polynomial fit of growth in Vinter vs growth in TLE (0-6 and 6-12 months), reproduced from the published phenotype table",
         "caption": "Second-order polynomial fit of growth in Vinter vs growth in TLE (0-6 and 6-12 months), reproduced from the published phenotype table"
       }
+    },
+    {
+      "public_id": "p-eb22c152f82984e9e6f4f5878976feba",
+      "title": "Image Harvest: an open-source platform for high-throughput plant image processing and analysis.",
+      "doi": "10.1093/jxb/erw176",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Executed the paper's Fig. 1A-style RGB pipeline (crop, colorFilter, contourChop, contourCut) on the author-shipped example image with an AI-assisted Python 3 port of ih.imgproc, extracting projected-pixel and convex-hull traits; single example only, no benchmark or GWAS scope.",
+      "semantic_tags": [
+        "crop:rice",
+        "organ:whole_plant",
+        "task:morphology",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Input photo vs author reference final vs this port's final output (Image Harvest camera1 example)",
+        "caption": "Input photo vs author reference final vs this port's final output (Image Harvest camera1 example)"
+      }
     }
   ]
 }
