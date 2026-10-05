@@ -3136,6 +3136,25 @@
         "alt": "No image or graph generated for this data-only reproduction.",
         "caption": "No image or graph generated for this data-only reproduction."
       }
+    },
+    {
+      "public_id": "p-ae3580837492741945d947fd48c62a2d",
+      "title": "Spatial ploidy inference using quantitative imaging.",
+      "doi": "10.1016/j.crmeth.2025.101249",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Executed the iSPy Drosophila pylorus 2D Gaussian-mixture ploidy pipeline (normalized Hoechst intensity + projected area) on one deposited image per injury condition with the authors' pinned code, reproducing the 5-component selection and the severity-dependent ploidy trend, but not the paper's dataset-level statistics.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "modality:microscopy",
+        "organ:cell",
+        "organ:tissue",
+        "task:classification"
+      ],
+      "preview": {
+        "alt": "Sum projections of uninjured, mildly, and severely injured pylori with predicted ploidy classes overlaid on segmented nuclei (pooled 2D GMM, K=5).",
+        "caption": "Sum projections of uninjured, mildly, and severely injured pylori with predicted ploidy classes overlaid on segmented nuclei (pooled 2D GMM, K=5)."
+      }
     }
   ]
 }
