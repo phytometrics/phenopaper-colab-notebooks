@@ -3000,6 +3000,23 @@
         "alt": "Pearson correlation of loess-smoothed plant size with water use by days after planting, left, and genotype-specific WUEresidual variability, right. Wet treatment matches the paper correlation greater than 0.94 at 21 to 27 DAP.",
         "caption": "Pearson correlation of loess-smoothed plant size with water use by days after planting, left, and genotype-specific WUEresidual variability, right. Wet treatment matches the paper correlation greater than 0.94 at 21 to 27 DAP."
       }
+    },
+    {
+      "public_id": "p-3d49f79c4f6ddcf132e37fdb913d2812",
+      "title": "SPIRAL: A versatile online single time-point circadian analysis platform for rice.",
+      "doi": "10.1126/sciadv.aec9727",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Partial reproduction of SPIRAL's molecular timetable: weighted Cosinor-NLLS Phase28 estimation (R2 0.9596 vs paper 0.9574) and moving-correlation phase-shift analysis of 40C heat shock, re-derived from the authors' Table S1/Data S1 at supplement resolution; no gene-level reanalysis.",
+      "semantic_tags": [
+        "crop:rice",
+        "organ:leaf",
+        "task:time_series"
+      ],
+      "preview": {
+        "alt": "Moving correlation of the 28-CT-group global-rhythm profile (control vs 40C heat shock), computed here, overlaid on the authors' Fig. 5D series; the correlation peak gives the heat-shock phase shift.",
+        "caption": "Moving correlation of the 28-CT-group global-rhythm profile (control vs 40C heat shock), computed here, overlaid on the authors' Fig. 5D series; the correlation peak gives the heat-shock phase shift."
+      }
     }
   ]
 }
