@@ -2810,6 +2810,28 @@
         "alt": "Floral species richness per photo vs EXIF GPS altitude (Aug 2020, Mt. Rainier): YOLO and Mask R-CNN detections with elevation-bin means; richness peaks near 1700-1800 m.",
         "caption": "Floral species richness per photo vs EXIF GPS altitude (Aug 2020, Mt. Rainier): YOLO and Mask R-CNN detections with elevation-bin means; richness peaks near 1700-1800 m."
       }
+    },
+    {
+      "public_id": "p-cf57edd8223a2135a5d5ac89d6ebc0e4",
+      "title": "High-throughput characterization, correlation, and mapping of leaf photosynthetic and functional traits in the soybean (Glycine max) nested association mapping population.",
+      "doi": "10.1093/genetics/iyac065",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Partial reproduction: the published PLSR coefficients regenerate the authors' per-plot Vcmax25 estimates exactly (r=1.0, 8887 plots), and NAM::gwas recovers both reported Vcmax25 MTAs on a ~72-minute CPU scan; no-window model and two-half polygenic term are documented adaptations.",
+      "semantic_tags": [
+        "crop:soybean",
+        "environment:field",
+        "modality:spectral",
+        "organ:leaf",
+        "task:physiology",
+        "trait:leaf_traits",
+        "trait:photosynthesis",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "Manhattan plot of the empirical-Bayes NAM GWAS for PLSR-modeled Vcmax25 in this notebook; both reported MTAs (Chr 10, Chr 19) are recovered.",
+        "caption": "Manhattan plot of the empirical-Bayes NAM GWAS for PLSR-modeled Vcmax25 in this notebook; both reported MTAs (Chr 10, Chr 19) are recovered."
+      }
     }
   ]
 }
