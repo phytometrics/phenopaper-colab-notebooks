@@ -24,6 +24,18 @@
       "notebook_sha256": "e3bf22a8eb692f5aacca28cd1b72d400de410e70cf470d23b4fbb1b3c15d9bda",
       "source_sha256": "4f6e22a26a356bc5cf1533c93a9bca40de16e524a838184e19c689291f6a4c26",
       "code_cells": 11
+    },
+    {
+      "public_id": "p-250c092053cb2b82d0df868fc279950e",
+      "title": "LeafMachine: Using machine learning to automate leaf trait extraction from digitized herbarium specimens.",
+      "investigation_run_id": "p-250c092053cb2b82d0df868fc279950e-20260930T133336Z-3694200",
+      "status": "blocked",
+      "reason": "LeafMachine V.2.0 is a MATLAB pipeline: author-trained DeepLabV3+ weights are a serialized MATLAB DAGNetwork requiring licensed MATLAB R2019b+ with Deep Learning Toolbox 13.0 and the ResNet-18 Add-On (author manual). No faithful Colab execution path exists (Octave cannot load the weights; no ONNX/Python export in the pinned commit ea88e9ad546458f8746af6414488442bd5ac31ff). Outcome B: CODE-ONLY / NOT EXECUTED notebook delivered; no Colab session allocated. Eligible for unverified-reference publication via publish_unverified.py only.",
+      "created_on": "2026-10-05",
+      "notebook_path": "notebooks/unverified/p-250c092053cb2b82d0df868fc279950e.ipynb",
+      "notebook_sha256": "8d82ee2e4af4d513bb316d9344d6f1fae6a25a1a8c6a686659c2981c89124bb6",
+      "source_sha256": "8dcdc89670986bea23e96bbe62be5ff16a73cb24ba65287b3c9235df00dc7323",
+      "code_cells": 3
     }
   ]
 }
