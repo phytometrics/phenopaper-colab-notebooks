@@ -2715,6 +2715,23 @@
         "alt": "Weka symptomatic-probability observations (reference annotations, top) versus the fitted Fisher-KPP model (bottom) at T=1..4 days for stipule 1_B1_Sol_1",
         "caption": "Weka symptomatic-probability observations (reference annotations, top) versus the fitted Fisher-KPP model (bottom) at T=1..4 days for stipule 1_B1_Sol_1"
       }
+    },
+    {
+      "public_id": "p-fb64b46ffeb504759cfc7addb0e59e60",
+      "title": "Transfer learning for versatile plant disease recognition with limited data.",
+      "doi": "10.3389/fpls.2022.1010981",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Executed 20-shot fine-tuning of the released PlantCLEF2022 ViT-Large on CGIARWheat (test top-1 83.0%) versus the same architecture trained from scratch (50.9%), using the author's seed-15 split and hyperparameters; single dataset/mode, not a benchmark reproduction.",
+      "semantic_tags": [
+        "task:classification",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "CGIARWheat 20-shot training samples (3 per class) from the author seed-15 split used for fine-tuning.",
+        "caption": "CGIARWheat 20-shot training samples (3 per class) from the author seed-15 split used for fine-tuning."
+      }
     }
   ]
 }
