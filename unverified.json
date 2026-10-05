@@ -120,6 +120,18 @@
       "notebook_sha256": "600c2716add6a9dd320ef4836d425d3489bfd4bd1279ef2565b1a83cdebafbb1",
       "source_sha256": "15c9432dffefd983d703c13a3c6a2c2177b5000e7c6c5baca7f2c8cf2c2dcdab",
       "code_cells": 9
+    },
+    {
+      "public_id": "p-583076a8ba468877ab54b5daa479ed87",
+      "title": "Accurate machine learning-based germination detection, prediction and quality assessment of three grain crops.",
+      "investigation_run_id": "p-583076a8ba468877ab54b5daa479ed87-20260929T130651Z-2636551",
+      "status": "blocked",
+      "reason": "Weights/label maps exist only on Mendeley Data 4wkt6thgp6/3; every Mendeley route returns HTTP 403 Cloudflare 'Just a moment...' challenge from Colab VMs (verified via probes: public-files download URLs, landing, public-api, api host, S3 cache bucket) while GitHub raw works. Challenge automation is prohibited and no authorized public mirror exists (Zenodo/HF/ModelScope/Docker Hub/GitHub/Wayback checked 2026-10-05). Complete reference notebook delivered as UNVERIFIED at deliverables/p-583076a8ba468877ab54b5daa479ed87.ipynb; it fails only at the Mendeley download cell.",
+      "created_on": "2026-10-05",
+      "notebook_path": "notebooks/unverified/p-583076a8ba468877ab54b5daa479ed87.ipynb",
+      "notebook_sha256": "36034e0d5d66459878f46db4d20b6ea71834acd8a47adfec1abd3cf9cf669006",
+      "source_sha256": "636b85db5653a840a5bd1a7e10bde5625c3a2b3c0f404cc73adc1f36b36987f7",
+      "code_cells": 12
     }
   ]
 }
