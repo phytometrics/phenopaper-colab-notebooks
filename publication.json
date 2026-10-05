@@ -3212,6 +3212,27 @@
         "alt": "Blade radial ECT inputs with blade outlines (left) and U-Net vein predictions color-coded against the ground-truth vein mask: true positives white, false positives magenta, false negatives blue (paper Figure 7 scheme).",
         "caption": "Blade radial ECT inputs with blade outlines (left) and U-Net vein predictions color-coded against the ground-truth vein mask: true positives white, false positives magenta, false negatives blue (paper Figure 7 scheme)."
       }
+    },
+    {
+      "public_id": "p-570151845380c4fdd6aa3762be2973f3",
+      "title": "Colony-Level 3D Photogrammetry Reveals That Total Linear Extension and Initial Growth Do Not Scale With Complex Morphological Growth in the Branching Coral, Acropora cervicornis",
+      "doi": "10.3389/fmars.2021.646475",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Re-computed the paper's trait-growth statistics (Kendall's tau, polynomial TLE-Vinter fits, field-vs-3D TLE validation) from the authors' published 156-colony phenotype table; adapted Python translation of unpublished R code, one breakage-exclusion discrepancy documented.",
+      "semantic_tags": [
+        "environment:field",
+        "modality:photogrammetry",
+        "task:morphology",
+        "task:reconstruction",
+        "task:time_series",
+        "trait:architecture",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Second-order polynomial fit of growth in Vinter vs growth in TLE (0-6 and 6-12 months), reproduced from the published phenotype table",
+        "caption": "Second-order polynomial fit of growth in Vinter vs growth in TLE (0-6 and 6-12 months), reproduced from the published phenotype table"
+      }
     }
   ]
 }
