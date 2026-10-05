@@ -2623,6 +2623,23 @@
         "alt": "Author imageSegmentation output: input canopy photo, predicted sky probability, and binary mask for the 3 imageseg example images (canopy densities 0.966/0.405/0.766)",
         "caption": "Author imageSegmentation output: input canopy photo, predicted sky probability, and binary mask for the 3 imageseg example images (canopy densities 0.966/0.405/0.766)"
       }
+    },
+    {
+      "public_id": "p-8f55a8fbe9d410d7a55170108973d846",
+      "title": "In Situ Root Dataset Expansion Strategy Based on an Improved CycleGAN Generator.",
+      "doi": "10.34133/plantphenomics.0148",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Partial demonstration: released Improved CycleGAN Model 1 generator translates a 256x256 annotated root mask into a textured root (masks-to-roots direction resolved empirically), followed by the authors' hcl.py background-separation postprocessing; input-vs-generated comparison figure. Training, FID/KID model comparison, and Improved_UNet evaluation are out of scope.",
+      "semantic_tags": [
+        "organ:root",
+        "task:segmentation",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "Input root mask (1-100ANN.zip example) vs Model 1 generated root after hcl.py background separation",
+        "caption": "Input root mask (1-100ANN.zip example) vs Model 1 generated root after hcl.py background separation"
+      }
     }
   ]
 }
