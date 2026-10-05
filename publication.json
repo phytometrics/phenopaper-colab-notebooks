@@ -2919,6 +2919,24 @@
         "alt": "PlantCV analyze.size output: selected plant crop with measured shape traits drawn in magenta (area, hull, ellipse, centroid).",
         "caption": "PlantCV analyze.size output: selected plant crop with measured shape traits drawn in magenta (area, hull, ellipse, centroid)."
       }
+    },
+    {
+      "public_id": "p-b11e2b3b758c4a1c8cfbbc8e2b29230e",
+      "title": "VolumePeeler: a novel FIJI plugin for geometric tissue peeling to improve visualization and quantification of 3D image stacks",
+      "doi": "10.1186/s12859-023-05403-z",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Headless Colab CPU reproduction of the authors' VolumePeeler Sphere_Projection on the paper's synthetic test volume (RMSE vs published Fig. 2) and a real killifish embryo peel; single minimal example, unstated GUI parameters interpreted as documented.",
+      "semantic_tags": [
+        "modality:microscopy",
+        "organ:tissue",
+        "task:preprocessing",
+        "task:visualization"
+      ],
+      "preview": {
+        "alt": "AnnualKillifish embryo (authors' example): input max projection with fitted sphere (r=511.8) vs VolumePeeler peeled projection exposing deeper cells (proportion 0.94).",
+        "caption": "AnnualKillifish embryo (authors' example): input max projection with fitted sphere (r=511.8) vs VolumePeeler peeled projection exposing deeper cells (proportion 0.94)."
+      }
     }
   ]
 }
