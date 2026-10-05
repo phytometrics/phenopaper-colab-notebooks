@@ -3060,6 +3060,23 @@
         "alt": "Sample ear RGB input with the authors' precomputed DL2 grain-mask contours (reference annotation) for B1E10_1 and 13_29_WW_Hyb_08_46_c_1.",
         "caption": "Sample ear RGB input with the authors' precomputed DL2 grain-mask contours (reference annotation) for B1E10_1 and 13_29_WW_Hyb_08_46_c_1."
       }
+    },
+    {
+      "public_id": "p-cdeb807babf91f2b6fe0f203dd5b5868",
+      "title": "Plants stand still but hide: imperfect and heterogeneous detection is the rule when counting plants",
+      "doi": "10.1101/2022.09.05.506614",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Reproduces the authors' final binomial GLMM of individual detection in plant counts, their Figures 2 and 3, and the per-method detection rates (0.44/0.59/0.74) from the pinned public dataset; raw-data formatting, appendices and Figure 4 are out of scope.",
+      "semantic_tags": [
+        "environment:field",
+        "organ:whole_plant",
+        "task:counting"
+      ],
+      "preview": {
+        "alt": "Reproduced Figure 3: model-predicted individual detection probability vs counting time for the three counting methods, by species conspicuousness and habitat closure.",
+        "caption": "Reproduced Figure 3: model-predicted individual detection probability vs counting time for the three counting methods, by species conspicuousness and habitat closure."
+      }
     }
   ]
 }
