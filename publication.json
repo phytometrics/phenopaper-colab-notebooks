@@ -2980,6 +2980,26 @@
         "alt": "Temperature-annotated apple fruit point clouds (2022-09-01, DAFB132), each point coloured by annotated surface temperature (degC)",
         "caption": "Temperature-annotated apple fruit point clouds (2022-09-01, DAFB132), each point coloured by annotated surface temperature (degC)"
       }
+    },
+    {
+      "public_id": "p-55cecb890eeed28624a594bf7f6f2af7",
+      "title": "Components of Water Use Efficiency Have Unique Genetic Signatures in the Model C 4 Grass Setaria .",
+      "doi": "10.1104/pp.18.00146",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Recomputes the Setaria WUE trait derivation: daily evapotranspiration with empty-pot correction, zoom-calibrated side-view plant area, loess smoothing, and WUEratio, WUEfit, WUEresidual from the authors' deposited data. The wet-treatment size-water-use correlation at 21 to 27 DAP reproduces the reported r greater than 0.94. QTL mapping and lme4 heritability are out of scope.",
+      "semantic_tags": [
+        "crop:millet",
+        "organ:whole_plant",
+        "task:physiology",
+        "task:time_series",
+        "trait:growth_development",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Pearson correlation of loess-smoothed plant size with water use by days after planting, left, and genotype-specific WUEresidual variability, right. Wet treatment matches the paper correlation greater than 0.94 at 21 to 27 DAP.",
+        "caption": "Pearson correlation of loess-smoothed plant size with water use by days after planting, left, and genotype-specific WUEresidual variability, right. Wet treatment matches the paper correlation greater than 0.94 at 21 to 27 DAP."
+      }
     }
   ]
 }
