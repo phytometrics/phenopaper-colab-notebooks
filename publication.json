@@ -2753,6 +2753,29 @@
         "alt": "EnMAP Leipzig clip (NIR/R/G false color) with Dis_UN 95%-quantile uncertainty maps for LMA, LAI and N (257x226 px, 30 m).",
         "caption": "EnMAP Leipzig clip (NIR/R/G false color) with Dis_UN 95%-quantile uncertainty maps for LMA, LAI and N (257x226 px, 30 m)."
       }
+    },
+    {
+      "public_id": "p-7d1d3ea16f792f95af52018cdc953137",
+      "title": "Combining computer vision and deep learning to enable ultra-scale aerial phenotyping and precision agriculture: A case study of lettuce production.",
+      "doi": "10.1038/s41438-019-0151-5",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Executed the AirSurf-Lettuce detection pipeline (CLAHE pre-processing, 20x20 sliding-window CNN with NMS, k-means size classification, harvest grid and 3D chart) on one author sample region; single-sample scope only, GPS tagging omitted.",
+      "semantic_tags": [
+        "crop:lettuce",
+        "environment:aerial",
+        "environment:field",
+        "modality:spectral",
+        "organ:whole_plant",
+        "task:classification",
+        "task:counting",
+        "task:morphology",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "AirSurf-L size-classification overlay on sample_region1.png: model predictions coloured blue (small), green (medium), red (large).",
+        "caption": "AirSurf-L size-classification overlay on sample_region1.png: model predictions coloured blue (small), green (medium), red (large)."
+      }
     }
   ]
 }
