@@ -2937,6 +2937,25 @@
         "alt": "AnnualKillifish embryo (authors' example): input max projection with fitted sphere (r=511.8) vs VolumePeeler peeled projection exposing deeper cells (proportion 0.94).",
         "caption": "AnnualKillifish embryo (authors' example): input max projection with fitted sphere (r=511.8) vs VolumePeeler peeled projection exposing deeper cells (proportion 0.94)."
       }
+    },
+    {
+      "public_id": "p-5cef55df708861354e2d65e2021deab5",
+      "title": "Improving multi-trait genomic prediction using synthetic traits from hyperspectral data based on co-heritability.",
+      "doi": "10.1007/s00122-026-05334-2",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Executes the paper's co-heritability-based synthetic-trait selection stage with the authors' pinned SyntheticTraits R package (commit dadb906) on the bundled 1,920-row sorghum subset, validated against the authors' shipped reference values; limited to the 11-wavelength 350-365 nm subset grid and not a full-paper reproduction.",
+      "semantic_tags": [
+        "crop:sorghum",
+        "modality:spectral",
+        "organ:leaf",
+        "task:physiology",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Co-heritability heatmap of narea versus 350-365 nm wavelength ratios (authors' bundled subset), selected synthetic traits highlighted",
+        "caption": "Co-heritability heatmap of narea versus 350-365 nm wavelength ratios (authors' bundled subset), selected synthetic traits highlighted"
+      }
     }
   ]
 }
