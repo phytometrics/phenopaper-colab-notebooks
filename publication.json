@@ -3155,6 +3155,22 @@
         "alt": "Sum projections of uninjured, mildly, and severely injured pylori with predicted ploidy classes overlaid on segmented nuclei (pooled 2D GMM, K=5).",
         "caption": "Sum projections of uninjured, mildly, and severely injured pylori with predicted ploidy classes overlaid on segmented nuclei (pooled 2D GMM, K=5)."
       }
+    },
+    {
+      "public_id": "p-921e3c64e6cd8f598d5f56edbe436f1f",
+      "title": "Bayesian functional regression as an alternative statistical analysis of high-throughput phenotyping data of modern agriculture.",
+      "doi": "10.1186/s13007-018-0314-7",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Reproduces the paper's Alternative 2 functional regression (M7) on the irrigated wheat hyperspectral data with the authors' GFR R package, reaching an average 3-fold CV Pearson correlation of 0.497 within the paper's reported range; exact Table 2 values are not targeted because fold seeds and MCMC settings are unpublished.",
+      "semantic_tags": [
+        "crop:wheat",
+        "modality:spectral"
+      ],
+      "preview": {
+        "alt": "Predicted vs observed grain yield for held-out lines (left) and per-fold Pearson correlation with average 0.497 (right) for M7/Alternative 2, B-spline L=23, BRR prior, 3-fold CV.",
+        "caption": "Predicted vs observed grain yield for held-out lines (left) and per-fold Pearson correlation with average 0.497 (right) for M7/Alternative 2, B-spline L=23, BRR prior, 3-fold CV."
+      }
     }
   ]
 }
