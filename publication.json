@@ -2658,6 +2658,26 @@
         "alt": "DigiEye input (cv. NASPOT 10 O boiled roots) with authors' YOLOv5 root bbox, K-means root mask, and background-removed image.",
         "caption": "DigiEye input (cv. NASPOT 10 O boiled roots) with authors' YOLOv5 root bbox, K-means root mask, and background-removed image."
       }
+    },
+    {
+      "public_id": "p-027ec3986a9b1bed36d090ca31702f07",
+      "title": "Biomechanical phenotyping pipeline for stalk lodging resistance in maize.",
+      "doi": "10.1016/j.mex.2024.102562",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Reproduces the InterMeas internode-length pipeline (blue-mat crop, YOLOv5m node detection with the authors' torchscript weight, pixel-to-cm conversion with z-score outlier check) on 3 author example stalks on CPU; the R conversion step is a headless Python port and only 3 of 48 example images are used.",
+      "semantic_tags": [
+        "crop:maize",
+        "environment:field",
+        "environment:laboratory",
+        "organ:stem",
+        "task:morphology",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "Detected nodes (red) and internode lengths in cm (cyan) overlaid on the cropped example stalks K21_408003-02/-03/-04",
+        "caption": "Detected nodes (red) and internode lengths in cm (cyan) overlaid on the cropped example stalks K21_408003-02/-03/-04"
+      }
     }
   ]
 }
