@@ -2640,6 +2640,24 @@
         "alt": "Input root mask (1-100ANN.zip example) vs Model 1 generated root after hcl.py background separation",
         "caption": "Input root mask (1-100ANN.zip example) vs Model 1 generated root after hcl.py background separation"
       }
+    },
+    {
+      "public_id": "p-8469de70c76a84d7d0e0cef7a5e78faf",
+      "title": "Using machine learning for image-based analysis of sweetpotato root sensory attributes.",
+      "doi": "10.1016/j.atech.2023.100291",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Reproduces the deployed DigiEye tool's inference path (K-means colour heuristic + pickled regressors, YOLOv5 ROI + EfficientNetB5 + gb.pickle mealiness) on one bundled real sample; qualitative only, no ground truth is public.",
+      "semantic_tags": [
+        "environment:laboratory",
+        "organ:root",
+        "task:physiology",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "DigiEye input (cv. NASPOT 10 O boiled roots) with authors' YOLOv5 root bbox, K-means root mask, and background-removed image.",
+        "caption": "DigiEye input (cv. NASPOT 10 O boiled roots) with authors' YOLOv5 root bbox, K-means root mask, and background-removed image."
+      }
     }
   ]
 }
