@@ -48,6 +48,18 @@
       "notebook_sha256": "e21c984d30455ea7ba5a2a74f87fa6abd72f5dd7851d50ec83b0da83a4f454fc",
       "source_sha256": "820f1a9ab55ef5f872cf311f2c5cab4b30775eba3c70586e0e0ade86233b4198",
       "code_cells": 13
+    },
+    {
+      "public_id": "p-4c96e2dcd4f0c243f1c5d62101143904",
+      "title": "FruitPhenoBox - a device for rapid and automated fruit phenotyping of small sample sizes.",
+      "investigation_run_id": "p-4c96e2dcd4f0c243f1c5d62101143904-20260929T094656Z-2497507",
+      "status": "failed",
+      "reason": "Notebook complete and fixed but not fully re-validated: the 3-distinct-Colab-session budget was exhausted (diag, final, contingency) after two deterministic Octave driver bugs (missing demo env vars; struct() 1x1-cell unwrapping) were found and fixed. Preserved as unverified reference at deliverables/p-4c96e2dcd4f0c243f1c5d62101143904.ipynb. Verified-public-input limitation: pixelsize.txt/sideshapes.mat/topshapes.mat absent from all four public affe files, so cm traits and 13-shape correlations are reported NaN; geometry/segmentation/color features run in px on the bundled testdata.",
+      "created_on": "2026-10-05",
+      "notebook_path": "notebooks/unverified/p-4c96e2dcd4f0c243f1c5d62101143904.ipynb",
+      "notebook_sha256": "9b83ff84b2708ff22a2d4ab58958c9ee08c88e894d3a6e7b5b48e81063a26a31",
+      "source_sha256": "748b77cd973fe1c2b3773fc7f547e52e5578b872bb061c174787b2171bc30ffd",
+      "code_cells": 11
     }
   ]
 }

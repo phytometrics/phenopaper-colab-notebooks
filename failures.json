@@ -199,6 +199,16 @@
       "reason": "Notebook authored and statically validated but never executed: Colab CPU session allocation refused on 16 attempts over ~38 min (02:46-03:27 UTC 2026-10-02) because the account's four concurrent-session slots are held by other queue workers' sessions; this run must not stop them. All source materials (PhotoPi code @fab92caf, FRDR 10.20383/103.01255, arXiv 2504.16840v1 Sec VI) were verified accessible. Execution environment failure, not missing material.",
       "created_on": "2026-10-02",
       "notebook_path": "notebooks/unverified/p-0dfec3c680bb0e32ef572c9bcc0a1d2c.ipynb"
+    },
+    {
+      "public_id": "p-4c96e2dcd4f0c243f1c5d62101143904",
+      "title": "FruitPhenoBox - a device for rapid and automated fruit phenotyping of small sample sizes.",
+      "investigation_run_id": "p-4c96e2dcd4f0c243f1c5d62101143904-20260929T094656Z-2497507",
+      "run_id": "p-4c96e2dcd4f0c243f1c5d62101143904-20261004T135322Z",
+      "status": "failed",
+      "reason": "Notebook complete and fixed but not fully re-validated: the 3-distinct-Colab-session budget was exhausted (diag, final, contingency) after two deterministic Octave driver bugs (missing demo env vars; struct() 1x1-cell unwrapping) were found and fixed. Preserved as unverified reference at deliverables/p-4c96e2dcd4f0c243f1c5d62101143904.ipynb. Verified-public-input limitation: pixelsize.txt/sideshapes.mat/topshapes.mat absent from all four public affe files, so cm traits and 13-shape correlations are reported NaN; geometry/segmentation/color features run in px on the bundled testdata.",
+      "created_on": "2026-10-05",
+      "notebook_path": "notebooks/unverified/p-4c96e2dcd4f0c243f1c5d62101143904.ipynb"
     }
   ]
 }
