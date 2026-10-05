@@ -2899,6 +2899,26 @@
         "alt": "Input preview from S3_Data.csv: class counts (U.S. No. 1 vs Cull) and distributions of the two key scalar features (Curvature, LWRatio) by class.",
         "caption": "Input preview from S3_Data.csv: class counts (U.S. No. 1 vs Cull) and distributions of the two key scalar features (Curvature, LWRatio) by class."
       }
+    },
+    {
+      "public_id": "p-59fad09308b383d488e949a8fb42837b",
+      "title": "Raspberry Pi-powered imaging for plant phenotyping.",
+      "doi": "10.1002/aps3.1031",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "One-image PlantCV 4.x port of the paper's Appendix 2 time-lapse example: segments the repository's Arabidopsis flat photo, selects one plant, and extracts Tough-Spot-scaled area/shape/color traits; single-example partial demonstration, no accuracy benchmark.",
+      "semantic_tags": [
+        "organ:seed",
+        "organ:whole_plant",
+        "task:morphology",
+        "trait:architecture",
+        "trait:pigment_color",
+        "trait:plant_height"
+      ],
+      "preview": {
+        "alt": "PlantCV analyze.size output: selected plant crop with measured shape traits drawn in magenta (area, hull, ellipse, centroid).",
+        "caption": "PlantCV analyze.size output: selected plant crop with measured shape traits drawn in magenta (area, hull, ellipse, centroid)."
+      }
     }
   ]
 }
