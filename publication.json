@@ -3077,6 +3077,26 @@
         "alt": "Reproduced Figure 3: model-predicted individual detection probability vs counting time for the three counting methods, by species conspicuousness and habitat closure.",
         "caption": "Reproduced Figure 3: model-predicted individual detection probability vs counting time for the three counting methods, by species conspicuousness and habitat closure."
       }
+    },
+    {
+      "public_id": "p-4dee69b3ba1b0df3a727a2497e7a59bd",
+      "title": "DynG: a dynamic scaling factor for thermographic stomatal conductance estimation under changing environmental conditions.",
+      "doi": "10.1111/nph.70555",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Verbatim R reproduction of DynG's core conversion (Eqn 5/7 worked example, Eqn 8 theoretical artificial-leaf conductance) and exact re-derivation of the released DynG(t) series (max delta 1.1e-15); thermogram-based phenotype phases are not released and out of scope.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "modality:thermal",
+        "organ:leaf",
+        "organ:stomata",
+        "task:physiology",
+        "trait:stomatal_traits"
+      ],
+      "preview": {
+        "alt": "DynG(t) recomputed from the authors' released Ig data (author script, this run) overlaid on the authors' released DynG_results.csv; the two curves coincide.",
+        "caption": "DynG(t) recomputed from the authors' released Ig data (author script, this run) overlaid on the authors' released DynG_results.csv; the two curves coincide."
+      }
     }
   ]
 }
