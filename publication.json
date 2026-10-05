@@ -3116,6 +3116,26 @@
         "alt": "Reprojected SfM 3D points (green) overlaid on input frame DSC02516.JPG (UGVPP center camera, pinned commit a266881)",
         "caption": "Reprojected SfM 3D points (green) overlaid on input frame DSC02516.JPG (UGVPP center camera, pinned commit a266881)"
       }
+    },
+    {
+      "public_id": "p-61a6050762a9ebd5d9bb785d2c368efe",
+      "title": "Integrating spectral, texture, soil and fertilization information for plot-level prediction of sugarcane yield, millable stalk population and Brix from Jilin-1 imagery",
+      "doi": "10.21203/rs.3.rs-9371174/v1",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Partial: authors' SVR_Model.py (SVR-RFE + LOOCV + grid search) run verbatim on the bundled random data_test.xlsx; metrics are pipeline checks, not paper results",
+      "semantic_tags": [
+        "crop:sugarcane",
+        "environment:field",
+        "modality:spectral",
+        "organ:whole_plant",
+        "task:yield_biomass",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "No image or graph generated for this data-only reproduction.",
+        "caption": "No image or graph generated for this data-only reproduction."
+      }
     }
   ]
 }
