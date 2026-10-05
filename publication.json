@@ -3190,6 +3190,28 @@
         "alt": "HTDA-Mapper graph of the 27,761-plant descriptor dataset (Poincare-ball branch, this run's output); nodes coloured by dominant growth condition.",
         "caption": "HTDA-Mapper graph of the 27,761-plant descriptor dataset (Poincare-ball branch, this run's output); nodes coloured by dominant growth condition."
       }
+    },
+    {
+      "public_id": "p-cf6fbe09ef069c421bb4945ffc9580e4",
+      "title": "The Euler Characteristic Transform Enables Classification of Complex Plant Shapes and Prediction of Leaf Venation from Blade Geometry",
+      "doi": "10.64898/2026.04.13.718293",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Executed the Figure 7 vein-prediction pipeline (synthetic grapevine leaves from the bundled GPA/PCA model, radial ECT rendering, two-channel U-Net) on 480 leaves with 8 instead of 100 training epochs, so the validation Dice (0.289) demonstrates the learning trend and does not verify the paper's 0.583.",
+      "semantic_tags": [
+        "crop:grapevine",
+        "organ:cell",
+        "organ:leaf",
+        "task:classification",
+        "task:morphology",
+        "task:reconstruction",
+        "trait:architecture",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Blade radial ECT inputs with blade outlines (left) and U-Net vein predictions color-coded against the ground-truth vein mask: true positives white, false positives magenta, false negatives blue (paper Figure 7 scheme).",
+        "caption": "Blade radial ECT inputs with blade outlines (left) and U-Net vein predictions color-coded against the ground-truth vein mask: true positives white, false positives magenta, false negatives blue (paper Figure 7 scheme)."
+      }
     }
   ]
 }
