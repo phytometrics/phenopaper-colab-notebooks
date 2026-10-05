@@ -2791,6 +2791,25 @@
         "alt": "Most frequent PO anatomical entities among 246,347 extracted taxon-EQ description rows (FLOPO minimal demo; not an author figure).",
         "caption": "Most frequent PO anatomical entities among 246,347 extracted taxon-EQ description rows (FLOPO minimal demo; not an author figure)."
       }
+    },
+    {
+      "public_id": "p-39c5425f038d55e6b475a2eb722d70be",
+      "title": "Using photographs and deep neural networks to understand flowering phenology and diversity in mountain meadows",
+      "doi": "10.1002/rse2.382",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Elevation-floral-richness reproduction (Figs 4A/5-style): parses the authors' stored YOLO and Mask R-CNN detection outputs from ajijohn/meadowflowers @ e3e82cf, joins them to August-2020 photo EXIF GPS altitude, and recomputes species richness per photo along the 1483-1888 m gradient plus temporal density; CPU-only, no retraining.",
+      "semantic_tags": [
+        "environment:field",
+        "modality:rgb",
+        "organ:flower",
+        "task:object_detection",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Floral species richness per photo vs EXIF GPS altitude (Aug 2020, Mt. Rainier): YOLO and Mask R-CNN detections with elevation-bin means; richness peaks near 1700-1800 m.",
+        "caption": "Floral species richness per photo vs EXIF GPS altitude (Aug 2020, Mt. Rainier): YOLO and Mask R-CNN detections with elevation-bin means; richness peaks near 1700-1800 m."
+      }
     }
   ]
 }
