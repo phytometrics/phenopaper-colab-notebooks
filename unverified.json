@@ -108,6 +108,18 @@
       "notebook_sha256": "e7a640c8295355720a8fe126e2d1c9de1794c8ad99ea4e7b953ef4b3fcaf6a76",
       "source_sha256": "4760886e02d8dcec61ad7e8ec0b0e709705821397781c5d80bce31e05374ca94",
       "code_cells": 14
+    },
+    {
+      "public_id": "p-a9eeb18ead1f19a9c2ea5e76c0b0ffb6",
+      "title": "Low-annotation apple flower counting: A color-SAM enhanced and uncertainty-guided semi-supervised framework.",
+      "investigation_run_id": "p-a9eeb18ead1f19a9c2ea5e76c0b0ffb6-20260929T225935Z-3052262",
+      "status": "blocked",
+      "reason": "Minimal reproduction (pretrained 30%-label USCount-Net checkpoint on the released flower-cluster test split) is blocked: both the weights (Drive file 1pHtOO1Q6SqisQv0bTXE9oPQ-aoY3MkFc) and the dataset (Drive folder 1KP8H0qIuct56hWre5GV6ZJnzwqOY3Pip) are not anonymously accessible (HTTP 401 / sign-in redirects, verified 2026-10-05 from fresh Colab runtimes via gdown, requests and embeddedfolderview). Code-only, never-executed UNVERIFIED reference notebook delivered at deliverables/p-a9eeb18ead1f19a9c2ea5e76c0b0ffb6.ipynb with a RuntimeError guard; no scientific execution performed; publisher not called.",
+      "created_on": "2026-10-05",
+      "notebook_path": "notebooks/unverified/p-a9eeb18ead1f19a9c2ea5e76c0b0ffb6.ipynb",
+      "notebook_sha256": "600c2716add6a9dd320ef4836d425d3489bfd4bd1279ef2565b1a83cdebafbb1",
+      "source_sha256": "15c9432dffefd983d703c13a3c6a2c2177b5000e7c6c5baca7f2c8cf2c2dcdab",
+      "code_cells": 9
     }
   ]
 }
