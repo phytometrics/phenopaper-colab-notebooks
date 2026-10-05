@@ -72,6 +72,18 @@
       "notebook_sha256": "2f980626067572d1bc012f154b80fef559aa05a4d53dfeee12417c137980f727",
       "source_sha256": "4a075f65866e80e73adb757c6f2e36bdcf5c76db762d3e0cb2b781af8cd5cf79",
       "code_cells": 13
+    },
+    {
+      "public_id": "p-8763982ed396003076d4f0310794187a",
+      "title": "Overcoming difficulties in segmentation of hyperspectral plant images with small projection areas using machine learning.",
+      "investigation_run_id": "p-8763982ed396003076d4f0310794187a-20260930T230127Z-3797379",
+      "status": "failed",
+      "reason": "Authors' R segmentation (MCARI1 pre-mask + fixed 85-centroid K-means) executed successfully on the demo Zenodo image in 3 fresh CPU Colab sessions (13,715/9,087/13,077 kept pixels, 22-23 clusters), but the auxiliary WLs.txt parsing cell failed in all runs; root cause identified on attempt 3 (394x2 [band index, wavelength] table) and fixed in the deliverable, but the 3-session Colab budget was exhausted before a validating fresh run. Notebook preserved as UNVERIFIED/INCOMPLETE; no publication.",
+      "created_on": "2026-10-05",
+      "notebook_path": "notebooks/unverified/p-8763982ed396003076d4f0310794187a.ipynb",
+      "notebook_sha256": "ed01750822fafd64e80dd88af6388ca4b2f4a0b976ee69c61778c5a0328c1c43",
+      "source_sha256": "d333035b79d79b94e67f26d2c7b5287f925afad248ddb172ba03c838e9ef9c5d",
+      "code_cells": 11
     }
   ]
 }
