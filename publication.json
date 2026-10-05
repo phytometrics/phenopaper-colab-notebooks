@@ -3017,6 +3017,25 @@
         "alt": "Moving correlation of the 28-CT-group global-rhythm profile (control vs 40C heat shock), computed here, overlaid on the authors' Fig. 5D series; the correlation peak gives the heat-shock phase shift.",
         "caption": "Moving correlation of the 28-CT-group global-rhythm profile (control vs 40C heat shock), computed here, overlaid on the authors' Fig. 5D series; the correlation peak gives the heat-shock phase shift."
       }
+    },
+    {
+      "public_id": "p-501281b0f6e37c9cabbd8b3e5e638563",
+      "title": "GWAS supported by computer vision identifies large numbers of candidate regulators of in planta regeneration in Populus trichocarpa.",
+      "doi": "10.1093/g3journal/jkae026",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Runs the authors' pinned MTMC-SKAT R workflow (3 kb windows, 1 kb stagger, adaptive-resampling empirical P-values) on the bundled 200-genotype poplar TDZ shoot-area sample for chromosome 10; a small partial demonstration, not the full 1,219-genotype GWAS.",
+      "semantic_tags": [
+        "crop:poplar",
+        "organ:tissue",
+        "task:segmentation",
+        "task:time_series",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Two-panel Manhattan plot of MTMC-SKAT P-values across 30 SNP windows on chromosome 10 (model-based and empirical), from the bundled 200-genotype poplar sample.",
+        "caption": "Two-panel Manhattan plot of MTMC-SKAT P-values across 30 SNP windows on chromosome 10 (model-based and empirical), from the bundled 200-genotype poplar sample."
+      }
     }
   ]
 }
