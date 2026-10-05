@@ -132,6 +132,18 @@
       "notebook_sha256": "36034e0d5d66459878f46db4d20b6ea71834acd8a47adfec1abd3cf9cf669006",
       "source_sha256": "636b85db5653a840a5bd1a7e10bde5625c3a2b3c0f404cc73adc1f36b36987f7",
       "code_cells": 12
+    },
+    {
+      "public_id": "p-13d960f2f8637cfa0ec6e7dcfb20a5e5",
+      "title": "PhenoFly Planning Tool: flight planning for high-resolution optical remote sensing with unmanned areal systems.",
+      "investigation_run_id": "p-13d960f2f8637cfa0ec6e7dcfb20a5e5-20260930T233119Z-3816713",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-05T11:48:26.973Z] print('extracted', len(ns['driver'])) | [2026-10-05T11:48:26.973Z] \" failed | [2026-10-05T11:48:26.973Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-05",
+      "notebook_path": "notebooks/unverified/p-13d960f2f8637cfa0ec6e7dcfb20a5e5.ipynb",
+      "notebook_sha256": "1f1cad31b023b683b0d28c9f87f0a84304f8fe55dd387ea99d60bb6b62d0be7c",
+      "source_sha256": "cea748afe86b6b803ddb06ff8127737e28a045f13766408b401d4dcf734db307",
+      "code_cells": 6
     }
   ]
 }

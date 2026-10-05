@@ -249,6 +249,16 @@
       "reason": "T4 session budget (3 distinct) exhausted after three repairable environment failures: (1) Colab py3.13/torch2.11+cu130 runtime required stack fixes; (2) numpy churn from requirements install + Drive per-file rate limits (fixed: filtered numpy<2, targeted throttled registered-only download); (3) pyvista stub lacked attribute fallback for import-time pv.PolyData annotation (fixed in build_notebook.py; notebook now statically valid, ready for resume). Dataset download cell fully passed in attempt 3. No scientific execution completed; gsplat JIT never ran inside the final notebook. Resume with resume_run_dir and a fresh session.",
       "created_on": "2026-10-05",
       "notebook_path": "notebooks/unverified/p-52e5cb26b52aa179b3db5eec9f4bd2d5.ipynb"
+    },
+    {
+      "public_id": "p-13d960f2f8637cfa0ec6e7dcfb20a5e5",
+      "title": "PhenoFly Planning Tool: flight planning for high-resolution optical remote sensing with unmanned areal systems.",
+      "investigation_run_id": "p-13d960f2f8637cfa0ec6e7dcfb20a5e5-20260930T233119Z-3816713",
+      "run_id": "p-13d960f2f8637cfa0ec6e7dcfb20a5e5-20261005T235500Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-05T11:48:26.973Z] print('extracted', len(ns['driver'])) | [2026-10-05T11:48:26.973Z] \" failed | [2026-10-05T11:48:26.973Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-05",
+      "notebook_path": "notebooks/unverified/p-13d960f2f8637cfa0ec6e7dcfb20a5e5.ipynb"
     }
   ]
 }
