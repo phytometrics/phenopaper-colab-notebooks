@@ -36,6 +36,18 @@
       "notebook_sha256": "8d82ee2e4af4d513bb316d9344d6f1fae6a25a1a8c6a686659c2981c89124bb6",
       "source_sha256": "8dcdc89670986bea23e96bbe62be5ff16a73cb24ba65287b3c9235df00dc7323",
       "code_cells": 3
+    },
+    {
+      "public_id": "p-2f4e49baa0e0fe95c6c8ab9c03d11b2a",
+      "title": "Composite interval mapping and genomic prediction of nut quality traits in American and American-European interspecific hybrid hazelnuts",
+      "investigation_run_id": "p-2f4e49baa0e0fe95c6c8ab9c03d11b2a-20260929T095119Z-2501181",
+      "status": "blocked",
+      "reason": "Dryad dataset doi:10.5061/dryad.ghx3ffc0z content is access-gated: /api/v2/files/{id}/download returns 401 'must have current bearer token' and /downloads/file_stream/{id} returns an Anubis JS proof-of-work challenge page, verified from DGX and Colab on 2026-10-04; no alternate public copy (Zenodo, DataCite, share link, bioRxiv) exists. A complete, statically validated CODE-ONLY fullsibQTL CIM notebook was delivered; nothing was executed. StageWise section additionally blocked by commercial asreml dependency.",
+      "created_on": "2026-10-05",
+      "notebook_path": "notebooks/unverified/p-2f4e49baa0e0fe95c6c8ab9c03d11b2a.ipynb",
+      "notebook_sha256": "e21c984d30455ea7ba5a2a74f87fa6abd72f5dd7851d50ec83b0da83a4f454fc",
+      "source_sha256": "820f1a9ab55ef5f872cf311f2c5cab4b30775eba3c70586e0e0ade86233b4198",
+      "code_cells": 13
     }
   ]
 }
