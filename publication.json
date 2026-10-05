@@ -3097,6 +3097,25 @@
         "alt": "DynG(t) recomputed from the authors' released Ig data (author script, this run) overlaid on the authors' released DynG_results.csv; the two curves coincide.",
         "caption": "DynG(t) recomputed from the authors' released Ig data (author script, this run) overlaid on the authors' released DynG_results.csv; the two curves coincide."
       }
+    },
+    {
+      "public_id": "p-c5834ec3f310904a63ff454e575e977b",
+      "title": "Cover",
+      "doi": "10.1270/jsbbs.72-1cover",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "COLMAP (pycolmap) SfM reconstruction of 20 nadir frames of one furrow from the UGVPP rover's released center-camera data, with sparse point cloud, camera drive path, and reprojection check; per-plot EasyIDP extraction and the YOLOv5 heading branch are not reproduced.",
+      "semantic_tags": [
+        "crop:wheat",
+        "environment:field",
+        "organ:whole_plant",
+        "task:classification",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Reprojected SfM 3D points (green) overlaid on input frame DSC02516.JPG (UGVPP center camera, pinned commit a266881)",
+        "caption": "Reprojected SfM 3D points (green) overlaid on input frame DSC02516.JPG (UGVPP center camera, pinned commit a266881)"
+      }
     }
   ]
 }
