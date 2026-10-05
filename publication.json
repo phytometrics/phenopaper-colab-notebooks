@@ -2678,6 +2678,23 @@
         "alt": "Detected nodes (red) and internode lengths in cm (cyan) overlaid on the cropped example stalks K21_408003-02/-03/-04",
         "caption": "Detected nodes (red) and internode lengths in cm (cyan) overlaid on the cropped example stalks K21_408003-02/-03/-04"
       }
+    },
+    {
+      "public_id": "p-dd752d0cd5144d35a2a1df29379ddbae",
+      "title": "A Mobile-Based System for Detecting Plant Leaf Diseases Using Deep Learning",
+      "doi": "10.3390/agriengineering3030032",
+      "compute": "CPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Inference-only reproduction: the authors' released model.h5 (loaded via the official tf-keras compatibility package) classifies a deterministic 15-image PlantVillage testing subset (15/15 correct) using the authors' Pre-Trained.ipynb recipe; training and the full test set are out of scope.",
+      "semantic_tags": [
+        "organ:leaf",
+        "task:classification",
+        "task:stress_disease"
+      ],
+      "preview": {
+        "alt": "PlantVillage test leaf input with the loaded model.h5 prediction overlay (Apple Black rot, confidence 100%)",
+        "caption": "PlantVillage test leaf input with the loaded model.h5 prediction overlay (Apple Black rot, confidence 100%)"
+      }
     }
   ]
 }
