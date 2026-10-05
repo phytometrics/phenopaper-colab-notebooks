@@ -2522,6 +2522,27 @@
         "alt": "Sample leaf images from the Mendeley Malabar spinach dataset, labeled by dataset folder (inputs to the reproduced /predict pipeline)",
         "caption": "Sample leaf images from the Mendeley Malabar spinach dataset, labeled by dataset folder (inputs to the reproduced /predict pipeline)"
       }
+    },
+    {
+      "public_id": "p-282084b764b7ac5d56e78cd1a5bf9278",
+      "title": "In-Depth Quantification of Cell Division and Elongation Dynamics at the Tip of Growing Arabidopsis Roots Using 4D Microscopy, AI-Assisted Image Processing and Data Sonification.",
+      "doi": "10.1093/pcp/pcad105",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-05",
+      "demonstration": "Headless reproduction of the authors' pre-trained 2D U-Net nuclei detection plus GA/k-means cell-file clustering and lineage tracking on the 10 provided sample frames, validated against the included ground-truth XML; the private 4D dataset, training, sonification, and dataset-level accuracies are not covered.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "environment:laboratory",
+        "modality:microscopy",
+        "organ:cell",
+        "task:morphology",
+        "task:tracking",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Sample frame mid-slice: authors' ground-truth centroids (left) versus the pre-trained 2D U-Net detections (right).",
+        "caption": "Sample frame mid-slice: authors' ground-truth centroids (left) versus the pre-trained 2D U-Net detections (right)."
+      }
     }
   ]
 }
