@@ -192,6 +192,18 @@
       "notebook_sha256": "1444242927b65fa10b75e7ee8028c7eda49a97abe89c613624e0a3c91c319868",
       "source_sha256": "59d44c959c136d68bd1b502dfad983c2248aa4737b2cedcdb2244a7a4736da63",
       "code_cells": 25
+    },
+    {
+      "public_id": "p-49b9b66bc2a39eae0216b71a44fbfcde",
+      "title": "Rice Plant Counting, Locating, and Sizing Method Based on High-Throughput UAV RGB Images",
+      "investigation_run_id": "p-49b9b66bc2a39eae0216b71a44fbfcde-20260930T133457Z-3695305",
+      "status": "blocked",
+      "reason": "Outcome B (code-only): URC dataset and trained RiceNet checkpoint were distributed only via Baidu Pan shares that now return '百度网盘-链接不存在' (verified 2026-10-07, page titles only; no dataset bytes on DGX). Author repo issues #10-#18 confirm expiry with no replacement; no Zenodo/Kaggle/HF/GitHub mirror exists. Faithful inference impossible; code-only notebook delivered with RuntimeError guard, statically validated, never executed.",
+      "created_on": "2026-10-07",
+      "notebook_path": "notebooks/unverified/p-49b9b66bc2a39eae0216b71a44fbfcde.ipynb",
+      "notebook_sha256": "398cb318059d0ce99cd8785a4dc9c10ab5c9083fd8b95516093c352912280c3c",
+      "source_sha256": "09bc00e06900b2dded640d1ca7e0f7f4c7c11432ac73ddbebfd71737237e2584",
+      "code_cells": 5
     }
   ]
 }
