@@ -20,6 +20,15 @@
       "created_on": "2026-10-06"
     },
     {
+      "public_id": "p-a785f82e6559d4502f67899b766e588d",
+      "title": "p-a785f82e6559d4502f67899b766e588d",
+      "investigation_run_id": null,
+      "run_id": null,
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 2; see run log p-a785f82e6559d4502f67899b766e588d-20261006T002038Z.log.",
+      "created_on": "2026-10-06"
+    },
+    {
       "public_id": "p-4708ede3ed4975dbbd6c7ea269736398",
       "title": "TipQuant: a robust algorithm for quantitative analysis of spatiotemporally dynamic activities in tip-growing cells.",
       "investigation_run_id": "p-4708ede3ed4975dbbd6c7ea269736398-20260930T144900Z-3735473",
@@ -27,6 +36,16 @@
       "status": "failed",
       "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-05T18:25:25.362Z] for x in d['data'][:6]: print(x['attributes']['doi'], '|', x['attributes']['titles'][0]['title'][:90]) | [2026-10-05T18:25:25.362Z] \" ; rm -f /tmp_dc.json failed | [2026-10-05T18:25:25.362Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
       "created_on": "2026-10-06"
+    },
+    {
+      "public_id": "p-289774609cbd957dd47ad64d7093be1b",
+      "title": "Seeing herbaria in a new light: leaf reflectance spectroscopy unlocks predictive trait and classification modeling in plant biodiversity collections",
+      "investigation_run_id": "p-289774609cbd957dd47ad64d7093be1b-20260930T130943Z-3680900",
+      "run_id": "p-289774609cbd957dd47ad64d7093be1b-20261006T215500Z",
+      "status": "failed",
+      "reason": "Fresh Colab CPU session for final validation could not be allocated: 7 consecutive `colab new` attempts (2026-10-06 22:05-22:35 UTC, logs/final_alloc_attempt6.log, logs/final_alloc_attempt7.log) all ended in ReadTimeout after 120 s with no session created server-side (colab sessions: none). The first diagnostic allocation earlier the same hour succeeded, so the CLI/auth are functional; this is transient Colab provisioning/capacity behavior, not a notebook defect. Notebook and feasibility work are complete and statically validated; diagnostic probe already passed (R, 7 packages, data MD5, schema 1690 rows/479 specimens). Resume with resume_run_dir and run colab exec -s <fresh> -f deliverables/p-289774609cbd957dd47ad64d7093be1b.ipynb --timeout 7200.",
+      "created_on": "2026-10-06",
+      "notebook_path": "notebooks/unverified/p-289774609cbd957dd47ad64d7093be1b.ipynb"
     },
     {
       "public_id": "p-89e0e604d88be6ac51289b5224ee3bd0",
@@ -286,16 +305,6 @@
       "reason": "Notebook authored and statically validated but never executed: Colab CPU session allocation refused on 16 attempts over ~38 min (02:46-03:27 UTC 2026-10-02) because the account's four concurrent-session slots are held by other queue workers' sessions; this run must not stop them. All source materials (PhotoPi code @fab92caf, FRDR 10.20383/103.01255, arXiv 2504.16840v1 Sec VI) were verified accessible. Execution environment failure, not missing material.",
       "created_on": "2026-10-02",
       "notebook_path": "notebooks/unverified/p-0dfec3c680bb0e32ef572c9bcc0a1d2c.ipynb"
-    },
-    {
-      "public_id": "p-289774609cbd957dd47ad64d7093be1b",
-      "title": "Seeing herbaria in a new light: leaf reflectance spectroscopy unlocks predictive trait and classification modeling in plant biodiversity collections",
-      "investigation_run_id": "p-289774609cbd957dd47ad64d7093be1b-20260930T130943Z-3680900",
-      "run_id": "p-289774609cbd957dd47ad64d7093be1b-20261006T215500Z",
-      "status": "failed",
-      "reason": "Fresh Colab CPU session for final validation could not be allocated: 7 consecutive `colab new` attempts (2026-10-06 22:05-22:35 UTC, logs/final_alloc_attempt6.log, logs/final_alloc_attempt7.log) all ended in ReadTimeout after 120 s with no session created server-side (colab sessions: none). The first diagnostic allocation earlier the same hour succeeded, so the CLI/auth are functional; this is transient Colab provisioning/capacity behavior, not a notebook defect. Notebook and feasibility work are complete and statically validated; diagnostic probe already passed (R, 7 packages, data MD5, schema 1690 rows/479 specimens). Resume with resume_run_dir and run colab exec -s <fresh> -f deliverables/p-289774609cbd957dd47ad64d7093be1b.ipynb --timeout 7200.",
-      "created_on": "2026-10-06",
-      "notebook_path": "notebooks/unverified/p-289774609cbd957dd47ad64d7093be1b.ipynb"
     }
   ]
 }
