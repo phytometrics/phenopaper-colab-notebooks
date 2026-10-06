@@ -3528,6 +3528,23 @@
         "alt": "Held-out test herbarium specimen with its reference expert annotation and the recomputed ensemble decision overlaid",
         "caption": "Held-out test herbarium specimen with its reference expert annotation and the recomputed ensemble decision overlaid"
       }
+    },
+    {
+      "public_id": "p-2e8c3a2843f22434ab184e04160afc16",
+      "title": "Clustering-Guided Multi-Layer Contrastive Representation Learning for Citrus Disease Classification",
+      "doi": "10.48550/arxiv.2507.11171",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Executed the authors' CMCRL self-supervised pre-training (jaccard-DBSCAN pseudo-labels plus cluster-centroid InfoNCE on ResNet50-IBN) on 485 CDD leaf images for 10 epochs and evaluated a frozen-encoder linear probe on 124 held-out images (top-1 91.1% vs 33.1% random init), below the paper's full-scale 93.8% because of the reduced schedule.",
+      "semantic_tags": [
+        "crop:citrus",
+        "task:classification",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "CDD leaf training-split samples per class (original inputs, 485-image pre-training subset)",
+        "caption": "CDD leaf training-split samples per class (original inputs, 485-image pre-training subset)"
+      }
     }
   ]
 }
