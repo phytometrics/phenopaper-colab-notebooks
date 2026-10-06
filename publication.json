@@ -3643,6 +3643,29 @@
         "alt": "Author sample input 338_i.png with CROP's measured center-of-mass marker (blue square) drawn on the original photo",
         "caption": "Author sample input 338_i.png with CROP's measured center-of-mass marker (blue square) drawn on the original photo"
       }
+    },
+    {
+      "public_id": "p-5cde365672db8ac0d0a4a5592fc30d2e",
+      "title": "SeedGerm-VIG: an open and comprehensive pipeline to quantify seed vigor in wheat and other cereal crops using deep learning-powered dynamic phenotypic analysis.",
+      "doi": "10.1093/gigascience/giaf129",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Executed the released SeedGerm-VIG pipeline (U-Net masks, YOLOv8x-Germ phase detection, temporal phase correction, skeleton root tracking) on the authors' G7 wheat example in Colab on T4; outputs match pinned reference masks (IoU 0.94-0.99) with small framework-version differences; single-genotype example only.",
+      "semantic_tags": [
+        "crop:barley",
+        "crop:rice",
+        "crop:wheat",
+        "organ:root",
+        "organ:seed",
+        "task:object_detection",
+        "task:segmentation",
+        "task:time_series",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "G7 final frame: original input, predicted YOLOv8x-Germ phase boxes, and seed masks predicted (cyan) vs pinned reference (yellow)",
+        "caption": "G7 final frame: original input, predicted YOLOv8x-Germ phase boxes, and seed masks predicted (cyan) vs pinned reference (yellow)"
+      }
     }
   ]
 }
