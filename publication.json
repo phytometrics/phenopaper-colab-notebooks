@@ -3398,6 +3398,26 @@
         "alt": "Test image with the author-provided ground-truth bud mask contour (reference annotation)",
         "caption": "Test image with the author-provided ground-truth bud mask contour (reference annotation)"
       }
+    },
+    {
+      "public_id": "p-a349992a9a7f836d25123f526c58c28a",
+      "title": "Multi-scale spatial-temporal remote sensing fusion for phenology identification in rice germplasm resources.",
+      "doi": "10.1016/j.plaphe.2026.100222",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Inference-only run of the authors' released predict.py (MAGF+LSTM, pinned commit 5b9c2dd) on the repository's datatest examples (10 plots) with the delta3 checkpoint; OA 0.946 on the example set only, not a paper-benchmark reproduction.",
+      "semantic_tags": [
+        "crop:rice",
+        "environment:aerial",
+        "organ:whole_plant",
+        "task:classification",
+        "task:time_series",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Pinned example inputs: 20 m MR (left) and 4 m HR (right) images of plot J1B265 on 2024-08-22, ground-truth class Jointing stage (from datatest/).",
+        "caption": "Pinned example inputs: 20 m MR (left) and 4 m HR (right) images of plot J1B265 on 2024-08-22, ground-truth class Jointing stage (from datatest/)."
+      }
     }
   ]
 }
