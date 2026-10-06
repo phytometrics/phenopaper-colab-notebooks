@@ -3440,6 +3440,26 @@
         "alt": "Reference panicle polygons (released LabelMe annotations, left) versus Pdetect.pt model predictions (right) on a field sub-image.",
         "caption": "Reference panicle polygons (released LabelMe annotations, left) versus Pdetect.pt model predictions (right) on a field sub-image."
       }
+    },
+    {
+      "public_id": "p-c923a53ae672c6d7e6646c58272d8a8b",
+      "title": "Evaluating a Cassava Crop Growth Model by Optimizing Genotypic-Specific Parameters Using Multi-environment Trial Breeding Data",
+      "doi": "10.1101/2024.10.29.620843",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Re-runs the calibrated DSSAT-MANIHOT-Cassava v4.8 model (built from official source) for 67 UYT clones across the paper's 8 evaluation environments from the pinned author repository and recomputes per-cultivar r, RMSE and Willmott d against observed storage-root dry weight; the repository does not record which genotype-parameter variant produced its bundled comparison table, so the difference to the authors' bundled simulation is quantified rather than assumed to vanish.",
+      "semantic_tags": [
+        "crop:cassava",
+        "environment:field",
+        "organ:root",
+        "task:preprocessing",
+        "task:yield_biomass",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Our DSSAT re-run (HWAM) vs the authors' bundled simulated storage-root dry weight (HWAMS), 460 paired points over 8 evaluation environments, 1:1 line shown",
+        "caption": "Our DSSAT re-run (HWAM) vs the authors' bundled simulated storage-root dry weight (HWAMS), 460 paired points over 8 evaluation environments, 1:1 line shown"
+      }
     }
   ]
 }
