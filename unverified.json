@@ -180,6 +180,18 @@
       "notebook_sha256": "025653a269b3f7cd0dbecd7562db6455050acef8d3ce14f64c87d5401973c7b1",
       "source_sha256": "8ed64f435b5ebd430a4546bc90e5a3a9f17f89c02df946611e80d0f7fd59e557",
       "code_cells": 13
+    },
+    {
+      "public_id": "p-650819c551206a400b5a5865a67bb67b",
+      "title": "A photometric stereo-based 3D imaging system using computer vision and deep learning for tracking plant growth",
+      "investigation_run_id": "p-650819c551206a400b5a5865a67bb67b-20260930T140149Z-3709498",
+      "status": "failed",
+      "reason": "Full CPU validation reached the data-download cell but a Google Drive per-file download quota permanently blocked /RawData/2017-11-11_05-20-08_NIR/imAmbient.bmp after 3 retries; the run aborted and downstream cells cascaded. The 3-session budget (diag, final, contingency) is exhausted for this invocation. Notebook repaired (imAmbient optional per author code; 4 bounded retries) and ready for resume_run_dir; all evidence archived.",
+      "created_on": "2026-10-07",
+      "notebook_path": "notebooks/unverified/p-650819c551206a400b5a5865a67bb67b.ipynb",
+      "notebook_sha256": "1444242927b65fa10b75e7ee8028c7eda49a97abe89c613624e0a3c91c319868",
+      "source_sha256": "59d44c959c136d68bd1b502dfad983c2248aa4737b2cedcdb2244a7a4736da63",
+      "code_cells": 25
     }
   ]
 }

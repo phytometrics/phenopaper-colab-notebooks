@@ -343,6 +343,16 @@
       "reason": "Notebook authored and statically validated but never executed: Colab CPU session allocation refused on 16 attempts over ~38 min (02:46-03:27 UTC 2026-10-02) because the account's four concurrent-session slots are held by other queue workers' sessions; this run must not stop them. All source materials (PhotoPi code @fab92caf, FRDR 10.20383/103.01255, arXiv 2504.16840v1 Sec VI) were verified accessible. Execution environment failure, not missing material.",
       "created_on": "2026-10-02",
       "notebook_path": "notebooks/unverified/p-0dfec3c680bb0e32ef572c9bcc0a1d2c.ipynb"
+    },
+    {
+      "public_id": "p-650819c551206a400b5a5865a67bb67b",
+      "title": "A photometric stereo-based 3D imaging system using computer vision and deep learning for tracking plant growth",
+      "investigation_run_id": "p-650819c551206a400b5a5865a67bb67b-20260930T140149Z-3709498",
+      "run_id": "p-650819c551206a400b5a5865a67bb67b-20261006T181006Z",
+      "status": "failed",
+      "reason": "Full CPU validation reached the data-download cell but a Google Drive per-file download quota permanently blocked /RawData/2017-11-11_05-20-08_NIR/imAmbient.bmp after 3 retries; the run aborted and downstream cells cascaded. The 3-session budget (diag, final, contingency) is exhausted for this invocation. Notebook repaired (imAmbient optional per author code; 4 bounded retries) and ready for resume_run_dir; all evidence archived.",
+      "created_on": "2026-10-07",
+      "notebook_path": "notebooks/unverified/p-650819c551206a400b5a5865a67bb67b.ipynb"
     }
   ]
 }
