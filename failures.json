@@ -315,6 +315,16 @@
       "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-06T04:27:07.102Z] ! permission requested: external_directory (/home/deliverables/*); auto-rejecting | [2026-10-06T04:27:07.102Z] ✗ cd /home/phyto/phenotyping-colab/runs/p-27b968e6f90cc2d48dfbdf44d668ee61-20261006T040440Z/logs && cp ../deliverables/p-27b968e6f90cc2d48dfbdf44d668ee61_output.ipynb cpu_attempt1_output.ipynb && cp cpu_exec2.log  | [2026-10-06T04:27:07.102Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
       "created_on": "2026-10-06",
       "notebook_path": "notebooks/unverified/p-27b968e6f90cc2d48dfbdf44d668ee61.ipynb"
+    },
+    {
+      "public_id": "p-1fd15ec6e451611d0b5a9604964bc00d",
+      "title": "Deep learning models for identifying crop and field attributes from near surface cameras",
+      "investigation_run_id": "p-1fd15ec6e451611d0b5a9604964bc00d-20260930T144615Z-3734227",
+      "run_id": "p-1fd15ec6e451611d0b5a9604964bc00d-20261006T043000Z",
+      "status": "failed",
+      "reason": "Three fresh CPU Colab validation runs consumed the 3-session cap. Attempt 3 executed the full author pipeline (R prep, NumPy HMM port, R final processing, all figures) but its evaluation cell failed on a pandas merge column-name collision; the R-package-availability assert was also a false negative. Both residual bugs are fixed in the current deliverable notebook (sha256 8ed64f435b5ebd430a4546bc90e5a3a9f17f89c02df946611e80d0f7fd59e557) but no fourth session is permitted, so the corrected notebook is unvalidated. Resume with one fresh CPU session should complete.",
+      "created_on": "2026-10-06",
+      "notebook_path": "notebooks/unverified/p-1fd15ec6e451611d0b5a9604964bc00d.ipynb"
     }
   ]
 }

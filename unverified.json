@@ -168,6 +168,18 @@
       "notebook_sha256": "95273e65bf8edf0f13ed63d3b3a857506e1e9c112213e23a512290bcd8594e78",
       "source_sha256": "502704b2c9ced7973579e5e40f1d06f8e9234a5e188f079e14c0ad22fed4378c",
       "code_cells": 19
+    },
+    {
+      "public_id": "p-1fd15ec6e451611d0b5a9604964bc00d",
+      "title": "Deep learning models for identifying crop and field attributes from near surface cameras",
+      "investigation_run_id": "p-1fd15ec6e451611d0b5a9604964bc00d-20260930T144615Z-3734227",
+      "status": "failed",
+      "reason": "Three fresh CPU Colab validation runs consumed the 3-session cap. Attempt 3 executed the full author pipeline (R prep, NumPy HMM port, R final processing, all figures) but its evaluation cell failed on a pandas merge column-name collision; the R-package-availability assert was also a false negative. Both residual bugs are fixed in the current deliverable notebook (sha256 8ed64f435b5ebd430a4546bc90e5a3a9f17f89c02df946611e80d0f7fd59e557) but no fourth session is permitted, so the corrected notebook is unvalidated. Resume with one fresh CPU session should complete.",
+      "created_on": "2026-10-06",
+      "notebook_path": "notebooks/unverified/p-1fd15ec6e451611d0b5a9604964bc00d.ipynb",
+      "notebook_sha256": "025653a269b3f7cd0dbecd7562db6455050acef8d3ce14f64c87d5401973c7b1",
+      "source_sha256": "8ed64f435b5ebd430a4546bc90e5a3a9f17f89c02df946611e80d0f7fd59e557",
+      "code_cells": 13
     }
   ]
 }
