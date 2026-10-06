@@ -3480,6 +3480,36 @@
         "alt": "Sunpheno predicted stage S1-S5 and softmax confidence overlaid on author-provided sample images (model output, not an author figure)",
         "caption": "Sunpheno predicted stage S1-S5 and softmax confidence overlaid on author-provided sample images (model output, not an author figure)"
       }
+    },
+    {
+      "public_id": "p-fd6547e68e447695b47e63419be8b4a3",
+      "title": "Rapid non-destructive method to phenotype stomatal traits",
+      "doi": "10.1101/2022.06.28.497692",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Executed the authors' Wheat 400x pipeline (YOLOv5 detection, bounding-box extraction, Detectron2 Mask R-CNN measurement) on one sample handheld-microscope image; single-image demonstration, not dataset-level validation.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "crop:rice",
+        "crop:tomato",
+        "crop:wheat",
+        "environment:field",
+        "modality:microscopy",
+        "organ:leaf",
+        "organ:stomata",
+        "organ:whole_plant",
+        "task:counting",
+        "task:morphology",
+        "task:object_detection",
+        "trait:growth_development",
+        "trait:photosynthesis",
+        "trait:stomatal_traits",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Input Wheat 400x handheld-microscope image (left) with YOLOv5 stomata detections (right, model predictions, conf 0.4)",
+        "caption": "Input Wheat 400x handheld-microscope image (left) with YOLOv5 stomata detections (right, model predictions, conf 0.4)"
+      }
     }
   ]
 }
