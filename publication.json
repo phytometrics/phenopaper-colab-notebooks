@@ -3600,6 +3600,30 @@
         "alt": "Input orchard image (left) with reference instance masks (center) and reference bounding boxes from the author's AppleDataset (right); reference annotations from detection.tar.gz, not model predictions.",
         "caption": "Input orchard image (left) with reference instance masks (center) and reference bounding boxes from the author's AppleDataset (right); reference annotations from detection.tar.gz, not model predictions."
       }
+    },
+    {
+      "public_id": "p-0d7cdc834f0208fdfc68b402628bdfd7",
+      "title": "DeepPod: a convolutional neural network based quantification of fruit number in Arabidopsis",
+      "doi": "10.1093/gigascience/giaa012",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Single-image DeepPod reproduction: the authors' verbatim Octave patching and silique counting with a converted pretrained DenseNet-40-12 classifier on one annotated GigaDB Set-1 scan (val_db 87.23% vs paper 86.80%); one example, not a dataset-level verification.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "organ:fruit",
+        "organ:inflorescence",
+        "organ:stem",
+        "task:annotation_qc",
+        "task:classification",
+        "task:counting",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Selected GigaDB Set-1 scan AT025_392341_004 (left) with the authors' manual reference annotations: tip (red), base (blue), stem (gray) points (right).",
+        "caption": "Selected GigaDB Set-1 scan AT025_392341_004 (left) with the authors' manual reference annotations: tip (red), base (blue), stem (gray) points (right)."
+      }
     }
   ]
 }
