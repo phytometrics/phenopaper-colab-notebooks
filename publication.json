@@ -3418,6 +3418,28 @@
         "alt": "Pinned example inputs: 20 m MR (left) and 4 m HR (right) images of plot J1B265 on 2024-08-22, ground-truth class Jointing stage (from datatest/).",
         "caption": "Pinned example inputs: 20 m MR (left) and 4 m HR (right) images of plot J1B265 on 2024-08-22, ground-truth class Jointing stage (from datatest/)."
       }
+    },
+    {
+      "public_id": "p-46381bbe837bfc0c5522f980b3360462",
+      "title": "Analyzing Nitrogen Effects on Rice Panicle Development by Panicle Detection and Time-Series Tracking.",
+      "doi": "10.34133/plantphenomics.0048",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Runs the authors' released YOLOv5s6 panicle detector (Pdetect.pt) on 20 annotated field sub-images and compares per-image counts with the released polygon annotations; classification, tracking and plot-level accuracy are out of scope.",
+      "semantic_tags": [
+        "crop:rice",
+        "environment:field",
+        "organ:inflorescence",
+        "task:counting",
+        "task:time_series",
+        "task:tracking",
+        "trait:growth_development",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Reference panicle polygons (released LabelMe annotations, left) versus Pdetect.pt model predictions (right) on a field sub-image.",
+        "caption": "Reference panicle polygons (released LabelMe annotations, left) versus Pdetect.pt model predictions (right) on a field sub-image."
+      }
     }
   ]
 }
