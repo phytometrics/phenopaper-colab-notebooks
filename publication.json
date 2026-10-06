@@ -3624,6 +3624,25 @@
         "alt": "Selected GigaDB Set-1 scan AT025_392341_004 (left) with the authors' manual reference annotations: tip (red), base (blue), stem (gray) points (right).",
         "caption": "Selected GigaDB Set-1 scan AT025_392341_004 (left) with the authors' manual reference annotations: tip (red), base (blue), stem (gray) points (right)."
       }
+    },
+    {
+      "public_id": "p-bca1dffe8b831525417a430bec348e04",
+      "title": "Central object segmentation by deep learning for fruits and other roundish objects",
+      "doi": "10.48550/arxiv.2008.01251",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Executed the authors' pinned CROP inference pipeline (D4-averaged, eleven-scale median) with the release-v1.0 dictionary on one author sample image, reporting pixel size and center of mass; single-image demonstration only, dataset-level accuracy untested.",
+      "semantic_tags": [
+        "modality:rgb",
+        "organ:fruit",
+        "task:morphology",
+        "task:segmentation",
+        "task:time_series"
+      ],
+      "preview": {
+        "alt": "Author sample input 338_i.png with CROP's measured center-of-mass marker (blue square) drawn on the original photo",
+        "caption": "Author sample input 338_i.png with CROP's measured center-of-mass marker (blue square) drawn on the original photo"
+      }
     }
   ]
 }
