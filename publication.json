@@ -3323,6 +3323,24 @@
         "alt": "True discovery rate vs HMF threshold from the authors' threshold() function (25/50/75 plants; red line = 25% threshold)",
         "caption": "True discovery rate vs HMF threshold from the authors' threshold() function (25/50/75 plants; red line = 25% threshold)"
       }
+    },
+    {
+      "public_id": "p-ab60978ac3d2386bad43907dc62862af",
+      "title": "A framework for genomics-informed ecophysiological modeling in plants.",
+      "doi": "10.1093/jxb/erz090",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Refit genotype-specific logistic leaf-growth parameters (K, N0, r) with the authors' hierarchical Bayesian R/JAGS model and run their TREES C++ model on the CC d1 drought-validation scenario (LAI RMSE 0.672 vs the driver-file observations); reduced MCMC budget and a documented Makefile compatibility patch; genomic prediction out of scope.",
+      "semantic_tags": [
+        "organ:whole_plant",
+        "task:physiology",
+        "trait:growth_development",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "TREES simulated LAI and simET versus the observed lai column embedded in the author-supplied CC d1 drought-validation driver file (30-min steps).",
+        "caption": "TREES simulated LAI and simET versus the observed lai column embedded in the author-supplied CC d1 drought-validation driver file (30-min steps)."
+      }
     }
   ]
 }
