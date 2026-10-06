@@ -3381,6 +3381,23 @@
         "alt": "3x4 comparison: example apple-half images, encoder mean decoded images, and SNP-to-image predictions from targeted (tSNP) and random (rSNP) predictors for genotypes 2990, 12_j001, 2872.",
         "caption": "3x4 comparison: example apple-half images, encoder mean decoded images, and SNP-to-image predictions from targeted (tSNP) and random (rSNP) predictors for genotypes 2990, 12_j001, 2872."
       }
+    },
+    {
+      "public_id": "p-d382c9876e92f6b951898f726878c92e",
+      "title": "Towards practical 2D grapevine bud detection with fully convolutional networks",
+      "doi": null,
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Inference with the released FCN-MN16s grapevine bud detection weights on the 140 image single bud test split, reproducing the paper detection metrics at IoU 0.5 or higher (recall 88.6 percent, mean TP IoU 83.1 percent). Training and the sliding windows baseline are out of scope.",
+      "semantic_tags": [
+        "crop:grapevine",
+        "task:object_detection",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Test image with the author-provided ground-truth bud mask contour (reference annotation)",
+        "caption": "Test image with the author-provided ground-truth bud mask contour (reference annotation)"
+      }
     }
   ]
 }
