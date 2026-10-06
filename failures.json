@@ -2,6 +2,15 @@
   "schema_version": 1,
   "failures": [
     {
+      "public_id": "p-2e8c3a2843f22434ab184e04160afc16",
+      "title": "Clustering-Guided Multi-Layer Contrastive Representation Learning for Citrus Disease Classification",
+      "investigation_run_id": "p-2e8c3a2843f22434ab184e04160afc16-20261006T110524Z-2952591",
+      "run_id": "p-2e8c3a2843f22434ab184e04160afc16-20261006T143200Z",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-2e8c3a2843f22434ab184e04160afc16-20261006T143008Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\ncurl: (6) Could not resolve host: api.data.elsevier.com\ncurl: (6) Could not resolve host: api.data.elsevier.com\nError: SSE read timed out",
+      "created_on": "2026-10-07"
+    },
+    {
       "public_id": "p-0d7cdc834f0208fdfc68b402628bdfd7",
       "title": "DeepPod: a convolutional neural network based quantification of fruit number in Arabidopsis.",
       "investigation_run_id": "p-0d7cdc834f0208fdfc68b402628bdfd7-20260930T152634Z-3756924",
