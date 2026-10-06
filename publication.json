@@ -3304,6 +3304,25 @@
         "alt": "10-fold cross-validation accuracy per model (LR, RF, Gradient Boosting, polynomial SVC, stacking) on the authors' 0-min twilight 6-class plant-area dataset.",
         "caption": "10-fold cross-validation accuracy per model (LR, RF, Gradient Boosting, polynomial SVC, stacking) on the authors' 0-min twilight 6-class plant-area dataset."
       }
+    },
+    {
+      "public_id": "p-2622cabc3ec497c6b30382594a3f9389",
+      "title": "A two-stage screening approach integrated with GWAS for rare phenotypes such as spontaneous haploid genome doubling in maize.",
+      "doi": "10.3389/fpls.2026.1837152",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Ran the authors' verbatim R binomial screening simulation (25/50/75 plants, 10-70% HMF thresholds) and recomputed genotype HMF BLUES from the deposited workbook on Colab CPU; GWAS and field experiments are out of scope.",
+      "semantic_tags": [
+        "crop:maize",
+        "environment:field",
+        "organ:whole_plant",
+        "task:classification",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "True discovery rate vs HMF threshold from the authors' threshold() function (25/50/75 plants; red line = 25% threshold)",
+        "caption": "True discovery rate vs HMF threshold from the authors' threshold() function (25/50/75 plants; red line = 25% threshold)"
+      }
     }
   ]
 }
