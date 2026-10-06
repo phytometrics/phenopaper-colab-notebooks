@@ -3545,6 +3545,26 @@
         "alt": "CDD leaf training-split samples per class (original inputs, 485-image pre-training subset)",
         "caption": "CDD leaf training-split samples per class (original inputs, 485-image pre-training subset)"
       }
+    },
+    {
+      "public_id": "p-324fc62e79f61ae67c5b95c671c559e9",
+      "title": "A Novel CNN Gradient Boosting Ensemble for Guava Disease Detection",
+      "doi": "10.48550/arxiv.2512.19989",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Single-image inference with the authors' deployed EfficientNetB0 checkpoint and their actual Flask /api/predict handler on one pinned repository sample; ensemble results and full-dataset evaluation are out of scope.",
+      "semantic_tags": [
+        "environment:field",
+        "organ:fruit",
+        "task:classification",
+        "task:object_detection",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Pinned GFDD24 test sample with the deployed model's prediction (Fruit Fly) and per-class probabilities",
+        "caption": "Pinned GFDD24 test sample with the deployed model's prediction (Fruit Fly) and per-class probabilities"
+      }
     }
   ]
 }
