@@ -3510,6 +3510,24 @@
         "alt": "Input Wheat 400x handheld-microscope image (left) with YOLOv5 stomata detections (right, model predictions, conf 0.4)",
         "caption": "Input Wheat 400x handheld-microscope image (left) with YOLOv5 stomata detections (right, model predictions, conf 0.4)"
       }
+    },
+    {
+      "public_id": "p-447c3f5fed9ffacd051467132402e2db",
+      "title": "Petal to the metal: The slow road to automating large-scale phenology labeling for herbarium specimens",
+      "doi": "10.64898/2025.12.19.695552",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Re-runs the released 3-model flower ensemble with its released thresholds on the authors' 1,442-image held-out test split and reproduces the Table S1 confusion matrix (TP 794 and FP 67 exact; recall 96.5% present / 86.9% absent); training and the 22M-image inference are out of scope.",
+      "semantic_tags": [
+        "organ:flower",
+        "task:annotation_qc",
+        "task:object_detection",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Held-out test herbarium specimen with its reference expert annotation and the recomputed ensemble decision overlaid",
+        "caption": "Held-out test herbarium specimen with its reference expert annotation and the recomputed ensemble decision overlaid"
+      }
     }
   ]
 }
