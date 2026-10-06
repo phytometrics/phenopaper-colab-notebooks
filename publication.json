@@ -3251,6 +3251,26 @@
         "alt": "Input photo vs author reference final vs this port's final output (Image Harvest camera1 example)",
         "caption": "Input photo vs author reference final vs this port's final output (Image Harvest camera1 example)"
       }
+    },
+    {
+      "public_id": "p-c207aaffecf97ff42fd465ffaed5302e",
+      "title": "A generator of morphological clones for plant species",
+      "doi": "10.1101/108530",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Partial demonstration: the authors' pinned BayesForest MATLAB code run via Octave on the real Espoo maple QSM (feature extraction, structural distance DS, height/girth/crown metrics); clone generation itself is not executed because it requires MATLAB plus the external LPFG simulator.",
+      "semantic_tags": [
+        "modality:point_cloud",
+        "organ:seed",
+        "organ:whole_plant",
+        "task:reconstruction",
+        "trait:architecture",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Input: QSM reconstruction of the measured Espoo maple (19,000 cylinders) from the authors' released data, side (XZ) and top (XY) views colored by cylinder radius.",
+        "caption": "Input: QSM reconstruction of the measured Espoo maple (19,000 cylinders) from the authors' released data, side (XZ) and top (XY) views colored by cylinder radius."
+      }
     }
   ]
 }
