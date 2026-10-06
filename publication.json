@@ -3580,6 +3580,26 @@
         "alt": "Input preview of scan r49-t65e colored by the dataset's reference tree_label (ground grey, centre orange, north green, south blue)",
         "caption": "Input preview of scan r49-t65e colored by the dataset's reference tree_label (ground grey, centre orange, north green, south blue)"
       }
+    },
+    {
+      "public_id": "p-feca74983cc9d1c5ff2a8dc4937dc604",
+      "title": "MinneApple: A Benchmark Dataset for Apple Detection and Segmentation",
+      "doi": "10.48550/arxiv.1909.06441",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Reproduces MinneApple's released detection annotations for one training image end to end: per-instance mask decoding and on-the-fly bounding-box extraction with the author's verbatim AppleDataset loader (no detector run; no public weights exist).",
+      "semantic_tags": [
+        "crop:apple",
+        "environment:field",
+        "organ:fruit",
+        "task:counting",
+        "task:object_detection",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Input orchard image (left) with reference instance masks (center) and reference bounding boxes from the author's AppleDataset (right); reference annotations from detection.tar.gz, not model predictions.",
+        "caption": "Input orchard image (left) with reference instance masks (center) and reference bounding boxes from the author's AppleDataset (right); reference annotations from detection.tar.gz, not model predictions."
+      }
     }
   ]
 }
