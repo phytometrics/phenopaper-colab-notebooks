@@ -3286,6 +3286,24 @@
         "alt": "Synthetic-demo K+ fluxes at a barley root: chemical potential (Newman), diffusion gradient (Fick), and C1-corrected chemical potential vs time",
         "caption": "Synthetic-demo K+ fluxes at a barley root: chemical potential (Newman), diffusion gradient (Fick), and C1-corrected chemical potential vs time"
       }
+    },
+    {
+      "public_id": "p-ec195643370bc393728d48833a209286",
+      "title": "Machine learning classification of plant genotypes grown under different light conditions through the integration of multi-scale time-series data.",
+      "doi": "10.1016/j.csbj.2023.05.005",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Reproduces the paper's conventional-ML benchmark (LR/RF/Boosting/SVC-poly/stacking, 10-fold CV) on the authors' 0-min twilight 6-genotype dataset; accuracies fell 0.20-0.25 below published Table 1, so it is a partial, non-equivalent demonstration.",
+      "semantic_tags": [
+        "organ:whole_plant",
+        "task:classification",
+        "task:time_series",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "10-fold cross-validation accuracy per model (LR, RF, Gradient Boosting, polynomial SVC, stacking) on the authors' 0-min twilight 6-class plant-area dataset.",
+        "caption": "10-fold cross-validation accuracy per model (LR, RF, Gradient Boosting, polynomial SVC, stacking) on the authors' 0-min twilight 6-class plant-area dataset."
+      }
     }
   ]
 }
