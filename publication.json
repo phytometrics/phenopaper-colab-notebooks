@@ -3565,6 +3565,21 @@
         "alt": "Pinned GFDD24 test sample with the deployed model's prediction (Fruit Fly) and per-class probabilities",
         "caption": "Pinned GFDD24 test sample with the deployed model's prediction (Fruit Fly) and per-class probabilities"
       }
+    },
+    {
+      "public_id": "p-26cdb3bb9f60e6976f58bf89d57a8708",
+      "title": "Graph-based methods for analyzing orchard tree structure using noisy point cloud data",
+      "doi": "10.1016/j.compag.2021.106270",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Runs the authors' GraphTreeLS graph-op segment (pinned comma/snark toolchain built from source) on one published 1.3M-point avocado scan inside Colab; the three reference trees are recovered exactly (v-measure 1.0) on this single example, with find-trunks/classify out of scope.",
+      "semantic_tags": [
+        "modality:point_cloud"
+      ],
+      "preview": {
+        "alt": "Input preview of scan r49-t65e colored by the dataset's reference tree_label (ground grey, centre orange, north green, south blue)",
+        "caption": "Input preview of scan r49-t65e colored by the dataset's reference tree_label (ground grey, centre orange, north green, south blue)"
+      }
     }
   ]
 }
