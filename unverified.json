@@ -156,6 +156,18 @@
       "notebook_sha256": "55bd774a8a8b404bcf45f2855f802c4b010b810bccfa990ccefd8d784b0b3d33",
       "source_sha256": "f8e2e4a04cf9d7408b1395b0039dd19dfd9fe6cb09067887ff664f9b331b2e3f",
       "code_cells": 10
+    },
+    {
+      "public_id": "p-27b968e6f90cc2d48dfbdf44d668ee61",
+      "title": "GenoDrawing: An autoencoder framework for image prediction from SNP markers",
+      "investigation_run_id": "p-27b968e6f90cc2d48dfbdf44d668ee61-20260930T153422Z-3761078",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-06T04:27:07.102Z] ! permission requested: external_directory (/home/deliverables/*); auto-rejecting | [2026-10-06T04:27:07.102Z] ✗ cd /home/phyto/phenotyping-colab/runs/p-27b968e6f90cc2d48dfbdf44d668ee61-20261006T040440Z/logs && cp ../deliverables/p-27b968e6f90cc2d48dfbdf44d668ee61_output.ipynb cpu_attempt1_output.ipynb && cp cpu_exec2.log  | [2026-10-06T04:27:07.102Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-06",
+      "notebook_path": "notebooks/unverified/p-27b968e6f90cc2d48dfbdf44d668ee61.ipynb",
+      "notebook_sha256": "95273e65bf8edf0f13ed63d3b3a857506e1e9c112213e23a512290bcd8594e78",
+      "source_sha256": "502704b2c9ced7973579e5e40f1d06f8e9234a5e188f079e14c0ad22fed4378c",
+      "code_cells": 19
     }
   ]
 }

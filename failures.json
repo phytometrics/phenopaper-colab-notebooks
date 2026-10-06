@@ -305,6 +305,16 @@
       "reason": "Notebook authored and statically validated but never executed: Colab CPU session allocation refused on 16 attempts over ~38 min (02:46-03:27 UTC 2026-10-02) because the account's four concurrent-session slots are held by other queue workers' sessions; this run must not stop them. All source materials (PhotoPi code @fab92caf, FRDR 10.20383/103.01255, arXiv 2504.16840v1 Sec VI) were verified accessible. Execution environment failure, not missing material.",
       "created_on": "2026-10-02",
       "notebook_path": "notebooks/unverified/p-0dfec3c680bb0e32ef572c9bcc0a1d2c.ipynb"
+    },
+    {
+      "public_id": "p-27b968e6f90cc2d48dfbdf44d668ee61",
+      "title": "GenoDrawing: An autoencoder framework for image prediction from SNP markers",
+      "investigation_run_id": "p-27b968e6f90cc2d48dfbdf44d668ee61-20260930T153422Z-3761078",
+      "run_id": "p-27b968e6f90cc2d48dfbdf44d668ee61-20261006T040440Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-06T04:27:07.102Z] ! permission requested: external_directory (/home/deliverables/*); auto-rejecting | [2026-10-06T04:27:07.102Z] ✗ cd /home/phyto/phenotyping-colab/runs/p-27b968e6f90cc2d48dfbdf44d668ee61-20261006T040440Z/logs && cp ../deliverables/p-27b968e6f90cc2d48dfbdf44d668ee61_output.ipynb cpu_attempt1_output.ipynb && cp cpu_exec2.log  | [2026-10-06T04:27:07.102Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-06",
+      "notebook_path": "notebooks/unverified/p-27b968e6f90cc2d48dfbdf44d668ee61.ipynb"
     }
   ]
 }
