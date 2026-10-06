@@ -3271,6 +3271,21 @@
         "alt": "Input: QSM reconstruction of the measured Espoo maple (19,000 cylinders) from the authors' released data, side (XZ) and top (XY) views colored by cylinder radius.",
         "caption": "Input: QSM reconstruction of the measured Espoo maple (19,000 cylinders) from the authors' released data, side (XZ) and top (XY) views colored by cylinder radius."
       }
+    },
+    {
+      "public_id": "p-bd05a2d6963ba75f77fd9068930fe41a",
+      "title": "SISE, free LabView-based software for ion flux measurements.",
+      "doi": "10.1186/s13007-025-01448-8",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Executed an AI-assisted Python port of the SISE-Analyser110 drift-corrected dV, cylinder geometry correction, and chemical-potential vs Fick K+ flux calculations on a clearly labeled synthetic SISE-Monitor-format recording; the authors' recorded data file and Windows/LabView executables were unavailable.",
+      "semantic_tags": [
+        "task:physiology"
+      ],
+      "preview": {
+        "alt": "Synthetic-demo K+ fluxes at a barley root: chemical potential (Newman), diffusion gradient (Fick), and C1-corrected chemical potential vs time",
+        "caption": "Synthetic-demo K+ fluxes at a barley root: chemical potential (Newman), diffusion gradient (Fick), and C1-corrected chemical potential vs time"
+      }
     }
   ]
 }
