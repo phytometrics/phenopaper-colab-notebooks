@@ -3341,6 +3341,28 @@
         "alt": "TREES simulated LAI and simET versus the observed lai column embedded in the author-supplied CC d1 drought-validation driver file (30-min steps).",
         "caption": "TREES simulated LAI and simET versus the observed lai column embedded in the author-supplied CC d1 drought-validation driver file (30-min steps)."
       }
+    },
+    {
+      "public_id": "p-2313f06d496c5a417df30f736068f32e",
+      "title": "Scaling photosynthetic function and CO 2 dynamics from leaf to canopy level for maize - dataset combining diurnal and seasonal measurements of vegetation fluorescence, reflectance and vegetation indices with canopy gross ecosystem productivity.",
+      "doi": "10.1016/j.dib.2021.107600",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Reprocessed one day (DOY 192) of raw FLoX maize canopy spectra into reflectance, SIF and vegetation indices with the authors' pinned R packages; cycle-level reflectance matches the authors' own processed file (r=0.99), while their unreleased smoothing/interpolation steps bound the 30-minute comparison.",
+      "semantic_tags": [
+        "crop:maize",
+        "environment:field",
+        "modality:fluorescence",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:physiology",
+        "task:time_series",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "Cycle-level reflectance reproduced with the pinned author R code vs the authors' processed FLOX_R sheet (450/700/750 nm, 770 cycles, r=0.99)",
+        "caption": "Cycle-level reflectance reproduced with the pinned author R code vs the authors' processed FLOX_R sheet (450/700/750 nm, 770 cycles, r=0.99)"
+      }
     }
   ]
 }
