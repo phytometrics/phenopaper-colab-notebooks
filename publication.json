@@ -3363,6 +3363,24 @@
         "alt": "Cycle-level reflectance reproduced with the pinned author R code vs the authors' processed FLOX_R sheet (450/700/750 nm, 770 cycles, r=0.99)",
         "caption": "Cycle-level reflectance reproduced with the pinned author R code vs the authors' processed FLOX_R sheet (450/700/750 nm, 770 cycles, r=0.99)"
       }
+    },
+    {
+      "public_id": "p-b02aa84ae09932b7a23e3aff507295b7",
+      "title": "GenoDrawing: An Autoencoder Framework for Image Prediction from SNP Markers",
+      "doi": "10.34133/plantphenomics.0113",
+      "compute": "CPU",
+      "validated_on": "2026-10-06",
+      "demonstration": "Pretrained GenoDrawing inference on the authors' 3-genotype example: 150 tSNP/rSNP inputs generate predicted apple images decoded by the released autoencoder, reassembling the paper's comparison figure; single-example plausibility check only, not dataset-level metrics.",
+      "semantic_tags": [
+        "crop:apple",
+        "organ:fruit",
+        "task:reconstruction",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "3x4 comparison: example apple-half images, encoder mean decoded images, and SNP-to-image predictions from targeted (tSNP) and random (rSNP) predictors for genotypes 2990, 12_j001, 2872.",
+        "caption": "3x4 comparison: example apple-half images, encoder mean decoded images, and SNP-to-image predictions from targeted (tSNP) and random (rSNP) predictors for genotypes 2990, 12_j001, 2872."
+      }
     }
   ]
 }
