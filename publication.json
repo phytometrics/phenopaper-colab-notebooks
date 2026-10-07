@@ -5838,6 +5838,43 @@
         "alt": "Bundled wetland-mesocosm minirhizotron sample: input scan (left), RootDetector segmentation with predicted roots in white and tape exclusion mask in red (middle), and measurement skeleton (right).",
         "caption": "Bundled wetland-mesocosm minirhizotron sample: input scan (left), RootDetector segmentation with predicted roots in white and tape exclusion mask in red (middle), and measurement skeleton (right)."
       }
+    },
+    {
+      "public_id": "p-57f543a1057afd26a3fea631a7af9780",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Tomato Multi-Angle Multi-Pose Dataset for Fine-Grained Phenotyping",
+      "doi": "10.48550/arxiv.2507.11279",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Trains the authors' MobileNetV3-Large 50-class BBCH classifier with the authors' hyperparameters on a deterministic 600-image TomatoMAP subset for 3 epochs (partial pipeline demonstration; not the paper's full-dataset 79.19% result).",
+      "semantic_tags": [
+        "crop:tomato",
+        "modality:rgb",
+        "organ:flower",
+        "organ:fruit",
+        "organ:inflorescence",
+        "organ:leaf",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:classification",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "TomatoMAP rig inputs with their real BBCH stage labels (train-split sample)",
+        "caption": "TomatoMAP rig inputs with their real BBCH stage labels (train-split sample)"
+      }
     }
   ]
 }
