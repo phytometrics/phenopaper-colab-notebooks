@@ -3666,6 +3666,23 @@
         "alt": "G7 final frame: original input, predicted YOLOv8x-Germ phase boxes, and seed masks predicted (cyan) vs pinned reference (yellow)",
         "caption": "G7 final frame: original input, predicted YOLOv8x-Germ phase boxes, and seed masks predicted (cyan) vs pinned reference (yellow)"
       }
+    },
+    {
+      "public_id": "p-db3f8be98b089c555cac68adece401c3",
+      "title": "Phenotyping, genome-wide dissection, and prediction of maize root architecture for temperate adaptability.",
+      "doi": "10.1002/imt2.70015",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Reproduces the paper's Figure 8 bagged-tree prediction of root projected area and primary root volume from 108 cross-section traits (inference with the authors' saved models, retraining with the pinned code, and a reduced top-k feature-count experiment) on a Colab CPU runtime; reduced replicate counts and split variance are the main limitations.",
+      "semantic_tags": [
+        "crop:maize",
+        "task:morphology",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "Predicted vs. observed total root projected area (ProjArea) on the held-out 20% split — retrained caret bagged trees (Figure 8A reproduction); Pearson r = 0.66 (paper: 0.67).",
+        "caption": "Predicted vs. observed total root projected area (ProjArea) on the held-out 20% split — retrained caret bagged trees (Figure 8A reproduction); Pearson r = 0.66 (paper: 0.67)."
+      }
     }
   ]
 }
