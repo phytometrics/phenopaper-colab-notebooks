@@ -2,6 +2,75 @@
   "schema_version": 1,
   "failures": [
     {
+      "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
+      "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
+      "investigation_run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T113209Z-4050068",
+      "run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T122226Z",
+      "status": "failed",
+      "reason": "Notebook executed end-to-end error-free on fresh T4 (colab 0.7.4): fold-1 reconstruction verified against paper Table 3 (870/163 original instances), paper-faithful balancing (603/511), YOLO11n 300 epochs, test green P.864/R.469/mAP50 .640/mAP50-95 .437, ripe P.678/R.807/mAP50 .781/mAP50-95 .636; val mAP50 reaches paper level (.924/.972) but mAP50-95/recall stay below Table 6 across all testable pipeline variants -> delivered as executed partial reproduction. GitHub publication blocked: git push rejected 3x by remote 'Internal Server Error' (Request IDs DE5F:..., 3A50:..., 2650:...; 2026-10-07T15:11-15:12Z); auth and no-op push verified OK; local repo unchanged. Host queue may retry publication with the preserved artifacts.",
+      "created_on": "2026-10-08",
+      "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb"
+    },
+    {
+      "public_id": "p-9a3c9cba4074a019ec533102f858e1c4",
+      "title": "Segmentation and characterization of macerated fibers and vessels using deep learning",
+      "investigation_run_id": "p-9a3c9cba4074a019ec533102f858e1c4-20261007T163704Z-66361",
+      "run_id": "p-9a3c9cba4074a019ec533102f858e1c4-20261007T170253Z",
+      "status": "failed",
+      "reason": "Notebook source complete and statically valid, but two fresh-runtime T4 validation attempts failed on cell-level NameErrors from probe/notebook variable-name mismatches (classes, then segmentations); both fixed in the current source. The 3-session Colab budget per queue invocation was then exhausted (diag, t4, t4b), so no third validation run was permitted. Resume with a fresh run budget to validate the fixed notebook end-to-end; do not publish as verified.",
+      "created_on": "2026-10-08",
+      "notebook_path": "notebooks/unverified/p-9a3c9cba4074a019ec533102f858e1c4.ipynb"
+    },
+    {
+      "public_id": "p-76b3fc60078b3d0914bdc7784044dc1e",
+      "title": "Differences in apple fruit shape are independent of fruit size",
+      "investigation_run_id": "p-76b3fc60078b3d0914bdc7784044dc1e-20261007T154400Z-20652",
+      "run_id": "p-76b3fc60078b3d0914bdc7784044dc1e-20261007T155007Z",
+      "status": "failed",
+      "reason": "Reproduction fully validated on fresh CPU Colab runtime (45/45 Spearman rho match published Table S2, max |drho|=5.6e-16; 20/45 significant; headline shape-size independence reproduced; 11/11 cells, 0 errors). Only GitHub publication failed: all pushes to phytometrics/phenopaper-colab-notebooks rejected with remote 'Internal Server Error' (publisher attempts x3, direct push of prepared commit, and a no-op temp-ref probe; auth OK, GitHub status 'Git Operations operational'). Notebook and evidence preserved for a retry when GitHub accepts pushes.",
+      "created_on": "2026-10-08",
+      "notebook_path": "notebooks/unverified/p-76b3fc60078b3d0914bdc7784044dc1e.ipynb"
+    },
+    {
+      "public_id": "p-40af28901ccb9acf8437d9f57bdd55c4",
+      "title": "An image dataset of Chinese hickory in natural orchards.",
+      "investigation_run_id": "p-40af28901ccb9acf8437d9f57bdd55c4-20261007T151347Z-4183239",
+      "run_id": "p-40af28901ccb9acf8437d9f57bdd55c4-20261007T180312Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-07T18:15:09.523Z] → Read runs/p-40af28901ccb9acf8437d9f57bdd55c4-20261007T180312Z/sources/code/voc_to_yolo.py | [2026-10-07T18:15:10.308Z] → Read runs/p-40af28901ccb9acf8437d9f57bdd55c4-20261007T180312Z/sources/code/labels_analyze.py | [2026-10-07T18:29:23.192Z] Investigation and code inspection are complete. Now authoring the notebook via the local builder (nbformat 5.11.1 available). This is a CPU-only reproduction, so no T4 will be required. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-08"
+    },
+    {
+      "public_id": "p-903df80cc1f5c5f59869dfbe9b866bd7",
+      "title": "Melon ripeness detection by an improved object detection algorithm for resource constrained environments",
+      "investigation_run_id": "p-903df80cc1f5c5f59869dfbe9b866bd7-20261007T085715Z-3902139",
+      "run_id": "p-903df80cc1f5c5f59869dfbe9b866bd7-20261007T090309Z",
+      "status": "failed",
+      "reason": "Notebook corrected after attempt 2 but the 3-session budget was exhausted before a fresh re-execution. Attempt 2 (fresh Colab CPU) validated all science (P 0.958, R 0.9423, mAP@0.5 0.9819, params 2.058M, GFLOPs 4.8162 vs paper 0.950/0.941/0.974/2.06/4.8) except one over-strict assertion in the byte-verification cell (n_py > 300; pinned count is 147 .py files). Assertion fixed and statically validated; a resumed invocation must execute the notebook top-to-bottom in a fresh CPU runtime, then publish with --compute CPU --preview-index 0.",
+      "created_on": "2026-10-07",
+      "notebook_path": "notebooks/unverified/p-903df80cc1f5c5f59869dfbe9b866bd7.ipynb"
+    },
+    {
+      "public_id": "p-8eb066596b66ac63b76cc87e1d066736",
+      "title": "Detection and analysis of wheat spikes using Convolutional Neural Networks.",
+      "investigation_run_id": "p-8eb066596b66ac63b76cc87e1d066736-20260930T121136Z-3644237",
+      "run_id": "p-8eb066596b66ac63b76cc87e1d066736-20261007T012127Z",
+      "status": "failed",
+      "reason": "Pipeline implemented and diagnostically verified (fixcheck3: mAP 0.6232 vs paper 0.6653 on the 20-image GSYC test set with the released annotations, which hold 1465 GT boxes vs the paper's 1570). Two full-execution attempts failed or produced invalid metrics (roi-file parsing bug; GT sequence-mapping/scale-offset bug; Agg backend suppressed PNG outputs). Source fixed after each failure, but the corrected notebook needs one fresh full validation run and the Colab session budget (3/3 per invocation) is exhausted. Deliverable notebook is corrected and statically validated but unexecuted; no fabricated outputs. Resume with resume_run_dir for a fresh CPU session, then publish (CPU).",
+      "created_on": "2026-10-07",
+      "notebook_path": "notebooks/unverified/p-8eb066596b66ac63b76cc87e1d066736.ipynb"
+    },
+    {
+      "public_id": "p-650819c551206a400b5a5865a67bb67b",
+      "title": "A photometric stereo-based 3D imaging system using computer vision and deep learning for tracking plant growth",
+      "investigation_run_id": "p-650819c551206a400b5a5865a67bb67b-20260930T140149Z-3709498",
+      "run_id": "p-650819c551206a400b5a5865a67bb67b-20261006T181006Z",
+      "status": "failed",
+      "reason": "Full CPU validation reached the data-download cell but a Google Drive per-file download quota permanently blocked /RawData/2017-11-11_05-20-08_NIR/imAmbient.bmp after 3 retries; the run aborted and downstream cells cascaded. The 3-session budget (diag, final, contingency) is exhausted for this invocation. Notebook repaired (imAmbient optional per author code; 4 bounded retries) and ready for resume_run_dir; all evidence archived.",
+      "created_on": "2026-10-07",
+      "notebook_path": "notebooks/unverified/p-650819c551206a400b5a5865a67bb67b.ipynb"
+    },
+    {
       "public_id": "p-2e8c3a2843f22434ab184e04160afc16",
       "title": "Clustering-Guided Multi-Layer Contrastive Representation Learning for Citrus Disease Classification",
       "investigation_run_id": "p-2e8c3a2843f22434ab184e04160afc16-20261006T110524Z-2952591",
@@ -343,66 +412,6 @@
       "reason": "Notebook authored and statically validated but never executed: Colab CPU session allocation refused on 16 attempts over ~38 min (02:46-03:27 UTC 2026-10-02) because the account's four concurrent-session slots are held by other queue workers' sessions; this run must not stop them. All source materials (PhotoPi code @fab92caf, FRDR 10.20383/103.01255, arXiv 2504.16840v1 Sec VI) were verified accessible. Execution environment failure, not missing material.",
       "created_on": "2026-10-02",
       "notebook_path": "notebooks/unverified/p-0dfec3c680bb0e32ef572c9bcc0a1d2c.ipynb"
-    },
-    {
-      "public_id": "p-650819c551206a400b5a5865a67bb67b",
-      "title": "A photometric stereo-based 3D imaging system using computer vision and deep learning for tracking plant growth",
-      "investigation_run_id": "p-650819c551206a400b5a5865a67bb67b-20260930T140149Z-3709498",
-      "run_id": "p-650819c551206a400b5a5865a67bb67b-20261006T181006Z",
-      "status": "failed",
-      "reason": "Full CPU validation reached the data-download cell but a Google Drive per-file download quota permanently blocked /RawData/2017-11-11_05-20-08_NIR/imAmbient.bmp after 3 retries; the run aborted and downstream cells cascaded. The 3-session budget (diag, final, contingency) is exhausted for this invocation. Notebook repaired (imAmbient optional per author code; 4 bounded retries) and ready for resume_run_dir; all evidence archived.",
-      "created_on": "2026-10-07",
-      "notebook_path": "notebooks/unverified/p-650819c551206a400b5a5865a67bb67b.ipynb"
-    },
-    {
-      "public_id": "p-8eb066596b66ac63b76cc87e1d066736",
-      "title": "Detection and analysis of wheat spikes using Convolutional Neural Networks.",
-      "investigation_run_id": "p-8eb066596b66ac63b76cc87e1d066736-20260930T121136Z-3644237",
-      "run_id": "p-8eb066596b66ac63b76cc87e1d066736-20261007T012127Z",
-      "status": "failed",
-      "reason": "Pipeline implemented and diagnostically verified (fixcheck3: mAP 0.6232 vs paper 0.6653 on the 20-image GSYC test set with the released annotations, which hold 1465 GT boxes vs the paper's 1570). Two full-execution attempts failed or produced invalid metrics (roi-file parsing bug; GT sequence-mapping/scale-offset bug; Agg backend suppressed PNG outputs). Source fixed after each failure, but the corrected notebook needs one fresh full validation run and the Colab session budget (3/3 per invocation) is exhausted. Deliverable notebook is corrected and statically validated but unexecuted; no fabricated outputs. Resume with resume_run_dir for a fresh CPU session, then publish (CPU).",
-      "created_on": "2026-10-07",
-      "notebook_path": "notebooks/unverified/p-8eb066596b66ac63b76cc87e1d066736.ipynb"
-    },
-    {
-      "public_id": "p-903df80cc1f5c5f59869dfbe9b866bd7",
-      "title": "Melon ripeness detection by an improved object detection algorithm for resource constrained environments",
-      "investigation_run_id": "p-903df80cc1f5c5f59869dfbe9b866bd7-20261007T085715Z-3902139",
-      "run_id": "p-903df80cc1f5c5f59869dfbe9b866bd7-20261007T090309Z",
-      "status": "failed",
-      "reason": "Notebook corrected after attempt 2 but the 3-session budget was exhausted before a fresh re-execution. Attempt 2 (fresh Colab CPU) validated all science (P 0.958, R 0.9423, mAP@0.5 0.9819, params 2.058M, GFLOPs 4.8162 vs paper 0.950/0.941/0.974/2.06/4.8) except one over-strict assertion in the byte-verification cell (n_py > 300; pinned count is 147 .py files). Assertion fixed and statically validated; a resumed invocation must execute the notebook top-to-bottom in a fresh CPU runtime, then publish with --compute CPU --preview-index 0.",
-      "created_on": "2026-10-07",
-      "notebook_path": "notebooks/unverified/p-903df80cc1f5c5f59869dfbe9b866bd7.ipynb"
-    },
-    {
-      "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
-      "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
-      "investigation_run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T113209Z-4050068",
-      "run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T122226Z",
-      "status": "failed",
-      "reason": "Notebook executed end-to-end error-free on fresh T4 (colab 0.7.4): fold-1 reconstruction verified against paper Table 3 (870/163 original instances), paper-faithful balancing (603/511), YOLO11n 300 epochs, test green P.864/R.469/mAP50 .640/mAP50-95 .437, ripe P.678/R.807/mAP50 .781/mAP50-95 .636; val mAP50 reaches paper level (.924/.972) but mAP50-95/recall stay below Table 6 across all testable pipeline variants -> delivered as executed partial reproduction. GitHub publication blocked: git push rejected 3x by remote 'Internal Server Error' (Request IDs DE5F:..., 3A50:..., 2650:...; 2026-10-07T15:11-15:12Z); auth and no-op push verified OK; local repo unchanged. Host queue may retry publication with the preserved artifacts.",
-      "created_on": "2026-10-08",
-      "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb"
-    },
-    {
-      "public_id": "p-76b3fc60078b3d0914bdc7784044dc1e",
-      "title": "Differences in apple fruit shape are independent of fruit size",
-      "investigation_run_id": "p-76b3fc60078b3d0914bdc7784044dc1e-20261007T154400Z-20652",
-      "run_id": "p-76b3fc60078b3d0914bdc7784044dc1e-20261007T155007Z",
-      "status": "failed",
-      "reason": "Reproduction fully validated on fresh CPU Colab runtime (45/45 Spearman rho match published Table S2, max |drho|=5.6e-16; 20/45 significant; headline shape-size independence reproduced; 11/11 cells, 0 errors). Only GitHub publication failed: all pushes to phytometrics/phenopaper-colab-notebooks rejected with remote 'Internal Server Error' (publisher attempts x3, direct push of prepared commit, and a no-op temp-ref probe; auth OK, GitHub status 'Git Operations operational'). Notebook and evidence preserved for a retry when GitHub accepts pushes.",
-      "created_on": "2026-10-08",
-      "notebook_path": "notebooks/unverified/p-76b3fc60078b3d0914bdc7784044dc1e.ipynb"
-    },
-    {
-      "public_id": "p-9a3c9cba4074a019ec533102f858e1c4",
-      "title": "Segmentation and characterization of macerated fibers and vessels using deep learning",
-      "investigation_run_id": "p-9a3c9cba4074a019ec533102f858e1c4-20261007T163704Z-66361",
-      "run_id": "p-9a3c9cba4074a019ec533102f858e1c4-20261007T170253Z",
-      "status": "failed",
-      "reason": "Notebook source complete and statically valid, but two fresh-runtime T4 validation attempts failed on cell-level NameErrors from probe/notebook variable-name mismatches (classes, then segmentations); both fixed in the current source. The 3-session Colab budget per queue invocation was then exhausted (diag, t4, t4b), so no third validation run was permitted. Resume with a fresh run budget to validate the fixed notebook end-to-end; do not publish as verified.",
-      "created_on": "2026-10-08",
-      "notebook_path": "notebooks/unverified/p-9a3c9cba4074a019ec533102f858e1c4.ipynb"
     }
   ]
 }
