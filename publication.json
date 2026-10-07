@@ -6127,6 +6127,37 @@
         "alt": "Cherry-tomato photographs from photos_tomato/ (pinned commit 2678cf6), one per K-Means ground-truth maturity stage, labeled with ID_FOTO, image format and measured average CIELAB coordinates.",
         "caption": "Cherry-tomato photographs from photos_tomato/ (pinned commit 2678cf6), one per K-Means ground-truth maturity stage, labeled with ID_FOTO, image format and measured average CIELAB coordinates."
       }
+    },
+    {
+      "public_id": "p-976ab37dbd74e4ac6793ec6fce37e741",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Rating Pome Fruit Quality Traits Using Deep Learning and Image Processing",
+      "doi": "10.1101/2024.04.03.588000",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Executed the pinned Granny v1.1.0 starch-area module (author code, commit 411a6482) on 18 author-provided iodine-stained apple cross-sections in a Colab CPU runtime, producing starch-area ratings, 8 chart indices and mask overlays; human-validation datasets and the other modules are out of scope.",
+      "semantic_tags": [
+        "crop:apple",
+        "crop:pear",
+        "organ:fruit",
+        "task:classification",
+        "trait:disease_symptoms",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "Iodine-stained apple cross-section input (left) and Granny v1.1.0 starch mask overlay (right); dark shading is the module's detected starch area, not an author annotation.",
+        "caption": "Iodine-stained apple cross-section input (left) and Granny v1.1.0 starch mask overlay (right); dark shading is the module's detected starch area, not an author annotation."
+      }
     }
   ]
 }
