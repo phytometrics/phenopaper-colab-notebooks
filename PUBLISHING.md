@@ -6,7 +6,7 @@
 4. Run all cells on a fresh Colab runtime. Inspect saved outputs, errors, and generated result files.
 5. Run the publication tool from the persistent DGX checkout. It validates the saved notebook and archived Colab result, updates publication.json, extracts a preview from a saved PNG output, regenerates the README montage, notebook index, publication table, and count card, commits, and pushes. See the command example below.
 
-The README hero image is a 1200 × 630 tile montage made from up to 96 recent, AI-verified paper previews. Missing previews and blank/placeholder images are excluded. The renderer adjusts the number of columns to fit the selected previews without changing the cover size. The image includes the current AI-verified notebook count, so the collection size remains clear. The expanded alphabetized notebook index, publication table, compact SVG count card, and accessible notebook count are also generated from `publication.json`. The index links to each GitHub notebook and its Colab launch page. Edit the manifest for metadata corrections, then run the publication tool in render mode. Every successful AI-verified publication refreshes and commits the montage, index, table, and count automatically; no external badge service or scheduled job is needed. Do not edit the generated images, index, or table rows by hand.
+The README hero image is a 1200 × 630 tile montage made from up to 96 recent, AI-verified paper previews. Missing previews and blank/placeholder images are excluded. The renderer adjusts the number of columns to fit the selected previews without changing the cover size. The image includes the current AI-verified notebook count, so the collection size remains clear. The collapsible alphabetized notebook index, publication table, compact SVG count card, and accessible notebook count are also generated from `publication.json`. The index links to each GitHub notebook and its Colab launch page. Edit the manifest for metadata corrections, then run the publication tool in render mode. Every successful AI-verified publication refreshes and commits the montage, index, table, and count automatically; no external badge service or scheduled job is needed. Do not edit the generated images, index, or table rows by hand.
 
 The image renderer requires Pillow. Install or update the publisher dependency with `python3 -m pip install -r tools/requirements.txt` before using `tools/publication.py` on a new host.
 
@@ -41,10 +41,10 @@ GitHub truncates repository README rendering after 500 KiB. On 2026-10-07, commi
 publications reached 519,567 bytes. GitHub cut a notebook row in the middle of a
 badge URL. The manifest and Markdown column delimiters remained valid.
 
-README.md shows an expanded alphabetical notebook index with a direct GitHub
+README.md shows an collapsible alphabetical notebook index with a direct GitHub
 notebook link and Open in Colab link for every AI-verified notebook. It also links
 the detailed catalog in catalog/page-NNN.md and shows the two most recently
-published notebooks. The index remains expanded and regenerates from publication.json.
+published notebooks. The index is collapsed by default and regenerates from publication.json.
 Each catalog page has at most 50 entries and a 200,000-byte UTF-8 budget; README
 has a 400,000-byte guard. Pages preserve all generation conditions, Colab links,
 and execution previews. `publication.json` remains the source of truth.

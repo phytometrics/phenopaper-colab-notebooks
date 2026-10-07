@@ -32,7 +32,8 @@ This repository is part of [PhenoPaper](https://phenopaper.smartbreed-plant-phen
 
 ### Notebook index
 
-Browse all 220 AI-verified notebooks alphabetically:
+<details>
+<summary>Browse all 220 AI-verified notebooks alphabetically</summary>
 
 - [3D reconstruction identifies loci linked to variation in angle of individual sorghum leaves](notebooks/p-96dc254f7fd6d49e5304d420acb82d9d.ipynb) · [Open in Colab](https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/notebooks/p-96dc254f7fd6d49e5304d420acb82d9d.ipynb)
 - [3D sorghum reconstructions from depth images enable identification of quantitative trait loci regulating shoot architecture](notebooks/p-076a5cd5ebdeed1a9ffaf2ec05b49074.ipynb) · [Open in Colab](https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/notebooks/p-076a5cd5ebdeed1a9ffaf2ec05b49074.ipynb)
@@ -254,6 +255,8 @@ Browse all 220 AI-verified notebooks alphabetically:
 - [WISER: an innovative and efficient method for correcting population structure in omics-based selection and association studies](notebooks/p-f91efd84027a58fbe6f03a9730173049.ipynb) · [Open in Colab](https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/notebooks/p-f91efd84027a58fbe6f03a9730173049.ipynb)
 - [YieldLearn: An interpretable machine-learning pipeline for estimating yield-related traits based on physiological indicators](notebooks/p-783e81f38f776c444d5960f7c72f2f25.ipynb) · [Open in Colab](https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/notebooks/p-783e81f38f776c444d5960f7c72f2f25.ipynb)
 - [‘Macrobot’–an automated segmentation-based system for powdery mildew disease quantification](notebooks/p-20afe95c7a327d82953a229470490c9b.ipynb) · [Open in Colab](https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/notebooks/p-20afe95c7a327d82953a229470490c9b.ipynb)
+
+</details>
 
 #### Detailed catalog with previews
 

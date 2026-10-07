@@ -20,7 +20,9 @@ class PublicationTests(unittest.TestCase):
         found = __import__('re').findall(r'\]\(notebooks/(p-[0-9a-f]+)\.ipynb\)', index)
         expected = [e["public_id"] for e in sorted(data["notebooks"], key=lambda e: (e["title"].casefold(), e["public_id"]))]
         self.assertEqual(found, expected)
-        self.assertNotIn("<details>", index)
+        self.assertIn("<details>", index)
+        self.assertIn("</details>", index)
+        self.assertNotIn("<details open", index)
         for public_id in expected:
             self.assertIn(f"blob/main/notebooks/{public_id}.ipynb", index)
 
