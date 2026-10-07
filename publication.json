@@ -6190,6 +6190,37 @@
         "alt": "Released Scaled orchard images with the released YOLO ground-truth boxes (red) and class ids",
         "caption": "Released Scaled orchard images with the released YOLO ground-truth boxes (red) and class ids"
       }
+    },
+    {
+      "public_id": "p-efdfc8711913b8cea420633b3f6bd7b6",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Detection of Fast-Changing Intra-seasonal Vegetation Dynamics of Drylands Using Solar-Induced Chlorophyll Fluorescence (SIF)",
+      "doi": "10.5194/egusphere-2024-2529",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Adapted partial CPU reproduction of Wen et al. 2025 regional SIF pipeline: TROPOSIF v2.1 L2B self-gridded to 0.15 deg / 8-day over three Horn-of-Africa dryland sub-regions, compared with GOSIF and CHIRPS precipitation; MODIS/MERRA-2/ESA-CCI/RTSIF inputs are excluded (gated or too large), so SIF yield and Tair/VPD/SM correlations are out of scope.",
+      "semantic_tags": [
+        "environment:field",
+        "modality:fluorescence",
+        "organ:whole_plant",
+        "task:time_series",
+        "trait:growth_development",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "Input preview: TROPOSIF v2.1 SIF (SIF_Corr_743, cloud fraction below 0.8, SZA below 70 deg) gridded to the 0.15-degree author grid for the 8-day period starting 2019-10-08, with the three sub-region bounding boxes.",
+        "caption": "Input preview: TROPOSIF v2.1 SIF (SIF_Corr_743, cloud fraction below 0.8, SZA below 70 deg) gridded to the 0.15-degree author grid for the 8-day period starting 2019-10-08, with the three sub-region bounding boxes."
+      }
     }
   ]
 }
