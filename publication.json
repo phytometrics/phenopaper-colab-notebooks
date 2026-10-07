@@ -6313,6 +6313,32 @@
         "alt": "Reference removal (from the real post-limb-removal scan, left) versus the simulated graph-path removal for one cut point (right) in the elevation view of row-55s-tree-15e.",
         "caption": "Reference removal (from the real post-limb-removal scan, left) versus the simulated graph-path removal for one cut point (right) in the elevation view of row-55s-tree-15e."
       }
+    },
+    {
+      "public_id": "p-0ae0dbcc01aa432ef3cec43245e2765a",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Deep learning for interactive and automated inner retinal layer segmentation in OCT of patients with retinitis pigmentosa using limited training data",
+      "doi": "10.64898/2026.06.16.26355668",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Runs the paper's released pretrained nnU-Net on one public Duke DME OCT B-scan to segment the 7 retinal layers and reproduce the author's layer-thickness metric against the human annotation; a held-in training sample and pipeline sanity check, not a verification of the paper's RP results (private UMG-RP data).",
+      "semantic_tags": [
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Duke DME B-scan (Subject_01, slice 10) with the 7-layer segmentation predicted by the paper's released nnU-Net model (CPU inference).",
+        "caption": "Duke DME B-scan (Subject_01, slice 10) with the 7-layer segmentation predicted by the paper's released nnU-Net model (CPU inference)."
+      }
     }
   ]
 }
