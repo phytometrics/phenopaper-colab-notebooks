@@ -5906,6 +5906,43 @@
         "alt": "Observed Soxhlet oil volume (red) versus each model's prediction over all 30 semi-ripe fruit samples",
         "caption": "Observed Soxhlet oil volume (red) versus each model's prediction over all 30 semi-ripe fruit samples"
       }
+    },
+    {
+      "public_id": "p-03f7bc9fab12994c7bbe235d3f6a75c6",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Computer Vision Approach for Phenotypic Characterization of Horticultural Crops",
+      "doi": "10.12791/ksbec.2024.33.1.063",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Single-example CPU reproduction of the KSBEC 2024 tomato pipeline on the author's own greenhouse photo: released SVM exercised on author-style HOG features and HSV detection + mean-hue ripeness rating; qualitative only, the paper reports no quantitative metrics.",
+      "semantic_tags": [
+        "crop:melon",
+        "crop:pepper",
+        "crop:tomato",
+        "environment:greenhouse",
+        "modality:rgb",
+        "modality:rgbd",
+        "organ:flower",
+        "organ:fruit",
+        "task:classification",
+        "task:object_detection",
+        "trait:pigment_color",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Input tomato_test1.jpg (author greenhouse photo) beside the pipeline's largest tomato detection with its mean-hue ripeness label (Unmature, hue 18.1).",
+        "caption": "Input tomato_test1.jpg (author greenhouse photo) beside the pipeline's largest tomato detection with its mean-hue ripeness label (Unmature, hue 18.1)."
+      }
     }
   ]
 }
