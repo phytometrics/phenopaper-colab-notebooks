@@ -14,6 +14,27 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(publication.render(data), publication.README.read_text(encoding="utf-8"))
         self.assertEqual(publication.render_montage(data), publication.MONTAGE.read_bytes())
 
+    def test_paginated_catalog_preserves_every_notebook_and_preview(self):
+        data = publication.load_manifest()
+        pages = publication.render_catalog(data)
+        found = []
+        for content in pages.values():
+            self.assertLessEqual(len(content.encode("utf-8")), publication.CATALOG_PAGE_BYTE_LIMIT)
+            self.assertIn('src="../assets/previews/', content)
+            found.extend(__import__('re').findall(r'public_id: <code>(p-[0-9a-f]+)</code>', content))
+        expected = [e["public_id"] for e in sorted(data["notebooks"], key=lambda e: (e["title"].casefold(), e["public_id"]))]
+        self.assertEqual(found, expected)
+        publication.sync_catalog(data, check=True)
+        self.assertLess(len(publication.render(data).encode("utf-8")), publication.MARKDOWN_BYTE_LIMIT)
+
+    def test_large_catalog_is_split_by_utf8_bytes(self):
+        entry = dict(publication.load_manifest()["notebooks"][0])
+        entries = [dict(entry, public_id=f"p-{i:032x}", demonstration="あ" * 4000) for i in range(100)]
+        pages = publication.render_catalog({"notebooks": entries})
+        self.assertGreater(len(pages), 2)
+        self.assertTrue(all(len(p.encode("utf-8")) <= publication.CATALOG_PAGE_BYTE_LIMIT for p in pages.values()))
+        self.assertEqual(sum(p.count('public_id: <code>') for p in pages.values()), 100)
+
     def test_montage_selects_up_to_96_recent_real_previews(self):
         entries = [
             {"public_id": f"p-{index:032x}", "validated_on": f"2026-10-{index:03d}"}

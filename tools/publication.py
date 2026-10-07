@@ -312,15 +312,75 @@ def write_montage(data: dict) -> None:
     MONTAGE.write_bytes(render_montage(data))
 
 
+# Leave ample room below GitHub's 500 KiB README rendering limit.
+MARKDOWN_BYTE_LIMIT = 400_000
+CATALOG_PAGE_BYTE_LIMIT = 200_000
+README_RECENT_COUNT = 40
+TABLE_HEADER = "| Paper and run details | Preview |\n| --- | --- |"
+
+
+def catalog_groups(data: dict) -> list:
+    entries = sorted(data["notebooks"], key=lambda e: (e["title"].casefold(), e["public_id"]))
+    groups, page, size, start = [], [], 0, 0
+    for entry in entries:
+        entry_size = len(row(entry).encode("utf-8")) + 1
+        if entry_size > CATALOG_PAGE_BYTE_LIMIT - 10_000:
+            fail("Notebook metadata exceeds the catalog page size budget")
+        if page and (len(page) >= 50 or size + entry_size > CATALOG_PAGE_BYTE_LIMIT - 10_000):
+            groups.append((len(groups) + 1, start, page))
+            start += len(page)
+            page, size = [], 0
+        page.append(entry)
+        size += entry_size
+    if page:
+        groups.append((len(groups) + 1, start, page))
+    return groups
+
+
+def render_catalog(data: dict) -> dict:
+    groups = catalog_groups(data)
+    pages = {}
+    for number, start, entries in groups:
+        navigation = ["[README / recent notebooks](../README.md#notebooks)"]
+        if number > 1:
+            navigation.append(f"[Previous](page-{number - 1:03d}.md)")
+        if number < len(groups):
+            navigation.append(f"[Next](page-{number + 1:03d}.md)")
+        text = "\n\n".join([
+            f"# Notebook catalog — page {number} of {len(groups)}",
+            " · ".join(navigation),
+            f"Alphabetical entries {start + 1}–{start + len(entries)} of {len(data['notebooks'])}. "
+            "Generated from publication.json; includes generation conditions and execution previews.",
+            TABLE_HEADER + "\n" + "\n".join(row(e).replace('src="assets/', 'src="../assets/') for e in entries),
+            " · ".join(navigation),
+        ]) + "\n"
+        if len(text.encode("utf-8")) > CATALOG_PAGE_BYTE_LIMIT:
+            fail("Catalog page exceeds the Markdown size budget")
+        pages[f"page-{number:03d}.md"] = text
+    return pages
+
+
+def sync_catalog(data: dict, check: bool = False) -> None:
+    directory = REPO / "catalog"
+    pages = render_catalog(data)
+    existing = set(p.name for p in directory.glob("page-*.md"))
+    if check:
+        if existing != set(pages) or any((directory / name).read_text(encoding="utf-8") != content for name, content in pages.items()):
+            fail("Catalog pages are out of sync with publication.json")
+        return
+    directory.mkdir(exist_ok=True)
+    for name, content in pages.items():
+        (directory / name).write_text(content, encoding="utf-8")
+    for name in existing - set(pages):
+        (directory / name).unlink()
+
+
 def render_notebook_index(data: dict) -> str:
     entries = sorted(data["notebooks"], key=lambda entry: (entry["title"].casefold(), entry["public_id"]))
-    items = []
-    for entry in entries:
-        public_id = entry["public_id"]
-        title = entry["title"].replace(chr(92), chr(92) * 2).replace("[", chr(92) + "[").replace("]", chr(92) + "]")
-        notebook = f"notebooks/{public_id}.ipynb"
-        colab = f"https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/{notebook}"
-        items.append(f"- [{title}]({notebook}) · [Open in Colab]({colab})")
+    items = [
+        f"- [Page {number}: notebooks {start + 1}–{start + len(page)}](catalog/page-{number:03d}.md)"
+        for number, start, page in catalog_groups(data)
+    ]
     if not items:
         items.append("- No execution-verified notebooks have been published yet.")
 
@@ -345,7 +405,7 @@ def render_notebook_index(data: dict) -> str:
         "### Notebook index",
         "",
         "<details>",
-        f"<summary>Browse all {count} execution-verified notebooks alphabetically</summary>",
+        f"<summary>Browse all {count} execution-verified notebooks alphabetically (paginated)</summary>",
         "",
         *items,
         "",
@@ -370,10 +430,15 @@ def render(data: dict) -> str:
     _, after = rest.split(INDEX_END, 1)
     index = render_notebook_index(data)
     current = before + INDEX_START + "\n" + index + "\n" + INDEX_END + after
-    table = "\n".join(["| Paper and run details | Preview |", "| --- | --- |", *(row(e) for e in data["notebooks"])])
+    recent = list(reversed(data["notebooks"]))[:README_RECENT_COUNT]
+    table = f"Showing the {len(recent)} most recently published notebooks of {count}. " + "[Browse the complete alphabetical catalog](#notebook-index).\n\n"
+    table += TABLE_HEADER + "\n" + "\n".join(row(e) for e in recent)
     before, rest = current.split(START, 1)
     _, after = rest.split(END, 1)
-    return before + START + "\n" + table + "\n" + END + after
+    result = before + START + "\n\n" + table + "\n\n" + END + after
+    if len(result.encode("utf-8")) > MARKDOWN_BYTE_LIMIT:
+        fail("README exceeds its Markdown size budget")
+    return result
 
 
 def check_notebook(path: Path) -> dict:
@@ -559,12 +624,13 @@ def publish(args: argparse.Namespace) -> None:
         MANIFEST.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         load_manifest()
         README.write_text(render(data), encoding="utf-8")
+        sync_catalog(data)
         write_summary(data)
         write_montage(data)
         if (REPO / "unverified.json").exists():
             subprocess.run([sys.executable, str(REPO / "tools/publish_unverified.py"), "render"], check=True)
             git("add", "--", "unverified.json", "UNVERIFIED.md", "FAILED.md", "README.md")
-        git("add", "--", str(target_notebook.relative_to(REPO)), str(target_preview.relative_to(REPO)), "publication.json", "README.md", str(SUMMARY.relative_to(REPO)), str(MONTAGE.relative_to(REPO)))
+        git("add", "--", str(target_notebook.relative_to(REPO)), str(target_preview.relative_to(REPO)), "publication.json", "README.md", "catalog", str(SUMMARY.relative_to(REPO)), str(MONTAGE.relative_to(REPO)))
         if not git("diff", "--cached", "--name-only"):
             print(f"Already up to date: {args.public_id}")
             finish_mutation()
@@ -599,6 +665,7 @@ def main() -> None:
         data = load_manifest()
         generated = render(data)
         if args.check:
+            sync_catalog(data, check=True)
             if README.read_text(encoding="utf-8") != generated:
                 fail("README is out of sync with publication.json")
             if not SUMMARY.is_file() or SUMMARY.read_text(encoding="utf-8") != render_summary(data):
@@ -608,6 +675,7 @@ def main() -> None:
             print(f"README and generated images match {len(data['notebooks'])} manifest entries")
         else:
             README.write_text(generated, encoding="utf-8")
+            sync_catalog(data)
             write_summary(data)
             write_montage(data)
             print(f"Rendered {len(data['notebooks'])} entries")

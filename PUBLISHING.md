@@ -32,3 +32,23 @@ The operator authorizes automatic publication of partial/incomplete notebooks us
 `publication.json` entries expose `generation` separately from Colab compute/validation. The publisher captures the actual ancestor OpenCode `/reproduce` invocation and allowlisted model options/variant configuration, including reasoning effort when explicitly configured. It records the harness version when available and persists a host-only `generation.json` in the run directory. Validation-only publication preserves an existing authoring record and never substitutes the validation model. If authoring provenance cannot be observed, `generation` is null and the README displays “Generation conditions not recorded.”
 
 Historical backfills use a job monitor record only after matching its queue log, run directory and exact published notebook hash; they expose the recorded variant, without inferring historical reasoning effort from current configuration. No credentials, complete commands or provider configuration files are published. Generation conditions describe recorded invocation settings, not a claim about undocumented provider internals.
+
+
+## GitHub Markdown size and catalog pages
+
+GitHub truncates repository README rendering after 500 KiB. On 2026-10-07, commit
+572b0be grew README.md from 511,221 to 514,378 bytes, crossing that limit; later
+publications reached 519,567 bytes. GitHub cut a notebook row in the middle of a
+badge URL. The manifest and Markdown column delimiters remained valid.
+
+The publisher now keeps the 40 most recently published verified notebooks in
+README.md and links a complete alphabetical catalog in catalog/page-NNN.md.
+Each catalog page has at most 50 entries and a 200,000-byte UTF-8 budget; README
+has a 400,000-byte guard. Pages preserve all generation conditions, Colab links,
+and execution previews. `publication.json` remains the source of truth.
+`python3 tools/publication.py render` regenerates these files, and `render --check`
+checks page membership and contents as well as README and images. The publish
+transaction stages catalog pages along with README so the next worker publication
+retains pagination. Do not manually append full tables back into README.
+
+Limit documentation: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
