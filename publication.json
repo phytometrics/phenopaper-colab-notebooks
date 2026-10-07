@@ -6065,6 +6065,37 @@
         "alt": "Simulated internal tactile observations from the in-gripper camera at gripper openings of 4-40 mm, produced by the authors' unmodified render_loop.py under headless Blender (Cycles 1024 samples) on a Colab T4.",
         "caption": "Simulated internal tactile observations from the in-gripper camera at gripper openings of 4-40 mm, produced by the authors' unmodified render_loop.py under headless Blender (Cycles 1024 samples) on a Colab T4."
       }
+    },
+    {
+      "public_id": "p-aec5f4a3b637086223a53c458d9c0bd3",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "CitDet: A Benchmark Dataset for Citrus Fruit Detection",
+      "doi": "10.48550/arxiv.2309.05645",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Partial reproduction: downloads the CitDet test split, verifies the paper's dataset statistics against the actual COCO annotations, previews expert ground-truth boxes, and runs a clearly-labeled untrained COCO-pretrained Faster R-CNN baseline through the author's eval_coco_json.py path; the paper's fine-tuned AP benchmarks and yield estimation are not reproduced.",
+      "semantic_tags": [
+        "crop:citrus",
+        "environment:field",
+        "organ:fruit",
+        "task:object_detection",
+        "task:yield_biomass",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "CitDet test images with expert ground-truth bounding boxes (red: Fruit on Tree, blue: Fruit on Ground)",
+        "caption": "CitDet test images with expert ground-truth bounding boxes (red: Fruit on Tree, blue: Fruit on Ground)"
+      }
     }
   ]
 }
