@@ -6339,6 +6339,38 @@
         "alt": "Duke DME B-scan (Subject_01, slice 10) with the 7-layer segmentation predicted by the paper's released nnU-Net model (CPU inference).",
         "caption": "Duke DME B-scan (Subject_01, slice 10) with the 7-layer segmentation predicted by the paper's released nnU-Net model (CPU inference)."
       }
+    },
+    {
+      "public_id": "p-3dd3bdfbdecce562aa58a6f17a2d2362",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Deep learning enables image-based tree counting, crown segmentation, and height prediction at national scale",
+      "doi": "10.1093/pnasnexus/pgad076",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Pretrained RGB tree-counting and crown-segmentation inference on the authors' 1 km2 Danish example tile, reproducing their stored density/segmentation rasters (count 18,871.3 vs 18,871.1; density r=1.0000; seg IoU 0.99999) in ~5 min on T4; height model, training, and national scale are out of scope.",
+      "semantic_tags": [
+        "environment:aerial",
+        "organ:whole_plant",
+        "task:counting",
+        "task:morphology",
+        "task:segmentation",
+        "trait:architecture",
+        "trait:plant_height"
+      ],
+      "preview": {
+        "alt": "Example tile RGB with the authors' stored crown segmentation (center) and this notebook's predicted segmentation (right)",
+        "caption": "Example tile RGB with the authors' stored crown segmentation (center) and this notebook's predicted segmentation (right)"
+      }
     }
   ]
 }
