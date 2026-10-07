@@ -3683,6 +3683,24 @@
         "alt": "Predicted vs. observed total root projected area (ProjArea) on the held-out 20% split — retrained caret bagged trees (Figure 8A reproduction); Pearson r = 0.66 (paper: 0.67).",
         "caption": "Predicted vs. observed total root projected area (ProjArea) on the held-out 20% split — retrained caret bagged trees (Figure 8A reproduction); Pearson r = 0.66 (paper: 0.67)."
       }
+    },
+    {
+      "public_id": "p-cd491f1c0d8b2d53c198839547951c56",
+      "title": "A lightweight and explainable CNN model for empowering plant disease diagnosis",
+      "doi": "10.1038/s41598-025-94083-1",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Validates the authors' released Mob-Res (A+B)Bf checkpoint on their bundled 10,861-image PlantVillage validation split (99.92% accuracy reproduced; Grad-CAM demo on one image), matching the paper's reported value on both CPU and T4 GPU.",
+      "semantic_tags": [
+        "task:classification",
+        "task:object_detection",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "PlantVillage validation inputs with ground-truth labels (first batch) for the Mob-Res (A+B)Bf checkpoint",
+        "caption": "PlantVillage validation inputs with ground-truth labels (first batch) for the Mob-Res (A+B)Bf checkpoint"
+      }
     }
   ]
 }
