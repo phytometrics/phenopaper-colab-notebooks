@@ -4,7 +4,7 @@ This page lists every saved draft notebook that has not passed full execution ve
 
 未検証または途中までのNotebookを、実行結果にかかわらずここに集約しています。作成済みであることは実行成功を意味しません。Notebookを残せなかった失敗試行は[失敗一覧](FAILED.md)を参照してください。
 
-[Execution-verified notebooks](README.md#notebooks)
+[AI-verified notebooks](README.md#notebooks)
 
 | Paper / notebook | Status and stopping reason |
 | --- | --- |

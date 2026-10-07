@@ -1,10 +1,10 @@
 # PhenoPaper Colab notebooks
 
 <!-- publication-summary:start -->
-<p align="center"><a href="#notebooks"><img src="assets/notebook-montage.png" width="100%" alt="PhenoPaper × Google Colab — 220 execution-verified notebooks" /></a></p>
+<p align="center"><a href="#notebooks"><img src="assets/notebook-montage.png" width="100%" alt="PhenoPaper × Google Colab — 220 AI-verified notebooks" /></a></p>
 <!-- publication-summary:end -->
 
-Execution-verified Google Colab demonstrations for selected plant phenotyping papers. Each notebook runs a small, documented part of a paper’s workflow; it does not establish paper-wide performance or reproduce every experiment.
+AI-verified Google Colab demonstrations for selected plant phenotyping papers. Each notebook runs a small, documented part of a paper’s workflow; it does not establish paper-wide performance or reproduce every experiment.
 
 公開論文の解析手順を小さな例で実行できる Colab ノートブックです。
 
@@ -32,7 +32,7 @@ This repository is part of [PhenoPaper](https://phenopaper.smartbreed-plant-phen
 
 ### Notebook index
 
-Browse all 220 execution-verified notebooks alphabetically:
+Browse all 220 AI-verified notebooks alphabetically:
 
 - [Page 1: notebooks 1–50](catalog/page-001.md)
 - [Page 2: notebooks 51–100](catalog/page-002.md)
@@ -48,7 +48,7 @@ Browse all 220 execution-verified notebooks alphabetically:
 
 ## Unverified references
 
-[Unverified and incomplete notebooks](UNVERIFIED.md) — drafts and stopped attempts, with reasons. Excluded from the execution-verified count.
+[Unverified and incomplete notebooks](UNVERIFIED.md) — drafts and stopped attempts, with reasons. Excluded from the AI-verified count.
 
 ## Notebooks
 

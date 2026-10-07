@@ -6,7 +6,7 @@
 4. Run all cells on a fresh Colab runtime. Inspect saved outputs, errors, and generated result files.
 5. Run the publication tool from the persistent DGX checkout. It validates the saved notebook and archived Colab result, updates publication.json, extracts a preview from a saved PNG output, regenerates the README montage, notebook index, publication table, and count card, commits, and pushes. See the command example below.
 
-The README hero image is a 1200 × 630 tile montage made from up to 96 recent, execution-verified paper previews. Missing previews and blank/placeholder images are excluded. The renderer adjusts the number of columns to fit the selected previews without changing the cover size. The image includes the current verified-notebook count, so the collection size remains clear. The collapsible alphabetized notebook index, publication table, compact SVG count card, and accessible notebook count are also generated from `publication.json`. The index links to each GitHub notebook and its Colab launch page. Edit the manifest for metadata corrections, then run the publication tool in render mode. Every successful verified publication refreshes and commits the montage, index, table, and count automatically; no external badge service or scheduled job is needed. Do not edit the generated images, index, or table rows by hand.
+The README hero image is a 1200 × 630 tile montage made from up to 96 recent, AI-verified paper previews. Missing previews and blank/placeholder images are excluded. The renderer adjusts the number of columns to fit the selected previews without changing the cover size. The image includes the current AI-verified notebook count, so the collection size remains clear. The expanded alphabetized notebook index, publication table, compact SVG count card, and accessible notebook count are also generated from `publication.json`. The index links to each GitHub notebook and its Colab launch page. Edit the manifest for metadata corrections, then run the publication tool in render mode. Every successful AI-verified publication refreshes and commits the montage, index, table, and count automatically; no external badge service or scheduled job is needed. Do not edit the generated images, index, or table rows by hand.
 
 The image renderer requires Pillow. Install or update the publisher dependency with `python3 -m pip install -r tools/requirements.txt` before using `tools/publication.py` on a new host.
 
@@ -25,7 +25,7 @@ Notebook publication does not approve a Paper, Tool, or Repository for the Pheno
 
 ## Unverified references
 
-The operator authorizes automatic publication of partial/incomplete notebooks using `python3 tools/publish_unverified.py publish --public-id PUBLIC_ID --run-dir RUN_DIR --status failed --reason REASON`. This only reads notebook JSON and never executes scientific code. It clears outputs in the published draft, adds an opening notice, preserves the original DGX run, and updates `unverified.json` and `UNVERIFIED.md`. It does not update `publication.json` or the execution-verified SVG count. No manual login validation is performed. Papers with no authored code get an attempt reason in PhenoPaper but no placeholder notebook. Every failed queue outcome is also added to [`FAILED.md`](FAILED.md), with the recorded reason and a PhenoPaper link; a draft link appears only when a notebook exists. `failures.json` is the source for that page and is updated by the queue publisher. Only a later fresh verified execution can promote a notebook into the verified manifest; historical draft files remain reference artifacts.
+The operator authorizes automatic publication of partial/incomplete notebooks using `python3 tools/publish_unverified.py publish --public-id PUBLIC_ID --run-dir RUN_DIR --status failed --reason REASON`. This only reads notebook JSON and never executes scientific code. It clears outputs in the published draft, adds an opening notice, preserves the original DGX run, and updates `unverified.json` and `UNVERIFIED.md`. It does not update `publication.json` or the AI-verified SVG count. No manual login validation is performed. Papers with no authored code get an attempt reason in PhenoPaper but no placeholder notebook. Every failed queue outcome is also added to [`FAILED.md`](FAILED.md), with the recorded reason and a PhenoPaper link; a draft link appears only when a notebook exists. `failures.json` is the source for that page and is updated by the queue publisher. Only a later fresh AI-verified execution can promote a notebook into the AI-verified manifest; historical draft files remain reference artifacts.
 
 ## Recorded generation conditions
 
@@ -43,7 +43,7 @@ badge URL. The manifest and Markdown column delimiters remained valid.
 
 README.md shows an expanded notebook index linking the complete alphabetical
 catalog in catalog/page-NNN.md, plus a table of the two most recently published
-verified notebooks. The index remains expanded.
+AI-verified notebooks. The index remains expanded.
 Each catalog page has at most 50 entries and a 200,000-byte UTF-8 budget; README
 has a 400,000-byte guard. Pages preserve all generation conditions, Colab links,
 and execution previews. `publication.json` remains the source of truth.

@@ -137,7 +137,7 @@ def render_summary(data: dict) -> str:
     label_x = 48 + max(136, len(str(count)) * 64 + 28)
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-labelledby="title description">
   <title id="title">PhenoPaper × Google Colab</title>
-  <desc id="description">{count} execution-verified notebooks</desc>
+  <desc id="description">{count} AI-verified notebooks</desc>
   <defs>
     <linearGradient id="forest" x2="1" y2="1">
       <stop stop-color="#123d32"/>
@@ -154,7 +154,7 @@ def render_summary(data: dict) -> str:
     <text x="96" y="66" fill="#f1f6ed" font-size="29" font-weight="600">PhenoPaper <tspan fill="#95b6a5">×</tspan> Google Colab</text>
     <text x="46" y="185" fill="#ffffff" font-size="104" font-weight="700" letter-spacing="-5">{count}</text>
     <rect x="{label_x}" y="120" width="36" height="4" rx="2" fill="#f9ab00"/>
-    <text x="{label_x}" y="154" fill="#f1f6ed" font-size="21" font-weight="600" letter-spacing="2">EXECUTION-VERIFIED</text>
+    <text x="{label_x}" y="154" fill="#f1f6ed" font-size="21" font-weight="600" letter-spacing="2">AI-VERIFIED</text>
     <text x="{label_x}" y="185" fill="#b2cbbc" font-size="19" font-weight="500" letter-spacing="3">NOTEBOOKS</text>
   </g>
   <g transform="translate(832 44)" fill="none" stroke-width="8" stroke-linecap="round">
@@ -251,7 +251,7 @@ def render_montage(data: dict) -> bytes:
     """Build a wide README hero from up to 96 recent, nonblank verified previews."""
     selected = select_montage_entries(data["notebooks"])
     if not selected:
-        fail("No nonblank execution-verified notebook previews are available for the README montage")
+        fail("No nonblank AI-verified notebook previews are available for the README montage")
 
     width, height = 1200, 630
     canvas = Image.new("RGB", (width, height), "#0c2c24")
@@ -275,7 +275,7 @@ def render_montage(data: dict) -> bytes:
     count_box = draw.textbbox((0, 0), count, font=count_font)
     count_width = count_box[2] - count_box[0]
     draw.text((width - 33 - count_width, 16), count, font=count_font, fill="#ffffff")
-    draw.text((width - 34, 65), "VERIFIED NOTEBOOKS", font=load_font(13, bold=True), fill="#c9d8ca", anchor="ra")
+    draw.text((width - 34, 65), "AI-VERIFIED NOTEBOOKS", font=load_font(13, bold=True), fill="#c9d8ca", anchor="ra")
 
     columns, _rows, tile_width, tile_height = montage_layout(len(selected), width, height)
     gap, grid_top = 8, 112
@@ -381,7 +381,7 @@ def render_notebook_index(data: dict) -> str:
         for number, start, page in catalog_groups(data)
     ]
     if not items:
-        items.append("- No execution-verified notebooks have been published yet.")
+        items.append("- No AI-verified notebooks have been published yet.")
 
     links = [
         "- [Notebook index](#notebook-index)",
@@ -389,7 +389,7 @@ def render_notebook_index(data: dict) -> str:
         "- [Unverified and incomplete notebooks](UNVERIFIED.md)",
     ]
     if (REPO / "PARTIALLY_VERIFIED.md").is_file():
-        links.insert(2, "- [Partially verified notebooks](PARTIALLY_VERIFIED.md)")
+        links.insert(2, "- [Partially AI-verified notebooks](PARTIALLY_VERIFIED.md)")
     links.extend([
         "- [Validation and limitations](#validation-and-limitations)",
         "- [Maintainers](#maintainers)",
@@ -403,7 +403,7 @@ def render_notebook_index(data: dict) -> str:
         "",
         "### Notebook index",
         "",
-        f"Browse all {count} execution-verified notebooks alphabetically:",
+        f"Browse all {count} AI-verified notebooks alphabetically:",
         "",
         *items,
         "",
@@ -422,7 +422,7 @@ def render(data: dict) -> str:
     count = len(data["notebooks"])
     before_summary, summary_rest = current.split(SUMMARY_START, 1)
     _, after_summary = summary_rest.split(SUMMARY_END, 1)
-    card = f'<p align="center"><a href="#notebooks"><img src="assets/notebook-montage.png" width="100%" alt="PhenoPaper × Google Colab — {count} execution-verified notebooks" /></a></p>'
+    card = f'<p align="center"><a href="#notebooks"><img src="assets/notebook-montage.png" width="100%" alt="PhenoPaper × Google Colab — {count} AI-verified notebooks" /></a></p>'
     current = before_summary + SUMMARY_START + "\n" + card + "\n" + SUMMARY_END + after_summary
     before, rest = current.split(INDEX_START, 1)
     _, after = rest.split(INDEX_END, 1)

@@ -4,7 +4,7 @@ This page lists failed attempts that did not leave a saved draft notebook for re
 
 Notebook草稿を残せなかった失敗試行を掲載しています。草稿を保存できた論文は重複させず、未検証一覧に理由とColabリンクをまとめています。失敗は論文が再現不可能であることを意味しません。
 
-[Execution-verified notebooks](README.md#notebooks) · [Unverified and incomplete notebooks](UNVERIFIED.md)
+[AI-verified notebooks](README.md#notebooks) · [Unverified and incomplete notebooks](UNVERIFIED.md)
 
 | Paper / record | Failed date / investigation run | Recorded failure reason |
 | --- | --- | --- |

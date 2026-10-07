@@ -25,9 +25,9 @@ def render(data):
         path=f'notebooks/partially-verified/{pid}.ipynb'
         colab=f'https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/{path}'
         paper=f'https://phenopaper.smartbreed-plant-phenotyping-platform.com/papers/{pid}'
-        rows.append(f'| **{title}**<br>`{pid}`<br>[Open in Colab]({colab}) · [GitHub notebook]({path}) · [PhenoPaper]({paper}) | **Partially verified** · {e["validated_on"]} · {e["compute"]}<br><b>Generated with:</b> {html.escape(generation.summary(e.get('generation')))}<br>{demo}<br><b>Limitation:</b> {reason} |')
-    if not rows: rows=['| No partially verified notebooks have been published yet. | — |']
-    return '# Partially verified notebooks\\n\\nThese notebooks completed a fresh Colab run for the stated reduced scope. They do not verify omitted training conditions or paper-level results. The recorded limitation is part of each result.\\n\\n| Paper / notebook | Executed scope and limitation |\\n| --- | --- |\\n'+'\\n'.join(rows)+'\\n'
+        rows.append(f'| **{title}**<br>`{pid}`<br>[Open in Colab]({colab}) · [GitHub notebook]({path}) · [PhenoPaper]({paper}) | **Partially AI-verified** · {e["validated_on"]} · {e["compute"]}<br><b>Generated with:</b> {html.escape(generation.summary(e.get('generation')))}<br>{demo}<br><b>Limitation:</b> {reason} |')
+    if not rows: rows=['| No partially AI-verified notebooks have been published yet. | — |']
+    return '# Partially AI-verified notebooks\\n\\nThese notebooks completed a fresh Colab run for the stated reduced scope. They do not verify omitted training conditions or paper-level results. The recorded limitation is part of each result.\\n\\n| Paper / notebook | Executed scope and limitation |\\n| --- | --- |\\n'+'\\n'.join(rows)+'\\n'
 
 def main():
     ap=argparse.ArgumentParser()
@@ -58,7 +58,7 @@ def main():
         data['notebooks']=[x for x in data['notebooks'] if x['public_id']!=a.public_id]+[entry]
         path=Path('notebooks/partially-verified')/f'{a.public_id}.ipynb';target=REPO/path;target.parent.mkdir(parents=True,exist_ok=True)
         target.write_bytes(final.read_bytes());MANIFEST.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\\n');PAGE.write_text(render(data))
-        readme=README.read_text();link='[Partially verified notebooks](PARTIALLY_VERIFIED.md)'
+        readme=README.read_text();link='[Partially AI-verified notebooks](PARTIALLY_VERIFIED.md)'
         if link not in readme: readme=readme.replace('## Notebooks',f'## Partially verified\\n\\n{link} — executed reduced-scope examples with limitations. Excluded from the verified count.\\n\\n## Notebooks',1)
         README.write_text(readme)
         README.write_text(verified.render(verified.load_manifest()),encoding='utf-8')
