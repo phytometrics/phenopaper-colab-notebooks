@@ -6429,6 +6429,40 @@
         "alt": "Strawberry example 12.png (left: input; right: SDM training-free pseudo-labels — colored instance masks and class boxes generated in this run)",
         "caption": "Strawberry example 12.png (left: input; right: SDM training-free pseudo-labels — colored instance masks and class boxes generated in this run)"
       }
+    },
+    {
+      "public_id": "p-71c91bb57f5b99c01292a68c6235d7a8",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Graph-based methods for analyzing orchard tree structure using noisy point cloud data",
+      "doi": "10.48550/arxiv.2009.13727",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "AI-assisted Python reproduction of the paper's graph-operation tree segmentation (0.1 m voxels, 0.15 m edges, shortest-path trunk assignment) on one hand-labelled three-tree avocado point cloud from Mendeley h49fpprg6c, scored by v-measure against the closest-trunk baseline; single-example scope, not a dataset-level verification.",
+      "semantic_tags": [
+        "environment:field",
+        "modality:point_cloud",
+        "organ:leaf",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:classification",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Manual tree labels (left) vs graph shortest-path segmentation (center) vs closest-trunk baseline (right) for the r49-t65e avocado stand; v-measure 1.0 on this separated stand.",
+        "caption": "Manual tree labels (left) vs graph shortest-path segmentation (center) vs closest-trunk baseline (right) for the r49-t65e avocado stand; v-measure 1.0 on this separated stand."
+      }
     }
   ]
 }
