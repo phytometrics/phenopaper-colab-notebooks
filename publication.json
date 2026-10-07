@@ -5710,6 +5710,35 @@
         "alt": "Author example input (left) beside the executed pipeline output (right): green fruit masks, red predicted bruise masks, detection boxes and per-berry bruising ratios.",
         "caption": "Author example input (left) beside the executed pipeline output (right): green fruit masks, red predicted bruise masks, detection boxes and per-berry bruising ratios."
       }
+    },
+    {
+      "public_id": "p-e6c97314f8fd238c832e9295bff1dccb",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Advanced Image Analysis Methods for Automated Segmentation of Subnuclear Chromatin Domains",
+      "doi": "10.3390/epigenomes6040034",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Pretrained Nucl.Eye.D (RPN+Nucleus+Chromocenter U-Nets, Zenodo 7075507) segments the three nuclei in one archive-shipped Dark-condition DAPI z-projection and yields field-level HF/RHI/RHF per paper Section 3.7; single-field demo, no dataset-level statistics.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "modality:microscopy",
+        "organ:cell",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Nucl.Eye.D on Dark_0.png (Light/Dark test set): input DAPI field, archive reference nucleus mask, predicted nucleus mask, and predicted chromocenters (red).",
+        "caption": "Nucl.Eye.D on Dark_0.png (Light/Dark test set): input DAPI field, archive reference nucleus mask, predicted nucleus mask, and predicted chromocenters (red)."
+      }
     }
   ]
 }
