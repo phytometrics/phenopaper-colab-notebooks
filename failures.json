@@ -12,6 +12,15 @@
       "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb"
     },
     {
+      "public_id": "p-f1b4f3cd160c996964aff858a481e94a",
+      "title": "Accurately Identifying Sound vs. Rotten Cranberries Using Convolutional Neural Network",
+      "investigation_run_id": "p-f1b4f3cd160c996964aff858a481e94a-20261007T181616Z-165968",
+      "run_id": "p-f1b4f3cd160c996964aff858a481e94a-20261007T224817Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-07T22:50:30.075Z] logs | [2026-10-07T22:50:30.075Z] notes | [2026-10-07T22:50:30.075Z] sources | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-08"
+    },
+    {
       "public_id": "p-9a3c9cba4074a019ec533102f858e1c4",
       "title": "Segmentation and characterization of macerated fibers and vessels using deep learning",
       "investigation_run_id": "p-9a3c9cba4074a019ec533102f858e1c4-20261007T163704Z-66361",
