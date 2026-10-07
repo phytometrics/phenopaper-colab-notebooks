@@ -5622,6 +5622,33 @@
         "alt": "Five real pomegranate fruit images from the paper's Mendeley dataset with the deployed ViT-B.onnx model's predicted class and confidence overlaid (green = matches the dataset folder label)",
         "caption": "Five real pomegranate fruit images from the paper's Mendeley dataset with the deployed ViT-B.onnx model's predicted class and confidence overlaid (green = matches the dataset folder label)"
       }
+    },
+    {
+      "public_id": "p-1de963fe75f6acd9fe786c291b459370",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Automatic Segmentation of Mauritia flexuosa in Unmanned Aerial Vehicle (UAV) Imagery Using Deep Learning",
+      "doi": "10.3390/f9120736",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Single-image MauFlex inference: the authors' released Deeplab v3+-style weights and sliding-window pipeline reproduce their released 1_mask.tif exactly (IoU 1.0) on test_images/1.jpg; training, GUI, georeferencing and dataset-level metrics are out of scope.",
+      "semantic_tags": [
+        "environment:aerial",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "UAV input (left), authors' released reference mask (center), reproduced prediction with red overlay (right) for test_images/1.jpg",
+        "caption": "UAV input (left), authors' released reference mask (center), reproduced prediction with red overlay (right) for test_images/1.jpg"
+      }
     }
   ]
 }
