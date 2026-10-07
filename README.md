@@ -280,7 +280,7 @@ This repository is part of [PhenoPaper](https://phenopaper.smartbreed-plant-phen
 
 <!-- publication-table:start -->
 
-Showing the 2 most recently published notebooks of 220. [Browse the complete alphabetical catalog](#notebook-index).
+Showing the 2 most recently published notebooks of 220.
 
 | Paper and run details | Preview |
 | --- | --- |
