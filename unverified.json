@@ -228,6 +228,18 @@
       "notebook_sha256": "af02bb8dac32046e16254240243a2320b544a60bf1cea245940d6b8dcc915d8a",
       "source_sha256": "d2dc4f65f195ee543eef7b0ffb696dd3aae8acad47d70123c0f02a02f9867820",
       "code_cells": 13
+    },
+    {
+      "public_id": "p-b113edaf7173c42780d2402708d4ff97",
+      "title": "High-Throughput Rice Density Estimation from Transplantation to Tillering Stages Using Deep Networks.",
+      "investigation_run_id": "p-b113edaf7173c42780d2402708d4ff97-20260930T003755Z-3118082",
+      "status": "blocked",
+      "reason": "Pretrained SFC2Net checkpoint (model_best.pth.tar, 26.2 MB) is access-gated: OneDrive share migrated to SharePoint and redirects to login (shares API 401, Graph API 401, download.aspx error pages); BaiduYun share verification returns errno 2 without login; no public mirror exists (GitHub releases/forks/code search, Hugging Face checked). Minimal reproduction (pretrained inference, MAE 25.51/MSE 38.06) is therefore blocked. An honest data-side partial demonstration was authored and executed clean (zero cell errors) on a fresh CPU Colab runtime: RPC test set from OPIA (611 MB, CRC-verified, 152 images + 152 label mats + test.txt), author RiceDataset/transform pipeline over all images, reference dot-annotation previews, test-count statistics exactly matching the paper (341-1255, mean 648.39; 98555 dots), and the blockwise/log-quantized class-map target scheme with the author's verbatim decode table (round-trip median rel. error 2.52%). Deliverable preserved at deliverables/p-b113edaf7173c",
+      "created_on": "2026-10-07",
+      "notebook_path": "notebooks/unverified/p-b113edaf7173c42780d2402708d4ff97.ipynb",
+      "notebook_sha256": "1c54cefa77116d2277c72fb1dc7c07066499cd32e5e6aba450d0c8eea8544649",
+      "source_sha256": "2a9aaf09bada455aa52010c4395ffdfbbb7b8df687a64169fd3dd163a676b49f",
+      "code_cells": 13
     }
   ]
 }
