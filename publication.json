@@ -6158,6 +6158,38 @@
         "alt": "Iodine-stained apple cross-section input (left) and Granny v1.1.0 starch mask overlay (right); dark shading is the module's detected starch area, not an author annotation.",
         "caption": "Iodine-stained apple cross-section input (left) and Granny v1.1.0 starch mask overlay (right); dark shading is the module's detected starch area, not an author annotation."
       }
+    },
+    {
+      "public_id": "p-40af28901ccb9acf8437d9f57bdd55c4",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "An image dataset of Chinese hickory in natural orchards.",
+      "doi": "10.1038/s41597-026-07407-9",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Executes the authors' unmodified image_qc.py over all 1,661 released Scaled images (204 flagged boxes vs paper 203; 158/158 agreement with the authors' released QC list) and re-runs their seeded stratified split, whose released membership is only partially recoverable; the double-blind annotation-agreement check is not reproducible from public files.",
+      "semantic_tags": [
+        "environment:field",
+        "organ:fruit",
+        "organ:whole_plant",
+        "task:annotation_qc",
+        "task:classification",
+        "task:object_detection",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Released Scaled orchard images with the released YOLO ground-truth boxes (red) and class ids",
+        "caption": "Released Scaled orchard images with the released YOLO ground-truth boxes (red) and class ids"
+      }
     }
   ]
 }
