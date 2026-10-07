@@ -5779,6 +5779,34 @@
         "alt": "Ground-truth relative maturity vs DPM estimated by the authors' LOESS (left) and SEG (right) methods for 124 ground-truth plots of the 2020 SVREC environment (this run).",
         "caption": "Ground-truth relative maturity vs DPM estimated by the authors' LOESS (left) and SEG (right) methods for 124 ground-truth plots of the 2020 SVREC environment (this run)."
       }
+    },
+    {
+      "public_id": "p-7ed948baa8dc690f07be5826e57e318c",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Anomaly detection in feature space for detecting changes in phytoplankton populations",
+      "doi": "10.3389/fmars.2023.1283265",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Minimal partial reproduction of the WHOI22 anomaly-detection pipeline (ViT-L/16-IN21k features, PCA-50, per-class One-Class SVMs, automatic tau) on a deterministic 30-images-per-class subset; not a full-dataset benchmark.",
+      "semantic_tags": [
+        "modality:microscopy",
+        "organ:cell",
+        "task:classification"
+      ],
+      "preview": {
+        "alt": "Ten grayscale IFCB inputs from the WHOI22 subset with their true class labels (Ciranni et al. 2024, repo commit 2dad84be4125)",
+        "caption": "Ten grayscale IFCB inputs from the WHOI22 subset with their true class labels (Ciranni et al. 2024, repo commit 2dad84be4125)"
+      }
     }
   ]
 }
