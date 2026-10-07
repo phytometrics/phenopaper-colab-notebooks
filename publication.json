@@ -5943,6 +5943,40 @@
         "alt": "Input tomato_test1.jpg (author greenhouse photo) beside the pipeline's largest tomato detection with its mean-hue ripeness label (Unmature, hue 18.1).",
         "caption": "Input tomato_test1.jpg (author greenhouse photo) beside the pipeline's largest tomato detection with its mean-hue ripeness label (Unmature, hue 18.1)."
       }
+    },
+    {
+      "public_id": "p-8ca78fc2f9d3df4db313496ba8789ed6",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Graph-based methods for analyzing orchard tree structure using noisy point cloud data",
+      "doi": null,
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Graph-based individual tree segmentation of one hand-labelled three-tree avocado stand (r60-t8w) via an AI-assisted numpy/scipy port of GraphTreeLS graph-op (pinned commit dc9ca8c); v-measure 1.000 vs 0.867 for the closest-trunk baseline on 492,140 labelled points; single-stand partial demonstration, trunk detection and matter classification out of scope.",
+      "semantic_tags": [
+        "environment:field",
+        "modality:point_cloud",
+        "organ:leaf",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:classification",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Input stand r60-t8w point cloud (Mendeley 10.17632/h49fpprg6c.1) coloured by height above ground, with the dataset's manual tree labels and matter labels.",
+        "caption": "Input stand r60-t8w point cloud (Mendeley 10.17632/h49fpprg6c.1) coloured by height above ground, with the dataset's manual tree labels and matter labels."
+      }
     }
   ]
 }
