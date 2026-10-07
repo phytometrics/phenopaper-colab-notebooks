@@ -376,7 +376,14 @@ def sync_catalog(data: dict, check: bool = False) -> None:
 
 def render_notebook_index(data: dict) -> str:
     entries = sorted(data["notebooks"], key=lambda entry: (entry["title"].casefold(), entry["public_id"]))
-    items = [
+    items = []
+    for entry in entries:
+        public_id = entry["public_id"]
+        title = html.escape(entry["title"]).replace(chr(92), chr(92) * 2).replace("[", chr(92) + "[").replace("]", chr(92) + "]")
+        notebook = f"notebooks/{public_id}.ipynb"
+        colab = f"https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/{notebook}"
+        items.append(f"- [{title}]({notebook}) · [Open in Colab]({colab})")
+    catalog_links = [
         f"- [Page {number}: notebooks {start + 1}–{start + len(page)}](catalog/page-{number:03d}.md)"
         for number, start, page in catalog_groups(data)
     ]
@@ -406,6 +413,10 @@ def render_notebook_index(data: dict) -> str:
         f"Browse all {count} AI-verified notebooks alphabetically:",
         "",
         *items,
+        "",
+        "#### Detailed catalog with previews",
+        "",
+        *catalog_links,
         "",
     ])
 

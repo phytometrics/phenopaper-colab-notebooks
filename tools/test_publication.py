@@ -14,6 +14,16 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(publication.render(data), publication.README.read_text(encoding="utf-8"))
         self.assertEqual(publication.render_montage(data), publication.MONTAGE.read_bytes())
 
+    def test_readme_index_links_every_notebook_directly(self):
+        data = publication.load_manifest()
+        index = publication.render_notebook_index(data)
+        found = __import__('re').findall(r'\]\(notebooks/(p-[0-9a-f]+)\.ipynb\)', index)
+        expected = [e["public_id"] for e in sorted(data["notebooks"], key=lambda e: (e["title"].casefold(), e["public_id"]))]
+        self.assertEqual(found, expected)
+        self.assertNotIn("<details>", index)
+        for public_id in expected:
+            self.assertIn(f"blob/main/notebooks/{public_id}.ipynb", index)
+
     def test_paginated_catalog_preserves_every_notebook_and_preview(self):
         data = publication.load_manifest()
         pages = publication.render_catalog(data)
