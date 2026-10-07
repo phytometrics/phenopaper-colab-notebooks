@@ -5977,6 +5977,34 @@
         "alt": "Input stand r60-t8w point cloud (Mendeley 10.17632/h49fpprg6c.1) coloured by height above ground, with the dataset's manual tree labels and matter labels.",
         "caption": "Input stand r60-t8w point cloud (Mendeley 10.17632/h49fpprg6c.1) coloured by height above ground, with the dataset's manual tree labels and matter labels."
       }
+    },
+    {
+      "public_id": "p-8c0429be8d5b0e6fba2bac19bdf09935",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Differences in apple fruit shape are independent of fruit size",
+      "doi": "10.1002/ppj2.70032",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Re-executed the paper's central Spearman rank-correlation test with Bonferroni correction on the authors' released TableS1.csv via a base-R port of TableS2.R in Colab (CPU), confirming PC1 vs aspect ratio rho = -0.964 (p under 1e-15) and no significant PC1 correlation with area or harvest weight; the image-processing, GPA and REML pipeline was not re-run.",
+      "semantic_tags": [
+        "crop:apple",
+        "organ:fruit",
+        "task:morphology"
+      ],
+      "preview": {
+        "alt": "Notebook-created scatter panels of accession-level PC1 against aspect ratio, fruit area, and harvest weight (n = 534), colored by aspect ratio as in the authors' Figure 5 styling.",
+        "caption": "Notebook-created scatter panels of accession-level PC1 against aspect ratio, fruit area, and harvest weight (n = 534), colored by aspect ratio as in the authors' Figure 5 styling."
+      }
     }
   ]
 }
