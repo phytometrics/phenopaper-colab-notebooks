@@ -5649,6 +5649,35 @@
         "alt": "UAV input (left), authors' released reference mask (center), reproduced prediction with red overlay (right) for test_images/1.jpg",
         "caption": "UAV input (left), authors' released reference mask (center), reproduced prediction with red overlay (right) for test_images/1.jpg"
       }
+    },
+    {
+      "public_id": "p-f84d74d4cde3d6dd8559f857b44e97ae",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A deep learning-based toolkit for 3D nuclei segmentation and quantitative analysis in cellular and tissue context",
+      "doi": "10.1242/dev.202800",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Runs the released StarDist-ResNet platinum model on the authors' 100-voxel validation-ovule crop and scores average precision against the shipped gold annotation; a single border-truncated crop, not the paper's dataset-level accuracy.",
+      "semantic_tags": [
+        "organ:cell",
+        "organ:tissue",
+        "task:morphology",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Ovule 1135 crop: noisy H2B input, reference gold annotation (red) and StarDist-ResNet prediction (green) boundaries",
+        "caption": "Ovule 1135 crop: noisy H2B input, reference gold annotation (red) and StarDist-ResNet prediction (green) boundaries"
+      }
     }
   ]
 }
