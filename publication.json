@@ -5340,6 +5340,38 @@
         "source": "historical_job_monitor",
         "run_id": "colab-20261007T013754Z-7c4ea5dd"
       }
+    },
+    {
+      "public_id": "p-9509ca4adeb1b05d75ea813b28d6a667",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "High-Throughput Field Plant Phenotyping: A Self-Supervised Sequential CNN Method to Segment Overlapping Plants",
+      "doi": "10.34133/plantphenomics.0052",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Pretrained SS-CNN separates foreground/background plant pixels in 23 late-stage field photos and the authors' pinned R code extracts heights and growth curves (partial demonstration; heights in pixels, no FPCA/training).",
+      "semantic_tags": [
+        "environment:field",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:segmentation",
+        "task:time_series",
+        "trait:growth_development",
+        "trait:plant_height"
+      ],
+      "preview": {
+        "alt": "Demo photo CAM449_2017-07-20-14-32: our SS-CNN separation (left) vs the authors' shipped reference (right); red=foreground, blue=background plant pixels.",
+        "caption": "Demo photo CAM449_2017-07-20-14-32: our SS-CNN separation (left) vs the authors' shipped reference (right); red=foreground, blue=background plant pixels."
+      }
     }
   ]
 }
