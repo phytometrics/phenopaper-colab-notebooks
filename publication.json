@@ -18,7 +18,8 @@
       "preview": {
         "alt": "Leaf shape and deformation results across four examples",
         "caption": "Leaf shape and deformation results across four examples"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-02f6f83e31a71dc69ce32db56b013ca3",
@@ -37,7 +38,8 @@
       "preview": {
         "alt": "Grapevine seed image and model overlap",
         "caption": "Grapevine seed image and model overlap"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-076a5cd5ebdeed1a9ffaf2ec05b49074",
@@ -63,7 +65,8 @@
       "preview": {
         "alt": "Sorghum chromosome 4 QTL profile comparison",
         "caption": "Sorghum chromosome 4 QTL profile comparison"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-0e108836e8a4514b8486db589101c1d8",
@@ -84,7 +87,8 @@
       "preview": {
         "alt": "Apple detections, amodal contours, and depth map",
         "caption": "Apple detections, amodal contours, and depth map"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-0f6c6d73a489f456dd530c51fce2b6f8",
@@ -104,7 +108,8 @@
       "preview": {
         "alt": "Rice-root aerenchyma segmentation overlays",
         "caption": "Rice-root aerenchyma segmentation overlays"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-4471692ed96241966f8a065745f5ce8b",
@@ -123,7 +128,8 @@
       "preview": {
         "alt": "Detected stomata with aperture annotations",
         "caption": "Detected stomata with aperture annotations"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-cac607b350005b99ef850fe315328b02",
@@ -144,7 +150,8 @@
       "preview": {
         "alt": "Seasonal EVI and estimated phenological stages",
         "caption": "Seasonal EVI and estimated phenological stages"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-3f9aa46c732dc37158c82721d4b77927",
@@ -163,7 +170,8 @@
       "preview": {
         "alt": "Litchi flowers with male/female point annotations",
         "caption": "Litchi flowers with male/female point annotations"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-53f95a3aee70cb34c44b841dc78ab66c",
@@ -181,7 +189,8 @@
       "preview": {
         "alt": "SPP kernel density heatmap (±150 µm, 1 µm² kernels) for maize genotype Z019E0047 with two in-file neighbor hotspots flanking the origin.",
         "caption": "SPP kernel density heatmap (±150 µm, 1 µm² kernels) for maize genotype Z019E0047 with two in-file neighbor hotspots flanking the origin."
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-f3519059a34a39dca007cc56c27c6112",
@@ -198,7 +207,8 @@
       "preview": {
         "alt": "Predicted plant performance for rice under individual vs combined drought-heat stress (ANN output, model-scaled units)",
         "caption": "Predicted plant performance for rice under individual vs combined drought-heat stress (ANN output, model-scaled units)"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-e7f7198f538d43be30658816c05dc291",
@@ -218,7 +228,8 @@
       "preview": {
         "alt": "Sample UAV rice image with detected 4-keypoint plant polygons and tiller angles from vertical",
         "caption": "Sample UAV rice image with detected 4-keypoint plant polygons and tiller angles from vertical"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-aab17249643718cb3456261950846f0c",
@@ -241,7 +252,8 @@
       "preview": {
         "alt": "Preprocessed 224x224 healthy and unhealthy Acacia senegal leaf samples entering the model",
         "caption": "Preprocessed 224x224 healthy and unhealthy Acacia senegal leaf samples entering the model"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-fe5b7b0c511e3a6e2185295a6dd692ad",
@@ -262,7 +274,8 @@
       "preview": {
         "alt": "Kernel segmentation overlay from one author-provided maize video; one-sample demonstration.",
         "caption": "Kernel segmentation overlay from one author-provided maize video; one-sample demonstration."
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-90a1ec533d4072d493ab8988b00cbe88",
@@ -282,7 +295,8 @@
       "preview": {
         "alt": "Nuclei detected by the iRoCS SVM pipeline, colored by assigned root layer over the DAPI projection.",
         "caption": "Nuclei detected by the iRoCS SVM pipeline, colored by assigned root layer over the DAPI projection."
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-15bcc9628ba4264fba5bb4e0db4759eb",
@@ -303,7 +317,8 @@
       "preview": {
         "alt": "Gland centers and best-fit ellipsoid for citrus sample WR05_CRC3605_18B-19-5_L03",
         "caption": "Gland centers and best-fit ellipsoid for citrus sample WR05_CRC3605_18B-19-5_L03"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-07c9da3eccfa6f320360b76303c5390b",
@@ -321,7 +336,8 @@
       "preview": {
         "alt": "LeafGen synthetic komatsuna plant textured with the pretrained pix2pix leaf generator (left) beside its auto-generated ground-truth instance mask (right).",
         "caption": "LeafGen synthetic komatsuna plant textured with the pretrained pix2pix leaf generator (left) beside its auto-generated ground-truth instance mask (right)."
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-324daa00b292d7c0cf2927ddbb2643c6",
@@ -338,6 +354,16 @@
       "preview": {
         "alt": "Scoring progress per trait over time on the authors' exemplar barley trial (GridScore Timeline logic reproduced)",
         "caption": "Scoring progress per trait over time on the authors' exemplar barley trial (GridScore Timeline logic reproduced)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T042229Z-59904049"
       }
     },
     {
@@ -354,6 +380,16 @@
       "preview": {
         "alt": "GP-predicted phenotype field after adaptive sampling (ground truth beside it)",
         "caption": "GP-predicted phenotype field after adaptive sampling (ground truth beside it)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T050048Z-4fc83a0d"
       }
     },
     {
@@ -372,6 +408,16 @@
       "preview": {
         "alt": "DiSCount output on the Zenodo test image series1_27-1.png: input (left) and detections (right) with Seed boxes in magenta and Radicle boxes in green",
         "caption": "DiSCount output on the Zenodo test image series1_27-1.png: input (left) and detections (right) with Seed boxes in magenta and Radicle boxes in green"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T053922Z-7736027e"
       }
     },
     {
@@ -389,6 +435,16 @@
       "preview": {
         "alt": "Measured 2022 A/CO2 (11 CO2 steps) and A/light (6 light steps) curves of the 68 MAGIC maize genotypes, genotype SSA_00001 highlighted",
         "caption": "Measured 2022 A/CO2 (11 CO2 steps) and A/light (6 light steps) curves of the 68 MAGIC maize genotypes, genotype SSA_00001 highlighted"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T070022Z-37fabdd4"
       }
     },
     {
@@ -408,6 +464,16 @@
       "preview": {
         "alt": "Deformed 2020-03-13 maize point cloud (blue) registered onto the 2020-03-14 target scan (red) after skeleton-based non-rigid registration",
         "caption": "Deformed 2020-03-13 maize point cloud (blue) registered onto the 2020-03-14 target scan (red) after skeleton-based non-rigid registration"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T072259Z-600b6088"
       }
     },
     {
@@ -426,6 +492,16 @@
       "preview": {
         "alt": "Pre-processed leaf reflectance spectra (first 10 samples) for the three sensors",
         "caption": "Pre-processed leaf reflectance spectra (first 10 samples) for the three sensors"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T082404Z-ed9246f7"
       }
     },
     {
@@ -447,6 +523,16 @@
       "preview": {
         "alt": "Ducke canopy gap counts by size class, 2017 vs 2020 ALS flights",
         "caption": "Ducke canopy gap counts by size class, 2017 vs 2020 ALS flights"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T083857Z-e66e184f"
       }
     },
     {
@@ -468,6 +554,16 @@
       "preview": {
         "alt": "Per-cell log10(D) distributions with Gaussian fits for the six Figure 5C conditions (BRI1 and RLP44, each PA-GFP/PATagRFP/mEos3.2)",
         "caption": "Per-cell log10(D) distributions with Gaussian fits for the six Figure 5C conditions (BRI1 and RLP44, each PA-GFP/PATagRFP/mEos3.2)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T091422Z-266604a3"
       }
     },
     {
@@ -484,6 +580,16 @@
       "preview": {
         "alt": "Cumulative photo-beta thermal time per experiment, recomputed from the authors' FAIRified weather RDF; all five values match the paper exactly.",
         "caption": "Cumulative photo-beta thermal time per experiment, recomputed from the authors' FAIRified weather RDF; all five values match the paper exactly."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T092510Z-a3481539"
       }
     },
     {
@@ -504,7 +610,8 @@
       "preview": {
         "alt": "Sample labeled 151x258 sub-images: stomata (top row) vs non-stoma (bottom row) from the pinned dataset revision",
         "caption": "Sample labeled 151x258 sub-images: stomata (top row) vs non-stoma (bottom row) from the pinned dataset revision"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-4ac8d64107193c40c6d43e0cc1923edd",
@@ -526,6 +633,16 @@
       "preview": {
         "alt": "Deconstruction map z-slices: orange = deconstructed wall voxels, green = wall remaining, over the pre-hydrolysis confocal stack.",
         "caption": "Deconstruction map z-slices: orange = deconstructed wall voxels, green = wall remaining, over the pre-hydrolysis confocal stack."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T182446Z-982a040c"
       }
     },
     {
@@ -546,6 +663,16 @@
       "preview": {
         "alt": "NoC selection histograms across 20x5-fold outer CV: PRESS vs repeated-CV MSE vs single-CV MSE for SLA and Vmax",
         "caption": "NoC selection histograms across 20x5-fold outer CV: PRESS vs repeated-CV MSE vs single-CV MSE for SLA and Vmax"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T191255Z-601873fd"
       }
     },
     {
@@ -567,6 +694,16 @@
       "preview": {
         "alt": "Out-of-fold ROC curves of the nine reproduced classifiers (RF highlighted), generated from the deposited wheat stress feature matrix.",
         "caption": "Out-of-fold ROC curves of the nine reproduced classifiers (RF highlighted), generated from the deposited wheat stress feature matrix."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T182132Z-72e6fee3"
       }
     },
     {
@@ -590,6 +727,16 @@
       "preview": {
         "alt": "Observed GCC index series with the four fitted senescence curves for example plot RGB0001",
         "caption": "Observed GCC index series with the four fitted senescence curves for example plot RGB0001"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T221436Z-29083fe9"
       }
     },
     {
@@ -609,6 +756,16 @@
       "preview": {
         "alt": "TubeTracker track overlay on a sample-movie frame (author draw_results output)",
         "caption": "TubeTracker track overlay on a sample-movie frame (author draw_results output)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T220831Z-e77aee79"
       }
     },
     {
@@ -627,6 +784,16 @@
       "preview": {
         "alt": "Distribution of WISER breeding values (v_hat, Trunk_increment) for the 30-genotype apple subset",
         "caption": "Distribution of WISER breeding values (v_hat, Trunk_increment) for the 30-genotype apple subset"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T222835Z-15dbcf49"
       }
     },
     {
@@ -647,6 +814,16 @@
       "preview": {
         "alt": "Author demo image p6.jpg: agar plate with six Arabidopsis seedlings before analysis",
         "caption": "Author demo image p6.jpg: agar plate with six Arabidopsis seedlings before analysis"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T222726Z-3250c609"
       }
     },
     {
@@ -671,6 +848,16 @@
       "preview": {
         "alt": "Figure 4-style panel: chloroplast sphericity, chloroplast volume and nucleus volume per time point, infected (top) vs control (bottom)",
         "caption": "Figure 4-style panel: chloroplast sphericity, chloroplast volume and nucleus volume per time point, infected (top) vs control (bottom)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T230245Z-692ababe"
       }
     },
     {
@@ -691,6 +878,16 @@
       "preview": {
         "alt": "LOOCV predicted vs observed values for the four headline models (elemental PCs to belowground biomass and spectral PCs to total root length, raw and biomass-adjusted), one point per withheld plant.",
         "caption": "LOOCV predicted vs observed values for the four headline models (elemental PCs to belowground biomass and spectral PCs to total root length, raw and biomass-adjusted), one point per withheld plant."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261001T224311Z-8e95c432"
       }
     },
     {
@@ -712,6 +909,16 @@
       "preview": {
         "alt": "Measured vs TLS-estimated tree height and DBH for 35 Guyana trees (1:1 line and fit)",
         "caption": "Measured vs TLS-estimated tree height and DBH for 35 Guyana trees (1:1 line and fit)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T000540Z-71162db6"
       }
     },
     {
@@ -731,6 +938,16 @@
       "preview": {
         "alt": "GPA mean leaf colored by vein identity (proximal/distal lobes and midvein), reproduced with the author's code",
         "caption": "GPA mean leaf colored by vein identity (proximal/distal lobes and midvein), reproduced with the author's code"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T015710Z-88ccd09f"
       }
     },
     {
@@ -750,6 +967,16 @@
       "preview": {
         "alt": "Predicted vs observed leaf nitrogen (%) on the 18-sample validation set with jackknife confidence intervals (blue TRJ, red IND; open circles N2, filled N1)",
         "caption": "Predicted vs observed leaf nitrogen (%) on the 18-sample validation set with jackknife confidence intervals (blue TRJ, red IND; open circles N2, filled N1)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T031632Z-b2e4feb6"
       }
     },
     {
@@ -769,6 +996,16 @@
       "preview": {
         "alt": "Test-set posterior predictive medians with 95% intervals versus observed LAI for the three models",
         "caption": "Test-set posterior predictive medians with 95% intervals versus observed LAI for the three models"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T050854Z-dad57e27"
       }
     },
     {
@@ -795,6 +1032,16 @@
       "preview": {
         "alt": "Orthographic projections (front/side/top) of the Wheat_Alsen_F0 fused day-14 point cloud from FRDR 10.20383/103.01255",
         "caption": "Orthographic projections (front/side/top) of the Wheat_Alsen_F0 fused day-14 point cloud from FRDR 10.20383/103.01255"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T071920Z-b5b0c518"
       }
     },
     {
@@ -814,6 +1061,16 @@
       "preview": {
         "alt": "rrBLUP-predicted vs actual values for the best-predicted kinetic parameter in fold out1/inner1 (n=23 genotypes)",
         "caption": "rrBLUP-predicted vs actual values for the best-predicted kinetic parameter in fold out1/inner1 (n=23 genotypes)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T091555Z-94f6e07e"
       }
     },
     {
@@ -835,6 +1092,16 @@
       "preview": {
         "alt": "Measured vs Q-scaled modeled ED-sampler concentrations for the 12 45-min windows (log-log) beside the authors' deposited ground-level relative-concentration field for Aug 2 14:00-14:45 with sampler positions.",
         "caption": "Measured vs Q-scaled modeled ED-sampler concentrations for the 12 45-min windows (log-log) beside the authors' deposited ground-level relative-concentration field for Aug 2 14:00-14:45 with sampler positions."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T092810Z-c21f5448"
       }
     },
     {
@@ -855,6 +1122,16 @@
       "preview": {
         "alt": "Binarized input, PCJ-repaired result, and author-processed reference for sample test_1",
         "caption": "Binarized input, PCJ-repaired result, and author-processed reference for sample test_1"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T100712Z-17f70146"
       }
     },
     {
@@ -878,6 +1155,16 @@
       "preview": {
         "alt": "Six-trait PCA (PC1 63.4% / PC2 22.0%) of standardized walnut image phenotypes, colored by Ease of Removal, Shell Strength and Kernel Weight Ratio; the EaseOfRemoval==7.5 accession is the cyan star",
         "caption": "Six-trait PCA (PC1 63.4% / PC2 22.0%) of standardized walnut image phenotypes, colored by Ease of Removal, Shell Strength and Kernel Weight Ratio; the EaseOfRemoval==7.5 accession is the cyan star"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T102247Z-70e8a745"
       }
     },
     {
@@ -897,6 +1184,16 @@
       "preview": {
         "alt": "Measured area curves of six control gemmae with the authors' deposited delayed-exponential fit overlay (Ts and G per gemma)",
         "caption": "Measured area curves of six control gemmae with the authors' deposited delayed-exponential fit overlay (Ts and G per gemma)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T103720Z-d25a9417"
       }
     },
     {
@@ -915,6 +1212,16 @@
       "preview": {
         "alt": "Areole area distribution per leaf (mm^2) computed in Colab from the compiled phenoVein sample data.",
         "caption": "Areole area distribution per leaf (mm^2) computed in Colab from the compiled phenoVein sample data."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T105059Z-98d4b453"
       }
     },
     {
@@ -935,6 +1242,16 @@
       "preview": {
         "alt": "Test accuracy per feature set: this notebook's run vs. the authors' archived results (identical), with the paper's ~76% reference line.",
         "caption": "Test accuracy per feature set: this notebook's run vs. the authors' archived results (identical), with the paper's ~76% reference line."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T015917Z-6bc65744"
       }
     },
     {
@@ -954,6 +1271,16 @@
       "preview": {
         "alt": "Confusion matrix of the D2nd-IVISSA-SPA-SVM maturity classifier on the 375-seed test set",
         "caption": "Confusion matrix of the D2nd-IVISSA-SPA-SVM maturity classifier on the 375-seed test set"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T105836Z-31676a67"
       }
     },
     {
@@ -975,6 +1302,16 @@
       "preview": {
         "alt": "Smallest RGB orthomosaic of TTADDA_NARO_2021 field F1 (2021-05-18), extracted via HTTP-range partial download and displayed with rasterio",
         "caption": "Smallest RGB orthomosaic of TTADDA_NARO_2021 field F1 (2021-05-18), extracted via HTTP-range partial download and displayed with rasterio"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T115334Z-720416d7"
       }
     },
     {
@@ -991,6 +1328,16 @@
       "preview": {
         "alt": "Per-descriptor recall and Lin semantic similarity of the DCRAG run on the 100 TAIR gold phenotypes, with means (recall 0.585, semsim 0.779).",
         "caption": "Per-descriptor recall and Lin semantic similarity of the DCRAG run on the 100 TAIR gold phenotypes, with means (recall 0.585, semsim 0.779)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T114728Z-a1b2512d"
       }
     },
     {
@@ -1011,6 +1358,16 @@
       "preview": {
         "alt": "Total water uptake Jv vs radial (k) and axial (K) conductivity scaling, computed in-notebook from actual solves (paper Figs 4-5 style sensitivity)",
         "caption": "Total water uptake Jv vs radial (k) and axial (K) conductivity scaling, computed in-notebook from actual solves (paper Figs 4-5 style sensitivity)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T123341Z-8bf3baf5"
       }
     },
     {
@@ -1033,6 +1390,16 @@
       "preview": {
         "alt": "Two-way Manhattan plot of PIP for PH/SD/SDM under B+/B- managements, generated with the authors' app.R code",
         "caption": "Two-way Manhattan plot of PIP for PH/SD/SDM under B+/B- managements, generated with the authors' app.R code"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T132130Z-cae01f3b"
       }
     },
     {
@@ -1051,7 +1418,8 @@
       "preview": {
         "alt": "Observed vs predicted paddy yield (quintal) on the 53-row test split, authors' scatter plot with recomputed RMSE",
         "caption": "Observed vs predicted paddy yield (quintal) on the 53-row test split, authors' scatter plot with recomputed RMSE"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-aaa04d55ed02d6b59bb4dbe28c44b888",
@@ -1072,6 +1440,16 @@
       "preview": {
         "alt": "Multiclass XGBoost confusion matrix and feature importance on the pinned CAM anatomy dataset",
         "caption": "Multiclass XGBoost confusion matrix and feature importance on the pinned CAM anatomy dataset"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T135020Z-56ae8ea2"
       }
     },
     {
@@ -1092,6 +1470,16 @@
       "preview": {
         "alt": "Testing accuracy of the L1-penalized selection index versus number of active predictors (per fold) and optimal regularized SI versus canonical SI, computed with the authors' R code",
         "caption": "Testing accuracy of the L1-penalized selection index versus number of active predictors (per fold) and optimal regularized SI versus canonical SI, computed with the authors' R code"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T133524Z-eeeb4b93"
       }
     },
     {
@@ -1109,6 +1497,16 @@
       "preview": {
         "alt": "Bar chart of summed % C3 and C4 species cover computed from the point-intercept data of TERN plot NSABBS0001",
         "caption": "Bar chart of summed % C3 and C4 species cover computed from the point-intercept data of TERN plot NSABBS0001"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T141952Z-750a816a"
       }
     },
     {
@@ -1130,6 +1528,16 @@
       "preview": {
         "alt": "Measured transmission spectrum (circles) versus the gradient-descent-fitted theoretical curve, in the -10 dB fitting band and extrapolated over the full measured range.",
         "caption": "Measured transmission spectrum (circles) versus the gradient-descent-fitted theoretical curve, in the -10 dB fitting band and extrapolated over the full measured range."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T153824Z-1d1b1141"
       }
     },
     {
@@ -1149,6 +1557,16 @@
       "preview": {
         "alt": "Bundled sample image A with every grain detected by the VGA macro: centroids (red +) and fitted-ellipse axes (yellow) from the actual result table.",
         "caption": "Bundled sample image A with every grain detected by the VGA macro: centroids (red +) and fitted-ellipse axes (yellow) from the actual result table."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T144516Z-2caa94d6"
       }
     },
     {
@@ -1173,7 +1591,8 @@
       "preview": {
         "alt": "Soil point cloud (top view) and derived 5 mm soil height map H_S from the CAHST test dataset",
         "caption": "Soil point cloud (top view) and derived 5 mm soil height map H_S from the CAHST test dataset"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-b01140e333cf94b9e0d92f3df1020c27",
@@ -1196,6 +1615,16 @@
       "preview": {
         "alt": "Observed vs predicted grain-yield BLUEs (t/ha) per model and per-trial prediction accuracy, 2015-16 season",
         "caption": "Observed vs predicted grain-yield BLUEs (t/ha) per model and per-trial prediction accuracy, 2015-16 season"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T170421Z-0805f03a"
       }
     },
     {
@@ -1211,6 +1640,16 @@
       "preview": {
         "alt": "Live Cassavabase BrAPI v2 totalCount values (germplasm, trials) observed from the validated Colab CPU run",
         "caption": "Live Cassavabase BrAPI v2 totalCount values (germplasm, trials) observed from the validated Colab CPU run"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T174432Z-0531a3bc"
       }
     },
     {
@@ -1231,6 +1670,16 @@
       "preview": {
         "alt": "bot-p1 point with bootstrap uncertainty overlaid on the Fig. 6G-style master curve (gray: all Data.mat series)",
         "caption": "bot-p1 point with bootstrap uncertainty overlaid on the Fig. 6G-style master curve (gray: all Data.mat series)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T181254Z-891b1d7f"
       }
     },
     {
@@ -1252,6 +1701,16 @@
       "preview": {
         "alt": "Predicted vs. measured banana-leaf chlorophyll (µg/cm²) from the authors' PLS pipeline under stratified-group CV",
         "caption": "Predicted vs. measured banana-leaf chlorophyll (µg/cm²) from the authors' PLS pipeline under stratified-group CV"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T190411Z-b1a2502a"
       }
     },
     {
@@ -1273,6 +1732,16 @@
       "preview": {
         "alt": "Traffic-light DSS confusion matrix from the retrained classifier (test split of the released N-row matrix)",
         "caption": "Traffic-light DSS confusion matrix from the retrained classifier (test split of the released N-row matrix)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T192043Z-3854296f"
       }
     },
     {
@@ -1294,6 +1763,16 @@
       "preview": {
         "alt": "Fitted superellipsoid surface vs the observed partial point cloud and the completed unobserved surface (static 3D views)",
         "caption": "Fitted superellipsoid surface vs the observed partial point cloud and the completed unobserved surface (static 3D views)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T193050Z-3d50c68a"
       }
     },
     {
@@ -1314,6 +1793,16 @@
       "preview": {
         "alt": "Amphistomy advantage (AA) per leaf with 95% posterior intervals by habitat, from this run's posterior (notebook-created visualization)",
         "caption": "Amphistomy advantage (AA) per leaf with 95% posterior intervals by habitat, from this run's posterior (notebook-created visualization)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T184653Z-ffcf11cd"
       }
     },
     {
@@ -1335,6 +1824,16 @@
       "preview": {
         "alt": "Monthly CARI boxplots (0-1 display-normalized) for 109 S. queretaroensis plants, January-May 2025, adapted computation",
         "caption": "Monthly CARI boxplots (0-1 display-normalized) for 109 S. queretaroensis plants, January-May 2025, adapted computation"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T234001Z-c2bc4aab"
       }
     },
     {
@@ -1359,6 +1858,16 @@
       "preview": {
         "alt": "Per-panel cumulative germination (SeedGerm pipeline output, tomato release v0.1.1 series)",
         "caption": "Per-panel cumulative germination (SeedGerm pipeline output, tomato release v0.1.1 series)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T195854Z-2b543873"
       }
     },
     {
@@ -1379,6 +1888,16 @@
       "preview": {
         "alt": "Stomata size vs density accession means (r = -0.51) and broad-sense heritabilities from the authors' lme models and the Python cross-check, compared with the paper's values.",
         "caption": "Stomata size vs density accession means (r = -0.51) and broad-sense heritabilities from the authors' lme models and the Python cross-check, compared with the paper's values."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261002T235543Z-31e57d2c"
       }
     },
     {
@@ -1400,6 +1919,16 @@
       "preview": {
         "alt": "Mean train/test R2 of the best morphological-feature combination per model size for the three breeding targets, over 100 seeded 70/30 accession splits; dashed lines mark the paper's reported best R2 (Figure 5).",
         "caption": "Mean train/test R2 of the best morphological-feature combination per model size for the three breeding targets, over 100 seeded 70/30 accession splits; dashed lines mark the paper's reported best R2 (Figure 5)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261003T050241Z-0583a790"
       }
     },
     {
@@ -1425,6 +1954,16 @@
       "preview": {
         "alt": "Per-descriptor agreement between the Python port of PhenoApp's export logic and the authors' real app output (Output_example.xls).",
         "caption": "Per-descriptor agreement between the Python port of PhenoApp's export logic and the authors' real app output (Output_example.xls)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261003T052218Z-b93307e6"
       }
     },
     {
@@ -1441,6 +1980,16 @@
       "preview": {
         "alt": "Observed vs. waves-PLSR-predicted root dry matter content on the held-out C16Mval test set (best pretreatment SNV, mean R2p 0.838).",
         "caption": "Observed vs. waves-PLSR-predicted root dry matter content on the held-out C16Mval test set (best pretreatment SNV, mean R2p 0.838)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261003T054040Z-0b23e214"
       }
     },
     {
@@ -1459,6 +2008,16 @@
       "preview": {
         "alt": "ABC-SMC parameter posteriors for growth rate g, branching rate b, lateral ratio gl and l_max on the embedded Arabidopsis data (final tolerance 3)",
         "caption": "ABC-SMC parameter posteriors for growth rate g, branching rate b, lateral ratio gl and l_max on the embedded Arabidopsis data (final tolerance 3)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261003T045530Z-1bae5c38"
       }
     },
     {
@@ -1478,6 +2037,16 @@
       "preview": {
         "alt": "GBIF training leaves in the plane of the two traits retained by the Lasso (ellipsoid score vs petiole:blade ratio), colored by species (notebook-created visualization)",
         "caption": "GBIF training leaves in the plane of the two traits retained by the Lasso (ellipsoid score vs petiole:blade ratio), colored by species (notebook-created visualization)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261003T072346Z-b9015592"
       }
     },
     {
@@ -1496,6 +2065,16 @@
       "preview": {
         "alt": "Reproduced Figure 2A-style northern-edge latitude by flower color through spring in the eastern U.S. (LOWESS-smoothed 80th-percentile latitude per 15-day window); red and orange trail white and other colors.",
         "caption": "Reproduced Figure 2A-style northern-edge latitude by flower color through spring in the eastern U.S. (LOWESS-smoothed 80th-percentile latitude per 15-day window); red and orange trail white and other colors."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261003T075114Z-5d7f08b2"
       }
     },
     {
@@ -1520,6 +2099,16 @@
       "preview": {
         "alt": "Measured vs predicted segment cross-sectional area (log-log) for the structural model (SM) and pipe-model baseline (PMT); SM nRMSE 0.011, EF 0.98",
         "caption": "Measured vs predicted segment cross-sectional area (log-log) for the structural model (SM) and pipe-model baseline (PMT); SM nRMSE 0.011, EF 0.98"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261003T081119Z-d2938ea0"
       }
     },
     {
@@ -1541,6 +2130,16 @@
       "preview": {
         "alt": "Zero-altered gamma (hurdle) GLMM fit of root dry weight across soil depth by priority-effect treatment (paper Figure 4 analog), generated from the authors' shared data.",
         "caption": "Zero-altered gamma (hurdle) GLMM fit of root dry weight across soil depth by priority-effect treatment (paper Figure 4 analog), generated from the authors' shared data."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261003T083907Z-2d24af63"
       }
     },
     {
@@ -1562,6 +2161,16 @@
       "preview": {
         "alt": "Calibrated QE-Pro spectra for the bundled 2017-05-02 sample: irradiance and radiance (mW m-2 sr-1 nm-1), reflectance, and SF-retrieved SIF in the 759-764 nm O2-A window.",
         "caption": "Calibrated QE-Pro spectra for the bundled 2017-05-02 sample: irradiance and radiance (mW m-2 sr-1 nm-1), reflectance, and SF-retrieved SIF in the 759-764 nm O2-A window."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261003T090512Z-ac1194a0"
       }
     },
     {
@@ -1581,6 +2190,16 @@
       "preview": {
         "alt": "Mean prediction accuracy per DAS timepoint (single CV iteration, validation-set genotypes): iterative and recursive dynamicGP versus the first-timepoint RR-BLUP baseline. Additional notebook visualization, not an author figure.",
         "caption": "Mean prediction accuracy per DAS timepoint (single CV iteration, validation-set genotypes): iterative and recursive dynamicGP versus the first-timepoint RR-BLUP baseline. Additional notebook visualization, not an author figure."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261003T065701Z-8ffde621"
       }
     },
     {
@@ -1601,6 +2220,16 @@
       "preview": {
         "alt": "Fitted Gaussian-like floral opening curves for the demo RILs (RIL51, RIL29, RIL214) over standardized floral pixel counts at hourly time points, estimated by MCMC in Colab.",
         "caption": "Fitted Gaussian-like floral opening curves for the demo RILs (RIL51, RIL29, RIL214) over standardized floral pixel counts at hourly time points, estimated by MCMC in Colab."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261003T093021Z-95b2f9e9"
       }
     },
     {
@@ -1620,6 +2249,16 @@
       "preview": {
         "alt": "919QDUH frame 0 RADICYL gel-cylinder image with the authors' SLEAP-predicted primary (orange) and lateral (cyan) root landmarks",
         "caption": "919QDUH frame 0 RADICYL gel-cylinder image with the authors' SLEAP-predicted primary (orange) and lateral (cyan) root landmarks"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261003T131905Z-863a539f"
       }
     },
     {
@@ -1638,6 +2277,16 @@
       "preview": {
         "alt": "Ensemble-scaling Monte Carlo from stored predictions (blue, 6 types) against the authors' stored per-model-type result curves (dashed).",
         "caption": "Ensemble-scaling Monte Carlo from stored predictions (blue, 6 types) against the authors' stored per-model-type result curves (dashed)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261003T121309Z-ebd1413c"
       }
     },
     {
@@ -1662,6 +2311,16 @@
       "preview": {
         "alt": "Original greenhouse tomato image with the author-supplied ilastik mask overlay (green=healthy 128, red=visibly stressed 255)",
         "caption": "Original greenhouse tomato image with the author-supplied ilastik mask overlay (green=healthy 128, red=visibly stressed 255)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261003T150833Z-eb766d15"
       }
     },
     {
@@ -1687,6 +2346,16 @@
       "preview": {
         "alt": "H* reporter channel of the authors' representative sample1.nd2 (Zenodo 4809980) with the adapted parametric segmentation overlay: cell corners (yellow), middle lamella (cyan), secondary wall (magenta)",
         "caption": "H* reporter channel of the authors' representative sample1.nd2 (Zenodo 4809980) with the adapted parametric segmentation overlay: cell corners (yellow), middle lamella (cyan), secondary wall (magenta)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261003T235817Z-2a2f7fef"
       }
     },
     {
@@ -1714,6 +2383,16 @@
       "preview": {
         "alt": "Reproduced Figure 2: GEMMA MLM Manhattan plot (A) and FarmCPU bootstrap support (B) for median leaves 1-4 leaf angle, regenerated from the authors' published result files.",
         "caption": "Reproduced Figure 2: GEMMA MLM Manhattan plot (A) and FarmCPU bootstrap support (B) for median leaves 1-4 leaf angle, regenerated from the authors' published result files."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T002054Z-87f8a86d"
       }
     },
     {
@@ -1733,6 +2412,16 @@
       "preview": {
         "alt": "Queried weather measurement series (LTmean/LTmax/LTmin air temperature, NSsum precipitation) after import through the author's CropWatch DMIS API; ADAPTED visualization, assumed units.",
         "caption": "Queried weather measurement series (LTmean/LTmax/LTmin air temperature, NSsum precipitation) after import through the author's CropWatch DMIS API; ADAPTED visualization, assumed units."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261003T235818Z-850e1df4"
       }
     },
     {
@@ -1754,6 +2443,16 @@
       "preview": {
         "alt": "The mc-v6-4k shoot colored by the authors' published coarse organ annotation (reference overlay; stem, 9 organ instances; pot removed before scoring)",
         "caption": "The mc-v6-4k shoot colored by the authors' published coarse organ annotation (reference overlay; stem, 9 organ instances; pot removed before scoring)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T003634Z-7df8ce51"
       }
     },
     {
@@ -1775,6 +2474,16 @@
       "preview": {
         "alt": "Fitted net CO2 assimilation A-Q response curve for the sample leaf Y20-2D-2: measured points and the author program's fit produced by the executed notebook.",
         "caption": "Fitted net CO2 assimilation A-Q response curve for the sample leaf Y20-2D-2: measured points and the author program's fit produced by the executed notebook."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T010400Z-733e97a5"
       }
     },
     {
@@ -1794,6 +2503,16 @@
       "preview": {
         "alt": "Leaf 1: measured reflectance and 1−transmittance (x) versus the Fluspect-fitted spectra from the pinned author code inverted in Octave",
         "caption": "Leaf 1: measured reflectance and 1−transmittance (x) versus the Fluspect-fitted spectra from the pinned author code inverted in Octave"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T010758Z-4c4c0895"
       }
     },
     {
@@ -1812,6 +2531,16 @@
       "preview": {
         "alt": "Observed final germination proportion of Alectryon subdentatus across the thermogradient plate (day vs night temperature), author Step 2 quilt plot.",
         "caption": "Observed final germination proportion of Alectryon subdentatus across the thermogradient plate (day vs night temperature), author Step 2 quilt plot."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T005547Z-cf30920e"
       }
     },
     {
@@ -1831,6 +2560,16 @@
       "preview": {
         "alt": "RF feature importance by 10-cm soil-depth interval (2018): deep layers around 150-170 cm rank highest for log d15N, reproducing the paper's key finding.",
         "caption": "RF feature importance by 10-cm soil-depth interval (2018): deep layers around 150-170 cm rank highest for log d15N, reproducing the paper's key finding."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T012809Z-e4b1419d"
       }
     },
     {
@@ -1858,6 +2597,16 @@
       "preview": {
         "alt": "Between-counter percent difference in egg counts before vs. after staining (melon), boxplot reproduced from the authors' archived R script (paper Fig. 3-style).",
         "caption": "Between-counter percent difference in egg counts before vs. after staining (melon), boxplot reproduced from the authors' archived R script (paper Fig. 3-style)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T025706Z-70d6e5ab"
       }
     },
     {
@@ -1875,6 +2624,16 @@
       "preview": {
         "alt": "Reproduced Figure 1B analog (loess-smoothed VWC and transpiration means, 96 cowpea plants, 6 drought days) side by side with the authors' committed reference PDF.",
         "caption": "Reproduced Figure 1B analog (loess-smoothed VWC and transpiration means, 96 cowpea plants, 6 drought days) side by side with the authors' committed reference PDF."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T034748Z-199c5841"
       }
     },
     {
@@ -1896,6 +2655,16 @@
       "preview": {
         "alt": "Additional file 5 wheat flag-leaf scan (left) beside the executed RGB tolerance-40 foreground mask (right, red) computed with the paper's documented metric.",
         "caption": "Additional file 5 wheat flag-leaf scan (left) beside the executed RGB tolerance-40 foreground mask (right, red) computed with the paper's documented metric."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T040209Z-cecf2af9"
       }
     },
     {
@@ -1924,6 +2693,16 @@
       "preview": {
         "alt": "Annotated canopy height model of the pear-orchard patch: 9 automatically detected individual trees (authors' extract_bbox) outlined on the LiDAR CHM.",
         "caption": "Annotated canopy height model of the pear-orchard patch: 9 automatically detected individual trees (authors' extract_bbox) outlined on the LiDAR CHM."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T014310Z-d1fb28c4"
       }
     },
     {
@@ -1942,6 +2721,16 @@
       "preview": {
         "alt": "All 713 seed outlines drawn from the released raw landmark coordinates (authors' 00-dataset.ipynb rendering), the actual input of the reproduction.",
         "caption": "All 713 seed outlines drawn from the released raw landmark coordinates (authors' 00-dataset.ipynb rendering), the actual input of the reproduction."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T041345Z-253b056c"
       }
     },
     {
@@ -1963,6 +2752,16 @@
       "preview": {
         "alt": "Example RoPod time-lapse input (frames 1 and 34) with the authors' five hair-selection ROI lines drawn on the last frame.",
         "caption": "Example RoPod time-lapse input (frames 1 and 34) with the authors' five hair-selection ROI lines drawn on the last frame."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T042648Z-082980fb"
       }
     },
     {
@@ -1982,6 +2781,16 @@
       "preview": {
         "alt": "Input preview: author VG07_6 capsicum plant voxelization (grey) with reference fruit ROI cells (red), from the pinned .bt ground-truth files.",
         "caption": "Input preview: author VG07_6 capsicum plant voxelization (grey) with reference fruit ROI cells (red), from the pinned .bt ground-truth files."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T050715Z-83793a59"
       }
     },
     {
@@ -2006,7 +2815,8 @@
       "preview": {
         "alt": "Test plant Harvest_01_PotNr_179: released point cloud with semantic annotation (red leaves, yellow main stem, green pole, blue side stems) and released ground-truth skeleton overlay (green).",
         "caption": "Test plant Harvest_01_PotNr_179: released point cloud with semantic annotation (red leaves, yellow main stem, green pole, blue side stems) and released ground-truth skeleton overlay (green)."
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-eb5c040f3c23eee3fae265c35d253260",
@@ -2029,6 +2839,16 @@
       "preview": {
         "alt": "Bootstrapped Psi-LWmass slopes: diel (per-tree hydration) and laboratory PV-curve slopes broadly overlap after leaf expansion, while spatial slopes stay shallow and the pre-leafout temporal slope crosses zero.",
         "caption": "Bootstrapped Psi-LWmass slopes: diel (per-tree hydration) and laboratory PV-curve slopes broadly overlap after leaf expansion, while spatial slopes stay shallow and the pre-leafout temporal slope crosses zero."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T051942Z-61931415"
       }
     },
     {
@@ -2044,6 +2864,16 @@
       "preview": {
         "alt": "DAPC discriminant-space plot of the Torres 2024 anole dataset generated in this run by the pinned Orangutan 2.0.0 pipeline (author code; not a copy of a paper figure).",
         "caption": "DAPC discriminant-space plot of the Torres 2024 anole dataset generated in this run by the pinned Orangutan 2.0.0 pipeline (author code; not a copy of a paper figure)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T070402Z-94757a09"
       }
     },
     {
@@ -2059,6 +2889,16 @@
       "preview": {
         "alt": "Mean clustering performance under the realistic fonio-calibrated simulation (100 repetitions), computed with the author's result_analysis.R: all 11 methods score near random (ARI well below 0.1).",
         "caption": "Mean clustering performance under the realistic fonio-calibrated simulation (100 repetitions), computed with the author's result_analysis.R: all 11 methods score near random (ARI well below 0.1)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T080225Z-f78d8ef7"
       }
     },
     {
@@ -2077,6 +2917,16 @@
       "preview": {
         "alt": "Spatial ploidy map of the uninjured Drosophila pylorus sample: sum projection with nuclei colored by the five-component 2D Gaussian-mixture ploidy prediction (iSPy author code, pinned commit).",
         "caption": "Spatial ploidy map of the uninjured Drosophila pylorus sample: sum projection with nuclei colored by the five-component 2D Gaussian-mixture ploidy prediction (iSPy author code, pinned commit)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T063144Z-7824d5a8"
       }
     },
     {
@@ -2095,6 +2945,16 @@
       "preview": {
         "alt": "Boxplots of conductance per flow meter (X1-X3) for the blue b1-b2 PEEK pair at 25 cm with the water-displacement b2 reference line, JSI and Bhattacharyya annotations (paper Figure 2 redrawn from the deposited data).",
         "caption": "Boxplots of conductance per flow meter (X1-X3) for the blue b1-b2 PEEK pair at 25 cm with the water-displacement b2 reference line, JSI and Bhattacharyya annotations (paper Figure 2 redrawn from the deposited data)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T083903Z-e222e938"
       }
     },
     {
@@ -2112,7 +2972,8 @@
       "preview": {
         "alt": "Fig. 10 analogue: poinsettia leaf fluorescence yield (FY) with detected peaks and the actinic PPFD model (twin axis) at three irradiances, plus per-period phase delays; adapted Python demonstration from the authors' processedData.mat.",
         "caption": "Fig. 10 analogue: poinsettia leaf fluorescence yield (FY) with detected peaks and the actinic PPFD model (twin axis) at three irradiances, plus per-period phase delays; adapted Python demonstration from the authors' processedData.mat."
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-df228fecc74b51818b905c703b3d9d66",
@@ -2131,7 +2992,8 @@
       "preview": {
         "alt": "Manhattan plot of the GEMMA Plasmotype Association results for fam phenotype column 614 (Cybrid_allphi2_55.0136) across the plastid genome, with the 3.797 Bonferroni threshold line; reproduced in Colab and matching the authors' saved PAS summary.",
         "caption": "Manhattan plot of the GEMMA Plasmotype Association results for fam phenotype column 614 (Cybrid_allphi2_55.0136) across the plastid genome, with the 3.797 Bonferroni threshold line; reproduced in Colab and matching the authors' saved PAS summary."
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-968ac05ebbfa7011f712219eb872049b",
@@ -2151,6 +3013,16 @@
       "preview": {
         "alt": "Annual shoots (AS, green) and pruned shoots (PS, orange) extracted and clustered from the e1-8 sample tree point clouds.",
         "caption": "Annual shoots (AS, green) and pruned shoots (PS, orange) extracted and clustered from the e1-8 sample tree point clouds."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T094346Z-bf773249"
       }
     },
     {
@@ -2171,6 +3043,16 @@
       "preview": {
         "alt": "Test-set confusion matrix (Flower/Leaf/Root/Seed) of the reproduced tissue-4 random forest, 300 DPI",
         "caption": "Test-set confusion matrix (Flower/Leaf/Root/Seed) of the reproduced tissue-4 random forest, 300 DPI"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T093125Z-a7f4048c"
       }
     },
     {
@@ -2190,6 +3072,16 @@
       "preview": {
         "alt": "Drought phenotype prediction: mean 5-fold CV correlation per trait for GBLUP versus MetBLUP kernels built from the top 25% genome- and microbiome-predictable metabolites (executed run, seed 123).",
         "caption": "Drought phenotype prediction: mean 5-fold CV correlation per trait for GBLUP versus MetBLUP kernels built from the top 25% genome- and microbiome-predictable metabolites (executed run, seed 123)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T102238Z-5e9b37de"
       }
     },
     {
@@ -2211,6 +3103,16 @@
       "preview": {
         "alt": "Stem point clouds (grey) with registered ground-truth skeletons (green) and estimated Shortest-Path skeletons (red) for the five petiole instances of scan A2_20220512_a, in the paper's Fig. 8 style.",
         "caption": "Stem point clouds (grey) with registered ground-truth skeletons (green) and estimated Shortest-Path skeletons (red) for the five petiole instances of scan A2_20220512_a, in the paper's Fig. 8 style."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T115107Z-a6e89c87"
       }
     },
     {
@@ -2224,6 +3126,16 @@
       "preview": {
         "alt": "MVBLUP differential-evolution learning curve: per-view optimal weights across iterations, reproduced from the authors' pinned demo (author reference match).",
         "caption": "MVBLUP differential-evolution learning curve: per-view optimal weights across iterations, reproduced from the authors' pinned demo (author reference match)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T130135Z-e9376277"
       }
     },
     {
@@ -2247,6 +3159,16 @@
       "preview": {
         "alt": "BFS_06242025 annotated tomato point cloud (authors' released reference annotation overlay) rendered from three viewpoints",
         "caption": "BFS_06242025 annotated tomato point cloud (authors' released reference annotation overlay) rendered from three viewpoints"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T131817Z-41c90827"
       }
     },
     {
@@ -2269,6 +3191,16 @@
       "preview": {
         "alt": "Examples/DSC_0385.JPG: input fruit with the 50 centroid-ray pseudolandmarks computed in this run",
         "caption": "Examples/DSC_0385.JPG: input fruit with the 50 centroid-ray pseudolandmarks computed in this run"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T144739Z-ee5ede0a"
       }
     },
     {
@@ -2291,6 +3223,16 @@
       "preview": {
         "alt": "Scenario I: TLS ground-truth point cloud (green) vs NeRFacto reconstruction (red) after released-matrix + ICP alignment, with an input Polycam frame.",
         "caption": "Scenario I: TLS ground-truth point cloud (green) vs NeRFacto reconstruction (red) after released-matrix + ICP alignment, with an input Polycam frame."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T141601Z-e7f53feb"
       }
     },
     {
@@ -2310,6 +3252,16 @@
       "preview": {
         "alt": "wt Arabidopsis NPQ induction curves (85) from the authors' pinned dataset, coloured by (1-qP)ss",
         "caption": "wt Arabidopsis NPQ induction curves (85) from the authors' pinned dataset, coloured by (1-qP)ss"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T162220Z-9898c1a9"
       }
     },
     {
@@ -2327,6 +3279,16 @@
       "preview": {
         "alt": "Plant Village input preview: one real leaf image per selected class (Apple/Apple scab, Apple/Black rot, Apple/healthy, Tomato/Late blight, Tomato/Leaf mold, Tomato/healthy).",
         "caption": "Plant Village input preview: one real leaf image per selected class (Apple/Apple scab, Apple/Black rot, Apple/healthy, Tomato/Late blight, Tomato/Leaf mold, Tomato/healthy)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T163743Z-33d8c479"
       }
     },
     {
@@ -2347,6 +3309,16 @@
       "preview": {
         "alt": "Objective OF versus xylem flow rate over the scanned grid (left) and the best-fit simulated xylem D2O wash-out trace against the measured Col-0 mean ± SD of 30 plants (right)",
         "caption": "Objective OF versus xylem flow rate over the scanned grid (left) and the best-fit simulated xylem D2O wash-out trace against the measured Col-0 mean ± SD of 30 plants (right)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T164201Z-09fb6194"
       }
     },
     {
@@ -2364,7 +3336,8 @@
       "preview": {
         "alt": "Held-out herbarium specimen with per-model scores, thresholded votes and the ensemble verdict versus the expert label.",
         "caption": "Held-out herbarium specimen with per-model scores, thresholded votes and the ensemble verdict versus the expert label."
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-26c2e1c7a8207e3c58ba42b0756e8ebe",
@@ -2383,6 +3356,16 @@
       "preview": {
         "alt": "Original microscope leaf-disc inputs with CNN2-predicted sporangiophore tile positions overlaid (four bundled examples, model predictions)",
         "caption": "Original microscope leaf-disc inputs with CNN2-predicted sporangiophore tile positions overlaid (four bundled examples, model predictions)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T203859Z-0fb06b06"
       }
     },
     {
@@ -2403,6 +3386,16 @@
       "preview": {
         "alt": "SHAP beeswarm of the committed saved random forest for Yield_class, reproduced with the author's kernelshap/shapviz parameters.",
         "caption": "SHAP beeswarm of the committed saved random forest for Yield_class, reproduced with the author's kernelshap/shapviz parameters."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T200828Z-14cba3b8"
       }
     },
     {
@@ -2421,6 +3414,16 @@
       "preview": {
         "alt": "Authors' test image Q1-105_IMG_9614 with its ground-truth petal density map (integral = 21) overlaid.",
         "caption": "Authors' test image Q1-105_IMG_9614 with its ground-truth petal density map (integral = 21) overlaid."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T214057Z-9a5b6fb1"
       }
     },
     {
@@ -2440,6 +3443,16 @@
       "preview": {
         "alt": "CottonLeafNet Healthy sample (author Kaggle dataset) with Grad-CAM overlay from the pinned LEViT model (prediction: Healthy 99.4%)",
         "caption": "CottonLeafNet Healthy sample (author Kaggle dataset) with Grad-CAM overlay from the pinned LEViT model (prediction: Healthy 99.4%)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T214606Z-3e6a948e"
       }
     },
     {
@@ -2463,6 +3476,16 @@
       "preview": {
         "alt": "CVRP sample T42_1220.jpg with the released Mask2Former panicle prediction: input, red panicle mask, and authors'-style overlay",
         "caption": "CVRP sample T42_1220.jpg with the released Mask2Former panicle prediction: input, red panicle mask, and authors'-style overlay"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T215712Z-c0b9bc0e"
       }
     },
     {
@@ -2483,6 +3506,16 @@
       "preview": {
         "alt": "Author leaf image with SeptoSympto overlay: green necrosis contours and magenta pycnidia detections",
         "caption": "Author leaf image with SeptoSympto overlay: green necrosis contours and magenta pycnidia detections"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T225329Z-8e20fd5f"
       }
     },
     {
@@ -2503,6 +3536,16 @@
       "preview": {
         "alt": "Model predictions on _MG_2657_24: fine-tuned Grounding-DINO boxes (red=ripe, green=unripe), SAM ViT-H masks, and 2D-LSeg diameters (mm). Input from the authors' Kaggle dataset (GPL-3).",
         "caption": "Model predictions on _MG_2657_24: fine-tuned Grounding-DINO boxes (red=ripe, green=unripe), SAM ViT-H masks, and 2D-LSeg diameters (mm). Input from the authors' Kaggle dataset (GPL-3)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261004T231453Z-a30f0be9"
       }
     },
     {
@@ -2521,6 +3564,16 @@
       "preview": {
         "alt": "Sample leaf images from the Mendeley Malabar spinach dataset, labeled by dataset folder (inputs to the reproduced /predict pipeline)",
         "caption": "Sample leaf images from the Mendeley Malabar spinach dataset, labeled by dataset folder (inputs to the reproduced /predict pipeline)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T000718Z-3bf096b8"
       }
     },
     {
@@ -2542,7 +3595,8 @@
       "preview": {
         "alt": "Sample frame mid-slice: authors' ground-truth centroids (left) versus the pre-trained 2D U-Net detections (right).",
         "caption": "Sample frame mid-slice: authors' ground-truth centroids (left) versus the pre-trained 2D U-Net detections (right)."
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-83b2a51c60a5a23fa6f5a266fc840633",
@@ -2561,6 +3615,16 @@
       "preview": {
         "alt": "The 15 selected oiv_test leaf patches with their expert-annotated OIV 452-1 scores",
         "caption": "The 15 selected oiv_test leaf patches with their expert-annotated OIV 452-1 scores"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T003346Z-ee9fff3c"
       }
     },
     {
@@ -2582,6 +3646,16 @@
       "preview": {
         "alt": "Input demo image (left) and WheatSpikeNet prediction (right): predicted spike masks and boxes overlaid by the authors' show_result_pyplot.",
         "caption": "Input demo image (left) and WheatSpikeNet prediction (right): predicted spike masks and boxes overlaid by the authors' show_result_pyplot."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T002324Z-5d234ea0"
       }
     },
     {
@@ -2603,7 +3677,8 @@
       "preview": {
         "alt": "Seed-scan tile scan15_110918016.jpg_2_2 with the authors' frozen Faster R-CNN model detections (score threshold 0.5; 374 predicted vs 373 XML-annotated seeds)",
         "caption": "Seed-scan tile scan15_110918016.jpg_2_2 with the authors' frozen Faster R-CNN model detections (score threshold 0.5; 374 predicted vs 373 XML-annotated seeds)"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-4c14194846cde3222f61f636951580e7",
@@ -2622,6 +3697,16 @@
       "preview": {
         "alt": "Author imageSegmentation output: input canopy photo, predicted sky probability, and binary mask for the 3 imageseg example images (canopy densities 0.966/0.405/0.766)",
         "caption": "Author imageSegmentation output: input canopy photo, predicted sky probability, and binary mask for the 3 imageseg example images (canopy densities 0.966/0.405/0.766)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T035414Z-c6fcd0c3"
       }
     },
     {
@@ -2639,6 +3724,16 @@
       "preview": {
         "alt": "Input root mask (1-100ANN.zip example) vs Model 1 generated root after hcl.py background separation",
         "caption": "Input root mask (1-100ANN.zip example) vs Model 1 generated root after hcl.py background separation"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T041843Z-5811e3ba"
       }
     },
     {
@@ -2657,6 +3752,16 @@
       "preview": {
         "alt": "DigiEye input (cv. NASPOT 10 O boiled roots) with authors' YOLOv5 root bbox, K-means root mask, and background-removed image.",
         "caption": "DigiEye input (cv. NASPOT 10 O boiled roots) with authors' YOLOv5 root bbox, K-means root mask, and background-removed image."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T052306Z-e60e36af"
       }
     },
     {
@@ -2677,6 +3782,16 @@
       "preview": {
         "alt": "Detected nodes (red) and internode lengths in cm (cyan) overlaid on the cropped example stalks K21_408003-02/-03/-04",
         "caption": "Detected nodes (red) and internode lengths in cm (cyan) overlaid on the cropped example stalks K21_408003-02/-03/-04"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T054909Z-652bd345"
       }
     },
     {
@@ -2694,6 +3809,16 @@
       "preview": {
         "alt": "PlantVillage test leaf input with the loaded model.h5 prediction overlay (Apple Black rot, confidence 100%)",
         "caption": "PlantVillage test leaf input with the loaded model.h5 prediction overlay (Apple Black rot, confidence 100%)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T071711Z-80936b36"
       }
     },
     {
@@ -2714,6 +3839,16 @@
       "preview": {
         "alt": "Weka symptomatic-probability observations (reference annotations, top) versus the fitted Fisher-KPP model (bottom) at T=1..4 days for stipule 1_B1_Sol_1",
         "caption": "Weka symptomatic-probability observations (reference annotations, top) versus the fitted Fisher-KPP model (bottom) at T=1..4 days for stipule 1_B1_Sol_1"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T072842Z-bb3dee56"
       }
     },
     {
@@ -2731,7 +3866,8 @@
       "preview": {
         "alt": "CGIARWheat 20-shot training samples (3 per class) from the author seed-15 split used for fine-tuning.",
         "caption": "CGIARWheat 20-shot training samples (3 per class) from the author seed-15 split used for fine-tuning."
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-9baad9c5eb312453f79ed213979e5e7e",
@@ -2752,6 +3888,16 @@
       "preview": {
         "alt": "EnMAP Leipzig clip (NIR/R/G false color) with Dis_UN 95%-quantile uncertainty maps for LMA, LAI and N (257x226 px, 30 m).",
         "caption": "EnMAP Leipzig clip (NIR/R/G false color) with Dis_UN 95%-quantile uncertainty maps for LMA, LAI and N (257x226 px, 30 m)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T093152Z-d467f1ed"
       }
     },
     {
@@ -2775,6 +3921,16 @@
       "preview": {
         "alt": "AirSurf-L size-classification overlay on sample_region1.png: model predictions coloured blue (small), green (medium), red (large).",
         "caption": "AirSurf-L size-classification overlay on sample_region1.png: model predictions coloured blue (small), green (medium), red (large)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T100038Z-596fe724"
       }
     },
     {
@@ -2790,6 +3946,16 @@
       "preview": {
         "alt": "Most frequent PO anatomical entities among 246,347 extracted taxon-EQ description rows (FLOPO minimal demo; not an author figure).",
         "caption": "Most frequent PO anatomical entities among 246,347 extracted taxon-EQ description rows (FLOPO minimal demo; not an author figure)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T104052Z-f8908c15"
       }
     },
     {
@@ -2809,6 +3975,16 @@
       "preview": {
         "alt": "Floral species richness per photo vs EXIF GPS altitude (Aug 2020, Mt. Rainier): YOLO and Mask R-CNN detections with elevation-bin means; richness peaks near 1700-1800 m.",
         "caption": "Floral species richness per photo vs EXIF GPS altitude (Aug 2020, Mt. Rainier): YOLO and Mask R-CNN detections with elevation-bin means; richness peaks near 1700-1800 m."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T114838Z-f90c52c2"
       }
     },
     {
@@ -2831,6 +4007,16 @@
       "preview": {
         "alt": "Manhattan plot of the empirical-Bayes NAM GWAS for PLSR-modeled Vcmax25 in this notebook; both reported MTAs (Chr 10, Chr 19) are recovered.",
         "caption": "Manhattan plot of the empirical-Bayes NAM GWAS for PLSR-modeled Vcmax25 in this notebook; both reported MTAs (Chr 10, Chr 19) are recovered."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T063642Z-f7ce1037"
       }
     },
     {
@@ -2852,6 +4038,16 @@
       "preview": {
         "alt": "Generated farm outputs: randomized Delaunay terrain vertices colored by elevation (left) and 2700 soybean plant positions colored by terrain-adjusted pose Z (right)",
         "caption": "Generated farm outputs: randomized Delaunay terrain vertices colored by elevation (left) and 2700 soybean plant positions colored by terrain-adjusted pose Z (right)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T121841Z-8a7c8b0a"
       }
     },
     {
@@ -2870,6 +4066,16 @@
       "preview": {
         "alt": "Regenerated copper-wire validation: estimated vs ground-truth length, average diameter, surface area and volume for RVE, WinRhizo and IJ_Rhizo (Fig. 4-style 4-panel comparison).",
         "caption": "Regenerated copper-wire validation: estimated vs ground-truth length, average diameter, surface area and volume for RVE, WinRhizo and IJ_Rhizo (Fig. 4-style 4-panel comparison)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T115519Z-1fd373c0"
       }
     },
     {
@@ -2885,6 +4091,16 @@
       "preview": {
         "alt": "Simulated fonio-calibrated phenotypic dataset (Pst=0.85) generated by the authors' pipeline, shown in PC1-PC2 space with true population labels",
         "caption": "Simulated fonio-calibrated phenotypic dataset (Pst=0.85) generated by the authors' pipeline, shown in PC1-PC2 space with true population labels"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T124653Z-3aba7898"
       }
     },
     {
@@ -2898,6 +4114,16 @@
       "preview": {
         "alt": "Input preview from S3_Data.csv: class counts (U.S. No. 1 vs Cull) and distributions of the two key scalar features (Curvature, LWRatio) by class.",
         "caption": "Input preview from S3_Data.csv: class counts (U.S. No. 1 vs Cull) and distributions of the two key scalar features (Curvature, LWRatio) by class."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T140521Z-3b032e93"
       }
     },
     {
@@ -2918,6 +4144,16 @@
       "preview": {
         "alt": "PlantCV analyze.size output: selected plant crop with measured shape traits drawn in magenta (area, hull, ellipse, centroid).",
         "caption": "PlantCV analyze.size output: selected plant crop with measured shape traits drawn in magenta (area, hull, ellipse, centroid)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T141334Z-60d8ff5b"
       }
     },
     {
@@ -2936,6 +4172,16 @@
       "preview": {
         "alt": "AnnualKillifish embryo (authors' example): input max projection with fitted sphere (r=511.8) vs VolumePeeler peeled projection exposing deeper cells (proportion 0.94).",
         "caption": "AnnualKillifish embryo (authors' example): input max projection with fitted sphere (r=511.8) vs VolumePeeler peeled projection exposing deeper cells (proportion 0.94)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T132821Z-fff0b5e5"
       }
     },
     {
@@ -2955,6 +4201,16 @@
       "preview": {
         "alt": "Co-heritability heatmap of narea versus 350-365 nm wavelength ratios (authors' bundled subset), selected synthetic traits highlighted",
         "caption": "Co-heritability heatmap of narea versus 350-365 nm wavelength ratios (authors' bundled subset), selected synthetic traits highlighted"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T142950Z-adc3611f"
       }
     },
     {
@@ -2979,6 +4235,16 @@
       "preview": {
         "alt": "Temperature-annotated apple fruit point clouds (2022-09-01, DAFB132), each point coloured by annotated surface temperature (degC)",
         "caption": "Temperature-annotated apple fruit point clouds (2022-09-01, DAFB132), each point coloured by annotated surface temperature (degC)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T145617Z-6b734e51"
       }
     },
     {
@@ -2999,6 +4265,16 @@
       "preview": {
         "alt": "Pearson correlation of loess-smoothed plant size with water use by days after planting, left, and genotype-specific WUEresidual variability, right. Wet treatment matches the paper correlation greater than 0.94 at 21 to 27 DAP.",
         "caption": "Pearson correlation of loess-smoothed plant size with water use by days after planting, left, and genotype-specific WUEresidual variability, right. Wet treatment matches the paper correlation greater than 0.94 at 21 to 27 DAP."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T150338Z-9ebdb591"
       }
     },
     {
@@ -3016,6 +4292,16 @@
       "preview": {
         "alt": "Moving correlation of the 28-CT-group global-rhythm profile (control vs 40C heat shock), computed here, overlaid on the authors' Fig. 5D series; the correlation peak gives the heat-shock phase shift.",
         "caption": "Moving correlation of the 28-CT-group global-rhythm profile (control vs 40C heat shock), computed here, overlaid on the authors' Fig. 5D series; the correlation peak gives the heat-shock phase shift."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T152734Z-c0e5e9ca"
       }
     },
     {
@@ -3035,6 +4321,16 @@
       "preview": {
         "alt": "Two-panel Manhattan plot of MTMC-SKAT P-values across 30 SNP windows on chromosome 10 (model-based and empirical), from the bundled 200-genotype poplar sample.",
         "caption": "Two-panel Manhattan plot of MTMC-SKAT P-values across 30 SNP windows on chromosome 10 (model-based and empirical), from the bundled 200-genotype poplar sample."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T153309Z-757d106b"
       }
     },
     {
@@ -3059,6 +4355,16 @@
       "preview": {
         "alt": "Sample ear RGB input with the authors' precomputed DL2 grain-mask contours (reference annotation) for B1E10_1 and 13_29_WW_Hyb_08_46_c_1.",
         "caption": "Sample ear RGB input with the authors' precomputed DL2 grain-mask contours (reference annotation) for B1E10_1 and 13_29_WW_Hyb_08_46_c_1."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T161850Z-a60795c5"
       }
     },
     {
@@ -3076,6 +4382,16 @@
       "preview": {
         "alt": "Reproduced Figure 3: model-predicted individual detection probability vs counting time for the three counting methods, by species conspicuousness and habitat closure.",
         "caption": "Reproduced Figure 3: model-predicted individual detection probability vs counting time for the three counting methods, by species conspicuousness and habitat closure."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T161535Z-0b770fe7"
       }
     },
     {
@@ -3096,6 +4412,16 @@
       "preview": {
         "alt": "DynG(t) recomputed from the authors' released Ig data (author script, this run) overlaid on the authors' released DynG_results.csv; the two curves coincide.",
         "caption": "DynG(t) recomputed from the authors' released Ig data (author script, this run) overlaid on the authors' released DynG_results.csv; the two curves coincide."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T170309Z-a825a4fa"
       }
     },
     {
@@ -3115,6 +4441,16 @@
       "preview": {
         "alt": "Reprojected SfM 3D points (green) overlaid on input frame DSC02516.JPG (UGVPP center camera, pinned commit a266881)",
         "caption": "Reprojected SfM 3D points (green) overlaid on input frame DSC02516.JPG (UGVPP center camera, pinned commit a266881)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T171706Z-b6938e0a"
       }
     },
     {
@@ -3135,6 +4471,16 @@
       "preview": {
         "alt": "No image or graph generated for this data-only reproduction.",
         "caption": "No image or graph generated for this data-only reproduction."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T175158Z-49f1a36a"
       }
     },
     {
@@ -3154,6 +4500,16 @@
       "preview": {
         "alt": "Sum projections of uninjured, mildly, and severely injured pylori with predicted ploidy classes overlaid on segmented nuclei (pooled 2D GMM, K=5).",
         "caption": "Sum projections of uninjured, mildly, and severely injured pylori with predicted ploidy classes overlaid on segmented nuclei (pooled 2D GMM, K=5)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T170059Z-bb3e3cdd"
       }
     },
     {
@@ -3170,6 +4526,16 @@
       "preview": {
         "alt": "Predicted vs observed grain yield for held-out lines (left) and per-fold Pearson correlation with average 0.497 (right) for M7/Alternative 2, B-spline L=23, BRR prior, 3-fold CV.",
         "caption": "Predicted vs observed grain yield for held-out lines (left) and per-fold Pearson correlation with average 0.497 (right) for M7/Alternative 2, B-spline L=23, BRR prior, 3-fold CV."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T175918Z-f1067a21"
       }
     },
     {
@@ -3189,6 +4555,16 @@
       "preview": {
         "alt": "HTDA-Mapper graph of the 27,761-plant descriptor dataset (Poincare-ball branch, this run's output); nodes coloured by dominant growth condition.",
         "caption": "HTDA-Mapper graph of the 27,761-plant descriptor dataset (Poincare-ball branch, this run's output); nodes coloured by dominant growth condition."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T205939Z-949009f6"
       }
     },
     {
@@ -3211,6 +4587,16 @@
       "preview": {
         "alt": "Blade radial ECT inputs with blade outlines (left) and U-Net vein predictions color-coded against the ground-truth vein mask: true positives white, false positives magenta, false negatives blue (paper Figure 7 scheme).",
         "caption": "Blade radial ECT inputs with blade outlines (left) and U-Net vein predictions color-coded against the ground-truth vein mask: true positives white, false positives magenta, false negatives blue (paper Figure 7 scheme)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T222348Z-0550562d"
       }
     },
     {
@@ -3232,6 +4618,16 @@
       "preview": {
         "alt": "Second-order polynomial fit of growth in Vinter vs growth in TLE (0-6 and 6-12 months), reproduced from the published phenotype table",
         "caption": "Second-order polynomial fit of growth in Vinter vs growth in TLE (0-6 and 6-12 months), reproduced from the published phenotype table"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T232535Z-9571e957"
       }
     },
     {
@@ -3250,6 +4646,16 @@
       "preview": {
         "alt": "Input photo vs author reference final vs this port's final output (Image Harvest camera1 example)",
         "caption": "Input photo vs author reference final vs this port's final output (Image Harvest camera1 example)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T233457Z-a62a78d9"
       }
     },
     {
@@ -3270,6 +4676,16 @@
       "preview": {
         "alt": "Input: QSM reconstruction of the measured Espoo maple (19,000 cylinders) from the authors' released data, side (XZ) and top (XY) views colored by cylinder radius.",
         "caption": "Input: QSM reconstruction of the measured Espoo maple (19,000 cylinders) from the authors' released data, side (XZ) and top (XY) views colored by cylinder radius."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T234838Z-8560d437"
       }
     },
     {
@@ -3285,6 +4701,16 @@
       "preview": {
         "alt": "Synthetic-demo K+ fluxes at a barley root: chemical potential (Newman), diffusion gradient (Fick), and C1-corrected chemical potential vs time",
         "caption": "Synthetic-demo K+ fluxes at a barley root: chemical potential (Newman), diffusion gradient (Fick), and C1-corrected chemical potential vs time"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T002322Z-3ac907e7"
       }
     },
     {
@@ -3303,6 +4729,16 @@
       "preview": {
         "alt": "10-fold cross-validation accuracy per model (LR, RF, Gradient Boosting, polynomial SVC, stacking) on the authors' 0-min twilight 6-class plant-area dataset.",
         "caption": "10-fold cross-validation accuracy per model (LR, RF, Gradient Boosting, polynomial SVC, stacking) on the authors' 0-min twilight 6-class plant-area dataset."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261005T183851Z-29662e4a"
       }
     },
     {
@@ -3322,6 +4758,16 @@
       "preview": {
         "alt": "True discovery rate vs HMF threshold from the authors' threshold() function (25/50/75 plants; red line = 25% threshold)",
         "caption": "True discovery rate vs HMF threshold from the authors' threshold() function (25/50/75 plants; red line = 25% threshold)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T005157Z-3f9dfd86"
       }
     },
     {
@@ -3340,6 +4786,16 @@
       "preview": {
         "alt": "TREES simulated LAI and simET versus the observed lai column embedded in the author-supplied CC d1 drought-validation driver file (30-min steps).",
         "caption": "TREES simulated LAI and simET versus the observed lai column embedded in the author-supplied CC d1 drought-validation driver file (30-min steps)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T004421Z-91b4da20"
       }
     },
     {
@@ -3362,6 +4818,16 @@
       "preview": {
         "alt": "Cycle-level reflectance reproduced with the pinned author R code vs the authors' processed FLOX_R sheet (450/700/750 nm, 770 cycles, r=0.99)",
         "caption": "Cycle-level reflectance reproduced with the pinned author R code vs the authors' processed FLOX_R sheet (450/700/750 nm, 770 cycles, r=0.99)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T011539Z-9e9cdd16"
       }
     },
     {
@@ -3380,6 +4846,16 @@
       "preview": {
         "alt": "3x4 comparison: example apple-half images, encoder mean decoded images, and SNP-to-image predictions from targeted (tSNP) and random (rSNP) predictors for genotypes 2990, 12_j001, 2872.",
         "caption": "3x4 comparison: example apple-half images, encoder mean decoded images, and SNP-to-image predictions from targeted (tSNP) and random (rSNP) predictors for genotypes 2990, 12_j001, 2872."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T022340Z-df4f6638"
       }
     },
     {
@@ -3397,7 +4873,8 @@
       "preview": {
         "alt": "Test image with the author-provided ground-truth bud mask contour (reference annotation)",
         "caption": "Test image with the author-provided ground-truth bud mask contour (reference annotation)"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-a349992a9a7f836d25123f526c58c28a",
@@ -3417,6 +4894,16 @@
       "preview": {
         "alt": "Pinned example inputs: 20 m MR (left) and 4 m HR (right) images of plot J1B265 on 2024-08-22, ground-truth class Jointing stage (from datatest/).",
         "caption": "Pinned example inputs: 20 m MR (left) and 4 m HR (right) images of plot J1B265 on 2024-08-22, ground-truth class Jointing stage (from datatest/)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T031521Z-185283e3"
       }
     },
     {
@@ -3439,6 +4926,16 @@
       "preview": {
         "alt": "Reference panicle polygons (released LabelMe annotations, left) versus Pdetect.pt model predictions (right) on a field sub-image.",
         "caption": "Reference panicle polygons (released LabelMe annotations, left) versus Pdetect.pt model predictions (right) on a field sub-image."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T034746Z-737b9a79"
       }
     },
     {
@@ -3459,6 +4956,16 @@
       "preview": {
         "alt": "Our DSSAT re-run (HWAM) vs the authors' bundled simulated storage-root dry weight (HWAMS), 460 paired points over 8 evaluation environments, 1:1 line shown",
         "caption": "Our DSSAT re-run (HWAM) vs the authors' bundled simulated storage-root dry weight (HWAMS), 460 paired points over 8 evaluation environments, 1:1 line shown"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T012336Z-d42d8a99"
       }
     },
     {
@@ -3479,6 +4986,16 @@
       "preview": {
         "alt": "Sunpheno predicted stage S1-S5 and softmax confidence overlaid on author-provided sample images (model output, not an author figure)",
         "caption": "Sunpheno predicted stage S1-S5 and softmax confidence overlaid on author-provided sample images (model output, not an author figure)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "low"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T045507Z-4f8a6435"
       }
     },
     {
@@ -3509,7 +5026,8 @@
       "preview": {
         "alt": "Input Wheat 400x handheld-microscope image (left) with YOLOv5 stomata detections (right, model predictions, conf 0.4)",
         "caption": "Input Wheat 400x handheld-microscope image (left) with YOLOv5 stomata detections (right, model predictions, conf 0.4)"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-447c3f5fed9ffacd051467132402e2db",
@@ -3527,6 +5045,16 @@
       "preview": {
         "alt": "Held-out test herbarium specimen with its reference expert annotation and the recomputed ensemble decision overlaid",
         "caption": "Held-out test herbarium specimen with its reference expert annotation and the recomputed ensemble decision overlaid"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T070209Z-66dd506b"
       }
     },
     {
@@ -3544,6 +5072,16 @@
       "preview": {
         "alt": "CDD leaf training-split samples per class (original inputs, 485-image pre-training subset)",
         "caption": "CDD leaf training-split samples per class (original inputs, 485-image pre-training subset)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T153247Z-38aed1e9"
       }
     },
     {
@@ -3564,6 +5102,16 @@
       "preview": {
         "alt": "Pinned GFDD24 test sample with the deployed model's prediction (Fruit Fly) and per-class probabilities",
         "caption": "Pinned GFDD24 test sample with the deployed model's prediction (Fruit Fly) and per-class probabilities"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T164722Z-e90cd375"
       }
     },
     {
@@ -3579,6 +5127,16 @@
       "preview": {
         "alt": "Input preview of scan r49-t65e colored by the dataset's reference tree_label (ground grey, centre orange, north green, south blue)",
         "caption": "Input preview of scan r49-t65e colored by the dataset's reference tree_label (ground grey, centre orange, north green, south blue)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T153224Z-11c506bd"
       }
     },
     {
@@ -3599,6 +5157,16 @@
       "preview": {
         "alt": "Input orchard image (left) with reference instance masks (center) and reference bounding boxes from the author's AppleDataset (right); reference annotations from detection.tar.gz, not model predictions.",
         "caption": "Input orchard image (left) with reference instance masks (center) and reference bounding boxes from the author's AppleDataset (right); reference annotations from detection.tar.gz, not model predictions."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T171846Z-cc820959"
       }
     },
     {
@@ -3623,6 +5191,16 @@
       "preview": {
         "alt": "Selected GigaDB Set-1 scan AT025_392341_004 (left) with the authors' manual reference annotations: tip (red), base (blue), stem (gray) points (right).",
         "caption": "Selected GigaDB Set-1 scan AT025_392341_004 (left) with the authors' manual reference annotations: tip (red), base (blue), stem (gray) points (right)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T180030Z-ffbb6887"
       }
     },
     {
@@ -3642,7 +5220,8 @@
       "preview": {
         "alt": "Author sample input 338_i.png with CROP's measured center-of-mass marker (blue square) drawn on the original photo",
         "caption": "Author sample input 338_i.png with CROP's measured center-of-mass marker (blue square) drawn on the original photo"
-      }
+      },
+      "generation": null
     },
     {
       "public_id": "p-5cde365672db8ac0d0a4a5592fc30d2e",
@@ -3665,6 +5244,16 @@
       "preview": {
         "alt": "G7 final frame: original input, predicted YOLOv8x-Germ phase boxes, and seed masks predicted (cyan) vs pinned reference (yellow)",
         "caption": "G7 final frame: original input, predicted YOLOv8x-Germ phase boxes, and seed masks predicted (cyan) vs pinned reference (yellow)"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T195239Z-9db1789b"
       }
     },
     {
@@ -3682,6 +5271,16 @@
       "preview": {
         "alt": "Predicted vs. observed total root projected area (ProjArea) on the held-out 20% split — retrained caret bagged trees (Figure 8A reproduction); Pearson r = 0.66 (paper: 0.67).",
         "caption": "Predicted vs. observed total root projected area (ProjArea) on the held-out 20% split — retrained caret bagged trees (Figure 8A reproduction); Pearson r = 0.66 (paper: 0.67)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T233858Z-00d61fda"
       }
     },
     {
@@ -3700,6 +5299,16 @@
       "preview": {
         "alt": "PlantVillage validation inputs with ground-truth labels (first batch) for the Mob-Res (A+B)Bf checkpoint",
         "caption": "PlantVillage validation inputs with ground-truth labels (first batch) for the Mob-Res (A+B)Bf checkpoint"
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261006T195117Z-8df3f79f"
       }
     },
     {
@@ -3720,6 +5329,16 @@
       "preview": {
         "alt": "RFCP test 00061727: input with manual centroids (left), ground-truth density heatmap (center), RapeNet predicted density overlay with inferred count 421.98 vs manual 392 (right).",
         "caption": "RFCP test 00061727: input with manual centroids (left), ground-truth density heatmap (center), RapeNet predicted density overlay with inferred count 421.98 vs manual 392 (right)."
+      },
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": null,
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "historical_job_monitor",
+        "run_id": "colab-20261007T013754Z-7c4ea5dd"
       }
     }
   ]

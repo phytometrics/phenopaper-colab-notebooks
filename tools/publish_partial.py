@@ -2,6 +2,7 @@
 """Publish a completed, deliberately reduced Colab demonstration."""
 from pathlib import Path
 import argparse,datetime as dt,fcntl,hashlib,html,json,re,subprocess,sys
+import generation
 import publication as verified
 REPO=verified.REPO
 MANIFEST=REPO/'partially_verified.json'
@@ -24,7 +25,7 @@ def render(data):
         path=f'notebooks/partially-verified/{pid}.ipynb'
         colab=f'https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/{path}'
         paper=f'https://phenopaper.smartbreed-plant-phenotyping-platform.com/papers/{pid}'
-        rows.append(f'| **{title}**<br>`{pid}`<br>[Open in Colab]({colab}) · [GitHub notebook]({path}) · [PhenoPaper]({paper}) | **Partially verified** · {e["validated_on"]} · {e["compute"]}<br>{demo}<br><b>Limitation:</b> {reason} |')
+        rows.append(f'| **{title}**<br>`{pid}`<br>[Open in Colab]({colab}) · [GitHub notebook]({path}) · [PhenoPaper]({paper}) | **Partially verified** · {e["validated_on"]} · {e["compute"]}<br><b>Generated with:</b> {html.escape(generation.summary(e.get('generation')))}<br>{demo}<br><b>Limitation:</b> {reason} |')
     if not rows: rows=['| No partially verified notebooks have been published yet. | — |']
     return '# Partially verified notebooks\\n\\nThese notebooks completed a fresh Colab run for the stated reduced scope. They do not verify omitted training conditions or paper-level results. The recorded limitation is part of each result.\\n\\n| Paper / notebook | Executed scope and limitation |\\n| --- | --- |\\n'+'\\n'.join(rows)+'\\n'
 
@@ -47,7 +48,7 @@ def main():
     compute=clean(a.compute,'compute')
     if compute not in {'CPU','T4 GPU','CPU + T4 GPU'}: raise ValueError('Invalid compute label')
     date=clean(a.validated_on,'validated_on');dt.date.fromisoformat(date)
-    entry={'public_id':a.public_id,'title':clean(record['title'],'title'),'compute':compute,'validated_on':date,'demonstration':clean(a.demonstration,'demonstration'),'limitation':clean(a.limitation,'limitation')}
+    entry={'generation':generation.for_run(run),'public_id':a.public_id,'title':clean(record['title'],'title'),'compute':compute,'validated_on':date,'demonstration':clean(a.demonstration,'demonstration'),'limitation':clean(a.limitation,'limitation')}
     with (REPO/'.git/publication.lock').open('a') as lock:
         fcntl.flock(lock,fcntl.LOCK_EX)
         if verified.git('status','--porcelain'): raise ValueError('Publication checkout has uncommitted changes')

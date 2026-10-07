@@ -7,6 +7,7 @@ Only notebook JSON and its saved PNG outputs are read. Notebook code is never ru
 from __future__ import annotations
 
 import argparse
+import generation
 import base64
 import binascii
 import datetime as dt
@@ -58,6 +59,7 @@ def clean_text(value: object, field: str) -> str:
 
 
 def validate_entry(entry: dict) -> None:
+    generation.validate(entry.get("generation"))
     public_id = entry.get("public_id")
     if not isinstance(public_id, str) or not PUBLIC_ID.fullmatch(public_id):
         fail(f"Invalid public_id: {public_id!r}")
@@ -116,6 +118,7 @@ def row(entry: dict) -> str:
     details += f"[![Compute: {compute}](https://img.shields.io/badge/compute-{badge[0]}-{badge[1]}?style=flat-square)]({colab}) "
     date_badge = entry["validated_on"].replace("-", "--")
     details += f"![Validated {entry['validated_on']}](https://img.shields.io/badge/validated-{date_badge}-6c757d?style=flat-square) "
+    details += "<br><sub><b>Generated with:</b> " + html.escape(generation.summary(entry.get("generation"))) + "</sub>"
     details += f"<br><sub><b>Demonstration:</b> {html.escape(entry['demonstration'])}</sub>"
     if entry["semantic_tags"]:
         details += f"<br><br><sub><b>Semantic tags:</b> {', '.join(entry['semantic_tags'])}</sub>"
@@ -515,6 +518,7 @@ def publish(args: argparse.Namespace) -> None:
     image = get_preview(result["notebook"], args.preview_index)
     entry = {
         "public_id": args.public_id,
+        "generation": generation.for_run(run_dir),
         "title": api.get("title"),
         "doi": api.get("doi"),
         "compute": args.compute,
