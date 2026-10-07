@@ -41,8 +41,8 @@ GitHub truncates repository README rendering after 500 KiB. On 2026-10-07, commi
 publications reached 519,567 bytes. GitHub cut a notebook row in the middle of a
 badge URL. The manifest and Markdown column delimiters remained valid.
 
-The publisher now keeps the 40 most recently published verified notebooks in
-README.md and links a complete alphabetical catalog in catalog/page-NNN.md.
+README.md shows an expanded notebook index linking the complete alphabetical
+catalog in catalog/page-NNN.md; recent notebook tables are omitted.
 Each catalog page has at most 50 entries and a 200,000-byte UTF-8 budget; README
 has a 400,000-byte guard. Pages preserve all generation conditions, Colab links,
 and execution previews. `publication.json` remains the source of truth.

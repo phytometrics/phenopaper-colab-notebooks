@@ -315,7 +315,6 @@ def write_montage(data: dict) -> None:
 # Leave ample room below GitHub's 500 KiB README rendering limit.
 MARKDOWN_BYTE_LIMIT = 400_000
 CATALOG_PAGE_BYTE_LIMIT = 200_000
-README_RECENT_COUNT = 40
 TABLE_HEADER = "| Paper and run details | Preview |\n| --- | --- |"
 
 
@@ -341,7 +340,7 @@ def render_catalog(data: dict) -> dict:
     groups = catalog_groups(data)
     pages = {}
     for number, start, entries in groups:
-        navigation = ["[README / recent notebooks](../README.md#notebooks)"]
+        navigation = ["[README / notebook index](../README.md#notebooks)"]
         if number > 1:
             navigation.append(f"[Previous](page-{number - 1:03d}.md)")
         if number < len(groups):
@@ -404,17 +403,16 @@ def render_notebook_index(data: dict) -> str:
         "",
         "### Notebook index",
         "",
-        "<details>",
-        f"<summary>Browse all {count} execution-verified notebooks alphabetically (paginated)</summary>",
+        f"Browse all {count} execution-verified notebooks alphabetically:",
         "",
         *items,
         "",
-        "</details>",
     ])
 
 
 def render(data: dict) -> str:
     current = README.read_text(encoding="utf-8")
+    current = re.sub(r"(?m)^Each row starts with an Open in PhenoPaper badge[^\n]*\n\n", "", current)
     if current.count(START) != 1 or current.count(END) != 1:
         fail("README must contain exactly one publication-table marker pair")
     if current.count(SUMMARY_START) != 1 or current.count(SUMMARY_END) != 1:
@@ -430,9 +428,7 @@ def render(data: dict) -> str:
     _, after = rest.split(INDEX_END, 1)
     index = render_notebook_index(data)
     current = before + INDEX_START + "\n" + index + "\n" + INDEX_END + after
-    recent = list(reversed(data["notebooks"]))[:README_RECENT_COUNT]
-    table = f"Showing the {len(recent)} most recently published notebooks of {count}. " + "[Browse the complete alphabetical catalog](#notebook-index).\n\n"
-    table += TABLE_HEADER + "\n" + "\n".join(row(e) for e in recent)
+    table = "[Browse the complete alphabetical catalog](#notebook-index)."
     before, rest = current.split(START, 1)
     _, after = rest.split(END, 1)
     result = before + START + "\n\n" + table + "\n\n" + END + after
