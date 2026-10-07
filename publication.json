@@ -6039,6 +6039,32 @@
         "alt": "Test-plate lanes: input RGB stacks with author-pipeline leaf-detection hulls (red) beside predicted infection masks (white = pathogen).",
         "caption": "Test-plate lanes: input RGB stacks with author-pipeline leaf-detection hulls (red) beside predicted infection masks (white = pathogen)."
       }
+    },
+    {
+      "public_id": "p-679adbc34da980ccda3bce4f119b1f58",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "FruitTouch: A Perceptive Gripper for Gentle and Scalable Fruit Harvesting",
+      "doi": "10.48550/arxiv.2602.18991",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Runs the authors' released GripGen and tactile_render Blender pipelines unchanged on a T4 GPU to generate parametric gripper geometry (scales 1.0/1.5, verified pad-dimension scaling) and render 10 simulated in-gripper tactile observations (4-40 mm openings); perception models, datasets and physical experiments are not covered (no public assets).",
+      "semantic_tags": [
+        "organ:fruit"
+      ],
+      "preview": {
+        "alt": "Simulated internal tactile observations from the in-gripper camera at gripper openings of 4-40 mm, produced by the authors' unmodified render_loop.py under headless Blender (Cycles 1024 samples) on a Colab T4.",
+        "caption": "Simulated internal tactile observations from the in-gripper camera at gripper openings of 4-40 mm, produced by the authors' unmodified render_loop.py under headless Blender (Cycles 1024 samples) on a Colab T4."
+      }
     }
   ]
 }
