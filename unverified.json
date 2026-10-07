@@ -264,6 +264,18 @@
       "notebook_sha256": "94573cab56b48f3da0076bd3220165c17ba4e8978ad11e337fddd279e7bd5dc7",
       "source_sha256": "c11c8d3b2962c2fef27752744ed22ad76b39d307841a0507602fe022cd111b7a",
       "code_cells": 14
+    },
+    {
+      "public_id": "p-76b3fc60078b3d0914bdc7784044dc1e",
+      "title": "Differences in apple fruit shape are independent of fruit size",
+      "investigation_run_id": "p-76b3fc60078b3d0914bdc7784044dc1e-20261007T154400Z-20652",
+      "status": "failed",
+      "reason": "Reproduction fully validated on fresh CPU Colab runtime (45/45 Spearman rho match published Table S2, max |drho|=5.6e-16; 20/45 significant; headline shape-size independence reproduced; 11/11 cells, 0 errors). Only GitHub publication failed: all pushes to phytometrics/phenopaper-colab-notebooks rejected with remote 'Internal Server Error' (publisher attempts x3, direct push of prepared commit, and a no-op temp-ref probe; auth OK, GitHub status 'Git Operations operational'). Notebook and evidence preserved for a retry when GitHub accepts pushes.",
+      "created_on": "2026-10-08",
+      "notebook_path": "notebooks/unverified/p-76b3fc60078b3d0914bdc7784044dc1e.ipynb",
+      "notebook_sha256": "13d121be28f90570ad7960ec2db786c5dc80bc6fb995148b6b832775c7b49082",
+      "source_sha256": "96165b172ae204e69fa34333357e2eb1c4e377a8d0027f7d742cbf84c6ed73fc",
+      "code_cells": 11
     }
   ]
 }
