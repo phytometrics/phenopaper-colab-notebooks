@@ -6005,6 +6005,40 @@
         "alt": "Notebook-created scatter panels of accession-level PC1 against aspect ratio, fruit area, and harvest weight (n = 534), colored by aspect ratio as in the authors' Figure 5 styling.",
         "caption": "Notebook-created scatter panels of accession-level PC1 against aspect ratio, fruit area, and harvest weight (n = 534), colored by aspect ratio as in the authors' Figure 5 styling."
       }
+    },
+    {
+      "public_id": "p-20afe95c7a327d82953a229470490c9b",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "‘Macrobot’–an automated segmentation-based system for powdery mildew disease quantification",
+      "doi": "10.1101/2020.03.16.993451",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Runs the author's minRGB powdery-mildew pipeline (pinned macrobot commit) on one barley test plate in Colab CPU, scoring 32 leaves into a per-leaf infection CSV and lane prediction masks; one-plate partial demonstration, not the paper's 108-plate validation.",
+      "semantic_tags": [
+        "crop:barley",
+        "crop:wheat",
+        "environment:field",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:segmentation",
+        "task:stress_disease",
+        "trait:disease_symptoms",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Test-plate lanes: input RGB stacks with author-pipeline leaf-detection hulls (red) beside predicted infection masks (white = pathogen).",
+        "caption": "Test-plate lanes: input RGB stacks with author-pipeline leaf-detection hulls (red) beside predicted infection masks (white = pathogen)."
+      }
     }
   ]
 }
