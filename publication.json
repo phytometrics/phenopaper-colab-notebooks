@@ -6221,6 +6221,35 @@
         "alt": "Input preview: TROPOSIF v2.1 SIF (SIF_Corr_743, cloud fraction below 0.8, SZA below 70 deg) gridded to the 0.15-degree author grid for the 8-day period starting 2019-10-08, with the three sub-region bounding boxes.",
         "caption": "Input preview: TROPOSIF v2.1 SIF (SIF_Corr_743, cloud fraction below 0.8, SZA below 70 deg) gridded to the 0.15-degree author grid for the 8-day period starting 2019-10-08, with the three sub-region bounding boxes."
       }
+    },
+    {
+      "public_id": "p-61f25e176f25878b149b71125d03bb03",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A dataset of tomato fruits images for object detection in the complex lighting environment of plant factories.",
+      "doi": "10.1016/j.dib.2023.109291",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Verified the TomatoPlantfactoryDataset v1 archive end to end in Colab (SHA-256, 520 images, 9112 VOC objects incl. 889 difficult green fruits, 8223 YOLO rows, author scripts run verbatim, seed-42 416/52/52 split); no detector was trained because no weights were released.",
+      "semantic_tags": [
+        "crop:tomato",
+        "environment:growth_chamber",
+        "organ:fruit",
+        "task:object_detection"
+      ],
+      "preview": {
+        "alt": "Original plant-factory tomato image 0260.JPG with its real Pascal VOC ground-truth boxes (green=green fruit, red=red fruit, dashed=difficult, excluded from YOLO labels)",
+        "caption": "Original plant-factory tomato image 0260.JPG with its real Pascal VOC ground-truth boxes (green=green fruit, red=red fruit, dashed=difficult, excluded from YOLO labels)"
+      }
     }
   ]
 }
