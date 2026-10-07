@@ -5499,6 +5499,35 @@
         "alt": "Unseen EcoFAB scans from RhizoNet Fig. 3: raw input, hand-annotated reference, and the executed model_64 root-mask overlay.",
         "caption": "Unseen EcoFAB scans from RhizoNet Fig. 3: raw input, hand-annotated reference, and the executed model_64 root-mask overlay."
       }
+    },
+    {
+      "public_id": "p-8febe1ed612cab104a90ea3f3401511a",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Hyperspectral segmentation of plants in fabricated ecosystems",
+      "doi": "10.3389/fhpcp.2025.1547340",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Inference-only reproduction of the paper's segmentation on the sample EcoFAB growth series (front view, 3 of 12 time points) with the five Zenodo-trained ecospec networks; single 3.65 GB sample download required and training/SVD/UMAP analyses out of scope.",
+      "semantic_tags": [
+        "environment:growth_chamber",
+        "modality:spectral",
+        "organ:whole_plant",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Ensemble plant-segmentation probability (left, red = high) and five-network standard-deviation uncertainty (right) for EcoFAB YY24EX0010EF009 front view 2024-05-31, overlaid on the input RGB render.",
+        "caption": "Ensemble plant-segmentation probability (left, red = high) and five-network standard-deviation uncertainty (right) for EcoFAB YY24EX0010EF009 front view 2024-05-31, overlaid on the input RGB render."
+      }
     }
   ]
 }
