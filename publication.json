@@ -6463,6 +6463,34 @@
         "alt": "Manual tree labels (left) vs graph shortest-path segmentation (center) vs closest-trunk baseline (right) for the r49-t65e avocado stand; v-measure 1.0 on this separated stand.",
         "caption": "Manual tree labels (left) vs graph shortest-path segmentation (center) vs closest-trunk baseline (right) for the r49-t65e avocado stand; v-measure 1.0 on this separated stand."
       }
+    },
+    {
+      "public_id": "p-f1b4f3cd160c996964aff858a481e94a",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Accurately Identifying Sound vs. Rotten Cranberries Using Convolutional Neural Network",
+      "doi": "10.3390/info15110731",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Executed the authors' pretrained CARP model with the verbatim infer.py pipeline on all 230 independent test images on Colab CPU; the released checkpoint scores every image ~0.0015 (23.9% accuracy vs the paper's 94.8%), so the demonstrated result is an honestly labeled reproduction mismatch, verified against the pinned commit.",
+      "semantic_tags": [
+        "organ:fruit",
+        "task:classification",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Independent test images with reference labels (from author directories) vs. released CARP model predictions; the checkpoint predicts 'rotten' for all 230 images.",
+        "caption": "Independent test images with reference labels (from author directories) vs. released CARP model predictions; the checkpoint predicts 'rotten' for all 230 images."
+      }
     }
   ]
 }
