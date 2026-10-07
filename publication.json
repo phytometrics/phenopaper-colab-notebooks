@@ -5807,6 +5807,37 @@
         "alt": "Ten grayscale IFCB inputs from the WHOI22 subset with their true class labels (Ciranni et al. 2024, repo commit 2dad84be4125)",
         "caption": "Ten grayscale IFCB inputs from the WHOI22 subset with their true class labels (Ciranni et al. 2024, repo commit 2dad84be4125)"
       }
+    },
+    {
+      "public_id": "p-0d2eb12e796dec66496f74d8e0aa04b7",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "As good as human experts in detecting plant roots in minirhizotron images but efficient and reproducible: the convolutional neural network “RootDetector”",
+      "doi": "10.1038/s41598-023-28400-x",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Runs the released RootDetector CLI (pinned commit, unmodified) on one bundled WM minirhizotron sample and the authors' own testcase crop on CPU; single-image scope with ~5-8% testcase deltas vs the authors' expected results from the modern torch/numpy stack.",
+      "semantic_tags": [
+        "environment:field",
+        "organ:root",
+        "organ:whole_plant",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "Bundled wetland-mesocosm minirhizotron sample: input scan (left), RootDetector segmentation with predicted roots in white and tape exclusion mask in red (middle), and measurement skeleton (right).",
+        "caption": "Bundled wetland-mesocosm minirhizotron sample: input scan (left), RootDetector segmentation with predicted roots in white and tape exclusion mask in red (middle), and measurement skeleton (right)."
+      }
     }
   ]
 }
