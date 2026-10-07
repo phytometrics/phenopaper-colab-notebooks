@@ -5559,6 +5559,39 @@
         "alt": "GBF-CD error map vs author-supplied reference change map on SF_dataset.mat: green = correct detections, blue = missed alarms (MA), red = false alarms (FA).",
         "caption": "GBF-CD error map vs author-supplied reference change map on SF_dataset.mat: green = correct detections, blue = missed alarms (MA), red = false alarms (FA)."
       }
+    },
+    {
+      "public_id": "p-924191f1c63d31c8015fd5aea7c983a3",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Foundation Model-Based Apple Ripeness and Size Estimation for Selective Harvesting",
+      "doi": "10.48550/arxiv.2502.01850",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Runs the author's released inference pipeline (fine-tuned Grounding-DINO ripe/unripe detection, SAM ViT-H segmentation, six size-estimation algorithms) on one RGB-D apple sample; a single image does not verify dataset-level accuracy and no per-apple ground-truth sizes ship with the test split.",
+      "semantic_tags": [
+        "crop:apple",
+        "modality:rgbd",
+        "organ:fruit",
+        "task:classification",
+        "task:morphology",
+        "task:object_detection",
+        "trait:growth_development",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Sample _MG_2657_24 with SAM masks, Grounding-DINO ripe (red) / unripe (green) boxes, and estimated equatorial diameters in mm (2D-LSeg), produced by the author's pipeline in this run.",
+        "caption": "Sample _MG_2657_24 with SAM masks, Grounding-DINO ripe (red) / unripe (green) boxes, and estimated equatorial diameters in mm (2D-LSeg), produced by the author's pipeline in this run."
+      }
     }
   ]
 }
