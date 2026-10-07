@@ -5372,6 +5372,36 @@
         "alt": "Demo photo CAM449_2017-07-20-14-32: our SS-CNN separation (left) vs the authors' shipped reference (right); red=foreground, blue=background plant pixels.",
         "caption": "Demo photo CAM449_2017-07-20-14-32: our SS-CNN separation (left) vs the authors' shipped reference (right); red=foreground, blue=background plant pixels."
       }
+    },
+    {
+      "public_id": "p-a3f1468a9d39e532abd9a169fb967994",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Image analysis for estimating the fresh weight of tomatoes",
+      "doi": "10.1590/s0102-0536-2025-e286631",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Executed the authors' verbatim RotinaGitHub.R (commit 153fa332) on the repository's own sample original.jpg in a fresh Colab CPU runtime: 480x480 resize, blue-channel threshold-0.30 segmentation with 6 erosions + 6 dilations, per-fruit pixel areas, and the hardcoded mass model giving 24.8-119.4 g for 20 fruits; single-image demonstration, dataset-level validation not reproduced.",
+      "semantic_tags": [
+        "crop:tomato",
+        "environment:field",
+        "organ:fruit",
+        "task:yield_biomass",
+        "trait:biomass"
+      ],
+      "preview": {
+        "alt": "Verbatim author-script output: 20 detected tomato fruits annotated with estimated fresh mass (24.8-119.4 g) from pixel areas via the paper's linear model",
+        "caption": "Verbatim author-script output: 20 detected tomato fruits annotated with estimated fresh mass (24.8-119.4 g) from pixel areas via the paper's linear model"
+      }
     }
   ]
 }
