@@ -373,6 +373,16 @@
       "reason": "Notebook corrected after attempt 2 but the 3-session budget was exhausted before a fresh re-execution. Attempt 2 (fresh Colab CPU) validated all science (P 0.958, R 0.9423, mAP@0.5 0.9819, params 2.058M, GFLOPs 4.8162 vs paper 0.950/0.941/0.974/2.06/4.8) except one over-strict assertion in the byte-verification cell (n_py > 300; pinned count is 147 .py files). Assertion fixed and statically validated; a resumed invocation must execute the notebook top-to-bottom in a fresh CPU runtime, then publish with --compute CPU --preview-index 0.",
       "created_on": "2026-10-07",
       "notebook_path": "notebooks/unverified/p-903df80cc1f5c5f59869dfbe9b866bd7.ipynb"
+    },
+    {
+      "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
+      "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
+      "investigation_run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T113209Z-4050068",
+      "run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T122226Z",
+      "status": "failed",
+      "reason": "Notebook executed end-to-end error-free on fresh T4 (colab 0.7.4): fold-1 reconstruction verified against paper Table 3 (870/163 original instances), paper-faithful balancing (603/511), YOLO11n 300 epochs, test green P.864/R.469/mAP50 .640/mAP50-95 .437, ripe P.678/R.807/mAP50 .781/mAP50-95 .636; val mAP50 reaches paper level (.924/.972) but mAP50-95/recall stay below Table 6 across all testable pipeline variants -> delivered as executed partial reproduction. GitHub publication blocked: git push rejected 3x by remote 'Internal Server Error' (Request IDs DE5F:..., 3A50:..., 2650:...; 2026-10-07T15:11-15:12Z); auth and no-op push verified OK; local repo unchanged. Host queue may retry publication with the preserved artifacts.",
+      "created_on": "2026-10-08",
+      "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb"
     }
   ]
 }

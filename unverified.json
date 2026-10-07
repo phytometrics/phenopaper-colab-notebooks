@@ -252,6 +252,18 @@
       "notebook_sha256": "95719014bf0778176d08686ebf20cd5e6ccf316c892f198e1bb52a1c62af5799",
       "source_sha256": "30445c392e31ff0253d379ca2c4c88a2393034bcd775e95d084183d2919985ac",
       "code_cells": 10
+    },
+    {
+      "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
+      "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
+      "investigation_run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T113209Z-4050068",
+      "status": "failed",
+      "reason": "Notebook executed end-to-end error-free on fresh T4 (colab 0.7.4): fold-1 reconstruction verified against paper Table 3 (870/163 original instances), paper-faithful balancing (603/511), YOLO11n 300 epochs, test green P.864/R.469/mAP50 .640/mAP50-95 .437, ripe P.678/R.807/mAP50 .781/mAP50-95 .636; val mAP50 reaches paper level (.924/.972) but mAP50-95/recall stay below Table 6 across all testable pipeline variants -> delivered as executed partial reproduction. GitHub publication blocked: git push rejected 3x by remote 'Internal Server Error' (Request IDs DE5F:..., 3A50:..., 2650:...; 2026-10-07T15:11-15:12Z); auth and no-op push verified OK; local repo unchanged. Host queue may retry publication with the preserved artifacts.",
+      "created_on": "2026-10-08",
+      "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb",
+      "notebook_sha256": "94573cab56b48f3da0076bd3220165c17ba4e8978ad11e337fddd279e7bd5dc7",
+      "source_sha256": "c11c8d3b2962c2fef27752744ed22ad76b39d307841a0507602fe022cd111b7a",
+      "code_cells": 14
     }
   ]
 }
