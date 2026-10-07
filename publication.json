@@ -5402,6 +5402,39 @@
         "alt": "Verbatim author-script output: 20 detected tomato fruits annotated with estimated fresh mass (24.8-119.4 g) from pixel areas via the paper's linear model",
         "caption": "Verbatim author-script output: 20 detected tomato fruits annotated with estimated fresh mass (24.8-119.4 g) from pixel areas via the paper's linear model"
       }
+    },
+    {
+      "public_id": "p-c900721bb15ebda5e76a1dc19ac75f74",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "AraDQ: an automated digital phenotyping software for quantifying disease symptoms of flood-inoculated Arabidopsis seedlings.",
+      "doi": "10.1186/s13007-024-01171-w",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Executed the released AraDQ pipeline (authors' YOLOv4 + U-net, recovered app constants) on one paired 0d/3d Case Study 1 plate to produce the 15-trait per-seedling CSV and fold change; single replicate, dense-CRF refinement omitted.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "environment:laboratory",
+        "organ:whole_plant",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:architecture",
+        "trait:disease_symptoms",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "AraDQ pipeline on the paired plate photographs: raw input, authors' U-net model prediction (warped mask), and distortion+color-corrected image.",
+        "caption": "AraDQ pipeline on the paired plate photographs: raw input, authors' U-net model prediction (warped mask), and distortion+color-corrected image."
+      }
     }
   ]
 }
