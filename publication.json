@@ -3099,9 +3099,9 @@
       }
     },
     {
-      "public_id": "p-c5834ec3f310904a63ff454e575e977b",
-      "title": "Cover",
-      "doi": "10.1270/jsbbs.72-1cover",
+      "public_id": "p-c0fdebde1d5529f726acefa644e618fb",
+      "title": "Development of a high-throughput field phenotyping rover optimized for size-limited breeding fields as open-source hardware",
+      "doi": "10.1270/jsbbs.21059",
       "compute": "CPU",
       "validated_on": "2026-10-06",
       "demonstration": "COLMAP (pycolmap) SfM reconstruction of 20 nadir frames of one furrow from the UGVPP rover's released center-camera data, with sparse point cloud, camera drive path, and reprojection check; per-plot EasyIDP extraction and the YOLOv5 heading branch are not reproduced.",
