@@ -5678,6 +5678,38 @@
         "alt": "Ovule 1135 crop: noisy H2B input, reference gold annotation (red) and StarDist-ResNet prediction (green) boundaries",
         "caption": "Ovule 1135 crop: noisy H2B input, reference gold annotation (red) and StarDist-ResNet prediction (green) boundaries"
       }
+    },
+    {
+      "public_id": "p-44844a141a913a88054c011c6f6323cb",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "High throughput assessment of blueberry fruit internal bruising using deep learning models",
+      "doi": "10.3389/fpls.2025.1575038",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Executed the authors' published three-model blueberry-bruising inference pipeline (YOLOv8 detection, YOLOv8-seg fruit segmentation, YOLO11-seg bruise segmentation) on their example photograph in a fresh Colab CPU runtime, computing per-berry bruising ratios; dataset-level evaluation and training are out of scope.",
+      "semantic_tags": [
+        "crop:blueberry",
+        "environment:laboratory",
+        "organ:fruit",
+        "task:morphology",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "Author example input (left) beside the executed pipeline output (right): green fruit masks, red predicted bruise masks, detection boxes and per-berry bruising ratios.",
+        "caption": "Author example input (left) beside the executed pipeline output (right): green fruit masks, red predicted bruise masks, detection boxes and per-berry bruising ratios."
+      }
     }
   ]
 }
