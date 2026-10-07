@@ -393,6 +393,16 @@
       "reason": "Reproduction fully validated on fresh CPU Colab runtime (45/45 Spearman rho match published Table S2, max |drho|=5.6e-16; 20/45 significant; headline shape-size independence reproduced; 11/11 cells, 0 errors). Only GitHub publication failed: all pushes to phytometrics/phenopaper-colab-notebooks rejected with remote 'Internal Server Error' (publisher attempts x3, direct push of prepared commit, and a no-op temp-ref probe; auth OK, GitHub status 'Git Operations operational'). Notebook and evidence preserved for a retry when GitHub accepts pushes.",
       "created_on": "2026-10-08",
       "notebook_path": "notebooks/unverified/p-76b3fc60078b3d0914bdc7784044dc1e.ipynb"
+    },
+    {
+      "public_id": "p-9a3c9cba4074a019ec533102f858e1c4",
+      "title": "Segmentation and characterization of macerated fibers and vessels using deep learning",
+      "investigation_run_id": "p-9a3c9cba4074a019ec533102f858e1c4-20261007T163704Z-66361",
+      "run_id": "p-9a3c9cba4074a019ec533102f858e1c4-20261007T170253Z",
+      "status": "failed",
+      "reason": "Notebook source complete and statically valid, but two fresh-runtime T4 validation attempts failed on cell-level NameErrors from probe/notebook variable-name mismatches (classes, then segmentations); both fixed in the current source. The 3-session Colab budget per queue invocation was then exhausted (diag, t4, t4b), so no third validation run was permitted. Resume with a fresh run budget to validate the fixed notebook end-to-end; do not publish as verified.",
+      "created_on": "2026-10-08",
+      "notebook_path": "notebooks/unverified/p-9a3c9cba4074a019ec533102f858e1c4.ipynb"
     }
   ]
 }

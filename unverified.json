@@ -276,6 +276,18 @@
       "notebook_sha256": "13d121be28f90570ad7960ec2db786c5dc80bc6fb995148b6b832775c7b49082",
       "source_sha256": "96165b172ae204e69fa34333357e2eb1c4e377a8d0027f7d742cbf84c6ed73fc",
       "code_cells": 11
+    },
+    {
+      "public_id": "p-9a3c9cba4074a019ec533102f858e1c4",
+      "title": "Segmentation and characterization of macerated fibers and vessels using deep learning",
+      "investigation_run_id": "p-9a3c9cba4074a019ec533102f858e1c4-20261007T163704Z-66361",
+      "status": "failed",
+      "reason": "Notebook source complete and statically valid, but two fresh-runtime T4 validation attempts failed on cell-level NameErrors from probe/notebook variable-name mismatches (classes, then segmentations); both fixed in the current source. The 3-session Colab budget per queue invocation was then exhausted (diag, t4, t4b), so no third validation run was permitted. Resume with a fresh run budget to validate the fixed notebook end-to-end; do not publish as verified.",
+      "created_on": "2026-10-08",
+      "notebook_path": "notebooks/unverified/p-9a3c9cba4074a019ec533102f858e1c4.ipynb",
+      "notebook_sha256": "9c189b8f45587c0ed45b8f41de974554e717548eafb80b9a18b3a42a6cd883e4",
+      "source_sha256": "e6b9efacd88f182ddc87fa93061d24b51d23b6ec427220707adf0d73d4043189",
+      "code_cells": 11
     }
   ]
 }
