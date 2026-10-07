@@ -42,7 +42,8 @@ publications reached 519,567 bytes. GitHub cut a notebook row in the middle of a
 badge URL. The manifest and Markdown column delimiters remained valid.
 
 README.md shows an expanded notebook index linking the complete alphabetical
-catalog in catalog/page-NNN.md; recent notebook tables are omitted.
+catalog in catalog/page-NNN.md, plus a table of the two most recently published
+verified notebooks. The index remains expanded.
 Each catalog page has at most 50 entries and a 200,000-byte UTF-8 budget; README
 has a 400,000-byte guard. Pages preserve all generation conditions, Colab links,
 and execution previews. `publication.json` remains the source of truth.

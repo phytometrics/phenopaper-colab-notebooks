@@ -428,7 +428,10 @@ def render(data: dict) -> str:
     _, after = rest.split(INDEX_END, 1)
     index = render_notebook_index(data)
     current = before + INDEX_START + "\n" + index + "\n" + INDEX_END + after
-    table = "[Browse the complete alphabetical catalog](#notebook-index)."
+    recent = list(reversed(data["notebooks"]))[:2]
+    table = f"Showing the {len(recent)} most recently published notebooks of {count}. " + "[Browse the complete alphabetical catalog](#notebook-index)."
+    if recent:
+        table += "\n\n" + TABLE_HEADER + "\n" + "\n".join(row(entry) for entry in recent)
     before, rest = current.split(START, 1)
     _, after = rest.split(END, 1)
     result = before + START + "\n\n" + table + "\n\n" + END + after
