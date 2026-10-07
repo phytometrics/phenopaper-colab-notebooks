@@ -5435,6 +5435,37 @@
         "alt": "AraDQ pipeline on the paired plate photographs: raw input, authors' U-net model prediction (warped mask), and distortion+color-corrected image.",
         "caption": "AraDQ pipeline on the paired plate photographs: raw input, authors' U-net model prediction (warped mask), and distortion+color-corrected image."
       }
+    },
+    {
+      "public_id": "p-43ba90c5388dc75860441a1289f95762",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A High-Resolution Multifocal RGB Pollen Grain Image Dataset for Deep Learning Computer Vision Tasks from Biobío Region, Chile.",
+      "doi": "10.1038/s41597-026-07495-7",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Selective HTTP-Range access to the 43.9 GB PollenBB16 Zenodo archive: verified split sizes and class map, inspected a Gevuina avellana multifocal sample with expert polygon annotations, recomputed morphometrics within the published Table 6 spread, and re-ran the author's bbox script (line-identical); the 50-epoch YOLO baseline is out of scope.",
+      "semantic_tags": [
+        "environment:laboratory",
+        "modality:microscopy",
+        "modality:rgb",
+        "organ:cell",
+        "task:classification",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Gevuina avellana fp0 brightfield input with reference YOLO-seg polygon masks (fill) and the author-distributed bounding boxes (dashed) from pollenbb16.zip, fetched selectively by HTTP Range.",
+        "caption": "Gevuina avellana fp0 brightfield input with reference YOLO-seg polygon masks (fill) and the author-distributed bounding boxes (dashed) from pollenbb16.zip, fetched selectively by HTTP Range."
+      }
     }
   ]
 }
