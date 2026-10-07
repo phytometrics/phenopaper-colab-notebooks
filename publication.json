@@ -6281,6 +6281,38 @@
         "alt": "M1 albedo void masks (red) over deposited 500x SEM inputs for the five citrus species, produced by the authors' pipeline v3.3 in this run.",
         "caption": "M1 albedo void masks (red) over deposited 500x SEM inputs for the five citrus species, produced by the authors' pipeline v3.3 in this run."
       }
+    },
+    {
+      "public_id": "p-8d7350b7e41d907b60ba9345196c8b94",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A procedure for automated tree pruning suggestion using LiDAR scans of fruit trees",
+      "doi": "10.48550/arxiv.2102.03700",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Graph-based pruning-effect simulation (arXiv:2102.03700v1 §II-B) on the paper's real avocado LiDAR tree row-55s-tree-15e with a single reference-informed cut, scored against the real post-limb-removal scan (voxel F1 0.12; the paper's F1 0.78 is a synthetic-stand, multi-cut setting).",
+      "semantic_tags": [
+        "environment:field",
+        "modality:point_cloud",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:segmentation",
+        "trait:architecture",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Reference removal (from the real post-limb-removal scan, left) versus the simulated graph-path removal for one cut point (right) in the elevation view of row-55s-tree-15e.",
+        "caption": "Reference removal (from the real post-limb-removal scan, left) versus the simulated graph-path removal for one cut point (right) in the elevation view of row-55s-tree-15e."
+      }
     }
   ]
 }
