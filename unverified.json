@@ -240,6 +240,18 @@
       "notebook_sha256": "1c54cefa77116d2277c72fb1dc7c07066499cd32e5e6aba450d0c8eea8544649",
       "source_sha256": "2a9aaf09bada455aa52010c4395ffdfbbb7b8df687a64169fd3dd163a676b49f",
       "code_cells": 13
+    },
+    {
+      "public_id": "p-903df80cc1f5c5f59869dfbe9b866bd7",
+      "title": "Melon ripeness detection by an improved object detection algorithm for resource constrained environments",
+      "investigation_run_id": "p-903df80cc1f5c5f59869dfbe9b866bd7-20261007T085715Z-3902139",
+      "status": "failed",
+      "reason": "Notebook corrected after attempt 2 but the 3-session budget was exhausted before a fresh re-execution. Attempt 2 (fresh Colab CPU) validated all science (P 0.958, R 0.9423, mAP@0.5 0.9819, params 2.058M, GFLOPs 4.8162 vs paper 0.950/0.941/0.974/2.06/4.8) except one over-strict assertion in the byte-verification cell (n_py > 300; pinned count is 147 .py files). Assertion fixed and statically validated; a resumed invocation must execute the notebook top-to-bottom in a fresh CPU runtime, then publish with --compute CPU --preview-index 0.",
+      "created_on": "2026-10-07",
+      "notebook_path": "notebooks/unverified/p-903df80cc1f5c5f59869dfbe9b866bd7.ipynb",
+      "notebook_sha256": "95719014bf0778176d08686ebf20cd5e6ccf316c892f198e1bb52a1c62af5799",
+      "source_sha256": "30445c392e31ff0253d379ca2c4c88a2393034bcd775e95d084183d2919985ac",
+      "code_cells": 10
     }
   ]
 }
