@@ -6250,6 +6250,37 @@
         "alt": "Original plant-factory tomato image 0260.JPG with its real Pascal VOC ground-truth boxes (green=green fruit, red=red fruit, dashed=difficult, excluded from YOLO labels)",
         "caption": "Original plant-factory tomato image 0260.JPG with its real Pascal VOC ground-truth boxes (green=green fruit, red=red fruit, dashed=difficult, excluded from YOLO labels)"
       }
+    },
+    {
+      "public_id": "p-012105486e7a5cee8189252b79eca895",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A Transferable Quantitative Framework for Extracting Engineering-Relevant Descriptors from Biological Protective Surfaces: Intra-Specimen Descriptor Mapping of Five Citrus Peels",
+      "doi": "10.3390/biomimetics11070451",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Re-ran the authors' released SEM pipeline v3.3 (Zenodo 10.5281/zenodo.20350228) unmodified on the albedo 250x/500x subset of the deposited 135 micrographs on a Colab CPU runtime; per-species albedo void fraction phi2D matches the paper's Table 2 exactly. Modules 2-4 and PCA are out of scope.",
+      "semantic_tags": [
+        "crop:citrus",
+        "modality:microscopy",
+        "organ:fruit",
+        "task:morphology",
+        "task:segmentation",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "M1 albedo void masks (red) over deposited 500x SEM inputs for the five citrus species, produced by the authors' pipeline v3.3 in this run.",
+        "caption": "M1 albedo void masks (red) over deposited 500x SEM inputs for the five citrus species, produced by the authors' pipeline v3.3 in this run."
+      }
     }
   ]
 }
