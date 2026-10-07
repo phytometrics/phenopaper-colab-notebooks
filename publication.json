@@ -6096,6 +6096,37 @@
         "alt": "CitDet test images with expert ground-truth bounding boxes (red: Fruit on Tree, blue: Fruit on Ground)",
         "caption": "CitDet test images with expert ground-truth bounding boxes (red: Fruit on Tree, blue: Fruit on Ground)"
       }
+    },
+    {
+      "public_id": "p-30b2f0e3a292ceea837204361f928619",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Color Sensor for the Determination of the Ripening Stage of Cherry Tomatoes",
+      "doi": "10.5281/zenodo.23067950",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Reproduces the full software pipeline (RGB-to-CIELAB preprocessing, K-Means labeling, linear calibration retraining, depth-3 decision tree, three-scenario evaluation and ATmega C-header generation) on the authors' released 130-record cherry-tomato dataset; the release postdates the authors' saved 119-record notebook outputs, so headline metrics are quantified for both versions.",
+      "semantic_tags": [
+        "crop:tomato",
+        "environment:laboratory",
+        "modality:rgb",
+        "organ:fruit",
+        "task:classification",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "Cherry-tomato photographs from photos_tomato/ (pinned commit 2678cf6), one per K-Means ground-truth maturity stage, labeled with ID_FOTO, image format and measured average CIELAB coordinates.",
+        "caption": "Cherry-tomato photographs from photos_tomato/ (pinned commit 2678cf6), one per K-Means ground-truth maturity stage, labeled with ID_FOTO, image format and measured average CIELAB coordinates."
+      }
     }
   ]
 }
