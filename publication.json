@@ -6371,6 +6371,36 @@
         "alt": "Example tile RGB with the authors' stored crown segmentation (center) and this notebook's predicted segmentation (right)",
         "caption": "Example tile RGB with the authors' stored crown segmentation (center) and this notebook's predicted segmentation (right)"
       }
+    },
+    {
+      "public_id": "p-676bd2b6c0020eb8a2ba4b41e580ca41",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Object detection and size determination of pineapple fruit input to a juicing factory in Eastern Cape, South Africa: A deep learning approach",
+      "doi": "10.21203/rs.3.rs-1942268/v2",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Reproduces the paper's size-determination evaluation: the released Model 4 Mask R-CNN detected exactly 120 fruits in the 27 public unseen images and the z-scored KS comparison against the 120 calliper measurements matches the paper (length KS 0.058/p=0.987); CPU-only legacy TF 1.13 stack, training and AP evaluation out of scope.",
+      "semantic_tags": [
+        "crop:pineapple",
+        "organ:fruit",
+        "task:morphology",
+        "task:object_detection",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Evaluation image: raw input (left), authors' VIA ground-truth polygons (center), and the Model 4 predicted mask contour (right).",
+        "caption": "Evaluation image: raw input (left), authors' VIA ground-truth polygons (center), and the Model 4 predicted mask contour (right)."
+      }
     }
   ]
 }
