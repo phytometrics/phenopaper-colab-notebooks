@@ -5528,6 +5528,37 @@
         "alt": "Ensemble plant-segmentation probability (left, red = high) and five-network standard-deviation uncertainty (right) for EcoFAB YY24EX0010EF009 front view 2024-05-31, overlaid on the input RGB render.",
         "caption": "Ensemble plant-segmentation probability (left, red = high) and five-network standard-deviation uncertainty (right) for EcoFAB YY24EX0010EF009 front view 2024-05-31, overlaid on the input RGB render."
       }
+    },
+    {
+      "public_id": "p-a7b73ba81c4ea1bf5e2ef744a678bbd7",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Graph-Based Data Fusion Applied to: Change Detection and Biomass Estimation in Rice Crops",
+      "doi": "10.3390/rs12172683",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Runs the authors' pinned Python GBF-CD implementation (commit 2c11fd15) on the paper's San Francisco scene (ns=4, Table 4) to produce a change map, the cohensKappa.m metric set, and the error label map; single-scene demonstration only, biomass branch out of scope.",
+      "semantic_tags": [
+        "crop:rice",
+        "modality:spectral",
+        "organ:whole_plant",
+        "task:classification",
+        "task:yield_biomass",
+        "trait:biomass"
+      ],
+      "preview": {
+        "alt": "GBF-CD error map vs author-supplied reference change map on SF_dataset.mat: green = correct detections, blue = missed alarms (MA), red = false alarms (FA).",
+        "caption": "GBF-CD error map vs author-supplied reference change map on SF_dataset.mat: green = correct detections, blue = missed alarms (MA), red = false alarms (FA)."
+      }
     }
   ]
 }
