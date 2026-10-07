@@ -5739,6 +5739,46 @@
         "alt": "Nucl.Eye.D on Dark_0.png (Light/Dark test set): input DAPI field, archive reference nucleus mask, predicted nucleus mask, and predicted chromocenters (red).",
         "caption": "Nucl.Eye.D on Dark_0.png (Light/Dark test set): input DAPI field, archive reference nucleus mask, predicted nucleus mask, and predicted chromocenters (red)."
       }
+    },
+    {
+      "public_id": "p-7f085a3a8c238d6f2a7e0569b7ef521d",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Digital Phenotyping in Plant Breeding: Evaluating Relative Maturity, Stand Count, and Plant Height in Dry Beans (Phaseolus vulgaris L.) via RGB Drone-Based Imagery and Deep Learning Approaches",
+      "doi": "10.21203/rs.3.rs-3160633/v1",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Reproduces the paper's traditional relative-maturity benchmark for the 2020 SVREC environment (584 plots x 6 UAV flights): the authors' matuRity LOESS/SEG days-to-maturity estimation run verbatim in R on the GLI time series rebuilt from the paper's Zenodo dataset, validated against the authors' committed reference outputs and ground-truth metrics; the CNN-LSTM, stand-count and plant-height branches are out of scope.",
+      "semantic_tags": [
+        "crop:common_bean",
+        "environment:aerial",
+        "environment:field",
+        "modality:point_cloud",
+        "modality:rgb",
+        "organ:whole_plant",
+        "task:counting",
+        "task:morphology",
+        "task:object_detection",
+        "task:segmentation",
+        "task:time_series",
+        "task:tracking",
+        "trait:architecture",
+        "trait:growth_development",
+        "trait:plant_height"
+      ],
+      "preview": {
+        "alt": "Ground-truth relative maturity vs DPM estimated by the authors' LOESS (left) and SEG (right) methods for 124 ground-truth plots of the 2020 SVREC environment (this run).",
+        "caption": "Ground-truth relative maturity vs DPM estimated by the authors' LOESS (left) and SEG (right) methods for 124 ground-truth plots of the 2020 SVREC environment (this run)."
+      }
     }
   ]
 }
