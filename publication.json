@@ -5875,6 +5875,37 @@
         "alt": "TomatoMAP rig inputs with their real BBCH stage labels (train-split sample)",
         "caption": "TomatoMAP rig inputs with their real BBCH stage labels (train-split sample)"
       }
+    },
+    {
+      "public_id": "p-2fefe25503b28bfc4e9dc5bb5e548e9d",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Predictions of oil volume in palm fruit and estimates of their ripeness: A comparative study of machine learning algorithms",
+      "doi": "10.5586/aa/196387",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Re-runs the paper's seven-regressor oil-volume comparison (Table 4) on the published figshare v3 sensor spreadsheet for 30 semi-ripe and 30 unripe palm fruit; the oil-content-by-position branch is out of scope.",
+      "semantic_tags": [
+        "crop:oil_palm",
+        "organ:fruit",
+        "task:classification",
+        "task:yield_biomass",
+        "trait:growth_development",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Observed Soxhlet oil volume (red) versus each model's prediction over all 30 semi-ripe fruit samples",
+        "caption": "Observed Soxhlet oil volume (red) versus each model's prediction over all 30 semi-ripe fruit samples"
+      }
     }
   ]
 }
