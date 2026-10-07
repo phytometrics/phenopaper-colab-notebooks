@@ -216,6 +216,18 @@
       "notebook_sha256": "1c2711b7b79bd8fa1ff8f216d9ba74596b672c071e99bd77a20236f9f4890c9e",
       "source_sha256": "64196f8acbef9830ce03dbb914c4f3b6a80a0c63d59f8daf726f5a37342a22d5",
       "code_cells": 12
+    },
+    {
+      "public_id": "p-ab3aad79edeaf72b684b184a1da8a013",
+      "title": "NTrack: A Multiple-Object Tracker and Dataset for Infield Cotton Boll Counting",
+      "investigation_run_id": "p-ab3aad79edeaf72b684b184a1da8a013-20261007T064254Z-3787149",
+      "status": "blocked",
+      "reason": "Outcome B (code-only): TexCot22 (doi:10.18738/T8/5M9NCI) is inaccessible through every authorized public route. dataverse.tdl.org CloudFront/WAF returns HTTP 403 'Request blocked' to programmatic clients from both DGX and a fresh Colab CPU VM (urllib and requests, identifying UA; Request ID o_7amV28nPiajjqyOUqMmMYIG-R4K8bURV7oN8paL6BI3QdLvqQYEA==). No public mirror exists (HF/Zenodo/GitHub/Harvard-DataCite checked). Author code pinned (7c25278b33d090a0ec68f6279fe25034ae4ad2fc) and dependency graph verified on Colab CPU; deliverable is a statically validated code-only notebook with an execution guard, never executed.",
+      "created_on": "2026-10-07",
+      "notebook_path": "notebooks/unverified/p-ab3aad79edeaf72b684b184a1da8a013.ipynb",
+      "notebook_sha256": "af02bb8dac32046e16254240243a2320b544a60bf1cea245940d6b8dcc915d8a",
+      "source_sha256": "d2dc4f65f195ee543eef7b0ffb696dd3aae8acad47d70123c0f02a02f9867820",
+      "code_cells": 13
     }
   ]
 }
