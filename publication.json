@@ -6401,6 +6401,34 @@
         "alt": "Evaluation image: raw input (left), authors' VIA ground-truth polygons (center), and the Model 4 predicted mask contour (right).",
         "caption": "Evaluation image: raw input (left), authors' VIA ground-truth polygons (center), and the Model 4 predicted mask contour (right)."
       }
+    },
+    {
+      "public_id": "p-91a6aeece03df866cc6aef5ec1083b2d",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Learn from Foundation Model: Fruit Detection Model without Manual Annotation",
+      "doi": "10.48550/arxiv.2411.16196",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Executed the paper's training-free SDM pseudo-labeling pipeline (SAM2-Large 32x32 grid segmentation, Mask NMS 0.9, OpenCLIP ViT-B-32 matching) on the repo's two strawberry examples, producing YOLO instance labels and detection boxes compared against the authors' shipped reference; dataset-level benchmarks and student distillation are out of scope.",
+      "semantic_tags": [
+        "organ:fruit",
+        "task:object_detection",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Strawberry example 12.png (left: input; right: SDM training-free pseudo-labels — colored instance masks and class boxes generated in this run)",
+        "caption": "Strawberry example 12.png (left: input; right: SDM training-free pseudo-labels — colored instance masks and class boxes generated in this run)"
+      }
     }
   ]
 }
