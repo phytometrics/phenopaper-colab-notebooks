@@ -353,6 +353,16 @@
       "reason": "Full CPU validation reached the data-download cell but a Google Drive per-file download quota permanently blocked /RawData/2017-11-11_05-20-08_NIR/imAmbient.bmp after 3 retries; the run aborted and downstream cells cascaded. The 3-session budget (diag, final, contingency) is exhausted for this invocation. Notebook repaired (imAmbient optional per author code; 4 bounded retries) and ready for resume_run_dir; all evidence archived.",
       "created_on": "2026-10-07",
       "notebook_path": "notebooks/unverified/p-650819c551206a400b5a5865a67bb67b.ipynb"
+    },
+    {
+      "public_id": "p-8eb066596b66ac63b76cc87e1d066736",
+      "title": "Detection and analysis of wheat spikes using Convolutional Neural Networks.",
+      "investigation_run_id": "p-8eb066596b66ac63b76cc87e1d066736-20260930T121136Z-3644237",
+      "run_id": "p-8eb066596b66ac63b76cc87e1d066736-20261007T012127Z",
+      "status": "failed",
+      "reason": "Pipeline implemented and diagnostically verified (fixcheck3: mAP 0.6232 vs paper 0.6653 on the 20-image GSYC test set with the released annotations, which hold 1465 GT boxes vs the paper's 1570). Two full-execution attempts failed or produced invalid metrics (roi-file parsing bug; GT sequence-mapping/scale-offset bug; Agg backend suppressed PNG outputs). Source fixed after each failure, but the corrected notebook needs one fresh full validation run and the Colab session budget (3/3 per invocation) is exhausted. Deliverable notebook is corrected and statically validated but unexecuted; no fabricated outputs. Resume with resume_run_dir for a fresh CPU session, then publish (CPU).",
+      "created_on": "2026-10-07",
+      "notebook_path": "notebooks/unverified/p-8eb066596b66ac63b76cc87e1d066736.ipynb"
     }
   ]
 }

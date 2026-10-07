@@ -204,6 +204,18 @@
       "notebook_sha256": "398cb318059d0ce99cd8785a4dc9c10ab5c9083fd8b95516093c352912280c3c",
       "source_sha256": "09bc00e06900b2dded640d1ca7e0f7f4c7c11432ac73ddbebfd71737237e2584",
       "code_cells": 5
+    },
+    {
+      "public_id": "p-8eb066596b66ac63b76cc87e1d066736",
+      "title": "Detection and analysis of wheat spikes using Convolutional Neural Networks.",
+      "investigation_run_id": "p-8eb066596b66ac63b76cc87e1d066736-20260930T121136Z-3644237",
+      "status": "failed",
+      "reason": "Pipeline implemented and diagnostically verified (fixcheck3: mAP 0.6232 vs paper 0.6653 on the 20-image GSYC test set with the released annotations, which hold 1465 GT boxes vs the paper's 1570). Two full-execution attempts failed or produced invalid metrics (roi-file parsing bug; GT sequence-mapping/scale-offset bug; Agg backend suppressed PNG outputs). Source fixed after each failure, but the corrected notebook needs one fresh full validation run and the Colab session budget (3/3 per invocation) is exhausted. Deliverable notebook is corrected and statically validated but unexecuted; no fabricated outputs. Resume with resume_run_dir for a fresh CPU session, then publish (CPU).",
+      "created_on": "2026-10-07",
+      "notebook_path": "notebooks/unverified/p-8eb066596b66ac63b76cc87e1d066736.ipynb",
+      "notebook_sha256": "1c2711b7b79bd8fa1ff8f216d9ba74596b672c071e99bd77a20236f9f4890c9e",
+      "source_sha256": "64196f8acbef9830ce03dbb914c4f3b6a80a0c63d59f8daf726f5a37342a22d5",
+      "code_cells": 12
     }
   ]
 }
