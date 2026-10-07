@@ -5592,6 +5592,36 @@
         "alt": "Sample _MG_2657_24 with SAM masks, Grounding-DINO ripe (red) / unripe (green) boxes, and estimated equatorial diameters in mm (2D-LSeg), produced by the author's pipeline in this run.",
         "caption": "Sample _MG_2657_24 with SAM masks, Grounding-DINO ripe (red) / unripe (green) boxes, and estimated equatorial diameters in mm (2D-LSeg), produced by the author's pipeline in this run."
       }
+    },
+    {
+      "public_id": "p-dc32b44045d5a76d29a5d4826a91da83",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "FedPome: federated deep learning for real-time pomegranate disease classification",
+      "doi": "10.3389/fpls.2026.1906269",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "CPU inference with the authors' deployed ViT-B.onnx and exact app.py preprocessing on five real Mendeley dataset images (one per class); 5/5 matched folder labels at ~400-530 ms per image. Inference only - no federated training or accuracy benchmark.",
+      "semantic_tags": [
+        "organ:fruit",
+        "organ:seed",
+        "task:classification",
+        "task:object_detection",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Five real pomegranate fruit images from the paper's Mendeley dataset with the deployed ViT-B.onnx model's predicted class and confidence overlaid (green = matches the dataset folder label)",
+        "caption": "Five real pomegranate fruit images from the paper's Mendeley dataset with the deployed ViT-B.onnx model's predicted class and confidence overlaid (green = matches the dataset folder label)"
+      }
     }
   ]
 }
