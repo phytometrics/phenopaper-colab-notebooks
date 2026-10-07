@@ -5466,6 +5466,39 @@
         "alt": "Gevuina avellana fp0 brightfield input with reference YOLO-seg polygon masks (fill) and the author-distributed bounding boxes (dashed) from pollenbb16.zip, fetched selectively by HTTP Range.",
         "caption": "Gevuina avellana fp0 brightfield input with reference YOLO-seg polygon masks (fill) and the author-distributed bounding boxes (dashed) from pollenbb16.zip, fetched selectively by HTTP Range."
       }
+    },
+    {
+      "public_id": "p-c23da1f44cefa8b2f9a86687e8c02a83",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "EcoBOT: an AI/ML enabled automated phenotyping capability for model plants.",
+      "doi": "10.3389/fpls.2025.1633557",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Runs the EcoBOT paper's RhizoNet root-segmentation step (author code 41e1b31d + released model_64 weights) end-to-end on six real unseen EcoFAB scans from RhizoNet Fig. 3 with convexification and biomass pixel counts; original 600-dpi scans are not public, so figure-derived inputs are shown to over-segment and accuracy is not verified.",
+      "semantic_tags": [
+        "environment:laboratory",
+        "organ:root",
+        "task:stress_disease",
+        "task:time_series",
+        "task:yield_biomass",
+        "trait:biomass",
+        "trait:growth_development",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "Unseen EcoFAB scans from RhizoNet Fig. 3: raw input, hand-annotated reference, and the executed model_64 root-mask overlay.",
+        "caption": "Unseen EcoFAB scans from RhizoNet Fig. 3: raw input, hand-annotated reference, and the executed model_64 root-mask overlay."
+      }
     }
   ]
 }
