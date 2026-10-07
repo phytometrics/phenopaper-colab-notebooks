@@ -3701,6 +3701,26 @@
         "alt": "PlantVillage validation inputs with ground-truth labels (first batch) for the Mob-Res (A+B)Bf checkpoint",
         "caption": "PlantVillage validation inputs with ground-truth labels (first batch) for the Mob-Res (A+B)Bf checkpoint"
       }
+    },
+    {
+      "public_id": "p-bbb6f18ec693f941aa83ad24494c855d",
+      "title": "Automatic rape flower cluster counting method based on low-cost labelling and UAV-RGB images.",
+      "doi": "10.1186/s13007-023-01017-x",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Pretrained RapeNet and RapeNet+ density-map counting reproduced on 3 RFCP test images (CPU), with the paper-style three-panel visualization for sample 00061727; a 3-sample demo, not a full test-set evaluation.",
+      "semantic_tags": [
+        "crop:rapeseed",
+        "environment:aerial",
+        "environment:field",
+        "modality:rgb",
+        "organ:inflorescence",
+        "task:counting"
+      ],
+      "preview": {
+        "alt": "RFCP test 00061727: input with manual centroids (left), ground-truth density heatmap (center), RapeNet predicted density overlay with inferred count 421.98 vs manual 392 (right).",
+        "caption": "RFCP test 00061727: input with manual centroids (left), ground-truth density heatmap (center), RapeNet predicted density overlay with inferred count 421.98 vs manual 392 (right)."
+      }
     }
   ]
 }
