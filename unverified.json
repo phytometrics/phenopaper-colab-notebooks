@@ -459,6 +459,23 @@
       "notebook_sha256": "a118e5d244b5ed56c9a0dbb15483410b317ebffbd3ff20b577b07297b4624800",
       "source_sha256": "8c5c22741eca02bb6612b80e1e08be2eabe197803de615fd1f2ef0ee273083d9",
       "code_cells": 10
+    },
+    {
+      "public_id": "p-37f99cf456e74d916230de8d4ac87be7",
+      "title": "MaiZaic : a robust end-to-end pipeline for mosaicking freely flown aerial video of agricultural fields",
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        "Dewi Endah Kharismawati",
+        "Toni Kazic"
+      ],
+      "investigation_run_id": "p-37f99cf456e74d916230de8d4ac87be7-20260929T113611Z-2565368",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-08T22:29:10.166Z] ✗ cd /home/phyto/phenotyping-colab/runs/p-37f99cf456e74d916230de8d4ac87be7-20261008T220221Z/logs && cp FINAL_cli.log attempt1_cli.log && cp ../deliverables/p-37f99cf456e74d916230de8d4ac87be7_output.ipynb attempt1_ | [2026-10-08T22:29:10.166Z] Error: The user rejected permission to use this specific tool call. | [2026-10-08T22:29:16.418Z] Attempt 1 reached terminal state (exit 0, but with the diagnosed cell failures). Global assembly showed our re-computed ASIFT H deviates from the author's committed H (corner RMSE 146–254 px — feature-matching non | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-09",
+      "notebook_path": "notebooks/unverified/p-37f99cf456e74d916230de8d4ac87be7.ipynb",
+      "notebook_sha256": "0cbe5d3ccce2ee0b00be11be31c59972bcc6a4c154f71257cd8e9f27679133f7",
+      "source_sha256": "80068bb2f6b725cb8a0456cf2f41f5e47c157d8728993289aff9b714422a6226",
+      "code_cells": 15
     }
   ]
 }
