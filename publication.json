@@ -9496,6 +9496,44 @@
         "alt": "Validation scan C_1_14_18_bot: reproduced vein-grower (Focal Loss) prediction overlay (red), predicted probability map, manual ground-truth venation (green), and the authors' released prediction (blue).",
         "caption": "Validation scan C_1_14_18_bot: reproduced vein-grower (Focal Loss) prediction overlay (red), predicted probability map, manual ground-truth venation (green), and the authors' released prediction (blue)."
       }
+    },
+    {
+      "public_id": "p-14b928e2e3551f85dd637595b256b287",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Image segmentation method for physically touching soybean seeds",
+      "journal": "Software Impacts",
+      "authors": [
+        "Wei Lin",
+        "Daoyi Ma",
+        "Qin Su",
+        "Shuo Liu",
+        "Hongjian Liao",
+        "Heyang Yao",
+        "Peiquan Xu"
+      ],
+      "doi": "10.1016/j.simpa.2023.100591",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Runs the authors' unmodified C++ ISM pipeline (MSRCR, Otsu-AT, MBR, 13x13 morphological touch breaking) from the pinned commit on the two bundled 3072x2048 touching-seed images, producing 285+283 individual 227x227 seed crops; paper-level accuracy and Jetson TX2 timing are not verified.",
+      "semantic_tags": [
+        "crop:soybean",
+        "organ:seed",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Original 3072x2048 touching-seed input with contours of the ISM Otsu binary mask (AI-created diagnostic overlay, not an author figure).",
+        "caption": "Original 3072x2048 touching-seed input with contours of the ISM Otsu binary mask (AI-created diagnostic overlay, not an author figure)."
+      }
     }
   ]
 }
