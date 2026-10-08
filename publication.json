@@ -8493,6 +8493,45 @@
         "alt": "Input example image with Grad-CAM (block5_conv3, block3_conv3) and Guided Grad-CAM (block5_conv3) relevance heatmaps computed in this run.",
         "caption": "Input example image with Grad-CAM (block5_conv3, block3_conv3) and Guided Grad-CAM (block5_conv3) relevance heatmaps computed in this run."
       }
+    },
+    {
+      "public_id": "p-18c98e448f127215b03cd3165068391d",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Automatic identification of avocado fruit diseases based on machine learning and chromatic descriptors",
+      "journal": "Revista Chapingo Serie Horticultura",
+      "authors": [
+        "Colegio de Postgraduados, Campus Montecillo. México",
+        "Ulises Enrique Campos-Ferreira",
+        "Juan Manuel González‐Camacho",
+        "Colegio de Postgraduados, Campus Montecillo. México",
+        "José Alfredo Carrillo-Salazar",
+        "Colegio de Postgraduados, Campus Montecillo. México"
+      ],
+      "doi": "10.5154/r.rchsh.2023.04.002",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Re-executed the author's final Random-Forest comparison of BD1 vs BD2 chromatic descriptor sets (10-fold CV) and ran the author's released RF checkpoint for per-pixel disease identification of three segmented avocado images on CPU; the paper's exact mean-accuracy summary is not reproduced at the mean level.",
+      "semantic_tags": [
+        "crop:avocado",
+        "modality:rgb",
+        "organ:fruit",
+        "task:classification",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Segmented avocado fruit inputs (Fruto 31/16/1, one per class) next to the pretrained RF per-pixel classification overlay (S=green, R=brown, A=black)",
+        "caption": "Segmented avocado fruit inputs (Fruto 31/16/1, one per class) next to the pretrained RF per-pixel classification overlay (S=green, R=brown, A=black)"
+      }
     }
   ]
 }
