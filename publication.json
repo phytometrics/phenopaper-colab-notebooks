@@ -8124,6 +8124,44 @@
         "alt": "Tree 1022 log 2: our adapted render with our predicted whorl boxes (left) vs the authors' shipped example detection output (right).",
         "caption": "Tree 1022 log 2: our adapted render with our predicted whorl boxes (left) vs the authors' shipped example detection output (right)."
       }
+    },
+    {
+      "public_id": "p-6588323e0dafad2ced934b8fd8513b39",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Strawberry Water Content Estimation and Ripeness Classification Using Hyperspectral Sensing",
+      "journal": "Agronomy",
+      "authors": [
+        "Rahul Raj",
+        "Akansel Cosgun",
+        "Dana Kulić"
+      ],
+      "doi": "10.3390/agronomy12020425",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Reruns the paper's Section 5 ripeness classification (DT/SVM/MLP over NDSWI, WC, 670-750 nm and full-spectrum inputs) on the authors' 86-spectrum data.csv with repeated stratified CV; a 4-fold fall-back replaces the paper's 5-fold because the smallest class has 4 spectra, and results are a single-seed plausibility check rather than dataset-level verification.",
+      "semantic_tags": [
+        "crop:strawberry",
+        "modality:spectral",
+        "organ:fruit",
+        "task:classification",
+        "task:physiology",
+        "trait:reproductive_traits",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "NDSWI (Eq. 3) versus oven-dry water content for all 86 released spectra, colored by ripeness label; Pearson r = 0.668 matches the paper's reported raw-NDSWI correlation of 0.66.",
+        "caption": "NDSWI (Eq. 3) versus oven-dry water content for all 86 released spectra, colored by ripeness label; Pearson r = 0.668 matches the paper's reported raw-NDSWI correlation of 0.66."
+      }
     }
   ]
 }
