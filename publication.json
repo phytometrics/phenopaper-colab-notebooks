@@ -8975,6 +8975,43 @@
         "alt": "Deterministic per-class input samples from the Watermelon Disease Recognition Dataset: original 3024x3024 captures vs 224x224 network input",
         "caption": "Deterministic per-class input samples from the Watermelon Disease Recognition Dataset: original 3024x3024 captures vs 224x224 network input"
       }
+    },
+    {
+      "public_id": "p-65add3f3d49ff5dae3a1f577c49310dc",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Self-supervised Representation Learning for Reliable Robotic Monitoring of Fruit Anomalies",
+      "journal": "arXiv",
+      "authors": [
+        "Taeyeong Choi",
+        "Owen Would",
+        "Adrian Salazar-Gomez",
+        "Grzegorz Cielniak"
+      ],
+      "doi": "10.48550/arxiv.2109.10135",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Trains the CH-Rand self-supervised classifier on normal Ripe strawberries (Riseholme-2021 Split1) and evaluates kNN anomaly detection on the held-out test normals plus all 153 anomalous strawberries (k=1 ROC 0.924 vs paper 0.920); single seeded run with a 300-epoch cap, not the full 3-run/1500-epoch protocol.",
+      "semantic_tags": [
+        "crop:strawberry",
+        "modality:rgb",
+        "organ:fruit",
+        "task:stress_disease",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "A real Ripe strawberry input (left) and its 26 possible CH-Rand channel randomisations - the self-supervised pretext transform the classifier learns to detect.",
+        "caption": "A real Ripe strawberry input (left) and its 26 possible CH-Rand channel randomisations - the self-supervised pretext transform the classifier learns to detect."
+      }
     }
   ]
 }
