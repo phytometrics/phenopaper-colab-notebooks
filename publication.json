@@ -9240,6 +9240,38 @@
         "alt": "Input: band-mean reflectance of the 1046x640x224 'No EW vs. Perfect EW' scan (left) with the dataset's reference FinalMask annotation (right): blue = Bloom (EW present), red = NoBloom (EW absent). Reference data, not a model output.",
         "caption": "Input: band-mean reflectance of the 1046x640x224 'No EW vs. Perfect EW' scan (left) with the dataset's reference FinalMask annotation (right): blue = Bloom (EW present), red = NoBloom (EW absent). Reference data, not a model output."
       }
+    },
+    {
+      "public_id": "p-91cc48912990fd6351a5516aa3393cdb",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "3D shape sensing and deep learning-based segmentation of strawberries",
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Justin Le Louëdec",
+        "Grzegorz Cielniak"
+      ],
+      "doi": "10.1016/j.compag.2021.106374",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Reduced-budget training and evaluation of the pinned author CNN3D on 24 real stereo strawberry captures (24 train / 8 held-out, 40 epochs, batch 2) with the author's verbatim metric code; the reduced budget means Table 4 values are context only, and the paper's simulated dataset is not contained in the public archive.",
+      "semantic_tags": [
+        "crop:strawberry",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "One stereo capture: RGB input with the author-derived binary strawberry annotation overlay, back-projected depth, and the published label_viz reference.",
+        "caption": "One stereo capture: RGB input with the author-derived binary strawberry annotation overlay, back-projected depth, and the published label_viz reference."
+      }
     }
   ]
 }
