@@ -8290,6 +8290,52 @@
         "alt": "Raspberry PhenoSet test image A (159).JPG with the authors' reference phenology-stage annotations (stages A-G), drawn from the released test labels.",
         "caption": "Raspberry PhenoSet test image A (159).JPG with the authors' reference phenology-stage annotations (stages A-G), drawn from the released test labels."
       }
+    },
+    {
+      "public_id": "p-872c46dfb335fe02801fd6ff531b1a55",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Still image and spatial-temporal tomato data enabling detection, segmentation, tracking, and video-instance segmentation using strong and weak labels",
+      "journal": "arXiv",
+      "authors": [
+        "Michael Halstead",
+        "Esra Guclu",
+        "Mohamed Farag",
+        "Enrico Pallotta",
+        "Christian Hund",
+        "Ribana Roscher",
+        "Maren Bennewitz",
+        "Juergen Gall",
+        "Cyrill Stachniss",
+        "Chris McCool"
+      ],
+      "doi": "10.48550/arxiv.2607.14934",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Executed the released BUTom21 dataloader and COCO-to-YOLO conversion (multiclass, single-class, depth-filtered) on the hand-annotated 293-image still dataset with annotation-count verification; model training, benchmarks and tracking are not reproducible because no weights or such code were released.",
+      "semantic_tags": [
+        "crop:tomato",
+        "environment:field",
+        "organ:fruit",
+        "organ:whole_plant",
+        "task:object_detection",
+        "task:segmentation",
+        "task:tracking",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "BUTom21 still image with the dataset's reference hand annotations: per-instance mask contours and bounding boxes colored by ripeness subclass (red, mixed_red, green, orange, mixed_orange).",
+        "caption": "BUTom21 still image with the dataset's reference hand annotations: per-instance mask contours and bounding boxes colored by ripeness subclass (red, mixed_red, green, orange, mixed_orange)."
+      }
     }
   ]
 }
