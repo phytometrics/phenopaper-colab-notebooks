@@ -8452,6 +8452,47 @@
         "alt": "Synthetic lemons from the released CGAN generator: top row unhealthy (label 0), bottom row healthy (label 1), 256x256 px.",
         "caption": "Synthetic lemons from the released CGAN generator: top row unhealthy (label 0), bottom row healthy (label 1), 256x256 px."
       }
+    },
+    {
+      "public_id": "p-a607ba3fc5816205c2c44e7b7818d992",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Noninvasive Diagnosis of Seedless Fruit Using Deep Learning in Persimmon",
+      "journal": "The Horticulture Journal",
+      "authors": [
+        "Kanae Masuda",
+        "Maria Suzuki",
+        "Kohei Baba",
+        "Kouki Takeshita",
+        "Tetsuya Suzuki",
+        "Mayu Sugiura",
+        "Takeshi Niikawa",
+        "Seiichi Uchida",
+        "Takashi Akagi"
+      ],
+      "doi": "10.2503/hortj.utd-248",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Reproduces the paper's Grad-CAM (block5_conv3/block3_conv3) and Guided Grad-CAM (block5_conv3) visual-explanation pipeline with a TF2 port of the cited uchidalab/softmaxgradient-lrp implementation on the authors' example image with ImageNet VGG16; the unpublished persimmon dataset and trained weights remain out of scope.",
+      "semantic_tags": [
+        "modality:rgb",
+        "organ:fruit",
+        "task:classification",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Input example image with Grad-CAM (block5_conv3, block3_conv3) and Guided Grad-CAM (block5_conv3) relevance heatmaps computed in this run.",
+        "caption": "Input example image with Grad-CAM (block5_conv3, block3_conv3) and Guided Grad-CAM (block5_conv3) relevance heatmaps computed in this run."
+      }
     }
   ]
 }
