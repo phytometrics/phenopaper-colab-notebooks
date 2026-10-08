@@ -8197,6 +8197,57 @@
         "alt": "Original 16 training and 14 test cantaloupe rind images from the author repository (commit 10620c2), labeled with the script's alternating classes (odd = raw, even = ripe)",
         "caption": "Original 16 training and 14 test cantaloupe rind images from the author repository (commit 10620c2), labeled with the script's alternating classes (odd = raw, even = ripe)"
       }
+    },
+    {
+      "public_id": "p-5cd1fcabe4b5cf13394eaab9a7b8a8d2",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Balancing accuracy, completeness, and efficiency for rice 3D reconstruction through CBAM-UNet-based multi-view segmentation and camera configuration optimization",
+      "journal": "Frontiers in Plant Science",
+      "authors": [
+        "Haoyang Zhou",
+        "Rongjie Chen",
+        "Hao Wang",
+        "Minglu Li",
+        "Yongkang Teng",
+        "Shenghao Ye",
+        "Menglei Wei",
+        "Kun Yu",
+        "Pingping Fang",
+        "Jing Cao",
+        "Fanglin Zhu",
+        "Wenyu Zhang",
+        "Ting Sun",
+        "Min Jiang"
+      ],
+      "doi": "10.3389/fpls.2026.1882534",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Runs the authors' unmodified trait-extraction script on all eight deposited representative rice point clouds (4 cultivars x heading/maturity), computing plant height (Eq. 10) and PCA canopy width in cm; CBAM-UNet inference is not executed because no input image is deposited.",
+      "semantic_tags": [
+        "crop:rice",
+        "modality:photogrammetry",
+        "modality:point_cloud",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:reconstruction",
+        "task:segmentation",
+        "trait:architecture",
+        "trait:plant_height"
+      ],
+      "preview": {
+        "alt": "Orthographic projections of the deposited rice_variety_V1_heading.ply point cloud (top view colored by height with PCA canopy width; side view with plant height), rendered in Colab from the actual Zenodo v2.2 data.",
+        "caption": "Orthographic projections of the deposited rice_variety_V1_heading.ply point cloud (top view colored by height with PCA canopy width; side view with plant height), rendered in Colab from the actual Zenodo v2.2 data."
+      }
     }
   ]
 }
