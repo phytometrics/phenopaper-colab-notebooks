@@ -8248,6 +8248,48 @@
         "alt": "Orthographic projections of the deposited rice_variety_V1_heading.ply point cloud (top view colored by height with PCA canopy width; side view with plant height), rendered in Colab from the actual Zenodo v2.2 data.",
         "caption": "Orthographic projections of the deposited rice_variety_V1_heading.ply point cloud (top view colored by height with PCA canopy width; side view with plant height), rendered in Colab from the actual Zenodo v2.2 data."
       }
+    },
+    {
+      "public_id": "p-4394433e0bd011cf33b4d5414630dadf",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Phenology-based learning framework for yield estimation and harvest forecasting of raspberry fruits",
+      "journal": "arXiv",
+      "authors": [
+        "Parham Jafary",
+        "Lesley G. Campbell",
+        "Anna Bazangeya",
+        "Michelle Pham",
+        "Sajad Saeedi",
+        "Kourosh Zareinia",
+        "Habiba Bougherara"
+      ],
+      "doi": "10.48550/arxiv.2411.00967",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Loads the authors' pretrained YOLOv8-X checkpoint and validates the released Raspberry PhenoSet low-resolution test split (278 images) against the paper's Table V row; training, segmentation, and v2-only field-test results are out of scope.",
+      "semantic_tags": [
+        "crop:raspberry",
+        "organ:flower",
+        "organ:fruit",
+        "task:object_detection",
+        "task:yield_biomass",
+        "trait:growth_development",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Raspberry PhenoSet test image A (159).JPG with the authors' reference phenology-stage annotations (stages A-G), drawn from the released test labels.",
+        "caption": "Raspberry PhenoSet test image A (159).JPG with the authors' reference phenology-stage annotations (stages A-G), drawn from the released test labels."
+      }
     }
   ]
 }
