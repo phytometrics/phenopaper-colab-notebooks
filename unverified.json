@@ -439,6 +439,26 @@
       "authors": [
         "Lau KJ, Chen C, Muruganantham S, Muralishankar V, Naqvi NI."
       ]
+    },
+    {
+      "public_id": "p-a5f12acf9b11d04c96db0f78b3c805eb",
+      "title": "DSeg: A dynamic image segmentation program to extract backbone patterns for filamentous bacteria and hyphae structures",
+      "journal": "openRxiv",
+      "authors": [
+        "Hanqing Zhang",
+        "Niklas Söderholm",
+        "Linda Sandblad",
+        "Krister Wiklund",
+        "Magnus Andersson"
+      ],
+      "investigation_run_id": "p-a5f12acf9b11d04c96db0f78b3c805eb-20261008T035414Z-679663",
+      "status": "failed",
+      "reason": "Fresh CPU validation #2 (dseg-a5f12a-final2) executed the full notebook; 9/10 code cells clean including the complete author-code Octave pipeline (segmentation, backbone, persistence length on frames 88-90). One added visualization cell failed (np.loadtxt needs delimiter=',' for csvwrite output). Session budget 3/3 exhausted (diag + two final attempts), so no third fresh run was possible. One-line fix applied to deliverables notebook; execution-verified publication requires a fresh full run.",
+      "created_on": "2026-10-08",
+      "notebook_path": "notebooks/unverified/p-a5f12acf9b11d04c96db0f78b3c805eb.ipynb",
+      "notebook_sha256": "a118e5d244b5ed56c9a0dbb15483410b317ebffbd3ff20b577b07297b4624800",
+      "source_sha256": "8c5c22741eca02bb6612b80e1e08be2eabe197803de615fd1f2ef0ee273083d9",
+      "code_cells": 10
     }
   ]
 }
