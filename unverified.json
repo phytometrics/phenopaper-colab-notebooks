@@ -459,6 +459,29 @@
       "notebook_sha256": "a118e5d244b5ed56c9a0dbb15483410b317ebffbd3ff20b577b07297b4624800",
       "source_sha256": "8c5c22741eca02bb6612b80e1e08be2eabe197803de615fd1f2ef0ee273083d9",
       "code_cells": 10
+    },
+    {
+      "public_id": "p-2ef60eacb1b9cda52b0c64d787509bb5",
+      "title": "Wheat3DGS: In-Field 3D Reconstruction, Instance Segmentation and Phenotyping of Wheat Heads with Gaussian Splatting",
+      "journal": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "authors": [
+        "Daiwei Zhang",
+        "Joaquin Gajardo",
+        "Tomislav Medic",
+        "Isinsu Katircioglu",
+        "Mike Boss",
+        "Norbert Kirchgessner",
+        "Achim Walter",
+        "Lukas Roth"
+      ],
+      "investigation_run_id": "p-2ef60eacb1b9cda52b0c64d787509bb5-20261008T083257Z-895696",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-08T10:00:58.025Z] if o.output_type=='stream': print(o.text[-3000:]) | [2026-10-08T10:00:58.025Z] EOF failed | [2026-10-08T10:00:58.025Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-08",
+      "notebook_path": "notebooks/unverified/p-2ef60eacb1b9cda52b0c64d787509bb5.ipynb",
+      "notebook_sha256": "a48cd94aeedfde17c10ef05f4f72171340e3ef22fe52dac9359aab0657135d61",
+      "source_sha256": "91cb1c00dc4bfe3d91f12c7468c3d5070b579861bb594cc69aa5fd0bb1b9b9f1",
+      "code_cells": 14
     }
   ]
 }
