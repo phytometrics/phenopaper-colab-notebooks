@@ -9310,6 +9310,42 @@
         "alt": "PhenoVision v1.1.0 flower/fruit probabilities and Detected/Not Detected calls for two iNaturalist sunflower photographs, shown with their human reference phenology annotations.",
         "caption": "PhenoVision v1.1.0 flower/fruit probabilities and Detected/Not Detected calls for two iNaturalist sunflower photographs, shown with their human reference phenology annotations."
       }
+    },
+    {
+      "public_id": "p-8695d90dc25029eac651b1c2513552ca",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "FreezeNet: A Lightweight Model for Enhancing Freeze Tolerance Assessment and Genetic Analysis in Wheat",
+      "journal": "Plant Phenomics",
+      "authors": [
+        "Sun F, Yin M, Zheng S, Ma S, Ling HQ, He F, Jiang N."
+      ],
+      "doi": null,
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Executed the paper's minimal phenotyping path (ring-crop, FreezeNet inference, HSV traits) on the 6 author sample images on CPU, matching the author's own reference outputs within 0.012%; training, benchmark and GWAS are out of scope.",
+      "semantic_tags": [
+        "crop:wheat",
+        "modality:rgb",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:stress_disease",
+        "trait:pigment_color",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "Author sample field images (top) with FreezeNet predicted plant masks overlaid (bottom); background dimmed, prediction from the paper-matched checkpoint.",
+        "caption": "Author sample field images (top) with FreezeNet predicted plant masks overlaid (bottom); background dimmed, prediction from the paper-matched checkpoint."
+      }
     }
   ]
 }
