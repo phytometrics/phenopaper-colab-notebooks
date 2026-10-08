@@ -8854,6 +8854,52 @@
         "alt": "Reproduced Figure 2: standardized log-odds coefficients with 95% CI from the paper's final detection GLMM (authors' own R code and dataset)",
         "caption": "Reproduced Figure 2: standardized log-odds coefficients with 95% CI from the paper's final detection GLMM (authors' own R code and dataset)"
       }
+    },
+    {
+      "public_id": "p-6e86a87cb81f3e95d027928e41018947",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Individual tree segmentation of airborne and UAV LiDAR point clouds based on the watershed and optimized connection center evolution clustering",
+      "journal": "Ecology and Evolution",
+      "authors": [
+        "Yi Li",
+        "Donghui Xie",
+        "Yingjie Wang",
+        "Shuangna Jin",
+        "Kun Zhou",
+        "Zhixiang Zhang",
+        "Weihua Li",
+        "Wuming Zhang",
+        "Xihan Mu",
+        "Guangjian Yan"
+      ],
+      "doi": "10.1002/ece3.10297",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Runs the paper's full three-stage ITS pipeline (lidR watershed, author bandwidth formula, unmodified MATLAB CCE core in Octave) on the repository's embedded 140 m ALS sample, producing 774 labeled trees with position/height/crown metrics; single-plot scope, no published accuracy metrics reproduced.",
+      "semantic_tags": [
+        "environment:aerial",
+        "environment:field",
+        "modality:point_cloud",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:plant_height"
+      ],
+      "preview": {
+        "alt": "Input ALS point cloud (height-colored) vs watershed initial segmentation (755 trees) vs watershed + optimized CCE (774 trees), top view of sample 03_ALS_csf.las",
+        "caption": "Input ALS point cloud (height-colored) vs watershed initial segmentation (755 trees) vs watershed + optimized CCE (774 trees), top view of sample 03_ALS_csf.las"
+      }
     }
   ]
 }
