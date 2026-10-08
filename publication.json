@@ -8634,6 +8634,38 @@
         "alt": "Labeled training samples from the authors' released data3.zip: one 224x224 generator batch with its true ripeness class above each image.",
         "caption": "Labeled training samples from the authors' released data3.zip: one 224x224 generator batch with its true ripeness class above each image."
       }
+    },
+    {
+      "public_id": "p-378c307fa0acccd359ef9c4c7aae2faf",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "FruitTouch: A Perceptive Gripper for Gentle and Scalable Fruit Harvesting",
+      "journal": "IEEE Robotics and Automation Letters",
+      "authors": [
+        "Ruohan Zhang",
+        "Mohammad Amin Mirzaee",
+        "Wenzhen Yuan"
+      ],
+      "doi": "10.1109/lra.2026.3692042",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Runs the author's unmodified GripGen script (scale 1.5, STL/OBJ export with boolean cutouts) and renders 10 internal tactile-observation images (openings 4-40 mm) with the author's Cycles scene on a Colab T4; perception models and harvesting experiments are not reproducible from released assets.",
+      "semantic_tags": [
+        "organ:fruit"
+      ],
+      "preview": {
+        "alt": "Internal tactile observation at 12 mm gripper opening: our T4 Cycles render (left) vs the author's reference render from the pinned repository commit (right); MAE 3.36/255.",
+        "caption": "Internal tactile observation at 12 mm gripper opening: our T4 Cycles render (left) vs the author's reference render from the pinned repository commit (right); MAE 3.36/255."
+      }
     }
   ]
 }
