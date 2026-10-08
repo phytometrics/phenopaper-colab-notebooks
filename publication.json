@@ -9534,6 +9534,59 @@
         "alt": "Original 3072x2048 touching-seed input with contours of the ISM Otsu binary mask (AI-created diagnostic overlay, not an author figure).",
         "caption": "Original 3072x2048 touching-seed input with contours of the ISM Otsu binary mask (AI-created diagnostic overlay, not an author figure)."
       }
+    },
+    {
+      "public_id": "p-ca7ab4f349f060f9c51e0a3ab1a29e14",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "ChronoRoot 2.0: An Open AI-Powered Platform for 2D Temporal Plant Phenotyping",
+      "journal": "CONICET Digital (CONICET)",
+      "authors": [
+        "Rafael Nicolás Gaggion Zulpo",
+        "Rodrigo Bonazzola",
+        "María Florencia Legascue",
+        "María Florencia Mammarella",
+        "Florencia S. Rodríguez",
+        "Federico Emanuel Aballay",
+        "Florencia Belén Catulo",
+        "Andana Fleur Jami Charlotte Barrios",
+        "Franco Accavallo",
+        "Santiago Nahuel Villarreal",
+        "Martin Crespi",
+        "Martiniano M. Ricardi",
+        "Ezequiel Petrillo",
+        "Thomas Blein",
+        "Federico Ariel",
+        "Enzo Ferrante"
+      ],
+      "doi": null,
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Runs the authors' Segmentation App CLI (nnU-Net Arabidopsis fold-0 inference plus alpha=0.85 temporal post-processing) on a 6-frame subset of the official rpi101_roots demo series and compares the masks with the authors' shipped reference outputs.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "organ:root",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:time_series",
+        "task:tracking",
+        "trait:architecture",
+        "trait:growth_development",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "Demo IR input (left) with this run's predicted mask (center) and the authors' shipped Ensemble_color reference (right) for the same frame; author colormap.",
+        "caption": "Demo IR input (left) with this run's predicted mask (center) and the authors' shipped Ensemble_color reference (right) for the same frame; author colormap."
+      }
     }
   ]
 }
