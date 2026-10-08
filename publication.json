@@ -8415,6 +8415,43 @@
         "alt": "imageseg classification grid for the bundled canopy examples: input photograph, model prediction probabilities, and binary canopy-sky mask, produced by the authors' imageSegmentation() on CPU.",
         "caption": "imageseg classification grid for the bundled canopy examples: input photograph, model prediction probabilities, and binary canopy-sky mask, produced by the authors' imageSegmentation() on CPU."
       }
+    },
+    {
+      "public_id": "p-26d8c7da5c7b556d0abd4aac161bf583",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Fruit Quality and Defect Image Classification with Conditional GAN Data Augmentation",
+      "journal": "arXiv",
+      "authors": [
+        "Jordan J. Bird",
+        "Chloe M. Barnes",
+        "Luis J. Manso",
+        "Anikó Ekárt",
+        "Diego R. Faria"
+      ],
+      "doi": "10.48550/arxiv.2104.05647",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Generates 16 synthetic unhealthy and 16 synthetic healthy 256x256 lemon images with the authors' released epoch-1500 CGAN generator checkpoint and exact latent/label scheme; classification, pruning, and Grad-CAM are out of scope, and the 2000-epoch final generator is not in the repository.",
+      "semantic_tags": [
+        "crop:citrus",
+        "organ:fruit",
+        "task:classification",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Synthetic lemons from the released CGAN generator: top row unhealthy (label 0), bottom row healthy (label 1), 256x256 px.",
+        "caption": "Synthetic lemons from the released CGAN generator: top row unhealthy (label 0), bottom row healthy (label 1), 256x256 px."
+      }
     }
   ]
 }
