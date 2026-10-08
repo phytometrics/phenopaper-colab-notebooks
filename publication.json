@@ -9381,6 +9381,45 @@
         "alt": "Released CD, DD and XA canopy images with the authors' ground-truth spike bounding boxes (green) and per-image annotated spike counts.",
         "caption": "Released CD, DD and XA canopy images with the authors' ground-truth spike bounding boxes (green) and per-image annotated spike counts."
       }
+    },
+    {
+      "public_id": "p-41ac18c535939dc00012d26edac9c18d",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "PlantSR: Super-Resolution Improves Object Detection in Plant Images",
+      "journal": "Journal of Imaging",
+      "authors": [
+        "Tianyou Jiang",
+        "Qun Yu",
+        "Yang Zhong",
+        "Mingshun Shao"
+      ],
+      "doi": "10.3390/jimaging10060137",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Pretrained PlantSR x2 inference with the authors' test protocol on 8 official test-split images (PSNR/SSIM vs bicubic plus visual panel); training, the full 200-image benchmark and the counting experiments are not covered.",
+      "semantic_tags": [
+        "crop:apple",
+        "crop:soybean",
+        "organ:fruit",
+        "organ:seed",
+        "task:counting",
+        "task:object_detection",
+        "task:preprocessing"
+      ],
+      "preview": {
+        "alt": "LR input, bicubic, PlantSR x2 prediction and HR reference for test image img001.jpg (PlantSR +1.47 dB over bicubic)",
+        "caption": "LR input, bicubic, PlantSR x2 prediction and HR reference for test image img001.jpg (PlantSR +1.47 dB over bicubic)"
+      }
     }
   ]
 }
