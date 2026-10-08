@@ -9206,6 +9206,40 @@
         "alt": "Raw input frame vs published aligned crop vs published lesion instance-mask overlay (dataset annotation products) for leaf series ESWW0070020_1",
         "caption": "Raw input frame vs published aligned crop vs published lesion instance-mask overlay (dataset annotation products) for leaf series ESWW0070020_1"
       }
+    },
+    {
+      "public_id": "p-5dc3efaf0691d4ff3f7932753388d892",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Proximal near-infrared hyperspectral imaging dataset for identifying epicuticular wax loss in Masena blueberries to evaluate post-harvest quality.",
+      "journal": "Data in brief",
+      "authors": [
+        "Faisal S, Thawdar Y, Ooi MP, Reutemann P, Fletcher D, Kuang YC, Abeysekera SK."
+      ],
+      "doi": "10.1016/j.dib.2025.111946",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Pixel-level bloom vs no-bloom classification of one MD5-verified 600 MB 'No EW vs. Perfect EW' NIR hypercube from the BB-HSI dataset (Data in Brief 2025), following pinned happy-tools reader/model-map semantics; demo metrics only, as the paper is a data release reporting no accuracy.",
+      "semantic_tags": [
+        "crop:blueberry",
+        "environment:laboratory",
+        "modality:spectral",
+        "organ:fruit",
+        "task:classification"
+      ],
+      "preview": {
+        "alt": "Input: band-mean reflectance of the 1046x640x224 'No EW vs. Perfect EW' scan (left) with the dataset's reference FinalMask annotation (right): blue = Bloom (EW present), red = NoBloom (EW absent). Reference data, not a model output.",
+        "caption": "Input: band-mean reflectance of the 1046x640x224 'No EW vs. Perfect EW' scan (left) with the dataset's reference FinalMask annotation (right): blue = Bloom (EW present), red = NoBloom (EW absent). Reference data, not a model output."
+      }
     }
   ]
 }
