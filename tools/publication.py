@@ -65,6 +65,10 @@ def validate_entry(entry: dict) -> None:
         fail(f"Invalid public_id: {public_id!r}")
     for field in ("title", "compute", "validated_on", "demonstration"):
         clean_text(entry.get(field), field)
+    if entry.get("journal") is not None and not isinstance(entry["journal"], str):
+        fail("Invalid journal")
+    if not isinstance(entry.get("authors", []), list) or not all(isinstance(a, str) for a in entry.get("authors", [])):
+        fail("Invalid authors")
     dt.date.fromisoformat(entry["validated_on"])
     if entry["compute"] not in {"CPU", "T4 GPU", "CPU + T4 GPU"}:
         fail(f"Unsupported compute label for {public_id}")
@@ -103,12 +107,37 @@ def load_manifest() -> dict:
     return data
 
 
+def author_names(value) -> list[str]:
+    if isinstance(value, str):
+        try:
+            value = json.loads(value)
+        except (ValueError, TypeError):
+            return []
+    if not isinstance(value, list):
+        return []
+    names = []
+    for author in value:
+        name = author if isinstance(author, str) else " ".join(str(author.get(k) or "") for k in ("given", "family")) if isinstance(author, dict) else ""
+        name = " ".join(html.unescape(name).split())
+        if name:
+            names.append(name)
+    return names
+
+
+def bibliography(entry: dict) -> str:
+    def escaped(value):
+        return html.escape(" ".join(html.unescape(value).split())).replace("|", "&#124;")
+    journal = escaped(entry.get("journal") or "Journal not supplied")
+    authors = escaped(" · ".join(author_names(entry.get("authors", []))) or "Authors not supplied")
+    return f"<sub><b>Journal:</b> {journal}<br><b>Authors:</b> {authors}</sub>"
+
+
 def row(entry: dict) -> str:
     public_id = entry["public_id"]
     colab = f"https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/notebooks/{public_id}.ipynb"
     paper = f"https://phenopaper.smartbreed-plant-phenotyping-platform.com/papers/{public_id}"
     title = html.escape(entry["title"]).replace("\\", "\\\\").replace("[", "\\[").replace("]", "\\]")
-    details = f"**{title}**<br><sub>public_id: <code>{public_id}</code></sub><br><br>"
+    details = f"**{title}**<br>{bibliography(entry)}<br><sub>public_id: <code>{public_id}</code></sub><br><br>"
     details += f"[![Open in PhenoPaper](https://img.shields.io/badge/Open_in-PhenoPaper-356859?style=flat-square)]({paper}) "
     if entry.get("doi"):
         details += f"[![DOI paper](https://img.shields.io/badge/DOI-paper-326CE5?style=flat-square)](https://doi.org/{quote(entry['doi'], safe='/')}) "
@@ -382,7 +411,7 @@ def render_notebook_index(data: dict) -> str:
         title = html.escape(entry["title"]).replace(chr(92), chr(92) * 2).replace("[", chr(92) + "[").replace("]", chr(92) + "]")
         notebook = f"notebooks/{public_id}.ipynb"
         colab = f"https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/{notebook}"
-        items.append(f"- [{title}]({notebook}) · [Open in Colab]({colab})")
+        items.append(f"- [{title}]({notebook}) · [Open in Colab]({colab})<br>{bibliography(entry)}")
     catalog_links = [
         f"- [Page {number}: notebooks {start + 1}–{start + len(page)}](catalog/page-{number:03d}.md)"
         for number, start, page in catalog_groups(data)
@@ -598,6 +627,8 @@ def publish(args: argparse.Namespace) -> None:
         "public_id": args.public_id,
         "generation": generation.for_run(run_dir),
         "title": api.get("title"),
+        "journal": api.get("journal"),
+        "authors": author_names(api.get("authors") or api.get("authors_json") or []),
         "doi": api.get("doi"),
         "compute": args.compute,
         "validated_on": args.validated_on,

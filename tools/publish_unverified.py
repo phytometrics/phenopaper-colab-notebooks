@@ -36,7 +36,7 @@ def render(data):
         notebook=e['notebook_path'];colab=f'https://colab.research.google.com/github/phytometrics/phenopaper-colab-notebooks/blob/main/{notebook}'
         reason=html.escape(e['reason']).replace('|','&#124;').replace('\n','<br>')
         title=html.escape(e['title']).replace('|','&#124;')
-        rows.append(f'| **{title}**<br>`{e["public_id"]}`<br>[Open in Colab]({colab}) · [Notebook]({notebook}) · [PhenoPaper](https://phenopaper.smartbreed-plant-phenotyping-platform.com/papers/{e["public_id"]}) | **Unverified / incomplete** · {e["created_on"]}<br>Attempt: {e["status"]}<br>{reason} |')
+        rows.append(f'| **{title}**<br>{verified.bibliography(e)}<br>`{e["public_id"]}`<br>[Open in Colab]({colab}) · [Notebook]({notebook}) · [PhenoPaper](https://phenopaper.smartbreed-plant-phenotyping-platform.com/papers/{e["public_id"]}) | **Unverified / incomplete** · {e["created_on"]}<br>Attempt: {e["status"]}<br>{reason} |')
     return '# Unverified and incomplete notebooks\n\nThis page lists every saved draft notebook that has not passed full execution verification, including drafts from attempts that ended in failure. Use the recorded attempt status and stopping reason to interpret each artifact; a saved draft is not evidence of successful execution. Failed attempts with no saved notebook are listed on [Failed reproduction attempts](FAILED.md).\n\n未検証または途中までのNotebookを、実行結果にかかわらずここに集約しています。作成済みであることは実行成功を意味しません。Notebookを残せなかった失敗試行は[失敗一覧](FAILED.md)を参照してください。\n\n[AI-verified notebooks](README.md#notebooks)\n\n| Paper / notebook | Status and stopping reason |\n| --- | --- |\n'+'\n'.join(rows)+'\n'
 
 
@@ -71,7 +71,7 @@ def render_failed(failures, unverified):
         reason=html.escape(e.get('reason') or 'No detailed reason was recorded.').replace('|','&#124;').replace('\n','<br>')
         links=[f'[PhenoPaper](https://phenopaper.smartbreed-plant-phenotyping-platform.com/papers/{public_id})']
         attempt=e.get('investigation_run_id') or e.get('run_id') or 'run ID not recorded'
-        rows.append(f'| **{title}**<br>`{public_id}`<br>{" · ".join(links)} | {e.get("created_on","date unknown")}<br>`{html.escape(str(attempt))}` | {reason} |')
+        rows.append(f'| **{title}**<br>{verified.bibliography(e)}<br>`{public_id}`<br>{" · ".join(links)} | {e.get("created_on","date unknown")}<br>`{html.escape(str(attempt))}` | {reason} |')
     if not rows:
         rows=['| No failed attempts have been recorded yet. | — | — |']
     return '# Failed attempts without a saved notebook\n\nThis page lists failed attempts that did not leave a saved draft notebook for reference. When a draft exists, the paper appears only on [Unverified and incomplete notebooks](UNVERIFIED.md), with its failure reason and Colab link. A failed attempt does not establish that the paper is irreproducible. Failure details are drawn from queue reports and captured tool diagnostics.\n\nNotebook草稿を残せなかった失敗試行を掲載しています。草稿を保存できた論文は重複させず、未検証一覧に理由とColabリンクをまとめています。失敗は論文が再現不可能であることを意味しません。\n\n[AI-verified notebooks](README.md#notebooks) · [Unverified and incomplete notebooks](UNVERIFIED.md)\n\n| Paper / record | Failed date / investigation run | Recorded failure reason |\n| --- | --- | --- |\n'+'\n'.join(rows)+'\n'
@@ -158,7 +158,7 @@ def main():
     failure_entry=None
     if a.status=='failed':
         run_id=run.name if run else inv
-        failure_entry={'public_id':a.public_id,'title':title,'investigation_run_id':inv,'run_id':run_id,'status':'failed','reason':reason,'created_on':dt.date.today().isoformat()}
+        failure_entry={'public_id':a.public_id,'title':title,'journal':(api or {}).get('journal'),'authors':verified.author_names((api or {}).get('authors') or (api or {}).get('authors_json') or []),'investigation_run_id':inv,'run_id':run_id,'status':'failed','reason':reason,'created_on':dt.date.today().isoformat()}
         if raw and code and inv:failure_entry['notebook_path']=f'notebooks/unverified/{a.public_id}.ipynb'
     if not raw or not code or (a.status=='failed' and not inv):
         if a.status!='failed':print(json.dumps({'skipped':'no_notebook'}));return
@@ -177,7 +177,7 @@ def main():
             save_pages(data)
             commit=git_publish(['failures.json','FAILED.md','UNVERIFIED.md','README.md'],f'Record failed notebook attempt {a.public_id}')
             verified.finish_mutation()
-        print(json.dumps({'failure_recorded':True,'public_id':a.public_id,'title':title,'investigation_run_id':inv,'repository_commit':commit}));return
+        print(json.dumps({'failure_recorded':True,'public_id':a.public_id,'title':title,'journal':(api or {}).get('journal'),'authors':verified.author_names((api or {}).get('authors') or (api or {}).get('authors_json') or []),'investigation_run_id':inv,'repository_commit':commit}));return
     if len(raw)>10_000_000:raise ValueError('Draft notebook is too large')
     if re.search(r'(?i)Bearer\s+[A-Za-z0-9._~+/-]{8,}',json.dumps(nb)):raise ValueError('Draft contains a bearer credential')
     for c in cells:
@@ -186,7 +186,7 @@ def main():
     cells.insert(0,{'cell_type':'markdown','metadata':{},'source':notice.splitlines(keepends=True)})
     output=(json.dumps(nb,ensure_ascii=False,indent=1)+'\n').encode();digest=hashlib.sha256(output).hexdigest();path=f'notebooks/unverified/{a.public_id}.ipynb'
     if not inv:raise ValueError('Saved investigation identity is missing')
-    unverified_entry={'public_id':a.public_id,'title':title,'investigation_run_id':inv,'status':a.status,'reason':reason,'created_on':dt.date.today().isoformat(),'notebook_path':path,'notebook_sha256':digest,'source_sha256':hashlib.sha256(raw).hexdigest(),'code_cells':len(code)}
+    unverified_entry={'public_id':a.public_id,'title':title,'journal':(api or {}).get('journal'),'authors':verified.author_names((api or {}).get('authors') or (api or {}).get('authors_json') or []),'investigation_run_id':inv,'status':a.status,'reason':reason,'created_on':dt.date.today().isoformat(),'notebook_path':path,'notebook_sha256':digest,'source_sha256':hashlib.sha256(raw).hexdigest(),'code_cells':len(code)}
     with (REPO/'.git/publication.lock').open('a') as handle:
         fcntl.flock(handle,fcntl.LOCK_EX)
         if verified.git('status','--porcelain'):raise ValueError('Publication checkout has uncommitted changes')

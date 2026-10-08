@@ -11,7 +11,11 @@
       "notebook_path": "notebooks/unverified/p-24b915f099a92f385eba9e54c3b86e2f.ipynb",
       "notebook_sha256": "f3435ead475aafe9688c6cc0b3a9057b04098a48f31d6f4c11e962c763491d95",
       "source_sha256": "9519a6966bffc6664a75e13055ab8bb91b67cd3fc4fb809bd020275024da18ea",
-      "code_cells": 8
+      "code_cells": 8,
+      "journal": "Scientific data",
+      "authors": [
+        "Wu G, Guan K, Kimm H, Miao G, Yang X, Jiang C."
+      ]
     },
     {
       "public_id": "p-6f75092e4f4825ddd8125285022cfe18",
@@ -23,7 +27,11 @@
       "notebook_path": "notebooks/unverified/p-6f75092e4f4825ddd8125285022cfe18.ipynb",
       "notebook_sha256": "e3bf22a8eb692f5aacca28cd1b72d400de410e70cf470d23b4fbb1b3c15d9bda",
       "source_sha256": "4f6e22a26a356bc5cf1533c93a9bca40de16e524a838184e19c689291f6a4c26",
-      "code_cells": 11
+      "code_cells": 11,
+      "journal": "Nature communications",
+      "authors": [
+        "Pain C, Kriechbaumer V, Kittelmann M, Hawes C, Fricker M."
+      ]
     },
     {
       "public_id": "p-250c092053cb2b82d0df868fc279950e",
@@ -35,7 +43,11 @@
       "notebook_path": "notebooks/unverified/p-250c092053cb2b82d0df868fc279950e.ipynb",
       "notebook_sha256": "8d82ee2e4af4d513bb316d9344d6f1fae6a25a1a8c6a686659c2981c89124bb6",
       "source_sha256": "8dcdc89670986bea23e96bbe62be5ff16a73cb24ba65287b3c9235df00dc7323",
-      "code_cells": 3
+      "code_cells": 3,
+      "journal": "Applications in plant sciences",
+      "authors": [
+        "Weaver WN, Ng J, Laport RG."
+      ]
     },
     {
       "public_id": "p-2f4e49baa0e0fe95c6c8ab9c03d11b2a",
@@ -47,7 +59,11 @@
       "notebook_path": "notebooks/unverified/p-2f4e49baa0e0fe95c6c8ab9c03d11b2a.ipynb",
       "notebook_sha256": "e21c984d30455ea7ba5a2a74f87fa6abd72f5dd7851d50ec83b0da83a4f454fc",
       "source_sha256": "820f1a9ab55ef5f872cf311f2c5cab4b30775eba3c70586e0e0ade86233b4198",
-      "code_cells": 13
+      "code_cells": 13,
+      "journal": "Crop Science.",
+      "authors": [
+        "Brainard SH, Dawson JC."
+      ]
     },
     {
       "public_id": "p-4c96e2dcd4f0c243f1c5d62101143904",
@@ -59,7 +75,11 @@
       "notebook_path": "notebooks/unverified/p-4c96e2dcd4f0c243f1c5d62101143904.ipynb",
       "notebook_sha256": "9b83ff84b2708ff22a2d4ab58958c9ee08c88e894d3a6e7b5b48e81063a26a31",
       "source_sha256": "748b77cd973fe1c2b3773fc7f547e52e5578b872bb061c174787b2171bc30ffd",
-      "code_cells": 11
+      "code_cells": 11,
+      "journal": "Plant methods",
+      "authors": [
+        "Kirchgessner N, Hodel M, Studer B, Patocchi A, Broggini GAL."
+      ]
     },
     {
       "public_id": "p-6cd66ecb2c73a2bb32cdaff64b1a74d5",
@@ -71,7 +91,11 @@
       "notebook_path": "notebooks/unverified/p-6cd66ecb2c73a2bb32cdaff64b1a74d5.ipynb",
       "notebook_sha256": "2f980626067572d1bc012f154b80fef559aa05a4d53dfeee12417c137980f727",
       "source_sha256": "4a075f65866e80e73adb757c6f2e36bdcf5c76db762d3e0cb2b781af8cd5cf79",
-      "code_cells": 13
+      "code_cells": 13,
+      "journal": "Genetics",
+      "authors": [
+        "Carlson CH, Fiedler JD, Naraghi SM, Nazareno ES, Ardayfio NK, McMullen MS, Kianian SF."
+      ]
     },
     {
       "public_id": "p-8763982ed396003076d4f0310794187a",
@@ -83,7 +107,20 @@
       "notebook_path": "notebooks/unverified/p-8763982ed396003076d4f0310794187a.ipynb",
       "notebook_sha256": "ed01750822fafd64e80dd88af6388ca4b2f4a0b976ee69c61778c5a0328c1c43",
       "source_sha256": "d333035b79d79b94e67f26d2c7b5287f925afad248ddb172ba03c838e9ef9c5d",
-      "code_cells": 11
+      "code_cells": 11,
+      "journal": "Scientific Reports",
+      "authors": [
+        "Eva Neuwirthová",
+        "Jiří Chuchlík",
+        "Miroslav Pikl",
+        "Zuzana Lhotáková",
+        "Ivan Kashkan",
+        "Klará Panzarová",
+        "Jan Stejskal",
+        "Jana Albrechtová",
+        "Milan Lstibůrek",
+        "Jaroslav Čepl"
+      ]
     },
     {
       "public_id": "p-89e0e604d88be6ac51289b5224ee3bd0",
@@ -95,7 +132,11 @@
       "notebook_path": "notebooks/unverified/p-89e0e604d88be6ac51289b5224ee3bd0.ipynb",
       "notebook_sha256": "bfbedd629702297796c8505541c12447c05a6c535ee553db8a315f5c58318559",
       "source_sha256": "32f13fc74a372a7253bd183764c4099972dcbd82ca2cf7b3c7fa7f6cedcdeaab",
-      "code_cells": 13
+      "code_cells": 13,
+      "journal": "Data in Brief",
+      "authors": [
+        "van Marrewijk B , Njane SN, Tsuda S, van Culemborg M, Polder G, Katayama K, van Daalen T, van de Zedde R."
+      ]
     },
     {
       "public_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5",
@@ -107,7 +148,14 @@
       "notebook_path": "notebooks/unverified/p-52e5cb26b52aa179b3db5eec9f4bd2d5.ipynb",
       "notebook_sha256": "e7a640c8295355720a8fe126e2d1c9de1794c8ad99ea4e7b953ef4b3fcaf6a76",
       "source_sha256": "4760886e02d8dcec61ad7e8ec0b0e709705821397781c5d80bce31e05374ca94",
-      "code_cells": 14
+      "code_cells": 14,
+      "journal": "arXiv (Cornell University)",
+      "authors": [
+        "Yang Yang",
+        "Risa Shinoda",
+        "Hiroaki Santo",
+        "Fumio Okura"
+      ]
     },
     {
       "public_id": "p-a9eeb18ead1f19a9c2ea5e76c0b0ffb6",
@@ -119,7 +167,11 @@
       "notebook_path": "notebooks/unverified/p-a9eeb18ead1f19a9c2ea5e76c0b0ffb6.ipynb",
       "notebook_sha256": "600c2716add6a9dd320ef4836d425d3489bfd4bd1279ef2565b1a83cdebafbb1",
       "source_sha256": "15c9432dffefd983d703c13a3c6a2c2177b5000e7c6c5baca7f2c8cf2c2dcdab",
-      "code_cells": 9
+      "code_cells": 9,
+      "journal": "Plant phenomics (Washington, D.C.)",
+      "authors": [
+        "Wang Y, Guo X, Huang J, Chen C, Zhuge X, Chu W, Hao X."
+      ]
     },
     {
       "public_id": "p-583076a8ba468877ab54b5daa479ed87",
@@ -131,7 +183,11 @@
       "notebook_path": "notebooks/unverified/p-583076a8ba468877ab54b5daa479ed87.ipynb",
       "notebook_sha256": "36034e0d5d66459878f46db4d20b6ea71834acd8a47adfec1abd3cf9cf669006",
       "source_sha256": "636b85db5653a840a5bd1a7e10bde5625c3a2b3c0f404cc73adc1f36b36987f7",
-      "code_cells": 12
+      "code_cells": 12,
+      "journal": "Plant methods",
+      "authors": [
+        "Genze N, Bharti R, Grieb M, Schultheiss SJ, Grimm DG."
+      ]
     },
     {
       "public_id": "p-13d960f2f8637cfa0ec6e7dcfb20a5e5",
@@ -143,7 +199,13 @@
       "notebook_path": "notebooks/unverified/p-13d960f2f8637cfa0ec6e7dcfb20a5e5.ipynb",
       "notebook_sha256": "1f1cad31b023b683b0d28c9f87f0a84304f8fe55dd387ea99d60bb6b62d0be7c",
       "source_sha256": "cea748afe86b6b803ddb06ff8127737e28a045f13766408b401d4dcf734db307",
-      "code_cells": 6
+      "code_cells": 6,
+      "journal": "Plant Methods",
+      "authors": [
+        "Lukas Roth",
+        "Andreas Hund",
+        "Helge Aasen"
+      ]
     },
     {
       "public_id": "p-289774609cbd957dd47ad64d7093be1b",
@@ -155,7 +217,11 @@
       "notebook_path": "notebooks/unverified/p-289774609cbd957dd47ad64d7093be1b.ipynb",
       "notebook_sha256": "55bd774a8a8b404bcf45f2855f802c4b010b810bccfa990ccefd8d784b0b3d33",
       "source_sha256": "f8e2e4a04cf9d7408b1395b0039dd19dfd9fe6cb09067887ff664f9b331b2e3f",
-      "code_cells": 10
+      "code_cells": 10,
+      "journal": "California Digital Library (CDL)",
+      "authors": [
+        "White D, Cavender-Bares J, Davis C, Guzmán Q JA, Kothari S, Robles J, Meireles JE."
+      ]
     },
     {
       "public_id": "p-27b968e6f90cc2d48dfbdf44d668ee61",
@@ -167,7 +233,14 @@
       "notebook_path": "notebooks/unverified/p-27b968e6f90cc2d48dfbdf44d668ee61.ipynb",
       "notebook_sha256": "95273e65bf8edf0f13ed63d3b3a857506e1e9c112213e23a512290bcd8594e78",
       "source_sha256": "502704b2c9ced7973579e5e40f1d06f8e9234a5e188f079e14c0ad22fed4378c",
-      "code_cells": 19
+      "code_cells": 19,
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        "Federico Jurado-Ruiz",
+        "D. Rousseau",
+        "Juan A. Botía",
+        "María José Aranzana"
+      ]
     },
     {
       "public_id": "p-1fd15ec6e451611d0b5a9604964bc00d",
@@ -179,7 +252,12 @@
       "notebook_path": "notebooks/unverified/p-1fd15ec6e451611d0b5a9604964bc00d.ipynb",
       "notebook_sha256": "025653a269b3f7cd0dbecd7562db6455050acef8d3ce14f64c87d5401973c7b1",
       "source_sha256": "8ed64f435b5ebd430a4546bc90e5a3a9f17f89c02df946611e80d0f7fd59e557",
-      "code_cells": 13
+      "code_cells": 13,
+      "journal": "bioRxiv",
+      "authors": [
+        "Taylor, S. D.",
+        "Browning, D. M."
+      ]
     },
     {
       "public_id": "p-650819c551206a400b5a5865a67bb67b",
@@ -191,7 +269,18 @@
       "notebook_path": "notebooks/unverified/p-650819c551206a400b5a5865a67bb67b.ipynb",
       "notebook_sha256": "1444242927b65fa10b75e7ee8028c7eda49a97abe89c613624e0a3c91c319868",
       "source_sha256": "59d44c959c136d68bd1b502dfad983c2248aa4737b2cedcdb2244a7a4736da63",
-      "code_cells": 25
+      "code_cells": 25,
+      "journal": "GigaScience",
+      "authors": [
+        "Gytis Bernotas",
+        "Livia Scorza",
+        "Mark Hansen",
+        "Ian Hales",
+        "Karen Halliday",
+        "Lyndon Smith",
+        "Melvyn Smith",
+        "Alistair J. McCormick"
+      ]
     },
     {
       "public_id": "p-49b9b66bc2a39eae0216b71a44fbfcde",
@@ -203,7 +292,11 @@
       "notebook_path": "notebooks/unverified/p-49b9b66bc2a39eae0216b71a44fbfcde.ipynb",
       "notebook_sha256": "398cb318059d0ce99cd8785a4dc9c10ab5c9083fd8b95516093c352912280c3c",
       "source_sha256": "09bc00e06900b2dded640d1ca7e0f7f4c7c11432ac73ddbebfd71737237e2584",
-      "code_cells": 5
+      "code_cells": 5,
+      "journal": "Plant Phenomics",
+      "authors": [
+        "Bai X, Liu P, Cao Z, Lu H, Xiong H, Yang A, Cai Z, Wang J, Yao J."
+      ]
     },
     {
       "public_id": "p-8eb066596b66ac63b76cc87e1d066736",
@@ -215,7 +308,14 @@
       "notebook_path": "notebooks/unverified/p-8eb066596b66ac63b76cc87e1d066736.ipynb",
       "notebook_sha256": "1c2711b7b79bd8fa1ff8f216d9ba74596b672c071e99bd77a20236f9f4890c9e",
       "source_sha256": "64196f8acbef9830ce03dbb914c4f3b6a80a0c63d59f8daf726f5a37342a22d5",
-      "code_cells": 12
+      "code_cells": 12,
+      "journal": "Plant Methods",
+      "authors": [
+        "Md. Mehedi Hasan",
+        "Joshua Chopin",
+        "Hamid Laga",
+        "Stanley J. Miklavcic"
+      ]
     },
     {
       "public_id": "p-ab3aad79edeaf72b684b184a1da8a013",
@@ -227,7 +327,12 @@
       "notebook_path": "notebooks/unverified/p-ab3aad79edeaf72b684b184a1da8a013.ipynb",
       "notebook_sha256": "af02bb8dac32046e16254240243a2320b544a60bf1cea245940d6b8dcc915d8a",
       "source_sha256": "d2dc4f65f195ee543eef7b0ffb696dd3aae8acad47d70123c0f02a02f9867820",
-      "code_cells": 13
+      "code_cells": 13,
+      "journal": "arXiv",
+      "authors": [
+        "Md Ahmed Al Muzaddid",
+        "William J. Beksi"
+      ]
     },
     {
       "public_id": "p-b113edaf7173c42780d2402708d4ff97",
@@ -239,7 +344,11 @@
       "notebook_path": "notebooks/unverified/p-b113edaf7173c42780d2402708d4ff97.ipynb",
       "notebook_sha256": "1c54cefa77116d2277c72fb1dc7c07066499cd32e5e6aba450d0c8eea8544649",
       "source_sha256": "2a9aaf09bada455aa52010c4395ffdfbbb7b8df687a64169fd3dd163a676b49f",
-      "code_cells": 13
+      "code_cells": 13,
+      "journal": "Plant phenomics (Washington, D.C.)",
+      "authors": [
+        "Liu L, Lu H, Li Y, Cao Z."
+      ]
     },
     {
       "public_id": "p-903df80cc1f5c5f59869dfbe9b866bd7",
@@ -251,7 +360,14 @@
       "notebook_path": "notebooks/unverified/p-903df80cc1f5c5f59869dfbe9b866bd7.ipynb",
       "notebook_sha256": "95719014bf0778176d08686ebf20cd5e6ccf316c892f198e1bb52a1c62af5799",
       "source_sha256": "30445c392e31ff0253d379ca2c4c88a2393034bcd775e95d084183d2919985ac",
-      "code_cells": 10
+      "code_cells": 10,
+      "journal": "Plant Methods",
+      "authors": [
+        "Xuebin Jing",
+        "Yuanhao Wang",
+        "Dongxi Li",
+        "Weihua Pan"
+      ]
     },
     {
       "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
@@ -263,7 +379,11 @@
       "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb",
       "notebook_sha256": "94573cab56b48f3da0076bd3220165c17ba4e8978ad11e337fddd279e7bd5dc7",
       "source_sha256": "c11c8d3b2962c2fef27752744ed22ad76b39d307841a0507602fe022cd111b7a",
-      "code_cells": 14
+      "code_cells": 14,
+      "journal": "Frontiers in plant science",
+      "authors": [
+        "Quiñones Huatangari L, Vásquez Pérez HV, Valqui-Valqui L, Palomino Ojeda JM, Saravia D, Bardales Escalante W, Silva G, Chavez-Jalk A, Cruz Caro O, Valqui L."
+      ]
     },
     {
       "public_id": "p-76b3fc60078b3d0914bdc7784044dc1e",
@@ -275,7 +395,15 @@
       "notebook_path": "notebooks/unverified/p-76b3fc60078b3d0914bdc7784044dc1e.ipynb",
       "notebook_sha256": "13d121be28f90570ad7960ec2db786c5dc80bc6fb995148b6b832775c7b49082",
       "source_sha256": "96165b172ae204e69fa34333357e2eb1c4e377a8d0027f7d742cbf84c6ed73fc",
-      "code_cells": 11
+      "code_cells": 11,
+      "journal": "openRxiv",
+      "authors": [
+        "Kylie DeViller",
+        "Daniel H. Chitwood",
+        "Sean Myles",
+        "Mao Li",
+        "Zoë Migicovsky"
+      ]
     },
     {
       "public_id": "p-9a3c9cba4074a019ec533102f858e1c4",
@@ -287,7 +415,14 @@
       "notebook_path": "notebooks/unverified/p-9a3c9cba4074a019ec533102f858e1c4.ipynb",
       "notebook_sha256": "9c189b8f45587c0ed45b8f41de974554e717548eafb80b9a18b3a42a6cd883e4",
       "source_sha256": "e6b9efacd88f182ddc87fa93061d24b51d23b6ec427220707adf0d73d4043189",
-      "code_cells": 11
+      "code_cells": 11,
+      "journal": "Plant Methods",
+      "authors": [
+        "Saqib Qamar",
+        "Abu Imran Baba",
+        "Stéphane Verger",
+        "Magnus Andersson"
+      ]
     },
     {
       "public_id": "p-3146fc78c8a19cb00186903444524a1b",
@@ -299,7 +434,11 @@
       "notebook_path": "notebooks/unverified/p-3146fc78c8a19cb00186903444524a1b.ipynb",
       "notebook_sha256": "afad4ed3b196a400125b39df02e4b05a74d7367689a322e0b1c61b6c7ce49360",
       "source_sha256": "0df5710a33d0cb5f2269f26f431c2fe1041540288edb725673b0c2133348e48d",
-      "code_cells": 12
+      "code_cells": 12,
+      "journal": "bioRxiv",
+      "authors": [
+        "Lau KJ, Chen C, Muruganantham S, Muralishankar V, Naqvi NI."
+      ]
     }
   ]
 }

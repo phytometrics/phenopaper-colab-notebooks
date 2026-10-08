@@ -8,6 +8,18 @@ import publication
 
 
 class PublicationTests(unittest.TestCase):
+    def test_bibliography_escapes_metadata_and_precedes_public_id(self):
+        entry = dict(publication.load_manifest()["notebooks"][0])
+        entry.update(journal="Journal | <test>", authors=["A <Author>"])
+        rendered = publication.row(entry)
+        self.assertIn("Journal &#124; &lt;test&gt;", rendered)
+        self.assertIn("A &lt;Author&gt;", rendered)
+        self.assertLess(rendered.index("Journal:"), rendered.index("Authors:"))
+        self.assertLess(rendered.index("Authors:"), rendered.index("public_id:"))
+        self.assertEqual(publication.author_names([{"given": "Ada", "family": "Lovelace"}]), ["Ada Lovelace"])
+        self.assertIn("Journal not supplied", publication.bibliography({}))
+        self.assertIn("Authors not supplied", publication.bibliography({}))
+
     def test_current_catalog_renders_from_publication_json(self):
         data = publication.load_manifest()
         self.assertGreater(len(data["notebooks"]), 0)

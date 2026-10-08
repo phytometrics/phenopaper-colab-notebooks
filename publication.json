@@ -19,7 +19,15 @@
         "alt": "Leaf shape and deformation results across four examples",
         "caption": "Leaf shape and deformation results across four examples"
       },
-      "generation": null
+      "generation": null,
+      "journal": "International Journal of Computer Vision",
+      "authors": [
+        "Yang Yang",
+        "Risa Shinoda",
+        "Hiroaki Santo",
+        "Yasuyuki Matsushita",
+        "Fumio Okura"
+      ]
     },
     {
       "public_id": "p-02f6f83e31a71dc69ce32db56b013ca3",
@@ -39,7 +47,11 @@
         "alt": "Grapevine seed image and model overlap",
         "caption": "Grapevine seed image and model overlap"
       },
-      "generation": null
+      "generation": null,
+      "journal": null,
+      "authors": [
+        "Cervantes E, Martín-Gómez JJ, Espinosa Roldán FE, Muñoz Organero G, Tocino Á, Cabello Sáenz de Santamaría F."
+      ]
     },
     {
       "public_id": "p-076a5cd5ebdeed1a9ffaf2ec05b49074",
@@ -66,7 +78,13 @@
         "alt": "Sorghum chromosome 4 QTL profile comparison",
         "caption": "Sorghum chromosome 4 QTL profile comparison"
       },
-      "generation": null
+      "generation": null,
+      "journal": "bioRxiv",
+      "authors": [
+        "Ryan F. McCormick",
+        "Sandra K. Truong",
+        "John E. Mullet"
+      ]
     },
     {
       "public_id": "p-0e108836e8a4514b8486db589101c1d8",
@@ -88,7 +106,19 @@
         "alt": "Apple detections, amodal contours, and depth map",
         "caption": "Apple detections, amodal contours, and depth map"
       },
-      "generation": null
+      "generation": null,
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Jordi Gené-Mola",
+        "Mar Ferrer-Ferrer",
+        "Eduard Gregorio",
+        "Pieter M. Blok",
+        "J. Hemming",
+        "Josep Ramon Morros",
+        "Joan R. Rosell-Polo",
+        "Verónica Vilaplana",
+        "Javier Ruiz‐Hidalgo"
+      ]
     },
     {
       "public_id": "p-0f6c6d73a489f456dd530c51fce2b6f8",
@@ -109,7 +139,19 @@
         "alt": "Rice-root aerenchyma segmentation overlays",
         "caption": "Rice-root aerenchyma segmentation overlays"
       },
-      "generation": null
+      "generation": null,
+      "journal": "Plant Methods",
+      "authors": [
+        "Hani Atef",
+        "Laura Fierro-Dominguez",
+        "Paula Andrea Lozano-Montaña",
+        "Sergi Navarro Sanz",
+        "Julie Bals",
+        "Benoît Clerget",
+        "Christophe Périn",
+        "Maria Camila Rebolledo",
+        "Romain Fernandez"
+      ]
     },
     {
       "public_id": "p-4471692ed96241966f8a065745f5ce8b",
@@ -129,7 +171,16 @@
         "alt": "Detected stomata with aperture annotations",
         "caption": "Detected stomata with aperture annotations"
       },
-      "generation": null
+      "generation": null,
+      "journal": "bioRxiv",
+      "authors": [
+        "Yosuke Toda",
+        "Shigeo Toh",
+        "Gildas Bourdais",
+        "Silke Robatzek",
+        "Dan Maclean",
+        "Toshinori Kinoshita"
+      ]
     },
     {
       "public_id": "p-cac607b350005b99ef850fe315328b02",
@@ -151,7 +202,17 @@
         "alt": "Seasonal EVI and estimated phenological stages",
         "caption": "Seasonal EVI and estimated phenological stages"
       },
-      "generation": null
+      "generation": null,
+      "journal": "Journal of Remote Sensing",
+      "authors": [
+        "Uilson R. V. Aires",
+        "Vitor S. Martins",
+        "Lucas B. Ferreira",
+        "Xin Zhang",
+        "Kambham R. Reddy",
+        "Yun Yang",
+        "Ieda D. A. Sanches"
+      ]
     },
     {
       "public_id": "p-3f9aa46c732dc37158c82721d4b77927",
@@ -171,7 +232,11 @@
         "alt": "Litchi flowers with male/female point annotations",
         "caption": "Litchi flowers with male/female point annotations"
       },
-      "generation": null
+      "generation": null,
+      "journal": "Plant phenomics (Washington, D.C.)",
+      "authors": [
+        "Li J, Ma Z, Lin J, Wang Q, Lin X, Xia J, Xin B."
+      ]
     },
     {
       "public_id": "p-53f95a3aee70cb34c44b841dc78ab66c",
@@ -190,7 +255,12 @@
         "alt": "SPP kernel density heatmap (±150 µm, 1 µm² kernels) for maize genotype Z019E0047 with two in-file neighbor hotspots flanking the origin.",
         "caption": "SPP kernel density heatmap (±150 µm, 1 µm² kernels) for maize genotype Z019E0047 with two in-file neighbor hotspots flanking the origin."
       },
-      "generation": null
+      "generation": null,
+      "journal": "The Plant Phenome Journal",
+      "authors": [
+        "John G. Hodge",
+        "Andrew D.B. Leakey"
+      ]
     },
     {
       "public_id": "p-f3519059a34a39dca007cc56c27c6112",
@@ -208,7 +278,11 @@
         "alt": "Predicted plant performance for rice under individual vs combined drought-heat stress (ANN output, model-scaled units)",
         "caption": "Predicted plant performance for rice under individual vs combined drought-heat stress (ANN output, model-scaled units)"
       },
-      "generation": null
+      "generation": null,
+      "journal": "Applications in plant sciences",
+      "authors": [
+        "Priya P, Pandey P, Jain R, Kandpal M, Jain S, Chaudhury R, Ramegowda V, Senthil-Kumar M."
+      ]
     },
     {
       "public_id": "p-e7f7198f538d43be30658816c05dc291",
@@ -229,7 +303,21 @@
         "alt": "Sample UAV rice image with detected 4-keypoint plant polygons and tiller angles from vertical",
         "caption": "Sample UAV rice image with detected 4-keypoint plant polygons and tiller angles from vertical"
       },
-      "generation": null
+      "generation": null,
+      "journal": "The Plant Phenome Journal",
+      "authors": [
+        "Tan-Hanh Pham",
+        "Yubin Yang",
+        "Jing Zhang",
+        "Sanai Li",
+        "Stanley Omar PB. Samonte",
+        "Fugen Dou",
+        "Darlene L. Sanchez",
+        "Lloyd T. Wilson",
+        "Tanumoy Bera",
+        "Jing Wang",
+        "Kim‐Doang Nguyen"
+      ]
     },
     {
       "public_id": "p-aab17249643718cb3456261950846f0c",
@@ -253,7 +341,18 @@
         "alt": "Preprocessed 224x224 healthy and unhealthy Acacia senegal leaf samples entering the model",
         "caption": "Preprocessed 224x224 healthy and unhealthy Acacia senegal leaf samples entering the model"
       },
-      "generation": null
+      "generation": null,
+      "journal": "Frontiers in Nutrition",
+      "authors": [
+        "Karnika Singh",
+        "Rakhi Agrawal",
+        "P. M. Vighnesh",
+        "Ankur Lhila",
+        "Roshan Bagla",
+        "Pankaj Kumar Sharma",
+        "Mukul Joshi",
+        "Tanmaya Mahapatra"
+      ]
     },
     {
       "public_id": "p-fe5b7b0c511e3a6e2185295a6dd692ad",
@@ -275,7 +374,22 @@
         "alt": "Kernel segmentation overlay from one author-provided maize video; one-sample demonstration.",
         "caption": "Kernel segmentation overlay from one author-provided maize video; one-sample demonstration."
       },
-      "generation": null
+      "generation": null,
+      "journal": "Plant Methods",
+      "authors": [
+        "Shaoqi Fan",
+        "Guoji Li",
+        "Revocatus Bahitwa",
+        "Zhiguo Jia",
+        "Hongwei Zhang",
+        "Jinghong Shao",
+        "Qiuying Yu",
+        "Xi Chen",
+        "Yiheng Qian",
+        "Mingchi Xu",
+        "Linlin Zhu",
+        "Hai Wang"
+      ]
     },
     {
       "public_id": "p-90a1ec533d4072d493ab8988b00cbe88",
@@ -296,7 +410,19 @@
         "alt": "Nuclei detected by the iRoCS SVM pipeline, colored by assigned root layer over the DAPI projection.",
         "caption": "Nuclei detected by the iRoCS SVM pipeline, colored by assigned root layer over the DAPI projection."
       },
-      "generation": null
+      "generation": null,
+      "journal": "bioRxiv",
+      "authors": [
+        "Blein, T.",
+        "Duerr, J.",
+        "Pasternak, T.",
+        "Haser, T.",
+        "Falk, T.",
+        "Liu, K.",
+        "Ditengou, F. A.",
+        "Ronneberger, O.",
+        "Palme, K."
+      ]
     },
     {
       "public_id": "p-15bcc9628ba4264fba5bb4e0db4759eb",
@@ -318,7 +444,11 @@
         "alt": "Gland centers and best-fit ellipsoid for citrus sample WR05_CRC3605_18B-19-5_L03",
         "caption": "Gland centers and best-fit ellipsoid for citrus sample WR05_CRC3605_18B-19-5_L03"
       },
-      "generation": null
+      "generation": null,
+      "journal": null,
+      "authors": [
+        "Amézquita E, Amézquita E, Quigley M, Ophelders T, Seymour D, Munch E, Chitwood D."
+      ]
     },
     {
       "public_id": "p-07c9da3eccfa6f320360b76303c5390b",
@@ -337,7 +467,11 @@
         "alt": "LeafGen synthetic komatsuna plant textured with the pretrained pix2pix leaf generator (left) beside its auto-generated ground-truth instance mask (right).",
         "caption": "LeafGen synthetic komatsuna plant textured with the pretrained pix2pix leaf generator (left) beside its auto-generated ground-truth instance mask (right)."
       },
-      "generation": null
+      "generation": null,
+      "journal": "Plant phenomics (Washington, D.C.)",
+      "authors": [
+        "Asada N, Liu X, Xu K, Miyakawa R, Yang Y, Santo H, Toda Y, Okura F."
+      ]
     },
     {
       "public_id": "p-324daa00b292d7c0cf2927ddbb2643c6",
@@ -364,7 +498,13 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T042229Z-59904049"
-      }
+      },
+      "journal": "BMC Bioinformatics",
+      "authors": [
+        "Sebastian Raubach",
+        "Miriam Schreiber",
+        "Paul D. Shaw"
+      ]
     },
     {
       "public_id": "p-315c655a33b6833a2eeaeabc3bd74d9f",
@@ -390,7 +530,14 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T050048Z-4fc83a0d"
-      }
+      },
+      "journal": "arXiv",
+      "authors": [
+        "Sumit Kumar",
+        "Wenhao Luo",
+        "George Kantor",
+        "Katia Sycara"
+      ]
     },
     {
       "public_id": "p-970513dc011c14d8207ae3d9cf35b642",
@@ -418,7 +565,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T053922Z-7736027e"
-      }
+      },
+      "journal": "Plant methods",
+      "authors": [
+        "Masteling R, Voorhoeve L, IJsselmuiden J, Dini-Andreote F, de Boer W, Raaijmakers JM."
+      ]
     },
     {
       "public_id": "p-777b4fc5fbfd2aec864a56327234d76b",
@@ -445,7 +596,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T070022Z-37fabdd4"
-      }
+      },
+      "journal": "New Phytologist",
+      "authors": [
+        "Wendering P, Ferguson J, Xu R, Kromdijk J, Nikoloski Z."
+      ]
     },
     {
       "public_id": "p-40268bb6a161b9ba8f5788fd628251c1",
@@ -474,7 +629,14 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T072259Z-600b6088"
-      }
+      },
+      "journal": "PLoS ONE",
+      "authors": [
+        "Nived Chebrolu",
+        "Federico Magistri",
+        "Thomas Läbe",
+        "Cyrill Stachniss"
+      ]
     },
     {
       "public_id": "p-bab1929257e5e75c090a909e256e0bc1",
@@ -502,7 +664,14 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T082404Z-ed9246f7"
-      }
+      },
+      "journal": "Sensors",
+      "authors": [
+        "Huajian Liu",
+        "Brooke Bruning",
+        "Trevor Garnett",
+        "Bettina Berger"
+      ]
     },
     {
       "public_id": "p-d258d4f4dcf8eb5d33bc8f892b665c15",
@@ -533,7 +702,18 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T083857Z-e66e184f"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Gorgens, E. B.",
+        "Keller, M.",
+        "Jackwon, T. D.",
+        "Marra, D. M.",
+        "Reis, C. R.",
+        "Almeida, D. R. A.",
+        "Coomes, D.",
+        "Ometto, J. P."
+      ]
     },
     {
       "public_id": "p-ba72ff372a5624ef5f676f99fee55860",
@@ -564,7 +744,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T091422Z-266604a3"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Rohr L, Rausch L, Ehinger A, Burmeister NG, Meixner AJ, Kemmerling B, Harter K, zur Oven-Krockhaus S."
+      ]
     },
     {
       "public_id": "p-3a7d5de0efc679750c07a5a798c3ec04",
@@ -590,7 +774,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T092510Z-a3481539"
-      }
+      },
+      "journal": "Scientific Data",
+      "authors": [
+        "Papoutsoglou EA, Athanasiadis IN, Visser RGF, Finkers R."
+      ]
     },
     {
       "public_id": "p-aed3b833ea96ef7e087ce2bdfd29de23",
@@ -611,7 +799,11 @@
         "alt": "Sample labeled 151x258 sub-images: stomata (top row) vs non-stoma (bottom row) from the pinned dataset revision",
         "caption": "Sample labeled 151x258 sub-images: stomata (top row) vs non-stoma (bottom row) from the pinned dataset revision"
       },
-      "generation": null
+      "generation": null,
+      "journal": "PloS one",
+      "authors": [
+        "Aono AH, Nagai JS, Dickel GDSM, Marinho RC, de Oliveira PEAM, Papa JP, Faria FA."
+      ]
     },
     {
       "public_id": "p-4ac8d64107193c40c6d43e0cc1923edd",
@@ -643,7 +835,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T182446Z-982a040c"
-      }
+      },
+      "journal": "Bioresource technology",
+      "authors": [
+        "Refahi Y, Zoghlami A, Viné T, Terryn C, Paës G."
+      ]
     },
     {
       "public_id": "p-adf65bce9a7077b3dc0142a48ae262b1",
@@ -673,7 +869,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T191255Z-601873fd"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Xu R, Ferguson JN, Kromdijk J, Nikoloski Z."
+      ]
     },
     {
       "public_id": "p-ead632fb0835e0a94127f2d9adc08be6",
@@ -704,7 +904,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T182132Z-72e6fee3"
-      }
+      },
+      "journal": "PeerJ Computer Science",
+      "authors": [
+        "Gupta A, Kaur L, Kaur G."
+      ]
     },
     {
       "public_id": "p-6bfa2db1181f5e96758699694fbe8691",
@@ -737,7 +941,16 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T221436Z-29083fe9"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Tschurr, F.",
+        "Roth, L.",
+        "Storni, N.",
+        "Zumsteg, O.",
+        "Walter, A.",
+        "Anderegg, J."
+      ]
     },
     {
       "public_id": "p-cb702ccf3249852f0a993bad5fd464be",
@@ -766,7 +979,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T220831Z-e77aee79"
-      }
+      },
+      "journal": "Plant reproduction",
+      "authors": [
+        "Ouonkap SVY, Oseguera Y, Okihiro B, Johnson MA."
+      ]
     },
     {
       "public_id": "p-f91efd84027a58fbe6f03a9730173049",
@@ -794,7 +1011,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T222835Z-15dbcf49"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Jacquin L, Guerra W, Lewandowski M, Patocchi A, Rymenants M, Durel C, Laurens F, Aranzana MJ, Muranty H."
+      ]
     },
     {
       "public_id": "p-947828c971e3a9b186c0001caf61e052",
@@ -824,7 +1045,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T222726Z-3250c609"
-      }
+      },
+      "journal": "Applications in plant sciences",
+      "authors": [
+        "Knapp A, Stefani J, Katz E, Bloom AJ."
+      ]
     },
     {
       "public_id": "p-39a81e5461357163ba90bf2d25a1f8d6",
@@ -858,7 +1083,15 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T230245Z-692ababe"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Walde, M.",
+        "Camplong, C.",
+        "de Vargas, C.",
+        "Baudoux, A.-C.",
+        "Simon, N."
+      ]
     },
     {
       "public_id": "p-62932b4d8903b310dda0752a343426c5",
@@ -888,7 +1121,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261001T224311Z-8e95c432"
-      }
+      },
+      "journal": "American journal of botany",
+      "authors": [
+        "Harris ZN, Tran V, Piotter E, Hanlon MT, Rubin MJ, Miller AJ."
+      ]
     },
     {
       "public_id": "p-5c9a697cdcf4a609715f4223aa5e9646",
@@ -919,7 +1156,13 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T000540Z-71162db6"
-      }
+      },
+      "journal": "AoB PLANTS",
+      "authors": [
+        "Vera Bekkers",
+        "Jochem Evers",
+        "Alvaro Lau"
+      ]
     },
     {
       "public_id": "p-42f16e56ceb965c67ac889ef03b65eee",
@@ -948,7 +1191,39 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T015710Z-88ccd09f"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Chitwood, D. H.",
+        "Torres-Lomas, E.",
+        "Hadi, E. S.",
+        "Peterson, W. L. G.",
+        "Fischer, M. F.",
+        "Rogers, S. E.",
+        "He, C.",
+        "Acierno, M. G. F.",
+        "Azumaya, S.",
+        "Benjamin, S. W.",
+        "Chalise, D. P.",
+        "Chess, E. E.",
+        "Engelsma, A. J.",
+        "Fu, Q.",
+        "Jaikham, J.",
+        "Knight, B. M.",
+        "Kodjak, N. S.",
+        "Lengyel, A.",
+        "Munoz, B. L.",
+        "Patterson, J. T.",
+        "Rincon, S. I.",
+        "Schumann, F. L.",
+        "Shi, Y.",
+        "Smith, C. C.",
+        "St. Clair, M. K.",
+        "Sweeney, C. S.",
+        "Whitaker, P.",
+        "Wu, J.",
+        "Diaz-Garcia, L."
+      ]
     },
     {
       "public_id": "p-28f074ee4e709feeb203a3120b869fa0",
@@ -977,7 +1252,17 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T031632Z-b2e4feb6"
-      }
+      },
+      "journal": "Frontiers in Plant Science",
+      "authors": [
+        "To‐Chia Ting",
+        "Augusto Souza",
+        "Rachel K. Imel",
+        "Carmela R. Guadagno",
+        "Chris Hoagland",
+        "Yang Yang",
+        "Diane Wang"
+      ]
     },
     {
       "public_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85",
@@ -1006,7 +1291,15 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T050854Z-dad57e27"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Stojanovic, O.",
+        "Siegmann, B.",
+        "Jarmer, T.",
+        "Pipa, G.",
+        "Leugering, J."
+      ]
     },
     {
       "public_id": "p-0dfec3c680bb0e32ef572c9bcc0a1d2c",
@@ -1042,7 +1335,16 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T071920Z-b5b0c518"
-      }
+      },
+      "journal": "arXiv",
+      "authors": [
+        "Joe Hrzich",
+        "Michael A. Beck",
+        "Christopher P. Bidinosti",
+        "Christopher J. Henry",
+        "Kalhari Manawasinghe",
+        "Karen Tanino"
+      ]
     },
     {
       "public_id": "p-88d0f80b038259b9b4b2891d38bdcb0a",
@@ -1071,7 +1373,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T091555Z-94f6e07e"
-      }
+      },
+      "journal": null,
+      "authors": [
+        "Xu R, Ferguson J, Hobby D, Rahimi-Majd M, Wendering P, Kromdijk J, Nikoloski Z."
+      ]
     },
     {
       "public_id": "p-31395b78d4983e57d3118f644d1e91b1",
@@ -1102,7 +1408,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T092810Z-c21f5448"
-      }
+      },
+      "journal": "Environmental Monitoring and Assessment",
+      "authors": [
+        "Nimmala M, Gruszewski HA, Hanlon R, Bilyeu L, Newton T, Stockdale J, Millwood RJ, Stewart CN, Powers CW, Ross SD, Foroutan H, Schmale Iii DG."
+      ]
     },
     {
       "public_id": "p-2edda3dbdfadc4a75a267219d46751a5",
@@ -1132,7 +1442,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T100712Z-17f70146"
-      }
+      },
+      "journal": "Plant methods",
+      "authors": [
+        "Lu W, Li Y, Deng Y."
+      ]
     },
     {
       "public_id": "p-ba13883f7b82cc94cac3648cf3a69310",
@@ -1165,7 +1479,15 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T102247Z-70e8a745"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Erik J. Amézquita",
+        "Michelle Quigley",
+        "Patrick J. Brown",
+        "Elizabeth Munch",
+        "Daniel H. Chitwood"
+      ]
     },
     {
       "public_id": "p-f4b6761b68409a38fe07554143d7229c",
@@ -1194,7 +1516,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T103720Z-d25a9417"
-      }
+      },
+      "journal": "Journal of the Royal Society, Interface",
+      "authors": [
+        "Laplaud V, Muller E, Demidova N, Drevensek S, Boudaoud A."
+      ]
     },
     {
       "public_id": "p-668b86393f43ba07d15d1b0dd8036b29",
@@ -1222,7 +1548,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T105059Z-98d4b453"
-      }
+      },
+      "journal": "Applications in plant sciences",
+      "authors": [
+        "Newsome EL, Brock GL, Lutz J, Baker RL."
+      ]
     },
     {
       "public_id": "p-693a2a56425e76b3c425cc929186f228",
@@ -1252,7 +1582,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T015917Z-6bc65744"
-      }
+      },
+      "journal": "Development (Cambridge, England)",
+      "authors": [
+        "Matz TW, Wang Y, Kulshreshtha R, Sampathkumar A, Nikoloski Z."
+      ]
     },
     {
       "public_id": "p-93fa928d5885615b855d12b533c5ccf4",
@@ -1281,7 +1615,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T105836Z-31676a67"
-      }
+      },
+      "journal": "Plant phenomics (Washington, D.C.)",
+      "authors": [
+        "Feng H, Chen Y, Song J, Lu B, Shu C, Qiao J, Liao Y, Yang W."
+      ]
     },
     {
       "public_id": "p-cbd73b97da4fe4be89e0a1d69b29641a",
@@ -1312,7 +1650,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T115334Z-720416d7"
-      }
+      },
+      "journal": "Data in brief",
+      "authors": [
+        "van Marrewijk BM, Njane SN, Tsuda S, van Culemborg M, Polder G, Katayama K, van Daalen T, Zedde RV."
+      ]
     },
     {
       "public_id": "p-509b4366cbaad85fe7ae50a6209dbfdb",
@@ -1338,7 +1680,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T114728Z-a1b2512d"
-      }
+      },
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        "David Kainer"
+      ]
     },
     {
       "public_id": "p-f9a489165e744785cca13c6c4acd9895",
@@ -1368,7 +1714,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T123341Z-8bf3baf5"
-      }
+      },
+      "journal": null,
+      "authors": [
+        "Bauget F, Ndour A, Boursiac Y, Maurel C, Laplaze L, Lucas M, Pradal C."
+      ]
     },
     {
       "public_id": "p-7477b41db6eeb5a2e9715fd1cb6e033e",
@@ -1400,7 +1750,15 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T132130Z-cae01f3b"
-      }
+      },
+      "journal": "openRxiv",
+      "authors": [
+        "Rafael Massahiro Yassue",
+        "Giovanni Galli",
+        "Chun-Peng James Chen",
+        "Roberto Fritsche-Neto",
+        "Gota Morota"
+      ]
     },
     {
       "public_id": "p-da8b7fe022c16f028b094d90ebcf00fd",
@@ -1419,7 +1777,11 @@
         "alt": "Observed vs predicted paddy yield (quintal) on the 53-row test split, authors' scatter plot with recomputed RMSE",
         "caption": "Observed vs predicted paddy yield (quintal) on the 53-row test split, authors' scatter plot with recomputed RMSE"
       },
-      "generation": null
+      "generation": null,
+      "journal": "F1000Research",
+      "authors": [
+        "Septem Riza L, Yudianita AH, Nugraha E, Somantri L, Sitanggang IS, Abu Samah KAF, Nazir S."
+      ]
     },
     {
       "public_id": "p-aaa04d55ed02d6b59bb4dbe28c44b888",
@@ -1450,7 +1812,15 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T135020Z-56ae8ea2"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Gilman, I. S.",
+        "Heyduk, K.",
+        "Maya-Lastra, C. A.",
+        "Hancock, L. P.",
+        "Edwards, E. J."
+      ]
     },
     {
       "public_id": "p-f147c5d63cc9dab480984041d56ee80b",
@@ -1480,7 +1850,18 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T133524Z-eeeb4b93"
-      }
+      },
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        "Marco Lopez‐Cruz",
+        "Eric Olson",
+        "G. Rovere",
+        "José Crossa",
+        "Susanne Dreisigacker",
+        "Suchismita Mondal",
+        "Ravi Nandan Singh",
+        "Gustavo de los Campos"
+      ]
     },
     {
       "public_id": "p-ac414e4ecdfa36a5ca662778c487df9d",
@@ -1507,7 +1888,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T141952Z-750a816a"
-      }
+      },
+      "journal": "Scientific data",
+      "authors": [
+        "Munroe SEM, McInerney FA, Andrae J, Welti N, Guerin GR, Leitch E, Hall T, Szarvas S, Atkins R, Caddy-Retalic S, Sparrow B."
+      ]
     },
     {
       "public_id": "p-dc3f89f59fbebda2aed792de1c7d31ab",
@@ -1538,7 +1923,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T153824Z-1d1b1141"
-      }
+      },
+      "journal": "Sensors (Basel, Switzerland)",
+      "authors": [
+        "Gómez Álvarez-Arenas T, Gil-Pelegrin E, Ealo Cuello J, Fariñas MD, Sancho-Knapik D, Collazos Burbano DA, Peguero-Pina JJ."
+      ]
     },
     {
       "public_id": "p-28d396da9e31523d20a4971b9e1cf174",
@@ -1567,7 +1956,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T144516Z-2caa94d6"
-      }
+      },
+      "journal": "Plant methods",
+      "authors": [
+        "Haghshenas A, Emam Y, Jafarizadeh S."
+      ]
     },
     {
       "public_id": "p-afc9a52f508f9e671d1286f1768c4f20",
@@ -1592,7 +1985,16 @@
         "alt": "Soil point cloud (top view) and derived 5 mm soil height map H_S from the CAHST test dataset",
         "caption": "Soil point cloud (top view) and derived 5 mm soil height map H_S from the CAHST test dataset"
       },
-      "generation": null
+      "generation": null,
+      "journal": "Plant Methods",
+      "authors": [
+        "Michael Friedli",
+        "Norbert Kirchgessner",
+        "Christoph Grieder",
+        "Frank Liebisch",
+        "Michael Mannale",
+        "Achim Walter"
+      ]
     },
     {
       "public_id": "p-b01140e333cf94b9e0d92f3df1020c27",
@@ -1625,7 +2027,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T170421Z-0805f03a"
-      }
+      },
+      "journal": "Frontiers in plant science",
+      "authors": [
+        "Rahman MM, Crain J, Haghighattalab A, Singh RP, Poland J."
+      ]
     },
     {
       "public_id": "p-6969756b25d1518115626bfbea413f28",
@@ -1650,7 +2056,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T174432Z-0531a3bc"
-      }
+      },
+      "journal": "G3 (Bethesda, Md.)",
+      "authors": [
+        "Morales N, Ogbonna AC, Ellerbrock BJ, Bauchet GJ, Tantikanjana T, Tecle IY, Powell AF, Lyon D, Menda N, Simoes CC, Saha S, Hosmani P, Flores M, Panitz N, Preble RS, Agbona A, Rabbi I, Kulakow P, Peteti P, Kawuki R, Esuma W, Kanaabi M, Chelangat DM, Uba E, Olojede A, Onyeka J, Shah T, Karanja M, Egesi C, Tufan H, Paterne A, Asfaw A, Jannink JL, Wolfe M, Birkett CL, Waring DJ, Hershberger JM, Gore MA, Robbins KR, Rife T, Courtney C, Poland J, Arnaud E, Laporte MA, Kulembeka H, Salum K, Mrema E, Brown A, Bayo S, Uwimana B, Akech V, Yencho C, de Boeck B, Campos H, Swennen R, Edwards JD, Mueller LA."
+      ]
     },
     {
       "public_id": "p-2b897db4c4c96991c5e7e563953acd79",
@@ -1680,7 +2090,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T181254Z-891b1d7f"
-      }
+      },
+      "journal": null,
+      "authors": [
+        "Fruleux A, Hong L, Roeder AHK, Li C, Boudaoud A."
+      ]
     },
     {
       "public_id": "p-64d8b1b4cd1285cfc9085533d39f04d1",
@@ -1711,7 +2125,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T190411Z-b1a2502a"
-      }
+      },
+      "journal": "Sensors (Basel, Switzerland)",
+      "authors": [
+        "Lopin P, Nawsang P, Laywisadkul S, Lopin KV."
+      ]
     },
     {
       "public_id": "p-e88e02e32c4282a27c3e0b0eef2b803f",
@@ -1742,7 +2160,13 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T192043Z-3854296f"
-      }
+      },
+      "journal": "Plants",
+      "authors": [
+        "Jorge Enrique Chaparro",
+        "Jose Edinson Aedo",
+        "Nelson Barrera Lombana"
+      ]
     },
     {
       "public_id": "p-8eb90bb31facdd5a480f07afd1ce3074",
@@ -1773,7 +2197,14 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T193050Z-3d50c68a"
-      }
+      },
+      "journal": "arXiv",
+      "authors": [
+        "Salih Marangoz",
+        "Tobias Zaenker",
+        "Rohit Menon",
+        "Maren Bennewitz"
+      ]
     },
     {
       "public_id": "p-cdc0de3c4676cb6979306758217e42dc",
@@ -1803,7 +2234,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T184653Z-ffcf11cd"
-      }
+      },
+      "journal": "American journal of botany",
+      "authors": [
+        "Triplett G, Buckley TN, Muir CD."
+      ]
     },
     {
       "public_id": "p-cc11f812b657fdb55b484614bdebe334",
@@ -1834,7 +2269,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T234001Z-c2bc4aab"
-      }
+      },
+      "journal": "Data in brief",
+      "authors": [
+        "Rivera-Romero CA, Pérez-Chimal RJ, Rivera-Romero R, Palacios-Hernández ER, Reyes-Portillo IA, Olivera-Reyna R, Olivera-Reyna R, Vite-Chavez O, Navarrete-Sanchez MA, Muñoz-Minjares JU."
+      ]
     },
     {
       "public_id": "p-4b9e17d68a546cca54a31f48c22f9375",
@@ -1868,7 +2307,26 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T195854Z-2b543873"
-      }
+      },
+      "journal": "New Phytologist",
+      "authors": [
+        "Joshua Colmer",
+        "Carmel M. O'Neill",
+        "Rachel Wells",
+        "Aaron Bostrom",
+        "Daniel Reynolds",
+        "Danny Websdale",
+        "Gagan Shiralagi",
+        "Wei Lu",
+        "Qiaojun Lou",
+        "Thomas Le Cornu",
+        "Joshua Ball",
+        "Jim Renema",
+        "Gema Flores Andaluz",
+        "Rene Benjamins",
+        "Steven Penfield",
+        "Ji Zhou"
+      ]
     },
     {
       "public_id": "p-a19e4f562c64e84e85556bde60dcad78",
@@ -1898,7 +2356,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261002T235543Z-31e57d2c"
-      }
+      },
+      "journal": "Molecular ecology",
+      "authors": [
+        "Dittberner H, Korte A, Mettler-Altmann T, Weber APM, Monroe G, de Meaux J."
+      ]
     },
     {
       "public_id": "p-7a5704f55833f08e19e9f134202c93d5",
@@ -1929,7 +2391,15 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261003T050241Z-0583a790"
-      }
+      },
+      "journal": null,
+      "authors": [
+        "Erik J. Amézquita",
+        "Michelle Quigley",
+        "Patrick J. Brown",
+        "Daniel H. Chitwood",
+        "Elizabeth Munch"
+      ]
     },
     {
       "public_id": "p-70fa1c051d6fb330e7e8104d716387cf",
@@ -1964,7 +2434,25 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261003T052218Z-b93307e6"
-      }
+      },
+      "journal": "F1000Research",
+      "authors": [
+        "Franco Röckel",
+        "Toni Schreiber",
+        "Danuta Schüler",
+        "Ulrike Braun",
+        "Ina Krukenberg",
+        "Florian Schwander",
+        "Andreas Peil",
+        "Christine Brandt",
+        "E. Willner",
+        "Daniel Gransow",
+        "Uwe Scholz",
+        "Steffen Kecke",
+        "Erika Maul",
+        "Matthias Lange",
+        "Reinhard Töpfer"
+      ]
     },
     {
       "public_id": "p-57dbb7f466cda2e3dae16b3ae6a2857e",
@@ -1990,7 +2478,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261003T054040Z-0b23e214"
-      }
+      },
+      "journal": null,
+      "authors": [
+        "Hershberger J, Morales N, Simoes CC, Ellerbrock B, Bauchet G, Mueller LA, Gore MA."
+      ]
     },
     {
       "public_id": "p-9d34a23737718edc5e1277da0358385a",
@@ -2018,7 +2510,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261003T045530Z-1bae5c38"
-      }
+      },
+      "journal": "Journal of the Royal Society, Interface",
+      "authors": [
+        "Ziegler C, Dyson RJ, Johnston IG."
+      ]
     },
     {
       "public_id": "p-a0e294445f62e5511c479afcf51c9cb9",
@@ -2047,7 +2543,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261003T072346Z-b9015592"
-      }
+      },
+      "journal": "Applications in plant sciences",
+      "authors": [
+        "Xie Z, Bahar T, Karoly K."
+      ]
     },
     {
       "public_id": "p-1b1ab42c1c7a9204d2b3804fdede6367",
@@ -2075,7 +2575,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261003T075114Z-5d7f08b2"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "McKenzie PF, Berardi AE, Hopkins R."
+      ]
     },
     {
       "public_id": "p-62c7cba3ad70919fc6c3454f3aa8535b",
@@ -2109,7 +2613,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261003T081119Z-d2938ea0"
-      }
+      },
+      "journal": "Annals of botany",
+      "authors": [
+        "Millan M, Bonnet A, Dauzat J, Vezy R."
+      ]
     },
     {
       "public_id": "p-4d29b51e938eae2b1accf1c5affaf930",
@@ -2140,7 +2648,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261003T083907Z-2d24af63"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Alonso-Crespo IM, Weidlich EW, Temperton VM, Delory BM."
+      ]
     },
     {
       "public_id": "p-922683b82a1bc389b720ed916b63b03e",
@@ -2171,7 +2683,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261003T090512Z-ac1194a0"
-      }
+      },
+      "journal": "Sensors (Basel, Switzerland)",
+      "authors": [
+        "Yang X, Shi H, Stovall A, Guan K, Miao G, Zhang Y, Zhang Y, Xiao X, Ryu Y, Lee JE."
+      ]
     },
     {
       "public_id": "p-34089365c8e5fb9d8b8e750c505484f8",
@@ -2200,7 +2716,18 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261003T065701Z-8ffde621"
-      }
+      },
+      "journal": "Nature Plants",
+      "authors": [
+        "David Hobby",
+        "Hao Tong",
+        "Marc C. Heuermann",
+        "Alain J Mbebi",
+        "Roosa A. E. Laitinen",
+        "Matteo Dell’Acqua",
+        "Thomas Altmann",
+        "Zoran Nikoloski"
+      ]
     },
     {
       "public_id": "p-86c185fe2f37a319f44e780d01bf0002",
@@ -2230,7 +2757,18 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261003T093021Z-95b2f9e9"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Han, R.",
+        "Wong, A. J. Y.",
+        "Tang, Z.",
+        "Truco, M. J.",
+        "Lavelle, D. O.",
+        "Kozik, A.",
+        "Jin, Y.",
+        "Michelmore, R. W."
+      ]
     },
     {
       "public_id": "p-ca62c72d99e31786d8df4af17a50ccc1",
@@ -2259,7 +2797,34 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261003T131905Z-863a539f"
-      }
+      },
+      "journal": null,
+      "authors": [
+        "Elizabeth M. Berrigan",
+        "Lin Wang",
+        "Hannah Carrillo",
+        "Kimberly Echegoyen",
+        "Mikayla Kappes",
+        "Jorge Torres",
+        "Angel Ai-Perreira",
+        "Erica McCoy",
+        "Emily Shane",
+        "Charles Copeland",
+        "Lauren Ragel",
+        "Charidimos Georgousakis",
+        "Sang‐Hwa Lee",
+        "Dawn Reynolds",
+        "Avery Talgo",
+        "Juan Gonzalez",
+        "Ling Zhang",
+        "Ashish B. Rajurkar",
+        "M. Lozano Ruiz",
+        "Erin Daniels",
+        "Liezl Maree",
+        "Shree R. Pariyar",
+        "Wolfgang Busch",
+        "Talmo Pereira"
+      ]
     },
     {
       "public_id": "p-b8857f10f1bb9955b5001d4f6deb2885",
@@ -2287,7 +2852,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261003T121309Z-ebd1413c"
-      }
+      },
+      "journal": null,
+      "authors": [
+        "Kick DR, Washburn JD."
+      ]
     },
     {
       "public_id": "p-6ae840df1b23fe0c8f41e6ec273e7230",
@@ -2321,7 +2890,20 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261003T150833Z-eb766d15"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Hossain, K.",
+        "Maiti, A.",
+        "Chinnannan, K.",
+        "Nimmakayala, P.",
+        "Sweeney, E.",
+        "Wang, Z.",
+        "Chiwele, N.",
+        "Khamboo, L.",
+        "Nallagari, L. M.",
+        "Bucksch, A."
+      ]
     },
     {
       "public_id": "p-cd3b7c4a2dfbfd18ed589bd4fe9fbe29",
@@ -2356,7 +2938,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261003T235817Z-2a2f7fef"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Morel O, Lion C, Neutelings G, Stefanov J, Baldacci-Cresp F, Simon C, Gierlinger N, Biot C, Hawkins S, Spriet C."
+      ]
     },
     {
       "public_id": "p-96dc254f7fd6d49e5304d420acb82d9d",
@@ -2393,7 +2979,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T002054Z-87f8a86d"
-      }
+      },
+      "journal": "PeerJ",
+      "authors": [
+        "Tross MC, Gaillard M, Zwiener M, Miao C, Grove RJ, Li B, Benes B, Schnable JC."
+      ]
     },
     {
       "public_id": "p-2b2f036450a96d50015e96cdb2b602fa",
@@ -2422,7 +3012,20 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261003T235818Z-850e1df4"
-      }
+      },
+      "journal": "Plant Methods",
+      "authors": [
+        "Andreas Honecker",
+        "Henrik Schumann",
+        "Diana Becirevic",
+        "Lasse Klingbeil",
+        "Kai Volland",
+        "Steffi Forberig",
+        "Marc Jansen",
+        "Hinrich Paulsen",
+        "Heiner Kuhlmann",
+        "Jens Léon"
+      ]
     },
     {
       "public_id": "p-8d1e171ca872b7e24d1f590750fd419d",
@@ -2453,7 +3056,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T003634Z-7df8ce51"
-      }
+      },
+      "journal": "GigaScience",
+      "authors": [
+        "Miao T, Wen W, Li Y, Wu S, Zhu C, Guo X."
+      ]
     },
     {
       "public_id": "p-b437e7e7fb6660387c003ea80e5bd235",
@@ -2484,7 +3091,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T010400Z-733e97a5"
-      }
+      },
+      "journal": "Plant phenomics (Washington, D.C.)",
+      "authors": [
+        "Chang TG, Shi Z, Zhao H, Song Q, He Z, Van Rie J, Den Boer B, Galle A, Zhu XG."
+      ]
     },
     {
       "public_id": "p-fa3906fba18509294e40956ca07453b8",
@@ -2513,7 +3124,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T010758Z-4c4c0895"
-      }
+      },
+      "journal": "The New phytologist",
+      "authors": [
+        "Vilfan N, van der Tol C, Verhoef W."
+      ]
     },
     {
       "public_id": "p-26803902b06687ba40965f751a09e633",
@@ -2541,7 +3156,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T005547Z-cf30920e"
-      }
+      },
+      "journal": "Annals of botany",
+      "authors": [
+        "Collette JC, Sommerville KD, Lyons MB, Offord CA, Errington G, Newby ZJ, von Richter L, Emery NJ."
+      ]
     },
     {
       "public_id": "p-53c30ffda67420ce4c09594eec1ecbce",
@@ -2570,7 +3189,16 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T012809Z-e4b1419d"
-      }
+      },
+      "journal": "Plant and Soil",
+      "authors": [
+        "Satyasaran Changdar",
+        "Olga Popovic",
+        "Tomke Susanne Wacker",
+        "Bo Markussen",
+        "Erik Bjørnager Dam",
+        "Kristian Thorup-Kristensen"
+      ]
     },
     {
       "public_id": "p-50e1c2fb18dfbb4e76ee141d512cf54b",
@@ -2607,7 +3235,17 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T025706Z-70d6e5ab"
-      }
+      },
+      "journal": "Plant Methods",
+      "authors": [
+        "Benjamin van Raalte",
+        "Kristal Watrous",
+        "Miguel Lujan",
+        "Ricky Le",
+        "Penglin Sun",
+        "Benjamin Ellis",
+        "Kerry E. Mauck"
+      ]
     },
     {
       "public_id": "p-f883e21e50d48220be739f6cefc2f867",
@@ -2634,7 +3272,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T034748Z-199c5841"
-      }
+      },
+      "journal": "Horticulture research",
+      "authors": [
+        "Sun T, Shi Z, Jiang R, Moshelion M, Xu P."
+      ]
     },
     {
       "public_id": "p-2ef7965b4468bbda8e86cda4aec579ae",
@@ -2665,7 +3307,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T040209Z-cecf2af9"
-      }
+      },
+      "journal": "Plant Methods",
+      "authors": [
+        "Merchuk-Ovnat L, Ovnat Z, Amir-Segev O, Kutsher Y, Saranga Y, Reuveni M."
+      ]
     },
     {
       "public_id": "p-138a6dea3b64aadf4843d6d64fcbf37b",
@@ -2703,7 +3349,24 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T014310Z-d1fb28c4"
-      }
+      },
+      "journal": "Plant Biotechnology Journal",
+      "authors": [
+        "Yunpeng Xia",
+        "Hanghang Li",
+        "Fanhang Zhang",
+        "Gang Sun",
+        "Kaijie Qi",
+        "Robert Jackson",
+        "Felipe Pinheiro",
+        "Xiaoman Liu",
+        "Yue Mu",
+        "Shaoling Zhang",
+        "Greg Deakin",
+        "E. Charles Whitfield",
+        "Shutian Tao",
+        "Ji Zhou"
+      ]
     },
     {
       "public_id": "p-ea84fdc23cbdb4fa43830b2262339c66",
@@ -2731,7 +3394,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T041345Z-253b056c"
-      }
+      },
+      "journal": "BMC plant biology",
+      "authors": [
+        "Torne FF, Idaszkin YL, Bigatti G, Navarro P, González-José R, Márquez F."
+      ]
     },
     {
       "public_id": "p-872c60a837cfc85bf84b37dde14e20de",
@@ -2762,7 +3429,15 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T042648Z-082980fb"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Guichard, M.",
+        "Holla, S.",
+        "Wernerova, D.",
+        "Grossmann, G. E. A.",
+        "Minina, A. E. A."
+      ]
     },
     {
       "public_id": "p-b5b3ac3433945ba4a283ae8f5ad3f177",
@@ -2791,7 +3466,14 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T050715Z-83793a59"
-      }
+      },
+      "journal": "arXiv",
+      "authors": [
+        "Tobias Zaenker",
+        "Chris Lehnert",
+        "Chris McCool",
+        "Maren Bennewitz"
+      ]
     },
     {
       "public_id": "p-f9e85072e85f991349bd9c19f0104b00",
@@ -2816,7 +3498,16 @@
         "alt": "Test plant Harvest_01_PotNr_179: released point cloud with semantic annotation (red leaves, yellow main stem, green pole, blue side stems) and released ground-truth skeleton overlay (green).",
         "caption": "Test plant Harvest_01_PotNr_179: released point cloud with semantic annotation (red leaves, yellow main stem, green pole, blue side stems) and released ground-truth skeleton overlay (green)."
       },
-      "generation": null
+      "generation": null,
+      "journal": "Data in Brief",
+      "authors": [
+        "Bart M. van Marrewijk",
+        "Tim van Daalen",
+        "Katarína Smoleňová",
+        "Bolai Xin",
+        "Gerrit Polder",
+        "Gert Kootstra"
+      ]
     },
     {
       "public_id": "p-eb5c040f3c23eee3fae265c35d253260",
@@ -2849,7 +3540,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T051942Z-61931415"
-      }
+      },
+      "journal": "Global Change Biology",
+      "authors": [
+        "Boving I, Allen J, Brodrick PG, Chadwick KD, Trugman A, Anderegg LDL."
+      ]
     },
     {
       "public_id": "p-4d490655aff364e012a19a3dc5d16265",
@@ -2874,7 +3569,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T070402Z-94757a09"
-      }
+      },
+      "journal": "Ecology and evolution",
+      "authors": [
+        "Torres J."
+      ]
     },
     {
       "public_id": "p-7eee532480e40ef516c03c17bdc802e7",
@@ -2899,7 +3598,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T080225Z-f78d8ef7"
-      }
+      },
+      "journal": null,
+      "authors": [
+        "Naino Jika AK."
+      ]
     },
     {
       "public_id": "p-f27ea170567a399e3ab6755b83bb9397",
@@ -2927,7 +3630,17 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T063144Z-7824d5a8"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Russell, N. J.",
+        "Belato, P. B.",
+        "Oliver, L. S.",
+        "Chakraborty, A.",
+        "Roeder, A. H. K.",
+        "Fox, D. T.",
+        "Formosa-Jordan, P."
+      ]
     },
     {
       "public_id": "p-b7be1e0f7d7414d15b12905b922078b4",
@@ -2955,7 +3668,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T083903Z-e222e938"
-      }
+      },
+      "journal": "Plant direct",
+      "authors": [
+        "Samson-Tshimbalanga J, Périé C, Urli M."
+      ]
     },
     {
       "public_id": "p-445c34da82cdb01531f293f0701af907",
@@ -2973,7 +3690,14 @@
         "alt": "Fig. 10 analogue: poinsettia leaf fluorescence yield (FY) with detected peaks and the actinic PPFD model (twin axis) at three irradiances, plus per-period phase delays; adapted Python demonstration from the authors' processedData.mat.",
         "caption": "Fig. 10 analogue: poinsettia leaf fluorescence yield (FY) with detected peaks and the actinic PPFD model (twin axis) at three irradiances, plus per-period phase delays; adapted Python demonstration from the authors' processedData.mat."
       },
-      "generation": null
+      "generation": null,
+      "journal": "bioRxiv",
+      "authors": [
+        "Havelka, M.",
+        "Nedbal, L.",
+        "Suhling, K.",
+        "Nedbal, J."
+      ]
     },
     {
       "public_id": "p-df228fecc74b51818b905c703b3d9d66",
@@ -2993,7 +3717,27 @@
         "alt": "Manhattan plot of the GEMMA Plasmotype Association results for fam phenotype column 614 (Cybrid_allphi2_55.0136) across the plastid genome, with the 3.797 Bonferroni threshold line; reproduced in Colab and matching the authors' saved PAS summary.",
         "caption": "Manhattan plot of the GEMMA Plasmotype Association results for fam phenotype column 614 (Cybrid_allphi2_55.0136) across the plastid genome, with the 3.797 Bonferroni threshold line; reproduced in Colab and matching the authors' saved PAS summary."
       },
-      "generation": null
+      "generation": null,
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        "Tom P. J. M. Theeuwen",
+        "Raúl Y. Wijfjes",
+        "Delfi Dorussen",
+        "Aaron W. Lawson",
+        "Jorrit Lind",
+        "Kaining Jin",
+        "Janhenk Boekeloo",
+        "Dillian Tijink",
+        "David Hall",
+        "Corrie Hanhart",
+        "Frank Becker",
+        "Fred A. van Eeuwijk",
+        "David Kramer",
+        "T.G. Wijnker",
+        "Jeremy Harbinson",
+        "Maarten Koornneef",
+        "Mark G. M. Aarts"
+      ]
     },
     {
       "public_id": "p-968ac05ebbfa7011f712219eb872049b",
@@ -3023,7 +3767,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T094346Z-bf773249"
-      }
+      },
+      "journal": "Plant phenomics (Washington, D.C.)",
+      "authors": [
+        "Li J, Sun H, Wu G, Xu H, Tao S, Guo W, Qi K, Yin H, Zhang S, Ninomiya S, Mu Y."
+      ]
     },
     {
       "public_id": "p-1fad5a8aaeb9ad87574e562671e77946",
@@ -3053,7 +3801,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T093125Z-a7f4048c"
-      }
+      },
+      "journal": null,
+      "authors": [
+        "Hadish JA, Honaas LA, Ficklin SP."
+      ]
     },
     {
       "public_id": "p-66b346f895818d607747eca86f411abc",
@@ -3082,7 +3834,13 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T102238Z-5e9b37de"
-      }
+      },
+      "journal": "Plants",
+      "authors": [
+        "Hayato Yoshioka",
+        "Gota Morota",
+        "Hiroyoshi Iwata"
+      ]
     },
     {
       "public_id": "p-25fc2dd035859c1889f9633edd77c633",
@@ -3113,7 +3871,14 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T115107Z-a6e89c87"
-      }
+      },
+      "journal": "arXiv (Cornell University)",
+      "authors": [
+        "Katherine James",
+        "Karoline Heiwolt",
+        "Daniel James Sargent",
+        "Grzegorz Cielniak"
+      ]
     },
     {
       "public_id": "p-2bd31da0e632a80444251edc20a538de",
@@ -3136,7 +3901,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T130135Z-e9376277"
-      }
+      },
+      "journal": "Journal of Genetics and Genomics",
+      "authors": [
+        "Wu B, Xiong H, Zhuo L, Xiao Y, Yan J, Yang W."
+      ]
     },
     {
       "public_id": "p-b4752a1bb797dbe22bd57e5046de879a",
@@ -3169,7 +3938,16 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T131817Z-41c90827"
-      }
+      },
+      "journal": "Data in Brief",
+      "authors": [
+        "Prasad Nethala",
+        "Dugan Um",
+        "Samantha L. McCoy",
+        "Seth Gibson",
+        "Mahendra Bhandari",
+        "Kiju Lee"
+      ]
     },
     {
       "public_id": "p-c8cd55dbad6ff8d5097de6e2073ea071",
@@ -3201,7 +3979,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T144739Z-ee5ede0a"
-      }
+      },
+      "journal": "Plant phenomics (Washington, D.C.)",
+      "authors": [
+        "Zingaretti LM, Monfort A, Pérez-Enciso M."
+      ]
     },
     {
       "public_id": "p-91751d0a207149359810682ae9e8d398",
@@ -3233,7 +4015,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T141601Z-e7f53feb"
-      }
+      },
+      "journal": "Plant phenomics (Washington, D.C.)",
+      "authors": [
+        "Arshad MA, Jubery T, Afful J, Jignasu A, Balu A, Ganapathysubramanian B, Sarkar S, Krishnamurthy A."
+      ]
     },
     {
       "public_id": "p-914960d699e096d19546d1101dd210a3",
@@ -3262,7 +4048,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T162220Z-9898c1a9"
-      }
+      },
+      "journal": "The New phytologist",
+      "authors": [
+        "Ramakers LAI, Harbinson J, Wientjes E, van Amerongen H."
+      ]
     },
     {
       "public_id": "p-fd7a0342f94d7b79c11a77e475eba4c7",
@@ -3289,7 +4079,14 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T163743Z-33d8c479"
-      }
+      },
+      "journal": "ACM Computing Surveys",
+      "authors": [
+        "Jianping Yao",
+        "Son N. Tran",
+        "Saurabh Garg",
+        "Samantha Sawyer"
+      ]
     },
     {
       "public_id": "p-004ce732f6d0d7eb85c1fa4c08db5865",
@@ -3319,7 +4116,24 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T164201Z-09fb6194"
-      }
+      },
+      "journal": "Nature Communications",
+      "authors": [
+        "Flavius C. Pascut",
+        "Valentin Couvreur",
+        "Daniela Dietrich",
+        "Nicky Leftley",
+        "Guilhem Reyt",
+        "Yann Boursiac",
+        "Monica Calvo-Polanco",
+        "Ilda Casimiro",
+        "Christophe Maurel",
+        "David E. Salt",
+        "Xavier Draye",
+        "Darren M. Wells",
+        "Malcolm J. Bennett",
+        "Kevin F. Webb"
+      ]
     },
     {
       "public_id": "p-b47e5ef7351e1f4dfa343ee31bd353d7",
@@ -3337,7 +4151,11 @@
         "alt": "Held-out herbarium specimen with per-model scores, thresholded votes and the ensemble verdict versus the expert label.",
         "caption": "Held-out herbarium specimen with per-model scores, thresholded votes and the ensemble verdict versus the expert label."
       },
-      "generation": null
+      "generation": null,
+      "journal": "Applications in plant sciences",
+      "authors": [
+        "Grady EL, LaFrance R, Li D, Dinnage R, Denny EG, Deck J, Guralnick RP."
+      ]
     },
     {
       "public_id": "p-26c2e1c7a8207e3c58ba42b0756e8ebe",
@@ -3366,7 +4184,16 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T203859Z-0fb06b06"
-      }
+      },
+      "journal": "Agronomy",
+      "authors": [
+        "Daniel Zendler",
+        "Nagarjun Malagol",
+        "Anna Schwandner",
+        "Reinhard Töpfer",
+        "Ludger Hausmann",
+        "Eva Zyprian"
+      ]
     },
     {
       "public_id": "p-783e81f38f776c444d5960f7c72f2f25",
@@ -3396,7 +4223,13 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T200828Z-14cba3b8"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Zhang, X.",
+        "Shaterian, H.",
+        "Ashe, P."
+      ]
     },
     {
       "public_id": "p-0b16d2f84472b2dd6f481c1da6690fee",
@@ -3424,7 +4257,19 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T214057Z-9a5b6fb1"
-      }
+      },
+      "journal": "Plant Phenomics",
+      "authors": [
+        "Shanpeng Xu",
+        "Jingshan Lu",
+        "Lian Ding",
+        "Fei Zhang",
+        "Fadi Chen",
+        "Zhenxing Wang",
+        "Sumei Chen",
+        "Weimin Fang",
+        "Zhiyong Guan"
+      ]
     },
     {
       "public_id": "p-2a57fe0d874b7f4710197a8f4ebaa5d4",
@@ -3453,7 +4298,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T214606Z-3e6a948e"
-      }
+      },
+      "journal": "iScience",
+      "authors": [
+        "Rahman Swapno SMM, Sakib A, Uddin Khondakar Pranta AS, Hossain A, Debnath J, Al Noman A, Al Sakib A, Ahmed MR, Haque R, Appaji A."
+      ]
     },
     {
       "public_id": "p-c2a47db78f63545f233b669b0d53bca4",
@@ -3486,7 +4335,18 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T215712Z-c0b9bc0e"
-      }
+      },
+      "journal": "Plant Phenomics",
+      "authors": [
+        "Zhiyan Tang",
+        "Jiandong Sun",
+        "Yunlu Tian",
+        "Jiexiong Xu",
+        "Weikun Zhao",
+        "Gang Jiang",
+        "Jiaqi Deng",
+        "Xiangchao Gan"
+      ]
     },
     {
       "public_id": "p-f5cc2b2abde4aecd698ddbc66195da9a",
@@ -3516,7 +4376,19 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T225329Z-8e20fd5f"
-      }
+      },
+      "journal": "Research Square",
+      "authors": [
+        "Laura Mathieu",
+        "Maxime Reder",
+        "Ali Siah",
+        "Aurélie Ducasse",
+        "Camilla Langlands-Perry",
+        "Thierry C. Marcel",
+        "Jean‐Benoit Morel",
+        "Cyrille Saintenac",
+        "Elsa Ballini"
+      ]
     },
     {
       "public_id": "p-91db2d982b94ef65fa927d29ad3b6a64",
@@ -3546,7 +4418,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261004T231453Z-a30f0be9"
-      }
+      },
+      "journal": "Computers and Electronics in Agriculture.",
+      "authors": [
+        "Zhu K, Li J, Zhang K, Arunachalam C, Bhattacharya S, Lu R, Li Z."
+      ]
     },
     {
       "public_id": "p-edea3f34e04b2b1aa4089733cfec5483",
@@ -3574,7 +4450,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T000718Z-3bf096b8"
-      }
+      },
+      "journal": "MethodsX",
+      "authors": [
+        "Baraskar PT, Khatri V, Kolhe P, Katyarmal M, Khedekar S."
+      ]
     },
     {
       "public_id": "p-282084b764b7ac5d56e78cd1a5bf9278",
@@ -3596,7 +4476,11 @@
         "alt": "Sample frame mid-slice: authors' ground-truth centroids (left) versus the pre-trained 2D U-Net detections (right).",
         "caption": "Sample frame mid-slice: authors' ground-truth centroids (left) versus the pre-trained 2D U-Net detections (right)."
       },
-      "generation": null
+      "generation": null,
+      "journal": "Plant & cell physiology",
+      "authors": [
+        "Goh T, Song Y, Yonekura T, Obushi N, Den Z, Imizu K, Tomizawa Y, Kondo Y, Miyashima S, Iwamoto Y, Inami M, Chen YW, Nakajima K."
+      ]
     },
     {
       "public_id": "p-83b2a51c60a5a23fa6f5a266fc840633",
@@ -3625,7 +4509,19 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T003346Z-ee9fff3c"
-      }
+      },
+      "journal": "Plant Methods",
+      "authors": [
+        "Felicià Maviane Macia",
+        "Tyrone Possamai",
+        "Marie-Annick Dorne",
+        "Marie-Céline Lacombe",
+        "Eric Duchêne",
+        "Didier Merdinoglu",
+        "Nemo Peeters",
+        "David Rousseau",
+        "Sabine Wiedemann-Merdinoglu"
+      ]
     },
     {
       "public_id": "p-b2c9032c744812c1d15f35db91dcbfd9",
@@ -3656,7 +4552,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T002324Z-5d234ea0"
-      }
+      },
+      "journal": "Frontiers in plant science",
+      "authors": [
+        "Batin MA, Islam M, Hasan MM, Azad A, Alyami SA, Hossain MA, Miklavcic SJ."
+      ]
     },
     {
       "public_id": "p-08088351f8b61330a98bade47b5afb9c",
@@ -3678,7 +4578,21 @@
         "alt": "Seed-scan tile scan15_110918016.jpg_2_2 with the authors' frozen Faster R-CNN model detections (score threshold 0.5; 374 predicted vs 373 XML-annotated seeds)",
         "caption": "Seed-scan tile scan15_110918016.jpg_2_2 with the authors' frozen Faster R-CNN model detections (score threshold 0.5; 374 predicted vs 373 XML-annotated seeds)"
       },
-      "generation": null
+      "generation": null,
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        "Peipei Wang",
+        "Fanrui Meng",
+        "Paityn Donaldson",
+        "Sarah Horan",
+        "Nicholas Panchy",
+        "Elyse Vischulis",
+        "Eamon Winship",
+        "Jeffrey K. Conner",
+        "Patrick J. Krysan",
+        "Shin‐Han Shiu",
+        "Melissa D. Lehti‐Shiu"
+      ]
     },
     {
       "public_id": "p-4c14194846cde3222f61f636951580e7",
@@ -3707,7 +4621,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T035414Z-c6fcd0c3"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Niedballa J, Axtner J, Döbert TF, Tilker A, Nguyen A, Wong ST, Fiderer C, Heurich M, Wilting A."
+      ]
     },
     {
       "public_id": "p-8f55a8fbe9d410d7a55170108973d846",
@@ -3734,7 +4652,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T041843Z-5811e3ba"
-      }
+      },
+      "journal": "Plant phenomics (Washington, D.C.)",
+      "authors": [
+        "Yu Q, Wang N, Tang H, Zhang J, Xu R, Liu L."
+      ]
     },
     {
       "public_id": "p-8469de70c76a84d7d0e0cef7a5e78faf",
@@ -3762,7 +4684,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T052306Z-e60e36af"
-      }
+      },
+      "journal": "Smart agricultural technology",
+      "authors": [
+        "Nakatumba-Nabende J, Babirye C, Tusubira JF, Mutegeki H, Nabiryo AL, Murindanyi S, Katumba A, Nantongo J, Sserunkuma E, Nakitto M, Ssali R, Makunde G, Moyo M, Campos H."
+      ]
     },
     {
       "public_id": "p-027ec3986a9b1bed36d090ca31702f07",
@@ -3792,7 +4718,21 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T054909Z-652bd345"
-      }
+      },
+      "journal": "MethodsX",
+      "authors": [
+        "Kaitlin Tabaracci",
+        "Norbert Bokros",
+        "Yusuf Oduntan",
+        "Bharath Kunduru",
+        "Joseph DeKold",
+        "Endalkachew Mengistie",
+        "Armando G. McDonald",
+        "Christopher J. Stubbs",
+        "Rajandeep S. Sekhon",
+        "Seth DeBolt",
+        "Daniel J. Robertson"
+      ]
     },
     {
       "public_id": "p-dd752d0cd5144d35a2a1df29379ddbae",
@@ -3819,7 +4759,12 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T071711Z-80936b36"
-      }
+      },
+      "journal": "AgriEngineering",
+      "authors": [
+        "Ahmed Abdelmoamen Ahmed",
+        "Gopireddy Harshavardhan Reddy"
+      ]
     },
     {
       "public_id": "p-8c237a85e3bfd1e56afa9df78ac3a530",
@@ -3849,7 +4794,16 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T072842Z-bb3dee56"
-      }
+      },
+      "journal": "PLoS Computational Biology",
+      "authors": [
+        "Melen Leclerc",
+        "Stéphane Jumel",
+        "Frédéric Hamelin",
+        "Rémi Treilhaud",
+        "Nicolas Parisey",
+        "Youcef Mammeri"
+      ]
     },
     {
       "public_id": "p-fb64b46ffeb504759cfc7addb0e59e60",
@@ -3867,7 +4821,11 @@
         "alt": "CGIARWheat 20-shot training samples (3 per class) from the author seed-15 split used for fine-tuning.",
         "caption": "CGIARWheat 20-shot training samples (3 per class) from the author seed-15 split used for fine-tuning."
       },
-      "generation": null
+      "generation": null,
+      "journal": "Frontiers in plant science",
+      "authors": [
+        "Xu M, Yoon S, Jeong Y, Park DS."
+      ]
     },
     {
       "public_id": "p-9baad9c5eb312453f79ed213979e5e7e",
@@ -3898,7 +4856,20 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T093152Z-d467f1ed"
-      }
+      },
+      "journal": "Biogeosciences",
+      "authors": [
+        "Eya Cherif",
+        "Teja Kattenborn",
+        "Luke A. Brown",
+        "Michael Ewald",
+        "Katja Berger",
+        "Phuong D. Dao",
+        "Tobias B. Hank",
+        "Etienne Laliberté",
+        "Bing Lu",
+        "Hannes Feilhauer"
+      ]
     },
     {
       "public_id": "p-7d1d3ea16f792f95af52018cdc953137",
@@ -3931,7 +4902,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T100038Z-596fe724"
-      }
+      },
+      "journal": "Horticulture research",
+      "authors": [
+        "Bauer A, Bostrom AG, Ball J, Applegate C, Cheng T, Laycock S, Rojas SM, Kirwan J, Zhou J."
+      ]
     },
     {
       "public_id": "p-a6a0308cb166f8af9c1283324e171a00",
@@ -3956,7 +4931,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T104052Z-f8908c15"
-      }
+      },
+      "journal": "Journal of biomedical semantics",
+      "authors": [
+        "Hoehndorf R, Alshahrani M, Gkoutos GV, Gosline G, Groom Q, Hamann T, Kattge J, de Oliveira SM, Schmidt M, Sierra S, Smets E, Vos RA, Weiland C."
+      ]
     },
     {
       "public_id": "p-39c5425f038d55e6b475a2eb722d70be",
@@ -3985,7 +4964,15 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T114838Z-f90c52c2"
-      }
+      },
+      "journal": "Remote Sensing in Ecology and Conservation",
+      "authors": [
+        "Aji John",
+        "Elli J. Theobald",
+        "Nicoleta Cristea",
+        "Amanda Tan",
+        "Janneke Hille Ris Lambers"
+      ]
     },
     {
       "public_id": "p-cf57edd8223a2135a5d5ac89d6ebc0e4",
@@ -4017,7 +5004,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T063642Z-f7ce1037"
-      }
+      },
+      "journal": "Genetics",
+      "authors": [
+        "Montes CM, Fox C, Sanz-Sáez Á, Serbin SP, Kumagai E, Krause MD, Xavier A, Specht JE, Beavis WD, Bernacchi CJ, Diers BW, Ainsworth EA."
+      ]
     },
     {
       "public_id": "p-661ca6372a08bb11eab9cb4cf0f75a61",
@@ -4048,7 +5039,18 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T121841Z-8a7c8b0a"
-      }
+      },
+      "journal": "arXiv",
+      "authors": [
+        "Harnaik Dhami",
+        "Kevin Yu",
+        "Tianshu Xu",
+        "Qian Zhu",
+        "Kshitiz Dhakal",
+        "James Friel",
+        "Song Li",
+        "Pratap Tokekar"
+      ]
     },
     {
       "public_id": "p-b14550f882c89332ee9aeb58cdb49bba",
@@ -4076,7 +5078,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T115519Z-1fd373c0"
-      }
+      },
+      "journal": "AoB PLANTS",
+      "authors": [
+        "Seethepalli A, Dhakal K, Griffiths M, Guo H, Freschet GT, York LM."
+      ]
     },
     {
       "public_id": "p-8d647b901d53aaa7f73f18ff5e0eafc4",
@@ -4101,7 +5107,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T124653Z-3aba7898"
-      }
+      },
+      "journal": null,
+      "authors": [
+        "JIKA AKN."
+      ]
     },
     {
       "public_id": "p-416be65b376f5b29b11774a0a72ea1f5",
@@ -4124,7 +5134,19 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T140521Z-3b032e93"
-      }
+      },
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Samiul Haque",
+        "Edgar Lobatón",
+        "Natalie G. Nelson",
+        "G. Craig Yencho",
+        "Kenneth V. Pecota",
+        "Russell Mierop",
+        "Michael W. Kudenov",
+        "Mike Boyette",
+        "Cranos Williams"
+      ]
     },
     {
       "public_id": "p-59fad09308b383d488e949a8fb42837b",
@@ -4154,7 +5176,22 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T141334Z-60d8ff5b"
-      }
+      },
+      "journal": "Applications in Plant Sciences",
+      "authors": [
+        "José C. Tovar",
+        "J. Steen Hoyer",
+        "Andy Lin",
+        "Allison Tielking",
+        "Steven T. Callen",
+        "S. Elizabeth Castillo",
+        "Michael D. Miller",
+        "Monica Tessman",
+        "Noah Fahlgren",
+        "James C. Carrington",
+        "Dmitri A. Nusinow",
+        "Malia Gehan"
+      ]
     },
     {
       "public_id": "p-b11e2b3b758c4a1c8cfbbc8e2b29230e",
@@ -4182,7 +5219,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T132821Z-fff0b5e5"
-      }
+      },
+      "journal": "BMC Bioinformatics",
+      "authors": [
+        "Gatica M, Navarro CF, Lavado A, Reig G, Pulgar E, Llanos P, Härtel S, Ravasio A, Bertocchi C, Concha ML, Cerda M."
+      ]
     },
     {
       "public_id": "p-5cef55df708861354e2d65e2021deab5",
@@ -4211,7 +5252,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T142950Z-adc3611f"
-      }
+      },
+      "journal": "TAG. Theoretical and applied genetics. Theoretische und angewandte Genetik",
+      "authors": [
+        "Upadhyay A, Azam R, Yuan M, Ivanovic S, Ferguson JN, Paul RE, Koyejo S, El-Kebir M, Lipka AE, Leakey ADB, Fernandes SB."
+      ]
     },
     {
       "public_id": "p-c68f024f754f5e5752d9bde93985eeb6",
@@ -4245,7 +5290,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T145617Z-6b734e51"
-      }
+      },
+      "journal": "Plant phenomics (Washington, D.C.)",
+      "authors": [
+        "Tsoulias N, Khosravi A, Herppich WB, Zude-Sasse M."
+      ]
     },
     {
       "public_id": "p-55cecb890eeed28624a594bf7f6f2af7",
@@ -4275,7 +5324,16 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T150338Z-9ebdb591"
-      }
+      },
+      "journal": "PLANT PHYSIOLOGY",
+      "authors": [
+        "Max Feldman",
+        "Patrick Z. Ellsworth",
+        "Noah Fahlgren",
+        "Malia Gehan",
+        "Asaph B. Cousins",
+        "Ivan Baxter"
+      ]
     },
     {
       "public_id": "p-3d49f79c4f6ddcf132e37fdb913d2812",
@@ -4302,7 +5360,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T152734Z-c0e5e9ca"
-      }
+      },
+      "journal": "Science advances",
+      "authors": [
+        "Shi Y, Yao L, Han Z, Ma Y, Xu Y, Wang X, Jiang Z, Wang S, Zhou M, Zou D, Zhang Z, Wang W."
+      ]
     },
     {
       "public_id": "p-501281b0f6e37c9cabbd8b3e5e638563",
@@ -4331,7 +5393,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T153309Z-757d106b"
-      }
+      },
+      "journal": "G3 (Bethesda, Md.)",
+      "authors": [
+        "Nagle MF, Yuan J, Kaur D, Ma C, Peremyslova E, Jiang Y, Niño de Rivera A, Jawdy S, Chen JG, Feng K, Yates TB, Tuskan GA, Muchero W, Fuxin L, Strauss SH."
+      ]
     },
     {
       "public_id": "p-116ad61400d168b145488899a4e023d4",
@@ -4365,7 +5431,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T161850Z-a60795c5"
-      }
+      },
+      "journal": "Plant methods",
+      "authors": [
+        "Oury V, Leroux T, Turc O, Chapuis R, Palaffre C, Tardieu F, Prado SA, Welcker C, Lacube S."
+      ]
     },
     {
       "public_id": "p-cdeb807babf91f2b6fe0f203dd5b5868",
@@ -4392,7 +5462,14 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T161535Z-0b770fe7"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Perret, J.",
+        "Besnard, A.",
+        "Charpentier, A.",
+        "Papuga, G."
+      ]
     },
     {
       "public_id": "p-4dee69b3ba1b0df3a727a2497e7a59bd",
@@ -4422,7 +5499,14 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T170309Z-a825a4fa"
-      }
+      },
+      "journal": "New Phytologist",
+      "authors": [
+        "Jiayu Zhang",
+        "Elias Kaiser",
+        "L.F.M. Marcelis",
+        "Silvère Vialet‐Chabrand"
+      ]
     },
     {
       "public_id": "p-c0fdebde1d5529f726acefa644e618fb",
@@ -4451,7 +5535,17 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T171706Z-b6938e0a"
-      }
+      },
+      "journal": "Ikushugaku zasshi",
+      "authors": [
+        "Ken Kuroki",
+        "Kai Yan",
+        "Hiroyoshi Iwata",
+        "Kentaro K. Shimizu",
+        "Toshiaki Tameshige",
+        "Shuhei Nasuda",
+        "Wei Guo"
+      ]
     },
     {
       "public_id": "p-61a6050762a9ebd5d9bb785d2c368efe",
@@ -4481,7 +5575,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T175158Z-49f1a36a"
-      }
+      },
+      "journal": null,
+      "authors": [
+        "Zhang Y, Xu G, Li D, Lu Y, Jiang H, Luo S, Wen M, Zhang J, Chen X, Zheng Q, Wang C, Liu Z, Ku M, Chen J."
+      ]
     },
     {
       "public_id": "p-ae3580837492741945d947fd48c62a2d",
@@ -4510,7 +5608,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T170059Z-bb3e3cdd"
-      }
+      },
+      "journal": "Cell reports methods",
+      "authors": [
+        "Russell NJ, Belato PB, Oliver LS, Chakraborty A, Roeder AHK, Fox DT, Formosa-Jordan P."
+      ]
     },
     {
       "public_id": "p-921e3c64e6cd8f598d5f56edbe436f1f",
@@ -4536,7 +5638,16 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T175918Z-f1067a21"
-      }
+      },
+      "journal": "Plant Methods",
+      "authors": [
+        "Abelardo Montesinos‐López",
+        "Osval A. Montesinos‐López",
+        "Gustavo de los Campos",
+        "José Crossa",
+        "Juan Burgueño",
+        "Francisco Javier Luna-Vázquez"
+      ]
     },
     {
       "public_id": "p-f11327c20f89d4cca9b254e910691487",
@@ -4565,7 +5676,15 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T205939Z-949009f6"
-      }
+      },
+      "journal": "Plant Phenomics",
+      "authors": [
+        "Jan Zdražil",
+        "Lingping Kong",
+        "Lukáš Spíchal",
+        "Václav Snášel",
+        "Nuria De Diego"
+      ]
     },
     {
       "public_id": "p-cf6fbe09ef069c421bb4945ffc9580e4",
@@ -4597,7 +5716,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T222348Z-0550562d"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Ayub Y, McGuire-Scullen S, Percival S, Weaver WN, Karki N, Yahiaoui W, Astudillo-Pavón K, Barrios A, Check JC, Colchado-López J, Dolgikh BA, Espinosa-Martínez DV, Fu Q, Galvan-Lara KM, García-Chávez JN, Garcia-Rios S, Grabb CN, Guadir-Lara GE, Hawkins JC, Hendrickson CL, Hightower AT, Hurtado-Olvera JJ, Kianian S, Lennon J, Li Z, Li J, Lieb B, Lin J, López-Sánchez P, Luna-Alvarez M, Martínez-Martínez C, Montemayor-Lara A, Moreno NA, Obisesan IA, Pérez-Flores O, Pimentel-Ruiz C, Pineda-Hernández E, Purvis C, Sharpe L, Smail S, Tajik F, Temple JA, Ticoras MA, Trusky JK, Van Wyk JJ, Villarreal-Huerta D, Wang EX, Willey N, Zheng J, Montgomery BL, Romero-Hernandez A, Josephs EB, Migicovsky Z, Diaz-Garcia L, Husbands AY, Smith SA, Laiadi Z, VanBuren R, Rougon-Cardoso A, Munch E, Chitwood DH."
+      ]
     },
     {
       "public_id": "p-570151845380c4fdd6aa3762be2973f3",
@@ -4628,7 +5751,14 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T232535Z-9571e957"
-      }
+      },
+      "journal": "Frontiers in Marine Science",
+      "authors": [
+        "Wyatt C. Million",
+        "Sibelle O’Donnell",
+        "Erich Bartels",
+        "Carly D. Kenkel"
+      ]
     },
     {
       "public_id": "p-eb22c152f82984e9e6f4f5878976feba",
@@ -4656,7 +5786,15 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T233457Z-a62a78d9"
-      }
+      },
+      "journal": "Journal of Experimental Botany",
+      "authors": [
+        "Avi C. Knecht",
+        "Malachy T. Campbell",
+        "Adam Caprez",
+        "David Swanson",
+        "Harkamal Walia"
+      ]
     },
     {
       "public_id": "p-c207aaffecf97ff42fd465ffaed5302e",
@@ -4686,7 +5824,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T234838Z-8560d437"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Potapov I, Järvenpää M, Åkerblom M, Raumonen P, Kaasalainen M."
+      ]
     },
     {
       "public_id": "p-bd05a2d6963ba75f77fd9068930fe41a",
@@ -4711,7 +5853,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T002322Z-3ac907e7"
-      }
+      },
+      "journal": "Plant methods",
+      "authors": [
+        "Ahmad N, Tennakoon K, Hedrich R, Huang S, Roelfsema MRG."
+      ]
     },
     {
       "public_id": "p-ec195643370bc393728d48833a209286",
@@ -4739,7 +5885,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261005T183851Z-29662e4a"
-      }
+      },
+      "journal": "Computational and structural biotechnology journal",
+      "authors": [
+        "Sakeef N, Scandola S, Kennedy C, Lummer C, Chang J, Uhrig RG, Lin G."
+      ]
     },
     {
       "public_id": "p-2622cabc3ec497c6b30382594a3f9389",
@@ -4768,7 +5918,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T005157Z-3f9dfd86"
-      }
+      },
+      "journal": "Frontiers in plant science",
+      "authors": [
+        "Fakude M, Foster TL, Chen YR, Murithi A, Aboobucker SI, Frei UK, Dixon PM, Lübberstedt T."
+      ]
     },
     {
       "public_id": "p-ab60978ac3d2386bad43907dc62862af",
@@ -4796,7 +5950,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T004421Z-91b4da20"
-      }
+      },
+      "journal": "Journal of experimental botany",
+      "authors": [
+        "Wang DR, Guadagno CR, Mao X, Mackay DS, Pleban JR, Baker RL, Weinig C, Jannink JL, Ewers BE."
+      ]
     },
     {
       "public_id": "p-2313f06d496c5a417df30f736068f32e",
@@ -4828,7 +5986,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T011539Z-9e9cdd16"
-      }
+      },
+      "journal": "Data in brief",
+      "authors": [
+        "Campbell P, Middleton E, Huemmrich K, Ward L, Julitta T, Yang P, van der Tol C, Daughtry C, Russ A, Alfieri J, Kustas W."
+      ]
     },
     {
       "public_id": "p-b02aa84ae09932b7a23e3aff507295b7",
@@ -4856,7 +6018,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T022340Z-df4f6638"
-      }
+      },
+      "journal": "Plant Phenomics",
+      "authors": [
+        "Jurado-Ruiz F, Rousseau D, Botía JA, Aranzana MJ."
+      ]
     },
     {
       "public_id": "p-d382c9876e92f6b951898f726878c92e",
@@ -4874,7 +6040,11 @@
         "alt": "Test image with the author-provided ground-truth bud mask contour (reference annotation)",
         "caption": "Test image with the author-provided ground-truth bud mask contour (reference annotation)"
       },
-      "generation": null
+      "generation": null,
+      "journal": "Computers and Electronics in Agriculture.",
+      "authors": [
+        "Villegas Marset W, Pérez DS, Díaz CA, Bromberg F."
+      ]
     },
     {
       "public_id": "p-a349992a9a7f836d25123f526c58c28a",
@@ -4904,7 +6074,21 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T031521Z-185283e3"
-      }
+      },
+      "journal": "Plant Phenomics",
+      "authors": [
+        "Huimin Wang",
+        "Wei Guo",
+        "Yue Mu",
+        "Yang Zhang",
+        "Haozhou Wang",
+        "Yandong Yang",
+        "Hu Xu",
+        "Yanfeng Ding",
+        "Shirong Zhou",
+        "Ganghua Li",
+        "Seishi Ninomiya"
+      ]
     },
     {
       "public_id": "p-46381bbe837bfc0c5522f980b3360462",
@@ -4936,7 +6120,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T034746Z-737b9a79"
-      }
+      },
+      "journal": "Plant phenomics (Washington, D.C.)",
+      "authors": [
+        "Zhou Q, Guo W, Chen N, Wang Z, Li G, Ding Y, Ninomiya S, Mu Y."
+      ]
     },
     {
       "public_id": "p-c923a53ae672c6d7e6646c58272d8a8b",
@@ -4966,7 +6154,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T012336Z-d42d8a99"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Okoma PM, Kayondo SS, Rabbi IY, Moreno-Cadena PL, Hoogenboom G, Jannink J."
+      ]
     },
     {
       "public_id": "p-b6193d683a443e1448f2a9348ee333e3",
@@ -4996,7 +6188,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T045507Z-4f8a6435"
-      }
+      },
+      "journal": "Plants (Basel, Switzerland)",
+      "authors": [
+        "Luoni SAB, Ricci R, Corzo MA, Hoxha G, Melgani F, Fernandez P."
+      ]
     },
     {
       "public_id": "p-fd6547e68e447695b47e63419be8b4a3",
@@ -5027,7 +6223,14 @@
         "alt": "Input Wheat 400x handheld-microscope image (left) with YOLOv5 stomata detections (right, model predictions, conf 0.4)",
         "caption": "Input Wheat 400x handheld-microscope image (left) with YOLOv5 stomata detections (right, model predictions, conf 0.4)"
       },
-      "generation": null
+      "generation": null,
+      "journal": "bioRxiv",
+      "authors": [
+        "Pathoumthong, P.",
+        "Zhang, Z.",
+        "Roy, S.",
+        "El Habti, A."
+      ]
     },
     {
       "public_id": "p-447c3f5fed9ffacd051467132402e2db",
@@ -5055,7 +6258,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T070209Z-66dd506b"
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Grady EL, LaFrance R, Li D, Dinnage R, Denny EG, Deck J, Guralnick RP."
+      ]
     },
     {
       "public_id": "p-2e8c3a2843f22434ab184e04160afc16",
@@ -5082,7 +6289,15 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T153247Z-38aed1e9"
-      }
+      },
+      "journal": "arXiv",
+      "authors": [
+        "Jun Chen",
+        "Yonghua Yu",
+        "Weifu Li",
+        "Yaohui Chen",
+        "Hong Chen"
+      ]
     },
     {
       "public_id": "p-324fc62e79f61ae67c5b95c671c559e9",
@@ -5112,7 +6327,12 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T164722Z-e90cd375"
-      }
+      },
+      "journal": "arXiv",
+      "authors": [
+        "Tamim Ahasan Rijon",
+        "Yeasin Arafath"
+      ]
     },
     {
       "public_id": "p-26cdb3bb9f60e6976f58bf89d57a8708",
@@ -5137,7 +6357,13 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T153224Z-11c506bd"
-      }
+      },
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Fredrik Anders Westling",
+        "James Underwood",
+        "Mitch Bryson"
+      ]
     },
     {
       "public_id": "p-feca74983cc9d1c5ff2a8dc4937dc604",
@@ -5167,7 +6393,13 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T171846Z-cc820959"
-      }
+      },
+      "journal": "arXiv",
+      "authors": [
+        "Nicolai Häni",
+        "Pravakar Roy",
+        "Volkan Isler"
+      ]
     },
     {
       "public_id": "p-0d7cdc834f0208fdfc68b402628bdfd7",
@@ -5201,7 +6433,17 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T180030Z-ffbb6887"
-      }
+      },
+      "journal": "GigaScience",
+      "authors": [
+        "Azam Hamidinekoo",
+        "Gina A. Garzón-Martínez",
+        "Morteza Ghahremani",
+        "Fiona Corke",
+        "Reyer Zwiggelaar",
+        "John H. Doonan",
+        "Chuan Lü"
+      ]
     },
     {
       "public_id": "p-bca1dffe8b831525417a430bec348e04",
@@ -5221,7 +6463,13 @@
         "alt": "Author sample input 338_i.png with CROP's measured center-of-mass marker (blue square) drawn on the original photo",
         "caption": "Author sample input 338_i.png with CROP's measured center-of-mass marker (blue square) drawn on the original photo"
       },
-      "generation": null
+      "generation": null,
+      "journal": "arXiv",
+      "authors": [
+        "Motohisa Fukuda",
+        "Takashi Okuno",
+        "Shinya Yuki"
+      ]
     },
     {
       "public_id": "p-5cde365672db8ac0d0a4a5592fc30d2e",
@@ -5254,7 +6502,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T195239Z-9db1789b"
-      }
+      },
+      "journal": "GigaScience",
+      "authors": [
+        "Dai J, Wen Z, Ali M, Huang J, Liu S, Zhao J, Pinheiro F, Yang C, Wang B, Ye L, Guan X, Zhou J."
+      ]
     },
     {
       "public_id": "p-db3f8be98b089c555cac68adece401c3",
@@ -5281,7 +6533,18 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T233858Z-00d61fda"
-      }
+      },
+      "journal": "iMeta",
+      "authors": [
+        "Weijun Guo",
+        "Fanhua Wang",
+        "Jianyue Lv",
+        "Jia Yu",
+        "Yue Wu",
+        "Hada Wuriyanghan",
+        "Liang Le",
+        "Li Pu"
+      ]
     },
     {
       "public_id": "p-cd491f1c0d8b2d53c198839547951c56",
@@ -5309,7 +6572,14 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261006T195117Z-8df3f79f"
-      }
+      },
+      "journal": "Scientific Reports",
+      "authors": [
+        "Chiranjit Pal",
+        "Swastik Karmakar",
+        "Imon Mukherjee",
+        "Partha Pratim Chakrabarti"
+      ]
     },
     {
       "public_id": "p-bbb6f18ec693f941aa83ad24494c855d",
@@ -5339,7 +6609,11 @@
         },
         "source": "historical_job_monitor",
         "run_id": "colab-20261007T013754Z-7c4ea5dd"
-      }
+      },
+      "journal": "Plant methods",
+      "authors": [
+        "Li J, Wang E, Qiao J, Li Y, Li L, Yao J, Liao G."
+      ]
     },
     {
       "public_id": "p-9509ca4adeb1b05d75ea813b28d6a667",
@@ -5371,7 +6645,11 @@
       "preview": {
         "alt": "Demo photo CAM449_2017-07-20-14-32: our SS-CNN separation (left) vs the authors' shipped reference (right); red=foreground, blue=background plant pixels.",
         "caption": "Demo photo CAM449_2017-07-20-14-32: our SS-CNN separation (left) vs the authors' shipped reference (right); red=foreground, blue=background plant pixels."
-      }
+      },
+      "journal": "Plant Phenomics",
+      "authors": [
+        "Guo X, Qiu Y, Nettleton D, Schnable PS."
+      ]
     },
     {
       "public_id": "p-a3f1468a9d39e532abd9a169fb967994",
@@ -5401,7 +6679,21 @@
       "preview": {
         "alt": "Verbatim author-script output: 20 detected tomato fruits annotated with estimated fresh mass (24.8-119.4 g) from pixel areas via the paper's linear model",
         "caption": "Verbatim author-script output: 20 detected tomato fruits annotated with estimated fresh mass (24.8-119.4 g) from pixel areas via the paper's linear model"
-      }
+      },
+      "journal": "Horticultura Brasileira",
+      "authors": [
+        "Sandra Eulália Santos Faria",
+        "Alcinei Mí­stico Azevedo",
+        "Nayany Gomes Rabelo",
+        "Varlen Zeferino Anastácio",
+        "Valentina de Melo Maciel",
+        "Deltimara Viana Matos",
+        "Elias Barbosa Rodrigues",
+        "Vinícius Bernardes",
+        "Jaílson Ramos Magalhães",
+        "Guilherme dos S Silva",
+        "Ana Clara Gonçalves Fernandes"
+      ]
     },
     {
       "public_id": "p-c900721bb15ebda5e76a1dc19ac75f74",
@@ -5434,7 +6726,16 @@
       "preview": {
         "alt": "AraDQ pipeline on the paired plate photographs: raw input, authors' U-net model prediction (warped mask), and distortion+color-corrected image.",
         "caption": "AraDQ pipeline on the paired plate photographs: raw input, authors' U-net model prediction (warped mask), and distortion+color-corrected image."
-      }
+      },
+      "journal": "Plant Methods",
+      "authors": [
+        "Jae Hoon Lee",
+        "Unseok Lee",
+        "Ji Hye Yoo",
+        "Taek Sung Lee",
+        "Je Hyeong Jung",
+        "Hyoung Seok Kim"
+      ]
     },
     {
       "public_id": "p-43ba90c5388dc75860441a1289f95762",
@@ -5465,7 +6766,11 @@
       "preview": {
         "alt": "Gevuina avellana fp0 brightfield input with reference YOLO-seg polygon masks (fill) and the author-distributed bounding boxes (dashed) from pollenbb16.zip, fetched selectively by HTTP Range.",
         "caption": "Gevuina avellana fp0 brightfield input with reference YOLO-seg polygon masks (fill) and the author-distributed bounding boxes (dashed) from pollenbb16.zip, fetched selectively by HTTP Range."
-      }
+      },
+      "journal": "Scientific data",
+      "authors": [
+        "Sanhueza I, Coelho P, Viafora L, Jofre-Cerda R, Salamanca-Levi V, Muñoz-Cepeda B, Obregón-Rivas AM, Cofré J, Rondanelli-Reyes M, Lamas I, Troncoso J, Toro C, Cariñe J, Staforelli-Vivanco J."
+      ]
     },
     {
       "public_id": "p-c23da1f44cefa8b2f9a86687e8c02a83",
@@ -5498,7 +6803,26 @@
       "preview": {
         "alt": "Unseen EcoFAB scans from RhizoNet Fig. 3: raw input, hand-annotated reference, and the executed model_64 root-mask overlay.",
         "caption": "Unseen EcoFAB scans from RhizoNet Fig. 3: raw input, hand-annotated reference, and the executed model_64 root-mask overlay."
-      }
+      },
+      "journal": "Frontiers in Plant Science",
+      "authors": [
+        "Peter F. Andeer",
+        "Petrus H. Zwart",
+        "Daniela Ushizima",
+        "Marcus M. Noack",
+        "Lloyd T. Cornmesser",
+        "Thomas M. Vess",
+        "Zineb Sordo",
+        "Stephen Tan",
+        "Joseph Zorzi",
+        "Chelsea Hernandez",
+        "Vlastimil Novak",
+        "Yezhang Ding",
+        "John P. Vogel",
+        "Benjamin P. Bowen",
+        "James A. Sethian",
+        "Trent R. Northen"
+      ]
     },
     {
       "public_id": "p-8febe1ed612cab104a90ea3f3401511a",
@@ -5527,7 +6851,13 @@
       "preview": {
         "alt": "Ensemble plant-segmentation probability (left, red = high) and five-network standard-deviation uncertainty (right) for EcoFAB YY24EX0010EF009 front view 2024-05-31, overlaid on the input RGB render.",
         "caption": "Ensemble plant-segmentation probability (left, red = high) and five-network standard-deviation uncertainty (right) for EcoFAB YY24EX0010EF009 front view 2024-05-31, overlaid on the input RGB render."
-      }
+      },
+      "journal": "Frontiers in High Performance Computing",
+      "authors": [
+        "Petrus H. Zwart",
+        "Peter Andeer",
+        "Trent R. Northen"
+      ]
     },
     {
       "public_id": "p-a7b73ba81c4ea1bf5e2ef744a678bbd7",
@@ -5558,7 +6888,14 @@
       "preview": {
         "alt": "GBF-CD error map vs author-supplied reference change map on SF_dataset.mat: green = correct detections, blue = missed alarms (MA), red = false alarms (FA).",
         "caption": "GBF-CD error map vs author-supplied reference change map on SF_dataset.mat: green = correct detections, blue = missed alarms (MA), red = false alarms (FA)."
-      }
+      },
+      "journal": "Remote Sensing",
+      "authors": [
+        "David Alejandro Jimenez-Sierra",
+        "Hernán Darío Benítez-Restrepo",
+        "Hernán Darío Vargas-Cardona",
+        "Jocelyn Chanussot"
+      ]
     },
     {
       "public_id": "p-924191f1c63d31c8015fd5aea7c983a3",
@@ -5591,7 +6928,17 @@
       "preview": {
         "alt": "Sample _MG_2657_24 with SAM masks, Grounding-DINO ripe (red) / unripe (green) boxes, and estimated equatorial diameters in mm (2D-LSeg), produced by the author's pipeline in this run.",
         "caption": "Sample _MG_2657_24 with SAM masks, Grounding-DINO ripe (red) / unripe (green) boxes, and estimated equatorial diameters in mm (2D-LSeg), produced by the author's pipeline in this run."
-      }
+      },
+      "journal": "arXiv",
+      "authors": [
+        "Keyi Zhu",
+        "Jiajia Li",
+        "Kaixiang Zhang",
+        "Chaaran Arunachalam",
+        "Siddhartha Bhattacharya",
+        "Renfu Lu",
+        "Zhaojian Li"
+      ]
     },
     {
       "public_id": "p-dc32b44045d5a76d29a5d4826a91da83",
@@ -5621,7 +6968,11 @@
       "preview": {
         "alt": "Five real pomegranate fruit images from the paper's Mendeley dataset with the deployed ViT-B.onnx model's predicted class and confidence overlaid (green = matches the dataset folder label)",
         "caption": "Five real pomegranate fruit images from the paper's Mendeley dataset with the deployed ViT-B.onnx model's predicted class and confidence overlaid (green = matches the dataset folder label)"
-      }
+      },
+      "journal": "Frontiers in plant science",
+      "authors": [
+        "S L, C K AP, M A, V V, Krishna YH, Mohanty A."
+      ]
     },
     {
       "public_id": "p-1de963fe75f6acd9fe786c291b459370",
@@ -5648,7 +6999,16 @@
       "preview": {
         "alt": "UAV input (left), authors' released reference mask (center), reproduced prediction with red overlay (right) for test_images/1.jpg",
         "caption": "UAV input (left), authors' released reference mask (center), reproduced prediction with red overlay (right) for test_images/1.jpg"
-      }
+      },
+      "journal": "Forests",
+      "authors": [
+        "Giorgio Morales",
+        "Guillermo Kemper",
+        "Grace Sevillano",
+        "Daniel Arteaga",
+        "Ivan Ortega",
+        "Joel Telles"
+      ]
     },
     {
       "public_id": "p-f84d74d4cde3d6dd8559f857b44e97ae",
@@ -5677,7 +7037,21 @@
       "preview": {
         "alt": "Ovule 1135 crop: noisy H2B input, reference gold annotation (red) and StarDist-ResNet prediction (green) boundaries",
         "caption": "Ovule 1135 crop: noisy H2B input, reference gold annotation (red) and StarDist-ResNet prediction (green) boundaries"
-      }
+      },
+      "journal": "Development",
+      "authors": [
+        "Athul Vijayan",
+        "Tejasvinee Atul Mody",
+        "Qin Yu",
+        "Adrian Wolny",
+        "Lorenzo Cerrone",
+        "Soeren Strauss",
+        "Miltos Tsiantis",
+        "Richard S. Smith",
+        "Fred A. Hamprecht",
+        "Anna Kreshuk",
+        "Kay Schneitz"
+      ]
     },
     {
       "public_id": "p-44844a141a913a88054c011c6f6323cb",
@@ -5709,7 +7083,11 @@
       "preview": {
         "alt": "Author example input (left) beside the executed pipeline output (right): green fruit masks, red predicted bruise masks, detection boxes and per-berry bruising ratios.",
         "caption": "Author example input (left) beside the executed pipeline output (right): green fruit masks, red predicted bruise masks, detection boxes and per-berry bruising ratios."
-      }
+      },
+      "journal": "Frontiers in plant science",
+      "authors": [
+        "Tan C, Li C, Perkins-Veazie P, Oh H, Xu R, Iorizzo M."
+      ]
     },
     {
       "public_id": "p-e6c97314f8fd238c832e9295bff1dccb",
@@ -5738,7 +7116,11 @@
       "preview": {
         "alt": "Nucl.Eye.D on Dark_0.png (Light/Dark test set): input DAPI field, archive reference nucleus mask, predicted nucleus mask, and predicted chromocenters (red).",
         "caption": "Nucl.Eye.D on Dark_0.png (Light/Dark test set): input DAPI field, archive reference nucleus mask, predicted nucleus mask, and predicted chromocenters (red)."
-      }
+      },
+      "journal": "Epigenomes",
+      "authors": [
+        "Johann To Berens P, Schivre G, Theune M, Peter J, Sall SO, Mutterer J, Barneche F, Bourbousse C, Molinier J."
+      ]
     },
     {
       "public_id": "p-7f085a3a8c238d6f2a7e0569b7ef521d",
@@ -5778,7 +7160,13 @@
       "preview": {
         "alt": "Ground-truth relative maturity vs DPM estimated by the authors' LOESS (left) and SEG (right) methods for 124 ground-truth plots of the 2020 SVREC environment (this run).",
         "caption": "Ground-truth relative maturity vs DPM estimated by the authors' LOESS (left) and SEG (right) methods for 124 ground-truth plots of the 2020 SVREC environment (this run)."
-      }
+      },
+      "journal": "Research Square",
+      "authors": [
+        "Leonardo Volpato",
+        "Evan M. Wright",
+        "Francisco E. Gomez"
+      ]
     },
     {
       "public_id": "p-7ed948baa8dc690f07be5826e57e318c",
@@ -5806,7 +7194,13 @@
       "preview": {
         "alt": "Ten grayscale IFCB inputs from the WHOI22 subset with their true class labels (Ciranni et al. 2024, repo commit 2dad84be4125)",
         "caption": "Ten grayscale IFCB inputs from the WHOI22 subset with their true class labels (Ciranni et al. 2024, repo commit 2dad84be4125)"
-      }
+      },
+      "journal": "Frontiers in Marine Science",
+      "authors": [
+        "Massimiliano Ciranni",
+        "Francesca Odone",
+        "Vito Paolo Pastore"
+      ]
     },
     {
       "public_id": "p-0d2eb12e796dec66496f74d8e0aa04b7",
@@ -5837,7 +7231,11 @@
       "preview": {
         "alt": "Bundled wetland-mesocosm minirhizotron sample: input scan (left), RootDetector segmentation with predicted roots in white and tape exclusion mask in red (middle), and measurement skeleton (right).",
         "caption": "Bundled wetland-mesocosm minirhizotron sample: input scan (left), RootDetector segmentation with predicted roots in white and tape exclusion mask in red (middle), and measurement skeleton (right)."
-      }
+      },
+      "journal": "Scientific Reports",
+      "authors": [
+        "Peters B, Blume-Werry G, Gillert A, Schwieger S, von Lukas UF, Kreyling J."
+      ]
     },
     {
       "public_id": "p-57f543a1057afd26a3fea631a7af9780",
@@ -5874,7 +7272,14 @@
       "preview": {
         "alt": "TomatoMAP rig inputs with their real BBCH stage labels (train-split sample)",
         "caption": "TomatoMAP rig inputs with their real BBCH stage labels (train-split sample)"
-      }
+      },
+      "journal": "arXiv",
+      "authors": [
+        "Yujie Zhang",
+        "Sabine Struckmeyer",
+        "Andreas Kolb",
+        "Sven Reichardt"
+      ]
     },
     {
       "public_id": "p-2fefe25503b28bfc4e9dc5bb5e548e9d",
@@ -5905,7 +7310,15 @@
       "preview": {
         "alt": "Observed Soxhlet oil volume (red) versus each model's prediction over all 30 semi-ripe fruit samples",
         "caption": "Observed Soxhlet oil volume (red) versus each model's prediction over all 30 semi-ripe fruit samples"
-      }
+      },
+      "journal": "Acta Agrobotanica",
+      "authors": [
+        "Sherif Eneye Shuaib",
+        "Pakwan Riyapan",
+        "Saysunee Jumrat",
+        "Yutthapong Pianroj",
+        "Jirapond Muangprathub"
+      ]
     },
     {
       "public_id": "p-03f7bc9fab12994c7bbe235d3f6a75c6",
@@ -5942,7 +7355,16 @@
       "preview": {
         "alt": "Input tomato_test1.jpg (author greenhouse photo) beside the pipeline's largest tomato detection with its mean-hue ripeness label (Unmature, hue 18.1).",
         "caption": "Input tomato_test1.jpg (author greenhouse photo) beside the pipeline's largest tomato detection with its mean-hue ripeness label (Unmature, hue 18.1)."
-      }
+      },
+      "journal": "Journal of Bio-Environment Control",
+      "authors": [
+        "Seungri Yoon",
+        "Minju Shin",
+        "Jin Hyun Kim",
+        "Ho Jeong Jeong",
+        "Junyoung Park",
+        "Tae In Ahn"
+      ]
     },
     {
       "public_id": "p-8ca78fc2f9d3df4db313496ba8789ed6",
@@ -5976,7 +7398,11 @@
       "preview": {
         "alt": "Input stand r60-t8w point cloud (Mendeley 10.17632/h49fpprg6c.1) coloured by height above ground, with the dataset's manual tree labels and matter labels.",
         "caption": "Input stand r60-t8w point cloud (Mendeley 10.17632/h49fpprg6c.1) coloured by height above ground, with the dataset's manual tree labels and matter labels."
-      }
+      },
+      "journal": "Computers and Electronics in Agriculture.",
+      "authors": [
+        "Westling F, Underwood J, Bryson M."
+      ]
     },
     {
       "public_id": "p-8c0429be8d5b0e6fba2bac19bdf09935",
@@ -6004,7 +7430,15 @@
       "preview": {
         "alt": "Notebook-created scatter panels of accession-level PC1 against aspect ratio, fruit area, and harvest weight (n = 534), colored by aspect ratio as in the authors' Figure 5 styling.",
         "caption": "Notebook-created scatter panels of accession-level PC1 against aspect ratio, fruit area, and harvest weight (n = 534), colored by aspect ratio as in the authors' Figure 5 styling."
-      }
+      },
+      "journal": "The Plant Phenome Journal",
+      "authors": [
+        "Kylie DeViller",
+        "Daniel H. Chitwood",
+        "Sean Myles",
+        "Mao Li",
+        "Zoë Migicovsky"
+      ]
     },
     {
       "public_id": "p-20afe95c7a327d82953a229470490c9b",
@@ -6038,7 +7472,11 @@
       "preview": {
         "alt": "Test-plate lanes: input RGB stacks with author-pipeline leaf-detection hulls (red) beside predicted infection masks (white = pathogen).",
         "caption": "Test-plate lanes: input RGB stacks with author-pipeline leaf-detection hulls (red) beside predicted infection masks (white = pathogen)."
-      }
+      },
+      "journal": "bioRxiv",
+      "authors": [
+        "Lück S, Strickert M, Lorbeer M, Melchert F, Backhaus A, Kilias D, Seiffert U, Schweizer P, Djamei A, Douchkov D."
+      ]
     },
     {
       "public_id": "p-679adbc34da980ccda3bce4f119b1f58",
@@ -6064,7 +7502,13 @@
       "preview": {
         "alt": "Simulated internal tactile observations from the in-gripper camera at gripper openings of 4-40 mm, produced by the authors' unmodified render_loop.py under headless Blender (Cycles 1024 samples) on a Colab T4.",
         "caption": "Simulated internal tactile observations from the in-gripper camera at gripper openings of 4-40 mm, produced by the authors' unmodified render_loop.py under headless Blender (Cycles 1024 samples) on a Colab T4."
-      }
+      },
+      "journal": "arXiv",
+      "authors": [
+        "Ruohan Zhang",
+        "Mohammad Amin Mirzaee",
+        "Wenzhen Yuan"
+      ]
     },
     {
       "public_id": "p-aec5f4a3b637086223a53c458d9c0bd3",
@@ -6095,7 +7539,16 @@
       "preview": {
         "alt": "CitDet test images with expert ground-truth bounding boxes (red: Fruit on Tree, blue: Fruit on Ground)",
         "caption": "CitDet test images with expert ground-truth bounding boxes (red: Fruit on Tree, blue: Fruit on Ground)"
-      }
+      },
+      "journal": "arXiv",
+      "authors": [
+        "Jordan A. James",
+        "Heather K. Manching",
+        "Matthew R. Mattia",
+        "Kim D. Bowman",
+        "Amanda M. Hulse-Kemp",
+        "William J. Beksi"
+      ]
     },
     {
       "public_id": "p-30b2f0e3a292ceea837204361f928619",
@@ -6126,7 +7579,11 @@
       "preview": {
         "alt": "Cherry-tomato photographs from photos_tomato/ (pinned commit 2678cf6), one per K-Means ground-truth maturity stage, labeled with ID_FOTO, image format and measured average CIELAB coordinates.",
         "caption": "Cherry-tomato photographs from photos_tomato/ (pinned commit 2678cf6), one per K-Means ground-truth maturity stage, labeled with ID_FOTO, image format and measured average CIELAB coordinates."
-      }
+      },
+      "journal": null,
+      "authors": [
+        "Vandeir Aniceto Pinheiro"
+      ]
     },
     {
       "public_id": "p-976ab37dbd74e4ac6793ec6fce37e741",
@@ -6157,7 +7614,19 @@
       "preview": {
         "alt": "Iodine-stained apple cross-section input (left) and Granny v1.1.0 starch mask overlay (right); dark shading is the module's detected starch area, not an author annotation.",
         "caption": "Iodine-stained apple cross-section input (left) and Granny v1.1.0 starch mask overlay (right); dark shading is the module's detected starch area, not an author annotation."
-      }
+      },
+      "journal": null,
+      "authors": [
+        "Nhan H. Nguyen",
+        "Joseph Michaud",
+        "René Mogollón",
+        "Huiting Zhang",
+        "Heidi L. Hargarten",
+        "Rachel S. Leisso",
+        "Carolina A. Torres",
+        "Loren A. Honaas",
+        "Stephen Patrick Ficklin"
+      ]
     },
     {
       "public_id": "p-40af28901ccb9acf8437d9f57bdd55c4",
@@ -6189,7 +7658,11 @@
       "preview": {
         "alt": "Released Scaled orchard images with the released YOLO ground-truth boxes (red) and class ids",
         "caption": "Released Scaled orchard images with the released YOLO ground-truth boxes (red) and class ids"
-      }
+      },
+      "journal": "Scientific data",
+      "authors": [
+        "Jia N, Fu C, Chen K, Liu J."
+      ]
     },
     {
       "public_id": "p-efdfc8711913b8cea420633b3f6bd7b6",
@@ -6220,7 +7693,18 @@
       "preview": {
         "alt": "Input preview: TROPOSIF v2.1 SIF (SIF_Corr_743, cloud fraction below 0.8, SZA below 70 deg) gridded to the 0.15-degree author grid for the 8-day period starting 2019-10-08, with the three sub-region bounding boxes.",
         "caption": "Input preview: TROPOSIF v2.1 SIF (SIF_Corr_743, cloud fraction below 0.8, SZA below 70 deg) gridded to the 0.15-degree author grid for the 8-day period starting 2019-10-08, with the three sub-region bounding boxes."
-      }
+      },
+      "journal": "Copernicus GmbH",
+      "authors": [
+        "Jiaming Wen",
+        "Giulia Tagliabue",
+        "Micol Rossini",
+        "Francesco Pietro Fava",
+        "Cinzia Panigada",
+        "Lutz Merbold",
+        "Sonja Leitner",
+        "Ying Sun"
+      ]
     },
     {
       "public_id": "p-61f25e176f25878b149b71125d03bb03",
@@ -6249,7 +7733,11 @@
       "preview": {
         "alt": "Original plant-factory tomato image 0260.JPG with its real Pascal VOC ground-truth boxes (green=green fruit, red=red fruit, dashed=difficult, excluded from YOLO labels)",
         "caption": "Original plant-factory tomato image 0260.JPG with its real Pascal VOC ground-truth boxes (green=green fruit, red=red fruit, dashed=difficult, excluded from YOLO labels)"
-      }
+      },
+      "journal": "Data in brief",
+      "authors": [
+        "Wu ZW, Liu MH, Sun CX, Wang XF."
+      ]
     },
     {
       "public_id": "p-012105486e7a5cee8189252b79eca895",
@@ -6280,7 +7768,11 @@
       "preview": {
         "alt": "M1 albedo void masks (red) over deposited 500x SEM inputs for the five citrus species, produced by the authors' pipeline v3.3 in this run.",
         "caption": "M1 albedo void masks (red) over deposited 500x SEM inputs for the five citrus species, produced by the authors' pipeline v3.3 in this run."
-      }
+      },
+      "journal": "Biomimetics (Basel, Switzerland)",
+      "authors": [
+        "Bengisu M, Akdağ B, Şahmurat F, Tekin Z, Turhan KN."
+      ]
     },
     {
       "public_id": "p-8d7350b7e41d907b60ba9345196c8b94",
@@ -6312,7 +7804,13 @@
       "preview": {
         "alt": "Reference removal (from the real post-limb-removal scan, left) versus the simulated graph-path removal for one cut point (right) in the elevation view of row-55s-tree-15e.",
         "caption": "Reference removal (from the real post-limb-removal scan, left) versus the simulated graph-path removal for one cut point (right) in the elevation view of row-55s-tree-15e."
-      }
+      },
+      "journal": "arXiv",
+      "authors": [
+        "Fredrik Westling",
+        "James Underwood",
+        "Mitch Bryson"
+      ]
     },
     {
       "public_id": "p-0ae0dbcc01aa432ef3cec43245e2765a",
@@ -6338,7 +7836,16 @@
       "preview": {
         "alt": "Duke DME B-scan (Subject_01, slice 10) with the 7-layer segmentation predicted by the paper's released nnU-Net model (CPU inference).",
         "caption": "Duke DME B-scan (Subject_01, slice 10) with the 7-layer segmentation predicted by the paper's released nnU-Net model (CPU inference)."
-      }
+      },
+      "journal": "openRxiv",
+      "authors": [
+        "Dorothea Laurence",
+        "Martin Schilling",
+        "Nina-Antonia Grimm",
+        "Emilie Macé",
+        "Sebastian Bemme",
+        "Constantin Pape"
+      ]
     },
     {
       "public_id": "p-3dd3bdfbdecce562aa58a6f17a2d2362",
@@ -6370,7 +7877,23 @@
       "preview": {
         "alt": "Example tile RGB with the authors' stored crown segmentation (center) and this notebook's predicted segmentation (right)",
         "caption": "Example tile RGB with the authors' stored crown segmentation (center) and this notebook's predicted segmentation (right)"
-      }
+      },
+      "journal": "PNAS Nexus",
+      "authors": [
+        "Sizhuo Li",
+        "Martin Brandt",
+        "Rasmus Fensholt",
+        "Ankit Kariryaa",
+        "Christian Igel",
+        "Fabian Gieseke",
+        "Thomas Nord-Larsen",
+        "Stefan Oehmcke",
+        "Ask Holm Carlsen",
+        "Samuli Junttila",
+        "Xiaoye Tong",
+        "Alexandre d’Aspremont",
+        "Philippe Ciais"
+      ]
     },
     {
       "public_id": "p-676bd2b6c0020eb8a2ba4b41e580ca41",
@@ -6400,7 +7923,11 @@
       "preview": {
         "alt": "Evaluation image: raw input (left), authors' VIA ground-truth polygons (center), and the Model 4 predicted mask contour (right).",
         "caption": "Evaluation image: raw input (left), authors' VIA ground-truth polygons (center), and the Model 4 predicted mask contour (right)."
-      }
+      },
+      "journal": "Springer Science and Business Media LLC",
+      "authors": [
+        "Harris J, Er Ş."
+      ]
     },
     {
       "public_id": "p-91a6aeece03df866cc6aef5ec1083b2d",
@@ -6428,7 +7955,14 @@
       "preview": {
         "alt": "Strawberry example 12.png (left: input; right: SDM training-free pseudo-labels — colored instance masks and class boxes generated in this run)",
         "caption": "Strawberry example 12.png (left: input; right: SDM training-free pseudo-labels — colored instance masks and class boxes generated in this run)"
-      }
+      },
+      "journal": "arXiv",
+      "authors": [
+        "Yanan Wang",
+        "Zhenghao Fei",
+        "Ruichen Li",
+        "Yibin Ying"
+      ]
     },
     {
       "public_id": "p-71c91bb57f5b99c01292a68c6235d7a8",
@@ -6462,7 +7996,13 @@
       "preview": {
         "alt": "Manual tree labels (left) vs graph shortest-path segmentation (center) vs closest-trunk baseline (right) for the r49-t65e avocado stand; v-measure 1.0 on this separated stand.",
         "caption": "Manual tree labels (left) vs graph shortest-path segmentation (center) vs closest-trunk baseline (right) for the r49-t65e avocado stand; v-measure 1.0 on this separated stand."
-      }
+      },
+      "journal": "arXiv",
+      "authors": [
+        "Fredrik Westling",
+        "Dr James Underwood",
+        "Dr Mitch Bryson"
+      ]
     },
     {
       "public_id": "p-f1b4f3cd160c996964aff858a481e94a",
@@ -6490,7 +8030,15 @@
       "preview": {
         "alt": "Independent test images with reference labels (from author directories) vs. released CARP model predictions; the checkpoint predicts 'rotten' for all 230 images.",
         "caption": "Independent test images with reference labels (from author directories) vs. released CARP model predictions; the checkpoint predicts 'rotten' for all 230 images."
-      }
+      },
+      "journal": "Information",
+      "authors": [
+        "Sayed Mehedi Azim",
+        "Austin Spadaro",
+        "Joseph Kawash",
+        "James J. Polashock",
+        "Abdollah Dehzangi"
+      ]
     },
     {
       "public_id": "p-9d45ec693d0b3c48f4d6df41f5fa4968",
@@ -6522,7 +8070,18 @@
       "preview": {
         "alt": "Measured leaf areas (dots) vs fitted GreenLab trajectories (lines); right panel: rosette totals.",
         "caption": "Measured leaf areas (dots) vs fitted GreenLab trajectories (lines); right panel: rosette totals."
-      }
+      },
+      "journal": "Plant Phenomics",
+      "authors": [
+        "Hanna Bacave",
+        "Paul Huguet",
+        "Elodie Gilbault",
+        "Edgar Belin",
+        "Olivier Zurfluh",
+        "Olivier Loudet",
+        "Véronique Letort",
+        "Anne Goelzer"
+      ]
     }
   ]
 }

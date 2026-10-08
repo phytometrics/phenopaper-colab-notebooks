@@ -9,7 +9,11 @@
       "status": "failed",
       "reason": "Notebook executed end-to-end error-free on fresh T4 (colab 0.7.4): fold-1 reconstruction verified against paper Table 3 (870/163 original instances), paper-faithful balancing (603/511), YOLO11n 300 epochs, test green P.864/R.469/mAP50 .640/mAP50-95 .437, ripe P.678/R.807/mAP50 .781/mAP50-95 .636; val mAP50 reaches paper level (.924/.972) but mAP50-95/recall stay below Table 6 across all testable pipeline variants -> delivered as executed partial reproduction. GitHub publication blocked: git push rejected 3x by remote 'Internal Server Error' (Request IDs DE5F:..., 3A50:..., 2650:...; 2026-10-07T15:11-15:12Z); auth and no-op push verified OK; local repo unchanged. Host queue may retry publication with the preserved artifacts.",
       "created_on": "2026-10-08",
-      "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb"
+      "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb",
+      "journal": "Frontiers in plant science",
+      "authors": [
+        "Quiñones Huatangari L, Vásquez Pérez HV, Valqui-Valqui L, Palomino Ojeda JM, Saravia D, Bardales Escalante W, Silva G, Chavez-Jalk A, Cruz Caro O, Valqui L."
+      ]
     },
     {
       "public_id": "p-f1b4f3cd160c996964aff858a481e94a",
@@ -18,7 +22,15 @@
       "run_id": "p-f1b4f3cd160c996964aff858a481e94a-20261007T224817Z",
       "status": "failed",
       "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-07T22:50:30.075Z] logs | [2026-10-07T22:50:30.075Z] notes | [2026-10-07T22:50:30.075Z] sources | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-08"
+      "created_on": "2026-10-08",
+      "journal": "Information",
+      "authors": [
+        "Sayed Mehedi Azim",
+        "Austin Spadaro",
+        "Joseph Kawash",
+        "James J. Polashock",
+        "Abdollah Dehzangi"
+      ]
     },
     {
       "public_id": "p-9a3c9cba4074a019ec533102f858e1c4",
@@ -28,7 +40,14 @@
       "status": "failed",
       "reason": "Notebook source complete and statically valid, but two fresh-runtime T4 validation attempts failed on cell-level NameErrors from probe/notebook variable-name mismatches (classes, then segmentations); both fixed in the current source. The 3-session Colab budget per queue invocation was then exhausted (diag, t4, t4b), so no third validation run was permitted. Resume with a fresh run budget to validate the fixed notebook end-to-end; do not publish as verified.",
       "created_on": "2026-10-08",
-      "notebook_path": "notebooks/unverified/p-9a3c9cba4074a019ec533102f858e1c4.ipynb"
+      "notebook_path": "notebooks/unverified/p-9a3c9cba4074a019ec533102f858e1c4.ipynb",
+      "journal": "Plant Methods",
+      "authors": [
+        "Saqib Qamar",
+        "Abu Imran Baba",
+        "Stéphane Verger",
+        "Magnus Andersson"
+      ]
     },
     {
       "public_id": "p-76b3fc60078b3d0914bdc7784044dc1e",
@@ -38,7 +57,15 @@
       "status": "failed",
       "reason": "Reproduction fully validated on fresh CPU Colab runtime (45/45 Spearman rho match published Table S2, max |drho|=5.6e-16; 20/45 significant; headline shape-size independence reproduced; 11/11 cells, 0 errors). Only GitHub publication failed: all pushes to phytometrics/phenopaper-colab-notebooks rejected with remote 'Internal Server Error' (publisher attempts x3, direct push of prepared commit, and a no-op temp-ref probe; auth OK, GitHub status 'Git Operations operational'). Notebook and evidence preserved for a retry when GitHub accepts pushes.",
       "created_on": "2026-10-08",
-      "notebook_path": "notebooks/unverified/p-76b3fc60078b3d0914bdc7784044dc1e.ipynb"
+      "notebook_path": "notebooks/unverified/p-76b3fc60078b3d0914bdc7784044dc1e.ipynb",
+      "journal": "openRxiv",
+      "authors": [
+        "Kylie DeViller",
+        "Daniel H. Chitwood",
+        "Sean Myles",
+        "Mao Li",
+        "Zoë Migicovsky"
+      ]
     },
     {
       "public_id": "p-40af28901ccb9acf8437d9f57bdd55c4",
@@ -47,7 +74,11 @@
       "run_id": "p-40af28901ccb9acf8437d9f57bdd55c4-20261007T180312Z",
       "status": "failed",
       "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-07T18:15:09.523Z] → Read runs/p-40af28901ccb9acf8437d9f57bdd55c4-20261007T180312Z/sources/code/voc_to_yolo.py | [2026-10-07T18:15:10.308Z] → Read runs/p-40af28901ccb9acf8437d9f57bdd55c4-20261007T180312Z/sources/code/labels_analyze.py | [2026-10-07T18:29:23.192Z] Investigation and code inspection are complete. Now authoring the notebook via the local builder (nbformat 5.11.1 available). This is a CPU-only reproduction, so no T4 will be required. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-08"
+      "created_on": "2026-10-08",
+      "journal": "Scientific data",
+      "authors": [
+        "Jia N, Fu C, Chen K, Liu J."
+      ]
     },
     {
       "public_id": "p-903df80cc1f5c5f59869dfbe9b866bd7",
@@ -57,7 +88,14 @@
       "status": "failed",
       "reason": "Notebook corrected after attempt 2 but the 3-session budget was exhausted before a fresh re-execution. Attempt 2 (fresh Colab CPU) validated all science (P 0.958, R 0.9423, mAP@0.5 0.9819, params 2.058M, GFLOPs 4.8162 vs paper 0.950/0.941/0.974/2.06/4.8) except one over-strict assertion in the byte-verification cell (n_py > 300; pinned count is 147 .py files). Assertion fixed and statically validated; a resumed invocation must execute the notebook top-to-bottom in a fresh CPU runtime, then publish with --compute CPU --preview-index 0.",
       "created_on": "2026-10-07",
-      "notebook_path": "notebooks/unverified/p-903df80cc1f5c5f59869dfbe9b866bd7.ipynb"
+      "notebook_path": "notebooks/unverified/p-903df80cc1f5c5f59869dfbe9b866bd7.ipynb",
+      "journal": "Plant Methods",
+      "authors": [
+        "Xuebin Jing",
+        "Yuanhao Wang",
+        "Dongxi Li",
+        "Weihua Pan"
+      ]
     },
     {
       "public_id": "p-8eb066596b66ac63b76cc87e1d066736",
@@ -67,7 +105,14 @@
       "status": "failed",
       "reason": "Pipeline implemented and diagnostically verified (fixcheck3: mAP 0.6232 vs paper 0.6653 on the 20-image GSYC test set with the released annotations, which hold 1465 GT boxes vs the paper's 1570). Two full-execution attempts failed or produced invalid metrics (roi-file parsing bug; GT sequence-mapping/scale-offset bug; Agg backend suppressed PNG outputs). Source fixed after each failure, but the corrected notebook needs one fresh full validation run and the Colab session budget (3/3 per invocation) is exhausted. Deliverable notebook is corrected and statically validated but unexecuted; no fabricated outputs. Resume with resume_run_dir for a fresh CPU session, then publish (CPU).",
       "created_on": "2026-10-07",
-      "notebook_path": "notebooks/unverified/p-8eb066596b66ac63b76cc87e1d066736.ipynb"
+      "notebook_path": "notebooks/unverified/p-8eb066596b66ac63b76cc87e1d066736.ipynb",
+      "journal": "Plant Methods",
+      "authors": [
+        "Md. Mehedi Hasan",
+        "Joshua Chopin",
+        "Hamid Laga",
+        "Stanley J. Miklavcic"
+      ]
     },
     {
       "public_id": "p-650819c551206a400b5a5865a67bb67b",
@@ -77,7 +122,18 @@
       "status": "failed",
       "reason": "Full CPU validation reached the data-download cell but a Google Drive per-file download quota permanently blocked /RawData/2017-11-11_05-20-08_NIR/imAmbient.bmp after 3 retries; the run aborted and downstream cells cascaded. The 3-session budget (diag, final, contingency) is exhausted for this invocation. Notebook repaired (imAmbient optional per author code; 4 bounded retries) and ready for resume_run_dir; all evidence archived.",
       "created_on": "2026-10-07",
-      "notebook_path": "notebooks/unverified/p-650819c551206a400b5a5865a67bb67b.ipynb"
+      "notebook_path": "notebooks/unverified/p-650819c551206a400b5a5865a67bb67b.ipynb",
+      "journal": "GigaScience",
+      "authors": [
+        "Gytis Bernotas",
+        "Livia Scorza",
+        "Mark Hansen",
+        "Ian Hales",
+        "Karen Halliday",
+        "Lyndon Smith",
+        "Melvyn Smith",
+        "Alistair J. McCormick"
+      ]
     },
     {
       "public_id": "p-2e8c3a2843f22434ab184e04160afc16",
@@ -86,7 +142,15 @@
       "run_id": "p-2e8c3a2843f22434ab184e04160afc16-20261006T143200Z",
       "status": "failed",
       "reason": "OpenCode/reporter exited with status 1; see run log p-2e8c3a2843f22434ab184e04160afc16-20261006T143008Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\ncurl: (6) Could not resolve host: api.data.elsevier.com\ncurl: (6) Could not resolve host: api.data.elsevier.com\nError: SSE read timed out",
-      "created_on": "2026-10-07"
+      "created_on": "2026-10-07",
+      "journal": "arXiv",
+      "authors": [
+        "Jun Chen",
+        "Yonghua Yu",
+        "Weifu Li",
+        "Yaohui Chen",
+        "Hong Chen"
+      ]
     },
     {
       "public_id": "p-0d7cdc834f0208fdfc68b402628bdfd7",
@@ -95,7 +159,17 @@
       "run_id": "p-0d7cdc834f0208fdfc68b402628bdfd7-20261006T074500Z",
       "status": "failed",
       "reason": "OpenCode/reporter exited with status 1; see run log p-0d7cdc834f0208fdfc68b402628bdfd7-20261006T074205Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nTypeError: 'int' object is not subscriptable\nTypeError: '>' not supported between instances of 'dict' and 'int'\nError: SSE read timed out",
-      "created_on": "2026-10-07"
+      "created_on": "2026-10-07",
+      "journal": "GigaScience",
+      "authors": [
+        "Azam Hamidinekoo",
+        "Gina A. Garzón-Martínez",
+        "Morteza Ghahremani",
+        "Fiona Corke",
+        "Reyer Zwiggelaar",
+        "John H. Doonan",
+        "Chuan Lü"
+      ]
     },
     {
       "public_id": "p-d0270e5cfded603928047f692df3bfce",
@@ -104,7 +178,11 @@
       "run_id": "p-d0270e5cfded603928047f692df3bfce-20261005T182535Z",
       "status": "failed",
       "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-05T18:36:46.417Z] EOF | [2026-10-05T18:36:46.417Z] mkdir -p probe_nb && mv /tmp_probe.ipynb probe_nb/probe.ipynb && colab exec -s agent-brapi-20261005T182535 -f probe_nb/probe.ipynb --timeout 120 2>&1 | grep -v \"━\\|eta 0\" | head -20 failed | [2026-10-05T18:36:46.417Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-06"
+      "created_on": "2026-10-06",
+      "journal": "Bioinformatics (Oxford, England)",
+      "authors": [
+        "Brouwer M, Bauernfeind J, Davuluri G, García Brizuela J, König P, Kumar S, Lange M, Weise S, Wijnker E, Pommier C, Ruff J, Kersey PJ."
+      ]
     },
     {
       "public_id": "p-b1ad16e5699a826bc924207af4593ec7",
@@ -113,7 +191,11 @@
       "run_id": "p-b1ad16e5699a826bc924207af4593ec7-20261006T183733Z",
       "status": "failed",
       "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-05T18:38:41.005Z] ! permission requested: external_directory (/*); auto-rejecting | [2026-10-05T18:38:41.022Z] ✗ curl -sS -m 60 -A \"Mozilla/5.0 (X11; Linux x86_64)\" -o /tmp_out.json -w \"%{http_code} %{url_effective}\\n\" \"https://drum.lib.umn.edu/server/api/pid/find?id=hdl:11299/256105\" ; ls -la /tmp_out.json 2>/dev/null; mk | [2026-10-05T18:38:41.022Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-06"
+      "created_on": "2026-10-06",
+      "journal": "Plant methods",
+      "authors": [
+        "Barreto Ortiz J, Hirsch CN, Ehlke NJ, Watkins E."
+      ]
     },
     {
       "public_id": "p-a785f82e6559d4502f67899b766e588d",
@@ -122,7 +204,11 @@
       "run_id": null,
       "status": "failed",
       "reason": "OpenCode/reporter exited with status 2; see run log p-a785f82e6559d4502f67899b766e588d-20261006T002038Z.log.",
-      "created_on": "2026-10-06"
+      "created_on": "2026-10-06",
+      "journal": "Data in brief",
+      "authors": [
+        "Montalban-Faet G, Navarro-Modesto E, Salcedo-Navarro A, Fayos-Jordan R, Benlloch-Caballero P, Garcia-Pineda M, Segura-Garcia J."
+      ]
     },
     {
       "public_id": "p-4708ede3ed4975dbbd6c7ea269736398",
@@ -131,7 +217,11 @@
       "run_id": "p-4708ede3ed4975dbbd6c7ea269736398-20261005T181107Z",
       "status": "failed",
       "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-05T18:25:25.362Z] for x in d['data'][:6]: print(x['attributes']['doi'], '|', x['attributes']['titles'][0]['title'][:90]) | [2026-10-05T18:25:25.362Z] \" ; rm -f /tmp_dc.json failed | [2026-10-05T18:25:25.362Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-06"
+      "created_on": "2026-10-06",
+      "journal": "The New phytologist",
+      "authors": [
+        "Guo J, Le Gouic J, Rosenthal R, Zou A, Zhou X, Brunel N, Yang Z, Cui X."
+      ]
     },
     {
       "public_id": "p-289774609cbd957dd47ad64d7093be1b",
@@ -141,7 +231,11 @@
       "status": "failed",
       "reason": "Fresh Colab CPU session for final validation could not be allocated: 7 consecutive `colab new` attempts (2026-10-06 22:05-22:35 UTC, logs/final_alloc_attempt6.log, logs/final_alloc_attempt7.log) all ended in ReadTimeout after 120 s with no session created server-side (colab sessions: none). The first diagnostic allocation earlier the same hour succeeded, so the CLI/auth are functional; this is transient Colab provisioning/capacity behavior, not a notebook defect. Notebook and feasibility work are complete and statically validated; diagnostic probe already passed (R, 7 packages, data MD5, schema 1690 rows/479 specimens). Resume with resume_run_dir and run colab exec -s <fresh> -f deliverables/p-289774609cbd957dd47ad64d7093be1b.ipynb --timeout 7200.",
       "created_on": "2026-10-06",
-      "notebook_path": "notebooks/unverified/p-289774609cbd957dd47ad64d7093be1b.ipynb"
+      "notebook_path": "notebooks/unverified/p-289774609cbd957dd47ad64d7093be1b.ipynb",
+      "journal": "California Digital Library (CDL)",
+      "authors": [
+        "White D, Cavender-Bares J, Davis C, Guzmán Q JA, Kothari S, Robles J, Meireles JE."
+      ]
     },
     {
       "public_id": "p-27b968e6f90cc2d48dfbdf44d668ee61",
@@ -151,7 +245,14 @@
       "status": "failed",
       "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-06T04:27:07.102Z] ! permission requested: external_directory (/home/deliverables/*); auto-rejecting | [2026-10-06T04:27:07.102Z] ✗ cd /home/phyto/phenotyping-colab/runs/p-27b968e6f90cc2d48dfbdf44d668ee61-20261006T040440Z/logs && cp ../deliverables/p-27b968e6f90cc2d48dfbdf44d668ee61_output.ipynb cpu_attempt1_output.ipynb && cp cpu_exec2.log  | [2026-10-06T04:27:07.102Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
       "created_on": "2026-10-06",
-      "notebook_path": "notebooks/unverified/p-27b968e6f90cc2d48dfbdf44d668ee61.ipynb"
+      "notebook_path": "notebooks/unverified/p-27b968e6f90cc2d48dfbdf44d668ee61.ipynb",
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        "Federico Jurado-Ruiz",
+        "D. Rousseau",
+        "Juan A. Botía",
+        "María José Aranzana"
+      ]
     },
     {
       "public_id": "p-1fd15ec6e451611d0b5a9604964bc00d",
@@ -161,7 +262,12 @@
       "status": "failed",
       "reason": "Three fresh CPU Colab validation runs consumed the 3-session cap. Attempt 3 executed the full author pipeline (R prep, NumPy HMM port, R final processing, all figures) but its evaluation cell failed on a pandas merge column-name collision; the R-package-availability assert was also a false negative. Both residual bugs are fixed in the current deliverable notebook (sha256 8ed64f435b5ebd430a4546bc90e5a3a9f17f89c02df946611e80d0f7fd59e557) but no fourth session is permitted, so the corrected notebook is unvalidated. Resume with one fresh CPU session should complete.",
       "created_on": "2026-10-06",
-      "notebook_path": "notebooks/unverified/p-1fd15ec6e451611d0b5a9604964bc00d.ipynb"
+      "notebook_path": "notebooks/unverified/p-1fd15ec6e451611d0b5a9604964bc00d.ipynb",
+      "journal": "bioRxiv",
+      "authors": [
+        "Taylor, S. D.",
+        "Browning, D. M."
+      ]
     },
     {
       "public_id": "p-89e0e604d88be6ac51289b5224ee3bd0",
@@ -171,7 +277,11 @@
       "status": "failed",
       "reason": "Notebook authored and statically validated (CPU scope: authors' loadMIAPPE workflow from Data in Brief 62:112004 Fig. 2 on study TTADDA_NARO_2021). Two full Colab runs and six probes failed because data.4tu.nl was down: download endpoints returned 502 or stalled with no first byte for ~2 h (landing pages intermittently 200); the whole site was unreachable by the end. The MIAPPE xlsx and measurement CSVs are verified published (4TU items 20ef3f20/f2307c47 v1, xlsx 2,328,999 B MD5 1e935e229dc27c74efc9ff9a6f7da45b) but bytes could not be retrieved. Notebook retained in deliverables/ as unverified reference; rerun when 4TU recovers.",
       "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-89e0e604d88be6ac51289b5224ee3bd0.ipynb"
+      "notebook_path": "notebooks/unverified/p-89e0e604d88be6ac51289b5224ee3bd0.ipynb",
+      "journal": "Data in Brief",
+      "authors": [
+        "van Marrewijk B , Njane SN, Tsuda S, van Culemborg M, Polder G, Katayama K, van Daalen T, van de Zedde R."
+      ]
     },
     {
       "public_id": "p-8763982ed396003076d4f0310794187a",
@@ -181,7 +291,20 @@
       "status": "failed",
       "reason": "Authors' R segmentation (MCARI1 pre-mask + fixed 85-centroid K-means) executed successfully on the demo Zenodo image in 3 fresh CPU Colab sessions (13,715/9,087/13,077 kept pixels, 22-23 clusters), but the auxiliary WLs.txt parsing cell failed in all runs; root cause identified on attempt 3 (394x2 [band index, wavelength] table) and fixed in the deliverable, but the 3-session Colab budget was exhausted before a validating fresh run. Notebook preserved as UNVERIFIED/INCOMPLETE; no publication.",
       "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-8763982ed396003076d4f0310794187a.ipynb"
+      "notebook_path": "notebooks/unverified/p-8763982ed396003076d4f0310794187a.ipynb",
+      "journal": "Scientific Reports",
+      "authors": [
+        "Eva Neuwirthová",
+        "Jiří Chuchlík",
+        "Miroslav Pikl",
+        "Zuzana Lhotáková",
+        "Ivan Kashkan",
+        "Klará Panzarová",
+        "Jan Stejskal",
+        "Jana Albrechtová",
+        "Milan Lstibůrek",
+        "Jaroslav Čepl"
+      ]
     },
     {
       "public_id": "p-6cd66ecb2c73a2bb32cdaff64b1a74d5",
@@ -191,7 +314,11 @@
       "status": "failed",
       "reason": "Notebook (CPU, R via Rscript) executes top-to-bottom with zero cell errors and 4 saved PNG outputs on Colab CPU runtime, but only in a reused non-fresh session (oat6cd6-valid). The hard 3-distinct-session budget (oat6cd6-probe diagnostic; oat6cd6-final fresh validation attempt failed on notebook string-escaping bugs; oat6cd6-valid contingency) was exhausted before a fresh-runtime final validation could be rerun after the last repairs. Notebook retained in deliverables/ for UNVERIFIED reference publication; execution-verified publication requires one fresh CPU rerun (resume_run_dir).",
       "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-6cd66ecb2c73a2bb32cdaff64b1a74d5.ipynb"
+      "notebook_path": "notebooks/unverified/p-6cd66ecb2c73a2bb32cdaff64b1a74d5.ipynb",
+      "journal": "Genetics",
+      "authors": [
+        "Carlson CH, Fiedler JD, Naraghi SM, Nazareno ES, Ardayfio NK, McMullen MS, Kianian SF."
+      ]
     },
     {
       "public_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5",
@@ -201,7 +328,14 @@
       "status": "failed",
       "reason": "T4 session budget (3 distinct) exhausted after three repairable environment failures: (1) Colab py3.13/torch2.11+cu130 runtime required stack fixes; (2) numpy churn from requirements install + Drive per-file rate limits (fixed: filtered numpy<2, targeted throttled registered-only download); (3) pyvista stub lacked attribute fallback for import-time pv.PolyData annotation (fixed in build_notebook.py; notebook now statically valid, ready for resume). Dataset download cell fully passed in attempt 3. No scientific execution completed; gsplat JIT never ran inside the final notebook. Resume with resume_run_dir and a fresh session.",
       "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-52e5cb26b52aa179b3db5eec9f4bd2d5.ipynb"
+      "notebook_path": "notebooks/unverified/p-52e5cb26b52aa179b3db5eec9f4bd2d5.ipynb",
+      "journal": "arXiv (Cornell University)",
+      "authors": [
+        "Yang Yang",
+        "Risa Shinoda",
+        "Hiroaki Santo",
+        "Fumio Okura"
+      ]
     },
     {
       "public_id": "p-4c96e2dcd4f0c243f1c5d62101143904",
@@ -211,7 +345,11 @@
       "status": "failed",
       "reason": "Notebook complete and fixed but not fully re-validated: the 3-distinct-Colab-session budget was exhausted (diag, final, contingency) after two deterministic Octave driver bugs (missing demo env vars; struct() 1x1-cell unwrapping) were found and fixed. Preserved as unverified reference at deliverables/p-4c96e2dcd4f0c243f1c5d62101143904.ipynb. Verified-public-input limitation: pixelsize.txt/sideshapes.mat/topshapes.mat absent from all four public affe files, so cm traits and 13-shape correlations are reported NaN; geometry/segmentation/color features run in px on the bundled testdata.",
       "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-4c96e2dcd4f0c243f1c5d62101143904.ipynb"
+      "notebook_path": "notebooks/unverified/p-4c96e2dcd4f0c243f1c5d62101143904.ipynb",
+      "journal": "Plant methods",
+      "authors": [
+        "Kirchgessner N, Hodel M, Studer B, Patocchi A, Broggini GAL."
+      ]
     },
     {
       "public_id": "p-215a5217d9ca4a7536aa01cd18d16a54",
@@ -220,7 +358,11 @@
       "run_id": "p-215a5217d9ca4a7536aa01cd18d16a54-20261004T085216Z",
       "status": "failed",
       "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-04T08:54:53.330Z] z=zipfile.ZipFile('$RUN/logs/whl/macrobot-0.4.6-py3-none-any.whl') | [2026-10-04T08:54:53.330Z] for n in z.namelist(): print(n, z.getinfo(n).file_size)\" failed | [2026-10-04T08:54:53.330Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-05"
+      "created_on": "2026-10-05",
+      "journal": "Plant phenomics (Washington, D.C.)",
+      "authors": [
+        "Lück S, Strickert M, Lorbeer M, Melchert F, Backhaus A, Kilias D, Seiffert U, Douchkov D."
+      ]
     },
     {
       "public_id": "p-13d960f2f8637cfa0ec6e7dcfb20a5e5",
@@ -230,7 +372,13 @@
       "status": "failed",
       "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-05T11:48:26.973Z] print('extracted', len(ns['driver'])) | [2026-10-05T11:48:26.973Z] \" failed | [2026-10-05T11:48:26.973Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
       "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-13d960f2f8637cfa0ec6e7dcfb20a5e5.ipynb"
+      "notebook_path": "notebooks/unverified/p-13d960f2f8637cfa0ec6e7dcfb20a5e5.ipynb",
+      "journal": "Plant Methods",
+      "authors": [
+        "Lukas Roth",
+        "Andreas Hund",
+        "Helge Aasen"
+      ]
     },
     {
       "public_id": "p-b72c635278b9713daa70b49a32b1a3b9",
@@ -239,7 +387,11 @@
       "run_id": "p-b72c635278b9713daa70b49a32b1a3b9-20261004T001318Z",
       "status": "failed",
       "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-04T00:20:39.557Z] ! permission requested: external_directory (/*); auto-rejecting | [2026-10-04T00:20:39.557Z] ✗ python3 /home/phyto/phenotyping-colab/runs/p-b72c635278b9713daa70b49a32b1a3b9-20261004T001318Z/logs/build_probe3.py && python3 -c \"import nbformat; nbformat.validate(nbformat.read('/home/phyto/phenotyping-colab/ | [2026-10-04T00:20:39.557Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-04"
+      "created_on": "2026-10-04",
+      "journal": "Nature communications",
+      "authors": [
+        "Lopez-Cruz M, Aguate FM, Washburn JD, de Leon N, Kaeppler SM, Lima DC, Tan R, Thompson A, De La Bretonne LW, de Los Campos G."
+      ]
     },
     {
       "public_id": "p-6f75092e4f4825ddd8125285022cfe18",
@@ -249,7 +401,11 @@
       "status": "failed",
       "reason": "Adapted CPU notebook (ORA ground-truth skeleton validation, phasepack+skimage) executed 10/11 cells on fresh CPU runtimes twice; each run hit a one-line variable-shadowing bug (pc then bg). Both fixed in source, but the 3-session Colab budget was exhausted before a clean fresh full run; notebook source no longer matches any executed output, so no verified publication. Resume with one fresh CPU session to validate the fixed notebook.",
       "created_on": "2026-10-04",
-      "notebook_path": "notebooks/unverified/p-6f75092e4f4825ddd8125285022cfe18.ipynb"
+      "notebook_path": "notebooks/unverified/p-6f75092e4f4825ddd8125285022cfe18.ipynb",
+      "journal": "Nature communications",
+      "authors": [
+        "Pain C, Kriechbaumer V, Kittelmann M, Hawes C, Fricker M."
+      ]
     },
     {
       "public_id": "p-fa3906fba18509294e40956ca07453b8",
@@ -258,7 +414,11 @@
       "run_id": "p-fa3906fba18509294e40956ca07453b8-20261002T174408Z",
       "status": "failed",
       "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-fa3906fba18509294e40956ca07453b8-20261002T174408Z/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\n! permission requested: external_directory (/tmp/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
-      "created_on": "2026-10-03"
+      "created_on": "2026-10-03",
+      "journal": "The New phytologist",
+      "authors": [
+        "Vilfan N, van der Tol C, Verhoef W."
+      ]
     },
     {
       "public_id": "p-b437e7e7fb6660387c003ea80e5bd235",
@@ -268,7 +428,11 @@
       "status": "failed",
       "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-b437e7e7fb6660387c003ea80e5bd235-20261002T172449Z-2011/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\nSyntaxError: unterminated f-string literal (detected at line 10)\n! permission requested: external_directory (/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
       "created_on": "2026-10-03",
-      "notebook_path": "notebooks/unverified/p-b437e7e7fb6660387c003ea80e5bd235.ipynb"
+      "notebook_path": "notebooks/unverified/p-b437e7e7fb6660387c003ea80e5bd235.ipynb",
+      "journal": "Plant phenomics (Washington, D.C.)",
+      "authors": [
+        "Chang TG, Shi Z, Zhao H, Song Q, He Z, Van Rie J, Den Boer B, Galle A, Zhu XG."
+      ]
     },
     {
       "public_id": "p-53c30ffda67420ce4c09594eec1ecbce",
@@ -277,7 +441,16 @@
       "run_id": "p-53c30ffda67420ce4c09594eec1ecbce-20261002T233619Z-475048",
       "status": "failed",
       "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-53c30ffda67420ce4c09594eec1ecbce-20261002T233619Z-475048/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\n! permission requested: external_directory (/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
-      "created_on": "2026-10-03"
+      "created_on": "2026-10-03",
+      "journal": "Plant and Soil",
+      "authors": [
+        "Satyasaran Changdar",
+        "Olga Popovic",
+        "Tomke Susanne Wacker",
+        "Bo Markussen",
+        "Erik Bjørnager Dam",
+        "Kristian Thorup-Kristensen"
+      ]
     },
     {
       "public_id": "p-50e1c2fb18dfbb4e76ee141d512cf54b",
@@ -287,7 +460,17 @@
       "status": "failed",
       "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-50e1c2fb18dfbb4e76ee141d512cf54b-20261003T053520Z-b64d8905/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\n[2026-10-03T05:40:29.055Z] ! permission requested: external_directory (/home/notes/*); auto-rejecting",
       "created_on": "2026-10-03",
-      "notebook_path": "notebooks/unverified/p-50e1c2fb18dfbb4e76ee141d512cf54b.ipynb"
+      "notebook_path": "notebooks/unverified/p-50e1c2fb18dfbb4e76ee141d512cf54b.ipynb",
+      "journal": "Plant Methods",
+      "authors": [
+        "Benjamin van Raalte",
+        "Kristal Watrous",
+        "Miguel Lujan",
+        "Ricky Le",
+        "Penglin Sun",
+        "Benjamin Ellis",
+        "Kerry E. Mauck"
+      ]
     },
     {
       "public_id": "p-26803902b06687ba40965f751a09e633",
@@ -296,7 +479,11 @@
       "run_id": "p-26803902b06687ba40965f751a09e633-20261002T163305Z",
       "status": "failed",
       "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-26803902b06687ba40965f751a09e633-20261002T163305Z/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\nFileNotFoundError: [Errno 2] No such file or directory: 'logs/probe2_output.ipynb'\n! permission requested: external_directory (/tmp/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
-      "created_on": "2026-10-03"
+      "created_on": "2026-10-03",
+      "journal": "Annals of botany",
+      "authors": [
+        "Collette JC, Sommerville KD, Lyons MB, Offord CA, Errington G, Newby ZJ, von Richter L, Emery NJ."
+      ]
     },
     {
       "public_id": "p-138a6dea3b64aadf4843d6d64fcbf37b",
@@ -306,7 +493,24 @@
       "status": "failed",
       "reason": "OpenCode/reporter exited with status 1; see run log p-138a6dea3b64aadf4843d6d64fcbf37b-20261003T030644Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nTimeoutError: Timeout waiting for reply\nTypeError: 'int' object is not subscriptable\nError: Cannot connect to API: Unable to connect. Is the computer able to access the url?",
       "created_on": "2026-10-03",
-      "notebook_path": "notebooks/unverified/p-138a6dea3b64aadf4843d6d64fcbf37b.ipynb"
+      "notebook_path": "notebooks/unverified/p-138a6dea3b64aadf4843d6d64fcbf37b.ipynb",
+      "journal": "Plant Biotechnology Journal",
+      "authors": [
+        "Yunpeng Xia",
+        "Hanghang Li",
+        "Fanhang Zhang",
+        "Gang Sun",
+        "Kaijie Qi",
+        "Robert Jackson",
+        "Felipe Pinheiro",
+        "Xiaoman Liu",
+        "Yue Mu",
+        "Shaoling Zhang",
+        "Greg Deakin",
+        "E. Charles Whitfield",
+        "Shutian Tao",
+        "Ji Zhou"
+      ]
     },
     {
       "public_id": "p-f4b6761b68409a38fe07554143d7229c",
@@ -316,7 +520,11 @@
       "status": "failed",
       "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-f4b6761b68409a38fe07554143d7229c-20261002T020041Z/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\nError: No changes to apply: oldString and newString are identical.\n! permission requested: external_directory (/dev/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
       "created_on": "2026-10-02",
-      "notebook_path": "notebooks/unverified/p-f4b6761b68409a38fe07554143d7229c.ipynb"
+      "notebook_path": "notebooks/unverified/p-f4b6761b68409a38fe07554143d7229c.ipynb",
+      "journal": "Journal of the Royal Society, Interface",
+      "authors": [
+        "Laplaud V, Muller E, Demidova N, Drevensek S, Boudaoud A."
+      ]
     },
     {
       "public_id": "p-dca1f8bc026f5ddf6d23c5a61e5d7b85",
@@ -326,7 +534,15 @@
       "status": "failed",
       "reason": "Notebook authored and statically validated but not executed: Colab CPU allocation refused 12 times ('Allocation refused (precondition failed)') over ~75 min (02:02-03:14Z 2026-10-02). Environment/capacity failure, not missing material. Notebook preserved as UNVERIFIED reference at deliverables/p-dca1f8bc026f5ddf6d23c5a61e5d7b85.ipynb; log at logs/allocation_refusals.log.",
       "created_on": "2026-10-02",
-      "notebook_path": "notebooks/unverified/p-dca1f8bc026f5ddf6d23c5a61e5d7b85.ipynb"
+      "notebook_path": "notebooks/unverified/p-dca1f8bc026f5ddf6d23c5a61e5d7b85.ipynb",
+      "journal": "bioRxiv",
+      "authors": [
+        "Stojanovic, O.",
+        "Siegmann, B.",
+        "Jarmer, T.",
+        "Pipa, G.",
+        "Leugering, J."
+      ]
     },
     {
       "public_id": "p-cd3b7c4a2dfbfd18ed589bd4fe9fbe29",
@@ -336,7 +552,11 @@
       "status": "failed",
       "reason": "Notebook authored and statically validated (ADAPTED PYTHON DEMONSTRATION of REPRISAL parametric segmentation + RM1/RM2, CPU-only), but every Colab CPU session allocation was refused ('Allocation refused (precondition failed)') across 6 attempts over ~40 min (logs/colab_alloc_final.log). No owned runtime could be created, so the notebook was never executed and was not published. Source materials are fully verified and pinned; blocker is runtime capacity/quota on the host Colab account.",
       "created_on": "2026-10-02",
-      "notebook_path": "notebooks/unverified/p-cd3b7c4a2dfbfd18ed589bd4fe9fbe29.ipynb"
+      "notebook_path": "notebooks/unverified/p-cd3b7c4a2dfbfd18ed589bd4fe9fbe29.ipynb",
+      "journal": "bioRxiv",
+      "authors": [
+        "Morel O, Lion C, Neutelings G, Stefanov J, Baldacci-Cresp F, Simon C, Gierlinger N, Biot C, Hawkins S, Spriet C."
+      ]
     },
     {
       "public_id": "p-ba13883f7b82cc94cac3648cf3a69310",
@@ -345,7 +565,15 @@
       "run_id": "p-ba13883f7b82cc94cac3648cf3a69310-20261002T014045Z",
       "status": "failed",
       "reason": "The run planned a Colab-only probe because the PCA notebook is 2.13 MB and exceeds the DGX code-fetch cap. One fetch request used a .py path absent at the pinned commit (the source is a .ipynb); a diagnostic probe notebook was then authored, but Colab CPU allocation was refused. No completed reproduction notebook or queue-result was produced. The recorded OpenCode exit -10 does not identify which preceding issue terminated the overall run.",
-      "created_on": "2026-10-02"
+      "created_on": "2026-10-02",
+      "journal": "bioRxiv",
+      "authors": [
+        "Erik J. Amézquita",
+        "Michelle Quigley",
+        "Patrick J. Brown",
+        "Elizabeth Munch",
+        "Daniel H. Chitwood"
+      ]
     },
     {
       "public_id": "p-b72c635278b9713daa70b49a32b1a3b9",
@@ -354,7 +582,11 @@
       "run_id": null,
       "status": "failed",
       "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-b72c635278b9713daa70b49a32b1a3b9/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\nError: The user rejected permission to use this specific tool call.\n! permission requested: external_directory (/tmp/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
-      "created_on": "2026-10-02"
+      "created_on": "2026-10-02",
+      "journal": "Nature communications",
+      "authors": [
+        "Lopez-Cruz M, Aguate FM, Washburn JD, de Leon N, Kaeppler SM, Lima DC, Tan R, Thompson A, De La Bretonne LW, de Los Campos G."
+      ]
     },
     {
       "public_id": "p-96dc254f7fd6d49e5304d420acb82d9d",
@@ -363,7 +595,11 @@
       "run_id": null,
       "status": "failed",
       "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-96dc254f7fd6d49e5304d420acb82d9d/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\n! permission requested: external_directory (/tmp/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
-      "created_on": "2026-10-02"
+      "created_on": "2026-10-02",
+      "journal": "PeerJ",
+      "authors": [
+        "Tross MC, Gaillard M, Zwiener M, Miao C, Grove RJ, Li B, Benes B, Schnable JC."
+      ]
     },
     {
       "public_id": "p-8d1e171ca872b7e24d1f590750fd419d",
@@ -372,7 +608,11 @@
       "run_id": "p-8d1e171ca872b7e24d1f590750fd419d-20261002T143950Z",
       "status": "failed",
       "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-8d1e171ca872b7e24d1f590750fd419d-20261002T143950Z/queue-result.json'\n直近のツールエラー（最終原因との一致はログで確認）:\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xa2 in position 2344: invalid start byte\n! permission requested: external_directory (/home/*); auto-rejecting\nError: The user rejected permission to use this specific tool call.",
-      "created_on": "2026-10-02"
+      "created_on": "2026-10-02",
+      "journal": "GigaScience",
+      "authors": [
+        "Miao T, Wen W, Li Y, Wu S, Zhu C, Guo X."
+      ]
     },
     {
       "public_id": "p-88d0f80b038259b9b4b2891d38bdcb0a",
@@ -381,7 +621,11 @@
       "run_id": "p-88d0f80b038259b9b4b2891d38bdcb0a-20261002T233401Z-4094580",
       "status": "failed",
       "reason": "The recorded run fetched the paper metadata, then stopped before authoring a notebook or launching Colab. OpenCode auto-rejected a command that accessed the DGX host's external /tmp directory; the run log does not establish that this rejection was the sole cause. No notebook or queue-result was produced, so this is an authoring/runner interruption, not a failed scientific execution.",
-      "created_on": "2026-10-02"
+      "created_on": "2026-10-02",
+      "journal": null,
+      "authors": [
+        "Xu R, Ferguson J, Hobby D, Rahimi-Majd M, Wendering P, Kromdijk J, Nikoloski Z."
+      ]
     },
     {
       "public_id": "p-693a2a56425e76b3c425cc929186f228",
@@ -391,7 +635,11 @@
       "status": "failed",
       "reason": "A CPU execution progressed through data preparation and began nested SVM cross-validation, but no completed output or queue-result was recorded. Earlier attempt failures included a notebook-builder guard that incorrectly rejected a function-local pandas import; that guard was corrected. The notebook is preserved as an unverified draft; execution verification remains incomplete.",
       "created_on": "2026-10-02",
-      "notebook_path": "notebooks/unverified/p-693a2a56425e76b3c425cc929186f228.ipynb"
+      "notebook_path": "notebooks/unverified/p-693a2a56425e76b3c425cc929186f228.ipynb",
+      "journal": "Development (Cambridge, England)",
+      "authors": [
+        "Matz TW, Wang Y, Kulshreshtha R, Sampathkumar A, Nikoloski Z."
+      ]
     },
     {
       "public_id": "p-2b2f036450a96d50015e96cdb2b602fa",
@@ -400,7 +648,20 @@
       "run_id": "p-2b2f036450a96d50015e96cdb2b602fa-20261002T100122Z",
       "status": "failed",
       "reason": "Automatic publication/registration stopped: [Errno 2] No such file or directory: '/home/phyto/phenotyping-colab/runs/p-2b2f036450a96d50015e96cdb2b602fa-20261002T100122Z/queue-result.json'",
-      "created_on": "2026-10-02"
+      "created_on": "2026-10-02",
+      "journal": "Plant Methods",
+      "authors": [
+        "Andreas Honecker",
+        "Henrik Schumann",
+        "Diana Becirevic",
+        "Lasse Klingbeil",
+        "Kai Volland",
+        "Steffi Forberig",
+        "Marc Jansen",
+        "Hinrich Paulsen",
+        "Heiner Kuhlmann",
+        "Jens Léon"
+      ]
     },
     {
       "public_id": "p-28f074ee4e709feeb203a3120b869fa0",
@@ -410,7 +671,17 @@
       "status": "failed",
       "reason": "An initial Colab run failed because PURR /serve/1 returned an HTML show-contents page instead of the ZIP. The corrected ?render=archive route and nested bundle.zip download were validated in Colab; the author pipeline then reproduced the validation split metrics (R2=0.758, RMSEP=0.268). A fresh full-notebook execution is now running; this draft remains unverified until that run and publication checks finish.",
       "created_on": "2026-10-02",
-      "notebook_path": "notebooks/unverified/p-28f074ee4e709feeb203a3120b869fa0.ipynb"
+      "notebook_path": "notebooks/unverified/p-28f074ee4e709feeb203a3120b869fa0.ipynb",
+      "journal": "Frontiers in Plant Science",
+      "authors": [
+        "To‐Chia Ting",
+        "Augusto Souza",
+        "Rachel K. Imel",
+        "Carmela R. Guadagno",
+        "Chris Hoagland",
+        "Yang Yang",
+        "Diane Wang"
+      ]
     },
     {
       "public_id": "p-0dfec3c680bb0e32ef572c9bcc0a1d2c",
@@ -420,7 +691,16 @@
       "status": "failed",
       "reason": "Notebook authored and statically validated but never executed: Colab CPU session allocation refused on 16 attempts over ~38 min (02:46-03:27 UTC 2026-10-02) because the account's four concurrent-session slots are held by other queue workers' sessions; this run must not stop them. All source materials (PhotoPi code @fab92caf, FRDR 10.20383/103.01255, arXiv 2504.16840v1 Sec VI) were verified accessible. Execution environment failure, not missing material.",
       "created_on": "2026-10-02",
-      "notebook_path": "notebooks/unverified/p-0dfec3c680bb0e32ef572c9bcc0a1d2c.ipynb"
+      "notebook_path": "notebooks/unverified/p-0dfec3c680bb0e32ef572c9bcc0a1d2c.ipynb",
+      "journal": "arXiv",
+      "authors": [
+        "Joe Hrzich",
+        "Michael A. Beck",
+        "Christopher P. Bidinosti",
+        "Christopher J. Henry",
+        "Kalhari Manawasinghe",
+        "Karen Tanino"
+      ]
     }
   ]
 }
