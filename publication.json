@@ -9272,6 +9272,44 @@
         "alt": "One stereo capture: RGB input with the author-derived binary strawberry annotation overlay, back-projected depth, and the published label_viz reference.",
         "caption": "One stereo capture: RGB input with the author-derived binary strawberry annotation overlay, back-projected depth, and the published label_viz reference."
       }
+    },
+    {
+      "public_id": "p-fe189ca7c3a7f2e045190dd6eff6102d",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "PhenoVision: A framework for automating and delivering research-ready plant phenology data from field images",
+      "journal": "openRxiv",
+      "authors": [
+        "Dinnage R, Grady E, Neal N, Deck J, Denny E, Walls R, Seltzer C, Guralnick R, Li D."
+      ],
+      "doi": "10.1101/2024.10.10.617505",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Runs the published PhenoVision v1.1.0 weights on two CC-licensed iNaturalist sunflower photographs and converts sigmoid outputs to Detected/Not Detected/Equivocal calls with the authors' threshold/buffer file, compared against human reference annotations; a 2-image demonstration, not a validation of published accuracies.",
+      "semantic_tags": [
+        "environment:field",
+        "organ:flower",
+        "organ:fruit",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:classification",
+        "task:preprocessing",
+        "task:tracking",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "PhenoVision v1.1.0 flower/fruit probabilities and Detected/Not Detected calls for two iNaturalist sunflower photographs, shown with their human reference phenology annotations.",
+        "caption": "PhenoVision v1.1.0 flower/fruit probabilities and Detected/Not Detected calls for two iNaturalist sunflower photographs, shown with their human reference phenology annotations."
+      }
     }
   ]
 }
