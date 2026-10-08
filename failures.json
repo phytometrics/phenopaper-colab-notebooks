@@ -68,6 +68,27 @@
       ]
     },
     {
+      "public_id": "p-57d1cc70a72351df04ec0bdb081a5b99",
+      "title": "imageseg: An R package for deep learning‐based image segmentation",
+      "journal": "Methods in Ecology and Evolution",
+      "authors": [
+        "Jürgen Niedballa",
+        "Jan Axtner",
+        "Timm Fabian Döbert",
+        "Andrew Tilker",
+        "An Nguyen",
+        "Seth T. Wong",
+        "Christian Fiderer",
+        "Marco Heurich",
+        "Andreas Wilting"
+      ],
+      "investigation_run_id": "p-57d1cc70a72351df04ec0bdb081a5b99-20261008T021051Z-617970",
+      "run_id": "p-57d1cc70a72351df04ec0bdb081a5b99-20261008T022600Z-617970",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-08T02:36:44.260Z] ! permission requested: external_directory (/*); auto-rejecting | [2026-10-08T02:36:44.276Z] ✗ cd /home/phyto/phenotyping-colab/runs/p-57d1cc70a72351df04ec0bdb081a5b99-20261008T022600Z-617970/sources/code; sed -n '/^Imports:/,/^Suggests:/p' archive_check/keras/DESCRIPTION; rm -rf archive_check keras_2.15. | [2026-10-08T02:36:44.276Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-08"
+    },
+    {
       "public_id": "p-40af28901ccb9acf8437d9f57bdd55c4",
       "title": "An image dataset of Chinese hickory in natural orchards.",
       "investigation_run_id": "p-40af28901ccb9acf8437d9f57bdd55c4-20261007T151347Z-4183239",
