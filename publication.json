@@ -9136,6 +9136,40 @@
         "alt": "Drosophila C2_M01 input (XY max-intensity projection) with released ground-truth nuclear annotation overlay",
         "caption": "Drosophila C2_M01 input (XY max-intensity projection) with released ground-truth nuclear annotation overlay"
       }
+    },
+    {
+      "public_id": "p-b7c6308752f1384cda7c2cd721d55453",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "EyeHex toolbox for complete segmentation of ommatidia in fruit fly eyes",
+      "journal": "Biology open",
+      "authors": [
+        "Tran H, Dostatni N, Ramaekers A."
+      ],
+      "doi": "10.1242/bio.061962",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Headless CPU reproduction of the EyeHex segmentation phase on one brightfield sample image: the authors' Weka facet classifier and hexagonal-grid expansion ran on the authors' code with GUI steps replaced by their pinned reference seed and a deterministic seed search; the uncorrected count is a single-example plausibility result, not a validation of published accuracy.",
+      "semantic_tags": [
+        "modality:microscopy",
+        "organ:fruit",
+        "task:counting",
+        "task:morphology",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "img2 sample input (grayscale) overlaid with the EyeHex hex-grid expansion prediction (green ommatidia centers) from the authors' classifier probability map.",
+        "caption": "img2 sample input (grayscale) overlaid with the EyeHex hex-grid expansion prediction (green ommatidia centers) from the authors' classifier probability map."
+      }
     }
   ]
 }
