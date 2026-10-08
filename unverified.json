@@ -288,6 +288,18 @@
       "notebook_sha256": "9c189b8f45587c0ed45b8f41de974554e717548eafb80b9a18b3a42a6cd883e4",
       "source_sha256": "e6b9efacd88f182ddc87fa93061d24b51d23b6ec427220707adf0d73d4043189",
       "code_cells": 11
+    },
+    {
+      "public_id": "p-3146fc78c8a19cb00186903444524a1b",
+      "title": "StomaQuant: Deep Learning-Based Quantification for Stomatal Trait Assessment",
+      "investigation_run_id": "p-3146fc78c8a19cb00186903444524a1b-20260929T123854Z-2617859",
+      "status": "blocked",
+      "reason": "Sample image unobtainable: Dryad test.zip blocked by Anubis anti-bot challenge (website route, HTTP 200 challenge page / 403) and API download requires bearer token (HTTP 401); StomaAI figshare examples return 403/202; no public mirrors. Weights verified byte-identical to the Dryad digest via the authors' HF Space copy; notebook executes setup+patch+weights verification, then stops with an explicit RuntimeError guard. No fabricated results. Resume with test.zip placed at /content/test.zip.",
+      "created_on": "2026-10-08",
+      "notebook_path": "notebooks/unverified/p-3146fc78c8a19cb00186903444524a1b.ipynb",
+      "notebook_sha256": "afad4ed3b196a400125b39df02e4b05a74d7367689a322e0b1c61b6c7ce49360",
+      "source_sha256": "0df5710a33d0cb5f2269f26f431c2fe1041540288edb725673b0c2133348e48d",
+      "code_cells": 12
     }
   ]
 }
