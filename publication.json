@@ -8373,6 +8373,48 @@
         "alt": "ADD256 training patches with ground-truth apple boxes (yellow) from the official split",
         "caption": "ADD256 training patches with ground-truth apple boxes (yellow) from the official split"
       }
+    },
+    {
+      "public_id": "p-57d1cc70a72351df04ec0bdb081a5b99",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "imageseg: An R package for deep learning‐based image segmentation",
+      "journal": "Methods in Ecology and Evolution",
+      "authors": [
+        "Jürgen Niedballa",
+        "Jan Axtner",
+        "Timm Fabian Döbert",
+        "Andrew Tilker",
+        "An Nguyen",
+        "Seth T. Wong",
+        "Christian Fiderer",
+        "Marco Heurich",
+        "Andreas Wilting"
+      ],
+      "doi": "10.1111/2041-210x.13984",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Runs the authors' R imageseg workflow (vignette Part 1) with the pre-trained canopy model from Zenodo 6861157 on the package's bundled canopy examples, reporting per-image canopy density and an own 11-image Dice spot check against the author hand masks (mean 0.91; not a reproduction of the paper's test-set accuracy).",
+      "semantic_tags": [
+        "environment:field",
+        "modality:rgb",
+        "organ:whole_plant",
+        "task:segmentation",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "imageseg classification grid for the bundled canopy examples: input photograph, model prediction probabilities, and binary canopy-sky mask, produced by the authors' imageSegmentation() on CPU.",
+        "caption": "imageseg classification grid for the bundled canopy examples: input photograph, model prediction probabilities, and binary canopy-sky mask, produced by the authors' imageSegmentation() on CPU."
+      }
     }
   ]
 }
