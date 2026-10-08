@@ -9012,6 +9012,48 @@
         "alt": "A real Ripe strawberry input (left) and its 26 possible CH-Rand channel randomisations - the self-supervised pretext transform the classifier learns to detect.",
         "caption": "A real Ripe strawberry input (left) and its 26 possible CH-Rand channel randomisations - the self-supervised pretext transform the classifier learns to detect."
       }
+    },
+    {
+      "public_id": "p-b69eca42d55fc44cf901d348d34d6842",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Detection of tree stress from sub-daily sap flow variability",
+      "journal": "Biogeosciences",
+      "authors": [
+        "Anna T. Schackow",
+        "Susan C. Steele-Dunne",
+        "David T. Milodowski",
+        "Jean-Marc Limousin",
+        "Ana Bastos"
+      ],
+      "doi": "10.5194/bg-23-3365-2026",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Computes the paper's daily SLOPE and AREA hysteresis metrics for the three focal SAPFLUXNET sites and replicates the Fig. 3 seasonal cycles and the Fig. 7 sampling-rate sensitivity; three focal sites only, without the full 15-site selection or extreme-cluster analyses.",
+      "semantic_tags": [
+        "environment:field",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:physiology",
+        "task:stress_disease",
+        "task:time_series",
+        "trait:stomatal_traits",
+        "trait:stress_response",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Focal-site seasonal cycles of daily SLOPE (blue) and AREA (black): across-year median with 7-day rolling mean and IQR bands",
+        "caption": "Focal-site seasonal cycles of daily SLOPE (blue) and AREA (black): across-year median with 7-day rolling mean and IQR bands"
+      }
     }
   ]
 }
