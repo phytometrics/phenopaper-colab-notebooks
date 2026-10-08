@@ -9054,6 +9054,42 @@
         "alt": "Focal-site seasonal cycles of daily SLOPE (blue) and AREA (black): across-year median with 7-day rolling mean and IQR bands",
         "caption": "Focal-site seasonal cycles of daily SLOPE (blue) and AREA (black): across-year median with 7-day rolling mean and IQR bands"
       }
+    },
+    {
+      "public_id": "p-f600321f0edf4546dceb0d2a346d3e43",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Non-destructive monitoring of netted muskmelon quality based on its external phenotype using Random Forest",
+      "journal": "PloS one",
+      "authors": [
+        "Qian L, Daren L, Qingliang N, Danfeng H, Liying C."
+      ],
+      "doi": "10.1371/journal.pone.0221259",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Fits the authors' random-forest TSS model (75/25 split, repeated 10-fold CV x3, mtry 1-4) on their replication data in R and validates the varImp top-10 simplified model on a 25% holdout; the image-parameter-extraction stage is not reproduced.",
+      "semantic_tags": [
+        "crop:melon",
+        "environment:greenhouse",
+        "organ:fruit",
+        "organ:root",
+        "task:physiology",
+        "trait:pigment_color",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Predicted vs measured TSS on the 25% holdout: full model vs the authors' simplified top-10-parameter model",
+        "caption": "Predicted vs measured TSS on the 25% holdout: full model vs the authors' simplified top-10-parameter model"
+      }
     }
   ]
 }
