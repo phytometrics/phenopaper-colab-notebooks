@@ -8600,6 +8600,40 @@
         "alt": "Input 'feuille sal.jpg' (left) and the generated binary plant/background pseudo-label (right, LightGBM GBDT at resolution 0.2, Spectral colormap)",
         "caption": "Input 'feuille sal.jpg' (left) and the generated binary plant/background pseudo-label (right, LightGBM GBDT at resolution 0.2, Spectral colormap)"
       }
+    },
+    {
+      "public_id": "p-5cc2e249d222fcf2cf282f904231bfae",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Deep Convolutional Neural Networks for Palm Fruit Maturity Classification",
+      "journal": "arXiv",
+      "authors": [
+        "Mingqiang Han",
+        "Chunlin Yi"
+      ],
+      "doi": "10.48550/arxiv.2502.20223",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Retrained the paper's baseline CNN, frozen ResNet50V2 and InceptionV3 classifiers for 40 epochs each on the authors' released 9,781-image five-class palm-fruit dataset on a Colab T4; test accuracies 78.9%/86.7%/85.7% landed within 0.5 points of the published transfer-learning results (86.41%/85.24%) with the shallow baseline above its 70.89% reference.",
+      "semantic_tags": [
+        "crop:oil_palm",
+        "organ:fruit",
+        "task:classification",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Labeled training samples from the authors' released data3.zip: one 224x224 generator batch with its true ripeness class above each image.",
+        "caption": "Labeled training samples from the authors' released data3.zip: one 224x224 generator batch with its true ripeness class above each image."
+      }
     }
   ]
 }
