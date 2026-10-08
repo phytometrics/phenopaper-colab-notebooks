@@ -9587,6 +9587,50 @@
         "alt": "Demo IR input (left) with this run's predicted mask (center) and the authors' shipped Ensemble_color reference (right) for the same frame; author colormap.",
         "caption": "Demo IR input (left) with this run's predicted mask (center) and the authors' shipped Ensemble_color reference (right) for the same frame; author colormap."
       }
+    },
+    {
+      "public_id": "p-907e1df7e3c1fa6fcd55ff01f69cfba9",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "MA-UQNet: A multi-modal uncertainty quantification neural network for remote sensing-based wheat aboveground biomass estimation",
+      "journal": "Artificial Intelligence in Agriculture",
+      "authors": [
+        "Qiang Wu",
+        "Jiao Wang",
+        "Yuke Du",
+        "Dingyi Hou",
+        "Xiaoyu Cao",
+        "Xiaochun Wang",
+        "Hao Yang",
+        "Guijun Yang",
+        "Xinming Ma",
+        "Jinpeng Cheng"
+      ],
+      "doi": "10.1016/j.aiia.2026.03.007",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Trains the authors' unmodified MA-UQNet example end-to-end on its embedded synthetic wheat-biomass data with a chronological 2020-2021 test split, reporting R2, RMSE, 95% coverage and epistemic/aleatoric shares; the paper's real-data results are not reproduced because the 2012-2022 field dataset is unpublished.",
+      "semantic_tags": [
+        "crop:wheat",
+        "modality:multimodal",
+        "modality:spectral",
+        "organ:whole_plant",
+        "task:yield_biomass",
+        "trait:biomass"
+      ],
+      "preview": {
+        "alt": "Predicted vs actual synthetic biomass on the 2020-2021 test set (MC-dropout mean), with the training/validation NLL history; AI-added visualization from this run, not an author figure.",
+        "caption": "Predicted vs actual synthetic biomass on the 2020-2021 test set (MC-dropout mean), with the training/validation NLL history; AI-added visualization from this run, not an author figure."
+      }
     }
   ]
 }
