@@ -8532,6 +8532,37 @@
         "alt": "Segmented avocado fruit inputs (Fruto 31/16/1, one per class) next to the pretrained RF per-pixel classification overlay (S=green, R=brown, A=black)",
         "caption": "Segmented avocado fruit inputs (Fruto 31/16/1, one per class) next to the pretrained RF per-pixel classification overlay (S=green, R=brown, A=black)"
       }
+    },
+    {
+      "public_id": "p-7516120ffdbb96b635da0d88bf46d6b8",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "RetOCTNet: Deep Learning–Based Segmentation of OCT Images Following Retinal Ganglion Cell Injury",
+      "journal": "Translational Vision Science & Technology",
+      "authors": [
+        "Gabriela Sanchez-Rodriguez",
+        "Linjiang Lou",
+        "Machelle T. Pardue",
+        "Andrew J. Feola"
+      ],
+      "doi": "10.1167/tvst.14.2.4",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Pretrained RetOCTNet inference with the authors' unchanged code on four author-provided rat radial OCT B-scans, producing per-A-scan RNFL and retinal thickness in pixels; dataset-level accuracy is not reproduced (annotations not public).",
+      "semantic_tags": [],
+      "preview": {
+        "alt": "Input radial OCT B-scan with RetOCTNet prediction overlay (black=background, grey=RNFL, white=retina) - model output, not a reference annotation.",
+        "caption": "Input radial OCT B-scan with RetOCTNet prediction overlay (black=background, grey=RNFL, white=retina) - model output, not a reference annotation."
+      }
     }
   ]
 }
