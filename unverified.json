@@ -476,6 +476,28 @@
       "notebook_sha256": "0cbe5d3ccce2ee0b00be11be31c59972bcc6a4c154f71257cd8e9f27679133f7",
       "source_sha256": "80068bb2f6b725cb8a0456cf2f41f5e47c157d8728993289aff9b714422a6226",
       "code_cells": 15
+    },
+    {
+      "public_id": "p-265a57b31003291df0583dfc9ac9a57a",
+      "title": "Joint 2D to 3D image registration workflow for comparing multiple slice photographs and CT scans of apple fruit with internal disorders",
+      "journal": "arXiv",
+      "authors": [
+        "Dirk Elias Schut",
+        "Rachael Maree Wood",
+        "Anna Katharina Trull",
+        "Rob Schouten",
+        "Robert van Liere",
+        "Tristan van Leeuwen",
+        "Kees Joost Batenburg"
+      ],
+      "investigation_run_id": "p-265a57b31003291df0583dfc9ac9a57a-20261008T172538Z-1314164",
+      "status": "failed",
+      "reason": "Two fresh-T4 full-notebook validation attempts failed before scientific results: attempt 2 failed on a missing /content/results output directory (cells 10/11, fixed); attempt 3 passed cells 1-11 with zero errors but the CT-segmentation cell (12) never returned in ~149 min (suspected memory thrash near the 12.7 GB VM limit from the whole-volume EDT + label intermediates) and was stopped at ~07:26 JST 2026-10-09, well before its 4h cap. The 3-session Colab budget of this invocation is exhausted, so no further attempt was possible. No publication was attempted; GitHub unchanged. The authored notebook (with a memory-bounded chunked-EDT segmentation fix, unverified) is preserved at deliverables/p-265a57b31003291df0583dfc9ac9a57a.ipynb for an explicit resume_run_dir retry on a fresh T4.",
+      "created_on": "2026-10-09",
+      "notebook_path": "notebooks/unverified/p-265a57b31003291df0583dfc9ac9a57a.ipynb",
+      "notebook_sha256": "3668fb97ef9dc6b8b43482a4f3f59173135c3454fed717d324128300770766be",
+      "source_sha256": "4cce893162089053ae45d7b1deb50a0a0312b275d1ced815b10561e686173920",
+      "code_cells": 19
     }
   ]
 }
