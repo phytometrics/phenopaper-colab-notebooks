@@ -9090,6 +9090,52 @@
         "alt": "Predicted vs measured TSS on the 25% holdout: full model vs the authors' simplified top-10-parameter model",
         "caption": "Predicted vs measured TSS on the 25% holdout: full model vs the authors' simplified top-10-parameter model"
       }
+    },
+    {
+      "public_id": "p-9b8c52df6dcf519bd23a6ae2d96a60c5",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "NucVerse3D: Generalizable 3D nuclear instance segmentation across heterogeneous microscopy modalities",
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        "Jorge Vergara",
+        "Cristian Pérez-Gallardo",
+        "Ricardo Velasco",
+        "Dilan Martínez",
+        "Diego Badilla",
+        "Esteban G. Contreras",
+        "Pamela Guevara",
+        "Fabián Segovia‐Miranda",
+        "Hernán Morales‐Navarrete"
+      ],
+      "doi": "10.64898/2026.02.05.704108",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Pretrained NucVerse3D (resunet_drosophila-denoised) inference with the authors' unmodified pipeline on one Drosophila test volume (C2_M01, 154 GT nuclei), compared to the released ground-truth mask (F1 0.643 at IoU 0.5 via an AI-written greedy matcher); single-sample run, not a dataset-level benchmark.",
+      "semantic_tags": [
+        "environment:field",
+        "modality:microscopy",
+        "modality:xray_ct",
+        "organ:cell",
+        "organ:whole_plant",
+        "task:preprocessing",
+        "task:reconstruction",
+        "task:segmentation",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Drosophila C2_M01 input (XY max-intensity projection) with released ground-truth nuclear annotation overlay",
+        "caption": "Drosophila C2_M01 input (XY max-intensity projection) with released ground-truth nuclear annotation overlay"
+      }
     }
   ]
 }
