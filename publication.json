@@ -8563,6 +8563,43 @@
         "alt": "Input radial OCT B-scan with RetOCTNet prediction overlay (black=background, grey=RNFL, white=retina) - model output, not a reference annotation.",
         "caption": "Input radial OCT B-scan with RetOCTNet prediction overlay (black=background, grey=RNFL, white=retina) - model output, not a reference annotation."
       }
+    },
+    {
+      "public_id": "p-2dd6fd1be92fcec749243867b246d5e1",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "MultiSpecies Canopy Segmentation: Interactive Machine-Learning and Pseudo-Labelling are key",
+      "journal": "openRxiv",
+      "authors": [
+        "Charles Rongione",
+        "Abraham George Smith",
+        "Céline Chevalier",
+        "Christophe De Vleeschouwer",
+        "Guillaume Lobet",
+        "Xavier Draye"
+      ],
+      "doi": "10.64898/2025.12.07.692840",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Headless reproduction of LeafPainter interactive GBDT binary pseudo-labeling (paper sec. 2.3.1) on the author's bundled example image using the recorded annotation and exact Trainer.py parameters; CPU only, single image.",
+      "semantic_tags": [
+        "organ:whole_plant",
+        "task:classification",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Input 'feuille sal.jpg' (left) and the generated binary plant/background pseudo-label (right, LightGBM GBDT at resolution 0.2, Spectral colormap)",
+        "caption": "Input 'feuille sal.jpg' (left) and the generated binary plant/background pseudo-label (right, LightGBM GBDT at resolution 0.2, Spectral colormap)"
+      }
     }
   ]
 }
