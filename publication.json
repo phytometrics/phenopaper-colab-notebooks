@@ -9346,6 +9346,41 @@
         "alt": "Author sample field images (top) with FreezeNet predicted plant masks overlaid (bottom); background dimmed, prediction from the paper-matched checkpoint.",
         "caption": "Author sample field images (top) with FreezeNet predicted plant masks overlaid (bottom); background dimmed, prediction from the paper-matched checkpoint."
       }
+    },
+    {
+      "public_id": "p-7d625010ddd4b31654968ecaabf340a2",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "RGB imaging and computer vision-based approaches for identifying spike number loci for wheat.",
+      "journal": "Plant phenomics (Washington, D.C.)",
+      "authors": [
+        "Li L, Hassan MA, Wang D, Wan G, Beegum S, Rasheed A, Xia X, He Y, Zhang Y, He Z, Liu J, Xiao Y."
+      ],
+      "doi": "10.1016/j.plaphe.2025.100051",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Inference-only YOLOX-P spike detection and counting with the authors' pinned Keras code and released checkpoints on three released CD/DD/XA canopy images, compared against released VOC annotations; single-image scale only, no dataset-level mAP or QTL reproduction.",
+      "semantic_tags": [
+        "crop:wheat",
+        "modality:rgb",
+        "organ:inflorescence",
+        "task:counting",
+        "task:object_detection",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Released CD, DD and XA canopy images with the authors' ground-truth spike bounding boxes (green) and per-image annotated spike counts.",
+        "caption": "Released CD, DD and XA canopy images with the authors' ground-truth spike bounding boxes (green) and per-image annotated spike counts."
+      }
     }
   ]
 }
