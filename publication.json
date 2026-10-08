@@ -8336,6 +8336,43 @@
         "alt": "BUTom21 still image with the dataset's reference hand annotations: per-instance mask contours and bounding boxes colored by ripeness subclass (red, mixed_red, green, orange, mixed_orange).",
         "caption": "BUTom21 still image with the dataset's reference hand annotations: per-instance mask contours and bounding boxes colored by ripeness subclass (red, mixed_red, green, orange, mixed_orange)."
       }
+    },
+    {
+      "public_id": "p-db90fe39eb1b5f45e23f18ba807d0fdb",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A methodology for detection and localization of fruits in apples orchards from aerial images",
+      "journal": "arXiv",
+      "authors": [
+        "Thiago T. Santos",
+        "Luciano Gebler"
+      ],
+      "doi": "10.48550/arxiv.2110.12331",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Trains the authors' COCO-pretrained Faster R-CNN (ResNet-50-FPN) apple detector on the official ADD256 training split for 25 epochs (author: 160) and evaluates it on the official 114-image test split with the authors' metric, reaching 0.6337 vs the authors' 160-epoch reference 0.6944; SfM/tracking/yield stages are out of scope.",
+      "semantic_tags": [
+        "crop:apple",
+        "environment:aerial",
+        "organ:fruit",
+        "task:counting",
+        "task:object_detection",
+        "task:tracking",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "ADD256 training patches with ground-truth apple boxes (yellow) from the official split",
+        "caption": "ADD256 training patches with ground-truth apple boxes (yellow) from the official split"
+      }
     }
   ]
 }
