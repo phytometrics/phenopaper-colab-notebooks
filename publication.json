@@ -8819,6 +8819,41 @@
         "alt": "tile_00417 confocal meristem tile slices with the shipped pre-segmentation region borders (reference annotation) overlaid in red",
         "caption": "tile_00417 confocal meristem tile slices with the shipped pre-segmentation region borders (reference annotation) overlaid in red"
       }
+    },
+    {
+      "public_id": "p-02a5940d3fa514def02d03da85db0334",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Plants stand still but hide: Imperfect and heterogeneous detection is the rule when counting plants",
+      "journal": "Journal of Ecology",
+      "authors": [
+        "Jan Perret",
+        "Aurélien Besnard",
+        "Anne Charpentier",
+        "Guillaume Papuga"
+      ],
+      "doi": "10.1111/1365-2745.14110",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Runs the authors' pinned R code (commit 304f6cc) to fit their final binomial GLMM of plant-detection probability on their published tidy dataset and reproduces Figure 2 coefficient estimates; partial reproduction only (no raw-data pipeline, Figures 1/3/4, or model selection).",
+      "semantic_tags": [
+        "environment:field",
+        "organ:whole_plant",
+        "task:counting"
+      ],
+      "preview": {
+        "alt": "Reproduced Figure 2: standardized log-odds coefficients with 95% CI from the paper's final detection GLMM (authors' own R code and dataset)",
+        "caption": "Reproduced Figure 2: standardized log-odds coefficients with 95% CI from the paper's final detection GLMM (authors' own R code and dataset)"
+      }
     }
   ]
 }
