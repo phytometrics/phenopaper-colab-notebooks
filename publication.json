@@ -8162,6 +8162,41 @@
         "alt": "NDSWI (Eq. 3) versus oven-dry water content for all 86 released spectra, colored by ripeness label; Pearson r = 0.668 matches the paper's reported raw-NDSWI correlation of 0.66.",
         "caption": "NDSWI (Eq. 3) versus oven-dry water content for all 86 released spectra, colored by ripeness label; Pearson r = 0.668 matches the paper's reported raw-NDSWI correlation of 0.66."
       }
+    },
+    {
+      "public_id": "p-a50a1d755f801e5f83b95aef05faab50",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Analysis of Cantaloupe Fruit Maturity Based on Fruit Skin Color Using Naive Bayes Classifier",
+      "journal": "Journal of Physics: Conference Series",
+      "authors": [
+        "M A Bustomi",
+        "M F Asy’ari"
+      ],
+      "doi": "10.1088/1742-6596/1805/1/012028",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Reproduces the paper's complete Gaussian Naive Bayes maturity classification on all 30 author rind JPEGs (five MATLAB-convention histogram features, script-faithful 9x9/3x3 median filtering); an AI-assisted MATLAB-to-Python port whose accuracies may deviate from the published 68.75%/57.14% due to adapthisteq implementation differences.",
+      "semantic_tags": [
+        "crop:melon",
+        "modality:rgb",
+        "organ:fruit",
+        "task:classification",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "Original 16 training and 14 test cantaloupe rind images from the author repository (commit 10620c2), labeled with the script's alternating classes (odd = raw, even = ripe)",
+        "caption": "Original 16 training and 14 test cantaloupe rind images from the author repository (commit 10620c2), labeled with the script's alternating classes (odd = raw, even = ripe)"
+      }
     }
   ]
 }
