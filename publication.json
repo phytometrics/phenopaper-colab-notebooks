@@ -8706,6 +8706,48 @@
         "alt": "Selected ripeness JPEG with the dataset's reference expert polygon annotations overlaid (green=Ripe-FFB, red=Unripe-FFB, blue=unlabelled FFB).",
         "caption": "Selected ripeness JPEG with the dataset's reference expert polygon annotations overlaid (green=Ripe-FFB, red=Unripe-FFB, blue=unlabelled FFB)."
       }
+    },
+    {
+      "public_id": "p-abf755e7e4f15c82e220bb66d292e6e5",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "AKFruitYield: Modular benchmarking and video analysis software for Azure Kinect cameras for fruit size and fruit yield estimation in apple orchards",
+      "journal": "SoftwareX",
+      "authors": [
+        "Juan Carlos Miranda",
+        "Jaume Arnó",
+        "Jordi Gené-Mola",
+        "Spyros Fountas",
+        "Eduard Gregorio"
+      ],
+      "doi": "10.1016/j.softx.2023.101548",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Executed the authors' AK_SW_BENCHMARKER mask-based fruit sizing and allometric weight benchmark headlessly on the bundled 6-frame Azure Kinect dataset with lab ground truth (168 per-fruit records); video analysis/detection and the MOD depth selector are out of scope.",
+      "semantic_tags": [
+        "crop:apple",
+        "environment:field",
+        "modality:rgbd",
+        "organ:fruit",
+        "task:morphology",
+        "task:object_detection",
+        "task:yield_biomass",
+        "trait:reproductive_traits",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Input Azure Kinect RGB frame with the authors' manual fruit mask (blue outline) and PASCAL-VOC boxes (yellow) — reference annotations, not model predictions.",
+        "caption": "Input Azure Kinect RGB frame with the authors' manual fruit mask (blue outline) and PASCAL-VOC boxes (yellow) — reference annotations, not model predictions."
+      }
     }
   ]
 }
