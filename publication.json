@@ -8900,6 +8900,48 @@
         "alt": "Input ALS point cloud (height-colored) vs watershed initial segmentation (755 trees) vs watershed + optimized CCE (774 trees), top view of sample 03_ALS_csf.las",
         "caption": "Input ALS point cloud (height-colored) vs watershed initial segmentation (755 trees) vs watershed + optimized CCE (774 trees), top view of sample 03_ALS_csf.las"
       }
+    },
+    {
+      "public_id": "p-2ef60eacb1b9cda52b0c64d787509bb5",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Wheat3DGS: In-Field 3D Reconstruction, Instance Segmentation and Phenotyping of Wheat Heads with Gaussian Splatting",
+      "journal": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "authors": [
+        "Daiwei Zhang",
+        "Joaquin Gajardo",
+        "Tomislav Medic",
+        "Isinsu Katircioglu",
+        "Mike Boss",
+        "Norbert Kirchgessner",
+        "Achim Walter",
+        "Lukas Roth"
+      ],
+      "doi": "10.1109/cvprw67362.2025.00533",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Single-plot Wheat3DGS pipeline (7000-iteration 3DGS training at half resolution, FlashSplat 3D wheat-head instance segmentation with a 120-mask budget, projection into 6 test views and IoU/precision/recall/F1 against the released human annotation) on plot_461; reduced iteration/resolution/mask budgets versus the paper's full cluster pipeline.",
+      "semantic_tags": [
+        "crop:wheat",
+        "environment:field",
+        "modality:neural_3d",
+        "organ:whole_plant",
+        "task:reconstruction",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Input FIP field image (plot_461) with the authors' released YOLOv5 bounding boxes and SAM instance masks from yolosam.zip",
+        "caption": "Input FIP field image (plot_461) with the authors' released YOLOv5 bounding boxes and SAM instance masks from yolosam.zip"
+      }
     }
   ]
 }
