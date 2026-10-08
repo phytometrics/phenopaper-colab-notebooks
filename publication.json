@@ -8666,6 +8666,46 @@
         "alt": "Internal tactile observation at 12 mm gripper opening: our T4 Cycles render (left) vs the author's reference render from the pinned repository commit (right); MAE 3.36/255.",
         "caption": "Internal tactile observation at 12 mm gripper opening: our T4 Cycles render (left) vs the author's reference render from the pinned repository commit (right); MAE 3.36/255."
       }
+    },
+    {
+      "public_id": "p-11c4b6b273fd39d69633ddcae1b70f2b",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Outdoor RGB and Point Cloud Depth Dataset for Palm Oil Fresh Fruit Bunch Ripeness Classification and Localization",
+      "journal": "Scientific data",
+      "authors": [
+        "Goh JY, Mohamed Ali MS, Md Yunos Y, Sheikh UU, Khan MS."
+      ],
+      "doi": "10.1038/s41597-025-04953-6",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Executed a partial CPU demonstration of this dataset paper: rendered one COCO-annotated ripeness JPEG with its reference expert polygons and ran silhouette-tuned DBSCAN clustering on one released 428k-point PLY capture; no classifier or accuracy exists in the paper.",
+      "semantic_tags": [
+        "crop:oil_palm",
+        "environment:field",
+        "modality:multimodal",
+        "modality:point_cloud",
+        "modality:rgb",
+        "organ:fruit",
+        "organ:whole_plant",
+        "task:classification",
+        "task:object_detection",
+        "task:registration",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Selected ripeness JPEG with the dataset's reference expert polygon annotations overlaid (green=Ripe-FFB, red=Unripe-FFB, blue=unlabelled FFB).",
+        "caption": "Selected ripeness JPEG with the dataset's reference expert polygon annotations overlaid (green=Ripe-FFB, red=Unripe-FFB, blue=unlabelled FFB)."
+      }
     }
   ]
 }
