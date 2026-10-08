@@ -8785,6 +8785,40 @@
         "alt": "ILP result for the demo segment: ILP-selected views (orange), selected exploration views (purple), planned minimum-motion-cost view path (dashed), and covered fruit ROI voxels (red).",
         "caption": "ILP result for the demo segment: ILP-selected views (orange), selected exploration views (purple), planned minimum-motion-cost view path (dashed), and covered fruit ROI voxels (red)."
       }
+    },
+    {
+      "public_id": "p-46adbc3add7744936da1500b4bcd5ee3",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "SEGMENT3D: A web-based application for collaborative segmentation of 3D images used in the shoot apical meristem",
+      "journal": "2018 IEEE 15th International Symposium on Biomedical Imaging (ISBI 2018)",
+      "authors": [
+        "Thiago V Spina",
+        "Johannes Stegmaier",
+        "Alexandre X. Falcao",
+        "Elliot Meyerowitz",
+        "Alexandre Cunha"
+      ],
+      "doi": "10.1109/isbi.2018.8363600",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Headless CPU replay of SEGMENT3D's IFT-SC correction of one embedded 60^3 meristem tile with the authors' pinned JavaScript, including one demonstrated DIFT-SC scribble correction; GUI, server, and user studies are out of scope.",
+      "semantic_tags": [
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "tile_00417 confocal meristem tile slices with the shipped pre-segmentation region borders (reference annotation) overlaid in red",
+        "caption": "tile_00417 confocal meristem tile slices with the shipped pre-segmentation region borders (reference annotation) overlaid in red"
+      }
     }
   ]
 }
