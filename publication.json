@@ -8082,6 +8082,48 @@
         "Véronique Letort",
         "Anne Goelzer"
       ]
+    },
+    {
+      "public_id": "p-222e2638715fa7096617c40c9817c004",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Identification and segmentation of branch whorls and sawlogs in standing timber using terrestrial laser scanning and deep learning",
+      "journal": "Forestry: An International Journal of Forest Research",
+      "authors": [
+        "Mika Pehkonen",
+        "Mikko Vastaranta",
+        "Markus Holopainen",
+        "Juha Hyyppä",
+        "Antero Kukko",
+        "Jiri Pyörälä"
+      ],
+      "doi": "10.1093/forestry/cpaf006",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Executed the authors' whorl-detector inference pipeline (four-direction render, YOLOv5x whorlDetector.pt at conf 0.30, 0.09 m cross-direction clustering, whorls.csv) on the repository's example tree 1022 log 2, with the Open3D OpenGL rendering adapted to headless numpy rasterization; single-tree scope, training and 479-tree evaluation out of scope.",
+      "semantic_tags": [
+        "environment:field",
+        "modality:point_cloud",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:counting",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Tree 1022 log 2: our adapted render with our predicted whorl boxes (left) vs the authors' shipped example detection output (right).",
+        "caption": "Tree 1022 log 2: our adapted render with our predicted whorl boxes (left) vs the authors' shipped example detection output (right)."
+      }
     }
   ]
 }
