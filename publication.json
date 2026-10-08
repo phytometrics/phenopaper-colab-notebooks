@@ -9170,6 +9170,42 @@
         "alt": "img2 sample input (grayscale) overlaid with the EyeHex hex-grid expansion prediction (green ommatidia centers) from the authors' classifier probability map.",
         "caption": "img2 sample input (grayscale) overlaid with the EyeHex hex-grid expansion prediction (green ommatidia centers) from the authors' classifier probability map."
       }
+    },
+    {
+      "public_id": "p-796df36c0c9a3f8c7f2a708c79eaecd1",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "High-Resolution Leaf Image Sequences with Geometric Alignment for Dynamic Phenotyping of Foliar Diseases",
+      "journal": null,
+      "authors": [
+        "Jonas Anderegg",
+        "Bruce A. McDonald"
+      ],
+      "doi": "10.3929/ethz-c-000796858",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Loads and inspects one wheat-leaf image series (ESWW0070020_1, 2023) with the authors' DatasetTools, re-runs the published piecewise-affine registration from raw images and cross-checks the published aligned crops (mean abs diff 0.86-1.30 of 255); single leaf, CPU-only, no model inference.",
+      "semantic_tags": [
+        "crop:wheat",
+        "modality:rgb",
+        "organ:leaf",
+        "task:registration",
+        "task:segmentation",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Raw input frame vs published aligned crop vs published lesion instance-mask overlay (dataset annotation products) for leaf series ESWW0070020_1",
+        "caption": "Raw input frame vs published aligned crop vs published lesion instance-mask overlay (dataset annotation products) for leaf series ESWW0070020_1"
+      }
     }
   ]
 }
