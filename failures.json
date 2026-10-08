@@ -2,6 +2,35 @@
   "schema_version": 1,
   "failures": [
     {
+      "public_id": "p-91cc48912990fd6351a5516aa3393cdb",
+      "title": "3D shape sensing and deep learning-based segmentation of strawberries",
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Justin Le Louëdec",
+        "Grzegorz Cielniak"
+      ],
+      "investigation_run_id": "p-91cc48912990fd6351a5516aa3393cdb-20261008T143054Z-1161037",
+      "run_id": "p-91cc48912990fd6351a5516aa3393cdb-20261008T155832Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-08T16:04:35.826Z] print(open('INDEX.md').read()) | [2026-10-08T16:04:35.826Z] EOF failed | [2026-10-08T16:04:35.826Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-09"
+    },
+    {
+      "public_id": "p-8f2b65434ad1d919bccfe12caf205ff8",
+      "title": "Development of Lightweight Deep Learning Model for Watermelon Disease Classification; Deployable to Mobile Device",
+      "journal": "Global Journal of Politics and Law Research",
+      "authors": [
+        "Jesse Ugwu",
+        "Amr Ahmed"
+      ],
+      "investigation_run_id": "p-8f2b65434ad1d919bccfe12caf205ff8-20261008T125656Z-1096472",
+      "run_id": "p-8f2b65434ad1d919bccfe12caf205ff8-20261008T131752Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-08T15:19:55.703Z] --preview-index 0 \\ | [2026-10-08T15:19:55.703Z] --preview-caption \"Deterministic per-class input samples from the Watermelon Disease Recognition Dataset: original 3024x3024 captures vs 224x224 network input\" 2>&1 | tail -12 failed | [2026-10-08T15:19:55.703Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-09",
+      "notebook_path": "notebooks/unverified/p-8f2b65434ad1d919bccfe12caf205ff8.ipynb"
+    },
+    {
       "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
       "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
       "investigation_run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T113209Z-4050068",
@@ -31,6 +60,24 @@
         "James J. Polashock",
         "Abdollah Dehzangi"
       ]
+    },
+    {
+      "public_id": "p-a5f12acf9b11d04c96db0f78b3c805eb",
+      "title": "DSeg: A dynamic image segmentation program to extract backbone patterns for filamentous bacteria and hyphae structures",
+      "journal": "openRxiv",
+      "authors": [
+        "Hanqing Zhang",
+        "Niklas Söderholm",
+        "Linda Sandblad",
+        "Krister Wiklund",
+        "Magnus Andersson"
+      ],
+      "investigation_run_id": "p-a5f12acf9b11d04c96db0f78b3c805eb-20261008T035414Z-679663",
+      "run_id": "p-a5f12acf9b11d04c96db0f78b3c805eb-20261008T054700Z",
+      "status": "failed",
+      "reason": "Fresh CPU validation #2 (dseg-a5f12a-final2) executed the full notebook; 9/10 code cells clean including the complete author-code Octave pipeline (segmentation, backbone, persistence length on frames 88-90). One added visualization cell failed (np.loadtxt needs delimiter=',' for csvwrite output). Session budget 3/3 exhausted (diag + two final attempts), so no third fresh run was possible. One-line fix applied to deliverables notebook; execution-verified publication requires a fresh full run.",
+      "created_on": "2026-10-08",
+      "notebook_path": "notebooks/unverified/p-a5f12acf9b11d04c96db0f78b3c805eb.ipynb"
     },
     {
       "public_id": "p-9a3c9cba4074a019ec533102f858e1c4",
@@ -100,6 +147,27 @@
       "authors": [
         "Jia N, Fu C, Chen K, Liu J."
       ]
+    },
+    {
+      "public_id": "p-2ef60eacb1b9cda52b0c64d787509bb5",
+      "title": "Wheat3DGS: In-Field 3D Reconstruction, Instance Segmentation and Phenotyping of Wheat Heads with Gaussian Splatting",
+      "journal": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "authors": [
+        "Daiwei Zhang",
+        "Joaquin Gajardo",
+        "Tomislav Medic",
+        "Isinsu Katircioglu",
+        "Mike Boss",
+        "Norbert Kirchgessner",
+        "Achim Walter",
+        "Lukas Roth"
+      ],
+      "investigation_run_id": "p-2ef60eacb1b9cda52b0c64d787509bb5-20261008T083257Z-895696",
+      "run_id": "p-2ef60eacb1b9cda52b0c64d787509bb5-20261008T091605Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-08T10:00:58.025Z] if o.output_type=='stream': print(o.text[-3000:]) | [2026-10-08T10:00:58.025Z] EOF failed | [2026-10-08T10:00:58.025Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-08",
+      "notebook_path": "notebooks/unverified/p-2ef60eacb1b9cda52b0c64d787509bb5.ipynb"
     },
     {
       "public_id": "p-903df80cc1f5c5f59869dfbe9b866bd7",
@@ -722,60 +790,6 @@
         "Kalhari Manawasinghe",
         "Karen Tanino"
       ]
-    },
-    {
-      "public_id": "p-a5f12acf9b11d04c96db0f78b3c805eb",
-      "title": "DSeg: A dynamic image segmentation program to extract backbone patterns for filamentous bacteria and hyphae structures",
-      "journal": "openRxiv",
-      "authors": [
-        "Hanqing Zhang",
-        "Niklas Söderholm",
-        "Linda Sandblad",
-        "Krister Wiklund",
-        "Magnus Andersson"
-      ],
-      "investigation_run_id": "p-a5f12acf9b11d04c96db0f78b3c805eb-20261008T035414Z-679663",
-      "run_id": "p-a5f12acf9b11d04c96db0f78b3c805eb-20261008T054700Z",
-      "status": "failed",
-      "reason": "Fresh CPU validation #2 (dseg-a5f12a-final2) executed the full notebook; 9/10 code cells clean including the complete author-code Octave pipeline (segmentation, backbone, persistence length on frames 88-90). One added visualization cell failed (np.loadtxt needs delimiter=',' for csvwrite output). Session budget 3/3 exhausted (diag + two final attempts), so no third fresh run was possible. One-line fix applied to deliverables notebook; execution-verified publication requires a fresh full run.",
-      "created_on": "2026-10-08",
-      "notebook_path": "notebooks/unverified/p-a5f12acf9b11d04c96db0f78b3c805eb.ipynb"
-    },
-    {
-      "public_id": "p-2ef60eacb1b9cda52b0c64d787509bb5",
-      "title": "Wheat3DGS: In-Field 3D Reconstruction, Instance Segmentation and Phenotyping of Wheat Heads with Gaussian Splatting",
-      "journal": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
-      "authors": [
-        "Daiwei Zhang",
-        "Joaquin Gajardo",
-        "Tomislav Medic",
-        "Isinsu Katircioglu",
-        "Mike Boss",
-        "Norbert Kirchgessner",
-        "Achim Walter",
-        "Lukas Roth"
-      ],
-      "investigation_run_id": "p-2ef60eacb1b9cda52b0c64d787509bb5-20261008T083257Z-895696",
-      "run_id": "p-2ef60eacb1b9cda52b0c64d787509bb5-20261008T091605Z",
-      "status": "failed",
-      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-08T10:00:58.025Z] if o.output_type=='stream': print(o.text[-3000:]) | [2026-10-08T10:00:58.025Z] EOF failed | [2026-10-08T10:00:58.025Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-08",
-      "notebook_path": "notebooks/unverified/p-2ef60eacb1b9cda52b0c64d787509bb5.ipynb"
-    },
-    {
-      "public_id": "p-8f2b65434ad1d919bccfe12caf205ff8",
-      "title": "Development of Lightweight Deep Learning Model for Watermelon Disease Classification; Deployable to Mobile Device",
-      "journal": "Global Journal of Politics and Law Research",
-      "authors": [
-        "Jesse Ugwu",
-        "Amr Ahmed"
-      ],
-      "investigation_run_id": "p-8f2b65434ad1d919bccfe12caf205ff8-20261008T125656Z-1096472",
-      "run_id": "p-8f2b65434ad1d919bccfe12caf205ff8-20261008T131752Z",
-      "status": "failed",
-      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-08T15:19:55.703Z] --preview-index 0 \\ | [2026-10-08T15:19:55.703Z] --preview-caption \"Deterministic per-class input samples from the Watermelon Disease Recognition Dataset: original 3024x3024 captures vs 224x224 network input\" 2>&1 | tail -12 failed | [2026-10-08T15:19:55.703Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-09",
-      "notebook_path": "notebooks/unverified/p-8f2b65434ad1d919bccfe12caf205ff8.ipynb"
     }
   ]
 }
