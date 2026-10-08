@@ -8748,6 +8748,43 @@
         "alt": "Input Azure Kinect RGB frame with the authors' manual fruit mask (blue outline) and PASCAL-VOC boxes (yellow) — reference annotations, not model predictions.",
         "caption": "Input Azure Kinect RGB frame with the authors' manual fruit mask (blue outline) and PASCAL-VOC boxes (yellow) — reference annotations, not model predictions."
       }
+    },
+    {
+      "public_id": "p-01f25d139654ed7a11b8126ce09db7de",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "GO-VMP: Global Optimization for View Motion Planning in Fruit Mapping",
+      "journal": "arXiv",
+      "authors": [
+        "Allen Isaac Jose",
+        "Sicong Pan",
+        "Tobias Zaenker",
+        "Rohit Menon",
+        "Sebastian Houben",
+        "Maren Bennewitz"
+      ],
+      "doi": "10.48550/arxiv.2503.03912",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Adapted CPU demonstration of GO-VMP's joint SHPP+SCP ILP (lazy subtour elimination) solved to optimality with gurobipy on a small deterministic synthetic crop-row segment; the authors' ROS/Gazebo/MoveIt pipeline and dataset-level results are not reproduced.",
+      "semantic_tags": [
+        "organ:fruit",
+        "task:object_detection",
+        "task:reconstruction"
+      ],
+      "preview": {
+        "alt": "ILP result for the demo segment: ILP-selected views (orange), selected exploration views (purple), planned minimum-motion-cost view path (dashed), and covered fruit ROI voxels (red).",
+        "caption": "ILP result for the demo segment: ILP-selected views (orange), selected exploration views (purple), planned minimum-motion-cost view path (dashed), and covered fruit ROI voxels (red)."
+      }
     }
   ]
 }
