@@ -8942,6 +8942,39 @@
         "alt": "Input FIP field image (plot_461) with the authors' released YOLOv5 bounding boxes and SAM instance masks from yolosam.zip",
         "caption": "Input FIP field image (plot_461) with the authors' released YOLOv5 bounding boxes and SAM instance masks from yolosam.zip"
       }
+    },
+    {
+      "public_id": "p-8f2b65434ad1d919bccfe12caf205ff8",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Development of Lightweight Deep Learning Model for Watermelon Disease Classification; Deployable to Mobile Device",
+      "journal": "Global Journal of Politics and Law Research",
+      "authors": [
+        "Jesse Ugwu",
+        "Amr Ahmed"
+      ],
+      "doi": "10.37745/gjplr.2013/vol13n5126196",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Trained the authors' two-phase MobileNetV2 watermelon-disease classifier (20 frozen + 30 fine-tune epochs) on the full 1,155-image dataset in a fresh Colab T4 session, reaching 0.97 validation accuracy vs the paper's ~0.99; a single run is not dataset-level verification and the authors' no-seed pipeline varies per run.",
+      "semantic_tags": [
+        "crop:watermelon",
+        "task:classification",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Deterministic per-class input samples from the Watermelon Disease Recognition Dataset: original 3024x3024 captures vs 224x224 network input",
+        "caption": "Deterministic per-class input samples from the Watermelon Disease Recognition Dataset: original 3024x3024 captures vs 224x224 network input"
+      }
     }
   ]
 }

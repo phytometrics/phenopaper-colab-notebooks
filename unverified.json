@@ -459,23 +459,6 @@
       "notebook_sha256": "a118e5d244b5ed56c9a0dbb15483410b317ebffbd3ff20b577b07297b4624800",
       "source_sha256": "8c5c22741eca02bb6612b80e1e08be2eabe197803de615fd1f2ef0ee273083d9",
       "code_cells": 10
-    },
-    {
-      "public_id": "p-8f2b65434ad1d919bccfe12caf205ff8",
-      "title": "Development of Lightweight Deep Learning Model for Watermelon Disease Classification; Deployable to Mobile Device",
-      "journal": "Global Journal of Politics and Law Research",
-      "authors": [
-        "Jesse Ugwu",
-        "Amr Ahmed"
-      ],
-      "investigation_run_id": "p-8f2b65434ad1d919bccfe12caf205ff8-20261008T125656Z-1096472",
-      "status": "failed",
-      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-08T15:19:55.703Z] --preview-index 0 \\ | [2026-10-08T15:19:55.703Z] --preview-caption \"Deterministic per-class input samples from the Watermelon Disease Recognition Dataset: original 3024x3024 captures vs 224x224 network input\" 2>&1 | tail -12 failed | [2026-10-08T15:19:55.703Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-09",
-      "notebook_path": "notebooks/unverified/p-8f2b65434ad1d919bccfe12caf205ff8.ipynb",
-      "notebook_sha256": "1e107beb709b16585f1e5d81ae5f450b7b2f5571dab700ad46fb0815b355785e",
-      "source_sha256": "38cb987a8b7b780f6b46f1f94722c205e227a14e458fee69fe3abb5d111f4cda",
-      "code_cells": 15
     }
   ]
 }
