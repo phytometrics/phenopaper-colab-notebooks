@@ -6491,6 +6491,38 @@
         "alt": "Independent test images with reference labels (from author directories) vs. released CARP model predictions; the checkpoint predicts 'rotten' for all 230 images.",
         "caption": "Independent test images with reference labels (from author directories) vs. released CARP model predictions; the checkpoint predicts 'rotten' for all 230 images."
       }
+    },
+    {
+      "public_id": "p-9d45ec693d0b3c48f4d6df41f5fa4968",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "From phenoscope to GreenLab model of Arabidopsis to decipher genotype and treatment effects.",
+      "doi": "10.1016/j.plaphe.2026.100265",
+      "compute": "CPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Runs the authors' AraGreenlab GreenLab parameter estimation (leaf.a, leaf.b, RUE with 95% CIs) on the bundled measured example leaf area CSV via GNU Octave with documented toolbox shims; single-plant CPU-only partial demonstration, not validated against author reference outputs (none published).",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:segmentation",
+        "task:time_series",
+        "task:tracking",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Measured leaf areas (dots) vs fitted GreenLab trajectories (lines); right panel: rosette totals.",
+        "caption": "Measured leaf areas (dots) vs fitted GreenLab trajectories (lines); right panel: rosette totals."
+      }
     }
   ]
 }
