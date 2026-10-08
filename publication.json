@@ -9460,6 +9460,42 @@
         "alt": "img_test sample (left) beside the authors' draw_inferences overlay from YOLO-TGI-N ONNX inference (green=Healthy leaf, red=Tomato fruit, yellow=Unhealthy leaf).",
         "caption": "img_test sample (left) beside the authors' draw_inferences overlay from YOLO-TGI-N ONNX inference (green=Healthy leaf, red=Tomato fruit, yellow=Unhealthy leaf)."
       }
+    },
+    {
+      "public_id": "p-2a008c1d33407a4fc692d3f464b17bc5",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Few-Shot Learning Enables Population-Scale Analysis of Leaf Traits in Populus trichocarpa",
+      "journal": "Plant Phenomics",
+      "authors": [
+        "Lagergren J, Pavicic M, Chhetri HB, York LM, Hyatt D, Kainer D, Rutter EM, Flores K, Bailey-Bale J, Klein M, Taylor G, Jacobson D, Streich J."
+      ],
+      "doi": "10.34133/plantphenomics.0072",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-08",
+      "demonstration": "Runs the authors' released vein-growing CNN (Focal Loss weights) on one held-out validation leaf-bottom scan (C_1_14_18_bot) and reproduces its vein segmentation, compared against the authors' released prediction and the manual ground-truth mask (Jaccard 0.6184); single example only, not the population-scale pipeline.",
+      "semantic_tags": [
+        "crop:poplar",
+        "environment:field",
+        "modality:rgb",
+        "organ:leaf",
+        "task:morphology",
+        "task:segmentation",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Validation scan C_1_14_18_bot: reproduced vein-grower (Focal Loss) prediction overlay (red), predicted probability map, manual ground-truth venation (green), and the authors' released prediction (blue).",
+        "caption": "Validation scan C_1_14_18_bot: reproduced vein-grower (Focal Loss) prediction overlay (red), predicted probability map, manual ground-truth venation (green), and the authors' released prediction (blue)."
+      }
     }
   ]
 }
