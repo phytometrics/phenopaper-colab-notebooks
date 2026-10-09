@@ -14,17 +14,13 @@
     },
     {
       "public_id": "p-7df6644e334ccd84661c955e353eb54b",
-      "title": "Development of deep learning method for predicting firmness and soluble solid content of postharvest Korla fragrant pear using Vis/NIR hyperspectral reflectance imaging",
-      "journal": "Postharvest Biology and Technology",
-      "authors": [
-        "Xinjie Yu",
-        "Huanda Lu",
-        "Di Wu"
-      ],
+      "title": "p-7df6644e334ccd84661c955e353eb54b",
+      "journal": null,
+      "authors": [],
       "investigation_run_id": "p-7df6644e334ccd84661c955e353eb54b-20261008T024028Z-643069",
-      "run_id": "p-7df6644e334ccd84661c955e353eb54b-20261009T152538Z",
+      "run_id": "p-7df6644e334ccd84661c955e353eb54b",
       "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-7df6644e334ccd84661c955e353eb54b-20261009T152505Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nAttributeError: 'NoneType' object has no attribute 'index'\nKeyError: \"Unable to synchronously open object (object 'dense_1' doesn't exist)\"\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-7df6644e334ccd84661c955e353eb54b-20261009T153729Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
       "created_on": "2026-10-10"
     },
     {
