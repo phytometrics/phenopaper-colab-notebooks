@@ -9941,6 +9941,46 @@
         "alt": "Author photographs of three cherry tomatoes (Unripe, Medium, Ripe) labeled with their measured sensor RGB, RGB-to-CIELAB conversion and spectrophotometer reference values",
         "caption": "Author photographs of three cherry tomatoes (Unripe, Medium, Ripe) labeled with their measured sensor RGB, RGB-to-CIELAB conversion and spectrophotometer reference values"
       }
+    },
+    {
+      "public_id": "p-ebae12f1eb1e37fc5316ed57eba1723e",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Domain‐independent adaptive histogram‐based features for pomegranate fruit and leaf diseases classification",
+      "journal": "CAAI Transactions on Intelligence Technology",
+      "authors": [
+        "Mohanmuralidhar Prajwala",
+        "Prabhuswamy Prajwal Kumar",
+        "Shanubhog Maheshwarappa Gopinath",
+        "Palaiahnakote Shivakumara",
+        "Mahadevappa Basavanna",
+        "Daniel Lopresti"
+      ],
+      "doi": "10.1049/cit2.12390",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Executed the paper's feature-extraction subsection on all nine author test images (grey/B/G/R 256-bin histograms with full and half-split Chi-Square distances per Ap_Chi_ALLFeatures.py); the ANN/CNN classification stage is not reproduced (no weights in the repository).",
+      "semantic_tags": [
+        "modality:rgb",
+        "organ:fruit",
+        "organ:leaf",
+        "task:classification",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Author test image dfs1.jpg (fruit-class1) with its computed normalized grey, B, G and R histograms (256 bins over [0,1])",
+        "caption": "Author test image dfs1.jpg (fruit-class1) with its computed normalized grey, B, G and R histograms (256 bins over [0,1])"
+      }
     }
   ]
 }
