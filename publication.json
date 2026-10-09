@@ -10204,6 +10204,46 @@
         "alt": "ACDS single-cell samples: inputs, combined IG+saturation saliency maps, watershed markers, and predicted cell boundaries (magenta) versus the authors' ground-truth boundaries (yellow).",
         "caption": "ACDS single-cell samples: inputs, combined IG+saturation saliency maps, watershed markers, and predicted cell boundaries (magenta) versus the authors' ground-truth boundaries (yellow)."
       }
+    },
+    {
+      "public_id": "p-128cba6ab1174fbf78bf2b45045261b8",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Automatic stem-leaf segmentation of maize shoots using three-dimensional point cloud",
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Teng Miao",
+        "Chao Zhu",
+        "Tongyu Xu",
+        "Tao Yang",
+        "Na Li",
+        "Yuncheng Zhou",
+        "Hanbing Deng"
+      ],
+      "doi": "10.1016/j.compag.2021.106310",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Runs the authors' released MATLAB stem-leaf segmentation pipeline on their released maize seedling sample testsample/1 under headless Octave on Colab CPU and scores it with the authors' Verification_mt against the sample's manual ground truth (single sample; not the paper's 75-seedling benchmark).",
+      "semantic_tags": [
+        "crop:maize",
+        "modality:point_cloud",
+        "organ:leaf",
+        "organ:stem",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Input: released maize seedling point cloud (testsample/1) colored by the authors' manual ground-truth regions; each color is one organ labeled in the released PLY files.",
+        "caption": "Input: released maize seedling point cloud (testsample/1) colored by the authors' manual ground-truth regions; each color is one organ labeled in the released PLY files."
+      }
     }
   ]
 }
