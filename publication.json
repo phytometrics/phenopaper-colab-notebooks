@@ -10501,6 +10501,40 @@
         "alt": "Original light-box input FY3Ch1_15_15.jpg (left) with the TubAR skin.all(mode='debug') skinning mask (right, gray = skinned area)",
         "caption": "Original light-box input FY3Ch1_15_15.jpg (left) with the TubAR skin.all(mode='debug') skinning mask (right, gray = skinned area)"
       }
+    },
+    {
+      "public_id": "p-d54ea0bf25df64e68867467128e081dd",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Identifying moldy peanut using hyperspectral imaging by correction of noisy labelling.",
+      "journal": "Food research international (Ottawa, Ont.)",
+      "authors": [
+        "Yuan D, Xie Y, Qi W, Song R."
+      ],
+      "doi": "10.1016/j.foodres.2025.116741",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Executed the authors' CL-ST noisy-label-correction demo end-to-end on their shipped peanut HSI data (CL-ST label quality, 100-step threshold sweep, kernel-scale evaluation at PMP 0.02); SPA-ELM and paper-level benchmarks are out of scope and numbers vary run to run due to unseeded cross-validation.",
+      "semantic_tags": [
+        "crop:peanut",
+        "modality:spectral",
+        "organ:seed",
+        "task:classification",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Author demo hyperspectral band with weak pixel-label overlay (magenta: weakly labeled moldy regions, green: healthy), from original_data.mat @ commit 8f03113a.",
+        "caption": "Author demo hyperspectral band with weak pixel-label overlay (magenta: weakly labeled moldy regions, green: healthy), from original_data.mat @ commit 8f03113a."
+      }
     }
   ]
 }
