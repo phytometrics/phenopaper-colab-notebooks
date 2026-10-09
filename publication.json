@@ -10017,6 +10017,44 @@
         "alt": "Original 512x512 input (test.JPG, left) beside the WS1-augmented output from this run (legacy compatibility mode, z=20, right).",
         "caption": "Original 512x512 input (test.JPG, left) beside the WS1-augmented output from this run (legacy compatibility mode, z=20, right)."
       }
+    },
+    {
+      "public_id": "p-3ca72f400e86485e3f370832f8d1b867",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Cherry CO Dataset: A Dataset for Cherry Detection, Segmentation and Maturity Recognition",
+      "journal": "IEEE Robotics and Automation Letters",
+      "authors": [
+        "Luis Cossio-Montefinale",
+        "Javier Ruíz-del-Solar",
+        "Rodrigo Verschae"
+      ],
+      "doi": "10.1109/lra.2024.3393214",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Re-scores the authors' released YOLOv7 ripeness predictions against the official Cherry CO COCO test annotations with their own parsing code and COCOeval parameterization (evaluation-only partial reproduction; no training or inference; paper tables unread).",
+      "semantic_tags": [
+        "crop:cherry",
+        "environment:field",
+        "organ:fruit",
+        "task:classification",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Test image cherry_N00000_2021_12_21_H08_50_ripe_fruits_visit2_plot1_row_00: Cherry CO ground-truth ripeness boxes (class-colored) vs. the authors' released YOLOv7 predictions (violet, with confidence).",
+        "caption": "Test image cherry_N00000_2021_12_21_H08_50_ripe_fruits_visit2_plot1_row_00: Cherry CO ground-truth ripeness boxes (class-colored) vs. the authors' released YOLOv7 predictions (violet, with confidence)."
+      }
     }
   ]
 }
