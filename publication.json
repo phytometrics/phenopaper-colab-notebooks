@@ -10388,6 +10388,48 @@
         "alt": "Measurement overlay on the original calcofluor image: cell-file path through centroids (red), inner-to-outer boundary segments (green), boundary extremities (dots)",
         "caption": "Measurement overlay on the original calcofluor image: cell-file path through centroids (red), inner-to-outer boundary segments (green), boundary extremities (dots)"
       }
+    },
+    {
+      "public_id": "p-1699fa4ab602fbed6ba6f77154fe49e0",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Manifold and spatiotemporal learning on multispectral unoccupied aerial system imagery for phenotype prediction",
+      "journal": "The Plant Phenome Journal",
+      "authors": [
+        "Fared Farag",
+        "Trevis D. Huggins",
+        "Jeremy D. Edwards",
+        "Anna M. McClung",
+        "Ahmed A. Hashem",
+        "Jason Causey",
+        "Emily S. Bellis"
+      ],
+      "doi": "10.1002/ppj2.70006",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Re-executes the authors' Hypothesis 1 approach-1 pipeline (PCA + LassoCV, LORO 2021) on their 2021 UAV feature dataset, exactly reproducing their committed Lasso_PCA test predictions (73/73 plots); single-season partial scope only.",
+      "semantic_tags": [
+        "crop:rice",
+        "modality:spectral",
+        "organ:whole_plant",
+        "task:time_series",
+        "task:yield_biomass",
+        "trait:growth_development",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Predicted vs observed grain yield on the 73 held-out replicate plots (LORO 2021, PCA+LASSO vs constant baseline)",
+        "caption": "Predicted vs observed grain yield on the 73 held-out replicate plots (LORO 2021, PCA+LASSO vs constant baseline)"
+      }
     }
   ]
 }
