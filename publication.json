@@ -10749,6 +10749,34 @@
         "alt": "PC1 vs PC2 scatter of the 6 most predictive morphological traits (Figure 6A analog), colored by breeding-trait scores, with the Earliest Himalayan accession (85-023-2) marked.",
         "caption": "PC1 vs PC2 scatter of the 6 most predictive morphological traits (Figure 6A analog), colored by breeding-trait scores, with the Earliest Himalayan accession (85-023-2) marked."
       }
+    },
+    {
+      "public_id": "p-97ca7376988645cba3ede140ac56dac9",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Evaluation of computer vision for detecting agonistic behavior of pigs in a single-space feeding stall through blocked cross-validation strategies",
+      "journal": "Computers and Electronics in Agriculture.",
+      "authors": [
+        "Han J, Siegford J, Colbry D, Lesiyon R, Bosgraaf A, Chen C, Norton T, Steibel JP."
+      ],
+      "doi": null,
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Trains the authors' BiLSTM+focal-loss classifier on the released ResNet-50 pig-behavior features and reproduces the random vs blocking-by-time vs blocking-by-feeder validation comparison (single seed per scenario; feature-based subsection only).",
+      "semantic_tags": [],
+      "preview": {
+        "alt": "Validation accuracy by split scenario (single-seed T4 run) vs the paper's published means: random 0.9645, time-blocked 0.8917, feeder-blocked 0.8816",
+        "caption": "Validation accuracy by split scenario (single-seed T4 run) vs the paper's published means: random 0.9645, time-blocked 0.8917, feeder-blocked 0.8816"
+      }
     }
   ]
 }
