@@ -10130,6 +10130,43 @@
         "alt": "Recomputed Lin's concordance coefficients with bootstrap 95% CIs per CNN model and ASSESS 2.0 across coffee leaf miner, soybean rust and wheat tan spot, overlaid with the authors' published values (open circles).",
         "caption": "Recomputed Lin's concordance coefficients with bootstrap 95% CIs per CNN model and ASSESS 2.0 across coffee leaf miner, soybean rust and wheat tan spot, overlaid with the authors' published values (open circles)."
       }
+    },
+    {
+      "public_id": "p-9cdc06a8cf9320b81b8531c92f5928fc",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Annual Shoot Segmentation and Physiological Age Classification from TLS Data in Trees with Acrotonic Growth",
+      "journal": "Forests",
+      "authors": [
+        "Bastien Lecigne",
+        "Sylvain Delagrange",
+        "Olivier Taugourdeau"
+      ],
+      "doi": "10.3390/f12040391",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Runs the authors' own aRchi R example (smooth_skeleton, segment_annual_shoots tree_age=13, add_physiological_ages) on the bundled Tree_2 skeleton in Colab CPU; single-tree partial demo, not the paper's dataset-level accuracy evaluation.",
+      "semantic_tags": [
+        "modality:point_cloud",
+        "organ:stem",
+        "task:reconstruction",
+        "task:segmentation",
+        "trait:architecture",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Tree_2 skeleton colored by segmented annual shoot (AS, left) and physiological age (PA, right) from the authors' aRchi example, plotted from the executed notebook.",
+        "caption": "Tree_2 skeleton colored by segmented annual shoot (AS, left) and physiological age (PA, right) from the authors' aRchi example, plotted from the executed notebook."
+      }
     }
   ]
 }
