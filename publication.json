@@ -10637,6 +10637,42 @@
         "alt": "Infected vs non-infected first-derivative difference and correlation curves for April, October and November with computed VIP-over-1 wavelengths marked orange (authors Figure 4 analogue)",
         "caption": "Infected vs non-infected first-derivative difference and correlation curves for April, October and November with computed VIP-over-1 wavelengths marked orange (authors Figure 4 analogue)"
       }
+    },
+    {
+      "public_id": "p-9ff8373123b2968302eae378040e9e56",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "AquaFlux: Rapid, transparent and replicable analyses of plant transpiration",
+      "journal": "Methods in Ecology and Evolution",
+      "authors": [
+        "Heather Speckman",
+        "Brent E. Ewers",
+        "Daniel P. Beverly"
+      ],
+      "doi": "10.1111/2041-210x.13309",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Headless run of the authors' own AquaFlux R pipeline (import, dT/VPD conversion, auto-Tmax, Lu 2004 flux, spline gap-fill) on the bundled 2015 example CSVs on a Colab CPU; the Shiny GUI itself and radial.trends are not reproduced.",
+      "semantic_tags": [
+        "modality:thermal",
+        "organ:stem",
+        "task:physiology",
+        "task:preprocessing",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Sap flux of the bundled example sensors (g m-2 sapwood s-1) computed with the authors' pinned R code; red points show spline gap-filled values",
+        "caption": "Sap flux of the bundled example sensors (g m-2 sapwood s-1) computed with the authors' pinned R code; red points show spline gap-filled values"
+      }
     }
   ]
 }
