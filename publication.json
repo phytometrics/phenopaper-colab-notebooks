@@ -9669,6 +9669,55 @@
         "alt": "Parental chili pepper fruit contours reconstructed from the authors' SHAPE .nef EFD exports: raw per-fruit contours (black) and direction-averaged EFD contours (red) for two parents x two view directions.",
         "caption": "Parental chili pepper fruit contours reconstructed from the authors' SHAPE .nef EFD exports: raw per-fruit contours (black) and direction-averaged EFD contours (red) for two parents x two view directions."
       }
+    },
+    {
+      "public_id": "p-744e01868519d1b75843047a6938744a",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "LAI estimation across California vineyards using sUAS multi-seasonal multi-spectral, thermal, and elevation information and machine learning",
+      "journal": "Irrigation Science",
+      "authors": [
+        "Rui Gao",
+        "Alfonso F. Torres‐Rua",
+        "Mahyar Aboutalebi",
+        "William A. White",
+        "Martha C. Anderson",
+        "William P. Kustas",
+        "Nurit Agam",
+        "María Mar Alsina",
+        "Joseph G. Alfieri",
+        "Lawrence E. Hipps",
+        "Nick Dokoozlian",
+        "Héctor Nieto",
+        "Feng Gao",
+        "Lynn G. McKee",
+        "John H. Prueger",
+        "Luis Sanchez",
+        "Andrew J. McElrone",
+        "N. E. Bambach-Ortiz",
+        "Calvin Coopmans",
+        "Ian Gowing"
+      ],
+      "doi": "10.1007/s00271-022-00776-0",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Executed the paper's Fast Feature Extraction Approach (ported from arcpy to rasterio/geopandas) on the AggieAir SLM_140809_1041 demo flight over 100 fishnet grids, regenerating all 42 ML predictor features and matching the authors' published reference table exactly; Full feature extraction and ML modeling are out of scope.",
+      "semantic_tags": [
+        "modality:thermal"
+      ],
+      "preview": {
+        "alt": "AggieAir sUAS demo inputs (RGBNIR natural color, NIR, DEM, thermal) with the 10x10 fishnet grid annotation used for per-grid feature extraction",
+        "caption": "AggieAir sUAS demo inputs (RGBNIR natural color, NIR, DEM, thermal) with the 10x10 fishnet grid annotation used for per-grid feature extraction"
+      }
     }
   ]
 }
