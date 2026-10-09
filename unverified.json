@@ -596,6 +596,22 @@
       "notebook_sha256": "643fc973d0a87949c7ae2d89074f9e77972906decfafd2f84fb84cc5bccf29ea",
       "source_sha256": "9c55fa818c0c80f7ed487b1d99a5b827e9be39b5b57ab559f39d6ebf37eb73f7",
       "code_cells": 9
+    },
+    {
+      "public_id": "p-e9687bee7cc9400e62453c3aeb528a7d",
+      "title": "Extracting flowering phenology from grassland species mixtures using time-lapse cameras",
+      "journal": "Remote Sensing of Environment",
+      "authors": [
+        "Andreatta D, Bachofen C, Dalponte M, Klaus VH, Buchmann NC."
+      ],
+      "investigation_run_id": "p-e9687bee7cc9400e62453c3aeb528a7d-20260929T092120Z-2480780",
+      "status": "blocked",
+      "reason": "Data-source access blocker: research-collection.ethz.ch bitstream content endpoint returned HTTP 429 (no Retry-After) on every request for 85+ minutes (14:09Z-15:26Z), verified from two different Colab VMs/egress IPs, including 7 bounded backoff attempts over 23 minutes. This is the only public host for the dataset; no alternate route exists. Not a missing-material conclusion: record metadata (uuids/sizes/MD5s) remains pinned and valid. R environment verified feasible (R 4.6.1, all 9 packages installed OK). Notebook patched with evidence-backed eth_get backoff and kept as UNVERIFIED deliverable; host queue may publish it as an unverified reference. Resume with a single Range probe; run the full notebook once the endpoint recovers.",
+      "created_on": "2026-10-09",
+      "notebook_path": "notebooks/unverified/p-e9687bee7cc9400e62453c3aeb528a7d.ipynb",
+      "notebook_sha256": "c9c7ca8b2c24fe0ad6ab6899a2c60541cc551f2d9b1971b49592fcd408899f3d",
+      "source_sha256": "d1a70513314007ceb7ab3597349eb8b7fe1d108d31394a9f227c89fe1250b834",
+      "code_cells": 15
     }
   ]
 }
