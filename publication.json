@@ -10088,6 +10088,48 @@
         "alt": "Notebook-added comparison of the author-function metrics printed in this run: Random Forest vs XGBoost, test and training RMSE/MAE/MAPE with R-squared panel.",
         "caption": "Notebook-added comparison of the author-function metrics printed in this run: Random Forest vs XGBoost, test and training RMSE/MAE/MAPE with R-squared panel."
       }
+    },
+    {
+      "public_id": "p-1ce9f387ecdb78ea36f45870fd9104ab",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Deep learning models for semantic segmentation and automatic estimation of severity of foliar symptoms caused by diseases or pests",
+      "journal": "Center for Open Science",
+      "authors": [
+        "Juliano de Paula Gonçalves",
+        "Francisco de Assis de Carvalho Pinto",
+        "Daniel Marçal de Queiroz",
+        "Flora Maria de Melo Villar",
+        "Jayme G.A. Barbedo",
+        "Emerson Medeiros Del Ponte"
+      ],
+      "doi": "10.31219/osf.io/wdb79",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Reproduces the severity-agreement subsection: Lin's CCC, bias/scale/location shifts, RMSE and predicted-vs-reference plots for six CNN models and ASSESS 2.0 from the authors' per-model CSVs (CPU, R via Rscript); segmentation training/evaluation is out of scope and the CCC code is an AI reimplementation validated against the authors' published values (max diff 0.0012).",
+      "semantic_tags": [
+        "crop:coffee",
+        "crop:soybean",
+        "crop:wheat",
+        "modality:rgb",
+        "organ:leaf",
+        "task:segmentation",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Recomputed Lin's concordance coefficients with bootstrap 95% CIs per CNN model and ASSESS 2.0 across coffee leaf miner, soybean rust and wheat tan spot, overlaid with the authors' published values (open circles).",
+        "caption": "Recomputed Lin's concordance coefficients with bootstrap 95% CIs per CNN model and ASSESS 2.0 across coffee leaf miner, soybean rust and wheat tan spot, overlaid with the authors' published values (open circles)."
+      }
     }
   ]
 }
