@@ -10167,6 +10167,43 @@
         "alt": "Tree_2 skeleton colored by segmented annual shoot (AS, left) and physiological age (PA, right) from the authors' aRchi example, plotted from the executed notebook.",
         "caption": "Tree_2 skeleton colored by segmented annual shoot (AS, left) and physiological age (PA, right) from the authors' aRchi example, plotted from the executed notebook."
       }
+    },
+    {
+      "public_id": "p-6f6f91d8a594aba5c651095e6036dbd9",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Robust and automatic cell detection and segmentation from microscopic images of non‐setae phytoplankton species",
+      "journal": "IET Image Processing",
+      "authors": [
+        "Haiyong Zheng",
+        "Nan Wang",
+        "Zhibin Yu",
+        "Zhaorui Gu",
+        "Bing Zheng"
+      ],
+      "doi": "10.1049/iet-ipr.2017.0127",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "AI-assisted Python port of the ACDS MATLAB marker-controlled watershed pipeline, executed on three benchmark single-cell phytoplankton images and compared with the authors' ground-truth masks (IoU 0.91/0.98/0.75); single-example scope, paper's PRF/MHD metrics not reproduced.",
+      "semantic_tags": [
+        "modality:microscopy",
+        "organ:cell",
+        "task:object_detection",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "ACDS single-cell samples: inputs, combined IG+saturation saliency maps, watershed markers, and predicted cell boundaries (magenta) versus the authors' ground-truth boundaries (yellow).",
+        "caption": "ACDS single-cell samples: inputs, combined IG+saturation saliency maps, watershed markers, and predicted cell boundaries (magenta) versus the authors' ground-truth boundaries (yellow)."
+      }
     }
   ]
 }

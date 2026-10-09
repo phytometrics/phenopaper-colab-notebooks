@@ -2,7 +2,7 @@
 
 [README / notebook index](../README.md#notebooks) · [Previous](page-003.md) · [Next](page-005.md)
 
-Alphabetical entries 151–200 of 280. Generated from publication.json; includes generation conditions and execution previews.
+Alphabetical entries 151–200 of 281. Generated from publication.json; includes generation conditions and execution previews.
 
 | Paper and run details | Preview |
 | --- | --- |
