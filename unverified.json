@@ -580,6 +580,22 @@
       "notebook_sha256": "957cc7d87f2e8d8929dea5aabf00246a04e356913cdbb9e627229fbe9a92c4d6",
       "source_sha256": "7130deffaf2ed4ce8fc2472d061cdcaa495483be69ed5b04b467c07acfd6de84",
       "code_cells": 14
+    },
+    {
+      "public_id": "p-6fb6ce88d119706dec909131e0355999",
+      "title": "Tree height predicts the shape of radial sap flow profiles of Costa-Rican tropical dry forest tree species",
+      "journal": "Agricultural and Forest Meteorology.",
+      "authors": [
+        "Link RM, Fuchs S, Arias Aguilar D, Leuschner C, Castillo Ugalde M, Valverde Otarola JC, Schuldt B."
+      ],
+      "investigation_run_id": "p-6fb6ce88d119706dec909131e0355999-20260929T120027Z-2585313",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-6fb6ce88d119706dec909131e0355999-20261009T122943Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nAttributeError: 'str' object has no attribute 'read'\nFileNotFoundError: [Errno 2] No such file or directory: 'logs/FINAL_run1_output.ipynb'\nError: {\"message\":\"CUDA error: CUBLAS_STATUS_INTERNAL_ERROR when calling `cublasGemmEx( handle, opa, opb, m, n, k, &falpha, a, CUDA_R_16BF, lda, b, CUDA_R_16BF, ldb, &fbeta, c, std::is_same_v<C_Dtype, float> ? CUDA_R_32F : CUDA_R_16BF, ldc,",
+      "created_on": "2026-10-09",
+      "notebook_path": "notebooks/unverified/p-6fb6ce88d119706dec909131e0355999.ipynb",
+      "notebook_sha256": "643fc973d0a87949c7ae2d89074f9e77972906decfafd2f84fb84cc5bccf29ea",
+      "source_sha256": "9c55fa818c0c80f7ed487b1d99a5b827e9be39b5b57ab559f39d6ebf37eb73f7",
+      "code_cells": 9
     }
   ]
 }
