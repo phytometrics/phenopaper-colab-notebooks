@@ -145,6 +145,17 @@
       "created_on": "2026-10-10"
     },
     {
+      "public_id": "p-939ca4b128a99e45d521ca0a1dd63255",
+      "title": "p-939ca4b128a99e45d521ca0a1dd63255",
+      "journal": null,
+      "authors": [],
+      "investigation_run_id": "p-939ca4b128a99e45d521ca0a1dd63255-20261007T204454Z-310893",
+      "run_id": "p-939ca4b128a99e45d521ca0a1dd63255",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-939ca4b128a99e45d521ca0a1dd63255-20261009T155850Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-10"
+    },
+    {
       "public_id": "p-8efe534069f7288df03a45e7e39be677",
       "title": "p-8efe534069f7288df03a45e7e39be677",
       "journal": null,
