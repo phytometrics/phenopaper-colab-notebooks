@@ -10851,6 +10851,41 @@
         "alt": "Authors' sample leaf images with this run's real model predictions (label, confidence, stage) overlaid; sigmoid orientation confirmed against filename-indicated classes.",
         "caption": "Authors' sample leaf images with this run's real model predictions (label, confidence, stage) overlaid; sigmoid orientation confirmed against filename-indicated classes."
       }
+    },
+    {
+      "public_id": "p-63655e37cdc0f794275180333b5ae4b2",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "AnarMitra: Enhancing Pomegranate Farming with CNN Technology",
+      "journal": "International Journal for Research in Applied Science and Engineering Technology",
+      "authors": [
+        "Prof. Sayali Dhumal"
+      ],
+      "doi": "10.22214/ijraset.2024.60832",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Pretrained TFLite inference on the author's bundled pomegranate sample via the pinned app.py grading path (grade 1 quality 3) plus the supplementary disease demo (Cercospora), CPU-only; single-example run, not a paper-level benchmark.",
+      "semantic_tags": [
+        "environment:field",
+        "organ:fruit",
+        "task:classification",
+        "task:stress_disease",
+        "trait:disease_symptoms",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Author's bundled sample input imgs/pomogranate.jpeg (anarmitrawebapp @ 1e11c22c) — the image used for the pretrained TFLite grading inference",
+        "caption": "Author's bundled sample input imgs/pomogranate.jpeg (anarmitrawebapp @ 1e11c22c) — the image used for the pretrained TFLite grading inference"
+      }
     }
   ]
 }
