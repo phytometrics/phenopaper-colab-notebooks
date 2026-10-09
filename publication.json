@@ -9981,6 +9981,42 @@
         "alt": "Author test image dfs1.jpg (fruit-class1) with its computed normalized grey, B, G and R histograms (256 bins over [0,1])",
         "caption": "Author test image dfs1.jpg (fruit-class1) with its computed normalized grey, B, G and R histograms (256 bins over [0,1])"
       }
+    },
+    {
+      "public_id": "p-47e17b81a5372dfb828faa1ddedd4da1",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Waveshift Augmentation: A Physics-Driven Strategy in Fine-Grained Plant Disease Classification",
+      "journal": "IEEE Access",
+      "authors": [
+        "Gent Imeraj",
+        "Hitoshi Iyatomi"
+      ],
+      "doi": "10.1109/access.2025.3541780",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Executed the paper's WS1 phase-only Fresnel augmentation in legacy mode on the repo-bundled sample at 512x512, verified bitwise against the authors' golden regression fingerprint; classifier training/evaluation is not reproduced (private dataset, no released weights).",
+      "semantic_tags": [
+        "crop:cucumber",
+        "crop:strawberry",
+        "crop:tomato",
+        "task:classification",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Original 512x512 input (test.JPG, left) beside the WS1-augmented output from this run (legacy compatibility mode, z=20, right).",
+        "caption": "Original 512x512 input (test.JPG, left) beside the WS1-augmented output from this run (legacy compatibility mode, z=20, right)."
+      }
     }
   ]
 }
