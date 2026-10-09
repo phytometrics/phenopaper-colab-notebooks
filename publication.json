@@ -10055,6 +10055,39 @@
         "alt": "Test image cherry_N00000_2021_12_21_H08_50_ripe_fruits_visit2_plot1_row_00: Cherry CO ground-truth ripeness boxes (class-colored) vs. the authors' released YOLOv7 predictions (violet, with confidence).",
         "caption": "Test image cherry_N00000_2021_12_21_H08_50_ripe_fruits_visit2_plot1_row_00: Cherry CO ground-truth ripeness boxes (class-colored) vs. the authors' released YOLOv7 predictions (violet, with confidence)."
       }
+    },
+    {
+      "public_id": "p-733c8706d8b237503cb84a1dea7532f4",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "LeafArea Package: A Tool for Estimating Leaf Area in Andean Fruit Species",
+      "journal": "International Journal of Plant Biology",
+      "authors": [
+        "Pedro Alexander Velasquez-Vasconez",
+        "Danita Andrade Díaz"
+      ],
+      "doi": "10.3390/ijpb15010009",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Executed the author's pinned LeafArea R package (commit 76552f1) README example end-to-end via Rscript on CPU: mice outlier treatment plus in-session Random Forest and XGBoost training on the bundled df.xlsx, with RF metrics exactly matching the README reference; single-example scope only, article full text inaccessible.",
+      "semantic_tags": [
+        "organ:leaf",
+        "task:morphology",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Notebook-added comparison of the author-function metrics printed in this run: Random Forest vs XGBoost, test and training RMSE/MAE/MAPE with R-squared panel.",
+        "caption": "Notebook-added comparison of the author-function metrics printed in this run: Random Forest vs XGBoost, test and training RMSE/MAE/MAPE with R-squared panel."
+      }
     }
   ]
 }
