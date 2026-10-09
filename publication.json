@@ -10468,6 +10468,39 @@
         "alt": "Side-by-side for sample Pot_14: this notebook's analyze.bound_horizontal output (left) vs the authors' saved _shape-bound.jpg reference (right), both on the color-corrected image with the pot-top line at row 2275.",
         "caption": "Side-by-side for sample Pot_14: this notebook's analyze.bound_horizontal output (left) vs the authors' saved _shape-bound.jpg reference (right), both on the color-corrected image with the pot-top line at row 2275."
       }
+    },
+    {
+      "public_id": "p-4d26d9edf113f8f1686ed8799d68bb9a",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "TubAR: an R Package for Quantifying Tuber Shape and Skin Traits from Images",
+      "journal": "American journal of potato research.",
+      "authors": [
+        "Miller MD, Schmitz Carley CA, Figueroa RA, Feldman MJ, Haagenson D, Shannon LM."
+      ],
+      "doi": "10.1007/s12230-022-09894-z",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Runs the authors' own TubAR R package (pinned commit 79d28fc) on two vignette sample photos to compute shape and skin traits with 24-color-card correction and tagged CSV export, validated against the authors' reference RDS outputs; a two-image demonstration only, not a verification of the paper's population-level claims.",
+      "semantic_tags": [
+        "crop:potato",
+        "task:morphology",
+        "trait:architecture",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "Original light-box input FY3Ch1_15_15.jpg (left) with the TubAR skin.all(mode='debug') skinning mask (right, gray = skinned area)",
+        "caption": "Original light-box input FY3Ch1_15_15.jpg (left) with the TubAR skin.all(mode='debug') skinning mask (right, gray = skinned area)"
+      }
     }
   ]
 }
