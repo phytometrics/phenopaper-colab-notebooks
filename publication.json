@@ -10314,6 +10314,44 @@
         "alt": "Fitted A/Ci curves (lines) over the measured example-data points (dots) from the author's dfMAGIC043_lr.csv example, reproduced with PhoTorch at pinned commit e6e4265.",
         "caption": "Fitted A/Ci curves (lines) over the measured example-data points (dots) from the author's dfMAGIC043_lr.csv example, reproduced with PhoTorch at pinned commit e6e4265."
       }
+    },
+    {
+      "public_id": "p-7d753ef33c923f5ede0c23bf0a03496c",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Fusarium head blight detection from spectral measurements in a field phenotyping setting — A pre-registered study",
+      "journal": "Biosystems Engineering",
+      "authors": [
+        "Wiktor R. Żelazny",
+        "J. Chrpová",
+        "Pavel Hamouz"
+      ],
+      "doi": "10.1016/j.biosystemseng.2021.08.019",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Adapted Python port of the paper's ordinal-SVM pipeline: 280 ensembles (4 timing combinations x 7 pre-processing schemes x 10 jack-knife partitions) on the 48 retained hill-plot pairs, median aggregation only; mean aggregation and the Bayesian modelling are out of scope.",
+      "semantic_tags": [
+        "crop:wheat",
+        "environment:field",
+        "modality:spectral",
+        "organ:inflorescence",
+        "task:classification",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Validation accuracy across the 10 partitions for each timing combination and pre-processing scheme at 0/1/2-class error tolerance (notebook-created visualization; paper Fig. 5 layout, median aggregation).",
+        "caption": "Validation accuracy across the 10 partitions for each timing combination and pre-processing scheme at 0/1/2-class error tolerance (notebook-created visualization; paper Fig. 5 layout, median aggregation)."
+      }
     }
   ]
 }
