@@ -497,7 +497,7 @@
       "investigation_run_id": "p-26ff2584da9abdb7eb0c9266d19fc880-20261008T163334Z-1263924",
       "run_id": "p-26ff2584da9abdb7eb0c9266d19fc880",
       "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-26ff2584da9abdb7eb0c9266d19fc880-20261009T162005Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-26ff2584da9abdb7eb0c9266d19fc880-20261009T162127Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
       "created_on": "2026-10-10"
     },
     {
