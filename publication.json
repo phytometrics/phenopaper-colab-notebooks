@@ -10709,6 +10709,46 @@
         "alt": "Growth-chamber cut-tip experiment: observed AUDPC points with the authors' model-predicted marginal means (95% intervals and medians) per isolate, colored by literature resistance class (MR = DT974290, S = LS980358).",
         "caption": "Growth-chamber cut-tip experiment: observed AUDPC points with the authors' model-predicted marginal means (95% intervals and medians) per isolate, colored by literature resistance class (MR = DT974290, S = LS980358)."
       }
+    },
+    {
+      "public_id": "p-498b79733e9ea865a80a27dbdcd62085",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "The shape and volume of air, kernels, and cracks, in a nutshell",
+      "journal": null,
+      "authors": [
+        "Erik J. Amézquita",
+        "Michelle Quigley",
+        "Patrick J. Brown",
+        "Daniel H. Chitwood",
+        "Elizabeth Munch"
+      ],
+      "doi": "10.22541/essoar.169766227.71123889/v1",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Minimal CPU reproduction of the paper's statistical prediction subsection: seeded Spearman screening, Lasso best 1-6-variable models for Ease of Removal, Shell Strength and Kernel Weight Ratio, and the 6-trait PCA (Figure 6A analog) on the accession-level walnut phenotype table; full-paper CT segmentation and dataset-level accuracy are out of scope.",
+      "semantic_tags": [
+        "modality:xray_ct",
+        "organ:fruit",
+        "organ:seed",
+        "task:morphology",
+        "task:reconstruction",
+        "trait:architecture",
+        "trait:biomass"
+      ],
+      "preview": {
+        "alt": "PC1 vs PC2 scatter of the 6 most predictive morphological traits (Figure 6A analog), colored by breeding-trait scores, with the Earliest Himalayan accession (85-023-2) marked.",
+        "caption": "PC1 vs PC2 scatter of the 6 most predictive morphological traits (Figure 6A analog), colored by breeding-trait scores, with the Earliest Himalayan accession (85-023-2) marked."
+      }
     }
   ]
 }
