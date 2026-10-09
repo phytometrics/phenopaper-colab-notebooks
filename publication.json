@@ -9870,6 +9870,42 @@
         "alt": "Average cumulative reward over 2000 observations across 20 trials: causal, extended and standard Thompson-sampling CMAB versus the observational user-intuition baseline (dashed).",
         "caption": "Average cumulative reward over 2000 observations across 20 trials: causal, extended and standard Thompson-sampling CMAB versus the observational user-intuition baseline (dashed)."
       }
+    },
+    {
+      "public_id": "p-d9dd30bad55e1f1258900ce0e831bf27",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Drought Stress Detection in Juvenile Oilseed Rape Using Hyperspectral Imaging with a Focus on Spectra Variability",
+      "journal": "Remote Sensing",
+      "authors": [
+        "Wiktor R. Żelazny",
+        "Jan Lukáš"
+      ],
+      "doi": "10.3390/rs12203462",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Recomputes 20 vegetation indices from the deposited hyperspectral pot cubes, retrains the plant-mask SVM from the authors' hand labels, and refits the Bayesian means/SDs models in PyMC; mean contrasts match the paper while some sigma-ratio magnitudes are attenuated. CPU-only minimal reproduction; full-spectrum PCA and SVM tuning are out of scope.",
+      "semantic_tags": [
+        "crop:rapeseed",
+        "modality:spectral",
+        "organ:leaf",
+        "task:stress_disease",
+        "trait:pigment_color",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "Pseudo-RGB input pot cubes with the SVM-derived plant mask (green contour) retrained in this reproduction from the authors' hand labels",
+        "caption": "Pseudo-RGB input pot cubes with the SVM-derived plant mask (green contour) retrained in this reproduction from the authors' hand labels"
+      }
     }
   ]
 }
