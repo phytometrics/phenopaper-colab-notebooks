@@ -31,6 +31,34 @@
       "notebook_path": "notebooks/unverified/p-8f2b65434ad1d919bccfe12caf205ff8.ipynb"
     },
     {
+      "public_id": "p-845668b5bebd667d367e2f37f92142ad",
+      "title": "Optimizing Support Vector Machine for Avocado Ripeness Classification Using Moth Flame Optimization",
+      "journal": "Journal of Electronics Electromedical Engineering and Medical Informatics",
+      "authors": [
+        "Kemal Crisannaufal",
+        "Wikky Fawwaz Al Maki"
+      ],
+      "investigation_run_id": "p-845668b5bebd667d367e2f37f92142ad-20261007T234824Z-488139",
+      "run_id": "p-845668b5bebd667d367e2f37f92142ad-20261009T010216Z-1634595",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-09T01:15:27.976Z] ! permission requested: external_directory (/*); auto-rejecting | [2026-10-09T01:15:28.001Z] ✗ for R in \"items=1000-1999\" \"1000-1999\"; do echo \"== Range: $R\"; curl -sS --max-time 30 -H \"Range: $R\" \"https://data.mendeley.com/public-api/datasets/3xd9n945v8/files?version=1&folder_id=9685434a-9bdd-4088-8e71-f | [2026-10-09T01:15:28.001Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-09",
+      "notebook_path": "notebooks/unverified/p-845668b5bebd667d367e2f37f92142ad.ipynb"
+    },
+    {
+      "public_id": "p-742655c0ffab1b46a5b711f35d9db49f",
+      "title": "Developing machine learning models from multisourced real-world datasets to enhance smart-farming practices",
+      "journal": "Computers and Electronics in Agriculture.",
+      "authors": [
+        "Lacueva-Pérez FJ, Hoyo-Alonso Rd, Labata-Leazaún G, Barriuso-Vargas JJ, Ilarri-Artigas S."
+      ],
+      "investigation_run_id": "p-742655c0ffab1b46a5b711f35d9db49f-20260930T134058Z-3698736",
+      "run_id": "p-742655c0ffab1b46a5b711f35d9db49f-20261009T081334Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-09T08:15:08.731Z] \" > /tmp/x 2>/dev/null; cat /tmp/x 2>/dev/null; echo \"---\" failed | [2026-10-09T08:15:08.731Z] Error: The user rejected permission to use this specific tool call. | [2026-10-09T08:15:10.019Z] Record confirmed (CC-BY-4.0, isSupplementTo the paper DOI). Fetching the dataset description PDF (document, permitted locally) and Ro-Crate metadata: | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-09"
+    },
+    {
       "public_id": "p-37f99cf456e74d916230de8d4ac87be7",
       "title": "MaiZaic : a robust end-to-end pipeline for mosaicking freely flown aerial video of agricultural fields",
       "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
@@ -825,21 +853,6 @@
         "Kalhari Manawasinghe",
         "Karen Tanino"
       ]
-    },
-    {
-      "public_id": "p-845668b5bebd667d367e2f37f92142ad",
-      "title": "Optimizing Support Vector Machine for Avocado Ripeness Classification Using Moth Flame Optimization",
-      "journal": "Journal of Electronics Electromedical Engineering and Medical Informatics",
-      "authors": [
-        "Kemal Crisannaufal",
-        "Wikky Fawwaz Al Maki"
-      ],
-      "investigation_run_id": "p-845668b5bebd667d367e2f37f92142ad-20261007T234824Z-488139",
-      "run_id": "p-845668b5bebd667d367e2f37f92142ad-20261009T010216Z-1634595",
-      "status": "failed",
-      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-09T01:15:27.976Z] ! permission requested: external_directory (/*); auto-rejecting | [2026-10-09T01:15:28.001Z] ✗ for R in \"items=1000-1999\" \"1000-1999\"; do echo \"== Range: $R\"; curl -sS --max-time 30 -H \"Range: $R\" \"https://data.mendeley.com/public-api/datasets/3xd9n945v8/files?version=1&folder_id=9685434a-9bdd-4088-8e71-f | [2026-10-09T01:15:28.001Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-09",
-      "notebook_path": "notebooks/unverified/p-845668b5bebd667d367e2f37f92142ad.ipynb"
     }
   ]
 }
