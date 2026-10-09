@@ -10535,6 +10535,38 @@
         "alt": "Author demo hyperspectral band with weak pixel-label overlay (magenta: weakly labeled moldy regions, green: healthy), from original_data.mat @ commit 8f03113a.",
         "caption": "Author demo hyperspectral band with weak pixel-label overlay (magenta: weakly labeled moldy regions, green: healthy), from original_data.mat @ commit 8f03113a."
       }
+    },
+    {
+      "public_id": "p-7256f0954965a1ae9610b7521b5418c9",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Simulating light quantity and quality over plant organs using a ray-tracing method to investigate plant responses in growth chambers",
+      "journal": "Biosystems engineering.",
+      "authors": [
+        "Demotes-Mainard S, Autret H, Pradal C, Le Gall J, Guérin V, Leduc N, Combes D, Renaud C, Chelle M, Bertheloot J."
+      ],
+      "doi": null,
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Partial CPU reproduction of the paper's SEC2 virtual-experiment step: the pinned openalea/rose High_Light_Crop_1/FBV rose mock-up is reconstructed in the chamber and solved with openalea.spice 1.1.1 photon mapping (1e6 photons) for relative per-organ light interception; lamp-spectrum calibration and measured-data validation are out of scope.",
+      "semantic_tags": [
+        "environment:growth_chamber",
+        "modality:spectral",
+        "task:preprocessing"
+      ],
+      "preview": {
+        "alt": "Organ-scale light map: the reconstructed High_Light_Crop_1/FBV rose mock-up in the chamber, coloured by simulated photon hits per organ shape (jet, 0..p99); notebook-created visualisation, not an author figure.",
+        "caption": "Organ-scale light map: the reconstructed High_Light_Crop_1/FBV rose mock-up in the chamber, coloured by simulated photon hits per organ shape (jet, 0..p99); notebook-created visualisation, not an author figure."
+      }
     }
   ]
 }
