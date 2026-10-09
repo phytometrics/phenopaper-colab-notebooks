@@ -10673,6 +10673,42 @@
         "alt": "Sap flux of the bundled example sensors (g m-2 sapwood s-1) computed with the authors' pinned R code; red points show spline gap-filled values",
         "caption": "Sap flux of the bundled example sensors (g m-2 sapwood s-1) computed with the authors' pinned R code; red points show spline gap-filled values"
       }
+    },
+    {
+      "public_id": "p-4bc0dbba55a72fa4a802dc0793c0244c",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Severity of Charcoal Rot Disease in Soybean Genotypes Inoculated with Macrophomina phaseolina Isolates Differs Among Growth Environments.",
+      "journal": "Plant disease",
+      "authors": [
+        "Mengistu A, Read Q, Little C, Kelly H, Henry P, Bellaloui N."
+      ],
+      "doi": "10.1094/pdis-10-24-2230-re",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Executes the authors' Bayesian AUDPC mixed model, per-draw 1-D clustering classification, and data/model figures for the 32-isolate growth-chamber cut-tip experiment on a Colab CPU runtime (single-experiment partial demonstration; other experiments and the paywalled paper text are out of scope).",
+      "semantic_tags": [
+        "crop:soybean",
+        "environment:field",
+        "environment:greenhouse",
+        "environment:growth_chamber",
+        "organ:stem",
+        "task:classification",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Growth-chamber cut-tip experiment: observed AUDPC points with the authors' model-predicted marginal means (95% intervals and medians) per isolate, colored by literature resistance class (MR = DT974290, S = LS980358).",
+        "caption": "Growth-chamber cut-tip experiment: observed AUDPC points with the authors' model-predicted marginal means (95% intervals and medians) per isolate, colored by literature resistance class (MR = DT974290, S = LS980358)."
+      }
     }
   ]
 }
