@@ -10352,6 +10352,42 @@
         "alt": "Validation accuracy across the 10 partitions for each timing combination and pre-processing scheme at 0/1/2-class error tolerance (notebook-created visualization; paper Fig. 5 layout, median aggregation).",
         "caption": "Validation accuracy across the 10 partitions for each timing combination and pre-processing scheme at 0/1/2-class error tolerance (notebook-created visualization; paper Fig. 5 layout, median aggregation)."
       }
+    },
+    {
+      "public_id": "p-070481a9ada817e77906bdbcf9389030",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Quantification of Cell Division Angles in the Arabidopsis Root.",
+      "journal": "Methods in molecular biology (Clifton, N.J.)",
+      "authors": [
+        "Belcram K, Legland D, Pastuglia M."
+      ],
+      "doi": "10.1007/978-1-0716-1744-1_12",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Headless CPU run of the author's Cell File Angles ImageJ plugin (pinned commit) on the plugin's own calcofluor Col-0 root test sample, validated against the author's JUnit expected label sequence; chapter text is paywalled and the GUI is not reproduced.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "environment:laboratory",
+        "modality:microscopy",
+        "organ:cell",
+        "organ:root",
+        "task:morphology",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Measurement overlay on the original calcofluor image: cell-file path through centroids (red), inner-to-outer boundary segments (green), boundary extremities (dots)",
+        "caption": "Measurement overlay on the original calcofluor image: cell-file path through centroids (red), inner-to-outer boundary segments (green), boundary extremities (dots)"
+      }
     }
   ]
 }
