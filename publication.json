@@ -10886,6 +10886,45 @@
         "alt": "Author's bundled sample input imgs/pomogranate.jpeg (anarmitrawebapp @ 1e11c22c) — the image used for the pretrained TFLite grading inference",
         "caption": "Author's bundled sample input imgs/pomogranate.jpeg (anarmitrawebapp @ 1e11c22c) — the image used for the pretrained TFLite grading inference"
       }
+    },
+    {
+      "public_id": "p-92a6f52f8bcb7eda0de11213fcdfbb94",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "YOLO-BLBE: A Novel Model for Identifying Blueberry Fruits with Different Maturities Using the I-MSRCR Method",
+      "journal": "Agronomy",
+      "authors": [
+        "Chenglin Wang",
+        "Qiyu Han",
+        "Jianian Li",
+        "Chunjiang Li",
+        "Xiangjun Zou"
+      ],
+      "doi": "10.3390/agronomy14040658",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Executed the authors' pinned YOLO-BLBE pipeline (repo MSRCR enhancement + 3-class blueberry maturity detection with the committed ghost+bifpn weights) on one committed sample field image on Colab CPU; single example only, no dataset-level accuracy validation.",
+      "semantic_tags": [
+        "crop:blueberry",
+        "environment:field",
+        "modality:rgb",
+        "organ:fruit",
+        "task:object_detection",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Model predictions from the authors' pinned best.pt (confidence 0.5 or higher, imgsz 640) overlaid on the repository sample data/sample/93.jpg",
+        "caption": "Model predictions from the authors' pinned best.pt (confidence 0.5 or higher, imgsz 640) overlaid on the repository sample data/sample/93.jpg"
+      }
     }
   ]
 }
