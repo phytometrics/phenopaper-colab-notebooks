@@ -9796,6 +9796,43 @@
         "alt": "Released WoodLand.pcd (Zenodo 17568131): ground view (XY) and side view (XZ) of a deterministic subsample, colored by the semantic annotation stored in the file (1 ground, 2 tree wood, 3 tree leaves, 4 deadwood, 5 rock, 6 stump, 7 bush).",
         "caption": "Released WoodLand.pcd (Zenodo 17568131): ground view (XY) and side view (XZ) of a deterministic subsample, colored by the semantic annotation stored in the file (1 ground, 2 tree wood, 3 tree leaves, 4 deadwood, 5 rock, 6 stump, 7 bush)."
       }
+    },
+    {
+      "public_id": "p-98941196b03501305654120eaa5423d5",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A Density-Based Algorithm for the Detection of Individual Trees from LiDAR Data",
+      "journal": "Remote Sensing",
+      "authors": [
+        "Melissa Latella",
+        "Fabio Sola",
+        "Carlo Camporeale"
+      ],
+      "doi": "10.3390/rs13020322",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Line-faithful numpy port of the authors' MATLAB ITDM_v1.m detects individual tree tops in the authors' D1 LiDAR example, matching their bundled reference output exactly (76/76 trees, 0.0 m deviation); single example only, not the paper's dataset-level accuracy.",
+      "semantic_tags": [
+        "environment:field",
+        "modality:point_cloud",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:object_detection",
+        "trait:plant_height"
+      ],
+      "preview": {
+        "alt": "ITDM tree-top prediction (blue +) on the D1 LiDAR point cloud versus the authors' reference output (open red circles): exact match, 76/76 trees",
+        "caption": "ITDM tree-top prediction (blue +) on the D1 LiDAR point cloud versus the authors' reference output (open red circles): exact match, 76/76 trees"
+      }
     }
   ]
 }
