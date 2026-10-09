@@ -9757,6 +9757,45 @@
         "alt": "Input 0.5 m pitfree CHM (grey-white-green) with the 106 final GTR-detected treetops (red circles) after the 5 m distance filter",
         "caption": "Input 0.5 m pitfree CHM (grey-white-green) with the 106 final GTR-detected treetops (red circles) after the 5 m distance filter"
       }
+    },
+    {
+      "public_id": "p-ed6224d1a6cda9f36e41dcf1a5a46ff1",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Synthetic Forest: A UAV Laser Scanning Benchmark Dataset for Individual Tree Segmentation, Classification, and Wood Volume Estimation",
+      "journal": "ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
+      "authors": [
+        "Habib Pourdelan",
+        "Martin Tomko",
+        "Kourosh Khoshelham"
+      ],
+      "doi": "10.5194/isprs-annals-xi-3-2026-245-2026",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Regenerates a small annotated synthetic UAV-LiDAR forest scene end-to-end with the authors' pinned pipeline (HELIOS++ 2.2.2 instead of the bundled Windows 1.3.0 build) and verifies the released WoodLand.pcd annotation schema and claims (38.2M points, 3821 pts/m2, ~2 cm spacing, 70 trees, classes 1-7); wood-volume estimation and production-scale scenes are out of scope.",
+      "semantic_tags": [
+        "environment:aerial",
+        "modality:point_cloud",
+        "organ:leaf",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:classification",
+        "task:morphology",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Released WoodLand.pcd (Zenodo 17568131): ground view (XY) and side view (XZ) of a deterministic subsample, colored by the semantic annotation stored in the file (1 ground, 2 tree wood, 3 tree leaves, 4 deadwood, 5 rock, 6 stump, 7 bush).",
+        "caption": "Released WoodLand.pcd (Zenodo 17568131): ground view (XY) and side view (XZ) of a deterministic subsample, colored by the semantic annotation stored in the file (1 ground, 2 tree wood, 3 tree leaves, 4 deadwood, 5 rock, 6 stump, 7 bush)."
+      }
     }
   ]
 }
