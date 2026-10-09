@@ -9718,6 +9718,45 @@
         "alt": "AggieAir sUAS demo inputs (RGBNIR natural color, NIR, DEM, thermal) with the 10x10 fishnet grid annotation used for per-grid feature extraction",
         "caption": "AggieAir sUAS demo inputs (RGBNIR natural color, NIR, DEM, thermal) with the 10x10 fishnet grid annotation used for per-grid feature extraction"
       }
+    },
+    {
+      "public_id": "p-2dc738c2de2363279e1b2fbda660dc0b",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A new method for individual treetop detection with low-resolution aerial laser scanned data",
+      "journal": "Modeling Earth Systems and Environment",
+      "authors": [
+        "Gergő Diószegi",
+        "Vanda Éva Molnár",
+        "Loránd Attila Nagy",
+        "Péter Enyedi",
+        "Péter Török",
+        "Szilárd Szabó"
+      ],
+      "doi": "10.1007/s40808-024-02060-w",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Runs the TREETOPS authors' pinned GTR example (0.5 m pitfree CHM from lidR's MixedConifer.laz, get_TREETOPS_optimized, 5 m distance filter) unmodified on Colab CPU; 3491 candidates filtered to 106 treetops. The paper's five-site accuracy benchmark is out of scope (site clouds and reference treetops unpublished).",
+      "semantic_tags": [
+        "environment:aerial",
+        "environment:field",
+        "modality:point_cloud",
+        "organ:whole_plant",
+        "task:object_detection"
+      ],
+      "preview": {
+        "alt": "Input 0.5 m pitfree CHM (grey-white-green) with the 106 final GTR-detected treetops (red circles) after the 5 m distance filter",
+        "caption": "Input 0.5 m pitfree CHM (grey-white-green) with the 106 final GTR-detected treetops (red circles) after the 5 m distance filter"
+      }
     }
   ]
 }
