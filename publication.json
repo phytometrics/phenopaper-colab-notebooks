@@ -9631,6 +9631,44 @@
         "alt": "Predicted vs actual synthetic biomass on the 2020-2021 test set (MC-dropout mean), with the training/validation NLL history; AI-added visualization from this run, not an author figure.",
         "caption": "Predicted vs actual synthetic biomass on the 2020-2021 test set (MC-dropout mean), with the training/validation NLL history; AI-added visualization from this run, not an author figure."
       }
+    },
+    {
+      "public_id": "p-79c33e167e16a3ee77f188c7ec1a8d3d",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Prediction of fruit shapes in F1 progenies of chili peppers (Capsicum annuum) based on parental image data using elliptic Fourier analysis",
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Fumiya Kondo",
+        "Yui Kumanomido",
+        "Mariasilvia D’Andrea",
+        "Valentino Palombo",
+        "Nahed Ahmed",
+        "Shino Futatsuyama",
+        "Kazuhiro Nemoto",
+        "Kenichi Matsushima"
+      ],
+      "doi": "10.1016/j.compag.2025.110422",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Executed the authors' own PPdelta trial R script (pinned commit) on their example .nef EFD data in a fresh Colab CPU runtime, redrawing parental and predicted F1 fruit contours; article-level accuracies remain unverified.",
+      "semantic_tags": [
+        "crop:pepper",
+        "organ:fruit"
+      ],
+      "preview": {
+        "alt": "Parental chili pepper fruit contours reconstructed from the authors' SHAPE .nef EFD exports: raw per-fruit contours (black) and direction-averaged EFD contours (red) for two parents x two view directions.",
+        "caption": "Parental chili pepper fruit contours reconstructed from the authors' SHAPE .nef EFD exports: raw per-fruit contours (black) and direction-averaged EFD contours (red) for two parents x two view directions."
+      }
     }
   ]
 }
