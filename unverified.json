@@ -531,6 +531,22 @@
       "notebook_sha256": "aa9f96b596f4bfe387ef9a8bfd364243fa5796c96aa8e1271fe7b8ac8326a9d2",
       "source_sha256": "783a64087ffcec846d9f50d95d9721476e640dbe5c6d4d815cb9a8362bee767a",
       "code_cells": 9
+    },
+    {
+      "public_id": "p-91bf3367cf5522380c1e30eebab78cdb",
+      "title": "Integrating Crop Growth Models and Genomic Prediction to Improve Flowering Time Forecasting Across Novel Environments and Breeding Lines",
+      "journal": null,
+      "authors": [
+        "Cabrera M, Baker L, Jarquin D, Vallejos E, Messina C."
+      ],
+      "investigation_run_id": "p-91bf3367cf5522380c1e30eebab78cdb-20260929T234917Z-3085836",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-09T10:53:27.078Z] ! permission requested: external_directory (/proc/2074691/*); auto-rejecting | [2026-10-09T10:53:27.086Z] ✗ cat /proc/2074691/cmdline 2>/dev/null | tr '\\0' ' '; echo; ps -o pid,ppid,etime,stat,cmd -p 2074691 2>/dev/null; pgrep -fa \"colab_session_guard\"  failed | [2026-10-09T10:53:27.086Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-09",
+      "notebook_path": "notebooks/unverified/p-91bf3367cf5522380c1e30eebab78cdb.ipynb",
+      "notebook_sha256": "27e4523fce651c526a73e5b542ebc37b14e43ccf0763ca0967f151b5ebd1e75a",
+      "source_sha256": "9f416952d3b1e75ab87388ed200d0b9a6ab882be87ea0fcbe33e67f13591ae5f",
+      "code_cells": 8
     }
   ]
 }
