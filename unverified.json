@@ -498,6 +498,23 @@
       "notebook_sha256": "3668fb97ef9dc6b8b43482a4f3f59173135c3454fed717d324128300770766be",
       "source_sha256": "4cce893162089053ae45d7b1deb50a0a0312b275d1ced815b10561e686173920",
       "code_cells": 19
+    },
+    {
+      "public_id": "p-845668b5bebd667d367e2f37f92142ad",
+      "title": "Optimizing Support Vector Machine for Avocado Ripeness Classification Using Moth Flame Optimization",
+      "journal": "Journal of Electronics Electromedical Engineering and Medical Informatics",
+      "authors": [
+        "Kemal Crisannaufal",
+        "Wikky Fawwaz Al Maki"
+      ],
+      "investigation_run_id": "p-845668b5bebd667d367e2f37f92142ad-20261007T234824Z-488139",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-09T01:15:27.976Z] ! permission requested: external_directory (/*); auto-rejecting | [2026-10-09T01:15:28.001Z] ✗ for R in \"items=1000-1999\" \"1000-1999\"; do echo \"== Range: $R\"; curl -sS --max-time 30 -H \"Range: $R\" \"https://data.mendeley.com/public-api/datasets/3xd9n945v8/files?version=1&folder_id=9685434a-9bdd-4088-8e71-f | [2026-10-09T01:15:28.001Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-09",
+      "notebook_path": "notebooks/unverified/p-845668b5bebd667d367e2f37f92142ad.ipynb",
+      "notebook_sha256": "43b3a3b70311c87377338b6ba63f677a0a5ab9c7d310b6811c914cc6edda6470",
+      "source_sha256": "786ff3304ae17abf4b1d3b4431d08248ae1ca287c355535d54c8bcc06434e62e",
+      "code_cells": 14
     }
   ]
 }
