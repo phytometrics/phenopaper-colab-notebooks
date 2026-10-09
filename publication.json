@@ -9906,6 +9906,41 @@
         "alt": "Pseudo-RGB input pot cubes with the SVM-derived plant mask (green contour) retrained in this reproduction from the authors' hand labels",
         "caption": "Pseudo-RGB input pot cubes with the SVM-derived plant mask (green contour) retrained in this reproduction from the authors' hand labels"
       }
+    },
+    {
+      "public_id": "p-2cb18c0c533d73995c27418d988c8078",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Color Sensor for the Determination of the Ripening Stage of Cherry Tomatoes",
+      "journal": null,
+      "authors": [
+        "Vandeir Aniceto Pinheiro"
+      ],
+      "doi": "10.5281/zenodo.23067949",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Reruns the authors' full preprocessing, colorimetric-calibration and decision-tree pipeline on all 130 cherry-tomato samples (89.1% dE reduction vs claimed 89.6%), CPU only; hardware and firmware generation are out of scope.",
+      "semantic_tags": [
+        "crop:tomato",
+        "environment:laboratory",
+        "modality:rgb",
+        "organ:fruit",
+        "task:classification",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "Author photographs of three cherry tomatoes (Unripe, Medium, Ripe) labeled with their measured sensor RGB, RGB-to-CIELAB conversion and spectrophotometer reference values",
+        "caption": "Author photographs of three cherry tomatoes (Unripe, Medium, Ripe) labeled with their measured sensor RGB, RGB-to-CIELAB conversion and spectrophotometer reference values"
+      }
     }
   ]
 }
