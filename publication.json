@@ -10777,6 +10777,43 @@
         "alt": "Validation accuracy by split scenario (single-seed T4 run) vs the paper's published means: random 0.9645, time-blocked 0.8917, feeder-blocked 0.8816",
         "caption": "Validation accuracy by split scenario (single-seed T4 run) vs the paper's published means: random 0.9645, time-blocked 0.8917, feeder-blocked 0.8816"
       }
+    },
+    {
+      "public_id": "p-31135e57cfb4c70cbcf7481ea4947d54",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Parameter-Efficient Fine-Tuning for citrus fruit defect segmentation model based on text prompt",
+      "journal": "Engineering Applications of Artificial Intelligence",
+      "authors": [
+        "Yun Zhu",
+        "Xiongjiang Cai",
+        "Shuwen Liu",
+        "Zhiyue Yu",
+        "Lianfeng Gao",
+        "Youyun Xu"
+      ],
+      "doi": "10.1016/j.engappai.2025.111765",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Loads the authors' released Swin-T-Att-UNet Orange-Navel checkpoint into the pinned TP-LoRA code, segments 8 test-split citrus defect images (sample mIoU 90.72%) and verifies the TP-LoRA tuned-parameter count (0.32 M, matching the README table); no trained TP-LoRA weights exist, so PEFT results are not reproduced.",
+      "semantic_tags": [
+        "crop:citrus",
+        "organ:fruit",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Orange-Navel test image: author input, ground-truth annotation, and released-checkpoint prediction side by side.",
+        "caption": "Orange-Navel test image: author input, ground-truth annotation, and released-checkpoint prediction side by side."
+      }
     }
   ]
 }
