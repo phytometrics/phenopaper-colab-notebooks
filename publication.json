@@ -10814,6 +10814,43 @@
         "alt": "Orange-Navel test image: author input, ground-truth annotation, and released-checkpoint prediction side by side.",
         "caption": "Orange-Navel test image: author input, ground-truth annotation, and released-checkpoint prediction side by side."
       }
+    },
+    {
+      "public_id": "p-47538e2f4cd1bd1c5adcee61820262fa",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Arecanut Yellow Leaf Disease Detection Using CNN",
+      "journal": "International Journal of Scientific Research in Engineering and Management",
+      "authors": [
+        "SUNIL V",
+        "Ashwini S P",
+        "KAVYASHREE S J",
+        "NIRANJAN B R",
+        "RITISH M TILAVALLI"
+      ],
+      "doi": "10.55041/ijsrem55524",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Runs the authors' trained MobileNetV2 arecanut YLD classifier and their exact Streamlit-app decision logic (label, confidence, stage, risk) on three author-shipped sample leaves in Colab; training and the web UI are out of scope and the paper publishes no numeric metrics.",
+      "semantic_tags": [
+        "organ:leaf",
+        "task:classification",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Authors' sample leaf images with this run's real model predictions (label, confidence, stage) overlaid; sigmoid orientation confirmed against filename-indicated classes.",
+        "caption": "Authors' sample leaf images with this run's real model predictions (label, confidence, stage) overlaid; sigmoid orientation confirmed against filename-indicated classes."
+      }
     }
   ]
 }
