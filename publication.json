@@ -10925,6 +10925,47 @@
         "alt": "Model predictions from the authors' pinned best.pt (confidence 0.5 or higher, imgsz 640) overlaid on the repository sample data/sample/93.jpg",
         "caption": "Model predictions from the authors' pinned best.pt (confidence 0.5 or higher, imgsz 640) overlaid on the repository sample data/sample/93.jpg"
       }
+    },
+    {
+      "public_id": "p-fc9aed9d63475eed8eb9c537845dbed2",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A systematic color correction pipeline for controlled‐environment imaging",
+      "journal": "The Plant Phenome Journal",
+      "authors": [
+        "Collins Wakholi",
+        "Michael A. Hardigan",
+        "J. C. Lee",
+        "Scott B. Lukas",
+        "Max J. Feldman",
+        "Kayla R. Altendorf",
+        "Jeffrey Neyhart",
+        "Devin A. Rippner"
+      ],
+      "doi": "10.1002/ppj2.70067",
+      "compute": "CPU",
+      "validated_on": "2026-10-10",
+      "demonstration": "Executes the authors' pinned FFC+gamma+white-balance+degree-2-NN color-mapping pipeline on the bundled D65/Amazon sample images and reports stage-wise CIEDE2000/MSE chart metrics; bundled-sample partial demonstration only, not the paper's full benchmark.",
+      "semantic_tags": [
+        "environment:laboratory",
+        "modality:rgb",
+        "organ:fruit",
+        "task:preprocessing",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "Bundled sample image (Sample_2433.JPG, D65) before (left) and after (right) the full author pipeline (FFC+GC+WB+NN color mapping), pinned commit 42bb4aa1.",
+        "caption": "Bundled sample image (Sample_2433.JPG, D65) before (left) and after (right) the full author pipeline (FFC+GC+WB+NN color mapping), pinned commit 42bb4aa1."
+      }
     }
   ]
 }
