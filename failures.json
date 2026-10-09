@@ -895,6 +895,21 @@
       "reason": "OpenCode/reporter exited with status 1; see run log p-9f5bf7e781bc39de6716e20287fa11fa-20261009T105338Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nIndexError: list index out of range\nIndexError: list index out of range\nError: {\"message\":\"CUDA error: CUBLAS_STATUS_INTERNAL_ERROR when calling `cublasGemmEx( handle, opa, opb, m, n, k, &falpha, a, CUDA_R_16BF, lda, b, CUDA_R_16BF, ldb, &fbeta, c, std::is_same_v<C_Dtype, float> ? CUDA_R_32F : CUDA_R_16BF, ldc,",
       "created_on": "2026-10-09",
       "notebook_path": "notebooks/unverified/p-9f5bf7e781bc39de6716e20287fa11fa.ipynb"
+    },
+    {
+      "public_id": "p-183d5b4abeda554cbd985222856739a5",
+      "title": "Detection of quantitative trait loci for rice root systems grown in paddies based on nondestructive phenotyping using X-ray computed tomography.",
+      "journal": "The Plant Journal",
+      "authors": [
+        "Shota Teramoto",
+        "Yusaku Uga"
+      ],
+      "investigation_run_id": "p-183d5b4abeda554cbd985222856739a5-20260929T101731Z-2516752",
+      "run_id": "p-183d5b4abeda554cbd985222856739a5-20261009T120845Z",
+      "status": "failed",
+      "reason": "Repaired notebook ready but fresh full T4 validation not completed in this invocation. Attempt 1 failed: cucim==26.06.00 is image-preinstalled and absent from PyPI for Python 3.13, aborting pip (plus a preview zip-closure bug). Attempt 2: setup, clones, 38MB download verification and both input previews passed; author run_rsavis3d.py itself succeeded (rc=0, 35.5s, GPU) but make_mask.py failed with ImportError libcublas.so.12 because a pip-installed cupy-cuda12x wheel shadowed the image's CUDA-13-matched cupy. Root cause understood and repaired (preinstall-first cupy verification with cublas-forcing dot; dynamic series-name globs). The 3-session budget (probe, final, contingency) is exhausted, so the mandatory fresh full run must happen in a resumed invocation (resume_run_dir) before publication. Deliverable deliverables/p-183d5b4abeda554cbd985222856739a5.ipynb is statically valid but unverified.",
+      "created_on": "2026-10-09",
+      "notebook_path": "notebooks/unverified/p-183d5b4abeda554cbd985222856739a5.ipynb"
     }
   ]
 }

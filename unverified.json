@@ -563,6 +563,23 @@
       "notebook_sha256": "7ae2cdbc5beb20ed932c8ef55a41a599776e943808114d5189d1bb1d10e56655",
       "source_sha256": "87fb03c4a26012cb95f9e1541d46e3cf7985189f619e81bac7ae983e9e3a9fd0",
       "code_cells": 12
+    },
+    {
+      "public_id": "p-183d5b4abeda554cbd985222856739a5",
+      "title": "Detection of quantitative trait loci for rice root systems grown in paddies based on nondestructive phenotyping using X-ray computed tomography.",
+      "journal": "The Plant Journal",
+      "authors": [
+        "Shota Teramoto",
+        "Yusaku Uga"
+      ],
+      "investigation_run_id": "p-183d5b4abeda554cbd985222856739a5-20260929T101731Z-2516752",
+      "status": "failed",
+      "reason": "Repaired notebook ready but fresh full T4 validation not completed in this invocation. Attempt 1 failed: cucim==26.06.00 is image-preinstalled and absent from PyPI for Python 3.13, aborting pip (plus a preview zip-closure bug). Attempt 2: setup, clones, 38MB download verification and both input previews passed; author run_rsavis3d.py itself succeeded (rc=0, 35.5s, GPU) but make_mask.py failed with ImportError libcublas.so.12 because a pip-installed cupy-cuda12x wheel shadowed the image's CUDA-13-matched cupy. Root cause understood and repaired (preinstall-first cupy verification with cublas-forcing dot; dynamic series-name globs). The 3-session budget (probe, final, contingency) is exhausted, so the mandatory fresh full run must happen in a resumed invocation (resume_run_dir) before publication. Deliverable deliverables/p-183d5b4abeda554cbd985222856739a5.ipynb is statically valid but unverified.",
+      "created_on": "2026-10-09",
+      "notebook_path": "notebooks/unverified/p-183d5b4abeda554cbd985222856739a5.ipynb",
+      "notebook_sha256": "957cc7d87f2e8d8929dea5aabf00246a04e356913cdbb9e627229fbe9a92c4d6",
+      "source_sha256": "7130deffaf2ed4ce8fc2472d061cdcaa495483be69ed5b04b467c07acfd6de84",
+      "code_cells": 14
     }
   ]
 }
