@@ -10281,6 +10281,39 @@
         "alt": "Theory example: measured leaf and xylem samples (04-Jun-2018 13:35) with individual evaporation lines, projected LMWL sources, and the reference LMWL (dashed).",
         "caption": "Theory example: measured leaf and xylem samples (04-Jun-2018 13:35) with individual evaporation lines, projected LMWL sources, and the reference LMWL (dashed)."
       }
+    },
+    {
+      "public_id": "p-f700126d169c9c1bf30e3739d2d87ac3",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "PhoTorch: a robust and generalized biochemical photosynthesis model fitting package based on PyTorch.",
+      "journal": "Photosynthesis Research",
+      "authors": [
+        "Tong Lei",
+        "Kyle T. Rizzo",
+        "Brian N. Bailey"
+      ],
+      "doi": "10.1007/s11120-025-01136-7",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Runs the author's PhoTorch FvCB example end-to-end: fitting Vcmax25/Jmax25/TPU25/Rd25 per curve plus mesophyll conductance on the repository's example A/Ci + light-response dataset, with fitted-versus-measured curve plots; a single-example demo, not the paper's dataset-level robustness or speed benchmarks.",
+      "semantic_tags": [
+        "task:physiology",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "Fitted A/Ci curves (lines) over the measured example-data points (dots) from the author's dfMAGIC043_lr.csv example, reproduced with PhoTorch at pinned commit e6e4265.",
+        "caption": "Fitted A/Ci curves (lines) over the measured example-data points (dots) from the author's dfMAGIC043_lr.csv example, reproduced with PhoTorch at pinned commit e6e4265."
+      }
     }
   ]
 }
