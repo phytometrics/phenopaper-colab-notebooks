@@ -31,6 +31,55 @@
       "notebook_path": "notebooks/unverified/p-8f2b65434ad1d919bccfe12caf205ff8.ipynb"
     },
     {
+      "public_id": "p-845668b5bebd667d367e2f37f92142ad",
+      "title": "Optimizing Support Vector Machine for Avocado Ripeness Classification Using Moth Flame Optimization",
+      "journal": "Journal of Electronics Electromedical Engineering and Medical Informatics",
+      "authors": [
+        "Kemal Crisannaufal",
+        "Wikky Fawwaz Al Maki"
+      ],
+      "investigation_run_id": "p-845668b5bebd667d367e2f37f92142ad-20261007T234824Z-488139",
+      "run_id": "p-845668b5bebd667d367e2f37f92142ad-20261009T010216Z-1634595",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-09T01:15:27.976Z] ! permission requested: external_directory (/*); auto-rejecting | [2026-10-09T01:15:28.001Z] ✗ for R in \"items=1000-1999\" \"1000-1999\"; do echo \"== Range: $R\"; curl -sS --max-time 30 -H \"Range: $R\" \"https://data.mendeley.com/public-api/datasets/3xd9n945v8/files?version=1&folder_id=9685434a-9bdd-4088-8e71-f | [2026-10-09T01:15:28.001Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-09"
+    },
+    {
+      "public_id": "p-37f99cf456e74d916230de8d4ac87be7",
+      "title": "MaiZaic : a robust end-to-end pipeline for mosaicking freely flown aerial video of agricultural fields",
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        "Dewi Endah Kharismawati",
+        "Toni Kazic"
+      ],
+      "investigation_run_id": "p-37f99cf456e74d916230de8d4ac87be7-20260929T113611Z-2565368",
+      "run_id": "p-37f99cf456e74d916230de8d4ac87be7-20261008T220221Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-08T22:29:10.166Z] ✗ cd /home/phyto/phenotyping-colab/runs/p-37f99cf456e74d916230de8d4ac87be7-20261008T220221Z/logs && cp FINAL_cli.log attempt1_cli.log && cp ../deliverables/p-37f99cf456e74d916230de8d4ac87be7_output.ipynb attempt1_ | [2026-10-08T22:29:10.166Z] Error: The user rejected permission to use this specific tool call. | [2026-10-08T22:29:16.418Z] Attempt 1 reached terminal state (exit 0, but with the diagnosed cell failures). Global assembly showed our re-computed ASIFT H deviates from the author's committed H (corner RMSE 146–254 px — feature-matching non | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-09",
+      "notebook_path": "notebooks/unverified/p-37f99cf456e74d916230de8d4ac87be7.ipynb"
+    },
+    {
+      "public_id": "p-265a57b31003291df0583dfc9ac9a57a",
+      "title": "Joint 2D to 3D image registration workflow for comparing multiple slice photographs and CT scans of apple fruit with internal disorders",
+      "journal": "arXiv",
+      "authors": [
+        "Dirk Elias Schut",
+        "Rachael Maree Wood",
+        "Anna Katharina Trull",
+        "Rob Schouten",
+        "Robert van Liere",
+        "Tristan van Leeuwen",
+        "Kees Joost Batenburg"
+      ],
+      "investigation_run_id": "p-265a57b31003291df0583dfc9ac9a57a-20261008T172538Z-1314164",
+      "run_id": "p-265a57b31003291df0583dfc9ac9a57a-20261008T184328Z",
+      "status": "failed",
+      "reason": "Two fresh-T4 full-notebook validation attempts failed before scientific results: attempt 2 failed on a missing /content/results output directory (cells 10/11, fixed); attempt 3 passed cells 1-11 with zero errors but the CT-segmentation cell (12) never returned in ~149 min (suspected memory thrash near the 12.7 GB VM limit from the whole-volume EDT + label intermediates) and was stopped at ~07:26 JST 2026-10-09, well before its 4h cap. The 3-session Colab budget of this invocation is exhausted, so no further attempt was possible. No publication was attempted; GitHub unchanged. The authored notebook (with a memory-bounded chunked-EDT segmentation fix, unverified) is preserved at deliverables/p-265a57b31003291df0583dfc9ac9a57a.ipynb for an explicit resume_run_dir retry on a fresh T4.",
+      "created_on": "2026-10-09",
+      "notebook_path": "notebooks/unverified/p-265a57b31003291df0583dfc9ac9a57a.ipynb"
+    },
+    {
       "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
       "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
       "investigation_run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T113209Z-4050068",
@@ -790,41 +839,6 @@
         "Kalhari Manawasinghe",
         "Karen Tanino"
       ]
-    },
-    {
-      "public_id": "p-37f99cf456e74d916230de8d4ac87be7",
-      "title": "MaiZaic : a robust end-to-end pipeline for mosaicking freely flown aerial video of agricultural fields",
-      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "authors": [
-        "Dewi Endah Kharismawati",
-        "Toni Kazic"
-      ],
-      "investigation_run_id": "p-37f99cf456e74d916230de8d4ac87be7-20260929T113611Z-2565368",
-      "run_id": "p-37f99cf456e74d916230de8d4ac87be7-20261008T220221Z",
-      "status": "failed",
-      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-08T22:29:10.166Z] ✗ cd /home/phyto/phenotyping-colab/runs/p-37f99cf456e74d916230de8d4ac87be7-20261008T220221Z/logs && cp FINAL_cli.log attempt1_cli.log && cp ../deliverables/p-37f99cf456e74d916230de8d4ac87be7_output.ipynb attempt1_ | [2026-10-08T22:29:10.166Z] Error: The user rejected permission to use this specific tool call. | [2026-10-08T22:29:16.418Z] Attempt 1 reached terminal state (exit 0, but with the diagnosed cell failures). Global assembly showed our re-computed ASIFT H deviates from the author's committed H (corner RMSE 146–254 px — feature-matching non | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-09",
-      "notebook_path": "notebooks/unverified/p-37f99cf456e74d916230de8d4ac87be7.ipynb"
-    },
-    {
-      "public_id": "p-265a57b31003291df0583dfc9ac9a57a",
-      "title": "Joint 2D to 3D image registration workflow for comparing multiple slice photographs and CT scans of apple fruit with internal disorders",
-      "journal": "arXiv",
-      "authors": [
-        "Dirk Elias Schut",
-        "Rachael Maree Wood",
-        "Anna Katharina Trull",
-        "Rob Schouten",
-        "Robert van Liere",
-        "Tristan van Leeuwen",
-        "Kees Joost Batenburg"
-      ],
-      "investigation_run_id": "p-265a57b31003291df0583dfc9ac9a57a-20261008T172538Z-1314164",
-      "run_id": "p-265a57b31003291df0583dfc9ac9a57a-20261008T184328Z",
-      "status": "failed",
-      "reason": "Two fresh-T4 full-notebook validation attempts failed before scientific results: attempt 2 failed on a missing /content/results output directory (cells 10/11, fixed); attempt 3 passed cells 1-11 with zero errors but the CT-segmentation cell (12) never returned in ~149 min (suspected memory thrash near the 12.7 GB VM limit from the whole-volume EDT + label intermediates) and was stopped at ~07:26 JST 2026-10-09, well before its 4h cap. The 3-session Colab budget of this invocation is exhausted, so no further attempt was possible. No publication was attempted; GitHub unchanged. The authored notebook (with a memory-bounded chunked-EDT segmentation fix, unverified) is preserved at deliverables/p-265a57b31003291df0583dfc9ac9a57a.ipynb for an explicit resume_run_dir retry on a fresh T4.",
-      "created_on": "2026-10-09",
-      "notebook_path": "notebooks/unverified/p-265a57b31003291df0583dfc9ac9a57a.ipynb"
     }
   ]
 }
