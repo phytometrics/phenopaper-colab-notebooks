@@ -10244,6 +10244,43 @@
         "alt": "Input: released maize seedling point cloud (testsample/1) colored by the authors' manual ground-truth regions; each color is one organ labeled in the released PLY files.",
         "caption": "Input: released maize seedling point cloud (testsample/1) colored by the authors' manual ground-truth regions; each color is one organ labeled in the released PLY files."
       }
+    },
+    {
+      "public_id": "p-6b94ff9aaefa10c2e9176919d75d6f0d",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "On the use of leaf water to determine plant water source: A proof of concept",
+      "journal": "Hydrological Processes",
+      "authors": [
+        "Paolo Benettin",
+        "Magali F. Nehemy",
+        "Lucas A. Cernusak",
+        "Ansgar Kahmen",
+        "Jeffrey J. McDonnell"
+      ],
+      "doi": "10.1002/hyp.14073",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Exact Python port of the author's MATLAB pipeline: Craig-Gordon Monte Carlo evaporation lines and LMWL back-projection of all 84 SPIKE II xylem and leaf samples with leaf-vs-xylem residual validation; paper full text remains unverified and Monte Carlo RNG differs from MATLAB.",
+      "semantic_tags": [
+        "environment:growth_chamber",
+        "organ:leaf",
+        "task:physiology",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Theory example: measured leaf and xylem samples (04-Jun-2018 13:35) with individual evaporation lines, projected LMWL sources, and the reference LMWL (dashed).",
+        "caption": "Theory example: measured leaf and xylem samples (04-Jun-2018 13:35) with individual evaporation lines, projected LMWL sources, and the reference LMWL (dashed)."
+      }
     }
   ]
 }
