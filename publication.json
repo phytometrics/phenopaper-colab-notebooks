@@ -10601,6 +10601,42 @@
         "alt": "Reproduced force trajectory of a bean shoot-support contact event (exp 058): support deflection, deflection angle, extracted force (mN), and contact-point distance.",
         "caption": "Reproduced force trajectory of a bean shoot-support contact event (exp 058): support deflection, deflection angle, extracted force (mN), and contact-point distance."
       }
+    },
+    {
+      "public_id": "p-e47757b9d8b090a938998c18f3077438",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Identification of spectral ranges that contribute to phytoplasma detection in apple trees - A step towards an on-site method.",
+      "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+      "authors": [
+        "Barthel D, Cullinan C, Mejia-Aguilar A, Chuprikova E, McLeod BA, Kerschbamer C, Trenti M, Monsorno R, Prechsl UE, Janik K."
+      ],
+      "doi": "10.1016/j.saa.2023.123246",
+      "compute": "CPU",
+      "validated_on": "2026-10-09",
+      "demonstration": "Executed the paper's spectral-classification subsection in R on all seven 2021 campaigns (log(1/R)+SG derivative, PLS-DA LOOCV accuracies, VIP wavelengths, group ANOVA/Tukey); article full text was unavailable, so reported per-month accuracies were not compared numerically.",
+      "semantic_tags": [
+        "crop:apple",
+        "environment:field",
+        "modality:spectral",
+        "organ:leaf",
+        "task:classification",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Infected vs non-infected first-derivative difference and correlation curves for April, October and November with computed VIP-over-1 wavelengths marked orange (authors Figure 4 analogue)",
+        "caption": "Infected vs non-infected first-derivative difference and correlation curves for April, October and November with computed VIP-over-1 wavelengths marked orange (authors Figure 4 analogue)"
+      }
     }
   ]
 }
