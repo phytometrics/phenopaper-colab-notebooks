@@ -2,6 +2,23 @@
   "schema_version": 1,
   "failures": [
     {
+      "public_id": "p-bcc07e64c4e18890e139ec2fcb3b6063",
+      "title": "A rapid, semi-automated image-based method for quantitative assessment of rust disease progression in wheat",
+      "journal": "Plant Methods",
+      "authors": [
+        "Christopher W. G. Mann",
+        "Sambasivam Periyannan",
+        "Bernard J. Carroll",
+        "Donald M. Gardiner",
+        "Anne Sawyer"
+      ],
+      "investigation_run_id": "p-bcc07e64c4e18890e139ec2fcb3b6063-20261013T022456Z-2857156",
+      "run_id": "p-bcc07e64c4e18890e139ec2fcb3b6063-20261013T040101Z",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-bcc07e64c4e18890e139ec2fcb3b6063-20261013T040027Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nSyntaxError: invalid syntax\nAssertionError:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-13"
+    },
+    {
       "public_id": "p-fa281ef3d2e7e699424318eae3ccb279",
       "title": "p-fa281ef3d2e7e699424318eae3ccb279",
       "journal": null,
