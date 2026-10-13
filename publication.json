@@ -10966,6 +10966,44 @@
         "alt": "Bundled sample image (Sample_2433.JPG, D65) before (left) and after (right) the full author pipeline (FFC+GC+WB+NN color mapping), pinned commit 42bb4aa1.",
         "caption": "Bundled sample image (Sample_2433.JPG, D65) before (left) and after (right) the full author pipeline (FFC+GC+WB+NN color mapping), pinned commit 42bb4aa1."
       }
+    },
+    {
+      "public_id": "p-fd0c0df4f127a9ef90ab2c9a42c52f0b",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Temporal GWAS and QTL mapping of UAV-derived digital canopy height reveals stage-specific genetic effects in bread wheat.",
+      "journal": "Plant phenomics (Washington, D.C.)",
+      "authors": [
+        "Fania F, Spadanuda P, Puglisi D, Angione G, Colella I, Pecorella I, Esposito S, De Vita P."
+      ],
+      "doi": "10.1016/j.plaphe.2026.100279",
+      "compute": "CPU",
+      "validated_on": "2026-10-13",
+      "demonstration": "Executes the authors' pinned R point-cloud pipeline (commit 337ec18) on their 4.8 GB Zenodo example to extract plot-level DCH40-DCH99 for 390 plots; temporal modelling, GWAS and QTL stages are out of scope and the example does not reproduce manuscript numbers.",
+      "semantic_tags": [
+        "crop:wheat",
+        "environment:field",
+        "modality:point_cloud",
+        "modality:rgb",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:time_series",
+        "trait:growth_development",
+        "trait:plant_height"
+      ],
+      "preview": {
+        "alt": "Smoothed canopy point cloud (subsample) of the Zenodo example, colored by normalized height Z (m) - rendered by the author pipeline's headless display line.",
+        "caption": "Smoothed canopy point cloud (subsample) of the Zenodo example, colored by normalized height Z (m) - rendered by the author pipeline's headless display line."
+      }
     }
   ]
 }
