@@ -11410,6 +11410,44 @@
         "alt": "Original Artemis annotated image (left) with the dataset's reference flower/plant instance-segmentation polygons (right; ground-truth annotations, not model predictions).",
         "caption": "Original Artemis annotated image (left) with the dataset's reference flower/plant instance-segmentation polygons (right; ground-truth annotations, not model predictions)."
       }
+    },
+    {
+      "public_id": "p-758136653c4443f56efff64190e5fc34",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "FuzzyQSM: A Novel Tree Structure Reconstruction Approach Using Uncertainty",
+      "journal": "Remote Sensing",
+      "authors": [
+        "Vincent B. Verhoeven",
+        "Pasi Raumonen",
+        "Markku Åkerblom"
+      ],
+      "doi": "10.3390/rs18183244",
+      "compute": "CPU",
+      "validated_on": "2026-10-24",
+      "demonstration": "One-tree (ACERPS_1544, 0.30 mrad) volume-accuracy comparison of the released TreeQSM and FuzzyQSM against the smoothed-model ground truth plus an executed single-cylinder author-code fuzzy fit under Octave; the full-tree fit and dataset-level statistics remain out of scope.",
+      "semantic_tags": [
+        "modality:point_cloud",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:reconstruction",
+        "trait:architecture",
+        "trait:biomass"
+      ],
+      "preview": {
+        "alt": "ACERPS_1544 TLS point cloud (0.30 mrad, per scanner) with stem radius profiles of the TreeQSM initial geometry, the released FuzzyQSM, and the smoothed-model reference circles",
+        "caption": "ACERPS_1544 TLS point cloud (0.30 mrad, per scanner) with stem radius profiles of the TreeQSM initial geometry, the released FuzzyQSM, and the smoothed-model reference circles"
+      }
     }
   ]
 }
