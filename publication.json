@@ -11182,6 +11182,41 @@
         "alt": "Simulated BOSSE inputs for the selected scene-date: species map, LAI and chlorophyll trait maps, and per-species EnMAP reflectance spectra.",
         "caption": "Simulated BOSSE inputs for the selected scene-date: species map, LAI and chlorophyll trait maps, and per-species EnMAP reflectance spectra."
       }
+    },
+    {
+      "public_id": "p-82224ac1edae6361f8babd4008c53d18",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "CLBD-YOLO: A Lightweight Tea Bud Detection Algorithm",
+      "journal": "Technologies",
+      "authors": [
+        "Zheng Chen",
+        "Dapeng Jiang",
+        "Jinhao Chen",
+        "Yizhuo Zhang"
+      ],
+      "doi": "10.3390/technologies14090576",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-23",
+      "demonstration": "Builds the author CLBD-YOLO architecture (1.43M params vs paper 1.426M) and runs the author training pipeline with MPDIoU loss for 3 epochs on a 64-image TeaBud demo subset; not a reproduction of the paper's 300-epoch results.",
+      "semantic_tags": [
+        "crop:tea",
+        "organ:leaf",
+        "task:object_detection"
+      ],
+      "preview": {
+        "alt": "TeaBud training image with ground-truth tea_bud annotations (green) from the author dataset label file.",
+        "caption": "TeaBud training image with ground-truth tea_bud annotations (green) from the author dataset label file."
+      }
     }
   ]
 }
