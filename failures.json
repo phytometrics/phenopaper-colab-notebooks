@@ -1580,6 +1580,20 @@
       "reason": "Colab backend cannot start kernels: five exec attempts on two fresh CPU VMs and CLI 0.7.4/0.7.5 all failed with server-closed kernel websocket (kernel stuck in execution_state 'starting'); zero cells ran. Authored, static-validated notebook preserved in deliverables/ as UNVERIFIED reference; source investigation and feasibility completed.",
       "created_on": "2026-10-23",
       "notebook_path": "notebooks/unverified/p-687457d4e2d069bdb1d54e06a735fab6.ipynb"
+    },
+    {
+      "public_id": "p-2de471794f74a7e470b0c6286777d396",
+      "title": "Integrating UAV-Based Remote Sensing and Deep Learning for Early Detection of Bacterial Leaf Blight in Rice",
+      "journal": "Springer Science and Business Media LLC",
+      "authors": [
+        "Balingbing C, Chebotarov D, Perilla IC, Klassen S, Castilla N, Carvajal RG, Ortega K, Sandro J, Pangesti N, Centeno CA, Rala A, Liu LD."
+      ],
+      "investigation_run_id": "p-2de471794f74a7e470b0c6286777d396-20261019T062154Z-408445",
+      "run_id": "p-2de471794f74a7e470b0c6286777d396-20261023T035100Z",
+      "status": "failed",
+      "reason": "Automatic publication/registration stopped: T4 was marked unavailable without matching Colab capacity evidence",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-2de471794f74a7e470b0c6286777d396.ipynb"
     }
   ]
 }
