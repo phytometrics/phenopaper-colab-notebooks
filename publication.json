@@ -11150,6 +11150,38 @@
         "alt": "Corrected RGB input (authors' capture) with the U-Net plant-mask prediction overlaid in green — one irrigated (R) and one drought (S) plant at the first and last session. Prediction, not human annotation.",
         "caption": "Corrected RGB input (authors' capture) with the U-Net plant-mask prediction overlaid in green — one irrigated (R) and one drought (S) plant at the first and last session. Prediction, not human annotation."
       }
+    },
+    {
+      "public_id": "p-fff1479f76b29b7e29a6ffdad1a14116",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Assessing the impact of data uncertainty on remote sensing estimation of plant functional diversity",
+      "journal": "bioRxiv",
+      "authors": [
+        "Pacheco-Labrador, J.",
+        "Rossi, C.",
+        "Santos, M. J."
+      ],
+      "doi": "10.64898/2026.09.21.753123",
+      "compute": "CPU",
+      "validated_on": "2026-10-23",
+      "demonstration": "Single-scene BOSSE EnMAP reflectance perturbed with 5% constant decorrelated noise and evaluated against unperturbed plant-trait QRao via pyGNDiv (3x3 window, PCA 98%); one scene-date only, not the paper's ensemble.",
+      "semantic_tags": [
+        "modality:spectral"
+      ],
+      "preview": {
+        "alt": "Simulated BOSSE inputs for the selected scene-date: species map, LAI and chlorophyll trait maps, and per-species EnMAP reflectance spectra.",
+        "caption": "Simulated BOSSE inputs for the selected scene-date: species map, LAI and chlorophyll trait maps, and per-species EnMAP reflectance spectra."
+      }
     }
   ]
 }
