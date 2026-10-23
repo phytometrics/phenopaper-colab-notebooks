@@ -1713,6 +1713,24 @@
       "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-23T12:01:18.121Z] print(\"all author excerpts embedded verbatim\") | [2026-10-23T12:01:18.121Z] EOF failed | [2026-10-23T12:01:18.121Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
       "created_on": "2026-10-23",
       "notebook_path": "notebooks/unverified/p-a686209c837f9985acc05f1403009a48.ipynb"
+    },
+    {
+      "public_id": "p-8c4897641cc52f62e005299aba86f5a3",
+      "title": "Sensitive detection of chloroplast movements through changes in leaf cross-polarized reflectance",
+      "journal": "Plant Physiology",
+      "authors": [
+        "Paweł Hermanowicz",
+        "Aleksandra Giza",
+        "Katarzyna M Sowa",
+        "Paweł Korecki",
+        "Justyna Łabuz"
+      ],
+      "investigation_run_id": "p-8c4897641cc52f62e005299aba86f5a3-20261022T132905Z-2686512",
+      "run_id": "p-8c4897641cc52f62e005299aba86f5a3-20261023T134156Z",
+      "status": "failed",
+      "reason": "Two fresh CPU top-to-bottom validation attempts failed on authoring bugs (unequal curve lengths; a .clm without paired CSV; duplicate timestamps; one 'Indeterminate' value; a stray 300 uE transmittance entry; missing multcompView; emmeans needing data= with function-local data; .group/letter rename). All root causes were fixed and the complete repaired pipeline was verified diagnostically in probe18 (logs/probe18_output.ipynb): features, R gls+asinh+Tukey per-species letters, both plots, and group means matching the preprint (Vaccinium 100 uE 0.258 vs paper 0.3; Tussilago 0.215 vs 0.22; low blue not different from mock). The 3-session Colab budget (diag-p8c4897-probe1, final-p8c4897-cpu, final-p8c4897-cpu2) was then exhausted, so no fresh final validation remained in this invocation. Resume with resume_run_dir: rerun deliverables/p-8c4897641cc52f62e005299aba86f5a3.ipynb (sha256 7acd1cd62c35f8fe071d2c2f711bfcd0dc7d5dbc7eed8cc7d3da1c1dd931cc96) top-to-bottom in a fresh CPU runtime; expec",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-8c4897641cc52f62e005299aba86f5a3.ipynb"
     }
   ]
 }
