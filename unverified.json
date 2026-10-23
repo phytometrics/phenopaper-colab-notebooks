@@ -679,6 +679,26 @@
       "notebook_sha256": "8d288814b8d1ea7883bda36503056c0616487062b42186febc499597059714cc",
       "source_sha256": "a27c89f53315299fefc11233b48ccd60d9779a465365458b5856acb67b24d843",
       "code_cells": 8
+    },
+    {
+      "public_id": "p-cd2cf156846799a5a246f2cd226e37c7",
+      "title": "Poplar-Studio: skeleton-guided reconstruction of editable 3D poplar seedling models from multi-view point clouds",
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Zhencan Wang",
+        "Huichun Zhang",
+        "Liming Bian",
+        "Lei Zhou",
+        "Yufeng Ge"
+      ],
+      "investigation_run_id": "p-cd2cf156846799a5a246f2cd226e37c7-20261019T110852Z-645682",
+      "status": "failed",
+      "reason": "CPU-only notebook authored and statically validated (four-method lamina reconstruction of embedded sample leaves raw/0001+0002 with pinned author code 4aabe9f25c0550b885c47cf4bb8d94f07c5591). Three supervised colab exec attempts on two fresh CPU runtimes all failed at the CLI's initial execute_code with WebSocketConnectionClosedException (x3) before any notebook cell ran; 0 saved output notebooks. Colab allocation was also severely degraded (assign long-polls of 3.5-13 min). EXECUTION FAILED / NOT VALIDATED; complete unexecuted notebook preserved in deliverables/ for the unverified-reference path. Not a missing-material conclusion.",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-cd2cf156846799a5a246f2cd226e37c7.ipynb",
+      "notebook_sha256": "c8c4442df39b643304fc94bec6ac2ea3ff526f68ff8102229cf7fd783c68fc91",
+      "source_sha256": "2da0b5b2055bc7a850a117aa86030b93a2f3a8cc8d0b44d3de1599b5cef8aca2",
+      "code_cells": 11
     }
   ]
 }
