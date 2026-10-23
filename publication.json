@@ -11004,6 +11004,39 @@
         "alt": "Smoothed canopy point cloud (subsample) of the Zenodo example, colored by normalized height Z (m) - rendered by the author pipeline's headless display line.",
         "caption": "Smoothed canopy point cloud (subsample) of the Zenodo example, colored by normalized height Z (m) - rendered by the author pipeline's headless display line."
       }
+    },
+    {
+      "public_id": "p-49a53057ac08e2bd706ee517c1575108",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Nonlinear distributed sensing of light patterns leads to perceptual distortions in plants.",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "authors": [
+        "Kempinski A, Porat A, Rivière M, Meroz Y."
+      ],
+      "doi": "10.1073/pnas.2614473123",
+      "compute": "CPU",
+      "validated_on": "2026-10-23",
+      "demonstration": "Refits the paper's Fig. 2C phototropic transduction function (ODR power law, sin(theta_f) vs I*cos(theta_f)) from the authors' Zenodo-deposited unilateral dose-response trajectories, recovering nu0/beta=0.71 and alpha=0.30 on CPU; single-figure scope only (no video re-tracking or simulations).",
+      "semantic_tags": [
+        "crop:sunflower",
+        "organ:stem",
+        "task:physiology",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Fig. 2C reproduction: ODR power-law fit of sin(theta_f) versus I*cos(theta_f) with propagated error bars, recovering alpha=0.30 and nu0/beta=0.71 from the deposited data.",
+        "caption": "Fig. 2C reproduction: ODR power-law fit of sin(theta_f) versus I*cos(theta_f) with propagated error bars, recovering alpha=0.30 and nu0/beta=0.71 from the deposited data."
+      }
     }
   ]
 }
