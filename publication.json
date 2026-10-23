@@ -11291,6 +11291,46 @@
         "alt": "Regenerated Friedman/Nemenyi critical-difference diagram for the 26 architectures (replication A), derived from the archived run outputs.",
         "caption": "Regenerated Friedman/Nemenyi critical-difference diagram for the 26 architectures (replication A), derived from the archived run outputs."
       }
+    },
+    {
+      "public_id": "p-f886fa233758b7d0b4c68aeb3f819dd6",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A morphology-driven workflow to decipher 3D electron microscopy segmentation in diatoms.",
+      "journal": "Cell Reports Methods",
+      "authors": [
+        "Clarisse Uwizeye",
+        "Serena Flori",
+        "Joanell Angulo",
+        "Pierre-Henri Jouneau",
+        "Benoit Gallet",
+        "Pascal Albanese",
+        "Giovanni Finazzi"
+      ],
+      "doi": "10.1016/j.crmeth.2026.101594",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-23",
+      "demonstration": "Pretrained MorphoLearn full-cell pt18 3D VNet infers the vacuole mask of one P. tricornutum FIB-SEM stack (Dice 0.67 vs the expert annotation); exact training preprocessing and split are unverified, and the sibling chloroplast checkpoint over-predicts.",
+      "semantic_tags": [
+        "modality:microscopy",
+        "organ:cell",
+        "task:morphology",
+        "task:segmentation",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Orthogonal slices of the raw FIB-SEM stack Pt18_stack16.nii with the expert vacuole (red) and chloroplast (yellow) annotations from S-BIAD2407.",
+        "caption": "Orthogonal slices of the raw FIB-SEM stack Pt18_stack16.nii with the expert vacuole (red) and chloroplast (yellow) annotations from S-BIAD2407."
+      }
     }
   ]
 }
