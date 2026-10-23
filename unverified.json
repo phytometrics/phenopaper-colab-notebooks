@@ -699,6 +699,30 @@
       "notebook_sha256": "c8c4442df39b643304fc94bec6ac2ea3ff526f68ff8102229cf7fd783c68fc91",
       "source_sha256": "2da0b5b2055bc7a850a117aa86030b93a2f3a8cc8d0b44d3de1599b5cef8aca2",
       "code_cells": 11
+    },
+    {
+      "public_id": "p-c02f23ea0e7fc12935556f564c977832",
+      "title": "A practical framework for rice bacterial blight severity classification using 3D multispectral sensing",
+      "journal": "Smart Agricultural Technology",
+      "authors": [
+        "Shivranjani Baruah",
+        "Ruiming Du",
+        "Dilip Kumar",
+        "Gourisankar Laha",
+        "Sunita Choudhary",
+        "Jana Kholová",
+        "Yu Jiang",
+        "Adam Joseph Bogdanove",
+        "Kaitlin Morey Gold"
+      ],
+      "investigation_run_id": "p-c02f23ea0e7fc12935556f564c977832-20261019T125246Z-721142",
+      "status": "failed",
+      "reason": "Environment failure: Colab kernel websocket path broken for all workers today (WebSocketConnectionClosedException on every exec; ws upgrade to /api/kernels/{id}/channels times out while REST is healthy; zero successful cell executions across all workers since 2026-10-13; google-colab-cli auto-updated to 0.7.5 on 2026-10-23 11:14 JST; a fresh-session allocation was also refused 412). Authored notebook preserved as UNVERIFIED reference at deliverables/p-c02f23ea0e7fc12935556f564c977832.ipynb (statically validated, outputs empty). Pinned author code 63f73a3 inspected; full text + Table 2 reference values verified via OpenAlex W7213899941. No notebook code was executed; do not publish as verified. Resume with resume_run_dir after the CLI/backend websocket issue is fixed.",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-c02f23ea0e7fc12935556f564c977832.ipynb",
+      "notebook_sha256": "79e866ff8be3bc2eb557af13e4f0f869a030005fa17ec40bce597e18fbaadb07",
+      "source_sha256": "22714aade51041bc63612f371b1f0d68a86097dab977d9c0d649d3c8867e7b3d",
+      "code_cells": 10
     }
   ]
 }
