@@ -1695,6 +1695,24 @@
       "reason": "Colab runtime kernel-startup degradation: 6 exec attempts on 4 fresh CPU VMs (3 regions) all failed with WebSocketConnectionClosedException at the initial kernel ping; kernels stayed execution_state='starting' (colab.log evidence), and the concurrently running p-49a53057 worker failed identically. Notebook is complete and statically validated (deliverables/p-24857da8b6b0a630f00984abf8e024b1.ipynb, author code embedded verbatim from commit 3cc9885) but NOT executed. colab stop/status also hang (logs/stop2.log). Retry with resume_run_dir when Colab kernel startup recovers; keep this run dir.",
       "created_on": "2026-10-23",
       "notebook_path": "notebooks/unverified/p-24857da8b6b0a630f00984abf8e024b1.ipynb"
+    },
+    {
+      "public_id": "p-a686209c837f9985acc05f1403009a48",
+      "title": "Open-source hardware platform for automated, non-invasive plant phenotyping through combined RGB and thermal imaging",
+      "journal": "HardwareX",
+      "authors": [
+        "Marcel Bentancor",
+        "Esteban Casaretto",
+        "Omar Borsani",
+        "Gastón Quero",
+        "Mercedes Muñoz"
+      ],
+      "investigation_run_id": "p-a686209c837f9985acc05f1403009a48-20261022T122811Z-2664979",
+      "run_id": "p-a686209c837f9985acc05f1403009a48-20261023T113443Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-23T12:01:18.121Z] print(\"all author excerpts embedded verbatim\") | [2026-10-23T12:01:18.121Z] EOF failed | [2026-10-23T12:01:18.121Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-a686209c837f9985acc05f1403009a48.ipynb"
     }
   ]
 }
