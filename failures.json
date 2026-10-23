@@ -1566,6 +1566,20 @@
         "Kalhari Manawasinghe",
         "Karen Tanino"
       ]
+    },
+    {
+      "public_id": "p-687457d4e2d069bdb1d54e06a735fab6",
+      "title": "Root Age Structure Governs Long-Term Architecture and Hydraulic Function in Perennial Plants: a Modelling Framework",
+      "journal": null,
+      "authors": [
+        "Fichtl L, Giraud M, Leitner D, Schnepf A, Steng K, Friedel M."
+      ],
+      "investigation_run_id": "p-687457d4e2d069bdb1d54e06a735fab6-20261021T164548Z-2175619",
+      "run_id": "p-687457d4e2d069bdb1d54e06a735fab6-20261023T005608Z-7b7db5d9",
+      "status": "failed",
+      "reason": "Colab backend cannot start kernels: five exec attempts on two fresh CPU VMs and CLI 0.7.4/0.7.5 all failed with server-closed kernel websocket (kernel stuck in execution_state 'starting'); zero cells ran. Authored, static-validated notebook preserved in deliverables/ as UNVERIFIED reference; source investigation and feasibility completed.",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-687457d4e2d069bdb1d54e06a735fab6.ipynb"
     }
   ]
 }

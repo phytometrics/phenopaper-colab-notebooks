@@ -612,6 +612,22 @@
       "notebook_sha256": "c9c7ca8b2c24fe0ad6ab6899a2c60541cc551f2d9b1971b49592fcd408899f3d",
       "source_sha256": "d1a70513314007ceb7ab3597349eb8b7fe1d108d31394a9f227c89fe1250b834",
       "code_cells": 15
+    },
+    {
+      "public_id": "p-687457d4e2d069bdb1d54e06a735fab6",
+      "title": "Root Age Structure Governs Long-Term Architecture and Hydraulic Function in Perennial Plants: a Modelling Framework",
+      "journal": null,
+      "authors": [
+        "Fichtl L, Giraud M, Leitner D, Schnepf A, Steng K, Friedel M."
+      ],
+      "investigation_run_id": "p-687457d4e2d069bdb1d54e06a735fab6-20261021T164548Z-2175619",
+      "status": "failed",
+      "reason": "Colab backend cannot start kernels: five exec attempts on two fresh CPU VMs and CLI 0.7.4/0.7.5 all failed with server-closed kernel websocket (kernel stuck in execution_state 'starting'); zero cells ran. Authored, static-validated notebook preserved in deliverables/ as UNVERIFIED reference; source investigation and feasibility completed.",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-687457d4e2d069bdb1d54e06a735fab6.ipynb",
+      "notebook_sha256": "8abc16931eb5b1ae250f6990ee35ef32c63ea1acd849ab158170eec71b1e2b71",
+      "source_sha256": "bf2bf8c0a2676c03348fb8e81fbbbf3f5d68b27d58d44604ae7a95631b0d7671",
+      "code_cells": 20
     }
   ]
 }
