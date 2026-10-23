@@ -701,6 +701,24 @@
       "code_cells": 11
     },
     {
+      "public_id": "p-79eb695f0974354f466e2604639ff72b",
+      "title": "User-friendly software for high-throughput processing of chlorophyll fluorescence images to assess plant stress responses: fvfmPy and fvfmR packages",
+      "journal": "bioRxiv",
+      "authors": [
+        "Garen, J. C.",
+        "Arnold, P. A.",
+        "Crous, K. Y."
+      ],
+      "investigation_run_id": "p-79eb695f0974354f466e2604639ff72b-20261021T143441Z-2121581",
+      "status": "failed",
+      "reason": "Notebook authored and statically validated but not executed: Colab kernel websockets cannot be established from this host (WebSocketConnectionClosedException on both exec attempts; day-long cross-worker Errno 110 timeouts and 105 Google 412 errors on /tun/m/ endpoints). CPU runtime recorded capacity_unavailable; queue should requeue with delay and resume_run_dir runs/p-79eb695f0974354f466e2604639ff72b-20261023T082833Z.",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-79eb695f0974354f466e2604639ff72b.ipynb",
+      "notebook_sha256": "63086fa2298f239e1bdba29496381ee7c186614f7755ef9f5cf8a891fd5c6834",
+      "source_sha256": "33f4c474a8e21c059ebb2c0bdbe173e632f4be0c4d23dbb8667c14764cfabfbd",
+      "code_cells": 10
+    },
+    {
       "public_id": "p-c02f23ea0e7fc12935556f564c977832",
       "title": "A practical framework for rice bacterial blight severity classification using 3D multispectral sensing",
       "journal": "Smart Agricultural Technology",
@@ -717,29 +735,11 @@
       ],
       "investigation_run_id": "p-c02f23ea0e7fc12935556f564c977832-20261019T125246Z-721142",
       "status": "failed",
-      "reason": "Environment failure: Colab kernel websocket path broken for all workers today (WebSocketConnectionClosedException on every exec; ws upgrade to /api/kernels/{id}/channels times out while REST is healthy; zero successful cell executions across all workers since 2026-10-13; google-colab-cli auto-updated to 0.7.5 on 2026-10-23 11:14 JST; a fresh-session allocation was also refused 412). Authored notebook preserved as UNVERIFIED reference at deliverables/p-c02f23ea0e7fc12935556f564c977832.ipynb (statically validated, outputs empty). Pinned author code 63f73a3 inspected; full text + Table 2 reference values verified via OpenAlex W7213899941. No notebook code was executed; do not publish as verified. Resume with resume_run_dir after the CLI/backend websocket issue is fixed.",
+      "reason": "Resume attempt 2026-10-23T10:00Z: Colab allocation hangs account-wide. Two bounded `colab new -s blb-rice-9f718eb7` attempts (120 s, 420 s) were killed mid-allocation with no session record; `colab sessions` and `colab status -s blb-rice-probe-07c8136d` also hang (exit 124). CLI debug log shows GET/POST /tun/m/assign with no response (one 412) and a GET /tun/m/unassign of stale endpoint m-s-kkb-usw3b1-2rwfg5pfj3d0v hanging since 18:13:18 JST; kernel-ws path still broken. Sibling worker p-8332fc95 was simultaneously waiting on the same hung allocation endpoint; backend demonstrably serves other workers today. Not a notebook defect. No code executed; UNVERIFIED reference notebook preserved at deliverables/p-c02f23ea0e7fc12935556f564c977832.ipynb (outputs empty). Intake re-verified: investigation run 721142 still latest, not superseded. Re-queue with backoff; resume_run_dir once the stale assignment is freed server-side or the CLI regression is fixed.",
       "created_on": "2026-10-23",
       "notebook_path": "notebooks/unverified/p-c02f23ea0e7fc12935556f564c977832.ipynb",
-      "notebook_sha256": "79e866ff8be3bc2eb557af13e4f0f869a030005fa17ec40bce597e18fbaadb07",
+      "notebook_sha256": "d219b6bbffd7bc1fb64941b72b8693d84c241a7c9469d3addfc54bfbae0d1b16",
       "source_sha256": "22714aade51041bc63612f371b1f0d68a86097dab977d9c0d649d3c8867e7b3d",
-      "code_cells": 10
-    },
-    {
-      "public_id": "p-79eb695f0974354f466e2604639ff72b",
-      "title": "User-friendly software for high-throughput processing of chlorophyll fluorescence images to assess plant stress responses: fvfmPy and fvfmR packages",
-      "journal": "bioRxiv",
-      "authors": [
-        "Garen, J. C.",
-        "Arnold, P. A.",
-        "Crous, K. Y."
-      ],
-      "investigation_run_id": "p-79eb695f0974354f466e2604639ff72b-20261021T143441Z-2121581",
-      "status": "failed",
-      "reason": "Notebook authored and statically validated but not executed: Colab kernel websockets cannot be established from this host (WebSocketConnectionClosedException on both exec attempts; day-long cross-worker Errno 110 timeouts and 105 Google 412 errors on /tun/m/ endpoints). CPU runtime recorded capacity_unavailable; queue should requeue with delay and resume_run_dir runs/p-79eb695f0974354f466e2604639ff72b-20261023T082833Z.",
-      "created_on": "2026-10-23",
-      "notebook_path": "notebooks/unverified/p-79eb695f0974354f466e2604639ff72b.ipynb",
-      "notebook_sha256": "63086fa2298f239e1bdba29496381ee7c186614f7755ef9f5cf8a891fd5c6834",
-      "source_sha256": "33f4c474a8e21c059ebb2c0bdbe173e632f4be0c4d23dbb8667c14764cfabfbd",
       "code_cells": 10
     }
   ]
