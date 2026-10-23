@@ -757,6 +757,27 @@
       "notebook_sha256": "dd6642cf667f6d8bfa1d14b7222e963ac06ca5a83b56aa5ef52e948507461e5c",
       "source_sha256": "7a680420ae4747fd1143c14dc58b726b6edbbde852b712bfed2c93867da8e213",
       "code_cells": 12
+    },
+    {
+      "public_id": "p-f5991cbb8e41b730312f040c2f8c6013",
+      "title": "HAE-Net: A hierarchy-aware enhanced method for 3D panoptic segmentation in orchard scenes",
+      "journal": "Plant Phenomics",
+      "authors": [
+        "Shuo Zhang",
+        "Yiqun Wang",
+        "Lianchuan Shi",
+        "Ze Ji",
+        "Xiude Chen",
+        "Weikuan Jia"
+      ],
+      "investigation_run_id": "p-f5991cbb8e41b730312f040c2f8c6013-20261023T004511Z-2936109",
+      "status": "blocked",
+      "reason": "HAE-Net (Plant Phenomics 2026) blocked by a source/material combination: (1) the only released checkpoint is a BaiduYun share requiring a logged-in Baidu account (no GitHub/HF mirror), so inference is not runnable in a public notebook; (2) the HOPS dataset host www.ipb.uni-bonn.de was unreachable by TCP timeout from the DGX authoring host, from TWO independent fresh Colab CPU VMs, and during the prior investigation (4 attempts), so even the data/annotation-preview partial could not obtain its input at validation time 2026-10-23. Partial notebook preserved at deliverables/p-f5991cbb8e41b730312f040c2f8c6013.ipynb (27 cells; runtime acquisition + reference-annotation preview cells that execute when HOPS is reachable; explicit RuntimeError guard and markdown-only documentation for the blocked inference path). Full text verified via Europe PMC; author code pinned at fc94bacbf4a4cc8b690672f24ea8203dc122c289; no execution-verified publication; host queue may publish the partial as an UNVERIFI",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-f5991cbb8e41b730312f040c2f8c6013.ipynb",
+      "notebook_sha256": "171808fec5d5e7cf070a75c75b78ad1fd2edea8e4e90f280f10406021f71d719",
+      "source_sha256": "17aa8060bb1165d766c271ce9ae17b2b577025e5b44fad8cfddb8d2675f68437",
+      "code_cells": 10
     }
   ]
 }
