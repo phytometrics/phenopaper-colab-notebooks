@@ -11331,6 +11331,85 @@
         "alt": "Orthogonal slices of the raw FIB-SEM stack Pt18_stack16.nii with the expert vacuole (red) and chloroplast (yellow) annotations from S-BIAD2407.",
         "caption": "Orthogonal slices of the raw FIB-SEM stack Pt18_stack16.nii with the expert vacuole (red) and chloroplast (yellow) annotations from S-BIAD2407."
       }
+    },
+    {
+      "public_id": "p-e67d6fe14db4659b99164e1494edc5a9",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Artemis and image Safari - crop imagery datasets spanning globally critical crop species.",
+      "journal": "CABI Publishing",
+      "authors": [
+        "Stephen Mutuvi",
+        "David Guerena",
+        "Marcin Zych",
+        "Shekinah Henday",
+        "Ellena Girma",
+        "Tumaini Mungubariki",
+        "Beverly Agesa",
+        "Marek Zochowski",
+        "Daniel Ciolek",
+        "Michael Lazowik",
+        "Jiehua Chen",
+        "Leah Goeke",
+        "Justine Omwandho",
+        "Grace del Palma",
+        "Jackson Malabi",
+        "Sithembinkosi Phomebeya",
+        "Maria Sanena",
+        "Juliana T. C. Marcos",
+        "Harish Ghandi",
+        "Mark Nas",
+        "Abhishek Rathore",
+        "Thiago Mendes",
+        "Shailesh Yadav",
+        "Kossi Lorimpo Adjah",
+        "Lennart Woltering",
+        "Elice Lekasio",
+        "Bryton Mushi",
+        "Leah Abraham",
+        "Gaudensia Katunzi",
+        "Sekou L. Remy",
+        "Tavonga Siyavora",
+        "Michael Selvaraj",
+        "Jorge Casas",
+        "Ousmane Boukar",
+        "Patrick Ongom",
+        "Gloria Valentine Nakato",
+        "Gerald Mwanje",
+        "Paterne Agre",
+        "Marie-Angélique Laporte",
+        "Teshale Asefa",
+        "Roy Odama",
+        "Clare Mukankusi",
+        "William Wu"
+      ],
+      "doi": "10.31220/agrirxiv.2026.00491",
+      "compute": "CPU",
+      "validated_on": "2026-10-23",
+      "demonstration": "Reproduced the authors' pinned S3 tutorial and verified the Artemis common-bean flower instance-segmentation set (854 images / 14434 annotations match docs) with a reference-annotation overlay and a 53%-matched field-metadata join; single-example walkthrough, paper full text unavailable.",
+      "semantic_tags": [
+        "crop:common_bean",
+        "crop:cowpea",
+        "crop:sorghum",
+        "environment:field",
+        "organ:flower",
+        "organ:leaf",
+        "organ:stem",
+        "task:annotation_qc"
+      ],
+      "preview": {
+        "alt": "Original Artemis annotated image (left) with the dataset's reference flower/plant instance-segmentation polygons (right; ground-truth annotations, not model predictions).",
+        "caption": "Original Artemis annotated image (left) with the dataset's reference flower/plant instance-segmentation polygons (right; ground-truth annotations, not model predictions)."
+      }
     }
   ]
 }
