@@ -11037,6 +11037,40 @@
         "alt": "Fig. 2C reproduction: ODR power-law fit of sin(theta_f) versus I*cos(theta_f) with propagated error bars, recovering alpha=0.30 and nu0/beta=0.71 from the deposited data.",
         "caption": "Fig. 2C reproduction: ODR power-law fit of sin(theta_f) versus I*cos(theta_f) with propagated error bars, recovering alpha=0.30 and nu0/beta=0.71 from the deposited data."
       }
+    },
+    {
+      "public_id": "p-8332fc954473ea68e8d8957853a374a9",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "DeepBranchAI: a transferable 3D segmentation model for branching networks",
+      "journal": "Frontiers in Artificial Intelligence",
+      "authors": [
+        "Alexander V. Maltsev",
+        "Lisa M. Hartnell",
+        "Luigi Ferrucci"
+      ],
+      "doi": "10.3389/frai.2026.1862872",
+      "compute": "CPU",
+      "validated_on": "2026-10-23",
+      "demonstration": "CPU reproduction of DeepBranchAI's Table 6 external-transfer statistics: the authors' pinned scripts recompute 9 paired Wilcoxon+Holm tests from 68 released per-volume rows, all matching tracked values (atol 1e-12) and the paper's §4.2.2 claims; training, inference and mask-level metrics are out of scope.",
+      "semantic_tags": [
+        "modality:microscopy",
+        "modality:xray_ct",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Paired per-volume clDice differences (out-of-fold transfer vs baseline) with Holm-adjusted p-values, recomputed in-notebook from the released per-volume CSV at DeepBranchAI commit 43360fe8.",
+        "caption": "Paired per-volume clDice differences (out-of-fold transfer vs baseline) with Holm-adjusted p-values, recomputed in-notebook from the released per-volume CSV at DeepBranchAI commit 43360fe8."
+      }
     }
   ]
 }
