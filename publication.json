@@ -11071,6 +11071,51 @@
         "alt": "Paired per-volume clDice differences (out-of-fold transfer vs baseline) with Holm-adjusted p-values, recomputed in-notebook from the released per-volume CSV at DeepBranchAI commit 43360fe8.",
         "caption": "Paired per-volume clDice differences (out-of-fold transfer vs baseline) with Holm-adjusted p-values, recomputed in-notebook from the released per-volume CSV at DeepBranchAI commit 43360fe8."
       }
+    },
+    {
+      "public_id": "p-59663e5421b0f031f5bfb5d820418934",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Embeddings from standardized sorghum leaf images capture variation in disease response that human scoring misses",
+      "journal": "bioRxiv",
+      "authors": [
+        "Davis, J. M.",
+        "Turkus, J.",
+        "Arora, S.",
+        "Cuellar-Perez, K. M.",
+        "Gomez-Trejo, L. F.",
+        "Ruvalcaba-Ramirez, R.",
+        "Ullagaddi, C.",
+        "Kuang, X.",
+        "Punnuri, S.",
+        "Kim, S.-B.",
+        "Schnable, J. C."
+      ],
+      "doi": "10.64898/2026.09.21.753202",
+      "compute": "CPU",
+      "validated_on": "2026-10-23",
+      "demonstration": "Executes the authors' pinned single-image CPU quick start (Methods 4.4 leaf segmentation into a transparent mask) plus the Methods 4.6 ExG unhealthy-tissue measurement with the calibrated -0.0303 threshold on one provided chamber photograph; embeddings, random forests, and GWAS remain out of scope.",
+      "semantic_tags": [
+        "crop:sorghum",
+        "environment:field",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Original chamber photograph, its author-code leaf segmentation mask (3,844,220 pixels, valid 750k-7.5M range), and the red mask overlay for the 1064 example leaf.",
+        "caption": "Original chamber photograph, its author-code leaf segmentation mask (3,844,220 pixels, valid 750k-7.5M range), and the red mask overlay for the 1064 example leaf."
+      }
     }
   ]
 }
