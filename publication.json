@@ -11256,6 +11256,41 @@
         "alt": "PlantSeg test image apple_black_rot_143.jpg with the authors' reference polygon annotations overlaid in red (ground truth, not predictions).",
         "caption": "PlantSeg test image apple_black_rot_143.jpg with the authors' reference polygon annotations overlaid in red (ground truth, not predictions)."
       }
+    },
+    {
+      "public_id": "p-6ff5f2b946a3cd9a5d63f660b9eab3db",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Saturated In-Domain, Separable Out-of-Domain: A Hierarchical Multi-Scale Lesion-Attention Network and a Zero-Shot Cross-Corpus Protocol for Multi-Crop Leaf Disease Classification",
+      "journal": "Symmetry",
+      "authors": [
+        "Songul Karakus",
+        "Mehmet Burukanli",
+        "Davut Ari"
+      ],
+      "doi": "10.3390/sym18091557",
+      "compute": "CPU",
+      "validated_on": "2026-10-23",
+      "demonstration": "Executes the authors' unmodified paper/scripts/reproduce.sh chain from the pinned HMLA-Net repository plus the 243 MB predictions.zip on CPU, regenerating every quoted number (verified identical to the frozen reference) and the paper's figures and statistics; it validates the reporting chain only and includes no training or inference.",
+      "semantic_tags": [
+        "crop:mango",
+        "organ:leaf",
+        "task:classification",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Regenerated Friedman/Nemenyi critical-difference diagram for the 26 architectures (replication A), derived from the archived run outputs.",
+        "caption": "Regenerated Friedman/Nemenyi critical-difference diagram for the 26 architectures (replication A), derived from the archived run outputs."
+      }
     }
   ]
 }
