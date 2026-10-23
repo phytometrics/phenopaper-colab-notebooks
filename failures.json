@@ -1665,6 +1665,22 @@
       "reason": "Environment failure: Colab kernel websocket path broken for all workers today (WebSocketConnectionClosedException on every exec; ws upgrade to /api/kernels/{id}/channels times out while REST is healthy; zero successful cell executions across all workers since 2026-10-13; google-colab-cli auto-updated to 0.7.5 on 2026-10-23 11:14 JST; a fresh-session allocation was also refused 412). Authored notebook preserved as UNVERIFIED reference at deliverables/p-c02f23ea0e7fc12935556f564c977832.ipynb (statically validated, outputs empty). Pinned author code 63f73a3 inspected; full text + Table 2 reference values verified via OpenAlex W7213899941. No notebook code was executed; do not publish as verified. Resume with resume_run_dir after the CLI/backend websocket issue is fixed.",
       "created_on": "2026-10-23",
       "notebook_path": "notebooks/unverified/p-c02f23ea0e7fc12935556f564c977832.ipynb"
+    },
+    {
+      "public_id": "p-79eb695f0974354f466e2604639ff72b",
+      "title": "User-friendly software for high-throughput processing of chlorophyll fluorescence images to assess plant stress responses: fvfmPy and fvfmR packages",
+      "journal": "bioRxiv",
+      "authors": [
+        "Garen, J. C.",
+        "Arnold, P. A.",
+        "Crous, K. Y."
+      ],
+      "investigation_run_id": "p-79eb695f0974354f466e2604639ff72b-20261021T143441Z-2121581",
+      "run_id": "p-79eb695f0974354f466e2604639ff72b-20261023T082833Z",
+      "status": "failed",
+      "reason": "Notebook authored and statically validated but not executed: Colab kernel websockets cannot be established from this host (WebSocketConnectionClosedException on both exec attempts; day-long cross-worker Errno 110 timeouts and 105 Google 412 errors on /tun/m/ endpoints). CPU runtime recorded capacity_unavailable; queue should requeue with delay and resume_run_dir runs/p-79eb695f0974354f466e2604639ff72b-20261023T082833Z.",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-79eb695f0974354f466e2604639ff72b.ipynb"
     }
   ]
 }
