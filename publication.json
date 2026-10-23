@@ -11217,6 +11217,45 @@
         "alt": "TeaBud training image with ground-truth tea_bud annotations (green) from the author dataset label file.",
         "caption": "TeaBud training image with ground-truth tea_bud annotations (green) from the author dataset label file."
       }
+    },
+    {
+      "public_id": "p-b8d2a3b348e50a3c3e211300a362cae1",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Preprocessing strategies for plant disease instance segmentation: annotation efficiency, context signals, and dual-metric evaluation on PlantSeg",
+      "journal": "Frontiers in Artificial Intelligence",
+      "authors": [
+        "Youssef Natij",
+        "Hajar El Karch",
+        "Abdelmounaim Belaaribi",
+        "Oumaima Lanaya",
+        "Meriem El Atik",
+        "Abdelkader Mezouari"
+      ],
+      "doi": "10.3389/frai.2026.1835997",
+      "compute": "CPU",
+      "validated_on": "2026-10-23",
+      "demonstration": "Single-image inference with the released mask_guided YOLO11m-seg checkpoint after an AI-assisted port of the paper's Algorithm 1 union-crop (tau=0.85, rho=0.20) on one PlantSeg test image, with per-instance IoU against reference polygons; the full 1,146-image benchmark evaluation is out of scope.",
+      "semantic_tags": [
+        "environment:field",
+        "task:preprocessing",
+        "task:segmentation",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "PlantSeg test image apple_black_rot_143.jpg with the authors' reference polygon annotations overlaid in red (ground truth, not predictions).",
+        "caption": "PlantSeg test image apple_black_rot_143.jpg with the authors' reference polygon annotations overlaid in red (ground truth, not predictions)."
+      }
     }
   ]
 }
