@@ -662,6 +662,23 @@
       "notebook_sha256": "029c1fca88e22410975d25893449582714de75ad0e3323df21f56f67dca9e1c3",
       "source_sha256": "272fcc61d4c293a1e636ca39268109fc5bb7f7b56c65befd79f22a1924684dec",
       "code_cells": 11
+    },
+    {
+      "public_id": "p-c36d1f29a831a7708295479260406a78",
+      "title": "Biology-aware association for identity-consistent leaf tracking in top-down plant phenotyping",
+      "journal": "Frontiers in Plant Science",
+      "authors": [
+        "Dongze Zhou",
+        "Cong Zhang"
+      ],
+      "investigation_run_id": "p-c36d1f29a831a7708295479260406a78-20261019T081049Z-502271",
+      "status": "failed",
+      "reason": "Notebook authored and statically validated but NOT executed: every colab exec failed with WebSocketConnectionClosedException on the first kernel send across 2 fresh CPU sessions in 2 regions; ~/.config/colab-cli/colab.log shows all kernels created since 2026-10-23 ~02:11 UTC stuck in execution_state 'starting' (also for other workers' sessions) followed by [Errno 110] Connection timed out. Systemic Colab-backend/CLI-0.7.5 execution-environment failure, not a scientific missing-material conclusion. Notebook preserved at deliverables/p-c36d1f29a831a7708295479260406a78.ipynb for the unverified-reference path; retry via resume_run_dir after backend recovery (probe: logs/probe_layout.ipynb).",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-c36d1f29a831a7708295479260406a78.ipynb",
+      "notebook_sha256": "8d288814b8d1ea7883bda36503056c0616487062b42186febc499597059714cc",
+      "source_sha256": "a27c89f53315299fefc11233b48ccd60d9779a465365458b5856acb67b24d843",
+      "code_cells": 8
     }
   ]
 }
