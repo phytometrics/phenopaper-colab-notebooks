@@ -11116,6 +11116,40 @@
         "alt": "Original chamber photograph, its author-code leaf segmentation mask (3,844,220 pixels, valid 750k-7.5M range), and the red mask overlay for the 1064 example leaf.",
         "caption": "Original chamber photograph, its author-code leaf segmentation mask (3,844,220 pixels, valid 750k-7.5M range), and the red mask overlay for the 1064 example leaf."
       }
+    },
+    {
+      "public_id": "p-a686209c837f9985acc05f1403009a48",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Open-source hardware platform for automated, non-invasive plant phenotyping through combined RGB and thermal imaging",
+      "journal": "HardwareX",
+      "authors": [
+        "Marcel Bentancor",
+        "Esteban Casaretto",
+        "Omar Borsani",
+        "Gastón Quero",
+        "Mercedes Muñoz"
+      ],
+      "doi": "10.1016/j.ohx.2026.e00846",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-23",
+      "demonstration": "Executed the paper's full RGB leaf-area branch (Sec. 7.1): geometric correction, released-checkpoint U-Net segmentation and v5 post-processing over all 528 released captures, and the per-plant R-vs-S temporal leaf-area figure; no numerical reference values exist in the paper, so comparison is qualitative, and CPU runtime was not separately validated.",
+      "semantic_tags": [
+        "modality:thermal"
+      ],
+      "preview": {
+        "alt": "Corrected RGB input (authors' capture) with the U-Net plant-mask prediction overlaid in green — one irrigated (R) and one drought (S) plant at the first and last session. Prediction, not human annotation.",
+        "caption": "Corrected RGB input (authors' capture) with the U-Net plant-mask prediction overlaid in green — one irrigated (R) and one drought (S) plant at the first and last session. Prediction, not human annotation."
+      }
     }
   ]
 }

@@ -778,26 +778,6 @@
       "notebook_sha256": "171808fec5d5e7cf070a75c75b78ad1fd2edea8e4e90f280f10406021f71d719",
       "source_sha256": "17aa8060bb1165d766c271ce9ae17b2b577025e5b44fad8cfddb8d2675f68437",
       "code_cells": 10
-    },
-    {
-      "public_id": "p-a686209c837f9985acc05f1403009a48",
-      "title": "Open-source hardware platform for automated, non-invasive plant phenotyping through combined RGB and thermal imaging",
-      "journal": "HardwareX",
-      "authors": [
-        "Marcel Bentancor",
-        "Esteban Casaretto",
-        "Omar Borsani",
-        "Gastón Quero",
-        "Mercedes Muñoz"
-      ],
-      "investigation_run_id": "p-a686209c837f9985acc05f1403009a48-20261022T122811Z-2664979",
-      "status": "failed",
-      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-23T12:01:18.121Z] print(\"all author excerpts embedded verbatim\") | [2026-10-23T12:01:18.121Z] EOF failed | [2026-10-23T12:01:18.121Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-23",
-      "notebook_path": "notebooks/unverified/p-a686209c837f9985acc05f1403009a48.ipynb",
-      "notebook_sha256": "c129601666eeb6694b1d37a8b0d3e579c39494eb733b392d916cc83008830703",
-      "source_sha256": "72591219a0c84d4e2ab32828e72619419a3ca088ec2686ff004ce8cc71405546",
-      "code_cells": 20
     }
   ]
 }
