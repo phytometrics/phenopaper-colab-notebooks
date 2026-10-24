@@ -11897,6 +11897,51 @@
         "alt": "Holdout confusion matrix of the 4-class binned-VI RandomForest produced by the authors' unmodified pipeline (307 holdout rows, severity classes 0/3/5/9).",
         "caption": "Holdout confusion matrix of the 4-class binned-VI RandomForest produced by the authors' unmodified pipeline (307 holdout rows, severity classes 0/3/5/9)."
       }
+    },
+    {
+      "public_id": "p-cd2cf156846799a5a246f2cd226e37c7",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Poplar-Studio: skeleton-guided reconstruction of editable 3D poplar seedling models from multi-view point clouds",
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Zhencan Wang",
+        "Huichun Zhang",
+        "Liming Bian",
+        "Lei Zhou",
+        "Yufeng Ge"
+      ],
+      "doi": "10.1016/j.compag.2026.112454",
+      "compute": "CPU",
+      "validated_on": "2026-10-24",
+      "demonstration": "Re-runs the paper's four lamina-reconstruction methods (PCA, adaptive/fixed Poisson, ball pivoting) on two embedded benchmark leaves with the author's pinned code and compares areas against the frozen benchmark table and measured references; two leaves only, no segmentation/skeleton stages.",
+      "semantic_tags": [
+        "crop:poplar",
+        "modality:photogrammetry",
+        "modality:point_cloud",
+        "organ:leaf",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:reconstruction",
+        "task:segmentation",
+        "task:skeletonization",
+        "trait:architecture",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Demo leaf 0043: raw input point cloud (left) versus the author's released PCA reconstruction vertices (right), XY view colored by height.",
+        "caption": "Demo leaf 0043: raw input point cloud (left) versus the author's released PCA reconstruction vertices (right), XY view colored by height."
+      }
     }
   ]
 }
