@@ -449,24 +449,6 @@
       "code_cells": 15
     },
     {
-      "public_id": "p-79eb695f0974354f466e2604639ff72b",
-      "title": "User-friendly software for high-throughput processing of chlorophyll fluorescence images to assess plant stress responses: fvfmPy and fvfmR packages",
-      "journal": "bioRxiv",
-      "authors": [
-        "Garen, J. C.",
-        "Arnold, P. A.",
-        "Crous, K. Y."
-      ],
-      "investigation_run_id": "p-79eb695f0974354f466e2604639ff72b-20261021T143441Z-2121581",
-      "status": "failed",
-      "reason": "Notebook authored and statically validated but not executed: Colab kernel websockets cannot be established from this host (WebSocketConnectionClosedException on both exec attempts; day-long cross-worker Errno 110 timeouts and 105 Google 412 errors on /tun/m/ endpoints). CPU runtime recorded capacity_unavailable; queue should requeue with delay and resume_run_dir runs/p-79eb695f0974354f466e2604639ff72b-20261023T082833Z.",
-      "created_on": "2026-10-23",
-      "notebook_path": "notebooks/unverified/p-79eb695f0974354f466e2604639ff72b.ipynb",
-      "notebook_sha256": "63086fa2298f239e1bdba29496381ee7c186614f7755ef9f5cf8a891fd5c6834",
-      "source_sha256": "33f4c474a8e21c059ebb2c0bdbe173e632f4be0c4d23dbb8667c14764cfabfbd",
-      "code_cells": 10
-    },
-    {
       "public_id": "p-24857da8b6b0a630f00984abf8e024b1",
       "title": "Dim green light enables day-and-night monitoring of leaf movements.",
       "journal": "The Plant journal : for cell and molecular biology",

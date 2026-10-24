@@ -11976,6 +11976,43 @@
         "alt": "Flight lanes, exposure stations and optimized GCP layout over the mapping area, computed with the authors' R code (server.R) for sample project 001_Sony_A9_M600P.json.",
         "caption": "Flight lanes, exposure stations and optimized GCP layout over the mapping area, computed with the authors' R code (server.R) for sample project 001_Sony_A9_M600P.json."
       }
+    },
+    {
+      "public_id": "p-79eb695f0974354f466e2604639ff72b",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "User-friendly software for high-throughput processing of chlorophyll fluorescence images to assess plant stress responses: fvfmPy and fvfmR packages",
+      "journal": "bioRxiv",
+      "authors": [
+        "Garen, J. C.",
+        "Arnold, P. A.",
+        "Crous, K. Y."
+      ],
+      "doi": "10.64898/2026.10.06.757212",
+      "compute": "CPU",
+      "validated_on": "2026-10-24",
+      "demonstration": "CPU reproduction of fvfmPy's default-parameter Fo/Fm/Fv-Fm extraction from the authors' bundled example1.pim (45 leaf-disc ROIs on a 5x9 grid) using the pinned author modules, with one documented scikit-image keyword compatibility shim; one example only, not a validation of published dataset-level results.",
+      "semantic_tags": [
+        "modality:fluorescence",
+        "organ:leaf",
+        "task:physiology",
+        "task:segmentation",
+        "trait:photosynthesis",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "example1.pim Fo frame with the 45 automatically detected leaf-disc ROIs (5x9 grid, labeled row,col) overlaid — author fvfmPy default segmentation, commit 90d1823",
+        "caption": "example1.pim Fo frame with the 45 automatically detected leaf-disc ROIs (5x9 grid, labeled row,col) overlaid — author fvfmPy default segmentation, commit 90d1823"
+      }
     }
   ]
 }
