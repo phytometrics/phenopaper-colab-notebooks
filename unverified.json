@@ -494,6 +494,22 @@
       "notebook_sha256": "bc3375bdcc145f8de9a2e65f3e3a4c937fe64c9a2a584b72d18df7a61dba6551",
       "source_sha256": "ec22147d24d1db1580fd5013c576c65fe37202c9f2fa3b6aa19c3d1d68373688",
       "code_cells": 14
+    },
+    {
+      "public_id": "p-4708ede3ed4975dbbd6c7ea269736398",
+      "title": "TipQuant: a robust algorithm for quantitative analysis of spatiotemporally dynamic activities in tip-growing cells.",
+      "journal": "The New phytologist",
+      "authors": [
+        "Guo J, Le Gouic J, Rosenthal R, Zou A, Zhou X, Brunel N, Yang Z, Cui X."
+      ],
+      "investigation_run_id": "p-4708ede3ed4975dbbd6c7ea269736398-20260930T144900Z-3735473",
+      "status": "blocked",
+      "reason": "Source/material blocker: Dryad doi:10.5061/dryad.dr7sqvbd2 is inaccessible to anonymous automated downloads. Verified 2026-10-25 in Colab: per-file and dataset-level /api/v2/.../download both return 401 (openapi.yml: anonymous users 'are not allowed to download data files'; API-account bearer token required), /downloads/file_stream is behind an Anubis proof-of-work bot check (403/challenge, not bypassed), and no Zenodo/Wayback mirror exists. The essential sample Fig4A_ROI_A_YFP-RABA4d.tif (file 4855384) and its calibration (PIXEL_SIZE/TIMESTEP, only hoped for in deposit README.md file 4855391) are therefore unavailable; the paper and Methods S1-S3 state no calibration. Delivered CODE-ONLY / NOT EXECUTED notebook at deliverables/p-4708ede3ed4975dbbd6c7ea269736398.ipynb (guard-first, statically validated, never executed); unverified-reference publication is left to the host queue. Unblocking requires a permitted copy of the two deposit files or a Dryad API account plus the Fig. 4 calibra",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-4708ede3ed4975dbbd6c7ea269736398.ipynb",
+      "notebook_sha256": "88c9bb6141c09ea99fc1a29514f6b71d80dbcb471bc5afa3915f8d5a09f17395",
+      "source_sha256": "a6f1c4b6e96b5507513a1f93af5e9964909355b8968fb98e4fd29f4727176cef",
+      "code_cells": 8
     }
   ]
 }
