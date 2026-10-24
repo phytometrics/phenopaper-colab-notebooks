@@ -530,22 +530,6 @@
       "code_cells": 15
     },
     {
-      "public_id": "p-687457d4e2d069bdb1d54e06a735fab6",
-      "title": "Root Age Structure Governs Long-Term Architecture and Hydraulic Function in Perennial Plants: a Modelling Framework",
-      "journal": null,
-      "authors": [
-        "Fichtl L, Giraud M, Leitner D, Schnepf A, Steng K, Friedel M."
-      ],
-      "investigation_run_id": "p-687457d4e2d069bdb1d54e06a735fab6-20261021T164548Z-2175619",
-      "status": "failed",
-      "reason": "Colab backend cannot start kernels: five exec attempts on two fresh CPU VMs and CLI 0.7.4/0.7.5 all failed with server-closed kernel websocket (kernel stuck in execution_state 'starting'); zero cells ran. Authored, static-validated notebook preserved in deliverables/ as UNVERIFIED reference; source investigation and feasibility completed.",
-      "created_on": "2026-10-23",
-      "notebook_path": "notebooks/unverified/p-687457d4e2d069bdb1d54e06a735fab6.ipynb",
-      "notebook_sha256": "8abc16931eb5b1ae250f6990ee35ef32c63ea1acd849ab158170eec71b1e2b71",
-      "source_sha256": "bf2bf8c0a2676c03348fb8e81fbbbf3f5d68b27d58d44604ae7a95631b0d7671",
-      "code_cells": 20
-    },
-    {
       "public_id": "p-2de471794f74a7e470b0c6286777d396",
       "title": "Integrating UAV-Based Remote Sensing and Deep Learning for Early Detection of Bacterial Leaf Blight in Rice",
       "journal": "Springer Science and Business Media LLC",
@@ -728,6 +712,22 @@
       "notebook_sha256": "459a924b62e0152e1c212547ff67e13e7443addc04984e140d87da5e0cccaea1",
       "source_sha256": "32f13fc74a372a7253bd183764c4099972dcbd82ca2cf7b3c7fa7f6cedcdeaab",
       "code_cells": 13
+    },
+    {
+      "public_id": "p-687457d4e2d069bdb1d54e06a735fab6",
+      "title": "Root Age Structure Governs Long-Term Architecture and Hydraulic Function in Perennial Plants: a Modelling Framework",
+      "journal": null,
+      "authors": [
+        "Fichtl L, Giraud M, Leitner D, Schnepf A, Steng K, Friedel M."
+      ],
+      "investigation_run_id": "p-687457d4e2d069bdb1d54e06a735fab6-20261021T164548Z-2175619",
+      "status": "failed",
+      "reason": "Operator-authorized retry executed: backend healthy, author code built (2.8 min) and parameterisation (createXMLs, genotype B) succeeded twice on two fresh CPU VMs after evidence-cited repairs for unpublished diameter/age data. The simulation itself is infeasible on Colab CPU: two independent supervised runs (N=2+N=6 and instrumented N=3) hit their unit runtime caps (2 h / 3 h) without completing a single simulated year (no per-year output; first-year phase alone > ~2.9 h), consistent with the authors' own 20-day cluster budget (wine_24cpu128.sh). Notebook rebuilt with the documented repairs and preserved in deliverables/ as an explicit UNVERIFIED reference; verified publisher not called.",
+      "created_on": "2026-10-24",
+      "notebook_path": "notebooks/unverified/p-687457d4e2d069bdb1d54e06a735fab6.ipynb",
+      "notebook_sha256": "8ebb6a1bf8d3745ac9027500e2a57c0c514f7de4953b482dfb5fc6611e1b986c",
+      "source_sha256": "f6fe58d9148e4b9df97436cd38652130442b3ce0580b1d08647d82e511a326c2",
+      "code_cells": 20
     }
   ]
 }
