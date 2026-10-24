@@ -11485,6 +11485,41 @@
         "alt": "PC1-PC3 fruit-shape morphospace rendered from author-published REML PC scores (additional visualization created for this notebook)",
         "caption": "PC1-PC3 fruit-shape morphospace rendered from author-published REML PC scores (additional visualization created for this notebook)"
       }
+    },
+    {
+      "public_id": "p-b72c635278b9713daa70b49a32b1a3b9",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Leveraging data from the Genomes-to-Fields Initiative to investigate genotype-by-environment interactions in maize in North America.",
+      "journal": "Nature communications",
+      "authors": [
+        "Lopez-Cruz M, Aguate FM, Washburn JD, de Leon N, Kaeppler SM, Lima DC, Tan R, Thompson A, De La Bretonne LW, de Los Campos G."
+      ],
+      "doi": "10.1038/s41467-023-42687-4",
+      "compute": "CPU",
+      "validated_on": "2026-10-24",
+      "demonstration": "Runs the authors' MAIZE-HUB R pipeline (BGLR 10-fold genotype CV) on the largest single G2F North year (2018) for grain yield, comparing the random-effects and SNP+EC reaction-norm models; full-region CV was out of scope due to the authors' 60-160 GB RAM requirement.",
+      "semantic_tags": [
+        "crop:maize",
+        "environment:field",
+        "organ:whole_plant",
+        "task:yield_biomass",
+        "trait:growth_development",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Per-fold predictive correlations (observed vs predicted grain yield) for the random-effects and SNP+EC+SNPxEC BRR models, 10-fold genotype CV, G2F North 2018.",
+        "caption": "Per-fold predictive correlations (observed vs predicted grain yield) for the random-effects and SNP+EC+SNPxEC BRR models, 10-fold genotype CV, G2F North 2018."
+      }
     }
   ]
 }
