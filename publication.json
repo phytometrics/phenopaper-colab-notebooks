@@ -11590,6 +11590,40 @@
         "alt": "pliman segmentation overlay: OxS panicle scan with numbered spikelet objects under the authors' parameters",
         "caption": "pliman segmentation overlay: OxS panicle scan with numbered spikelet objects under the authors' parameters"
       }
+    },
+    {
+      "public_id": "p-4c96e2dcd4f0c243f1c5d62101143904",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "FruitPhenoBox – a device for rapid and automated fruit phenotyping of small sample sizes",
+      "journal": "Plant methods",
+      "authors": [
+        "Kirchgessner N, Hodel M, Studer B, Patocchi A, Broggini GAL."
+      ],
+      "doi": "10.1186/s13007-024-01206-2",
+      "compute": "CPU",
+      "validated_on": "2026-10-24",
+      "demonstration": "Runs the authors' full affe MATLAB pipeline under Octave on one demo fruit (five camera views) from the public test data, reproducing segmentation, shape, symmetry, color and polar outputs in pixels; cm calibration and the 13 pomological reference shapes are not public, so those traits are reported NaN.",
+      "semantic_tags": [
+        "crop:apple",
+        "organ:fruit",
+        "task:morphology",
+        "trait:pigment_color",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "affe outputs for the demo fruit: per-camera segmented crops, boundary masks, symmetry maps and side views (this run)",
+        "caption": "affe outputs for the demo fruit: per-camera segmented crops, boundary masks, symmetry maps and side views (this run)"
+      }
     }
   ]
 }
