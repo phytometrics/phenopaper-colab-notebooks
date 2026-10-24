@@ -11448,6 +11448,43 @@
         "alt": "ACERPS_1544 TLS point cloud (0.30 mrad, per scanner) with stem radius profiles of the TreeQSM initial geometry, the released FuzzyQSM, and the smoothed-model reference circles",
         "caption": "ACERPS_1544 TLS point cloud (0.30 mrad, per scanner) with stem radius profiles of the TreeQSM initial geometry, the released FuzzyQSM, and the smoothed-model reference circles"
       }
+    },
+    {
+      "public_id": "p-76b3fc60078b3d0914bdc7784044dc1e",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Differences in apple fruit shape are independent of fruit size",
+      "journal": "openRxiv",
+      "authors": [
+        "Kylie DeViller",
+        "Daniel H. Chitwood",
+        "Sean Myles",
+        "Mao Li",
+        "Zoë Migicovsky"
+      ],
+      "doi": "10.1101/2025.01.01.631017",
+      "compute": "CPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Recomputes the paper's 45-pair Bonferroni-corrected Spearman correlation matrix among 10 apple fruit traits from the authors' published per-image results table, matching published Table S2 to max absolute drho 5.6e-16; the image-to-landmark pipeline and REML refit are out of scope.",
+      "semantic_tags": [
+        "crop:apple",
+        "organ:fruit",
+        "task:morphology",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "PC1-PC3 fruit-shape morphospace rendered from author-published REML PC scores (additional visualization created for this notebook)",
+        "caption": "PC1-PC3 fruit-shape morphospace rendered from author-published REML PC scores (additional visualization created for this notebook)"
+      }
     }
   ]
 }
