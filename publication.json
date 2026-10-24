@@ -11769,6 +11769,42 @@
         "alt": "Melon test image with the authors' ground-truth ripeness annotations (input preview from the pinned repository test split).",
         "caption": "Melon test image with the authors' ground-truth ripeness annotations (input preview from the pinned repository test split)."
       }
+    },
+    {
+      "public_id": "p-9a3c9cba4074a019ec533102f858e1c4",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Segmentation and characterization of macerated fibers and vessels using deep learning",
+      "journal": "Plant Methods",
+      "authors": [
+        "Saqib Qamar",
+        "Abu Imran Baba",
+        "Stéphane Verger",
+        "Magnus Andersson"
+      ],
+      "doi": "10.1186/s13007-024-01244-w",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-24",
+      "demonstration": "Single-image YOLOv8x-seg inference and per-fibre/vessel Length/Width/Area measurement on one macerated-wood micrograph (image/131.jpg) with the author-pinned fiberseg code; one-sample demonstration, not a dataset-level reproduction, and fibre lengths are plausibility-only because sample membership in the paper's quantification set is undocumented.",
+      "semantic_tags": [
+        "environment:laboratory",
+        "modality:microscopy",
+        "organ:cell",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Labeled comparison of the original macerated-wood micrograph 131.jpg, the author-pinned YOLOv8x-seg predictions (bounding boxes), and the per-instance measurement overlay.",
+        "caption": "Labeled comparison of the original macerated-wood micrograph 131.jpg, the author-pinned YOLOv8x-seg predictions (bounding boxes), and the per-instance measurement overlay."
+      }
     }
   ]
 }
