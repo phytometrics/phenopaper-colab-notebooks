@@ -75,22 +75,6 @@
       ]
     },
     {
-      "public_id": "p-89e0e604d88be6ac51289b5224ee3bd0",
-      "title": "TTADDA-UAV: A multi-season RGB and multispectral UAV dataset of potato fields collected in Japan and the Netherlands",
-      "investigation_run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20260929T092357Z-2482508",
-      "status": "failed",
-      "reason": "Notebook authored and statically validated (CPU scope: authors' loadMIAPPE workflow from Data in Brief 62:112004 Fig. 2 on study TTADDA_NARO_2021). Two full Colab runs and six probes failed because data.4tu.nl was down: download endpoints returned 502 or stalled with no first byte for ~2 h (landing pages intermittently 200); the whole site was unreachable by the end. The MIAPPE xlsx and measurement CSVs are verified published (4TU items 20ef3f20/f2307c47 v1, xlsx 2,328,999 B MD5 1e935e229dc27c74efc9ff9a6f7da45b) but bytes could not be retrieved. Notebook retained in deliverables/ as unverified reference; rerun when 4TU recovers.",
-      "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-89e0e604d88be6ac51289b5224ee3bd0.ipynb",
-      "notebook_sha256": "bfbedd629702297796c8505541c12447c05a6c535ee553db8a315f5c58318559",
-      "source_sha256": "32f13fc74a372a7253bd183764c4099972dcbd82ca2cf7b3c7fa7f6cedcdeaab",
-      "code_cells": 13,
-      "journal": "Data in Brief",
-      "authors": [
-        "van Marrewijk B , Njane SN, Tsuda S, van Culemborg M, Polder G, Katayama K, van Daalen T, van de Zedde R."
-      ]
-    },
-    {
       "public_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5",
       "title": "GaussianPlant: Structure-aligned Gaussian Splatting for 3D Reconstruction of Plants",
       "investigation_run_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5-20260930T010628Z-3136584",
@@ -746,6 +730,22 @@
       "notebook_sha256": "0433683c7ac3ddf70f45490724ee98df5827dc3c9f34877ac119154aae870267",
       "source_sha256": "a73eea8d7a2b3acc51054a6dc25a6e8ce432cc8f6fba29b544399c5f898487cf",
       "code_cells": 9
+    },
+    {
+      "public_id": "p-89e0e604d88be6ac51289b5224ee3bd0",
+      "title": "TTADDA-UAV: A multi-season RGB and multispectral UAV dataset of potato fields collected in Japan and the Netherlands",
+      "journal": "Data in Brief",
+      "authors": [
+        "van Marrewijk B , Njane SN, Tsuda S, van Culemborg M, Polder G, Katayama K, van Daalen T, van de Zedde R."
+      ],
+      "investigation_run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20260929T092357Z-2482508",
+      "status": "failed",
+      "reason": "Operator-authorized resume retry 2026-10-24: data.4tu.nl outage persists. Notebook SHA-256 verified unchanged (32f13fc7...deaab); PhenoPaper intake refreshed, same completed investigation, no superseding run. Colab CPU diagnostic probes: xlsx ndownloader and 12.63 GB item Range requests all ConnectTimeout; DNS resolves (131.180.169.22) but TCP/443 times out and landing page is unreachable. DGX-side metadata request also timed out. The blocker is provider unavailability, not notebook code; no full validation run was attempted. Notebook retained as unverified reference in deliverables/.",
+      "created_on": "2026-10-24",
+      "notebook_path": "notebooks/unverified/p-89e0e604d88be6ac51289b5224ee3bd0.ipynb",
+      "notebook_sha256": "459a924b62e0152e1c212547ff67e13e7443addc04984e140d87da5e0cccaea1",
+      "source_sha256": "32f13fc74a372a7253bd183764c4099972dcbd82ca2cf7b3c7fa7f6cedcdeaab",
+      "code_cells": 13
     }
   ]
 }

@@ -1135,20 +1135,6 @@
       ]
     },
     {
-      "public_id": "p-89e0e604d88be6ac51289b5224ee3bd0",
-      "title": "TTADDA-UAV: A multi-season RGB and multispectral UAV dataset of potato fields collected in Japan and the Netherlands",
-      "investigation_run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20260929T092357Z-2482508",
-      "run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20261005T150444Z-b5cf1743",
-      "status": "failed",
-      "reason": "Notebook authored and statically validated (CPU scope: authors' loadMIAPPE workflow from Data in Brief 62:112004 Fig. 2 on study TTADDA_NARO_2021). Two full Colab runs and six probes failed because data.4tu.nl was down: download endpoints returned 502 or stalled with no first byte for ~2 h (landing pages intermittently 200); the whole site was unreachable by the end. The MIAPPE xlsx and measurement CSVs are verified published (4TU items 20ef3f20/f2307c47 v1, xlsx 2,328,999 B MD5 1e935e229dc27c74efc9ff9a6f7da45b) but bytes could not be retrieved. Notebook retained in deliverables/ as unverified reference; rerun when 4TU recovers.",
-      "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-89e0e604d88be6ac51289b5224ee3bd0.ipynb",
-      "journal": "Data in Brief",
-      "authors": [
-        "van Marrewijk B , Njane SN, Tsuda S, van Culemborg M, Polder G, Katayama K, van Daalen T, van de Zedde R."
-      ]
-    },
-    {
       "public_id": "p-8763982ed396003076d4f0310794187a",
       "title": "Overcoming difficulties in segmentation of hyperspectral plant images with small projection areas using machine learning.",
       "investigation_run_id": "p-8763982ed396003076d4f0310794187a-20260930T230127Z-3797379",
@@ -1731,6 +1717,20 @@
       "reason": "Two fresh CPU top-to-bottom validation attempts failed on authoring bugs (unequal curve lengths; a .clm without paired CSV; duplicate timestamps; one 'Indeterminate' value; a stray 300 uE transmittance entry; missing multcompView; emmeans needing data= with function-local data; .group/letter rename). All root causes were fixed and the complete repaired pipeline was verified diagnostically in probe18 (logs/probe18_output.ipynb): features, R gls+asinh+Tukey per-species letters, both plots, and group means matching the preprint (Vaccinium 100 uE 0.258 vs paper 0.3; Tussilago 0.215 vs 0.22; low blue not different from mock). The 3-session Colab budget (diag-p8c4897-probe1, final-p8c4897-cpu, final-p8c4897-cpu2) was then exhausted, so no fresh final validation remained in this invocation. Resume with resume_run_dir: rerun deliverables/p-8c4897641cc52f62e005299aba86f5a3.ipynb (sha256 7acd1cd62c35f8fe071d2c2f711bfcd0dc7d5dbc7eed8cc7d3da1c1dd931cc96) top-to-bottom in a fresh CPU runtime; expec",
       "created_on": "2026-10-23",
       "notebook_path": "notebooks/unverified/p-8c4897641cc52f62e005299aba86f5a3.ipynb"
+    },
+    {
+      "public_id": "p-89e0e604d88be6ac51289b5224ee3bd0",
+      "title": "TTADDA-UAV: A multi-season RGB and multispectral UAV dataset of potato fields collected in Japan and the Netherlands",
+      "journal": "Data in Brief",
+      "authors": [
+        "van Marrewijk B , Njane SN, Tsuda S, van Culemborg M, Polder G, Katayama K, van Daalen T, van de Zedde R."
+      ],
+      "investigation_run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20260929T092357Z-2482508",
+      "run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20261005T150444Z-b5cf1743",
+      "status": "failed",
+      "reason": "Operator-authorized resume retry 2026-10-24: data.4tu.nl outage persists. Notebook SHA-256 verified unchanged (32f13fc7...deaab); PhenoPaper intake refreshed, same completed investigation, no superseding run. Colab CPU diagnostic probes: xlsx ndownloader and 12.63 GB item Range requests all ConnectTimeout; DNS resolves (131.180.169.22) but TCP/443 times out and landing page is unreachable. DGX-side metadata request also timed out. The blocker is provider unavailability, not notebook code; no full validation run was attempted. Notebook retained as unverified reference in deliverables/.",
+      "created_on": "2026-10-24",
+      "notebook_path": "notebooks/unverified/p-89e0e604d88be6ac51289b5224ee3bd0.ipynb"
     }
   ]
 }
