@@ -1297,21 +1297,6 @@
       ]
     },
     {
-      "public_id": "p-1fd15ec6e451611d0b5a9604964bc00d",
-      "title": "Deep learning models for identifying crop and field attributes from near surface cameras",
-      "investigation_run_id": "p-1fd15ec6e451611d0b5a9604964bc00d-20260930T144615Z-3734227",
-      "run_id": "p-1fd15ec6e451611d0b5a9604964bc00d-20261006T043000Z",
-      "status": "failed",
-      "reason": "Three fresh CPU Colab validation runs consumed the 3-session cap. Attempt 3 executed the full author pipeline (R prep, NumPy HMM port, R final processing, all figures) but its evaluation cell failed on a pandas merge column-name collision; the R-package-availability assert was also a false negative. Both residual bugs are fixed in the current deliverable notebook (sha256 8ed64f435b5ebd430a4546bc90e5a3a9f17f89c02df946611e80d0f7fd59e557) but no fourth session is permitted, so the corrected notebook is unvalidated. Resume with one fresh CPU session should complete.",
-      "created_on": "2026-10-06",
-      "notebook_path": "notebooks/unverified/p-1fd15ec6e451611d0b5a9604964bc00d.ipynb",
-      "journal": "bioRxiv",
-      "authors": [
-        "Taylor, S. D.",
-        "Browning, D. M."
-      ]
-    },
-    {
       "public_id": "p-8763982ed396003076d4f0310794187a",
       "title": "Overcoming difficulties in segmentation of hyperspectral plant images with small projection areas using machine learning.",
       "investigation_run_id": "p-8763982ed396003076d4f0310794187a-20260930T230127Z-3797379",
@@ -1743,6 +1728,21 @@
       "reason": "OpenCode/reporter exited with status 1; see run log p-27b968e6f90cc2d48dfbdf44d668ee61-20261024T234135Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
       "created_on": "2026-10-25",
       "notebook_path": "notebooks/unverified/p-27b968e6f90cc2d48dfbdf44d668ee61.ipynb"
+    },
+    {
+      "public_id": "p-1fd15ec6e451611d0b5a9604964bc00d",
+      "title": "Deep learning models for identifying crop and field attributes from near surface cameras",
+      "journal": "bioRxiv",
+      "authors": [
+        "Taylor, S. D.",
+        "Browning, D. M."
+      ],
+      "investigation_run_id": "p-1fd15ec6e451611d0b5a9604964bc00d-20260930T144615Z-3734227",
+      "run_id": "p-1fd15ec6e451611d0b5a9604964bc00d-20261006T043000Z",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-1fd15ec6e451611d0b5a9604964bc00d-20261024T234647Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-1fd15ec6e451611d0b5a9604964bc00d.ipynb"
     }
   ]
 }

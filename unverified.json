@@ -82,23 +82,6 @@
       ]
     },
     {
-      "public_id": "p-1fd15ec6e451611d0b5a9604964bc00d",
-      "title": "Deep learning models for identifying crop and field attributes from near surface cameras",
-      "investigation_run_id": "p-1fd15ec6e451611d0b5a9604964bc00d-20260930T144615Z-3734227",
-      "status": "failed",
-      "reason": "Three fresh CPU Colab validation runs consumed the 3-session cap. Attempt 3 executed the full author pipeline (R prep, NumPy HMM port, R final processing, all figures) but its evaluation cell failed on a pandas merge column-name collision; the R-package-availability assert was also a false negative. Both residual bugs are fixed in the current deliverable notebook (sha256 8ed64f435b5ebd430a4546bc90e5a3a9f17f89c02df946611e80d0f7fd59e557) but no fourth session is permitted, so the corrected notebook is unvalidated. Resume with one fresh CPU session should complete.",
-      "created_on": "2026-10-06",
-      "notebook_path": "notebooks/unverified/p-1fd15ec6e451611d0b5a9604964bc00d.ipynb",
-      "notebook_sha256": "025653a269b3f7cd0dbecd7562db6455050acef8d3ce14f64c87d5401973c7b1",
-      "source_sha256": "8ed64f435b5ebd430a4546bc90e5a3a9f17f89c02df946611e80d0f7fd59e557",
-      "code_cells": 13,
-      "journal": "bioRxiv",
-      "authors": [
-        "Taylor, S. D.",
-        "Browning, D. M."
-      ]
-    },
-    {
       "public_id": "p-650819c551206a400b5a5865a67bb67b",
       "title": "A photometric stereo-based 3D imaging system using computer vision and deep learning for tracking plant growth",
       "investigation_run_id": "p-650819c551206a400b5a5865a67bb67b-20260930T140149Z-3709498",
@@ -526,6 +509,23 @@
       "notebook_sha256": "f2d8865e9427d31b50f160b75606ce794bc07da3c3550a7d5110ea2fbb380df8",
       "source_sha256": "502704b2c9ced7973579e5e40f1d06f8e9234a5e188f079e14c0ad22fed4378c",
       "code_cells": 19
+    },
+    {
+      "public_id": "p-1fd15ec6e451611d0b5a9604964bc00d",
+      "title": "Deep learning models for identifying crop and field attributes from near surface cameras",
+      "journal": "bioRxiv",
+      "authors": [
+        "Taylor, S. D.",
+        "Browning, D. M."
+      ],
+      "investigation_run_id": "p-1fd15ec6e451611d0b5a9604964bc00d-20260930T144615Z-3734227",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-1fd15ec6e451611d0b5a9604964bc00d-20261024T234647Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-1fd15ec6e451611d0b5a9604964bc00d.ipynb",
+      "notebook_sha256": "28e0845d84e977a67a09906384149c09764b6f7b48ee2aa4313506e6fe68edd7",
+      "source_sha256": "8ed64f435b5ebd430a4546bc90e5a3a9f17f89c02df946611e80d0f7fd59e557",
+      "code_cells": 13
     }
   ]
 }
