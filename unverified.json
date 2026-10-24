@@ -452,26 +452,6 @@
       "code_cells": 15
     },
     {
-      "public_id": "p-8c4897641cc52f62e005299aba86f5a3",
-      "title": "Sensitive detection of chloroplast movements through changes in leaf cross-polarized reflectance",
-      "journal": "Plant Physiology",
-      "authors": [
-        "Paweł Hermanowicz",
-        "Aleksandra Giza",
-        "Katarzyna M Sowa",
-        "Paweł Korecki",
-        "Justyna Łabuz"
-      ],
-      "investigation_run_id": "p-8c4897641cc52f62e005299aba86f5a3-20261022T132905Z-2686512",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-8c4897641cc52f62e005299aba86f5a3-20261024T234927Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-8c4897641cc52f62e005299aba86f5a3.ipynb",
-      "notebook_sha256": "0d942d2581d6301ec1f521f5c715f3fcae5cda13d1e46b158769cf9e23fb7b37",
-      "source_sha256": "ab05e5d33ff1bf2b15a8f5edab8a647c3d3b8fe8187c5b27b8b950a4f4d69a58",
-      "code_cells": 13
-    },
-    {
       "public_id": "p-845668b5bebd667d367e2f37f92142ad",
       "title": "Optimizing Support Vector Machine for Avocado Ripeness Classification Using Moth Flame Optimization",
       "journal": "Journal of Electronics Electromedical Engineering and Medical Informatics",
@@ -526,6 +506,26 @@
       "notebook_sha256": "46bb5551ffb26448ef53cd582b44fbeb915e8551c7dc1dc49ff9717e90004352",
       "source_sha256": "59d44c959c136d68bd1b502dfad983c2248aa4737b2cedcdb2244a7a4736da63",
       "code_cells": 25
+    },
+    {
+      "public_id": "p-8c4897641cc52f62e005299aba86f5a3",
+      "title": "Sensitive detection of chloroplast movements through changes in leaf cross-polarized reflectance",
+      "journal": "Plant Physiology",
+      "authors": [
+        "Paweł Hermanowicz",
+        "Aleksandra Giza",
+        "Katarzyna M Sowa",
+        "Paweł Korecki",
+        "Justyna Łabuz"
+      ],
+      "investigation_run_id": "p-8c4897641cc52f62e005299aba86f5a3-20261022T132905Z-2686512",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-8c4897641cc52f62e005299aba86f5a3-20261024T235319Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-8c4897641cc52f62e005299aba86f5a3.ipynb",
+      "notebook_sha256": "13070b0193655e076bbeee5cd70523dc336843be03da2b7cf5b913777f105b23",
+      "source_sha256": "ab05e5d33ff1bf2b15a8f5edab8a647c3d3b8fe8187c5b27b8b950a4f4d69a58",
+      "code_cells": 13
     }
   ]
 }
