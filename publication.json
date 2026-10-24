@@ -11553,6 +11553,43 @@
         "alt": "Original GFP-HDEL confocal frame (Airyscan) with the authors' manual ground-truth skeleton annotation, from the ORA 'Processing example with ground truth' sample.",
         "caption": "Original GFP-HDEL confocal frame (Airyscan) with the authors' manual ground-truth skeleton annotation, from the ORA 'Processing example with ground truth' sample."
       }
+    },
+    {
+      "public_id": "p-6cd66ecb2c73a2bb32cdaff64b1a74d5",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Archetypes of inflorescence: genome-wide association networks of panicle morphometric, growth, and disease variables in a multiparent oat population.",
+      "journal": "Genetics",
+      "authors": [
+        "Carlson CH, Fiedler JD, Naraghi SM, Nazareno ES, Ardayfio NK, McMullen MS, Kianian SF."
+      ],
+      "doi": "10.1093/genetics/iyac128",
+      "compute": "CPU",
+      "validated_on": "2026-10-24",
+      "demonstration": "Partial CPU reproduction (R via Rscript): pliman spikelet segmentation of 10 OxS panicle scans (313 objects) and archetypes::stepArchetypes kite-ratio analysis of Dataset 1 (1398 genotypes, 5 archetypes); full GWAS/SpATS scope omitted.",
+      "semantic_tags": [
+        "crop:oat",
+        "environment:field",
+        "organ:inflorescence",
+        "task:morphology",
+        "task:stress_disease",
+        "trait:architecture",
+        "trait:disease_symptoms",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "pliman segmentation overlay: OxS panicle scan with numbered spikelet objects under the authors' parameters",
+        "caption": "pliman segmentation overlay: OxS panicle scan with numbered spikelet objects under the authors' parameters"
+      }
     }
   ]
 }

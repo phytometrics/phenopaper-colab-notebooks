@@ -66,22 +66,6 @@
       ]
     },
     {
-      "public_id": "p-6cd66ecb2c73a2bb32cdaff64b1a74d5",
-      "title": "Archetypes of inflorescence: genome-wide association networks of panicle morphometric, growth, and disease variables in a multiparent oat population.",
-      "investigation_run_id": "p-6cd66ecb2c73a2bb32cdaff64b1a74d5-20260929T104606Z-2534867",
-      "status": "failed",
-      "reason": "Notebook (CPU, R via Rscript) executes top-to-bottom with zero cell errors and 4 saved PNG outputs on Colab CPU runtime, but only in a reused non-fresh session (oat6cd6-valid). The hard 3-distinct-session budget (oat6cd6-probe diagnostic; oat6cd6-final fresh validation attempt failed on notebook string-escaping bugs; oat6cd6-valid contingency) was exhausted before a fresh-runtime final validation could be rerun after the last repairs. Notebook retained in deliverables/ for UNVERIFIED reference publication; execution-verified publication requires one fresh CPU rerun (resume_run_dir).",
-      "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-6cd66ecb2c73a2bb32cdaff64b1a74d5.ipynb",
-      "notebook_sha256": "2f980626067572d1bc012f154b80fef559aa05a4d53dfeee12417c137980f727",
-      "source_sha256": "4a075f65866e80e73adb757c6f2e36bdcf5c76db762d3e0cb2b781af8cd5cf79",
-      "code_cells": 13,
-      "journal": "Genetics",
-      "authors": [
-        "Carlson CH, Fiedler JD, Naraghi SM, Nazareno ES, Ardayfio NK, McMullen MS, Kianian SF."
-      ]
-    },
-    {
       "public_id": "p-8763982ed396003076d4f0310794187a",
       "title": "Overcoming difficulties in segmentation of hyperspectral plant images with small projection areas using machine learning.",
       "investigation_run_id": "p-8763982ed396003076d4f0310794187a-20260930T230127Z-3797379",
