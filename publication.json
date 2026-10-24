@@ -11661,6 +11661,40 @@
         "alt": "2-D diagnostic space (disease ratio vs plant ratio) of the released flow on Xanthomonas-wilt validation and Unsplash-lite validation embeddings, reproducing the paper's Fig. 12 analogue on CPU",
         "caption": "2-D diagnostic space (disease ratio vs plant ratio) of the released flow on Xanthomonas-wilt validation and Unsplash-lite validation embeddings, reproducing the paper's Fig. 12 analogue on CPU"
       }
+    },
+    {
+      "public_id": "p-c36d1f29a831a7708295479260406a78",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Biology-aware association for identity-consistent leaf tracking in top-down plant phenotyping",
+      "journal": "Frontiers in Plant Science",
+      "authors": [
+        "Dongze Zhou",
+        "Cong Zhang"
+      ],
+      "doi": "10.3389/fpls.2026.1881413",
+      "compute": "CPU",
+      "validated_on": "2026-10-24",
+      "demonstration": "Fixed-weight biology-aware leaf tracker (authors' BioTracker, released LeafTrackNet checkpoint) vs Centroid/IoU baselines on 3 CanolaTrack validation plants with TrackEval HOTA/CLEAR/Identity; single 3-plant subset only, adaptive weight-predictor variant out of scope.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "crop:rapeseed",
+        "organ:leaf",
+        "task:tracking"
+      ],
+      "preview": {
+        "alt": "Plant-148 first validation frame (1200x1200) with shared YOLOv10 proposals (lime) and ground-truth leaf annotations (red dashed) from CanolaTrack val.",
+        "caption": "Plant-148 first validation frame (1200x1200) with shared YOLOv10 proposals (lime) and ground-truth leaf annotations (red dashed) from CanolaTrack val."
+      }
     }
   ]
 }
