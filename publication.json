@@ -11805,6 +11805,53 @@
         "alt": "Labeled comparison of the original macerated-wood micrograph 131.jpg, the author-pinned YOLOv8x-seg predictions (bounding boxes), and the per-instance measurement overlay.",
         "caption": "Labeled comparison of the original macerated-wood micrograph 131.jpg, the author-pinned YOLOv8x-seg predictions (bounding boxes), and the per-instance measurement overlay."
       }
+    },
+    {
+      "public_id": "p-8763982ed396003076d4f0310794187a",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Overcoming difficulties in segmentation of hyperspectral plant images with small projection areas using machine learning",
+      "journal": "Scientific Reports",
+      "authors": [
+        "Eva Neuwirthová",
+        "Jiří Chuchlík",
+        "Miroslav Pikl",
+        "Zuzana Lhotáková",
+        "Ivan Kashkan",
+        "Klará Panzarová",
+        "Jan Stejskal",
+        "Jana Albrechtová",
+        "Milan Lstibůrek",
+        "Jaroslav Čepl"
+      ],
+      "doi": "10.1038/s41598-025-31952-9",
+      "compute": "CPU",
+      "validated_on": "2026-10-24",
+      "demonstration": "Runs the authors' R MCARI1 pre-mask + 85-centroid K-means segmentation on one public Zenodo demonstration hyperspectral image (3 plants), reproducing kept-pixel spectra and false-color overlays; only the public demonstration image is covered, not the paper's full dataset or LDA/RF classification.",
+      "semantic_tags": [
+        "environment:field",
+        "modality:spectral",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:classification",
+        "task:object_detection",
+        "task:physiology",
+        "task:segmentation",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "MCARI1 pre-mask applied to the demonstration hyperspectral image (false-color render, plant 275); masked background grayed out.",
+        "caption": "MCARI1 pre-mask applied to the demonstration hyperspectral image (false-color render, plant 275); masked background grayed out."
+      }
     }
   ]
 }
