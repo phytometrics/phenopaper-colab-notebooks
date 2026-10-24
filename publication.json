@@ -11520,6 +11520,39 @@
         "alt": "Per-fold predictive correlations (observed vs predicted grain yield) for the random-effects and SNP+EC+SNPxEC BRR models, 10-fold genotype CV, G2F North 2018.",
         "caption": "Per-fold predictive correlations (observed vs predicted grain yield) for the random-effects and SNP+EC+SNPxEC BRR models, 10-fold genotype CV, G2F North 2018."
       }
+    },
+    {
+      "public_id": "p-6f75092e4f4825ddd8125285022cfe18",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Quantitative analysis of plant ER architecture and dynamics.",
+      "journal": "Nature communications",
+      "authors": [
+        "Pain C, Kriechbaumer V, Kittelmann M, Hawes C, Fricker M."
+      ],
+      "doi": "10.1038/s41467-019-08893-9",
+      "compute": "CPU",
+      "validated_on": "2026-10-24",
+      "demonstration": "Adapted Python (CPU) demonstration of AnalyzER's ER-tubule skeleton segmentation and ground-truth validation: phase-congruency enhancement, hysteresis thresholding, skeletonization, and tolerance-based precision/recall/F1 against the authors' manual GT on one ORA example frame, plus per-frame F1 on 5 frames; the MATLAB app itself is not runnable in Colab.",
+      "semantic_tags": [
+        "environment:laboratory",
+        "organ:cell",
+        "task:morphology",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Original GFP-HDEL confocal frame (Airyscan) with the authors' manual ground-truth skeleton annotation, from the ORA 'Processing example with ground truth' sample.",
+        "caption": "Original GFP-HDEL confocal frame (Airyscan) with the authors' manual ground-truth skeleton annotation, from the ORA 'Processing example with ground truth' sample."
+      }
     }
   ]
 }
