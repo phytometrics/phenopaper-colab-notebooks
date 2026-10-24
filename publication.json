@@ -11852,6 +11852,51 @@
         "alt": "MCARI1 pre-mask applied to the demonstration hyperspectral image (false-color render, plant 275); masked background grayed out.",
         "caption": "MCARI1 pre-mask applied to the demonstration hyperspectral image (false-color render, plant 275); masked background grayed out."
       }
+    },
+    {
+      "public_id": "p-c02f23ea0e7fc12935556f564c977832",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A practical framework for rice bacterial blight severity classification using 3D multispectral sensing",
+      "journal": "Smart Agricultural Technology",
+      "authors": [
+        "Shivranjani Baruah",
+        "Ruiming Du",
+        "Dilip Kumar",
+        "Gourisankar Laha",
+        "Sunita Choudhary",
+        "Jana Kholová",
+        "Yu Jiang",
+        "Adam Joseph Bogdanove",
+        "Kaitlin Morey Gold"
+      ],
+      "doi": "10.1016/j.atech.2026.102586",
+      "compute": "CPU",
+      "validated_on": "2026-10-24",
+      "demonstration": "Executed the authors' unmodified Table 2 R pipeline (grouped 5-fold CV plus untouched 10 percent holdout) for the 4-class binned-VI RandomForest/SVM/XGBoost specifications on the published CSVs in Colab; the headline RandomForest matched Table 2 within 0.02 on all five reference metrics, with a full run of about 2.5 hours on CPU.",
+      "semantic_tags": [
+        "crop:rice",
+        "environment:field",
+        "modality:point_cloud",
+        "modality:spectral",
+        "organ:leaf",
+        "task:classification",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Holdout confusion matrix of the 4-class binned-VI RandomForest produced by the authors' unmodified pipeline (307 holdout rows, severity classes 0/3/5/9).",
+        "caption": "Holdout confusion matrix of the 4-class binned-VI RandomForest produced by the authors' unmodified pipeline (307 holdout rows, severity classes 0/3/5/9)."
+      }
     }
   ]
 }
