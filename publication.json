@@ -12048,6 +12048,49 @@
         "alt": "Reference dim-grown Arabidopsis frame with the deterministically proposed ROI (yellow) and the author ensemble segmentation mask.",
         "caption": "Reference dim-grown Arabidopsis frame with the deterministically proposed ROI (yellow) and the author ensemble segmentation mask."
       }
+    },
+    {
+      "public_id": "p-265a57b31003291df0583dfc9ac9a57a",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Joint 2D to 3D image registration workflow for comparing multiple slice photographs and CT scans of apple fruit with internal disorders",
+      "journal": "arXiv",
+      "authors": [
+        "Dirk Elias Schut",
+        "Rachael Maree Wood",
+        "Anna Katharina Trull",
+        "Rob Schouten",
+        "Robert van Liere",
+        "Tristan van Leeuwen",
+        "Kees Joost Batenburg"
+      ],
+      "doi": "10.48550/arxiv.2310.01987",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-24",
+      "demonstration": "Joint 2D-3D registration of one Kanzi apple (scan 9, 5-slice joint subset) reproduced with the authors' pinned pipeline on Colab T4; single-example demonstration, not the 107-apple dataset-level results.",
+      "semantic_tags": [
+        "crop:apple",
+        "environment:laboratory",
+        "modality:rgb",
+        "modality:xray_ct",
+        "organ:fruit",
+        "task:registration",
+        "task:segmentation",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Photograph of apple 9 slice 8 (left), the authors' published registered CT slice (middle), and our jointly registered CT slice (right, Pearson r 0.469 within the apple mask).",
+        "caption": "Photograph of apple 9 slice 8 (left), the authors' published registered CT slice (middle), and our jointly registered CT slice (right, Pearson r 0.469 within the apple mask)."
+      }
     }
   ]
 }
