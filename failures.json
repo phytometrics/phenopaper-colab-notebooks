@@ -2,6 +2,20 @@
   "schema_version": 1,
   "failures": [
     {
+      "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
+      "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
+      "journal": "Frontiers in plant science",
+      "authors": [
+        "Quiñones Huatangari L, Vásquez Pérez HV, Valqui-Valqui L, Palomino Ojeda JM, Saravia D, Bardales Escalante W, Silva G, Chavez-Jalk A, Cruz Caro O, Valqui L."
+      ],
+      "investigation_run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T113209Z-4050068",
+      "run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T122226Z",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-fb173510315d985a2f33d77dff1eb87a-20261024T234134Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb"
+    },
+    {
       "public_id": "p-d0270e5cfded603928047f692df3bfce",
       "title": "Integrating plant phenotypic and genotypic data in the AGENT project: a BrAPI service implementation.",
       "journal": "Bioinformatics (Oxford, England)",
@@ -14,6 +28,17 @@
       "reason": "Fresh CPU validation failed: the BrAPI Test Server (test-server.brapi.org), the backend of the author's bundled config_demo.ini, returned persistent nginx 502 for the whole window (Colab probes 22:53-23:01 UTC 2026-10-24, incl. 6 retries at 30 s). brapi_proxy --demo reported 'server test1 unreachable' (cell 5 RuntimeError), downstream cells 404-cascaded. Third-party outage, not a Colab/CLI/code defect; historical 2026-10-06 run succeeded against the same endpoint. Notebook (with one fix: removed matplotlib.use('Agg') so the result graph saves an inline image/png preview) is statically valid and preserved in deliverables/ for the unverified-reference path. Retry when the test server recovers.",
       "created_on": "2026-10-25",
       "notebook_path": "notebooks/unverified/p-d0270e5cfded603928047f692df3bfce.ipynb"
+    },
+    {
+      "public_id": "p-bcc07e64c4e18890e139ec2fcb3b6063",
+      "title": "p-bcc07e64c4e18890e139ec2fcb3b6063",
+      "journal": null,
+      "authors": [],
+      "investigation_run_id": "p-bcc07e64c4e18890e139ec2fcb3b6063-20261013T022456Z-2857156",
+      "run_id": "p-bcc07e64c4e18890e139ec2fcb3b6063",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-bcc07e64c4e18890e139ec2fcb3b6063-20261024T235034Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25"
     },
     {
       "public_id": "p-b1ad16e5699a826bc924207af4593ec7",
@@ -40,6 +65,62 @@
       "created_on": "2026-10-25"
     },
     {
+      "public_id": "p-8eb066596b66ac63b76cc87e1d066736",
+      "title": "Detection and analysis of wheat spikes using Convolutional Neural Networks.",
+      "journal": "Plant Methods",
+      "authors": [
+        "Md. Mehedi Hasan",
+        "Joshua Chopin",
+        "Hamid Laga",
+        "Stanley J. Miklavcic"
+      ],
+      "investigation_run_id": "p-8eb066596b66ac63b76cc87e1d066736-20260930T121136Z-3644237",
+      "run_id": "p-8eb066596b66ac63b76cc87e1d066736-20261007T012127Z",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-8eb066596b66ac63b76cc87e1d066736-20261024T234810Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-8eb066596b66ac63b76cc87e1d066736.ipynb"
+    },
+    {
+      "public_id": "p-8c4897641cc52f62e005299aba86f5a3",
+      "title": "Sensitive detection of chloroplast movements through changes in leaf cross-polarized reflectance",
+      "journal": "Plant Physiology",
+      "authors": [
+        "Paweł Hermanowicz",
+        "Aleksandra Giza",
+        "Katarzyna M Sowa",
+        "Paweł Korecki",
+        "Justyna Łabuz"
+      ],
+      "investigation_run_id": "p-8c4897641cc52f62e005299aba86f5a3-20261022T132905Z-2686512",
+      "run_id": "p-8c4897641cc52f62e005299aba86f5a3-20261023T134156Z",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-8c4897641cc52f62e005299aba86f5a3-20261024T234927Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-8c4897641cc52f62e005299aba86f5a3.ipynb"
+    },
+    {
+      "public_id": "p-650819c551206a400b5a5865a67bb67b",
+      "title": "A photometric stereo-based 3D imaging system using computer vision and deep learning for tracking plant growth",
+      "journal": "GigaScience",
+      "authors": [
+        "Gytis Bernotas",
+        "Livia Scorza",
+        "Mark Hansen",
+        "Ian Hales",
+        "Karen Halliday",
+        "Lyndon Smith",
+        "Melvyn Smith",
+        "Alistair J. McCormick"
+      ],
+      "investigation_run_id": "p-650819c551206a400b5a5865a67bb67b-20260930T140149Z-3709498",
+      "run_id": "p-650819c551206a400b5a5865a67bb67b-20261006T181006Z",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-650819c551206a400b5a5865a67bb67b-20261024T234749Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-650819c551206a400b5a5865a67bb67b.ipynb"
+    },
+    {
       "public_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5",
       "title": "GaussianPlant: Structure-aligned Gaussian Splatting for 3D Reconstruction of Plants",
       "journal": "arXiv (Cornell University)",
@@ -57,6 +138,21 @@
       "notebook_path": "notebooks/unverified/p-52e5cb26b52aa179b3db5eec9f4bd2d5.ipynb"
     },
     {
+      "public_id": "p-37f99cf456e74d916230de8d4ac87be7",
+      "title": "MaiZaic : a robust end-to-end pipeline for mosaicking freely flown aerial video of agricultural fields",
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        "Dewi Endah Kharismawati",
+        "Toni Kazic"
+      ],
+      "investigation_run_id": "p-37f99cf456e74d916230de8d4ac87be7-20260929T113611Z-2565368",
+      "run_id": "p-37f99cf456e74d916230de8d4ac87be7-20261008T220221Z",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-37f99cf456e74d916230de8d4ac87be7-20261024T234913Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-37f99cf456e74d916230de8d4ac87be7.ipynb"
+    },
+    {
       "public_id": "p-289774609cbd957dd47ad64d7093be1b",
       "title": "Seeing herbaria in a new light: leaf reflectance spectroscopy unlocks predictive trait and classification modeling in plant biodiversity collections",
       "journal": "California Digital Library (CDL)",
@@ -69,6 +165,38 @@
       "reason": "OpenCode/reporter exited with status 1; see run log p-289774609cbd957dd47ad64d7093be1b-20261024T230404Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nintake_paper.py: error: Output must be runs/<public_id>-<run>/sources/paper_api.json\nintake_paper.py: error: Output must be runs/<public_id>-<run>/sources/paper_api.json\nError: SSE read timed out",
       "created_on": "2026-10-25",
       "notebook_path": "notebooks/unverified/p-289774609cbd957dd47ad64d7093be1b.ipynb"
+    },
+    {
+      "public_id": "p-27b968e6f90cc2d48dfbdf44d668ee61",
+      "title": "GenoDrawing: An autoencoder framework for image prediction from SNP markers",
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        "Federico Jurado-Ruiz",
+        "D. Rousseau",
+        "Juan A. Botía",
+        "María José Aranzana"
+      ],
+      "investigation_run_id": "p-27b968e6f90cc2d48dfbdf44d668ee61-20260930T153422Z-3761078",
+      "run_id": "p-27b968e6f90cc2d48dfbdf44d668ee61-20261006T040440Z",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-27b968e6f90cc2d48dfbdf44d668ee61-20261024T234135Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-27b968e6f90cc2d48dfbdf44d668ee61.ipynb"
+    },
+    {
+      "public_id": "p-1fd15ec6e451611d0b5a9604964bc00d",
+      "title": "Deep learning models for identifying crop and field attributes from near surface cameras",
+      "journal": "bioRxiv",
+      "authors": [
+        "Taylor, S. D.",
+        "Browning, D. M."
+      ],
+      "investigation_run_id": "p-1fd15ec6e451611d0b5a9604964bc00d-20260930T144615Z-3734227",
+      "run_id": "p-1fd15ec6e451611d0b5a9604964bc00d-20261006T043000Z",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-1fd15ec6e451611d0b5a9604964bc00d-20261024T234647Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-1fd15ec6e451611d0b5a9604964bc00d.ipynb"
     },
     {
       "public_id": "p-89e0e604d88be6ac51289b5224ee3bd0",
@@ -230,17 +358,6 @@
       "reason": "Resume attempt 2 failed with the same persistent Colab CPU environment failure: after intake refresh confirmed the exact investigation run (no supersession) and the unchanged statically-valid notebook (sha256 272fcc61...), one READY session died instantly on first kernel contact (WebSocketConnectionClosedException, 0 cells transmitted), a second READY session (final2) died identically, a third allocation (final3) hung 600s+300s and never became READY, and two other allocation attempts hung 120-420s. Session budget 3/3 exhausted; bounded repairs used. Not a notebook or source-material defect - zero cells reached any kernel. Verified publisher not called. Retry again via resume_run_dir after backend recovery.",
       "created_on": "2026-10-23",
       "notebook_path": "notebooks/unverified/p-14ff09b4c742a4f8ef71bf83c2d975e0.ipynb"
-    },
-    {
-      "public_id": "p-bcc07e64c4e18890e139ec2fcb3b6063",
-      "title": "p-bcc07e64c4e18890e139ec2fcb3b6063",
-      "journal": null,
-      "authors": [],
-      "investigation_run_id": "p-bcc07e64c4e18890e139ec2fcb3b6063-20261013T022456Z-2857156",
-      "run_id": "p-bcc07e64c4e18890e139ec2fcb3b6063",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-bcc07e64c4e18890e139ec2fcb3b6063-20261013T070418Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-13"
     },
     {
       "public_id": "p-fa281ef3d2e7e699424318eae3ccb279",
@@ -1626,123 +1743,6 @@
         "Kalhari Manawasinghe",
         "Karen Tanino"
       ]
-    },
-    {
-      "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
-      "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
-      "journal": "Frontiers in plant science",
-      "authors": [
-        "Quiñones Huatangari L, Vásquez Pérez HV, Valqui-Valqui L, Palomino Ojeda JM, Saravia D, Bardales Escalante W, Silva G, Chavez-Jalk A, Cruz Caro O, Valqui L."
-      ],
-      "investigation_run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T113209Z-4050068",
-      "run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T122226Z",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-fb173510315d985a2f33d77dff1eb87a-20261024T234134Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb"
-    },
-    {
-      "public_id": "p-27b968e6f90cc2d48dfbdf44d668ee61",
-      "title": "GenoDrawing: An autoencoder framework for image prediction from SNP markers",
-      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "authors": [
-        "Federico Jurado-Ruiz",
-        "D. Rousseau",
-        "Juan A. Botía",
-        "María José Aranzana"
-      ],
-      "investigation_run_id": "p-27b968e6f90cc2d48dfbdf44d668ee61-20260930T153422Z-3761078",
-      "run_id": "p-27b968e6f90cc2d48dfbdf44d668ee61-20261006T040440Z",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-27b968e6f90cc2d48dfbdf44d668ee61-20261024T234135Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-27b968e6f90cc2d48dfbdf44d668ee61.ipynb"
-    },
-    {
-      "public_id": "p-1fd15ec6e451611d0b5a9604964bc00d",
-      "title": "Deep learning models for identifying crop and field attributes from near surface cameras",
-      "journal": "bioRxiv",
-      "authors": [
-        "Taylor, S. D.",
-        "Browning, D. M."
-      ],
-      "investigation_run_id": "p-1fd15ec6e451611d0b5a9604964bc00d-20260930T144615Z-3734227",
-      "run_id": "p-1fd15ec6e451611d0b5a9604964bc00d-20261006T043000Z",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-1fd15ec6e451611d0b5a9604964bc00d-20261024T234647Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-1fd15ec6e451611d0b5a9604964bc00d.ipynb"
-    },
-    {
-      "public_id": "p-650819c551206a400b5a5865a67bb67b",
-      "title": "A photometric stereo-based 3D imaging system using computer vision and deep learning for tracking plant growth",
-      "journal": "GigaScience",
-      "authors": [
-        "Gytis Bernotas",
-        "Livia Scorza",
-        "Mark Hansen",
-        "Ian Hales",
-        "Karen Halliday",
-        "Lyndon Smith",
-        "Melvyn Smith",
-        "Alistair J. McCormick"
-      ],
-      "investigation_run_id": "p-650819c551206a400b5a5865a67bb67b-20260930T140149Z-3709498",
-      "run_id": "p-650819c551206a400b5a5865a67bb67b-20261006T181006Z",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-650819c551206a400b5a5865a67bb67b-20261024T234749Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-650819c551206a400b5a5865a67bb67b.ipynb"
-    },
-    {
-      "public_id": "p-8eb066596b66ac63b76cc87e1d066736",
-      "title": "Detection and analysis of wheat spikes using Convolutional Neural Networks.",
-      "journal": "Plant Methods",
-      "authors": [
-        "Md. Mehedi Hasan",
-        "Joshua Chopin",
-        "Hamid Laga",
-        "Stanley J. Miklavcic"
-      ],
-      "investigation_run_id": "p-8eb066596b66ac63b76cc87e1d066736-20260930T121136Z-3644237",
-      "run_id": "p-8eb066596b66ac63b76cc87e1d066736-20261007T012127Z",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-8eb066596b66ac63b76cc87e1d066736-20261024T234810Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-8eb066596b66ac63b76cc87e1d066736.ipynb"
-    },
-    {
-      "public_id": "p-37f99cf456e74d916230de8d4ac87be7",
-      "title": "MaiZaic : a robust end-to-end pipeline for mosaicking freely flown aerial video of agricultural fields",
-      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "authors": [
-        "Dewi Endah Kharismawati",
-        "Toni Kazic"
-      ],
-      "investigation_run_id": "p-37f99cf456e74d916230de8d4ac87be7-20260929T113611Z-2565368",
-      "run_id": "p-37f99cf456e74d916230de8d4ac87be7-20261008T220221Z",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-37f99cf456e74d916230de8d4ac87be7-20261024T234913Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-37f99cf456e74d916230de8d4ac87be7.ipynb"
-    },
-    {
-      "public_id": "p-8c4897641cc52f62e005299aba86f5a3",
-      "title": "Sensitive detection of chloroplast movements through changes in leaf cross-polarized reflectance",
-      "journal": "Plant Physiology",
-      "authors": [
-        "Paweł Hermanowicz",
-        "Aleksandra Giza",
-        "Katarzyna M Sowa",
-        "Paweł Korecki",
-        "Justyna Łabuz"
-      ],
-      "investigation_run_id": "p-8c4897641cc52f62e005299aba86f5a3-20261022T132905Z-2686512",
-      "run_id": "p-8c4897641cc52f62e005299aba86f5a3-20261023T134156Z",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-8c4897641cc52f62e005299aba86f5a3-20261024T234927Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-8c4897641cc52f62e005299aba86f5a3.ipynb"
     }
   ]
 }
