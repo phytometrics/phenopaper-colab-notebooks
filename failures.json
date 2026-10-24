@@ -1172,23 +1172,6 @@
       ]
     },
     {
-      "public_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5",
-      "title": "GaussianPlant: Structure-aligned Gaussian Splatting for 3D Reconstruction of Plants",
-      "investigation_run_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5-20260930T010628Z-3136584",
-      "run_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5-20261005T052337Z",
-      "status": "failed",
-      "reason": "T4 session budget (3 distinct) exhausted after three repairable environment failures: (1) Colab py3.13/torch2.11+cu130 runtime required stack fixes; (2) numpy churn from requirements install + Drive per-file rate limits (fixed: filtered numpy<2, targeted throttled registered-only download); (3) pyvista stub lacked attribute fallback for import-time pv.PolyData annotation (fixed in build_notebook.py; notebook now statically valid, ready for resume). Dataset download cell fully passed in attempt 3. No scientific execution completed; gsplat JIT never ran inside the final notebook. Resume with resume_run_dir and a fresh session.",
-      "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-52e5cb26b52aa179b3db5eec9f4bd2d5.ipynb",
-      "journal": "arXiv (Cornell University)",
-      "authors": [
-        "Yang Yang",
-        "Risa Shinoda",
-        "Hiroaki Santo",
-        "Fumio Okura"
-      ]
-    },
-    {
       "public_id": "p-4c96e2dcd4f0c243f1c5d62101143904",
       "title": "FruitPhenoBox - a device for rapid and automated fruit phenotyping of small sample sizes.",
       "investigation_run_id": "p-4c96e2dcd4f0c243f1c5d62101143904-20260929T094656Z-2497507",
@@ -1731,6 +1714,23 @@
       "reason": "Operator-authorized retry executed: backend healthy, author code built (2.8 min) and parameterisation (createXMLs, genotype B) succeeded twice on two fresh CPU VMs after evidence-cited repairs for unpublished diameter/age data. The simulation itself is infeasible on Colab CPU: two independent supervised runs (N=2+N=6 and instrumented N=3) hit their unit runtime caps (2 h / 3 h) without completing a single simulated year (no per-year output; first-year phase alone > ~2.9 h), consistent with the authors' own 20-day cluster budget (wine_24cpu128.sh). Notebook rebuilt with the documented repairs and preserved in deliverables/ as an explicit UNVERIFIED reference; verified publisher not called.",
       "created_on": "2026-10-24",
       "notebook_path": "notebooks/unverified/p-687457d4e2d069bdb1d54e06a735fab6.ipynb"
+    },
+    {
+      "public_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5",
+      "title": "GaussianPlant: Structure-aligned Gaussian Splatting for 3D Reconstruction of Plants",
+      "journal": "arXiv (Cornell University)",
+      "authors": [
+        "Yang Yang",
+        "Risa Shinoda",
+        "Hiroaki Santo",
+        "Fumio Okura"
+      ],
+      "investigation_run_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5-20260930T010628Z-3136584",
+      "run_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5-20261005T052337Z",
+      "status": "failed",
+      "reason": "Operator-authorized resume (2026-10-24/25) exhausted the 3-session budget without a captured full execution. Notebook v8 (sha256 ec22147d...3688) is statically valid and smoke-probe-verified end to end (author train.py 50-iter + eval_chamfer passed), but the final fresh-T4 run was lost: the local supervisor hit its 14400 s limit during the silent Step-2 cell and the remote VM was reaped mid-Step-2 (~22:40 UTC). Pretrain 7k had completed (29.1 min, 2.05M pts). Faithful full Step-2 likely exceeds a free-tier Colab T4 session; a reduced --iterations variant needs a fresh validated run. Available for the UNVERIFIED/INCOMPLETE reference path only.",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-52e5cb26b52aa179b3db5eec9f4bd2d5.ipynb"
     }
   ]
 }

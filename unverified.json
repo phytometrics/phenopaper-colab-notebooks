@@ -50,25 +50,6 @@
       ]
     },
     {
-      "public_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5",
-      "title": "GaussianPlant: Structure-aligned Gaussian Splatting for 3D Reconstruction of Plants",
-      "investigation_run_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5-20260930T010628Z-3136584",
-      "status": "failed",
-      "reason": "T4 session budget (3 distinct) exhausted after three repairable environment failures: (1) Colab py3.13/torch2.11+cu130 runtime required stack fixes; (2) numpy churn from requirements install + Drive per-file rate limits (fixed: filtered numpy<2, targeted throttled registered-only download); (3) pyvista stub lacked attribute fallback for import-time pv.PolyData annotation (fixed in build_notebook.py; notebook now statically valid, ready for resume). Dataset download cell fully passed in attempt 3. No scientific execution completed; gsplat JIT never ran inside the final notebook. Resume with resume_run_dir and a fresh session.",
-      "created_on": "2026-10-05",
-      "notebook_path": "notebooks/unverified/p-52e5cb26b52aa179b3db5eec9f4bd2d5.ipynb",
-      "notebook_sha256": "e7a640c8295355720a8fe126e2d1c9de1794c8ad99ea4e7b953ef4b3fcaf6a76",
-      "source_sha256": "4760886e02d8dcec61ad7e8ec0b0e709705821397781c5d80bce31e05374ca94",
-      "code_cells": 14,
-      "journal": "arXiv (Cornell University)",
-      "authors": [
-        "Yang Yang",
-        "Risa Shinoda",
-        "Hiroaki Santo",
-        "Fumio Okura"
-      ]
-    },
-    {
       "public_id": "p-a9eeb18ead1f19a9c2ea5e76c0b0ffb6",
       "title": "Low-annotation apple flower counting: A color-SAM enhanced and uncertainty-guided semi-supervised framework.",
       "investigation_run_id": "p-a9eeb18ead1f19a9c2ea5e76c0b0ffb6-20260929T225935Z-3052262",
@@ -514,6 +495,25 @@
       "notebook_sha256": "8ebb6a1bf8d3745ac9027500e2a57c0c514f7de4953b482dfb5fc6611e1b986c",
       "source_sha256": "f6fe58d9148e4b9df97436cd38652130442b3ce0580b1d08647d82e511a326c2",
       "code_cells": 20
+    },
+    {
+      "public_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5",
+      "title": "GaussianPlant: Structure-aligned Gaussian Splatting for 3D Reconstruction of Plants",
+      "journal": "arXiv (Cornell University)",
+      "authors": [
+        "Yang Yang",
+        "Risa Shinoda",
+        "Hiroaki Santo",
+        "Fumio Okura"
+      ],
+      "investigation_run_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5-20260930T010628Z-3136584",
+      "status": "failed",
+      "reason": "Operator-authorized resume (2026-10-24/25) exhausted the 3-session budget without a captured full execution. Notebook v8 (sha256 ec22147d...3688) is statically valid and smoke-probe-verified end to end (author train.py 50-iter + eval_chamfer passed), but the final fresh-T4 run was lost: the local supervisor hit its 14400 s limit during the silent Step-2 cell and the remote VM was reaped mid-Step-2 (~22:40 UTC). Pretrain 7k had completed (29.1 min, 2.05M pts). Faithful full Step-2 likely exceeds a free-tier Colab T4 session; a reduced --iterations variant needs a fresh validated run. Available for the UNVERIFIED/INCOMPLETE reference path only.",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-52e5cb26b52aa179b3db5eec9f4bd2d5.ipynb",
+      "notebook_sha256": "bc3375bdcc145f8de9a2e65f3e3a4c937fe64c9a2a584b72d18df7a61dba6551",
+      "source_sha256": "ec22147d24d1db1580fd5013c576c65fe37202c9f2fa3b6aa19c3d1d68373688",
+      "code_cells": 14
     }
   ]
 }
