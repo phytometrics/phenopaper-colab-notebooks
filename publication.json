@@ -11732,6 +11732,43 @@
         "alt": "Original DS2025/IR24 UAV plot crops (Control / Medium / High inoculation, T1) from the pinned author dataset, labeled by severity; input preview before training.",
         "caption": "Original DS2025/IR24 UAV plot crops (Control / Medium / High inoculation, T1) from the pinned author dataset, labeled by severity; input preview before training."
       }
+    },
+    {
+      "public_id": "p-903df80cc1f5c5f59869dfbe9b866bd7",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Melon ripeness detection by an improved object detection algorithm for resource constrained environments",
+      "journal": "Plant Methods",
+      "authors": [
+        "Xuebin Jing",
+        "Yuanhao Wang",
+        "Dongxi Li",
+        "Weihua Pan"
+      ],
+      "doi": "10.1186/s13007-024-01259-3",
+      "compute": "CPU",
+      "validated_on": "2026-10-24",
+      "demonstration": "Runs the authors' released MRD.pt inference (Test.py semantics) on the repository's 300-image melon test split in a fresh Colab CPU runtime, reproducing paper-level metrics (P 0.958, R 0.942, mAP@0.5 0.982 vs 0.950/0.941/0.974) with a one-image prediction-vs-ground-truth visualization; single-example scope, not a full-paper benchmark.",
+      "semantic_tags": [
+        "crop:melon",
+        "environment:greenhouse",
+        "organ:fruit",
+        "task:object_detection",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Melon test image with the authors' ground-truth ripeness annotations (input preview from the pinned repository test split).",
+        "caption": "Melon test image with the authors' ground-truth ripeness annotations (input preview from the pinned repository test split)."
+      }
     }
   ]
 }
