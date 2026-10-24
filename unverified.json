@@ -510,6 +510,22 @@
       "notebook_sha256": "88c9bb6141c09ea99fc1a29514f6b71d80dbcb471bc5afa3915f8d5a09f17395",
       "source_sha256": "a6f1c4b6e96b5507513a1f93af5e9964909355b8968fb98e4fd29f4727176cef",
       "code_cells": 8
+    },
+    {
+      "public_id": "p-d0270e5cfded603928047f692df3bfce",
+      "title": "Integrating plant phenotypic and genotypic data in the AGENT project: a BrAPI service implementation.",
+      "journal": "Bioinformatics (Oxford, England)",
+      "authors": [
+        "Brouwer M, Bauernfeind J, Davuluri G, García Brizuela J, König P, Kumar S, Lange M, Weise S, Wijnker E, Pommier C, Ruff J, Kersey PJ."
+      ],
+      "investigation_run_id": "p-d0270e5cfded603928047f692df3bfce-20260930T141220Z-3714834",
+      "status": "failed",
+      "reason": "Fresh CPU validation failed: the BrAPI Test Server (test-server.brapi.org), the backend of the author's bundled config_demo.ini, returned persistent nginx 502 for the whole window (Colab probes 22:53-23:01 UTC 2026-10-24, incl. 6 retries at 30 s). brapi_proxy --demo reported 'server test1 unreachable' (cell 5 RuntimeError), downstream cells 404-cascaded. Third-party outage, not a Colab/CLI/code defect; historical 2026-10-06 run succeeded against the same endpoint. Notebook (with one fix: removed matplotlib.use('Agg') so the result graph saves an inline image/png preview) is statically valid and preserved in deliverables/ for the unverified-reference path. Retry when the test server recovers.",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-d0270e5cfded603928047f692df3bfce.ipynb",
+      "notebook_sha256": "ac6e5d19c96ca07821c3916d0ca0720fa8eba783a52635e62a2dbfa0335f3596",
+      "source_sha256": "42bdb749941e6404249421da30285f5806853f0ddd1055d47df4905228b15267",
+      "code_cells": 6
     }
   ]
 }

@@ -1037,19 +1037,6 @@
       ]
     },
     {
-      "public_id": "p-d0270e5cfded603928047f692df3bfce",
-      "title": "Integrating plant phenotypic and genotypic data in the AGENT project: a BrAPI service implementation.",
-      "investigation_run_id": "p-d0270e5cfded603928047f692df3bfce-20260930T141220Z-3714834",
-      "run_id": "p-d0270e5cfded603928047f692df3bfce-20261005T182535Z",
-      "status": "failed",
-      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-05T18:36:46.417Z] EOF | [2026-10-05T18:36:46.417Z] mkdir -p probe_nb && mv /tmp_probe.ipynb probe_nb/probe.ipynb && colab exec -s agent-brapi-20261005T182535 -f probe_nb/probe.ipynb --timeout 120 2>&1 | grep -v \"━\\|eta 0\" | head -20 failed | [2026-10-05T18:36:46.417Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-06",
-      "journal": "Bioinformatics (Oxford, England)",
-      "authors": [
-        "Brouwer M, Bauernfeind J, Davuluri G, García Brizuela J, König P, Kumar S, Lange M, Weise S, Wijnker E, Pommier C, Ruff J, Kersey PJ."
-      ]
-    },
-    {
       "public_id": "p-b1ad16e5699a826bc924207af4593ec7",
       "title": "SpykProps: an imaging pipeline to quantify architecture in unilateral grass inflorescences.",
       "investigation_run_id": "p-b1ad16e5699a826bc924207af4593ec7-20260930T140256Z-3710427",
@@ -1731,6 +1718,20 @@
       "reason": "Operator-authorized resume (2026-10-24/25) exhausted the 3-session budget without a captured full execution. Notebook v8 (sha256 ec22147d...3688) is statically valid and smoke-probe-verified end to end (author train.py 50-iter + eval_chamfer passed), but the final fresh-T4 run was lost: the local supervisor hit its 14400 s limit during the silent Step-2 cell and the remote VM was reaped mid-Step-2 (~22:40 UTC). Pretrain 7k had completed (29.1 min, 2.05M pts). Faithful full Step-2 likely exceeds a free-tier Colab T4 session; a reduced --iterations variant needs a fresh validated run. Available for the UNVERIFIED/INCOMPLETE reference path only.",
       "created_on": "2026-10-25",
       "notebook_path": "notebooks/unverified/p-52e5cb26b52aa179b3db5eec9f4bd2d5.ipynb"
+    },
+    {
+      "public_id": "p-d0270e5cfded603928047f692df3bfce",
+      "title": "Integrating plant phenotypic and genotypic data in the AGENT project: a BrAPI service implementation.",
+      "journal": "Bioinformatics (Oxford, England)",
+      "authors": [
+        "Brouwer M, Bauernfeind J, Davuluri G, García Brizuela J, König P, Kumar S, Lange M, Weise S, Wijnker E, Pommier C, Ruff J, Kersey PJ."
+      ],
+      "investigation_run_id": "p-d0270e5cfded603928047f692df3bfce-20260930T141220Z-3714834",
+      "run_id": "p-d0270e5cfded603928047f692df3bfce-20261005T182535Z",
+      "status": "failed",
+      "reason": "Fresh CPU validation failed: the BrAPI Test Server (test-server.brapi.org), the backend of the author's bundled config_demo.ini, returned persistent nginx 502 for the whole window (Colab probes 22:53-23:01 UTC 2026-10-24, incl. 6 retries at 30 s). brapi_proxy --demo reported 'server test1 unreachable' (cell 5 RuntimeError), downstream cells 404-cascaded. Third-party outage, not a Colab/CLI/code defect; historical 2026-10-06 run succeeded against the same endpoint. Notebook (with one fix: removed matplotlib.use('Agg') so the result graph saves an inline image/png preview) is statically valid and preserved in deliverables/ for the unverified-reference path. Retry when the test server recovers.",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-d0270e5cfded603928047f692df3bfce.ipynb"
     }
   ]
 }
