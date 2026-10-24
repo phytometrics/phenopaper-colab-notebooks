@@ -11942,6 +11942,40 @@
         "alt": "Demo leaf 0043: raw input point cloud (left) versus the author's released PCA reconstruction vertices (right), XY view colored by height.",
         "caption": "Demo leaf 0043: raw input point cloud (left) versus the author's released PCA reconstruction vertices (right), XY view colored by height."
       }
+    },
+    {
+      "public_id": "p-13d960f2f8637cfa0ec6e7dcfb20a5e5",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "PhenoFly Planning Tool: flight planning for high-resolution optical remote sensing with unmanned areal systems.",
+      "journal": "Plant Methods",
+      "authors": [
+        "Lukas Roth",
+        "Andreas Hund",
+        "Helge Aasen"
+      ],
+      "doi": "10.1186/s13007-018-0376-6",
+      "compute": "CPU",
+      "validated_on": "2026-10-25",
+      "demonstration": "Headless reproduction of the PhenoFly Planning Tool's flight-planning math (paper Eqs 1-33) for the Sony A9 + DJI M600P sample project using the authors' pinned R code via Rscript in Colab; one sample project only, no field case-study validation.",
+      "semantic_tags": [
+        "environment:aerial",
+        "environment:field",
+        "modality:rgb"
+      ],
+      "preview": {
+        "alt": "Flight lanes, exposure stations and optimized GCP layout over the mapping area, computed with the authors' R code (server.R) for sample project 001_Sony_A9_M600P.json.",
+        "caption": "Flight lanes, exposure stations and optimized GCP layout over the mapping area, computed with the authors' R code (server.R) for sample project 001_Sony_A9_M600P.json."
+      }
     }
   ]
 }
