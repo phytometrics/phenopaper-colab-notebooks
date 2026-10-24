@@ -449,22 +449,6 @@
       "code_cells": 15
     },
     {
-      "public_id": "p-24857da8b6b0a630f00984abf8e024b1",
-      "title": "Dim green light enables day-and-night monitoring of leaf movements.",
-      "journal": "The Plant journal : for cell and molecular biology",
-      "authors": [
-        "Herrero E, Gill AR, Wijeweera S, Ginzburg DN, Stamford JD, Antoniades A, Bromley JR, Mortimer JC, Gilliham M, Millar AH, Webb AAR."
-      ],
-      "investigation_run_id": "p-24857da8b6b0a630f00984abf8e024b1-20261019T231155Z-1148577",
-      "status": "failed",
-      "reason": "Colab runtime kernel-startup degradation: 6 exec attempts on 4 fresh CPU VMs (3 regions) all failed with WebSocketConnectionClosedException at the initial kernel ping; kernels stayed execution_state='starting' (colab.log evidence), and the concurrently running p-49a53057 worker failed identically. Notebook is complete and statically validated (deliverables/p-24857da8b6b0a630f00984abf8e024b1.ipynb, author code embedded verbatim from commit 3cc9885) but NOT executed. colab stop/status also hang (logs/stop2.log). Retry with resume_run_dir when Colab kernel startup recovers; keep this run dir.",
-      "created_on": "2026-10-23",
-      "notebook_path": "notebooks/unverified/p-24857da8b6b0a630f00984abf8e024b1.ipynb",
-      "notebook_sha256": "dd6642cf667f6d8bfa1d14b7222e963ac06ca5a83b56aa5ef52e948507461e5c",
-      "source_sha256": "7a680420ae4747fd1143c14dc58b726b6edbbde852b712bfed2c93867da8e213",
-      "code_cells": 12
-    },
-    {
       "public_id": "p-f5991cbb8e41b730312f040c2f8c6013",
       "title": "HAE-Net: A hierarchy-aware enhanced method for 3D panoptic segmentation in orchard scenes",
       "journal": "Plant Phenomics",

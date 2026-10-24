@@ -12013,6 +12013,41 @@
         "alt": "example1.pim Fo frame with the 45 automatically detected leaf-disc ROIs (5x9 grid, labeled row,col) overlaid — author fvfmPy default segmentation, commit 90d1823",
         "caption": "example1.pim Fo frame with the 45 automatically detected leaf-disc ROIs (5x9 grid, labeled row,col) overlaid — author fvfmPy default segmentation, commit 90d1823"
       }
+    },
+    {
+      "public_id": "p-24857da8b6b0a630f00984abf8e024b1",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Dim green light enables day‐and‐night monitoring of leaf movements",
+      "journal": "The Plant journal : for cell and molecular biology",
+      "authors": [
+        "Herrero E, Gill AR, Wijeweera S, Ginzburg DN, Stamford JD, Antoniades A, Bromley JR, Mortimer JC, Gilliham M, Millar AH, Webb AAR."
+      ],
+      "doi": "10.1111/tpj.71119",
+      "compute": "CPU",
+      "validated_on": "2026-10-24",
+      "demonstration": "CPU reproduction of the paper's ensemble segmentation pipeline (HSV+LAB+Otsu two-of-three vote) on one dim-grown Arabidopsis time-lapse from the authors' Figure 3 dataset, producing centroid-Y displacement and morphology over 66 subsampled frames; BioDare2 detrending and peak finding are out of scope.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "crop:lettuce",
+        "modality:rgb",
+        "organ:leaf",
+        "task:time_series",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Reference dim-grown Arabidopsis frame with the deterministically proposed ROI (yellow) and the author ensemble segmentation mask.",
+        "caption": "Reference dim-grown Arabidopsis frame with the deterministically proposed ROI (yellow) and the author ensemble segmentation mask."
+      }
     }
   ]
 }
