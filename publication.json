@@ -11695,6 +11695,43 @@
         "alt": "Plant-148 first validation frame (1200x1200) with shared YOLOv10 proposals (lime) and ground-truth leaf annotations (red dashed) from CanolaTrack val.",
         "caption": "Plant-148 first validation frame (1200x1200) with shared YOLOv10 proposals (lime) and ground-truth leaf annotations (red dashed) from CanolaTrack val."
       }
+    },
+    {
+      "public_id": "p-2de471794f74a7e470b0c6286777d396",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Integrating UAV-Based Remote Sensing and Deep Learning for Early Detection of Bacterial Leaf Blight in Rice",
+      "journal": "Springer Science and Business Media LLC",
+      "authors": [
+        "Balingbing C, Chebotarov D, Perilla IC, Klassen S, Castilla N, Carvajal RG, Ortega K, Sandro J, Pangesti N, Centeno CA, Rala A, Liu LD."
+      ],
+      "doi": "10.21203/rs.3.rs-11163942/v1",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-24",
+      "demonstration": "Fine-tunes the authors' YOLOv26-nano classifier on the pinned DS2025/IR24 UAV subset (12 BLB classes, ~2.7k train crops) and reports held-out val/test accuracy; a single-variety minimal demo with author-default hyperparameters, far below the paper's full four-variety results.",
+      "semantic_tags": [
+        "crop:rice",
+        "environment:aerial",
+        "environment:field",
+        "modality:rgb",
+        "organ:leaf",
+        "task:classification",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Original DS2025/IR24 UAV plot crops (Control / Medium / High inoculation, T1) from the pinned author dataset, labeled by severity; input preview before training.",
+        "caption": "Original DS2025/IR24 UAV plot crops (Control / Medium / High inoculation, T1) from the pinned author dataset, labeled by severity; input preview before training."
+      }
     }
   ]
 }
