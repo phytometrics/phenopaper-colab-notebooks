@@ -2,20 +2,6 @@
   "schema_version": 1,
   "failures": [
     {
-      "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
-      "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
-      "journal": "Frontiers in plant science",
-      "authors": [
-        "Quiñones Huatangari L, Vásquez Pérez HV, Valqui-Valqui L, Palomino Ojeda JM, Saravia D, Bardales Escalante W, Silva G, Chavez-Jalk A, Cruz Caro O, Valqui L."
-      ],
-      "investigation_run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T113209Z-4050068",
-      "run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T122226Z",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-fb173510315d985a2f33d77dff1eb87a-20261024T234134Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb"
-    },
-    {
       "public_id": "p-d0270e5cfded603928047f692df3bfce",
       "title": "Integrating plant phenotypic and genotypic data in the AGENT project: a BrAPI service implementation.",
       "journal": "Bioinformatics (Oxford, England)",
@@ -1743,6 +1729,20 @@
       "reason": "OpenCode/reporter exited with status 1; see run log p-845668b5bebd667d367e2f37f92142ad-20261024T235052Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
       "created_on": "2026-10-25",
       "notebook_path": "notebooks/unverified/p-845668b5bebd667d367e2f37f92142ad.ipynb"
+    },
+    {
+      "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
+      "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
+      "journal": "Frontiers in plant science",
+      "authors": [
+        "Quiñones Huatangari L, Vásquez Pérez HV, Valqui-Valqui L, Palomino Ojeda JM, Saravia D, Bardales Escalante W, Silva G, Chavez-Jalk A, Cruz Caro O, Valqui L."
+      ],
+      "investigation_run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T113209Z-4050068",
+      "run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T122226Z",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-fb173510315d985a2f33d77dff1eb87a-20261024T235158Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb"
     }
   ]
 }

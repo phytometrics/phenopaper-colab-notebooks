@@ -380,22 +380,6 @@
       "code_cells": 10
     },
     {
-      "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
-      "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
-      "journal": "Frontiers in plant science",
-      "authors": [
-        "Quiñones Huatangari L, Vásquez Pérez HV, Valqui-Valqui L, Palomino Ojeda JM, Saravia D, Bardales Escalante W, Silva G, Chavez-Jalk A, Cruz Caro O, Valqui L."
-      ],
-      "investigation_run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T113209Z-4050068",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-fb173510315d985a2f33d77dff1eb87a-20261024T234134Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb",
-      "notebook_sha256": "a023c8af7b4a2117cbe796cdb3b61781081d861a74ab0b8e933ef2970c958088",
-      "source_sha256": "c11c8d3b2962c2fef27752744ed22ad76b39d307841a0507602fe022cd111b7a",
-      "code_cells": 14
-    },
-    {
       "public_id": "p-27b968e6f90cc2d48dfbdf44d668ee61",
       "title": "GenoDrawing: An autoencoder framework for image prediction from SNP markers",
       "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
@@ -525,6 +509,22 @@
       "notebook_path": "notebooks/unverified/p-845668b5bebd667d367e2f37f92142ad.ipynb",
       "notebook_sha256": "b4219918282c792f40307f30a56576beb4cf191966440e656869fe291d0ff5a4",
       "source_sha256": "786ff3304ae17abf4b1d3b4431d08248ae1ca287c355535d54c8bcc06434e62e",
+      "code_cells": 14
+    },
+    {
+      "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
+      "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
+      "journal": "Frontiers in plant science",
+      "authors": [
+        "Quiñones Huatangari L, Vásquez Pérez HV, Valqui-Valqui L, Palomino Ojeda JM, Saravia D, Bardales Escalante W, Silva G, Chavez-Jalk A, Cruz Caro O, Valqui L."
+      ],
+      "investigation_run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T113209Z-4050068",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-fb173510315d985a2f33d77dff1eb87a-20261024T235158Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb",
+      "notebook_sha256": "3081eba11dd323b7a7ce705b42cf2e1dfd560c5961554eee6c04cb9d033823aa",
+      "source_sha256": "c11c8d3b2962c2fef27752744ed22ad76b39d307841a0507602fe022cd111b7a",
       "code_cells": 14
     }
   ]
