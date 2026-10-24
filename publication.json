@@ -12091,6 +12091,44 @@
         "alt": "Photograph of apple 9 slice 8 (left), the authors' published registered CT slice (middle), and our jointly registered CT slice (right, Pearson r 0.469 within the apple mask).",
         "caption": "Photograph of apple 9 slice 8 (left), the authors' published registered CT slice (middle), and our jointly registered CT slice (right, Pearson r 0.469 within the apple mask)."
       }
+    },
+    {
+      "public_id": "p-a5f12acf9b11d04c96db0f78b3c805eb",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "DSeg: A dynamic image segmentation program to extract backbone patterns for filamentous bacteria and hyphae structures",
+      "journal": "openRxiv",
+      "authors": [
+        "Hanqing Zhang",
+        "Niklas Söderholm",
+        "Linda Sandblad",
+        "Krister Wiklund",
+        "Magnus Andersson"
+      ],
+      "doi": "10.1101/289652",
+      "compute": "CPU",
+      "validated_on": "2026-10-25",
+      "demonstration": "Runs the authors' unmodified MATLAB pipeline in GNU Octave on frames 88-90 of the sample video (level-set segmentation, backbone extraction, morphometrics, persistence length); single-object demo, not a Table S1 benchmark.",
+      "semantic_tags": [
+        "task:segmentation",
+        "task:skeletonization",
+        "task:time_series",
+        "trait:architecture",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Input frames with the author method's level-set contour (red), mask (yellow) and extracted backbone (green), run unmodified in GNU Octave on the DSeg sample video (frames 88-90).",
+        "caption": "Input frames with the author method's level-set contour (red), mask (yellow) and extracted backbone (green), run unmodified in GNU Octave on the DSeg sample video (frames 88-90)."
+      }
     }
   ]
 }
