@@ -1005,21 +1005,6 @@
       "notebook_path": "notebooks/unverified/p-6fb6ce88d119706dec909131e0355999.ipynb"
     },
     {
-      "public_id": "p-37f99cf456e74d916230de8d4ac87be7",
-      "title": "MaiZaic : a robust end-to-end pipeline for mosaicking freely flown aerial video of agricultural fields",
-      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "authors": [
-        "Dewi Endah Kharismawati",
-        "Toni Kazic"
-      ],
-      "investigation_run_id": "p-37f99cf456e74d916230de8d4ac87be7-20260929T113611Z-2565368",
-      "run_id": "p-37f99cf456e74d916230de8d4ac87be7-20261008T220221Z",
-      "status": "failed",
-      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-08T22:29:10.166Z] ✗ cd /home/phyto/phenotyping-colab/runs/p-37f99cf456e74d916230de8d4ac87be7-20261008T220221Z/logs && cp FINAL_cli.log attempt1_cli.log && cp ../deliverables/p-37f99cf456e74d916230de8d4ac87be7_output.ipynb attempt1_ | [2026-10-08T22:29:10.166Z] Error: The user rejected permission to use this specific tool call. | [2026-10-08T22:29:16.418Z] Attempt 1 reached terminal state (exit 0, but with the diagnosed cell failures). Global assembly showed our re-computed ASIFT H deviates from the author's committed H (corner RMSE 146–254 px — feature-matching non | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-09",
-      "notebook_path": "notebooks/unverified/p-37f99cf456e74d916230de8d4ac87be7.ipynb"
-    },
-    {
       "public_id": "p-265a57b31003291df0583dfc9ac9a57a",
       "title": "Joint 2D to 3D image registration workflow for comparing multiple slice photographs and CT scans of apple fruit with internal disorders",
       "journal": "arXiv",
@@ -1743,6 +1728,21 @@
       "reason": "OpenCode/reporter exited with status 1; see run log p-8eb066596b66ac63b76cc87e1d066736-20261024T234810Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
       "created_on": "2026-10-25",
       "notebook_path": "notebooks/unverified/p-8eb066596b66ac63b76cc87e1d066736.ipynb"
+    },
+    {
+      "public_id": "p-37f99cf456e74d916230de8d4ac87be7",
+      "title": "MaiZaic : a robust end-to-end pipeline for mosaicking freely flown aerial video of agricultural fields",
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        "Dewi Endah Kharismawati",
+        "Toni Kazic"
+      ],
+      "investigation_run_id": "p-37f99cf456e74d916230de8d4ac87be7-20260929T113611Z-2565368",
+      "run_id": "p-37f99cf456e74d916230de8d4ac87be7-20261008T220221Z",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-37f99cf456e74d916230de8d4ac87be7-20261024T234913Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-37f99cf456e74d916230de8d4ac87be7.ipynb"
     }
   ]
 }
