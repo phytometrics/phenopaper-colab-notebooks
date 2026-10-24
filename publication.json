@@ -11624,6 +11624,43 @@
         "alt": "affe outputs for the demo fruit: per-camera segmented crops, boundary masks, symmetry maps and side views (this run)",
         "caption": "affe outputs for the demo fruit: per-camera segmented crops, boundary masks, symmetry maps and side views (this run)"
       }
+    },
+    {
+      "public_id": "p-14ff09b4c742a4f8ef71bf83c2d975e0",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Vision normalizing flows for the probability-informed detection of banana diseases from in-field images",
+      "journal": "Frontiers in Plant Science",
+      "authors": [
+        "Alisa Prusokiene",
+        "Augustinas Prusokas",
+        "Renata Retkute"
+      ],
+      "doi": "10.3389/fpls.2026.1937900",
+      "compute": "CPU",
+      "validated_on": "2026-10-24",
+      "demonstration": "Latent-space inference with the authors' released conditional normalizing flow on cached DINOv3 embeddings (Xanthomonas-wilt validation + Unsplash-lite OOD), computing the paper's disease and plant likelihood ratios; image-level extraction and training are out of scope and the LLR class aggregation is a documented max adaptation.",
+      "semantic_tags": [
+        "crop:banana",
+        "environment:field",
+        "modality:rgb",
+        "organ:whole_plant",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "2-D diagnostic space (disease ratio vs plant ratio) of the released flow on Xanthomonas-wilt validation and Unsplash-lite validation embeddings, reproducing the paper's Fig. 12 analogue on CPU",
+        "caption": "2-D diagnostic space (disease ratio vs plant ratio) of the released flow on Xanthomonas-wilt validation and Unsplash-lite validation embeddings, reproducing the paper's Fig. 12 analogue on CPU"
+      }
     }
   ]
 }

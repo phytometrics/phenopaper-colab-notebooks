@@ -562,24 +562,6 @@
       "code_cells": 11
     },
     {
-      "public_id": "p-14ff09b4c742a4f8ef71bf83c2d975e0",
-      "title": "Vision normalizing flows for the probability-informed detection of banana diseases from in-field images",
-      "journal": "Frontiers in Plant Science",
-      "authors": [
-        "Alisa Prusokiene",
-        "Augustinas Prusokas",
-        "Renata Retkute"
-      ],
-      "investigation_run_id": "p-14ff09b4c742a4f8ef71bf83c2d975e0-20261021T062028Z-1929087",
-      "status": "failed",
-      "reason": "Resume attempt 2 failed with the same persistent Colab CPU environment failure: after intake refresh confirmed the exact investigation run (no supersession) and the unchanged statically-valid notebook (sha256 272fcc61...), one READY session died instantly on first kernel contact (WebSocketConnectionClosedException, 0 cells transmitted), a second READY session (final2) died identically, a third allocation (final3) hung 600s+300s and never became READY, and two other allocation attempts hung 120-420s. Session budget 3/3 exhausted; bounded repairs used. Not a notebook or source-material defect - zero cells reached any kernel. Verified publisher not called. Retry again via resume_run_dir after backend recovery.",
-      "created_on": "2026-10-23",
-      "notebook_path": "notebooks/unverified/p-14ff09b4c742a4f8ef71bf83c2d975e0.ipynb",
-      "notebook_sha256": "029c1fca88e22410975d25893449582714de75ad0e3323df21f56f67dca9e1c3",
-      "source_sha256": "272fcc61d4c293a1e636ca39268109fc5bb7f7b56c65befd79f22a1924684dec",
-      "code_cells": 11
-    },
-    {
       "public_id": "p-c36d1f29a831a7708295479260406a78",
       "title": "Biology-aware association for identity-consistent leaf tracking in top-down plant phenotyping",
       "journal": "Frontiers in Plant Science",
