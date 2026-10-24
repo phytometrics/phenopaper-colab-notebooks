@@ -282,26 +282,6 @@
       "code_cells": 10
     },
     {
-      "public_id": "p-8c4897641cc52f62e005299aba86f5a3",
-      "title": "Sensitive detection of chloroplast movements through changes in leaf cross-polarized reflectance",
-      "journal": "Plant Physiology",
-      "authors": [
-        "Paweł Hermanowicz",
-        "Aleksandra Giza",
-        "Katarzyna M Sowa",
-        "Paweł Korecki",
-        "Justyna Łabuz"
-      ],
-      "investigation_run_id": "p-8c4897641cc52f62e005299aba86f5a3-20261022T132905Z-2686512",
-      "status": "failed",
-      "reason": "Two fresh CPU top-to-bottom validation attempts failed on authoring bugs (unequal curve lengths; a .clm without paired CSV; duplicate timestamps; one 'Indeterminate' value; a stray 300 uE transmittance entry; missing multcompView; emmeans needing data= with function-local data; .group/letter rename). All root causes were fixed and the complete repaired pipeline was verified diagnostically in probe18 (logs/probe18_output.ipynb): features, R gls+asinh+Tukey per-species letters, both plots, and group means matching the preprint (Vaccinium 100 uE 0.258 vs paper 0.3; Tussilago 0.215 vs 0.22; low blue not different from mock). The 3-session Colab budget (diag-p8c4897-probe1, final-p8c4897-cpu, final-p8c4897-cpu2) was then exhausted, so no fresh final validation remained in this invocation. Resume with resume_run_dir: rerun deliverables/p-8c4897641cc52f62e005299aba86f5a3.ipynb (sha256 7acd1cd62c35f8fe071d2c2f711bfcd0dc7d5dbc7eed8cc7d3da1c1dd931cc96) top-to-bottom in a fresh CPU runtime; expec",
-      "created_on": "2026-10-23",
-      "notebook_path": "notebooks/unverified/p-8c4897641cc52f62e005299aba86f5a3.ipynb",
-      "notebook_sha256": "b8dc7bbb775a21e37ab9d064482cbafec542ae8ec97697fe6cbbdb52aefe657e",
-      "source_sha256": "ab05e5d33ff1bf2b15a8f5edab8a647c3d3b8fe8187c5b27b8b950a4f4d69a58",
-      "code_cells": 13
-    },
-    {
       "public_id": "p-215a5217d9ca4a7536aa01cd18d16a54",
       "title": "\"Macrobot\": An Automated Segmentation-Based System for Powdery Mildew Disease Quantification.",
       "journal": "Plant phenomics (Washington, D.C.)",
@@ -526,6 +506,26 @@
       "notebook_sha256": "676328e0b6913a7e2cfd01451695b7f787eaa97236b6bfea7dafecebdd30ace4",
       "source_sha256": "80068bb2f6b725cb8a0456cf2f41f5e47c157d8728993289aff9b714422a6226",
       "code_cells": 15
+    },
+    {
+      "public_id": "p-8c4897641cc52f62e005299aba86f5a3",
+      "title": "Sensitive detection of chloroplast movements through changes in leaf cross-polarized reflectance",
+      "journal": "Plant Physiology",
+      "authors": [
+        "Paweł Hermanowicz",
+        "Aleksandra Giza",
+        "Katarzyna M Sowa",
+        "Paweł Korecki",
+        "Justyna Łabuz"
+      ],
+      "investigation_run_id": "p-8c4897641cc52f62e005299aba86f5a3-20261022T132905Z-2686512",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-8c4897641cc52f62e005299aba86f5a3-20261024T234927Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-8c4897641cc52f62e005299aba86f5a3.ipynb",
+      "notebook_sha256": "0d942d2581d6301ec1f521f5c715f3fcae5cda13d1e46b158769cf9e23fb7b37",
+      "source_sha256": "ab05e5d33ff1bf2b15a8f5edab8a647c3d3b8fe8187c5b27b8b950a4f4d69a58",
+      "code_cells": 13
     }
   ]
 }
