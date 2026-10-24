@@ -1197,23 +1197,6 @@
       ]
     },
     {
-      "public_id": "p-8eb066596b66ac63b76cc87e1d066736",
-      "title": "Detection and analysis of wheat spikes using Convolutional Neural Networks.",
-      "investigation_run_id": "p-8eb066596b66ac63b76cc87e1d066736-20260930T121136Z-3644237",
-      "run_id": "p-8eb066596b66ac63b76cc87e1d066736-20261007T012127Z",
-      "status": "failed",
-      "reason": "Pipeline implemented and diagnostically verified (fixcheck3: mAP 0.6232 vs paper 0.6653 on the 20-image GSYC test set with the released annotations, which hold 1465 GT boxes vs the paper's 1570). Two full-execution attempts failed or produced invalid metrics (roi-file parsing bug; GT sequence-mapping/scale-offset bug; Agg backend suppressed PNG outputs). Source fixed after each failure, but the corrected notebook needs one fresh full validation run and the Colab session budget (3/3 per invocation) is exhausted. Deliverable notebook is corrected and statically validated but unexecuted; no fabricated outputs. Resume with resume_run_dir for a fresh CPU session, then publish (CPU).",
-      "created_on": "2026-10-07",
-      "notebook_path": "notebooks/unverified/p-8eb066596b66ac63b76cc87e1d066736.ipynb",
-      "journal": "Plant Methods",
-      "authors": [
-        "Md. Mehedi Hasan",
-        "Joshua Chopin",
-        "Hamid Laga",
-        "Stanley J. Miklavcic"
-      ]
-    },
-    {
       "public_id": "p-2e8c3a2843f22434ab184e04160afc16",
       "title": "Clustering-Guided Multi-Layer Contrastive Representation Learning for Citrus Disease Classification",
       "investigation_run_id": "p-2e8c3a2843f22434ab184e04160afc16-20261006T110524Z-2952591",
@@ -1743,6 +1726,23 @@
       "reason": "OpenCode/reporter exited with status 1; see run log p-650819c551206a400b5a5865a67bb67b-20261024T234749Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
       "created_on": "2026-10-25",
       "notebook_path": "notebooks/unverified/p-650819c551206a400b5a5865a67bb67b.ipynb"
+    },
+    {
+      "public_id": "p-8eb066596b66ac63b76cc87e1d066736",
+      "title": "Detection and analysis of wheat spikes using Convolutional Neural Networks.",
+      "journal": "Plant Methods",
+      "authors": [
+        "Md. Mehedi Hasan",
+        "Joshua Chopin",
+        "Hamid Laga",
+        "Stanley J. Miklavcic"
+      ],
+      "investigation_run_id": "p-8eb066596b66ac63b76cc87e1d066736-20260930T121136Z-3644237",
+      "run_id": "p-8eb066596b66ac63b76cc87e1d066736-20261007T012127Z",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-8eb066596b66ac63b76cc87e1d066736-20261024T234810Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-8eb066596b66ac63b76cc87e1d066736.ipynb"
     }
   ]
 }

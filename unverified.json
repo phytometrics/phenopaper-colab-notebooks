@@ -98,25 +98,6 @@
       ]
     },
     {
-      "public_id": "p-8eb066596b66ac63b76cc87e1d066736",
-      "title": "Detection and analysis of wheat spikes using Convolutional Neural Networks.",
-      "investigation_run_id": "p-8eb066596b66ac63b76cc87e1d066736-20260930T121136Z-3644237",
-      "status": "failed",
-      "reason": "Pipeline implemented and diagnostically verified (fixcheck3: mAP 0.6232 vs paper 0.6653 on the 20-image GSYC test set with the released annotations, which hold 1465 GT boxes vs the paper's 1570). Two full-execution attempts failed or produced invalid metrics (roi-file parsing bug; GT sequence-mapping/scale-offset bug; Agg backend suppressed PNG outputs). Source fixed after each failure, but the corrected notebook needs one fresh full validation run and the Colab session budget (3/3 per invocation) is exhausted. Deliverable notebook is corrected and statically validated but unexecuted; no fabricated outputs. Resume with resume_run_dir for a fresh CPU session, then publish (CPU).",
-      "created_on": "2026-10-07",
-      "notebook_path": "notebooks/unverified/p-8eb066596b66ac63b76cc87e1d066736.ipynb",
-      "notebook_sha256": "1c2711b7b79bd8fa1ff8f216d9ba74596b672c071e99bd77a20236f9f4890c9e",
-      "source_sha256": "64196f8acbef9830ce03dbb914c4f3b6a80a0c63d59f8daf726f5a37342a22d5",
-      "code_cells": 12,
-      "journal": "Plant Methods",
-      "authors": [
-        "Md. Mehedi Hasan",
-        "Joshua Chopin",
-        "Hamid Laga",
-        "Stanley J. Miklavcic"
-      ]
-    },
-    {
       "public_id": "p-ab3aad79edeaf72b684b184a1da8a013",
       "title": "NTrack: A Multiple-Object Tracker and Dataset for Infield Cotton Boll Counting",
       "investigation_run_id": "p-ab3aad79edeaf72b684b184a1da8a013-20261007T064254Z-3787149",
@@ -526,6 +507,25 @@
       "notebook_sha256": "bdd1ba292ca386db765cda5154dca6faa53197535c50548cd2c94d700b56f42d",
       "source_sha256": "59d44c959c136d68bd1b502dfad983c2248aa4737b2cedcdb2244a7a4736da63",
       "code_cells": 25
+    },
+    {
+      "public_id": "p-8eb066596b66ac63b76cc87e1d066736",
+      "title": "Detection and analysis of wheat spikes using Convolutional Neural Networks.",
+      "journal": "Plant Methods",
+      "authors": [
+        "Md. Mehedi Hasan",
+        "Joshua Chopin",
+        "Hamid Laga",
+        "Stanley J. Miklavcic"
+      ],
+      "investigation_run_id": "p-8eb066596b66ac63b76cc87e1d066736-20260930T121136Z-3644237",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-8eb066596b66ac63b76cc87e1d066736-20261024T234810Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-8eb066596b66ac63b76cc87e1d066736.ipynb",
+      "notebook_sha256": "ec09c88a2a1222a30fb8fb3c6d6af4ed8e81ec14520305b5a4583a8b60e2cef0",
+      "source_sha256": "64196f8acbef9830ce03dbb914c4f3b6a80a0c63d59f8daf726f5a37342a22d5",
+      "code_cells": 12
     }
   ]
 }
