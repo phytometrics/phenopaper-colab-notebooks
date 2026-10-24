@@ -1055,20 +1055,6 @@
       "notebook_path": "notebooks/unverified/p-183d5b4abeda554cbd985222856739a5.ipynb"
     },
     {
-      "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
-      "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
-      "investigation_run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T113209Z-4050068",
-      "run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T122226Z",
-      "status": "failed",
-      "reason": "Notebook executed end-to-end error-free on fresh T4 (colab 0.7.4): fold-1 reconstruction verified against paper Table 3 (870/163 original instances), paper-faithful balancing (603/511), YOLO11n 300 epochs, test green P.864/R.469/mAP50 .640/mAP50-95 .437, ripe P.678/R.807/mAP50 .781/mAP50-95 .636; val mAP50 reaches paper level (.924/.972) but mAP50-95/recall stay below Table 6 across all testable pipeline variants -> delivered as executed partial reproduction. GitHub publication blocked: git push rejected 3x by remote 'Internal Server Error' (Request IDs DE5F:..., 3A50:..., 2650:...; 2026-10-07T15:11-15:12Z); auth and no-op push verified OK; local repo unchanged. Host queue may retry publication with the preserved artifacts.",
-      "created_on": "2026-10-08",
-      "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb",
-      "journal": "Frontiers in plant science",
-      "authors": [
-        "Quiñones Huatangari L, Vásquez Pérez HV, Valqui-Valqui L, Palomino Ojeda JM, Saravia D, Bardales Escalante W, Silva G, Chavez-Jalk A, Cruz Caro O, Valqui L."
-      ]
-    },
-    {
       "public_id": "p-f1b4f3cd160c996964aff858a481e94a",
       "title": "Accurately Identifying Sound vs. Rotten Cranberries Using Convolutional Neural Network",
       "investigation_run_id": "p-f1b4f3cd160c996964aff858a481e94a-20261007T181616Z-165968",
@@ -1743,6 +1729,20 @@
         "Kalhari Manawasinghe",
         "Karen Tanino"
       ]
+    },
+    {
+      "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
+      "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
+      "journal": "Frontiers in plant science",
+      "authors": [
+        "Quiñones Huatangari L, Vásquez Pérez HV, Valqui-Valqui L, Palomino Ojeda JM, Saravia D, Bardales Escalante W, Silva G, Chavez-Jalk A, Cruz Caro O, Valqui L."
+      ],
+      "investigation_run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T113209Z-4050068",
+      "run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T122226Z",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-fb173510315d985a2f33d77dff1eb87a-20261024T234134Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb"
     }
   ]
 }
