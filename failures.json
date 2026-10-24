@@ -2,6 +2,229 @@
   "schema_version": 1,
   "failures": [
     {
+      "public_id": "p-d0270e5cfded603928047f692df3bfce",
+      "title": "Integrating plant phenotypic and genotypic data in the AGENT project: a BrAPI service implementation.",
+      "journal": "Bioinformatics (Oxford, England)",
+      "authors": [
+        "Brouwer M, Bauernfeind J, Davuluri G, García Brizuela J, König P, Kumar S, Lange M, Weise S, Wijnker E, Pommier C, Ruff J, Kersey PJ."
+      ],
+      "investigation_run_id": "p-d0270e5cfded603928047f692df3bfce-20260930T141220Z-3714834",
+      "run_id": "p-d0270e5cfded603928047f692df3bfce-20261005T182535Z",
+      "status": "failed",
+      "reason": "Fresh CPU validation failed: the BrAPI Test Server (test-server.brapi.org), the backend of the author's bundled config_demo.ini, returned persistent nginx 502 for the whole window (Colab probes 22:53-23:01 UTC 2026-10-24, incl. 6 retries at 30 s). brapi_proxy --demo reported 'server test1 unreachable' (cell 5 RuntimeError), downstream cells 404-cascaded. Third-party outage, not a Colab/CLI/code defect; historical 2026-10-06 run succeeded against the same endpoint. Notebook (with one fix: removed matplotlib.use('Agg') so the result graph saves an inline image/png preview) is statically valid and preserved in deliverables/ for the unverified-reference path. Retry when the test server recovers.",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-d0270e5cfded603928047f692df3bfce.ipynb"
+    },
+    {
+      "public_id": "p-b1ad16e5699a826bc924207af4593ec7",
+      "title": "SpykProps: an imaging pipeline to quantify architecture in unilateral grass inflorescences.",
+      "journal": "Plant methods",
+      "authors": [
+        "Barreto Ortiz J, Hirsch CN, Ehlke NJ, Watkins E."
+      ],
+      "investigation_run_id": "p-b1ad16e5699a826bc924207af4593ec7-20260930T140256Z-3710427",
+      "run_id": "p-b1ad16e5699a826bc924207af4593ec7-20261006T183733Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-05T18:38:41.005Z] ! permission requested: external_directory (/*); auto-rejecting | [2026-10-05T18:38:41.022Z] ✗ curl -sS -m 60 -A \"Mozilla/5.0 (X11; Linux x86_64)\" -o /tmp_out.json -w \"%{http_code} %{url_effective}\\n\" \"https://drum.lib.umn.edu/server/api/pid/find?id=hdl:11299/256105\" ; ls -la /tmp_out.json 2>/dev/null; mk | [2026-10-05T18:38:41.022Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-25"
+    },
+    {
+      "public_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5",
+      "title": "GaussianPlant: Structure-aligned Gaussian Splatting for 3D Reconstruction of Plants",
+      "journal": "arXiv (Cornell University)",
+      "authors": [
+        "Yang Yang",
+        "Risa Shinoda",
+        "Hiroaki Santo",
+        "Fumio Okura"
+      ],
+      "investigation_run_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5-20260930T010628Z-3136584",
+      "run_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5-20261005T052337Z",
+      "status": "failed",
+      "reason": "Operator-authorized resume (2026-10-24/25) exhausted the 3-session budget without a captured full execution. Notebook v8 (sha256 ec22147d...3688) is statically valid and smoke-probe-verified end to end (author train.py 50-iter + eval_chamfer passed), but the final fresh-T4 run was lost: the local supervisor hit its 14400 s limit during the silent Step-2 cell and the remote VM was reaped mid-Step-2 (~22:40 UTC). Pretrain 7k had completed (29.1 min, 2.05M pts). Faithful full Step-2 likely exceeds a free-tier Colab T4 session; a reduced --iterations variant needs a fresh validated run. Available for the UNVERIFIED/INCOMPLETE reference path only.",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-52e5cb26b52aa179b3db5eec9f4bd2d5.ipynb"
+    },
+    {
+      "public_id": "p-89e0e604d88be6ac51289b5224ee3bd0",
+      "title": "TTADDA-UAV: A multi-season RGB and multispectral UAV dataset of potato fields collected in Japan and the Netherlands",
+      "journal": "Data in Brief",
+      "authors": [
+        "van Marrewijk B , Njane SN, Tsuda S, van Culemborg M, Polder G, Katayama K, van Daalen T, van de Zedde R."
+      ],
+      "investigation_run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20260929T092357Z-2482508",
+      "run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20261005T150444Z-b5cf1743",
+      "status": "failed",
+      "reason": "Operator-authorized resume retry 2026-10-24: data.4tu.nl outage persists. Notebook SHA-256 verified unchanged (32f13fc7...deaab); PhenoPaper intake refreshed, same completed investigation, no superseding run. Colab CPU diagnostic probes: xlsx ndownloader and 12.63 GB item Range requests all ConnectTimeout; DNS resolves (131.180.169.22) but TCP/443 times out and landing page is unreachable. DGX-side metadata request also timed out. The blocker is provider unavailability, not notebook code; no full validation run was attempted. Notebook retained as unverified reference in deliverables/.",
+      "created_on": "2026-10-24",
+      "notebook_path": "notebooks/unverified/p-89e0e604d88be6ac51289b5224ee3bd0.ipynb"
+    },
+    {
+      "public_id": "p-687457d4e2d069bdb1d54e06a735fab6",
+      "title": "Root Age Structure Governs Long-Term Architecture and Hydraulic Function in Perennial Plants: a Modelling Framework",
+      "journal": null,
+      "authors": [
+        "Fichtl L, Giraud M, Leitner D, Schnepf A, Steng K, Friedel M."
+      ],
+      "investigation_run_id": "p-687457d4e2d069bdb1d54e06a735fab6-20261021T164548Z-2175619",
+      "run_id": "p-687457d4e2d069bdb1d54e06a735fab6-20261023T005608Z-7b7db5d9",
+      "status": "failed",
+      "reason": "Operator-authorized retry executed: backend healthy, author code built (2.8 min) and parameterisation (createXMLs, genotype B) succeeded twice on two fresh CPU VMs after evidence-cited repairs for unpublished diameter/age data. The simulation itself is infeasible on Colab CPU: two independent supervised runs (N=2+N=6 and instrumented N=3) hit their unit runtime caps (2 h / 3 h) without completing a single simulated year (no per-year output; first-year phase alone > ~2.9 h), consistent with the authors' own 20-day cluster budget (wine_24cpu128.sh). Notebook rebuilt with the documented repairs and preserved in deliverables/ as an explicit UNVERIFIED reference; verified publisher not called.",
+      "created_on": "2026-10-24",
+      "notebook_path": "notebooks/unverified/p-687457d4e2d069bdb1d54e06a735fab6.ipynb"
+    },
+    {
+      "public_id": "p-cd2cf156846799a5a246f2cd226e37c7",
+      "title": "Poplar-Studio: skeleton-guided reconstruction of editable 3D poplar seedling models from multi-view point clouds",
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Zhencan Wang",
+        "Huichun Zhang",
+        "Liming Bian",
+        "Lei Zhou",
+        "Yufeng Ge"
+      ],
+      "investigation_run_id": "p-cd2cf156846799a5a246f2cd226e37c7-20261019T110852Z-645682",
+      "run_id": "p-cd2cf156846799a5a246f2cd226e37c7-20261023T061010Z-3139556",
+      "status": "failed",
+      "reason": "CPU-only notebook authored and statically validated (four-method lamina reconstruction of embedded sample leaves raw/0001+0002 with pinned author code 4aabe9f25c0550b885c47cf4bb8d94f07c5591). Three supervised colab exec attempts on two fresh CPU runtimes all failed at the CLI's initial execute_code with WebSocketConnectionClosedException (x3) before any notebook cell ran; 0 saved output notebooks. Colab allocation was also severely degraded (assign long-polls of 3.5-13 min). EXECUTION FAILED / NOT VALIDATED; complete unexecuted notebook preserved in deliverables/ for the unverified-reference path. Not a missing-material conclusion.",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-cd2cf156846799a5a246f2cd226e37c7.ipynb"
+    },
+    {
+      "public_id": "p-c36d1f29a831a7708295479260406a78",
+      "title": "Biology-aware association for identity-consistent leaf tracking in top-down plant phenotyping",
+      "journal": "Frontiers in Plant Science",
+      "authors": [
+        "Dongze Zhou",
+        "Cong Zhang"
+      ],
+      "investigation_run_id": "p-c36d1f29a831a7708295479260406a78-20261019T081049Z-502271",
+      "run_id": "p-c36d1f29a831a7708295479260406a78-20261023T023519Z",
+      "status": "failed",
+      "reason": "Notebook authored and statically validated but NOT executed: every colab exec failed with WebSocketConnectionClosedException on the first kernel send across 2 fresh CPU sessions in 2 regions; ~/.config/colab-cli/colab.log shows all kernels created since 2026-10-23 ~02:11 UTC stuck in execution_state 'starting' (also for other workers' sessions) followed by [Errno 110] Connection timed out. Systemic Colab-backend/CLI-0.7.5 execution-environment failure, not a scientific missing-material conclusion. Notebook preserved at deliverables/p-c36d1f29a831a7708295479260406a78.ipynb for the unverified-reference path; retry via resume_run_dir after backend recovery (probe: logs/probe_layout.ipynb).",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-c36d1f29a831a7708295479260406a78.ipynb"
+    },
+    {
+      "public_id": "p-c02f23ea0e7fc12935556f564c977832",
+      "title": "A practical framework for rice bacterial blight severity classification using 3D multispectral sensing",
+      "journal": "Smart Agricultural Technology",
+      "authors": [
+        "Shivranjani Baruah",
+        "Ruiming Du",
+        "Dilip Kumar",
+        "Gourisankar Laha",
+        "Sunita Choudhary",
+        "Jana Kholová",
+        "Yu Jiang",
+        "Adam Joseph Bogdanove",
+        "Kaitlin Morey Gold"
+      ],
+      "investigation_run_id": "p-c02f23ea0e7fc12935556f564c977832-20261019T125246Z-721142",
+      "run_id": "p-c02f23ea0e7fc12935556f564c977832-20261023T060903Z-07c8136d",
+      "status": "failed",
+      "reason": "Resume attempt 2026-10-23T10:00Z: Colab allocation hangs account-wide. Two bounded `colab new -s blb-rice-9f718eb7` attempts (120 s, 420 s) were killed mid-allocation with no session record; `colab sessions` and `colab status -s blb-rice-probe-07c8136d` also hang (exit 124). CLI debug log shows GET/POST /tun/m/assign with no response (one 412) and a GET /tun/m/unassign of stale endpoint m-s-kkb-usw3b1-2rwfg5pfj3d0v hanging since 18:13:18 JST; kernel-ws path still broken. Sibling worker p-8332fc95 was simultaneously waiting on the same hung allocation endpoint; backend demonstrably serves other workers today. Not a notebook defect. No code executed; UNVERIFIED reference notebook preserved at deliverables/p-c02f23ea0e7fc12935556f564c977832.ipynb (outputs empty). Intake re-verified: investigation run 721142 still latest, not superseded. Re-queue with backoff; resume_run_dir once the stale assignment is freed server-side or the CLI regression is fixed.",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-c02f23ea0e7fc12935556f564c977832.ipynb"
+    },
+    {
+      "public_id": "p-a686209c837f9985acc05f1403009a48",
+      "title": "Open-source hardware platform for automated, non-invasive plant phenotyping through combined RGB and thermal imaging",
+      "journal": "HardwareX",
+      "authors": [
+        "Marcel Bentancor",
+        "Esteban Casaretto",
+        "Omar Borsani",
+        "Gastón Quero",
+        "Mercedes Muñoz"
+      ],
+      "investigation_run_id": "p-a686209c837f9985acc05f1403009a48-20261022T122811Z-2664979",
+      "run_id": "p-a686209c837f9985acc05f1403009a48-20261023T113443Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-23T12:01:18.121Z] print(\"all author excerpts embedded verbatim\") | [2026-10-23T12:01:18.121Z] EOF failed | [2026-10-23T12:01:18.121Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-a686209c837f9985acc05f1403009a48.ipynb"
+    },
+    {
+      "public_id": "p-8c4897641cc52f62e005299aba86f5a3",
+      "title": "Sensitive detection of chloroplast movements through changes in leaf cross-polarized reflectance",
+      "journal": "Plant Physiology",
+      "authors": [
+        "Paweł Hermanowicz",
+        "Aleksandra Giza",
+        "Katarzyna M Sowa",
+        "Paweł Korecki",
+        "Justyna Łabuz"
+      ],
+      "investigation_run_id": "p-8c4897641cc52f62e005299aba86f5a3-20261022T132905Z-2686512",
+      "run_id": "p-8c4897641cc52f62e005299aba86f5a3-20261023T134156Z",
+      "status": "failed",
+      "reason": "Two fresh CPU top-to-bottom validation attempts failed on authoring bugs (unequal curve lengths; a .clm without paired CSV; duplicate timestamps; one 'Indeterminate' value; a stray 300 uE transmittance entry; missing multcompView; emmeans needing data= with function-local data; .group/letter rename). All root causes were fixed and the complete repaired pipeline was verified diagnostically in probe18 (logs/probe18_output.ipynb): features, R gls+asinh+Tukey per-species letters, both plots, and group means matching the preprint (Vaccinium 100 uE 0.258 vs paper 0.3; Tussilago 0.215 vs 0.22; low blue not different from mock). The 3-session Colab budget (diag-p8c4897-probe1, final-p8c4897-cpu, final-p8c4897-cpu2) was then exhausted, so no fresh final validation remained in this invocation. Resume with resume_run_dir: rerun deliverables/p-8c4897641cc52f62e005299aba86f5a3.ipynb (sha256 7acd1cd62c35f8fe071d2c2f711bfcd0dc7d5dbc7eed8cc7d3da1c1dd931cc96) top-to-bottom in a fresh CPU runtime; expec",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-8c4897641cc52f62e005299aba86f5a3.ipynb"
+    },
+    {
+      "public_id": "p-79eb695f0974354f466e2604639ff72b",
+      "title": "User-friendly software for high-throughput processing of chlorophyll fluorescence images to assess plant stress responses: fvfmPy and fvfmR packages",
+      "journal": "bioRxiv",
+      "authors": [
+        "Garen, J. C.",
+        "Arnold, P. A.",
+        "Crous, K. Y."
+      ],
+      "investigation_run_id": "p-79eb695f0974354f466e2604639ff72b-20261021T143441Z-2121581",
+      "run_id": "p-79eb695f0974354f466e2604639ff72b-20261023T082833Z",
+      "status": "failed",
+      "reason": "Notebook authored and statically validated but not executed: Colab kernel websockets cannot be established from this host (WebSocketConnectionClosedException on both exec attempts; day-long cross-worker Errno 110 timeouts and 105 Google 412 errors on /tun/m/ endpoints). CPU runtime recorded capacity_unavailable; queue should requeue with delay and resume_run_dir runs/p-79eb695f0974354f466e2604639ff72b-20261023T082833Z.",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-79eb695f0974354f466e2604639ff72b.ipynb"
+    },
+    {
+      "public_id": "p-2de471794f74a7e470b0c6286777d396",
+      "title": "Integrating UAV-Based Remote Sensing and Deep Learning for Early Detection of Bacterial Leaf Blight in Rice",
+      "journal": "Springer Science and Business Media LLC",
+      "authors": [
+        "Balingbing C, Chebotarov D, Perilla IC, Klassen S, Castilla N, Carvajal RG, Ortega K, Sandro J, Pangesti N, Centeno CA, Rala A, Liu LD."
+      ],
+      "investigation_run_id": "p-2de471794f74a7e470b0c6286777d396-20261019T062154Z-408445",
+      "run_id": "p-2de471794f74a7e470b0c6286777d396-20261023T035100Z",
+      "status": "failed",
+      "reason": "Automatic publication/registration stopped: T4 was marked unavailable without matching Colab capacity evidence",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-2de471794f74a7e470b0c6286777d396.ipynb"
+    },
+    {
+      "public_id": "p-24857da8b6b0a630f00984abf8e024b1",
+      "title": "Dim green light enables day-and-night monitoring of leaf movements.",
+      "journal": "The Plant journal : for cell and molecular biology",
+      "authors": [
+        "Herrero E, Gill AR, Wijeweera S, Ginzburg DN, Stamford JD, Antoniades A, Bromley JR, Mortimer JC, Gilliham M, Millar AH, Webb AAR."
+      ],
+      "investigation_run_id": "p-24857da8b6b0a630f00984abf8e024b1-20261019T231155Z-1148577",
+      "run_id": "p-24857da8b6b0a630f00984abf8e024b1-20261023T085010Z",
+      "status": "failed",
+      "reason": "Colab runtime kernel-startup degradation: 6 exec attempts on 4 fresh CPU VMs (3 regions) all failed with WebSocketConnectionClosedException at the initial kernel ping; kernels stayed execution_state='starting' (colab.log evidence), and the concurrently running p-49a53057 worker failed identically. Notebook is complete and statically validated (deliverables/p-24857da8b6b0a630f00984abf8e024b1.ipynb, author code embedded verbatim from commit 3cc9885) but NOT executed. colab stop/status also hang (logs/stop2.log). Retry with resume_run_dir when Colab kernel startup recovers; keep this run dir.",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-24857da8b6b0a630f00984abf8e024b1.ipynb"
+    },
+    {
+      "public_id": "p-14ff09b4c742a4f8ef71bf83c2d975e0",
+      "title": "Vision normalizing flows for the probability-informed detection of banana diseases from in-field images",
+      "journal": "Frontiers in Plant Science",
+      "authors": [
+        "Alisa Prusokiene",
+        "Augustinas Prusokas",
+        "Renata Retkute"
+      ],
+      "investigation_run_id": "p-14ff09b4c742a4f8ef71bf83c2d975e0-20261021T062028Z-1929087",
+      "run_id": "p-14ff09b4c742a4f8ef71bf83c2d975e0-20261023T021917Z-6574590",
+      "status": "failed",
+      "reason": "Resume attempt 2 failed with the same persistent Colab CPU environment failure: after intake refresh confirmed the exact investigation run (no supersession) and the unchanged statically-valid notebook (sha256 272fcc61...), one READY session died instantly on first kernel contact (WebSocketConnectionClosedException, 0 cells transmitted), a second READY session (final2) died identically, a third allocation (final3) hung 600s+300s and never became READY, and two other allocation attempts hung 120-420s. Session budget 3/3 exhausted; bounded repairs used. Not a notebook or source-material defect - zero cells reached any kernel. Verified publisher not called. Retry again via resume_run_dir after backend recovery.",
+      "created_on": "2026-10-23",
+      "notebook_path": "notebooks/unverified/p-14ff09b4c742a4f8ef71bf83c2d975e0.ipynb"
+    },
+    {
       "public_id": "p-bcc07e64c4e18890e139ec2fcb3b6063",
       "title": "p-bcc07e64c4e18890e139ec2fcb3b6063",
       "journal": null,
@@ -1037,19 +1260,6 @@
       ]
     },
     {
-      "public_id": "p-b1ad16e5699a826bc924207af4593ec7",
-      "title": "SpykProps: an imaging pipeline to quantify architecture in unilateral grass inflorescences.",
-      "investigation_run_id": "p-b1ad16e5699a826bc924207af4593ec7-20260930T140256Z-3710427",
-      "run_id": "p-b1ad16e5699a826bc924207af4593ec7-20261006T183733Z",
-      "status": "failed",
-      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-05T18:38:41.005Z] ! permission requested: external_directory (/*); auto-rejecting | [2026-10-05T18:38:41.022Z] ✗ curl -sS -m 60 -A \"Mozilla/5.0 (X11; Linux x86_64)\" -o /tmp_out.json -w \"%{http_code} %{url_effective}\\n\" \"https://drum.lib.umn.edu/server/api/pid/find?id=hdl:11299/256105\" ; ls -la /tmp_out.json 2>/dev/null; mk | [2026-10-05T18:38:41.022Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-06",
-      "journal": "Plant methods",
-      "authors": [
-        "Barreto Ortiz J, Hirsch CN, Ehlke NJ, Watkins E."
-      ]
-    },
-    {
       "public_id": "p-a785f82e6559d4502f67899b766e588d",
       "title": "p-a785f82e6559d4502f67899b766e588d",
       "investigation_run_id": null,
@@ -1522,216 +1732,6 @@
         "Kalhari Manawasinghe",
         "Karen Tanino"
       ]
-    },
-    {
-      "public_id": "p-2de471794f74a7e470b0c6286777d396",
-      "title": "Integrating UAV-Based Remote Sensing and Deep Learning for Early Detection of Bacterial Leaf Blight in Rice",
-      "journal": "Springer Science and Business Media LLC",
-      "authors": [
-        "Balingbing C, Chebotarov D, Perilla IC, Klassen S, Castilla N, Carvajal RG, Ortega K, Sandro J, Pangesti N, Centeno CA, Rala A, Liu LD."
-      ],
-      "investigation_run_id": "p-2de471794f74a7e470b0c6286777d396-20261019T062154Z-408445",
-      "run_id": "p-2de471794f74a7e470b0c6286777d396-20261023T035100Z",
-      "status": "failed",
-      "reason": "Automatic publication/registration stopped: T4 was marked unavailable without matching Colab capacity evidence",
-      "created_on": "2026-10-23",
-      "notebook_path": "notebooks/unverified/p-2de471794f74a7e470b0c6286777d396.ipynb"
-    },
-    {
-      "public_id": "p-14ff09b4c742a4f8ef71bf83c2d975e0",
-      "title": "Vision normalizing flows for the probability-informed detection of banana diseases from in-field images",
-      "journal": "Frontiers in Plant Science",
-      "authors": [
-        "Alisa Prusokiene",
-        "Augustinas Prusokas",
-        "Renata Retkute"
-      ],
-      "investigation_run_id": "p-14ff09b4c742a4f8ef71bf83c2d975e0-20261021T062028Z-1929087",
-      "run_id": "p-14ff09b4c742a4f8ef71bf83c2d975e0-20261023T021917Z-6574590",
-      "status": "failed",
-      "reason": "Resume attempt 2 failed with the same persistent Colab CPU environment failure: after intake refresh confirmed the exact investigation run (no supersession) and the unchanged statically-valid notebook (sha256 272fcc61...), one READY session died instantly on first kernel contact (WebSocketConnectionClosedException, 0 cells transmitted), a second READY session (final2) died identically, a third allocation (final3) hung 600s+300s and never became READY, and two other allocation attempts hung 120-420s. Session budget 3/3 exhausted; bounded repairs used. Not a notebook or source-material defect - zero cells reached any kernel. Verified publisher not called. Retry again via resume_run_dir after backend recovery.",
-      "created_on": "2026-10-23",
-      "notebook_path": "notebooks/unverified/p-14ff09b4c742a4f8ef71bf83c2d975e0.ipynb"
-    },
-    {
-      "public_id": "p-c36d1f29a831a7708295479260406a78",
-      "title": "Biology-aware association for identity-consistent leaf tracking in top-down plant phenotyping",
-      "journal": "Frontiers in Plant Science",
-      "authors": [
-        "Dongze Zhou",
-        "Cong Zhang"
-      ],
-      "investigation_run_id": "p-c36d1f29a831a7708295479260406a78-20261019T081049Z-502271",
-      "run_id": "p-c36d1f29a831a7708295479260406a78-20261023T023519Z",
-      "status": "failed",
-      "reason": "Notebook authored and statically validated but NOT executed: every colab exec failed with WebSocketConnectionClosedException on the first kernel send across 2 fresh CPU sessions in 2 regions; ~/.config/colab-cli/colab.log shows all kernels created since 2026-10-23 ~02:11 UTC stuck in execution_state 'starting' (also for other workers' sessions) followed by [Errno 110] Connection timed out. Systemic Colab-backend/CLI-0.7.5 execution-environment failure, not a scientific missing-material conclusion. Notebook preserved at deliverables/p-c36d1f29a831a7708295479260406a78.ipynb for the unverified-reference path; retry via resume_run_dir after backend recovery (probe: logs/probe_layout.ipynb).",
-      "created_on": "2026-10-23",
-      "notebook_path": "notebooks/unverified/p-c36d1f29a831a7708295479260406a78.ipynb"
-    },
-    {
-      "public_id": "p-cd2cf156846799a5a246f2cd226e37c7",
-      "title": "Poplar-Studio: skeleton-guided reconstruction of editable 3D poplar seedling models from multi-view point clouds",
-      "journal": "Computers and Electronics in Agriculture",
-      "authors": [
-        "Zhencan Wang",
-        "Huichun Zhang",
-        "Liming Bian",
-        "Lei Zhou",
-        "Yufeng Ge"
-      ],
-      "investigation_run_id": "p-cd2cf156846799a5a246f2cd226e37c7-20261019T110852Z-645682",
-      "run_id": "p-cd2cf156846799a5a246f2cd226e37c7-20261023T061010Z-3139556",
-      "status": "failed",
-      "reason": "CPU-only notebook authored and statically validated (four-method lamina reconstruction of embedded sample leaves raw/0001+0002 with pinned author code 4aabe9f25c0550b885c47cf4bb8d94f07c5591). Three supervised colab exec attempts on two fresh CPU runtimes all failed at the CLI's initial execute_code with WebSocketConnectionClosedException (x3) before any notebook cell ran; 0 saved output notebooks. Colab allocation was also severely degraded (assign long-polls of 3.5-13 min). EXECUTION FAILED / NOT VALIDATED; complete unexecuted notebook preserved in deliverables/ for the unverified-reference path. Not a missing-material conclusion.",
-      "created_on": "2026-10-23",
-      "notebook_path": "notebooks/unverified/p-cd2cf156846799a5a246f2cd226e37c7.ipynb"
-    },
-    {
-      "public_id": "p-79eb695f0974354f466e2604639ff72b",
-      "title": "User-friendly software for high-throughput processing of chlorophyll fluorescence images to assess plant stress responses: fvfmPy and fvfmR packages",
-      "journal": "bioRxiv",
-      "authors": [
-        "Garen, J. C.",
-        "Arnold, P. A.",
-        "Crous, K. Y."
-      ],
-      "investigation_run_id": "p-79eb695f0974354f466e2604639ff72b-20261021T143441Z-2121581",
-      "run_id": "p-79eb695f0974354f466e2604639ff72b-20261023T082833Z",
-      "status": "failed",
-      "reason": "Notebook authored and statically validated but not executed: Colab kernel websockets cannot be established from this host (WebSocketConnectionClosedException on both exec attempts; day-long cross-worker Errno 110 timeouts and 105 Google 412 errors on /tun/m/ endpoints). CPU runtime recorded capacity_unavailable; queue should requeue with delay and resume_run_dir runs/p-79eb695f0974354f466e2604639ff72b-20261023T082833Z.",
-      "created_on": "2026-10-23",
-      "notebook_path": "notebooks/unverified/p-79eb695f0974354f466e2604639ff72b.ipynb"
-    },
-    {
-      "public_id": "p-c02f23ea0e7fc12935556f564c977832",
-      "title": "A practical framework for rice bacterial blight severity classification using 3D multispectral sensing",
-      "journal": "Smart Agricultural Technology",
-      "authors": [
-        "Shivranjani Baruah",
-        "Ruiming Du",
-        "Dilip Kumar",
-        "Gourisankar Laha",
-        "Sunita Choudhary",
-        "Jana Kholová",
-        "Yu Jiang",
-        "Adam Joseph Bogdanove",
-        "Kaitlin Morey Gold"
-      ],
-      "investigation_run_id": "p-c02f23ea0e7fc12935556f564c977832-20261019T125246Z-721142",
-      "run_id": "p-c02f23ea0e7fc12935556f564c977832-20261023T060903Z-07c8136d",
-      "status": "failed",
-      "reason": "Resume attempt 2026-10-23T10:00Z: Colab allocation hangs account-wide. Two bounded `colab new -s blb-rice-9f718eb7` attempts (120 s, 420 s) were killed mid-allocation with no session record; `colab sessions` and `colab status -s blb-rice-probe-07c8136d` also hang (exit 124). CLI debug log shows GET/POST /tun/m/assign with no response (one 412) and a GET /tun/m/unassign of stale endpoint m-s-kkb-usw3b1-2rwfg5pfj3d0v hanging since 18:13:18 JST; kernel-ws path still broken. Sibling worker p-8332fc95 was simultaneously waiting on the same hung allocation endpoint; backend demonstrably serves other workers today. Not a notebook defect. No code executed; UNVERIFIED reference notebook preserved at deliverables/p-c02f23ea0e7fc12935556f564c977832.ipynb (outputs empty). Intake re-verified: investigation run 721142 still latest, not superseded. Re-queue with backoff; resume_run_dir once the stale assignment is freed server-side or the CLI regression is fixed.",
-      "created_on": "2026-10-23",
-      "notebook_path": "notebooks/unverified/p-c02f23ea0e7fc12935556f564c977832.ipynb"
-    },
-    {
-      "public_id": "p-24857da8b6b0a630f00984abf8e024b1",
-      "title": "Dim green light enables day-and-night monitoring of leaf movements.",
-      "journal": "The Plant journal : for cell and molecular biology",
-      "authors": [
-        "Herrero E, Gill AR, Wijeweera S, Ginzburg DN, Stamford JD, Antoniades A, Bromley JR, Mortimer JC, Gilliham M, Millar AH, Webb AAR."
-      ],
-      "investigation_run_id": "p-24857da8b6b0a630f00984abf8e024b1-20261019T231155Z-1148577",
-      "run_id": "p-24857da8b6b0a630f00984abf8e024b1-20261023T085010Z",
-      "status": "failed",
-      "reason": "Colab runtime kernel-startup degradation: 6 exec attempts on 4 fresh CPU VMs (3 regions) all failed with WebSocketConnectionClosedException at the initial kernel ping; kernels stayed execution_state='starting' (colab.log evidence), and the concurrently running p-49a53057 worker failed identically. Notebook is complete and statically validated (deliverables/p-24857da8b6b0a630f00984abf8e024b1.ipynb, author code embedded verbatim from commit 3cc9885) but NOT executed. colab stop/status also hang (logs/stop2.log). Retry with resume_run_dir when Colab kernel startup recovers; keep this run dir.",
-      "created_on": "2026-10-23",
-      "notebook_path": "notebooks/unverified/p-24857da8b6b0a630f00984abf8e024b1.ipynb"
-    },
-    {
-      "public_id": "p-a686209c837f9985acc05f1403009a48",
-      "title": "Open-source hardware platform for automated, non-invasive plant phenotyping through combined RGB and thermal imaging",
-      "journal": "HardwareX",
-      "authors": [
-        "Marcel Bentancor",
-        "Esteban Casaretto",
-        "Omar Borsani",
-        "Gastón Quero",
-        "Mercedes Muñoz"
-      ],
-      "investigation_run_id": "p-a686209c837f9985acc05f1403009a48-20261022T122811Z-2664979",
-      "run_id": "p-a686209c837f9985acc05f1403009a48-20261023T113443Z",
-      "status": "failed",
-      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-23T12:01:18.121Z] print(\"all author excerpts embedded verbatim\") | [2026-10-23T12:01:18.121Z] EOF failed | [2026-10-23T12:01:18.121Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-23",
-      "notebook_path": "notebooks/unverified/p-a686209c837f9985acc05f1403009a48.ipynb"
-    },
-    {
-      "public_id": "p-8c4897641cc52f62e005299aba86f5a3",
-      "title": "Sensitive detection of chloroplast movements through changes in leaf cross-polarized reflectance",
-      "journal": "Plant Physiology",
-      "authors": [
-        "Paweł Hermanowicz",
-        "Aleksandra Giza",
-        "Katarzyna M Sowa",
-        "Paweł Korecki",
-        "Justyna Łabuz"
-      ],
-      "investigation_run_id": "p-8c4897641cc52f62e005299aba86f5a3-20261022T132905Z-2686512",
-      "run_id": "p-8c4897641cc52f62e005299aba86f5a3-20261023T134156Z",
-      "status": "failed",
-      "reason": "Two fresh CPU top-to-bottom validation attempts failed on authoring bugs (unequal curve lengths; a .clm without paired CSV; duplicate timestamps; one 'Indeterminate' value; a stray 300 uE transmittance entry; missing multcompView; emmeans needing data= with function-local data; .group/letter rename). All root causes were fixed and the complete repaired pipeline was verified diagnostically in probe18 (logs/probe18_output.ipynb): features, R gls+asinh+Tukey per-species letters, both plots, and group means matching the preprint (Vaccinium 100 uE 0.258 vs paper 0.3; Tussilago 0.215 vs 0.22; low blue not different from mock). The 3-session Colab budget (diag-p8c4897-probe1, final-p8c4897-cpu, final-p8c4897-cpu2) was then exhausted, so no fresh final validation remained in this invocation. Resume with resume_run_dir: rerun deliverables/p-8c4897641cc52f62e005299aba86f5a3.ipynb (sha256 7acd1cd62c35f8fe071d2c2f711bfcd0dc7d5dbc7eed8cc7d3da1c1dd931cc96) top-to-bottom in a fresh CPU runtime; expec",
-      "created_on": "2026-10-23",
-      "notebook_path": "notebooks/unverified/p-8c4897641cc52f62e005299aba86f5a3.ipynb"
-    },
-    {
-      "public_id": "p-89e0e604d88be6ac51289b5224ee3bd0",
-      "title": "TTADDA-UAV: A multi-season RGB and multispectral UAV dataset of potato fields collected in Japan and the Netherlands",
-      "journal": "Data in Brief",
-      "authors": [
-        "van Marrewijk B , Njane SN, Tsuda S, van Culemborg M, Polder G, Katayama K, van Daalen T, van de Zedde R."
-      ],
-      "investigation_run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20260929T092357Z-2482508",
-      "run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20261005T150444Z-b5cf1743",
-      "status": "failed",
-      "reason": "Operator-authorized resume retry 2026-10-24: data.4tu.nl outage persists. Notebook SHA-256 verified unchanged (32f13fc7...deaab); PhenoPaper intake refreshed, same completed investigation, no superseding run. Colab CPU diagnostic probes: xlsx ndownloader and 12.63 GB item Range requests all ConnectTimeout; DNS resolves (131.180.169.22) but TCP/443 times out and landing page is unreachable. DGX-side metadata request also timed out. The blocker is provider unavailability, not notebook code; no full validation run was attempted. Notebook retained as unverified reference in deliverables/.",
-      "created_on": "2026-10-24",
-      "notebook_path": "notebooks/unverified/p-89e0e604d88be6ac51289b5224ee3bd0.ipynb"
-    },
-    {
-      "public_id": "p-687457d4e2d069bdb1d54e06a735fab6",
-      "title": "Root Age Structure Governs Long-Term Architecture and Hydraulic Function in Perennial Plants: a Modelling Framework",
-      "journal": null,
-      "authors": [
-        "Fichtl L, Giraud M, Leitner D, Schnepf A, Steng K, Friedel M."
-      ],
-      "investigation_run_id": "p-687457d4e2d069bdb1d54e06a735fab6-20261021T164548Z-2175619",
-      "run_id": "p-687457d4e2d069bdb1d54e06a735fab6-20261023T005608Z-7b7db5d9",
-      "status": "failed",
-      "reason": "Operator-authorized retry executed: backend healthy, author code built (2.8 min) and parameterisation (createXMLs, genotype B) succeeded twice on two fresh CPU VMs after evidence-cited repairs for unpublished diameter/age data. The simulation itself is infeasible on Colab CPU: two independent supervised runs (N=2+N=6 and instrumented N=3) hit their unit runtime caps (2 h / 3 h) without completing a single simulated year (no per-year output; first-year phase alone > ~2.9 h), consistent with the authors' own 20-day cluster budget (wine_24cpu128.sh). Notebook rebuilt with the documented repairs and preserved in deliverables/ as an explicit UNVERIFIED reference; verified publisher not called.",
-      "created_on": "2026-10-24",
-      "notebook_path": "notebooks/unverified/p-687457d4e2d069bdb1d54e06a735fab6.ipynb"
-    },
-    {
-      "public_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5",
-      "title": "GaussianPlant: Structure-aligned Gaussian Splatting for 3D Reconstruction of Plants",
-      "journal": "arXiv (Cornell University)",
-      "authors": [
-        "Yang Yang",
-        "Risa Shinoda",
-        "Hiroaki Santo",
-        "Fumio Okura"
-      ],
-      "investigation_run_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5-20260930T010628Z-3136584",
-      "run_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5-20261005T052337Z",
-      "status": "failed",
-      "reason": "Operator-authorized resume (2026-10-24/25) exhausted the 3-session budget without a captured full execution. Notebook v8 (sha256 ec22147d...3688) is statically valid and smoke-probe-verified end to end (author train.py 50-iter + eval_chamfer passed), but the final fresh-T4 run was lost: the local supervisor hit its 14400 s limit during the silent Step-2 cell and the remote VM was reaped mid-Step-2 (~22:40 UTC). Pretrain 7k had completed (29.1 min, 2.05M pts). Faithful full Step-2 likely exceeds a free-tier Colab T4 session; a reduced --iterations variant needs a fresh validated run. Available for the UNVERIFIED/INCOMPLETE reference path only.",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-52e5cb26b52aa179b3db5eec9f4bd2d5.ipynb"
-    },
-    {
-      "public_id": "p-d0270e5cfded603928047f692df3bfce",
-      "title": "Integrating plant phenotypic and genotypic data in the AGENT project: a BrAPI service implementation.",
-      "journal": "Bioinformatics (Oxford, England)",
-      "authors": [
-        "Brouwer M, Bauernfeind J, Davuluri G, García Brizuela J, König P, Kumar S, Lange M, Weise S, Wijnker E, Pommier C, Ruff J, Kersey PJ."
-      ],
-      "investigation_run_id": "p-d0270e5cfded603928047f692df3bfce-20260930T141220Z-3714834",
-      "run_id": "p-d0270e5cfded603928047f692df3bfce-20261005T182535Z",
-      "status": "failed",
-      "reason": "Fresh CPU validation failed: the BrAPI Test Server (test-server.brapi.org), the backend of the author's bundled config_demo.ini, returned persistent nginx 502 for the whole window (Colab probes 22:53-23:01 UTC 2026-10-24, incl. 6 retries at 30 s). brapi_proxy --demo reported 'server test1 unreachable' (cell 5 RuntimeError), downstream cells 404-cascaded. Third-party outage, not a Colab/CLI/code defect; historical 2026-10-06 run succeeded against the same endpoint. Notebook (with one fix: removed matplotlib.use('Agg') so the result graph saves an inline image/png preview) is statically valid and preserved in deliverables/ for the unverified-reference path. Retry when the test server recovers.",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-d0270e5cfded603928047f692df3bfce.ipynb"
     }
   ]
 }
