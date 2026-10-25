@@ -580,27 +580,6 @@
       "created_on": "2026-10-25"
     },
     {
-      "public_id": "p-650819c551206a400b5a5865a67bb67b",
-      "title": "A photometric stereo-based 3D imaging system using computer vision and deep learning for tracking plant growth",
-      "journal": "GigaScience",
-      "authors": [
-        "Gytis Bernotas",
-        "Livia Scorza",
-        "Mark Hansen",
-        "Ian Hales",
-        "Karen Halliday",
-        "Lyndon Smith",
-        "Melvyn Smith",
-        "Alistair J. McCormick"
-      ],
-      "investigation_run_id": "p-650819c551206a400b5a5865a67bb67b-20260930T140149Z-3709498",
-      "run_id": "p-650819c551206a400b5a5865a67bb67b-20261006T181006Z",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-650819c551206a400b5a5865a67bb67b-20261024T235215Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-650819c551206a400b5a5865a67bb67b.ipynb"
-    },
-    {
       "public_id": "p-64118216d3c05b591360cb6e01b26085",
       "title": "p-64118216d3c05b591360cb6e01b26085",
       "journal": null,
@@ -1743,6 +1722,27 @@
       "reason": "Operator-authorized retry executed: backend healthy, author code built (2.8 min) and parameterisation (createXMLs, genotype B) succeeded twice on two fresh CPU VMs after evidence-cited repairs for unpublished diameter/age data. The simulation itself is infeasible on Colab CPU: two independent supervised runs (N=2+N=6 and instrumented N=3) hit their unit runtime caps (2 h / 3 h) without completing a single simulated year (no per-year output; first-year phase alone > ~2.9 h), consistent with the authors' own 20-day cluster budget (wine_24cpu128.sh). Notebook rebuilt with the documented repairs and preserved in deliverables/ as an explicit UNVERIFIED reference; verified publisher not called.",
       "created_on": "2026-10-25",
       "notebook_path": "notebooks/unverified/p-687457d4e2d069bdb1d54e06a735fab6.ipynb"
+    },
+    {
+      "public_id": "p-650819c551206a400b5a5865a67bb67b",
+      "title": "A photometric stereo-based 3D imaging system using computer vision and deep learning for tracking plant growth",
+      "journal": "GigaScience",
+      "authors": [
+        "Gytis Bernotas",
+        "Livia Scorza",
+        "Mark Hansen",
+        "Ian Hales",
+        "Karen Halliday",
+        "Lyndon Smith",
+        "Melvyn Smith",
+        "Alistair J. McCormick"
+      ],
+      "investigation_run_id": "p-650819c551206a400b5a5865a67bb67b-20260930T140149Z-3709498",
+      "run_id": "p-650819c551206a400b5a5865a67bb67b-20261006T181006Z",
+      "status": "failed",
+      "reason": "Full fresh-CPU validation (final_exec8) ran the complete pipeline error-free in 23/25 cells: 329/329 data files downloaded (gdown + usercontent fallback), adaptive LSV matched the author's precomputed file to 2.7e-15, trait CSVs and 4 figures produced. Two provided-mask IoU comparison cells (18/20) still raise ValueError because the author's shipped LeafMasks/TrackedLeafMasks are per-plant bbox crops of varying size (~520-590 px) while our masks follow the author's own code path in the ROI-crop frame (655x475). Cells were repaired to skip mismatched frames, but changed source requires a fresh full run and the 3-session budget is exhausted. Resume with resume_run_dir to validate sha 7aeb3a48... and publish.",
+      "created_on": "2026-10-26",
+      "notebook_path": "notebooks/unverified/p-650819c551206a400b5a5865a67bb67b.ipynb"
     }
   ]
 }
