@@ -526,6 +526,25 @@
       "notebook_sha256": "6c3d8b156f4bf6a82966830a8113875bae09098d3b86056000e2459ce3c6a6cf",
       "source_sha256": "772f1b27a846ffb1bb48af27a685b353c967288bbd63c677aed9d684de603340",
       "code_cells": 20
+    },
+    {
+      "public_id": "p-6dbbe4f1f990f82f9de373035b88c898",
+      "title": "Leaf gas exchange measurement for steady‐state stomatal conductance model calibration",
+      "journal": "New Phytologist",
+      "authors": [
+        "Kyle T. Rizzo",
+        "Tong Lei",
+        "Thomas N. Buckley",
+        "Brian N. Bailey"
+      ],
+      "investigation_run_id": "p-6dbbe4f1f990f82f9de373035b88c898-20261025T125934Z-259040",
+      "status": "blocked",
+      "reason": "Data-access blocker: the paper's two required Dryad CSVs (doi:10.5061/dryad.5x69p8djr v3, CC0; files 4577414 and 4577415) are unreachable through authorized programmatic routes. Executed probes on a Colab VM (logs/probe1-probe5) show: REST API download endpoints (per-file and dataset-level) return 401 'Unauthorized, must have current bearer token'; the website file_stream route serves an Anubis anti-bot JS challenge to browser UAs and 403 to tool UAs (automation prohibited); no public mirror exists (GitHub/Zenodo/Wayback searched). Code (PhoTorch @ e6e4265) and paper identity/Eqn 4/Table 1 were fully verified from primary sources. Per outcome B, deliverables/p-6dbbe4f1f990f82f9de373035b88c898.ipynb is a complete CODE-ONLY / NOT EXECUTED notebook (statically validated, dated access guard, no fabricated outputs); eligible for the host queue's UNVERIFIED-reference path. Needs a permitted access path or public mirror before fresh validation.",
+      "created_on": "2026-10-26",
+      "notebook_path": "notebooks/unverified/p-6dbbe4f1f990f82f9de373035b88c898.ipynb",
+      "notebook_sha256": "052045a5037a84731e8e29722a81ea35d3eb2a837cf406461984bd9ad1242e91",
+      "source_sha256": "1b9c8e7cd09e37b5f8610dbc64bb47d0cffec7770b5544f4598d95fc499e1aa9",
+      "code_cells": 10
     }
   ]
 }
