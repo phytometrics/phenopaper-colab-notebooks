@@ -16,6 +16,17 @@
       "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb"
     },
     {
+      "public_id": "p-f43203614936590241ddae9d5baaae47",
+      "title": "p-f43203614936590241ddae9d5baaae47",
+      "journal": null,
+      "authors": [],
+      "investigation_run_id": "p-f43203614936590241ddae9d5baaae47-20260929T130004Z-2632106",
+      "run_id": "p-f43203614936590241ddae9d5baaae47",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-f43203614936590241ddae9d5baaae47-20261025T001037Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25"
+    },
+    {
       "public_id": "p-ebc814dedddbfd7d44591d73e853f98f",
       "title": "p-ebc814dedddbfd7d44591d73e853f98f",
       "journal": null,
@@ -691,17 +702,6 @@
       "run_id": "p-f7eb9041bcbeb134561ba6360e365393",
       "status": "failed",
       "reason": "OpenCode/reporter exited with status 1; see run log p-f7eb9041bcbeb134561ba6360e365393-20261009T155612Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-10"
-    },
-    {
-      "public_id": "p-f43203614936590241ddae9d5baaae47",
-      "title": "p-f43203614936590241ddae9d5baaae47",
-      "journal": null,
-      "authors": [],
-      "investigation_run_id": "p-f43203614936590241ddae9d5baaae47-20260929T130004Z-2632106",
-      "run_id": "p-f43203614936590241ddae9d5baaae47",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-f43203614936590241ddae9d5baaae47-20261009T155323Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
       "created_on": "2026-10-10"
     },
     {
