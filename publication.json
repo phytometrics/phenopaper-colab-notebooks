@@ -12275,6 +12275,44 @@
         "alt": "Original 600-dpi scanner image after the authors' 0.5 rescale: red-channel mask (15 spikes detected) and the authors' numbered spike enumeration overlay.",
         "caption": "Original 600-dpi scanner image after the authors' 0.5 rescale: red-channel mask (15 spikes detected) and the authors' numbered spike enumeration overlay."
       }
+    },
+    {
+      "public_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "GaussianPlant: Structure-aligned Gaussian Splatting for 3D Reconstruction of Plants",
+      "journal": "arXiv (Cornell University)",
+      "authors": [
+        "Yang Yang",
+        "Risa Shinoda",
+        "Hiroaki Santo",
+        "Fumio Okura"
+      ],
+      "doi": "10.48550/arxiv.2512.14087",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-25",
+      "demonstration": "Executed the authors' pinned Step-2 structure extraction end to end on one Drive scene (newplant9) with an in-notebook 3k-iteration plain-3DGS substitute pretrain (feature-3DGS inputs are not released), followed by the authors' unmodified eval_chamfer: CD(L2)=0.161 m vs the released GT branch cloud; semantic flow inactive and one-scene scope, so paper-level results are not validated.",
+      "semantic_tags": [
+        "modality:neural_3d",
+        "organ:leaf",
+        "organ:stem",
+        "task:morphology",
+        "task:reconstruction",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "newplant9 input photograph with the authors' plant mask overlaid in red (the mask the authors' --rm_bg route uses to build the plant-only cloud)",
+        "caption": "newplant9 input photograph with the authors' plant mask overlaid in red (the mask the authors' --rm_bg route uses to build the plant-only cloud)"
+      }
     }
   ]
 }
