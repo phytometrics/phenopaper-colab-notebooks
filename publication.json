@@ -12387,6 +12387,42 @@
         "alt": "Morlet wavelet spectrogram of DI0/RC (thermal dissipation per reaction center) for the winter 2020/2021 sample with the authors' ground-truth dormancy-phase annotations (EnD/EcD, destructive-test stars, model dormancy-release line).",
         "caption": "Morlet wavelet spectrogram of DI0/RC (thermal dissipation per reaction center) for the winter 2020/2021 sample with the authors' ground-truth dormancy-phase annotations (EnD/EcD, destructive-test stars, model dormancy-release line)."
       }
+    },
+    {
+      "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
+      "journal": "Frontiers in plant science",
+      "authors": [
+        "Quiñones Huatangari L, Vásquez Pérez HV, Valqui-Valqui L, Palomino Ojeda JM, Saravia D, Bardales Escalante W, Silva G, Chavez-Jalk A, Cruz Caro O, Valqui L."
+      ],
+      "doi": "10.3389/fpls.2026.1880899",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-07",
+      "demonstration": "Trains YOLO11n for 300 epochs on a verified reconstruction of the paper's fold 1 (Solanum betaceum fruit maturity) and evaluates per-class test metrics; the ripe-over-green ordering and mAP50 level reproduce, while test mAP50-95/recall fall below the paper's five-fold means (executed partial reproduction).",
+      "semantic_tags": [
+        "crop:tomato",
+        "environment:field",
+        "organ:fruit",
+        "organ:whole_plant",
+        "task:object_detection",
+        "trait:growth_development",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Fold-1 test inputs with reference YOLO annotations (green=green fruit, orange=ripe fruit) drawn from the authors' label files.",
+        "caption": "Fold-1 test inputs with reference YOLO annotations (green=green fruit, orange=ripe fruit) drawn from the authors' label files."
+      }
     }
   ]
 }

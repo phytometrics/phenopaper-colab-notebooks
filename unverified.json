@@ -305,22 +305,6 @@
       "code_cells": 14
     },
     {
-      "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
-      "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
-      "journal": "Frontiers in plant science",
-      "authors": [
-        "Quiñones Huatangari L, Vásquez Pérez HV, Valqui-Valqui L, Palomino Ojeda JM, Saravia D, Bardales Escalante W, Silva G, Chavez-Jalk A, Cruz Caro O, Valqui L."
-      ],
-      "investigation_run_id": "p-fb173510315d985a2f33d77dff1eb87a-20261007T113209Z-4050068",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-fb173510315d985a2f33d77dff1eb87a-20261024T235158Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-fb173510315d985a2f33d77dff1eb87a.ipynb",
-      "notebook_sha256": "3081eba11dd323b7a7ce705b42cf2e1dfd560c5961554eee6c04cb9d033823aa",
-      "source_sha256": "c11c8d3b2962c2fef27752744ed22ad76b39d307841a0507602fe022cd111b7a",
-      "code_cells": 14
-    },
-    {
       "public_id": "p-650819c551206a400b5a5865a67bb67b",
       "title": "A photometric stereo-based 3D imaging system using computer vision and deep learning for tracking plant growth",
       "journal": "GigaScience",
