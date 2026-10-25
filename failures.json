@@ -274,6 +274,17 @@
       "notebook_path": "notebooks/unverified/p-37f99cf456e74d916230de8d4ac87be7.ipynb"
     },
     {
+      "public_id": "p-2e1d8e48ee242fdaab69ac5b5666da70",
+      "title": "p-2e1d8e48ee242fdaab69ac5b5666da70",
+      "journal": null,
+      "authors": [],
+      "investigation_run_id": "p-2e1d8e48ee242fdaab69ac5b5666da70-20261007T192614Z-235995",
+      "run_id": "p-2e1d8e48ee242fdaab69ac5b5666da70",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-2e1d8e48ee242fdaab69ac5b5666da70-20261024T235905Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25"
+    },
+    {
       "public_id": "p-289774609cbd957dd47ad64d7093be1b",
       "title": "Seeing herbaria in a new light: leaf reflectance spectroscopy unlocks predictive trait and classification modeling in plant biodiversity collections",
       "journal": "California Digital Library (CDL)",
@@ -988,17 +999,6 @@
       "run_id": "p-38822584108104d5d5e7b396d9598ee4",
       "status": "failed",
       "reason": "OpenCode/reporter exited with status 1; see run log p-38822584108104d5d5e7b396d9598ee4-20261009T162528Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-10"
-    },
-    {
-      "public_id": "p-2e1d8e48ee242fdaab69ac5b5666da70",
-      "title": "p-2e1d8e48ee242fdaab69ac5b5666da70",
-      "journal": null,
-      "authors": [],
-      "investigation_run_id": "p-2e1d8e48ee242fdaab69ac5b5666da70-20261007T192614Z-235995",
-      "run_id": "p-2e1d8e48ee242fdaab69ac5b5666da70",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-2e1d8e48ee242fdaab69ac5b5666da70-20261009T153842Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
       "created_on": "2026-10-10"
     },
     {
