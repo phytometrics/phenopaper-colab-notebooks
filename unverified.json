@@ -233,26 +233,6 @@
       "code_cells": 14
     },
     {
-      "public_id": "p-8c4897641cc52f62e005299aba86f5a3",
-      "title": "Sensitive detection of chloroplast movements through changes in leaf cross-polarized reflectance",
-      "journal": "Plant Physiology",
-      "authors": [
-        "Paweł Hermanowicz",
-        "Aleksandra Giza",
-        "Katarzyna M Sowa",
-        "Paweł Korecki",
-        "Justyna Łabuz"
-      ],
-      "investigation_run_id": "p-8c4897641cc52f62e005299aba86f5a3-20261022T132905Z-2686512",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-8c4897641cc52f62e005299aba86f5a3-20261024T235319Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-8c4897641cc52f62e005299aba86f5a3.ipynb",
-      "notebook_sha256": "13070b0193655e076bbeee5cd70523dc336843be03da2b7cf5b913777f105b23",
-      "source_sha256": "ab05e5d33ff1bf2b15a8f5edab8a647c3d3b8fe8187c5b27b8b950a4f4d69a58",
-      "code_cells": 13
-    },
-    {
       "public_id": "p-c97dba339429adecdd1888661c2bf31c",
       "title": "Fluspect-B: A model for leaf fluorescence, reflectance and transmittance spectra",
       "journal": "Remote Sensing of Environment",

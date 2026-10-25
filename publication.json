@@ -12611,6 +12611,46 @@
         "alt": "Mini-mosaic replication: our stitcher port on the authors group_001 inputs plus committed homographies, versus the authors committed cornetv3_mini_mosaics group001.png, with the absolute-difference map.",
         "caption": "Mini-mosaic replication: our stitcher port on the authors group_001 inputs plus committed homographies, versus the authors committed cornetv3_mini_mosaics group001.png, with the absolute-difference map."
       }
+    },
+    {
+      "public_id": "p-8c4897641cc52f62e005299aba86f5a3",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Sensitive detection of chloroplast movements through changes in leaf cross-polarized reflectance",
+      "journal": "Plant Physiology",
+      "authors": [
+        "Paweł Hermanowicz",
+        "Aleksandra Giza",
+        "Katarzyna M Sowa",
+        "Paweł Korecki",
+        "Justyna Łabuz"
+      ],
+      "doi": "10.1093/plphys/kiag739",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Recomputes cross-polarized reflectance DeltaR/R0 amplitudes and maximal rates for 170 wild-plant recordings from the paper's FigShare archive and reproduces the reported group comparisons with the authors' documented R nlme/emmeans/multcomp workflow on a CPU runtime; the journal version was unreadable, so methods follow the bioRxiv v1 preprint and amplitude windows are AI-adapted operationalizations.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "environment:field",
+        "organ:cell",
+        "organ:leaf",
+        "organ:stem",
+        "task:physiology",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "Group mean cross-polarized reflectance amplitude (DeltaR/R0, 65-70 min vs dark baseline) per species and actinic treatment with per-species Tukey letters, reproduced from the paper's archived recordings",
+        "caption": "Group mean cross-polarized reflectance amplitude (DeltaR/R0, 65-70 min vs dark baseline) per species and actinic treatment with per-species Tukey letters, reproduced from the paper's archived recordings"
+      }
     }
   ]
 }
