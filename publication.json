@@ -12241,6 +12241,40 @@
         "alt": "Cross-validated estimated vs measured An (LI-6800) for constant-s and variable-s schemes, from the authors' S3 program on the published S2 dataset.",
         "caption": "Cross-validated estimated vs measured An (LI-6800) for constant-s and variable-s schemes, from the authors' S3 program on the published S2 dataset."
       }
+    },
+    {
+      "public_id": "p-b1ad16e5699a826bc924207af4593ec7",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "SpykProps: an imaging pipeline to quantify architecture in unilateral grass inflorescences.",
+      "journal": "Plant methods",
+      "authors": [
+        "Barreto Ortiz J, Hirsch CN, Ehlke NJ, Watkins E."
+      ],
+      "doi": "10.1186/s13007-023-01104-z",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Runs the authors' pinned SpykProps pipeline (red-channel spike segmentation, four length methods, watershed spikelet counting) on one original 600-dpi scanner image from the CC0 UMN dataset on Colab CPU; a one-image partial demo that does not verify the paper's dataset-level accuracy.",
+      "semantic_tags": [
+        "organ:inflorescence",
+        "task:counting",
+        "task:morphology",
+        "trait:architecture",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Original 600-dpi scanner image after the authors' 0.5 rescale: red-channel mask (15 spikes detected) and the authors' numbered spike enumeration overlay.",
+        "caption": "Original 600-dpi scanner image after the authors' 0.5 rescale: red-channel mask (15 spikes detected) and the authors' numbered spike enumeration overlay."
+      }
     }
   ]
 }
