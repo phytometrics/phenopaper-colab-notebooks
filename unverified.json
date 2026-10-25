@@ -216,23 +216,6 @@
       "code_cells": 8
     },
     {
-      "public_id": "p-37f99cf456e74d916230de8d4ac87be7",
-      "title": "MaiZaic : a robust end-to-end pipeline for mosaicking freely flown aerial video of agricultural fields",
-      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "authors": [
-        "Dewi Endah Kharismawati",
-        "Toni Kazic"
-      ],
-      "investigation_run_id": "p-37f99cf456e74d916230de8d4ac87be7-20260929T113611Z-2565368",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-37f99cf456e74d916230de8d4ac87be7-20261024T234913Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-37f99cf456e74d916230de8d4ac87be7.ipynb",
-      "notebook_sha256": "676328e0b6913a7e2cfd01451695b7f787eaa97236b6bfea7dafecebdd30ace4",
-      "source_sha256": "80068bb2f6b725cb8a0456cf2f41f5e47c157d8728993289aff9b714422a6226",
-      "code_cells": 15
-    },
-    {
       "public_id": "p-845668b5bebd667d367e2f37f92142ad",
       "title": "Optimizing Support Vector Machine for Avocado Ripeness Classification Using Moth Flame Optimization",
       "journal": "Journal of Electronics Electromedical Engineering and Medical Informatics",

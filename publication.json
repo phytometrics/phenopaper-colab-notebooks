@@ -12575,6 +12575,42 @@
         "alt": "GSYC test images: authors' ground-truth spike boxes (green) vs released GSYC model detections (red) after NMS 0.35 and confidence at least 0.5",
         "caption": "GSYC test images: authors' ground-truth spike boxes (green) vs released GSYC model detections (red) after NMS 0.35 and confidence at least 0.5"
       }
+    },
+    {
+      "public_id": "p-37f99cf456e74d916230de8d4ac87be7",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "MaiZaic : a robust end-to-end pipeline for mosaicking freely flown aerial video of agricultural fields",
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        "Dewi Endah Kharismawati",
+        "Toni Kazic"
+      ],
+      "doi": "10.1101/2024.12.31.630534",
+      "compute": "CPU",
+      "validated_on": "2026-10-25",
+      "demonstration": "Partial reproduction of the MaiZaic/DroneZaic pipeline (calibration, ASIFT homographies, mini-mosaic stitching, global assembly) on the authors' embedded 6-frame example of mission 23r_06_23_205_seedling_parallel_1pass, validated against the authors' committed intermediates on a free-tier Colab CPU runtime; dynamic sampling and CorNetv3 inference remain out of scope.",
+      "semantic_tags": [
+        "crop:maize",
+        "environment:aerial",
+        "environment:field",
+        "modality:rgb",
+        "organ:whole_plant",
+        "task:registration"
+      ],
+      "preview": {
+        "alt": "Mini-mosaic replication: our stitcher port on the authors group_001 inputs plus committed homographies, versus the authors committed cornetv3_mini_mosaics group001.png, with the absolute-difference map.",
+        "caption": "Mini-mosaic replication: our stitcher port on the authors group_001 inputs plus committed homographies, versus the authors committed cornetv3_mini_mosaics group001.png, with the absolute-difference map."
+      }
     }
   ]
 }
