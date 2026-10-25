@@ -12423,6 +12423,42 @@
         "alt": "Fold-1 test inputs with reference YOLO annotations (green=green fruit, orange=ripe fruit) drawn from the authors' label files.",
         "caption": "Fold-1 test inputs with reference YOLO annotations (green=green fruit, orange=ripe fruit) drawn from the authors' label files."
       }
+    },
+    {
+      "public_id": "p-27b968e6f90cc2d48dfbdf44d668ee61",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "GenoDrawing: An autoencoder framework for image prediction from SNP markers",
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors": [
+        "Federico Jurado-Ruiz",
+        "D. Rousseau",
+        "Juan A. Botía",
+        "María José Aranzana"
+      ],
+      "doi": "10.1101/2023.03.06.531351",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Runs the authors' GenoDrawing demo: pretrained encoder/decoder + 150-SNP embedding predictors predict apple images from targeted vs random SNPs (3 genotypes), plus re-computed validation metrics from the authors' published measurements; training and the full dataset are out of scope.",
+      "semantic_tags": [
+        "crop:apple",
+        "organ:fruit",
+        "task:reconstruction",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Authors' composite comparison for 3 apple genotypes: real example image, mean decoded ground truth, tSNP (targeted) and rSNP (random) SNP-to-image predictions.",
+        "caption": "Authors' composite comparison for 3 apple genotypes: real example image, mean decoded ground truth, tSNP (targeted) and rSNP (random) SNP-to-image predictions."
+      }
     }
   ]
 }
