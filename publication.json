@@ -12129,6 +12129,48 @@
         "alt": "Input frames with the author method's level-set contour (red), mask (yellow) and extracted backbone (green), run unmodified in GNU Octave on the DSeg sample video (frames 88-90).",
         "caption": "Input frames with the author method's level-set contour (red), mask (yellow) and extracted backbone (green), run unmodified in GNU Octave on the DSeg sample video (frames 88-90)."
       }
+    },
+    {
+      "public_id": "p-e52631a9ae3fc7c0ee275c8d6d5a2c5a",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Leaf hyperspectral reflectance detects pre‐visual stress to Fusarium wilt in strawberries",
+      "journal": "The Plant Phenome Journal",
+      "authors": [
+        "Jessie Au",
+        "Christopher Y. S. Wong",
+        "Dominique D. A. Pincot",
+        "Frank N. Martin",
+        "Rishav Ray",
+        "J. Mason Earles",
+        "Troy S. Magney"
+      ],
+      "doi": "10.1002/ppj2.70046",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Executes the authors' deposited R analysis (Zenodo 16217833) verbatim on their full dataset in Colab: five spectral vegetation indices, Fisher/t/Wilcoxon divergence tests, and Figures 2-6; computed lead-time dates match paper Table 1 exactly (NPQI May 14 ... Score June 25). Figure 7 full-spectrum analyses are omitted because they are absent from the deposited code.",
+      "semantic_tags": [
+        "crop:strawberry",
+        "modality:spectral",
+        "organ:leaf",
+        "task:stress_disease",
+        "trait:disease_symptoms",
+        "trait:pigment_color",
+        "trait:stomatal_traits"
+      ],
+      "preview": {
+        "alt": "Authors' Figure 4 reproduced: disease-score counts with Fisher-test significance (a) and the five spectral-index time series (NPQI, PRI, NDVI, NDWI, WBI) with t/Wilcoxon significance; spectral indices diverge 3-5 weeks before disease scores.",
+        "caption": "Authors' Figure 4 reproduced: disease-score counts with Fisher-test significance (a) and the five spectral-index time series (NPQI, PRI, NDVI, NDWI, WBI) with t/Wilcoxon significance; spectral indices diverge 3-5 weeks before disease scores."
+      }
     }
   ]
 }
