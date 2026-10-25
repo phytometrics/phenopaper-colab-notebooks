@@ -12348,6 +12348,45 @@
         "alt": "Input herbarium reflectance spectra (450-2400 nm, 5 nm step): per-band mean and interquartile range over the 1690-row dataset used by the LMA PLSR.",
         "caption": "Input herbarium reflectance spectra (450-2400 nm, 5 nm step): per-band mean and interquartile range over the 1690-row dataset used by the LMA PLSR."
       }
+    },
+    {
+      "public_id": "p-4931678aea585c01945b0a5ae220bd58",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Non-invasive Probing of Winter Dormancy via Time-frequency Analysis of Induced Chlorophyll Fluorescence in Deciduous Plants as Exemplified by Apple (Malus × domestica Borkh.)",
+      "journal": null,
+      "authors": [
+        "Shurygin B, Konyukhov I, Khruschev S, Solovchenko A."
+      ],
+      "doi": "10.20944/preprints202209.0395.v1",
+      "compute": "CPU",
+      "validated_on": "2026-10-25",
+      "demonstration": "Executed the authors' FIR low-pass and Morlet wavelet time-frequency analysis of Fv/Fm and DI0/RC on their bundled winter 2020/2021 apple sample in Colab (CPU); one season only, so the paper's full-record statistics and figures are not reproduced.",
+      "semantic_tags": [
+        "crop:apple",
+        "environment:field",
+        "modality:fluorescence",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:object_detection",
+        "task:physiology",
+        "task:time_series",
+        "trait:growth_development",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "Morlet wavelet spectrogram of DI0/RC (thermal dissipation per reaction center) for the winter 2020/2021 sample with the authors' ground-truth dormancy-phase annotations (EnD/EcD, destructive-test stars, model dormancy-release line).",
+        "caption": "Morlet wavelet spectrogram of DI0/RC (thermal dissipation per reaction center) for the winter 2020/2021 sample with the authors' ground-truth dormancy-phase annotations (EnD/EcD, destructive-test stars, model dormancy-release line)."
+      }
     }
   ]
 }
