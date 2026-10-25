@@ -12495,6 +12495,46 @@
         "alt": "F1 per class on arsmorris2 validation annotations: archived VGG16 max-probability labels (before) vs HMM post-processed labels (after)",
         "caption": "F1 per class on arsmorris2 validation annotations: archived VGG16 max-probability labels (before) vs HMM post-processed labels (after)"
       }
+    },
+    {
+      "public_id": "p-a785f82e6559d4502f67899b766e588d",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Dataset for orange fruit detection from UAV in citrus orchards",
+      "journal": "Data in brief",
+      "authors": [
+        "Montalban-Faet G, Navarro-Modesto E, Salcedo-Navarro A, Fayos-Jordan R, Benlloch-Caballero P, Garcia-Pineda M, Segura-Garcia J."
+      ],
+      "doi": "10.1016/j.dib.2026.112733",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Reproduced the paper's homography-based YOLO label transfer (Sec 4.4) for one synchronized RGB-to-G capture using the authors' released Zenodo scripts with the paper's exact parameters, comparing transferred labels against the authors' released G-band labels; one capture of 550 and one band of four only.",
+      "semantic_tags": [
+        "crop:citrus",
+        "environment:aerial",
+        "environment:field",
+        "modality:rgb",
+        "modality:spectral",
+        "organ:fruit",
+        "organ:whole_plant",
+        "task:object_detection",
+        "task:preprocessing",
+        "task:yield_biomass",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "G band of capture DJI_20231219142558_0001 with labels transferred by the reproduced pipeline (green) versus the authors' released G-band labels (red).",
+        "caption": "G band of capture DJI_20231219142558_0001 with labels transferred by the reproduced pipeline (green) versus the authors' released G-band labels (red)."
+      }
     }
   ]
 }
