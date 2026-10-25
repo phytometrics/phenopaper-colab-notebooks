@@ -601,6 +601,17 @@
       "created_on": "2026-10-25"
     },
     {
+      "public_id": "p-627ef54d1bdae1ca3978c878af209c8c",
+      "title": "p-627ef54d1bdae1ca3978c878af209c8c",
+      "journal": null,
+      "authors": [],
+      "investigation_run_id": "p-627ef54d1bdae1ca3978c878af209c8c-20261007T190445Z-211723",
+      "run_id": "p-627ef54d1bdae1ca3978c878af209c8c",
+      "status": "failed",
+      "reason": "OpenCode/reporter exited with status 1; see run log p-627ef54d1bdae1ca3978c878af209c8c-20261025T003025Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
+      "created_on": "2026-10-25"
+    },
+    {
       "public_id": "p-5fa6e89c52271fc28166e30ece7bd1df",
       "title": "p-5fa6e89c52271fc28166e30ece7bd1df",
       "journal": null,
@@ -1021,17 +1032,6 @@
       "run_id": "p-888ea3a86cab5524b2fb2d9980de2b64",
       "status": "failed",
       "reason": "OpenCode/reporter exited with status 1; see run log p-888ea3a86cab5524b2fb2d9980de2b64-20261009T162407Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-10"
-    },
-    {
-      "public_id": "p-627ef54d1bdae1ca3978c878af209c8c",
-      "title": "p-627ef54d1bdae1ca3978c878af209c8c",
-      "journal": null,
-      "authors": [],
-      "investigation_run_id": "p-627ef54d1bdae1ca3978c878af209c8c-20261007T190445Z-211723",
-      "run_id": "p-627ef54d1bdae1ca3978c878af209c8c",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-627ef54d1bdae1ca3978c878af209c8c-20261009T162804Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
       "created_on": "2026-10-10"
     },
     {
