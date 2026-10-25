@@ -12651,6 +12651,56 @@
         "alt": "Group mean cross-polarized reflectance amplitude (DeltaR/R0, 65-70 min vs dark baseline) per species and actinic treatment with per-species Tukey letters, reproduced from the paper's archived recordings",
         "caption": "Group mean cross-polarized reflectance amplitude (DeltaR/R0, 65-70 min vs dark baseline) per species and actinic treatment with per-species Tukey letters, reproduced from the paper's archived recordings"
       }
+    },
+    {
+      "public_id": "p-7f3bff7f307e2dfb2dfecd1951f04114",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "StomataSeg: Semi-Supervised Instance Segmentation for Sorghum Stomatal Components",
+      "journal": "arXiv",
+      "authors": [
+        "Zhongtian Huang",
+        "Zhi Chen",
+        "Zi Helen Huang",
+        "Xin Yu",
+        "Daniel Smith",
+        "C. R. Purushothama",
+        "Erik J van Oosterom",
+        "Alex Chi Wu",
+        "Salter, William",
+        "Li, Yan",
+        "Scott Cameron Chapman"
+      ],
+      "doi": "10.48550/arxiv.2602.00703",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-25",
+      "demonstration": "Evaluates the released retrained Mask R-CNN on the full 1160-patch StomataSeg test split with the checkpoint's own config; reproduced Table 4 mask AP exactly (49.20/88.80 overall). Training and other baselines are out of scope.",
+      "semantic_tags": [
+        "crop:sorghum",
+        "modality:microscopy",
+        "organ:leaf",
+        "organ:stomata",
+        "task:annotation_qc",
+        "task:object_detection",
+        "task:preprocessing",
+        "task:segmentation",
+        "trait:photosynthesis",
+        "trait:stomatal_traits",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "StomataSeg test patches with the authors' reference annotations overlaid (pore area red, guard cell area green, complex area blue).",
+        "caption": "StomataSeg test patches with the authors' reference annotations overlaid (pore area red, guard cell area green, complex area blue)."
+      }
     }
   ]
 }
