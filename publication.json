@@ -12171,6 +12171,42 @@
         "alt": "Authors' Figure 4 reproduced: disease-score counts with Fisher-test significance (a) and the five spectral-index time series (NPQI, PRI, NDVI, NDWI, WBI) with t/Wilcoxon significance; spectral indices diverge 3-5 weeks before disease scores.",
         "caption": "Authors' Figure 4 reproduced: disease-score counts with Fisher-test significance (a) and the five spectral-index time series (NPQI, PRI, NDVI, NDWI, WBI) with t/Wilcoxon significance; spectral indices diverge 3-5 weeks before disease scores."
       }
+    },
+    {
+      "public_id": "p-7bfbf3c7e21737a453bda20faf968703",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Advancing the helox compensation method to estimate intercellular humidity in leaves of diverse species",
+      "journal": "New Phytologist",
+      "authors": [
+        "Amber R. Jolly",
+        "Thomas N. Buckley"
+      ],
+      "doi": "10.1111/nph.71584",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Runs the authors' unmodified R script on their included sample day to solve Eqns 5 and 8 for intercellular humidity h across six nitox-helox switches (one-sample-day scope; not the full 8-species dataset analysis).",
+      "semantic_tags": [
+        "crop:cotton",
+        "crop:rice",
+        "crop:sunflower",
+        "organ:leaf",
+        "task:physiology",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Reproduced intercellular relative humidity per nitox-helox switch: full iterative solution of Eqns 5+8 versus the rough Eqn 9 estimate (graph created for this notebook).",
+        "caption": "Reproduced intercellular relative humidity per nitox-helox switch: full iterative solution of Eqns 5+8 versus the rough Eqn 9 estimate (graph created for this notebook)."
+      }
     }
   ]
 }
