@@ -200,22 +200,6 @@
       "code_cells": 9
     },
     {
-      "public_id": "p-687457d4e2d069bdb1d54e06a735fab6",
-      "title": "Root Age Structure Governs Long-Term Architecture and Hydraulic Function in Perennial Plants: a Modelling Framework",
-      "journal": null,
-      "authors": [
-        "Fichtl L, Giraud M, Leitner D, Schnepf A, Steng K, Friedel M."
-      ],
-      "investigation_run_id": "p-687457d4e2d069bdb1d54e06a735fab6-20261021T164548Z-2175619",
-      "status": "failed",
-      "reason": "Operator-authorized retry executed: backend healthy, author code built (2.8 min) and parameterisation (createXMLs, genotype B) succeeded twice on two fresh CPU VMs after evidence-cited repairs for unpublished diameter/age data. The simulation itself is infeasible on Colab CPU: two independent supervised runs (N=2+N=6 and instrumented N=3) hit their unit runtime caps (2 h / 3 h) without completing a single simulated year (no per-year output; first-year phase alone > ~2.9 h), consistent with the authors' own 20-day cluster budget (wine_24cpu128.sh). Notebook rebuilt with the documented repairs and preserved in deliverables/ as an explicit UNVERIFIED reference; verified publisher not called.",
-      "created_on": "2026-10-24",
-      "notebook_path": "notebooks/unverified/p-687457d4e2d069bdb1d54e06a735fab6.ipynb",
-      "notebook_sha256": "8ebb6a1bf8d3745ac9027500e2a57c0c514f7de4953b482dfb5fc6611e1b986c",
-      "source_sha256": "f6fe58d9148e4b9df97436cd38652130442b3ce0580b1d08647d82e511a326c2",
-      "code_cells": 20
-    },
-    {
       "public_id": "p-52e5cb26b52aa179b3db5eec9f4bd2d5",
       "title": "GaussianPlant: Structure-aligned Gaussian Splatting for 3D Reconstruction of Plants",
       "journal": "arXiv (Cornell University)",
@@ -526,6 +510,22 @@
       "notebook_sha256": "bfbc06f1fbf8a84ef048795913ea9cb0bca4bf4bf5ec09fc33a3a8d28c826d63",
       "source_sha256": "32f13fc74a372a7253bd183764c4099972dcbd82ca2cf7b3c7fa7f6cedcdeaab",
       "code_cells": 13
+    },
+    {
+      "public_id": "p-687457d4e2d069bdb1d54e06a735fab6",
+      "title": "Root Age Structure Governs Long-Term Architecture and Hydraulic Function in Perennial Plants: a Modelling Framework",
+      "journal": null,
+      "authors": [
+        "Fichtl L, Giraud M, Leitner D, Schnepf A, Steng K, Friedel M."
+      ],
+      "investigation_run_id": "p-687457d4e2d069bdb1d54e06a735fab6-20261021T164548Z-2175619",
+      "status": "failed",
+      "reason": "Operator-authorized retry executed: backend healthy, author code built (2.8 min) and parameterisation (createXMLs, genotype B) succeeded twice on two fresh CPU VMs after evidence-cited repairs for unpublished diameter/age data. The simulation itself is infeasible on Colab CPU: two independent supervised runs (N=2+N=6 and instrumented N=3) hit their unit runtime caps (2 h / 3 h) without completing a single simulated year (no per-year output; first-year phase alone > ~2.9 h), consistent with the authors' own 20-day cluster budget (wine_24cpu128.sh). Notebook rebuilt with the documented repairs and preserved in deliverables/ as an explicit UNVERIFIED reference; verified publisher not called.",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-687457d4e2d069bdb1d54e06a735fab6.ipynb",
+      "notebook_sha256": "6c3d8b156f4bf6a82966830a8113875bae09098d3b86056000e2459ce3c6a6cf",
+      "source_sha256": "772f1b27a846ffb1bb48af27a685b353c967288bbd63c677aed9d684de603340",
+      "code_cells": 20
     }
   ]
 }
