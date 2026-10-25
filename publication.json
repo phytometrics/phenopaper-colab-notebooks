@@ -12313,6 +12313,41 @@
         "alt": "newplant9 input photograph with the authors' plant mask overlaid in red (the mask the authors' --rm_bg route uses to build the plant-only cloud)",
         "caption": "newplant9 input photograph with the authors' plant mask overlaid in red (the mask the authors' --rm_bg route uses to build the plant-only cloud)"
       }
+    },
+    {
+      "public_id": "p-289774609cbd957dd47ad64d7093be1b",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Seeing herbaria in a new light: leaf reflectance spectroscopy unlocks predictive trait and classification modeling in plant biodiversity collections",
+      "journal": "California Digital Library (CDL)",
+      "authors": [
+        "White D, Cavender-Bares J, Davis C, Guzmán Q JA, Kothari S, Robles J, Meireles JE."
+      ],
+      "doi": "10.32942/x29p8b",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Runs the authors' pinned R PLSR pipeline (20 of 1000 segments, 2 cores; other scientific parameters unchanged) to predict herbarium leaf mass per area from 450-2400 nm reflectance on the CC0 Dataverse herbarium dataset, with held-out testing statistics, observed-vs-predicted and VIP plots; a plausibility demonstration only, not a dataset-level benchmark.",
+      "semantic_tags": [
+        "environment:laboratory",
+        "modality:spectroscopy",
+        "organ:leaf",
+        "task:classification",
+        "task:morphology",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Input herbarium reflectance spectra (450-2400 nm, 5 nm step): per-band mean and interquartile range over the 1690-row dataset used by the LMA PLSR.",
+        "caption": "Input herbarium reflectance spectra (450-2400 nm, 5 nm step): per-band mean and interquartile range over the 1690-row dataset used by the LMA PLSR."
+      }
     }
   ]
 }
