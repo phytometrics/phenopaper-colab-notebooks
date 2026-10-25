@@ -12459,6 +12459,42 @@
         "alt": "Authors' composite comparison for 3 apple genotypes: real example image, mean decoded ground truth, tSNP (targeted) and rSNP (random) SNP-to-image predictions.",
         "caption": "Authors' composite comparison for 3 apple genotypes: real example image, mean decoded ground truth, tSNP (targeted) and rSNP (random) SNP-to-image predictions."
       }
+    },
+    {
+      "public_id": "p-1fd15ec6e451611d0b5a9604964bc00d",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Deep learning models for identifying crop and field attributes from near surface cameras",
+      "journal": "bioRxiv",
+      "authors": [
+        "Taylor, S. D.",
+        "Browning, D. M."
+      ],
+      "doi": "10.1101/2021.10.20.465168",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Executed the authors' HMM post-processing pipeline (R prep, NumPy Viterbi port, R final processing) and before/after F1 evaluation on the arsmorris2 validation camera using archived VGG16 predictions; single-camera scope, no CNN training or inference.",
+      "semantic_tags": [
+        "environment:field",
+        "organ:whole_plant",
+        "task:classification",
+        "task:time_series",
+        "trait:growth_development",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "F1 per class on arsmorris2 validation annotations: archived VGG16 max-probability labels (before) vs HMM post-processed labels (after)",
+        "caption": "F1 per class on arsmorris2 validation annotations: archived VGG16 max-probability labels (before) vs HMM post-processed labels (after)"
+      }
     }
   ]
 }

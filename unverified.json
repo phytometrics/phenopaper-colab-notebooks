@@ -216,23 +216,6 @@
       "code_cells": 8
     },
     {
-      "public_id": "p-1fd15ec6e451611d0b5a9604964bc00d",
-      "title": "Deep learning models for identifying crop and field attributes from near surface cameras",
-      "journal": "bioRxiv",
-      "authors": [
-        "Taylor, S. D.",
-        "Browning, D. M."
-      ],
-      "investigation_run_id": "p-1fd15ec6e451611d0b5a9604964bc00d-20260930T144615Z-3734227",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-1fd15ec6e451611d0b5a9604964bc00d-20261024T234647Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-1fd15ec6e451611d0b5a9604964bc00d.ipynb",
-      "notebook_sha256": "28e0845d84e977a67a09906384149c09764b6f7b48ee2aa4313506e6fe68edd7",
-      "source_sha256": "8ed64f435b5ebd430a4546bc90e5a3a9f17f89c02df946611e80d0f7fd59e557",
-      "code_cells": 13
-    },
-    {
       "public_id": "p-8eb066596b66ac63b76cc87e1d066736",
       "title": "Detection and analysis of wheat spikes using Convolutional Neural Networks.",
       "journal": "Plant Methods",
