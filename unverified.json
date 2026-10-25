@@ -216,25 +216,6 @@
       "code_cells": 8
     },
     {
-      "public_id": "p-8eb066596b66ac63b76cc87e1d066736",
-      "title": "Detection and analysis of wheat spikes using Convolutional Neural Networks.",
-      "journal": "Plant Methods",
-      "authors": [
-        "Md. Mehedi Hasan",
-        "Joshua Chopin",
-        "Hamid Laga",
-        "Stanley J. Miklavcic"
-      ],
-      "investigation_run_id": "p-8eb066596b66ac63b76cc87e1d066736-20260930T121136Z-3644237",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-8eb066596b66ac63b76cc87e1d066736-20261024T234810Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-8eb066596b66ac63b76cc87e1d066736.ipynb",
-      "notebook_sha256": "ec09c88a2a1222a30fb8fb3c6d6af4ed8e81ec14520305b5a4583a8b60e2cef0",
-      "source_sha256": "64196f8acbef9830ce03dbb914c4f3b6a80a0c63d59f8daf726f5a37342a22d5",
-      "code_cells": 12
-    },
-    {
       "public_id": "p-37f99cf456e74d916230de8d4ac87be7",
       "title": "MaiZaic : a robust end-to-end pipeline for mosaicking freely flown aerial video of agricultural fields",
       "journal": "bioRxiv (Cold Spring Harbor Laboratory)",

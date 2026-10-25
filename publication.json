@@ -12535,6 +12535,46 @@
         "alt": "G band of capture DJI_20231219142558_0001 with labels transferred by the reproduced pipeline (green) versus the authors' released G-band labels (red).",
         "caption": "G band of capture DJI_20231219142558_0001 with labels transferred by the reproduced pipeline (green) versus the authors' released G-band labels (red)."
       }
+    },
+    {
+      "public_id": "p-8eb066596b66ac63b76cc87e1d066736",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Detection and analysis of wheat spikes using Convolutional Neural Networks.",
+      "journal": "Plant Methods",
+      "authors": [
+        "Md. Mehedi Hasan",
+        "Joshua Chopin",
+        "Hamid Laga",
+        "Stanley J. Miklavcic"
+      ],
+      "doi": "10.1186/s13007-018-0366-8",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Re-evaluates the released GSYC Faster R-CNN (CNTK 2.7, authors' own evaluation path) on all 20 GSYC test images of Table 2: mAP 0.6232 on the released annotations (1465 GT boxes vs the paper's 1570), single model only, no training or density analysis.",
+      "semantic_tags": [
+        "crop:wheat",
+        "environment:field",
+        "modality:rgb",
+        "organ:inflorescence",
+        "task:counting",
+        "task:object_detection",
+        "task:yield_biomass",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "GSYC test images: authors' ground-truth spike boxes (green) vs released GSYC model detections (red) after NMS 0.35 and confidence at least 0.5",
+        "caption": "GSYC test images: authors' ground-truth spike boxes (green) vs released GSYC model detections (red) after NMS 0.35 and confidence at least 0.5"
+      }
     }
   ]
 }
