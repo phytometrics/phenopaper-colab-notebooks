@@ -12207,6 +12207,40 @@
         "alt": "Reproduced intercellular relative humidity per nitox-helox switch: full iterative solution of Eqns 5+8 versus the rough Eqn 9 estimate (graph created for this notebook).",
         "caption": "Reproduced intercellular relative humidity per nitox-helox switch: full iterative solution of Eqns 5+8 versus the rough Eqn 9 estimate (graph created for this notebook)."
       }
+    },
+    {
+      "public_id": "p-c713de69b1df2200c4c8c64b1cc39b0e",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Estimating leaf CO2 assimilation in C3 plants using a handheld porometer with chlorophyll fluorometer in field conditions",
+      "journal": null,
+      "authors": [
+        "Kimura K, Fushimi E, Kumagai E, Nomura K, Matsunami T, Konno S, Maruyama A."
+      ],
+      "doi": "10.22541/au.173286583.36483659/v1",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Runs the authors' SI S3 R program on the SI S2 dataset (310 samples, 14 cultivars) to reproduce constant-s (0.259) and variable-s (0.246-0.286) calibration with 14-fold cross-validated An RMSE ~2.0 umol m-2 s-1; headless input-path adaptation only.",
+      "semantic_tags": [
+        "environment:field",
+        "modality:fluorescence",
+        "organ:leaf",
+        "trait:photosynthesis",
+        "trait:stomatal_traits"
+      ],
+      "preview": {
+        "alt": "Cross-validated estimated vs measured An (LI-6800) for constant-s and variable-s schemes, from the authors' S3 program on the published S2 dataset.",
+        "caption": "Cross-validated estimated vs measured An (LI-6800) for constant-s and variable-s schemes, from the authors' S3 program on the published S2 dataset."
+      }
     }
   ]
 }
