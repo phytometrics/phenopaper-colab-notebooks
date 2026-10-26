@@ -13537,6 +13537,37 @@
         "alt": "Raw Raman spectra of the nine bundled CLso demo samples (demoData/CLsoP1_00-08) as loaded by the author's server.",
         "caption": "Raw Raman spectra of the nine bundled CLso demo samples (demoData/CLsoP1_00-08) as loaded by the author's server."
       }
+    },
+    {
+      "public_id": "p-c1dbd65cefaa5e94267e637bc15d8864",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Random forest regression to predict Farinograph traits from GlutoPeak output in wheat wild relative backcross lines",
+      "journal": "Cereal chemistry",
+      "authors": [
+        "Price JH, Guttieri MJ, Stutz S."
+      ],
+      "doi": null,
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Applies the paper's published no-protein random forest models (pinned .RData) to one CC0 raw GlutoPeak run via the authors' verbatim R feature pipeline, predicting Farinograph absorption, bake absorption, TS and MTI for one sample; one-sample demonstration only, not the paper's cross-validated accuracy.",
+      "semantic_tags": [
+        "crop:wheat",
+        "task:classification"
+      ],
+      "preview": {
+        "alt": "Raw GlutoPeak torque curve of sample 230117006-004_44 with the author-computed feature markers (first peak, trough, maximum) used by the random forest models.",
+        "caption": "Raw GlutoPeak torque curve of sample 230117006-004_44 with the author-computed feature markers (first peak, trough, maximum) used by the random forest models."
+      }
     }
   ]
 }
