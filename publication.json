@@ -13462,6 +13462,48 @@
         "alt": "Selected plant H1-350 point cloud with the authors' released predicted labels (left: pot/stem/leaf semantic; right: leaf instances)",
         "caption": "Selected plant H1-350 point cloud with the authors' released predicted labels (left: pot/stem/leaf semantic; right: leaf instances)"
       }
+    },
+    {
+      "public_id": "p-7c422f1d6dcf374a3fd4446e139e0fa4",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "MPRT-DETR: Multi-Platform Real-Time Rice Panicle Detection and Counting Based on the Transformer Method and Complex Field Imagery",
+      "journal": "SSRN Electronic Journal",
+      "authors": [
+        "Jianmin Wu",
+        "Lei Zhang",
+        "Xiaolei Qiu",
+        "Jun Lu",
+        "D Wang",
+        "Yangyang Gu",
+        "Yan Zhu",
+        "Xia Yao"
+      ],
+      "doi": "10.2139/ssrn.6927664",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Loads the authors' released MPRT-DETR best.pt with their pinned code and runs single-image rice panicle detection/counting on their demo image with predict.py settings (100 predicted vs 87 reference panicles); not a dataset-level benchmark reproduction.",
+      "semantic_tags": [
+        "crop:rice",
+        "environment:field",
+        "organ:inflorescence",
+        "organ:whole_plant",
+        "task:counting",
+        "task:object_detection"
+      ],
+      "preview": {
+        "alt": "Demo test image: authors' reference labels (87 panicles, green) vs released best.pt predictions (100 panicles, red)",
+        "caption": "Demo test image: authors' reference labels (87 panicles, green) vs released best.pt predictions (100 panicles, red)"
+      }
     }
   ]
 }
