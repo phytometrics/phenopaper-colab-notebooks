@@ -13129,6 +13129,39 @@
         "alt": "Input wood section (left) and YOLOv8n Vessel model predictions with per-cell index and count overlay (right); model output, not reference annotation.",
         "caption": "Input wood section (left) and YOLOv8n Vessel model predictions with per-cell index and count overlay (right); model output, not reference annotation."
       }
+    },
+    {
+      "public_id": "p-7df6644e334ccd84661c955e353eb54b",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Development of deep learning method for predicting firmness and soluble solid content of postharvest Korla fragrant pear using Vis/NIR hyperspectral reflectance imaging",
+      "journal": "Postharvest Biology and Technology",
+      "authors": [
+        "Xinjie Yu",
+        "Huanda Lu",
+        "Di Wu"
+      ],
+      "doi": "10.1016/j.postharvbio.2018.02.013",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Reloaded the authors' saved Keras 2.0.8 SAE-FNN models on Colab CPU and predicted firmness and SSC for the 180 labeled mean spectra, reproducing the authors' own saved firmness prediction outputs to 2.3e-05 max difference; inference-only scope (no SAE retraining, wavelength axis not recorded in the dataset).",
+      "semantic_tags": [
+        "crop:pear",
+        "modality:spectral"
+      ],
+      "preview": {
+        "alt": "Reproduced SAE-FNN firmness predictions vs reference measurements (calibration n=135, testing n=45) using the authors' saved logs/Firmness/50 model; notebook-generated scatter, not an author figure.",
+        "caption": "Reproduced SAE-FNN firmness predictions vs reference measurements (calibration n=135, testing n=45) using the authors' saved logs/Firmness/50 model; notebook-generated scatter, not an author figure."
+      }
     }
   ]
 }
