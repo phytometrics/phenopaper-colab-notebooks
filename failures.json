@@ -2,6 +2,53 @@
   "schema_version": 1,
   "failures": [
     {
+      "public_id": "p-a07c85ffebedbf10d8d7f19fae48c5b2",
+      "title": "p-a07c85ffebedbf10d8d7f19fae48c5b2",
+      "journal": null,
+      "authors": [],
+      "investigation_run_id": "p-a07c85ffebedbf10d8d7f19fae48c5b2-20261007T133909Z-4135620",
+      "run_id": "p-a07c85ffebedbf10d8d7f19fae48c5b2",
+      "status": "failed",
+      "reason": "OpenCode exited with status 1 without a valid queue-result.json. Last captured output: [2026-10-09T15:39:06.065Z] > build · GLM-5.3-Flash-EXL3 | [2026-10-09T15:40:10.353Z] Error: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"} | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-26"
+    },
+    {
+      "public_id": "p-650819c551206a400b5a5865a67bb67b",
+      "title": "A photometric stereo-based 3D imaging system using computer vision and deep learning for tracking plant growth",
+      "journal": "GigaScience",
+      "authors": [
+        "Gytis Bernotas",
+        "Livia Scorza",
+        "Mark Hansen",
+        "Ian Hales",
+        "Karen Halliday",
+        "Lyndon Smith",
+        "Melvyn Smith",
+        "Alistair J. McCormick"
+      ],
+      "investigation_run_id": "p-650819c551206a400b5a5865a67bb67b-20260930T140149Z-3709498",
+      "run_id": "p-650819c551206a400b5a5865a67bb67b-20261006T181006Z",
+      "status": "failed",
+      "reason": "Full fresh-CPU validation (final_exec8) ran the complete pipeline error-free in 23/25 cells: 329/329 data files downloaded (gdown + usercontent fallback), adaptive LSV matched the author's precomputed file to 2.7e-15, trait CSVs and 4 figures produced. Two provided-mask IoU comparison cells (18/20) still raise ValueError because the author's shipped LeafMasks/TrackedLeafMasks are per-plant bbox crops of varying size (~520-590 px) while our masks follow the author's own code path in the ROI-crop frame (655x475). Cells were repaired to skip mismatched frames, but changed source requires a fresh full run and the 3-session budget is exhausted. Resume with resume_run_dir to validate sha 7aeb3a48... and publish.",
+      "created_on": "2026-10-26",
+      "notebook_path": "notebooks/unverified/p-650819c551206a400b5a5865a67bb67b.ipynb"
+    },
+    {
+      "public_id": "p-183d5b4abeda554cbd985222856739a5",
+      "title": "Detection of quantitative trait loci for rice root systems grown in paddies based on nondestructive phenotyping using X-ray computed tomography.",
+      "journal": "The Plant Journal",
+      "authors": [
+        "Shota Teramoto",
+        "Yusaku Uga"
+      ],
+      "investigation_run_id": "p-183d5b4abeda554cbd985222856739a5-20260929T101731Z-2516752",
+      "run_id": "p-183d5b4abeda554cbd985222856739a5-20261009T120845Z",
+      "status": "failed",
+      "reason": "Repaired notebook ready but fresh full T4 validation not completed in this invocation. Attempt 1 failed: cucim==26.06.00 is image-preinstalled and absent from PyPI for Python 3.13, aborting pip (plus a preview zip-closure bug). Attempt 2: setup, clones, 38MB download verification and both input previews passed; author run_rsavis3d.py itself succeeded (rc=0, 35.5s, GPU) but make_mask.py failed with ImportError libcublas.so.12 because a pip-installed cupy-cuda12x wheel shadowed the image's CUDA-13-matched cupy. Root cause understood and repaired (preinstall-first cupy verification with cublas-forcing dot; dynamic series-name globs). The 3-session budget (probe, final, contingency) is exhausted, so the mandatory fresh full run must happen in a resumed invocation (resume_run_dir) before publication. Deliverable deliverables/p-183d5b4abeda554cbd985222856739a5.ipynb is statically valid but unverified.",
+      "created_on": "2026-10-26",
+      "notebook_path": "notebooks/unverified/p-183d5b4abeda554cbd985222856739a5.ipynb"
+    },
+    {
       "public_id": "p-fb173510315d985a2f33d77dff1eb87a",
       "title": "Detection of Solanum betaceum Cav fruit maturity using YOLO11-based deep learning",
       "journal": "Frontiers in plant science",
@@ -277,17 +324,6 @@
       "created_on": "2026-10-25"
     },
     {
-      "public_id": "p-a07c85ffebedbf10d8d7f19fae48c5b2",
-      "title": "p-a07c85ffebedbf10d8d7f19fae48c5b2",
-      "journal": null,
-      "authors": [],
-      "investigation_run_id": "p-a07c85ffebedbf10d8d7f19fae48c5b2-20261007T133909Z-4135620",
-      "run_id": "p-a07c85ffebedbf10d8d7f19fae48c5b2",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-a07c85ffebedbf10d8d7f19fae48c5b2-20261025T000025Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25"
-    },
-    {
       "public_id": "p-9f5bf7e781bc39de6716e20287fa11fa",
       "title": "Assessing automatic data processing algorithms for RGB-D cameras to predict fruit size and weight in apples",
       "journal": "Computers and Electronics in Agriculture.",
@@ -439,6 +475,20 @@
       "created_on": "2026-10-25"
     },
     {
+      "public_id": "p-89e0e604d88be6ac51289b5224ee3bd0",
+      "title": "TTADDA-UAV: A multi-season RGB and multispectral UAV dataset of potato fields collected in Japan and the Netherlands",
+      "journal": "Data in Brief",
+      "authors": [
+        "van Marrewijk B , Njane SN, Tsuda S, van Culemborg M, Polder G, Katayama K, van Daalen T, van de Zedde R."
+      ],
+      "investigation_run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20260929T092357Z-2482508",
+      "run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20261005T150444Z-b5cf1743",
+      "status": "failed",
+      "reason": "Queue retry 2026-10-25: data.4tu.nl outage persists (day 20). Intake refreshed; investigation p-89e0e604d88be6ac51289b5224ee3bd0-20260929T092357Z-2482508 still current, no superseding run; notebook SHA-256 unchanged (32f13fc7...deaab). DGX metadata check: www.4tu.nl 200 but data.4tu.nl TCP/443 timeout (curl exit 28; DOI redirects to /datasets/...). One fresh Colab CPU diagnostic (session p89e0-diag-r3, probe10): DNS OK, socket connect TimeoutError 15 s, all ndownloader and /datasets/ requests ConnectTimeout. State preserved and stopped after one bounded confirmation per the repeated-transport-error rule; no full validation attempted. Notebook retained as unverified reference in deliverables/.",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-89e0e604d88be6ac51289b5224ee3bd0.ipynb"
+    },
+    {
       "public_id": "p-889ba96090fb06c57802a3193db44a5c",
       "title": "p-889ba96090fb06c57802a3193db44a5c",
       "journal": null,
@@ -578,6 +628,20 @@
       "status": "failed",
       "reason": "OpenCode/reporter exited with status 1; see run log p-6c7167b20615d4d62851a77cea1d6a8b-20261025T000307Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
       "created_on": "2026-10-25"
+    },
+    {
+      "public_id": "p-687457d4e2d069bdb1d54e06a735fab6",
+      "title": "Root Age Structure Governs Long-Term Architecture and Hydraulic Function in Perennial Plants: a Modelling Framework",
+      "journal": null,
+      "authors": [
+        "Fichtl L, Giraud M, Leitner D, Schnepf A, Steng K, Friedel M."
+      ],
+      "investigation_run_id": "p-687457d4e2d069bdb1d54e06a735fab6-20261021T164548Z-2175619",
+      "run_id": "p-687457d4e2d069bdb1d54e06a735fab6-20261023T005608Z-7b7db5d9",
+      "status": "failed",
+      "reason": "Operator-authorized retry executed: backend healthy, author code built (2.8 min) and parameterisation (createXMLs, genotype B) succeeded twice on two fresh CPU VMs after evidence-cited repairs for unpublished diameter/age data. The simulation itself is infeasible on Colab CPU: two independent supervised runs (N=2+N=6 and instrumented N=3) hit their unit runtime caps (2 h / 3 h) without completing a single simulated year (no per-year output; first-year phase alone > ~2.9 h), consistent with the authors' own 20-day cluster budget (wine_24cpu128.sh). Notebook rebuilt with the documented repairs and preserved in deliverables/ as an explicit UNVERIFIED reference; verified publisher not called.",
+      "created_on": "2026-10-25",
+      "notebook_path": "notebooks/unverified/p-687457d4e2d069bdb1d54e06a735fab6.ipynb"
     },
     {
       "public_id": "p-64118216d3c05b591360cb6e01b26085",
@@ -1679,70 +1743,6 @@
         "Kalhari Manawasinghe",
         "Karen Tanino"
       ]
-    },
-    {
-      "public_id": "p-89e0e604d88be6ac51289b5224ee3bd0",
-      "title": "TTADDA-UAV: A multi-season RGB and multispectral UAV dataset of potato fields collected in Japan and the Netherlands",
-      "journal": "Data in Brief",
-      "authors": [
-        "van Marrewijk B , Njane SN, Tsuda S, van Culemborg M, Polder G, Katayama K, van Daalen T, van de Zedde R."
-      ],
-      "investigation_run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20260929T092357Z-2482508",
-      "run_id": "p-89e0e604d88be6ac51289b5224ee3bd0-20261005T150444Z-b5cf1743",
-      "status": "failed",
-      "reason": "Queue retry 2026-10-25: data.4tu.nl outage persists (day 20). Intake refreshed; investigation p-89e0e604d88be6ac51289b5224ee3bd0-20260929T092357Z-2482508 still current, no superseding run; notebook SHA-256 unchanged (32f13fc7...deaab). DGX metadata check: www.4tu.nl 200 but data.4tu.nl TCP/443 timeout (curl exit 28; DOI redirects to /datasets/...). One fresh Colab CPU diagnostic (session p89e0-diag-r3, probe10): DNS OK, socket connect TimeoutError 15 s, all ndownloader and /datasets/ requests ConnectTimeout. State preserved and stopped after one bounded confirmation per the repeated-transport-error rule; no full validation attempted. Notebook retained as unverified reference in deliverables/.",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-89e0e604d88be6ac51289b5224ee3bd0.ipynb"
-    },
-    {
-      "public_id": "p-687457d4e2d069bdb1d54e06a735fab6",
-      "title": "Root Age Structure Governs Long-Term Architecture and Hydraulic Function in Perennial Plants: a Modelling Framework",
-      "journal": null,
-      "authors": [
-        "Fichtl L, Giraud M, Leitner D, Schnepf A, Steng K, Friedel M."
-      ],
-      "investigation_run_id": "p-687457d4e2d069bdb1d54e06a735fab6-20261021T164548Z-2175619",
-      "run_id": "p-687457d4e2d069bdb1d54e06a735fab6-20261023T005608Z-7b7db5d9",
-      "status": "failed",
-      "reason": "Operator-authorized retry executed: backend healthy, author code built (2.8 min) and parameterisation (createXMLs, genotype B) succeeded twice on two fresh CPU VMs after evidence-cited repairs for unpublished diameter/age data. The simulation itself is infeasible on Colab CPU: two independent supervised runs (N=2+N=6 and instrumented N=3) hit their unit runtime caps (2 h / 3 h) without completing a single simulated year (no per-year output; first-year phase alone > ~2.9 h), consistent with the authors' own 20-day cluster budget (wine_24cpu128.sh). Notebook rebuilt with the documented repairs and preserved in deliverables/ as an explicit UNVERIFIED reference; verified publisher not called.",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-687457d4e2d069bdb1d54e06a735fab6.ipynb"
-    },
-    {
-      "public_id": "p-650819c551206a400b5a5865a67bb67b",
-      "title": "A photometric stereo-based 3D imaging system using computer vision and deep learning for tracking plant growth",
-      "journal": "GigaScience",
-      "authors": [
-        "Gytis Bernotas",
-        "Livia Scorza",
-        "Mark Hansen",
-        "Ian Hales",
-        "Karen Halliday",
-        "Lyndon Smith",
-        "Melvyn Smith",
-        "Alistair J. McCormick"
-      ],
-      "investigation_run_id": "p-650819c551206a400b5a5865a67bb67b-20260930T140149Z-3709498",
-      "run_id": "p-650819c551206a400b5a5865a67bb67b-20261006T181006Z",
-      "status": "failed",
-      "reason": "Full fresh-CPU validation (final_exec8) ran the complete pipeline error-free in 23/25 cells: 329/329 data files downloaded (gdown + usercontent fallback), adaptive LSV matched the author's precomputed file to 2.7e-15, trait CSVs and 4 figures produced. Two provided-mask IoU comparison cells (18/20) still raise ValueError because the author's shipped LeafMasks/TrackedLeafMasks are per-plant bbox crops of varying size (~520-590 px) while our masks follow the author's own code path in the ROI-crop frame (655x475). Cells were repaired to skip mismatched frames, but changed source requires a fresh full run and the 3-session budget is exhausted. Resume with resume_run_dir to validate sha 7aeb3a48... and publish.",
-      "created_on": "2026-10-26",
-      "notebook_path": "notebooks/unverified/p-650819c551206a400b5a5865a67bb67b.ipynb"
-    },
-    {
-      "public_id": "p-183d5b4abeda554cbd985222856739a5",
-      "title": "Detection of quantitative trait loci for rice root systems grown in paddies based on nondestructive phenotyping using X-ray computed tomography.",
-      "journal": "The Plant Journal",
-      "authors": [
-        "Shota Teramoto",
-        "Yusaku Uga"
-      ],
-      "investigation_run_id": "p-183d5b4abeda554cbd985222856739a5-20260929T101731Z-2516752",
-      "run_id": "p-183d5b4abeda554cbd985222856739a5-20261009T120845Z",
-      "status": "failed",
-      "reason": "Repaired notebook ready but fresh full T4 validation not completed in this invocation. Attempt 1 failed: cucim==26.06.00 is image-preinstalled and absent from PyPI for Python 3.13, aborting pip (plus a preview zip-closure bug). Attempt 2: setup, clones, 38MB download verification and both input previews passed; author run_rsavis3d.py itself succeeded (rc=0, 35.5s, GPU) but make_mask.py failed with ImportError libcublas.so.12 because a pip-installed cupy-cuda12x wheel shadowed the image's CUDA-13-matched cupy. Root cause understood and repaired (preinstall-first cupy verification with cublas-forcing dot; dynamic series-name globs). The 3-session budget (probe, final, contingency) is exhausted, so the mandatory fresh full run must happen in a resumed invocation (resume_run_dir) before publication. Deliverable deliverables/p-183d5b4abeda554cbd985222856739a5.ipynb is statically valid but unverified.",
-      "created_on": "2026-10-26",
-      "notebook_path": "notebooks/unverified/p-183d5b4abeda554cbd985222856739a5.ipynb"
     }
   ]
 }
