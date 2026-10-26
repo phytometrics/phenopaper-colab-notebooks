@@ -12770,6 +12770,49 @@
         "alt": "Test-set confusion matrix (rows: true next-week stage, columns: prediction) from the re-trained Gradient Boosting model on held-out parcels.",
         "caption": "Test-set confusion matrix (rows: true next-week stage, columns: prediction) from the re-trained Gradient Boosting model on held-out parcels."
       }
+    },
+    {
+      "public_id": "p-aff8853199ebd6295edb4f17806da0ef",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Automated quantification of fine root production from minirhizotron image time series",
+      "journal": "Methods in Ecology and Evolution",
+      "authors": [
+        "Alexander Gillert",
+        "Patrick Möhl",
+        "Bo Peters",
+        "Lionel Safar",
+        "Julia Bebout",
+        "Stuart Schwab",
+        "Erika Hiltbrunner",
+        "Jürgen Kreyling",
+        "Tara Javidi",
+        "Elsa Cleland"
+      ],
+      "doi": "10.1111/2041-210x.70257",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Runs the authors' GINGER inference on one minirhizotron image pair from released dataset A with the pretrained TorchScript model and compares the new-growth prediction against the authors' reference annotation; a single-pair demonstration, not a dataset-level validation.",
+      "semantic_tags": [
+        "environment:field",
+        "organ:root",
+        "task:segmentation",
+        "task:time_series",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "New-growth minirhizotron pair (000): model prediction (green) versus the authors' reference SVG annotation (magenta) on the newer frame.",
+        "caption": "New-growth minirhizotron pair (000): model prediction (green) versus the authors' reference SVG annotation (magenta) on the newer frame."
+      }
     }
   ]
 }
