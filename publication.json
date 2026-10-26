@@ -12891,6 +12891,41 @@
         "alt": "REF_1 input scan strip vs author manual reference mask vs RONUM-generated NoPPC disease mask (vertical strips, rotated for display)",
         "caption": "REF_1 input scan strip vs author manual reference mask vs RONUM-generated NoPPC disease mask (vertical strips, rotated for display)"
       }
+    },
+    {
+      "public_id": "p-e375b96cb0fcf1c9900d2e3059e8d316",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Robust quantification of multiplexed fluorescent protein-based biosensors in plant tissues",
+      "journal": "openRxiv",
+      "authors": [
+        "Levak V, Županič A, Pogačar K, Marondini N, Stare K, Arnšek T, Fink K, Gruden K, Lukan T."
+      ],
+      "doi": "10.64898/2026.03.13.711581",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "AI-translated Python port of the Case 1 MATLAB segmentation pipeline (NIB-SI/Nuclei-segmentation) run on the bundled GFP-Venus-mKO2 example: nuclei/chloroplast/cytoplasm masks and per-object mKO2 fluorescence, with total masked areas matching the authors' bundled outputs within ~5% but differing per-object decomposition.",
+      "semantic_tags": [
+        "modality:fluorescence",
+        "organ:cell",
+        "organ:leaf",
+        "organ:tissue",
+        "task:segmentation",
+        "task:visualization"
+      ],
+      "preview": {
+        "alt": "Case 1 nuclei segmentation overview on the bundled GFP-Venus-mKO2 example: raw mKO2 channel, contrast-scaled, binarization, shape and size filtering, and labeled objects with mean mKO2 intensity",
+        "caption": "Case 1 nuclei segmentation overview on the bundled GFP-Venus-mKO2 example: raw mKO2 channel, contrast-scaled, binarization, shape and size filtering, and labeled objects with mean mKO2 intensity"
+      }
     }
   ]
 }
