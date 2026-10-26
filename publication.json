@@ -12813,6 +12813,44 @@
         "alt": "New-growth minirhizotron pair (000): model prediction (green) versus the authors' reference SVG annotation (magenta) on the newer frame.",
         "caption": "New-growth minirhizotron pair (000): model prediction (green) versus the authors' reference SVG annotation (magenta) on the newer frame."
       }
+    },
+    {
+      "public_id": "p-c97dba339429adecdd1888661c2bf31c",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Fluspect-B: A model for leaf fluorescence, reflectance and transmittance spectra",
+      "journal": "Remote Sensing of Environment",
+      "authors": [
+        "Vilfan N, van der Tol C, Muller O, Rascher U, Verhoef W."
+      ],
+      "doi": "10.1016/j.rse.2016.09.017",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Forward Fluspect-B leaf simulation for one leaf (reflectance, transmittance, fluorescence EEMs) using the authors' pinned MATLAB code run headless in Octave; single-example demonstration, not dataset-level retrieval.",
+      "semantic_tags": [
+        "crop:barley",
+        "crop:sugar_beet",
+        "environment:laboratory",
+        "modality:fluorescence",
+        "modality:spectral",
+        "organ:leaf",
+        "task:physiology",
+        "trait:photosynthesis",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "Simulated leaf reflectance and transmittance spectra (400-2400 nm) from the authors' fluspect_B_CX.m for one leaf (Cab=40, N=1.5).",
+        "caption": "Simulated leaf reflectance and transmittance spectra (400-2400 nm) from the authors' fluspect_B_CX.m for one leaf (Cab=40, N=1.5)."
+      }
     }
   ]
 }

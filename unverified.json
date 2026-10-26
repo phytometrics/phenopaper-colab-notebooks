@@ -216,22 +216,6 @@
       "code_cells": 8
     },
     {
-      "public_id": "p-c97dba339429adecdd1888661c2bf31c",
-      "title": "Fluspect-B: A model for leaf fluorescence, reflectance and transmittance spectra",
-      "journal": "Remote Sensing of Environment",
-      "authors": [
-        "Vilfan N, van der Tol C, Muller O, Rascher U, Verhoef W."
-      ],
-      "investigation_run_id": "p-c97dba339429adecdd1888661c2bf31c-20260930T021935Z-3177645",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-c97dba339429adecdd1888661c2bf31c-20261024T235443Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-c97dba339429adecdd1888661c2bf31c.ipynb",
-      "notebook_sha256": "1c3121d7fda6f77526c04a580ebd928bef0ebf7317bd0a598ce5349c1c9a76bb",
-      "source_sha256": "783a64087ffcec846d9f50d95d9721476e640dbe5c6d4d815cb9a8362bee767a",
-      "code_cells": 9
-    },
-    {
       "public_id": "p-91bf3367cf5522380c1e30eebab78cdb",
       "title": "Integrating Crop Growth Models and Genomic Prediction to Improve Flowering Time Forecasting Across Novel Environments and Breeding Lines",
       "journal": null,
