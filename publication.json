@@ -13602,6 +13602,40 @@
         "alt": "Left: this notebook's model output on test/rgb/RGB_20220222_016_3.png with detections and measured distances (authors' drawing code). Right: the author's published result image for the same input (repository image/RGB_20220222_016_3.png).",
         "caption": "Left: this notebook's model output on test/rgb/RGB_20220222_016_3.png with detections and measured distances (authors' drawing code). Right: the author's published result image for the same input (repository image/RGB_20220222_016_3.png)."
       }
+    },
+    {
+      "public_id": "p-c6af16665dcb52b411df4d86a9bb7ce1",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Leaf only SAM: A segment anything pipeline for zero-shot automated leaf segmentation",
+      "journal": "Smart Agricultural Technology",
+      "authors": [
+        "Dominic Williams",
+        "Fraser Macfarlane",
+        "Avril Britten"
+      ],
+      "doi": "10.1016/j.atech.2024.100515",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Executed the authors' zero-shot Leaf Only SAM pipeline (SAM ViT-H automatic mask generation plus their colour, whole-plant, shape and too-big filters) verbatim on one annotated potato image from their Zenodo dataset; single-image qualitative scope, not the paper's recall/precision benchmarks.",
+      "semantic_tags": [
+        "crop:potato",
+        "organ:leaf",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Input potato image IMG_8089 (0.5x, authors' preprocessing) with all 77 raw SAM masks (top) and the 14 final leaf-only masks after the authors' zero-shot filters (bottom).",
+        "caption": "Input potato image IMG_8089 (0.5x, authors' preprocessing) with all 77 raw SAM masks (top) and the 14 final leaf-only masks after the authors' zero-shot filters (bottom)."
+      }
     }
   ]
 }
