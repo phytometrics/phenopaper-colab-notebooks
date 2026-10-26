@@ -34,6 +34,23 @@
       "notebook_path": "notebooks/unverified/p-650819c551206a400b5a5865a67bb67b.ipynb"
     },
     {
+      "public_id": "p-1ac9a74760da303db353fcccfe250a65",
+      "title": "Predicting the growth trajectory and yield of greenhouse strawberries based on knowledge-guided computer vision",
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Qi Liang Yang",
+        "Licheng Liu",
+        "Junxiong Zhou",
+        "Mary Rogers",
+        "Zhenong Jin"
+      ],
+      "investigation_run_id": "p-1ac9a74760da303db353fcccfe250a65-20261007T111537Z-4039605",
+      "run_id": "p-1ac9a74760da303db353fcccfe250a65",
+      "status": "failed",
+      "reason": "OpenCode exited with status 1 without a valid queue-result.json. Last captured output: [2026-10-09T15:40:22.515Z] > build · GLM-5.3-Flash-EXL3 | [2026-10-09T15:41:28.100Z] Error: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"} | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-26"
+    },
+    {
       "public_id": "p-183d5b4abeda554cbd985222856739a5",
       "title": "Detection of quantitative trait loci for rice root systems grown in paddies based on nondestructive phenotyping using X-ray computed tomography.",
       "journal": "The Plant Journal",
@@ -878,17 +895,6 @@
       "reason": "OpenCode/reporter exited with status 1; see run log p-1fd15ec6e451611d0b5a9604964bc00d-20261024T234647Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
       "created_on": "2026-10-25",
       "notebook_path": "notebooks/unverified/p-1fd15ec6e451611d0b5a9604964bc00d.ipynb"
-    },
-    {
-      "public_id": "p-1ac9a74760da303db353fcccfe250a65",
-      "title": "p-1ac9a74760da303db353fcccfe250a65",
-      "journal": null,
-      "authors": [],
-      "investigation_run_id": "p-1ac9a74760da303db353fcccfe250a65-20261007T111537Z-4039605",
-      "run_id": "p-1ac9a74760da303db353fcccfe250a65",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-1ac9a74760da303db353fcccfe250a65-20261025T000143Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25"
     },
     {
       "public_id": "p-187d7e1f38b2a4425eb3ebdba448a71f",
