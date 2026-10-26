@@ -13891,6 +13891,45 @@
         "alt": "Final visit of test fruit C1: partial input cloud, SCoRe completion, single-frame completion, and post-harvest reference scan",
         "caption": "Final visit of test fruit C1: partial input cloud, SCoRe completion, single-frame completion, and post-harvest reference scan"
       }
+    },
+    {
+      "public_id": "p-45c048f1e570d6d1f4e79635b885c1fa",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "High-resolution microCT reveals relationships between stomata and interior leaf anatomy in sorghum",
+      "journal": "Plant Physiology",
+      "authors": [
+        "James M Fischer",
+        "Guillaume Théroux-Rancourt",
+        "Craig R Brodersen",
+        "Andrew D B Leakey"
+      ],
+      "doi": "10.1093/plphys/kiag414",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Executed one deposited sorghum leaf subvolume (SAMP11) through a CPU port of the author ImageJ-macro pipeline (AD/AB vascular-centroid split, contact, Lgeo/Leuc/Lepi, tau, lambda, porosity, gias Eqs 1-7); demonstration subvolume only, segmentation not re-run.",
+      "semantic_tags": [
+        "crop:sorghum",
+        "modality:xray_ct",
+        "organ:leaf",
+        "organ:stomata",
+        "organ:tissue",
+        "task:morphology",
+        "trait:stomatal_traits"
+      ],
+      "preview": {
+        "alt": "Deposited SAMP11 microCT ML-labeled cross-section (mesophyll/vascular/epidermis/airspace classes) with the deposited stomatal-dot annotation overlay, demonstration subvolume.",
+        "caption": "Deposited SAMP11 microCT ML-labeled cross-section (mesophyll/vascular/epidermis/airspace classes) with the deposited stomatal-dot annotation overlay, demonstration subvolume."
+      }
     }
   ]
 }
