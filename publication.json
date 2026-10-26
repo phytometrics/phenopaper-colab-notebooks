@@ -13201,6 +13201,42 @@
         "alt": "Repository sample images with YOLOv8 detections (red boxes) and the author's winning HSL disease-mask overlays on the 150x150 crops",
         "caption": "Repository sample images with YOLOv8 detections (red boxes) and the author's winning HSL disease-mask overlays on the 150x150 crops"
       }
+    },
+    {
+      "public_id": "p-ac77480ac294914e07b7325b57a48f89",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A new approach for rapid measurement of directional root responses to neighbours using the root centroid",
+      "journal": "Methods in Ecology and Evolution",
+      "authors": [
+        "Ruth Gottlieb",
+        "Águeda De la Vega‐Díaz",
+        "Yoram Gottlieb",
+        "Michal Gruntman"
+      ],
+      "doi": "10.1111/2041-210x.70293",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Deterministic reproduction of the paper's Total Root Centroid (HSV mask + center of mass) on the shipped Dryad example image, agreeing with the authors' expected CSV within 0.15 cm, plus a clearly labeled ADAPTED automatic-marking demonstration of the sample and polygon centroids on CPU.",
+      "semantic_tags": [
+        "environment:growth_chamber",
+        "organ:root",
+        "task:morphology",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "Shipped Dryad example image with the reproduced Total Root Centroid: green = HSV-masked root markings (40-80 hue), magenta = computed centroid, white line = authors' vertical reference x=242.",
+        "caption": "Shipped Dryad example image with the reproduced Total Root Centroid: green = HSV-masked root markings (40-80 hue), magenta = computed centroid, white line = authors' vertical reference x=242."
+      }
     }
   ]
 }
