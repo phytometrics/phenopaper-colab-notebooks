@@ -13311,6 +13311,42 @@
         "alt": "Authors' pipeline on the bundled input.jpg: YOLOv8 fruit+peduncle boxes with the HSV-mask major axis and two perpendicular minor-axis measurements overlaid.",
         "caption": "Authors' pipeline on the bundled input.jpg: YOLOv8 fruit+peduncle boxes with the HSV-mask major axis and two perpendicular minor-axis measurements overlaid."
       }
+    },
+    {
+      "public_id": "p-6c7167b20615d4d62851a77cea1d6a8b",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Apple Leaf Disease Detection Using Transfer Learning",
+      "journal": "Annals of Data Science",
+      "authors": [
+        "Ozair Ahmad Wani",
+        "Umer Zahoor",
+        "Syed Zubair Ahmad Shah",
+        "Rijwan Khan"
+      ],
+      "doi": "10.1007/s40745-024-00555-y",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Pretrained GoogLeNet checkpoint inference with the author's exact preprocessing over the author-bundled 634-image apple-leaf-disease test split (4 classes), measured 0.924 overall accuracy; paper-reported metrics could not be compared because the article full text was inaccessible through authorized routes.",
+      "semantic_tags": [
+        "crop:apple",
+        "organ:leaf",
+        "task:object_detection",
+        "task:stress_disease"
+      ],
+      "preview": {
+        "alt": "One author test image per class with the author ground-truth label and the GoogLeNet prediction overlaid",
+        "caption": "One author test image per class with the author ground-truth label and the GoogLeNet prediction overlaid"
+      }
     }
   ]
 }
