@@ -13747,6 +13747,43 @@
         "alt": "Toy dataset micrograph (top) vs. StoManager1 YOLOv8x-seg segmentation overlay (bottom), saved by the author's process command",
         "caption": "Toy dataset micrograph (top) vs. StoManager1 YOLOv8x-seg segmentation overlay (bottom), saved by the author's process command"
       }
+    },
+    {
+      "public_id": "p-d09aaac1e54e7ace6bc2213351a11bb3",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "StomaAI : an efficient and user‐friendly tool for measurement of stomatal pores and density using deep computer vision",
+      "journal": "The New phytologist",
+      "authors": [
+        "Sai N, Bockman JP, Chen H, Watson-Haigh N, Xu B, Feng X, Piechatzek A, Shen C, Gilliham M."
+      ],
+      "doi": "10.1111/nph.18765",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Runs the authors' StomaAI v1.0 inference pipeline (pinned XDynames/SAI-app revision, unmodified) on one deposited Arabidopsis example image, reproducing pore length/width/area and density in micrometres and matching the authors' deposited predictions exactly (IoU 1.000); single-image demonstration only, not the paper's dataset-level CCC/mAP results.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "crop:barley",
+        "modality:microscopy",
+        "organ:stomata",
+        "task:counting",
+        "task:morphology",
+        "task:physiology",
+        "trait:stomatal_traits"
+      ],
+      "preview": {
+        "alt": "Arabidopsis example '1 - At': StomaAI v1.0 predictions from this run (left; blue masks and length keypoints, green = open, orange = closed) compared with the deposited human ground-truth annotations (right, red).",
+        "caption": "Arabidopsis example '1 - At': StomaAI v1.0 predictions from this run (left; blue masks and length keypoints, green = open, orange = closed) compared with the deposited human ground-truth annotations (right, red)."
+      }
     }
   ]
 }
