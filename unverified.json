@@ -216,22 +216,6 @@
       "code_cells": 8
     },
     {
-      "public_id": "p-6fb6ce88d119706dec909131e0355999",
-      "title": "Tree height predicts the shape of radial sap flow profiles of Costa-Rican tropical dry forest tree species",
-      "journal": "Agricultural and Forest Meteorology.",
-      "authors": [
-        "Link RM, Fuchs S, Arias Aguilar D, Leuschner C, Castillo Ugalde M, Valverde Otarola JC, Schuldt B."
-      ],
-      "investigation_run_id": "p-6fb6ce88d119706dec909131e0355999-20260929T120027Z-2585313",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-6fb6ce88d119706dec909131e0355999-20261024T235621Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-6fb6ce88d119706dec909131e0355999.ipynb",
-      "notebook_sha256": "e9fddd23588d8c745f3413bcb27e06ca557b957d5c9555faf04409a892106e01",
-      "source_sha256": "9c55fa818c0c80f7ed487b1d99a5b827e9be39b5b57ab559f39d6ebf37eb73f7",
-      "code_cells": 9
-    },
-    {
       "public_id": "p-183d5b4abeda554cbd985222856739a5",
       "title": "Detection of quantitative trait loci for rice root systems grown in paddies based on nondestructive phenotyping using X-ray computed tomography.",
       "journal": "The Plant Journal",

@@ -12997,6 +12997,41 @@
         "alt": "Observed vs predicted flowering DAP (mechanistic method) from the executed bean CV2 run; left: with GBLUP-penalty params, right: raw mechanistic",
         "caption": "Observed vs predicted flowering DAP (mechanistic method) from the executed bean CV2 run; left: with GBLUP-penalty params, right: raw mechanistic"
       }
+    },
+    {
+      "public_id": "p-6fb6ce88d119706dec909131e0355999",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Tree height predicts the shape of radial sap flow profiles of Costa-Rican tropical dry forest tree species",
+      "journal": "Agricultural and Forest Meteorology.",
+      "authors": [
+        "Link RM, Fuchs S, Arias Aguilar D, Leuschner C, Castillo Ugalde M, Valverde Otarola JC, Schuldt B."
+      ],
+      "doi": "10.1016/j.agrformet.2020.107913",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Executes the authors' own R/nlme beta-density radial sap-flow profile pipeline (models A-C, full 1484-row published dataset, 38 trees) headless in Colab; the hierarchical Stan MCMC refit is shown pinned but not run.",
+      "semantic_tags": [
+        "environment:field",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:physiology",
+        "trait:plant_height",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Observed radial sap-flow profiles with model C tree-level predictions (nlme fit on the full published dataset)",
+        "caption": "Observed radial sap-flow profiles with model C tree-level predictions (nlme fit on the full published dataset)"
+      }
     }
   ]
 }
