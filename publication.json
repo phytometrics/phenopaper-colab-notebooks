@@ -12963,6 +12963,40 @@
         "alt": "Bundled sample RGB-D frame with the reference mask and PASCAL-VOC fruit annotations overlaid.",
         "caption": "Bundled sample RGB-D frame with the reference mask and PASCAL-VOC fruit annotations overlaid."
       }
+    },
+    {
+      "public_id": "p-91bf3367cf5522380c1e30eebab78cdb",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Integrating Crop Growth Models and Genomic Prediction to Improve Flowering Time Forecasting Across Novel Environments and Breeding Lines",
+      "journal": null,
+      "authors": [
+        "Cabrera M, Baker L, Jarquin D, Vallejos E, Messina C."
+      ],
+      "doi": "10.21203/rs.3.rs-9890445/v1",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Executed the author CGM-WGP pipeline's mechanistic method end-to-end on common bean CV2 sparse testing (5 reps, 187 genotypes, maxiter 30, CPU); the GBLUP/RN-GBLUP/CGM-WGP genomic comparison could not run because the required genomic inputs are absent upstream (verified LFS 404s).",
+      "semantic_tags": [
+        "crop:brassica_vegetables",
+        "crop:common_bean",
+        "organ:whole_plant",
+        "task:time_series",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Observed vs predicted flowering DAP (mechanistic method) from the executed bean CV2 run; left: with GBLUP-penalty params, right: raw mechanistic",
+        "caption": "Observed vs predicted flowering DAP (mechanistic method) from the executed bean CV2 run; left: with GBLUP-penalty params, right: raw mechanistic"
+      }
     }
   ]
 }

@@ -216,22 +216,6 @@
       "code_cells": 8
     },
     {
-      "public_id": "p-91bf3367cf5522380c1e30eebab78cdb",
-      "title": "Integrating Crop Growth Models and Genomic Prediction to Improve Flowering Time Forecasting Across Novel Environments and Breeding Lines",
-      "journal": null,
-      "authors": [
-        "Cabrera M, Baker L, Jarquin D, Vallejos E, Messina C."
-      ],
-      "investigation_run_id": "p-91bf3367cf5522380c1e30eebab78cdb-20260929T234917Z-3085836",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-91bf3367cf5522380c1e30eebab78cdb-20261024T235500Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-91bf3367cf5522380c1e30eebab78cdb.ipynb",
-      "notebook_sha256": "1f964d402562e046936e524faafdbef61bf30fa284e6e1fe308704d0744c19a9",
-      "source_sha256": "9f416952d3b1e75ab87388ed200d0b9a6ab882be87ea0fcbe33e67f13591ae5f",
-      "code_cells": 8
-    },
-    {
       "public_id": "p-6fb6ce88d119706dec909131e0355999",
       "title": "Tree height predicts the shape of radial sap flow profiles of Costa-Rican tropical dry forest tree species",
       "journal": "Agricultural and Forest Meteorology.",
