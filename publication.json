@@ -12851,6 +12851,46 @@
         "alt": "Simulated leaf reflectance and transmittance spectra (400-2400 nm) from the authors' fluspect_B_CX.m for one leaf (Cab=40, N=1.5).",
         "caption": "Simulated leaf reflectance and transmittance spectra (400-2400 nm) from the authors' fluspect_B_CX.m for one leaf (Cab=40, N=1.5)."
       }
+    },
+    {
+      "public_id": "p-bcc07e64c4e18890e139ec2fcb3b6063",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A rapid, semi-automated image-based method for quantitative assessment of rust disease progression in wheat",
+      "journal": "Plant Methods",
+      "authors": [
+        "Christopher W. G. Mann",
+        "Sambasivam Periyannan",
+        "Bernard J. Carroll",
+        "Donald M. Gardiner",
+        "Anne Sawyer"
+      ],
+      "doi": "10.1186/s13007-026-01590-x",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Runs the authors' RONUM Fiji macros non-interactively under Xvfb on reference scans REF_1/REF_2 and scores disease masks against their published manual masks with the authors' Dice/IoU validation macro (NoPPC Dice 0.79-0.80, Fill 0.83-0.84); two samples and two conditions only, with a deterministically derived calibration profile.",
+      "semantic_tags": [
+        "crop:wheat",
+        "environment:laboratory",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:segmentation",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "REF_1 input scan strip vs author manual reference mask vs RONUM-generated NoPPC disease mask (vertical strips, rotated for display)",
+        "caption": "REF_1 input scan strip vs author manual reference mask vs RONUM-generated NoPPC disease mask (vertical strips, rotated for display)"
+      }
     }
   ]
 }
