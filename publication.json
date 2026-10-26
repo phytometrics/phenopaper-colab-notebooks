@@ -13272,6 +13272,45 @@
         "alt": "Two released validation quadrat images with the authors' reference annotations (green boxes) drawn from the released XML labels.",
         "caption": "Two released validation quadrat images with the authors' reference annotations (green boxes) drawn from the released XML labels."
       }
+    },
+    {
+      "public_id": "p-97b435094d9e8c6452c9ce7a70e21501",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Automated Physical Feature Extraction of Namdokmai Sithong Mangoes Using YOLOv8 and Image Processing Techniques",
+      "journal": "AgriEngineering",
+      "authors": [
+        "Sujitra Arwatchananukul",
+        "Suphapol Wongsawat",
+        "Saowapa Chaiwong",
+        "Min Chen",
+        "Rattapon Saengrayap"
+      ],
+      "doi": "10.3390/agriengineering7090312",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Headless CPU reproduction of the authors' YOLOv8 fruit/peduncle detection and HSV axis measurement on the single bundled sample image; the paper's 30-image evaluation and the GUI are out of scope, and cm outputs use an explicitly assumed calibration.",
+      "semantic_tags": [
+        "crop:mango",
+        "modality:rgb",
+        "organ:fruit",
+        "task:morphology",
+        "task:object_detection",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Authors' pipeline on the bundled input.jpg: YOLOv8 fruit+peduncle boxes with the HSV-mask major axis and two perpendicular minor-axis measurements overlaid.",
+        "caption": "Authors' pipeline on the bundled input.jpg: YOLOv8 fruit+peduncle boxes with the HSV-mask major axis and two perpendicular minor-axis measurements overlaid."
+      }
     }
   ]
 }
