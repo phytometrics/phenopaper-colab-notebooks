@@ -13237,6 +13237,41 @@
         "alt": "Shipped Dryad example image with the reproduced Total Root Centroid: green = HSV-masked root markings (40-80 hue), magenta = computed centroid, white line = authors' vertical reference x=242.",
         "caption": "Shipped Dryad example image with the reproduced Total Root Centroid: green = HSV-masked root markings (40-80 hue), magenta = computed centroid, white line = authors' vertical reference x=242."
       }
+    },
+    {
+      "public_id": "p-2e1d8e48ee242fdaab69ac5b5666da70",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Deep learning object detection to estimate the nectar sugar mass of flowering vegetation",
+      "journal": "Ecological Solutions and Evidence",
+      "authors": [
+        "Damien M. Hicks",
+        "Mathilde Baude",
+        "Christoph C. Kratz",
+        "Pierre Ouvrard",
+        "Graham N. Stone"
+      ],
+      "doi": "10.1002/2688-8319.12099",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Reproduced the released Faster R-CNN nectar-sugar pipeline end to end on 50 seeded released validation images (8.4 s/image on CPU): sha-256-verified downloads, detecto inference with NMS 0.1, detection metrics (F1 0.21-0.25, a documented discrepancy vs the paper's external 0.88), Table 1 counts-to-mass conversion, and Python ports of the author's validation-loss and quadrat-replicate figures.",
+      "semantic_tags": [
+        "organ:flower",
+        "task:object_detection"
+      ],
+      "preview": {
+        "alt": "Two released validation quadrat images with the authors' reference annotations (green boxes) drawn from the released XML labels.",
+        "caption": "Two released validation quadrat images with the authors' reference annotations (green boxes) drawn from the released XML labels."
+      }
     }
   ]
 }
