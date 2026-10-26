@@ -13568,6 +13568,40 @@
         "alt": "Raw GlutoPeak torque curve of sample 230117006-004_44 with the author-computed feature markers (first peak, trough, maximum) used by the random forest models.",
         "caption": "Raw GlutoPeak torque curve of sample 230117006-004_44 with the author-computed feature markers (first peak, trough, maximum) used by the random forest models."
       }
+    },
+    {
+      "public_id": "p-8efe534069f7288df03a45e7e39be677",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Plant growth information measurement based on object detection and image fusion using a smart farm robot",
+      "journal": "Computers and Electronics in Agriculture.",
+      "authors": [
+        "Cho S, Kim T, Jung DH, Park SH, Na Y, Ihn YS, Kim K."
+      ],
+      "doi": null,
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Runs the authors' pinned YOLOR growth-measurement pipeline (branch-point distance and stem diameter in mm) on one bundled RGB+depth sample pair; blur21 checkpoint pairing is a documented adaptation and one sample does not verify paper-level accuracy.",
+      "semantic_tags": [
+        "modality:rgbd",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:object_detection",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Left: this notebook's model output on test/rgb/RGB_20220222_016_3.png with detections and measured distances (authors' drawing code). Right: the author's published result image for the same input (repository image/RGB_20220222_016_3.png).",
+        "caption": "Left: this notebook's model output on test/rgb/RGB_20220222_016_3.png with detections and measured distances (authors' drawing code). Right: the author's published result image for the same input (repository image/RGB_20220222_016_3.png)."
+      }
     }
   ]
 }
