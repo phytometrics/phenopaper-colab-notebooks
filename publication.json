@@ -13162,6 +13162,45 @@
         "alt": "Reproduced SAE-FNN firmness predictions vs reference measurements (calibration n=135, testing n=45) using the authors' saved logs/Firmness/50 model; notebook-generated scatter, not an author figure.",
         "caption": "Reproduced SAE-FNN firmness predictions vs reference measurements (calibration n=135, testing n=45) using the authors' saved logs/Firmness/50 model; notebook-generated scatter, not an author figure."
       }
+    },
+    {
+      "public_id": "p-c852d6bedbdea765afebb0d57dfe3c96",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "An edge computing wireless sensor network for diagnosing orange fruit disease",
+      "journal": "Cluster Computing",
+      "authors": [
+        "Arman Foroughi",
+        "Jaime Lloret",
+        "Jose Miguel Jimenez",
+        "Sandra Sendra"
+      ],
+      "doi": "10.1007/s10586-024-04999-y",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Runs the author's published YOLOv8 + HSL color-spectrum diagnosis branch (yolo_orange.pt, conf 0.6) on 4 of the repository's own sample images on a fresh Colab CPU runtime; the WSN hardware deployment and the 97-image benchmark are not reproduced.",
+      "semantic_tags": [
+        "crop:citrus",
+        "environment:field",
+        "modality:rgb",
+        "organ:fruit",
+        "task:object_detection",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Repository sample images with YOLOv8 detections (red boxes) and the author's winning HSL disease-mask overlays on the 150x150 crops",
+        "caption": "Repository sample images with YOLOv8 detections (red boxes) and the author's winning HSL disease-mask overlays on the 150x150 crops"
+      }
     }
   ]
 }
