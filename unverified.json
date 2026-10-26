@@ -232,22 +232,6 @@
       "code_cells": 8
     },
     {
-      "public_id": "p-9f5bf7e781bc39de6716e20287fa11fa",
-      "title": "Assessing automatic data processing algorithms for RGB-D cameras to predict fruit size and weight in apples",
-      "journal": "Computers and Electronics in Agriculture.",
-      "authors": [
-        "Miranda JC, Arnó J, Gené-Mola J, Lordan J, Asín L, Gregorio E."
-      ],
-      "investigation_run_id": "p-9f5bf7e781bc39de6716e20287fa11fa-20260929T232459Z-3066620",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-9f5bf7e781bc39de6716e20287fa11fa-20261024T235606Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-9f5bf7e781bc39de6716e20287fa11fa.ipynb",
-      "notebook_sha256": "19d11843cb5aca7b7f3d1e94256b3b240c3d36706abad5bb76ea28f7c3928db3",
-      "source_sha256": "87fb03c4a26012cb95f9e1541d46e3cf7985189f619e81bac7ae983e9e3a9fd0",
-      "code_cells": 12
-    },
-    {
       "public_id": "p-6fb6ce88d119706dec909131e0355999",
       "title": "Tree height predicts the shape of radial sap flow profiles of Costa-Rican tropical dry forest tree species",
       "journal": "Agricultural and Forest Meteorology.",

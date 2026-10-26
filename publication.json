@@ -12926,6 +12926,43 @@
         "alt": "Case 1 nuclei segmentation overview on the bundled GFP-Venus-mKO2 example: raw mKO2 channel, contrast-scaled, binarization, shape and size filtering, and labeled objects with mean mKO2 intensity",
         "caption": "Case 1 nuclei segmentation overview on the bundled GFP-Venus-mKO2 example: raw mKO2 channel, contrast-scaled, binarization, shape and size filtering, and labeled objects with mean mKO2 intensity"
       }
+    },
+    {
+      "public_id": "p-9f5bf7e781bc39de6716e20287fa11fa",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Assessing automatic data processing algorithms for RGB-D cameras to predict fruit size and weight in apples",
+      "journal": "Computers and Electronics in Agriculture.",
+      "authors": [
+        "Miranda JC, Arnó J, Gené-Mola J, Lordan J, Asín L, Gregorio E."
+      ],
+      "doi": null,
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Runs the authors' non-GUI PredictionMetricsFramework on the bundled AK_SW_BENCHMARKER RGB-D sample to reproduce the paper's fruit size and allometric weight benchmarking (MAE/RMSE/MAPE/R2 ranking over sizing x depth x weight models) on CPU; single 6-frame sample, not full-dataset accuracy.",
+      "semantic_tags": [
+        "crop:apple",
+        "environment:field",
+        "modality:rgbd",
+        "organ:fruit",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:yield_biomass",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Bundled sample RGB-D frame with the reference mask and PASCAL-VOC fruit annotations overlaid.",
+        "caption": "Bundled sample RGB-D frame with the reference mask and PASCAL-VOC fruit annotations overlaid."
+      }
     }
   ]
 }
