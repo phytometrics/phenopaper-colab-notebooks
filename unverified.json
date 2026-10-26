@@ -321,6 +321,22 @@
       "notebook_sha256": "94d158cd00bdb46387bfe9c0f4a3213cf1e89068942e3d0239c878d1540e2a01",
       "source_sha256": "c4f74560663e0e50ea46c02e9ad2698adc4a4cb876880f92e6e51f876a6770d8",
       "code_cells": 15
+    },
+    {
+      "public_id": "p-d09aaac1e54e7ace6bc2213351a11bb3",
+      "title": "StomaAI : an efficient and user‐friendly tool for measurement of stomatal pores and density using deep computer vision",
+      "journal": "The New phytologist",
+      "authors": [
+        "Sai N, Bockman JP, Chen H, Watson-Haigh N, Xu B, Feng X, Piechatzek A, Shen C, Gilliham M."
+      ],
+      "investigation_run_id": "p-d09aaac1e54e7ace6bc2213351a11bb3-20261026T182617Z-1709625",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-26T20:15:26.495Z] EOF | [2026-10-26T20:15:26.495Z] RUN=/home/phyto/phenotyping-colab/runs/p-d09aaac1e54e7ace6bc2213351a11bb3-20261026T194037Z; python3 $RUN/notes/build_notebook.py && python3 /home/phyto/phenotyping-colab/tools/validate_notebook.py $RUN/deliverable | [2026-10-26T20:15:26.495Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-27",
+      "notebook_path": "notebooks/unverified/p-d09aaac1e54e7ace6bc2213351a11bb3.ipynb",
+      "notebook_sha256": "4f44e2d1684a62652a346dbff7a6ea441bdfa2ceadfaea9bdb9a64e4b322eca8",
+      "source_sha256": "07b295ebc85b2c5cd468feeee8bd927c033737ef1a5a297bb2119621823ed7d5",
+      "code_cells": 16
     }
   ]
 }
