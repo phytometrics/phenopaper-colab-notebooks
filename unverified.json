@@ -216,23 +216,6 @@
       "code_cells": 8
     },
     {
-      "public_id": "p-845668b5bebd667d367e2f37f92142ad",
-      "title": "Optimizing Support Vector Machine for Avocado Ripeness Classification Using Moth Flame Optimization",
-      "journal": "Journal of Electronics Electromedical Engineering and Medical Informatics",
-      "authors": [
-        "Kemal Crisannaufal",
-        "Wikky Fawwaz Al Maki"
-      ],
-      "investigation_run_id": "p-845668b5bebd667d367e2f37f92142ad-20261007T234824Z-488139",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-845668b5bebd667d367e2f37f92142ad-20261024T235052Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25",
-      "notebook_path": "notebooks/unverified/p-845668b5bebd667d367e2f37f92142ad.ipynb",
-      "notebook_sha256": "b4219918282c792f40307f30a56576beb4cf191966440e656869fe291d0ff5a4",
-      "source_sha256": "786ff3304ae17abf4b1d3b4431d08248ae1ca287c355535d54c8bcc06434e62e",
-      "code_cells": 14
-    },
-    {
       "public_id": "p-c97dba339429adecdd1888661c2bf31c",
       "title": "Fluspect-B: A model for leaf fluorescence, reflectance and transmittance spectra",
       "journal": "Remote Sensing of Environment",

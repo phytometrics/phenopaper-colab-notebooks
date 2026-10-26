@@ -12701,6 +12701,41 @@
         "alt": "StomataSeg test patches with the authors' reference annotations overlaid (pore area red, guard cell area green, complex area blue).",
         "caption": "StomataSeg test patches with the authors' reference annotations overlaid (pore area red, guard cell area green, complex area blue)."
       }
+    },
+    {
+      "public_id": "p-845668b5bebd667d367e2f37f92142ad",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Optimizing Support Vector Machine for Avocado Ripeness Classification Using Moth Flame Optimization",
+      "journal": "Journal of Electronics Electromedical Engineering and Medical Informatics",
+      "authors": [
+        "Kemal Crisannaufal",
+        "Wikky Fawwaz Al Maki"
+      ],
+      "doi": "10.35882/jeeemi.v7i2.652",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "CPU adapted demonstration of MFO-tuned RBF-SVM avocado ripeness classification on a 300-image stratified subset with the authors' exact 8897-dim feature extraction; full-scale augmented pipeline (14710 images) is out of scope.",
+      "semantic_tags": [
+        "crop:avocado",
+        "modality:rgb",
+        "organ:fruit",
+        "task:classification",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Input sample: one real Mendeley photo per ripeness class with its true XLSX label (paper Figure 2 role)",
+        "caption": "Input sample: one real Mendeley photo per ripeness class with its true XLSX label (paper Figure 2 role)"
+      }
     }
   ]
 }
