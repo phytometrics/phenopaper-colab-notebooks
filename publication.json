@@ -12736,6 +12736,40 @@
         "alt": "Input sample: one real Mendeley photo per ripeness class with its true XLSX label (paper Figure 2 role)",
         "caption": "Input sample: one real Mendeley photo per ripeness class with its true XLSX label (paper Figure 2 role)"
       }
+    },
+    {
+      "public_id": "p-742655c0ffab1b46a5b711f35d9db49f",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Developing machine learning models from multisourced real-world datasets to enhance smart-farming practices",
+      "journal": "Computers and Electronics in Agriculture.",
+      "authors": [
+        "Lacueva-Pérez FJ, Hoyo-Alonso Rd, Labata-Leazaún G, Barriuso-Vargas JJ, Ilarri-Artigas S."
+      ],
+      "doi": null,
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Re-trains the authors' Gradient Boosting pipeline on their public 492 MB Zenodo grapevine phenology dataset to predict next-week stage labels with the authors' parcel-level split and an Optuna MCC search bounded to 5 trials; not comparable to the paper's published metrics, and the published date column defect required a day-of-year-based 7-day target construction.",
+      "semantic_tags": [
+        "crop:grapevine",
+        "modality:spectral",
+        "organ:whole_plant",
+        "task:classification",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Test-set confusion matrix (rows: true next-week stage, columns: prediction) from the re-trained Gradient Boosting model on held-out parcels.",
+        "caption": "Test-set confusion matrix (rows: true next-week stage, columns: prediction) from the re-trained Gradient Boosting model on held-out parcels."
+      }
     }
   ]
 }
