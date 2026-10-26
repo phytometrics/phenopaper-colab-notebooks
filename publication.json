@@ -13784,6 +13784,40 @@
         "alt": "Arabidopsis example '1 - At': StomaAI v1.0 predictions from this run (left; blue masks and length keypoints, green = open, orange = closed) compared with the deposited human ground-truth annotations (right, red).",
         "caption": "Arabidopsis example '1 - At': StomaAI v1.0 predictions from this run (left; blue masks and length keypoints, green = open, orange = closed) compared with the deposited human ground-truth annotations (right, red)."
       }
+    },
+    {
+      "public_id": "p-ebc814dedddbfd7d44591d73e853f98f",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Spectroscopy can predict key leaf traits associated with source-sink balance and carbon-nitrogen status.",
+      "journal": "Journal of experimental botany",
+      "authors": [
+        "Ely KS, Burnett AC, Lieberman-Cribbin W, Serbin SP, Rogers A."
+      ],
+      "doi": "10.1093/jxb/erz061",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Runs the authors' released 12-component LMA PLSR coefficients on public EcoSIS LOPEX93 and Angers fresh-leaf reflectance spectra following the authors' own R vignette (RMSE 19.36, R2 0.674, n=579, matching the vignette reference 19/0.67); a single partial demonstration, CPU-only, not the paper's dataset-level validation.",
+      "semantic_tags": [
+        "modality:spectral",
+        "organ:leaf",
+        "task:physiology",
+        "trait:leaf_traits",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Observed vs PLSR-predicted leaf mass per area (g m-2) for LOPEX93+Angers fresh leaves, with jackknife 95% error bars; matches the author vignette reference (RMSE 19, R2 0.67).",
+        "caption": "Observed vs PLSR-predicted leaf mass per area (g m-2) for LOPEX93+Angers fresh leaves, with jackknife 95% error bars; matches the author vignette reference (RMSE 19, R2 0.67)."
+      }
     }
   ]
 }
