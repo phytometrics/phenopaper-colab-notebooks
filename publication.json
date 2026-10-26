@@ -13032,6 +13032,53 @@
         "alt": "Observed radial sap-flow profiles with model C tree-level predictions (nlme fit on the full published dataset)",
         "caption": "Observed radial sap-flow profiles with model C tree-level predictions (nlme fit on the full published dataset)"
       }
+    },
+    {
+      "public_id": "p-48d96e3460d18986d852536c6a7882f3",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Enhancing WorldCereal crop calendars with land surface phenology and machine learning",
+      "journal": "Ecological Informatics",
+      "authors": [
+        "Italo Moletto-Lobos",
+        "Belen Franch",
+        "Andreu Guillem-Valls",
+        "Katarzyna Cyran",
+        "Natacha Kalecinski",
+        "Kristof Van Tricht",
+        "Eric Vermote",
+        "Inbal Becker-Reshef",
+        "Shabarinath Nair",
+        "Jeroen Degerickx",
+        "Christina Butsko",
+        "Koen de Vos",
+        "Alyssa Whitcraft",
+        "Zoltan Szantoi"
+      ],
+      "doi": "10.1016/j.ecoinf.2026.103742",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Trains the paper's first-iteration winter-crop SOS XGBoost (author script commit d3bd748, Zenodo v2.1.2 winter_crops_dataset.csv) with faithful preprocessing, top-50 feature selection and author hyperparameters; single seed and 30% test split give R2=0.627, RMSE=56.3 days on 854 held-out samples, without the 5-seed loop, continent-colored scatter or world-map stages.",
+      "semantic_tags": [
+        "environment:field",
+        "modality:spectral",
+        "organ:whole_plant",
+        "task:time_series",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Validation scatter of observed vs predicted winter-crop SOS (DOY) on the 30% held-out test split, with the OLS line and R2/RMSE/Bias/Std annotations, from the executed notebook (CPU).",
+        "caption": "Validation scatter of observed vs predicted winter-crop SOS (DOY) on the 30% held-out test split, with the OLS line and R2/RMSE/Bias/Std annotations, from the executed notebook (CPU)."
+      }
     }
   ]
 }
