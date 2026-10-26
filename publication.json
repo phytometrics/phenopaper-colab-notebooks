@@ -13818,6 +13818,41 @@
         "alt": "Observed vs PLSR-predicted leaf mass per area (g m-2) for LOPEX93+Angers fresh leaves, with jackknife 95% error bars; matches the author vignette reference (RMSE 19, R2 0.67).",
         "caption": "Observed vs PLSR-predicted leaf mass per area (g m-2) for LOPEX93+Angers fresh leaves, with jackknife 95% error bars; matches the author vignette reference (RMSE 19, R2 0.67)."
       }
+    },
+    {
+      "public_id": "p-f43203614936590241ddae9d5baaae47",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Improving the identification of haploid maize seeds using convolutional neural networks",
+      "journal": "Crop Science",
+      "authors": [
+        "Sabadin F, Galli G, Borsato R, Gevartosky R, Campos GR, Fritsche‐Neto R."
+      ],
+      "doi": "10.1002/csc2.20487",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Faithful CPU inference reproduction of the released DHsort.py + model.h5 on the 60 bundled example seed images; training and the paper's dataset-level accuracy are out of scope.",
+      "semantic_tags": [
+        "crop:maize",
+        "environment:field",
+        "organ:seed",
+        "organ:whole_plant",
+        "task:classification",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "The 60 bundled DHSort example seed images (30 diploid, 30 haploid) downloaded and integrity-checked at pinned commit ef9cbe55",
+        "caption": "The 60 bundled DHSort example seed images (30 diploid, 30 haploid) downloaded and integrity-checked at pinned commit ef9cbe55"
+      }
     }
   ]
 }
