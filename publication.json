@@ -13504,6 +13504,39 @@
         "alt": "Demo test image: authors' reference labels (87 panicles, green) vs released best.pt predictions (100 panicles, red)",
         "caption": "Demo test image: authors' reference labels (87 panicles, green) vs released best.pt predictions (100 panicles, red)"
       }
+    },
+    {
+      "public_id": "p-4f03152d8d9d30cded27ff9116b1ad1a",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Early plant disease detection by Raman spectroscopy: An open-source software designed for the automation of preprocessing and analysis of spectral dataset",
+      "journal": "Crop Protection",
+      "authors": [
+        "Vallejo Pérez MR, Cetina Denis JJ, Chan Ley MA, Sosa Herrera JA, Delgado Ortiz JC, Rodríguez Vázquez ÁG, Navarro Contreras HR."
+      ],
+      "doi": null,
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Runs the authors' unmodified qREAD-Raman Node.js server at pinned commit d326e84 to drive the full two-stage GUI workflow (fluorescence removal, normalization, median-DTW outlier removal, 6-component PCA, MLP/LSTM/LDA/KNN/PLS-DA consensus) over the nine bundled CLso demo spectra; a single small demo batch, not a reproduction of the paper's dataset-level accuracies.",
+      "semantic_tags": [
+        "crop:tomato",
+        "modality:spectroscopy",
+        "task:classification",
+        "task:preprocessing"
+      ],
+      "preview": {
+        "alt": "Raw Raman spectra of the nine bundled CLso demo samples (demoData/CLsoP1_00-08) as loaded by the author's server.",
+        "caption": "Raw Raman spectra of the nine bundled CLso demo samples (demoData/CLsoP1_00-08) as loaded by the author's server."
+      }
     }
   ]
 }
