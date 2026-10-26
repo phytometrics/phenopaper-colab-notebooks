@@ -13079,6 +13079,56 @@
         "alt": "Validation scatter of observed vs predicted winter-crop SOS (DOY) on the 30% held-out test split, with the OLS line and R2/RMSE/Bias/Std annotations, from the executed notebook (CPU).",
         "caption": "Validation scatter of observed vs predicted winter-crop SOS (DOY) on the 30% held-out test split, with the OLS line and R2/RMSE/Bias/Std annotations, from the executed notebook (CPU)."
       }
+    },
+    {
+      "public_id": "p-1d51d08dd27a3d1b5e8b14607fceb435",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Toward scalable wood anatomy: a toolkit for automated xylem cell identification and quantification in woody angiosperms",
+      "journal": "Plant Physiology",
+      "authors": [
+        "Longwei Mei",
+        "Cheng Qi",
+        "Zhiyang Pei",
+        "Bingbing Zhao",
+        "Qiang Fu",
+        "Zhangqun Jiang",
+        "Chengcheng Li",
+        "Zhihe Jin",
+        "Ruoya Zhao",
+        "Jin Cheng",
+        "Yongjian Wang",
+        "Quanzi Li",
+        "Manzhu Bao",
+        "Bo Zheng",
+        "Xueping Shi"
+      ],
+      "doi": "10.1093/plphys/kiag324",
+      "compute": "CPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Pretrained YOLOv8n vessel and fibre detection with the authors' per-cell morphometric extraction on one bundled poplar xylem section; single-sample partial demo at the labeled 20X calibration, not a dataset-level validation.",
+      "semantic_tags": [
+        "crop:poplar",
+        "modality:microscopy",
+        "organ:cell",
+        "task:morphology",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Input wood section (left) and YOLOv8n Vessel model predictions with per-cell index and count overlay (right); model output, not reference annotation.",
+        "caption": "Input wood section (left) and YOLOv8n Vessel model predictions with per-cell index and count overlay (right); model output, not reference annotation."
+      }
     }
   ]
 }
