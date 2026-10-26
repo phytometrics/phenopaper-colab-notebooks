@@ -13853,6 +13853,44 @@
         "alt": "The 60 bundled DHSort example seed images (30 diploid, 30 haploid) downloaded and integrity-checked at pinned commit ef9cbe55",
         "caption": "The 60 bundled DHSort example seed images (30 diploid, 30 haploid) downloaded and integrity-checked at pinned commit ef9cbe55"
       }
+    },
+    {
+      "public_id": "p-fa281ef3d2e7e699424318eae3ccb279",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Temporal latent fusion for sequential 3D shape completion in on-plant Korean melon growth monitoring",
+      "journal": null,
+      "authors": [
+        "Sungjay Kim",
+        "Pieter M. Blok",
+        "Xianghui Xin",
+        "G. D. Kim",
+        "Yeongjun Go",
+        "Jiwon Ryu",
+        "Sang-Yeon Kim",
+        "Chang-Hyup Lee",
+        "Ghiseok Kim"
+      ],
+      "doi": "10.2139/ssrn.7417106",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Released SCoRe inference (pinned commit, v1.0 weights) on 3 held-out test melon visit sequences: single-frame vs temporal-fusion volume trajectories, subset last-frame metrics; CPU-validated, not the paper's 79-fruit benchmark.",
+      "semantic_tags": [
+        "crop:melon"
+      ],
+      "preview": {
+        "alt": "Final visit of test fruit C1: partial input cloud, SCoRe completion, single-frame completion, and post-harvest reference scan",
+        "caption": "Final visit of test fruit C1: partial input cloud, SCoRe completion, single-frame completion, and post-harvest reference scan"
+      }
     }
   ]
 }
