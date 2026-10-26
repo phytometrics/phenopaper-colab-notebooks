@@ -2,6 +2,23 @@
   "schema_version": 1,
   "failures": [
     {
+      "public_id": "p-a3eca218d6b1924e7979bac50450edd3",
+      "title": "High-Throughput Phenotyping of Soybean Maturity Using Time Series UAV Imagery and Convolutional Neural Networks",
+      "journal": "Remote Sensing",
+      "authors": [
+        "Rodrigo Trevisan",
+        "Osvaldo Pérez",
+        "Nathan Schmitz",
+        "Brian W. Diers",
+        "Nicolás F. Martín"
+      ],
+      "investigation_run_id": "p-a3eca218d6b1924e7979bac50450edd3-20260930T034538Z-3226775",
+      "run_id": "p-a3eca218d6b1924e7979bac50450edd3",
+      "status": "failed",
+      "reason": "OpenCode exited with status 1 without a valid queue-result.json. Last captured output: [2026-10-09T15:44:39.583Z] > build · GLM-5.3-Flash-EXL3 | [2026-10-09T15:45:44.807Z] Error: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"} | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-26"
+    },
+    {
       "public_id": "p-a07c85ffebedbf10d8d7f19fae48c5b2",
       "title": "p-a07c85ffebedbf10d8d7f19fae48c5b2",
       "journal": null,
@@ -327,17 +344,6 @@
       "run_id": "p-a61f290c567c7bbcfc79e8a0f69a3255",
       "status": "failed",
       "reason": "OpenCode/reporter exited with status 1; see run log p-a61f290c567c7bbcfc79e8a0f69a3255-20261025T002747Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25"
-    },
-    {
-      "public_id": "p-a3eca218d6b1924e7979bac50450edd3",
-      "title": "p-a3eca218d6b1924e7979bac50450edd3",
-      "journal": null,
-      "authors": [],
-      "investigation_run_id": "p-a3eca218d6b1924e7979bac50450edd3-20260930T034538Z-3226775",
-      "run_id": "p-a3eca218d6b1924e7979bac50450edd3",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-a3eca218d6b1924e7979bac50450edd3-20261025T000645Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
       "created_on": "2026-10-25"
     },
     {
