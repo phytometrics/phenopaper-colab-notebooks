@@ -13636,6 +13636,44 @@
         "alt": "Input potato image IMG_8089 (0.5x, authors' preprocessing) with all 77 raw SAM masks (top) and the 14 final leaf-only masks after the authors' zero-shot filters (bottom).",
         "caption": "Input potato image IMG_8089 (0.5x, authors' preprocessing) with all 77 raw SAM masks (top) and the 14 final leaf-only masks after the authors' zero-shot filters (bottom)."
       }
+    },
+    {
+      "public_id": "p-b4282302d0df032ec69c484b2dbbb527",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "PACANet: A Paired-Attention central axis aggregation network for plant population point cloud segmentation and phenotypic trait Extraction—A case study on maize",
+      "journal": "Computers and Electronics in Agriculture.",
+      "authors": [
+        "Yang X, Miao T, Tao Y, Zhang B, Wu X, Han X, Yu J, Zhou Y, Deng H, Wang Y, Xu T."
+      ],
+      "doi": null,
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Pretrained PACANet inference on the released ground-truth test cloud other__Maize-04_gt.txt (README row B1) with the author's pinned code/config/evaluator; single-cloud AP 0.9770 vs README-reported 0.9808 (flash-attention replaced by an equivalent SDPA shim for T4).",
+      "semantic_tags": [
+        "crop:maize",
+        "environment:field",
+        "modality:point_cloud",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:segmentation",
+        "trait:leaf_traits",
+        "trait:plant_height"
+      ],
+      "preview": {
+        "alt": "Input point cloud other__Maize-04_gt.txt colored by the released ground-truth instance annotation (29 maize plants); PACANet instance segmentation reaches AP 0.9770 vs the README-reported 0.9808.",
+        "caption": "Input point cloud other__Maize-04_gt.txt colored by the released ground-truth instance annotation (29 maize plants); PACANet instance segmentation reaches AP 0.9770 vs the README-reported 0.9808."
+      }
     }
   ]
 }
