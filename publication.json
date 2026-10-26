@@ -13709,6 +13709,44 @@
         "alt": "Input confocal z-stack slice (img_train/13.tif, top) with the expert reference guard-cell annotation (label-13.tif, red outline, bottom).",
         "caption": "Input confocal z-stack slice (img_train/13.tif, top) with the expert reference guard-cell annotation (label-13.tif, red outline, bottom)."
       }
+    },
+    {
+      "public_id": "p-32e9a302d0d1f027bfc60b4b48d812f4",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "StoManager1: An Enhanced, Automated, and High-throughput Tool to Measure Leaf Stomata and Guard Cell Metrics Using Empirical and Theoretical Algorithms",
+      "journal": "arXiv",
+      "authors": [
+        "Jiaxin Wang",
+        "Heidi J. Renninger",
+        "Qin Ma",
+        "Shichao Jin"
+      ],
+      "doi": "10.48550/arxiv.2304.10450",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Executed the author's pinned StoManager1 CLI (YOLOv8x-seg process + stats) on three Toy dataset micrographs with the released Zenodo weights, producing per-image 39-column metric CSVs, a summary workbook, and input-vs-prediction overlays; the full 11,000-image datasets, YOLOv3 path, and biological regressions are out of scope.",
+      "semantic_tags": [
+        "organ:leaf",
+        "organ:stomata",
+        "task:counting",
+        "task:morphology",
+        "task:object_detection",
+        "trait:stomatal_traits"
+      ],
+      "preview": {
+        "alt": "Toy dataset micrograph (top) vs. StoManager1 YOLOv8x-seg segmentation overlay (bottom), saved by the author's process command",
+        "caption": "Toy dataset micrograph (top) vs. StoManager1 YOLOv8x-seg segmentation overlay (bottom), saved by the author's process command"
+      }
     }
   ]
 }
