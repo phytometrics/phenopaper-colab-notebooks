@@ -13347,6 +13347,50 @@
         "alt": "One author test image per class with the author ground-truth label and the GoogLeNet prediction overlaid",
         "caption": "One author test image per class with the author ground-truth label and the GoogLeNet prediction overlaid"
       }
+    },
+    {
+      "public_id": "p-528250de5d2f69d9638404a6f1883026",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "StomataSeg: Semi-supervised instance segmentation for sorghum stomatal components",
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Zhongtian Huang",
+        "Zhi Chen",
+        "Zi Helen Huang",
+        "Xin Yu",
+        "Daniel Smith",
+        "C. R. Purushothama",
+        "Erik J van Oosterom",
+        "Alex Chi Wu",
+        "William T. Salter",
+        "Yan Li",
+        "Scott Cameron Chapman"
+      ],
+      "doi": "10.1016/j.compag.2026.112442",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-26",
+      "demonstration": "Evaluates the released retrained Mask R-CNN (ConvNeXt-V2-Base) on the full 1,160-patch StomataSeg test split in Colab, reproducing the paper's Table 4 mask AP exactly; training and other baselines are out of scope.",
+      "semantic_tags": [
+        "crop:sorghum",
+        "modality:microscopy",
+        "organ:stomata",
+        "task:segmentation",
+        "trait:stomatal_traits"
+      ],
+      "preview": {
+        "alt": "StomataSeg test patches with the authors' reference instance masks from test.json (pore area=red, guard cell area=green, complex area=blue).",
+        "caption": "StomataSeg test patches with the authors' reference instance masks from test.json (pore area=red, guard cell area=green, complex area=blue)."
+      }
     }
   ]
 }
