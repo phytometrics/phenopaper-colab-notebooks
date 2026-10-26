@@ -13674,6 +13674,41 @@
         "alt": "Input point cloud other__Maize-04_gt.txt colored by the released ground-truth instance annotation (29 maize plants); PACANet instance segmentation reaches AP 0.9770 vs the README-reported 0.9808.",
         "caption": "Input point cloud other__Maize-04_gt.txt colored by the released ground-truth instance annotation (29 maize plants); PACANet instance segmentation reaches AP 0.9770 vs the README-reported 0.9808."
       }
+    },
+    {
+      "public_id": "p-70fdb01e849c8bbdf43c488b094ec642",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Automated 3D segmentation of guard cells enables volumetric analysis of stomatal biomechanics",
+      "journal": "Patterns (New York, N.Y.)",
+      "authors": [
+        "Davaasuren D, Chen Y, Jaafar L, Marshall R, Dunham AL, Anderson CT, Wang JZ."
+      ],
+      "doi": "10.1016/j.patter.2022.100627",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Pretrained 3D CellNet guard-cell segmentation of one confocal volume with the authors' pinned predict.py pipeline (late-fused patch-128/256 inference, instance post-processing, per-instance volumes), plus an IoU/Dice check against the expert annotation of one labeled training volume; single-example scope, training and benchmarks not reproduced.",
+      "semantic_tags": [
+        "modality:fluorescence",
+        "modality:microscopy",
+        "organ:stomata",
+        "task:morphology",
+        "task:segmentation",
+        "trait:stomatal_traits"
+      ],
+      "preview": {
+        "alt": "Input confocal z-stack slice (img_train/13.tif, top) with the expert reference guard-cell annotation (label-13.tif, red outline, bottom).",
+        "caption": "Input confocal z-stack slice (img_train/13.tif, top) with the expert reference guard-cell annotation (label-13.tif, red outline, bottom)."
+      }
     }
   ]
 }
