@@ -457,6 +457,24 @@
       "notebook_sha256": "fa733f88ed41d3038658faea47ea0e5669d294abd98e256e397d78c31dbf566d",
       "source_sha256": "b06210759a403454624b0b8075f33c18f214be904cdb7916dafa9e9fd42cd9f2",
       "code_cells": 4
+    },
+    {
+      "public_id": "p-ed081ee6b52b1f08add348cf4fd64b71",
+      "title": "From point clouds to plant traits: investigation of a pipeline for phenotyping of tomato plants using skeletonisation",
+      "journal": "Biosystems Engineering",
+      "authors": [
+        "Bart M. van Marrewijk",
+        "G. Polder",
+        "Gert Kootstra"
+      ],
+      "investigation_run_id": "p-ed081ee6b52b1f08add348cf4fd64b71-20260930T000652Z-3098203",
+      "status": "blocked",
+      "reason": "Blocked before dataset download: data.4tu.nl (131.180.169.22) is TCP-unreachable from both the Colab VM and DGX while www.4tu.nl/www.wur.nl/google/github/zenodo respond, so TomatoWUR v3 (the paper's only public dataset route, also used by the authors' own auto-downloader) cannot be fetched. Notebook fully authored and statically validated at deliverables/p-ed081ee6b52b1f08add348cf4fd64b71.ipynb (Experiment-1 GT branch, Xu method, plant Harvest_01_PotNr_80, authors' pinned code 373ea98e, CPU-only plan); never executed. Evidence: logs/probe_net_output.ipynb, logs/probe_net_exec.log, logs/probe_exec.log. Transient provider outage, not a missing-material conclusion; requeue when data.4tu.nl is reachable again, then validate the unchanged notebook on fresh CPU.",
+      "created_on": "2026-10-27",
+      "notebook_path": "notebooks/unverified/p-ed081ee6b52b1f08add348cf4fd64b71.ipynb",
+      "notebook_sha256": "4f851d0912f1b70bb134e05032df61d3d8ac32444f5dabb9657da07a2a843e83",
+      "source_sha256": "b8f54890ecf29ec19af1af8ad65a9350f1d12cd4a89db220633cf7c0ee56e7ca",
+      "code_cells": 15
     }
   ]
 }
