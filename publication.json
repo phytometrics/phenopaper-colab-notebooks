@@ -14169,6 +14169,42 @@
         "alt": "Big_Beef tomato transplant: raw colorized LiDAR cloud (left), authors' ground-truth plant labels in green (middle), and this notebook's HSV+crop+SOR prediction in red (right).",
         "caption": "Big_Beef tomato transplant: raw colorized LiDAR cloud (left), authors' ground-truth plant labels in green (middle), and this notebook's HSV+crop+SOR prediction in red (right)."
       }
+    },
+    {
+      "public_id": "p-d593872aee5c8c07d110c024284531fb",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Accurate photosynthetic parameter estimation at low stomatal conductance: effects of cuticular conductance and instrumental noise",
+      "journal": "Photosynthesis Research",
+      "authors": [
+        "Syed Bilal Hussain",
+        "Joseph R. Stinziano",
+        "Myrtho O. Pierre",
+        "Christopher Vincent"
+      ],
+      "doi": "10.1007/s11120-024-01092-8",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Re-executes the authors' pinned supplementary R scripts S2 and S3 on the Colab CPU runtime, regenerating paper Figures 1-3 (proportional Ci bias from cuticular conductance and instrumental noise); the curve-fitting branch needing the authors' private data is out of scope.",
+      "semantic_tags": [
+        "organ:leaf",
+        "task:physiology",
+        "trait:photosynthesis",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Paper Figure 1 regenerated from author script S3: proportional Ci without (dashed) and with (solid) gcw correction and their error, per Ca level",
+        "caption": "Paper Figure 1 regenerated from author script S3: proportional Ci without (dashed) and with (solid) gcw correction and their error, per Ca level"
+      }
     }
   ]
 }
