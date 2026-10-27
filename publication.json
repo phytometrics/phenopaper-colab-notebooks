@@ -14475,6 +14475,39 @@
         "alt": "Triples per named graph in the PHENO embedded Virtuoso store deployed from the pinned forestbiotech-lab/PHENO database (notebook-generated visualization)",
         "caption": "Triples per named graph in the PHENO embedded Virtuoso store deployed from the pinned forestbiotech-lab/PHENO database (notebook-generated visualization)"
       }
+    },
+    {
+      "public_id": "p-138ef376d9f1b750598646d91e8672d2",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "MedGermDB: A seed germination database for characteristic species of Mediterranean habitats",
+      "journal": "Applied vegetation science",
+      "authors": [
+        "Cruz‐Tejada DM, Fernández‐Pascual E, Mo A, Mattana E, Carta A."
+      ],
+      "doi": "10.1111/avsc.12771",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Rebuilds MedGermDB's joined GermTaxa/GermHabitat tables by running the authors' released R join script verbatim on the three pinned csv files and reproduces the Shiny app's per-species table views for Achillea maritima; the Shiny GUI, meta-analysis pipeline and maps are out of scope.",
+      "semantic_tags": [
+        "environment:laboratory",
+        "organ:seed",
+        "task:visualization",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Notebook-created summary of germination proportions by day incubation temperature (T_day) across all 4680 MedGermDB tests (236 species); not a figure from the paper.",
+        "caption": "Notebook-created summary of germination proportions by day incubation temperature (T_day) across all 4680 MedGermDB tests (236 species); not a figure from the paper."
+      }
     }
   ]
 }
