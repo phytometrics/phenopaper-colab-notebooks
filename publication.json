@@ -14127,6 +14127,48 @@
         "alt": "Original touching-soybean test input with SMPTS predicted seed regions (green bounding boxes) from this run",
         "caption": "Original touching-soybean test input with SMPTS predicted seed regions (green bounding boxes) from this run"
       }
+    },
+    {
+      "public_id": "p-7365d85cbd51c482521196de28642c80",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Proximal sensing of horticultural crops with mobile device LiDAR",
+      "journal": "Smart Agricultural Technology",
+      "authors": [
+        "Steven Doyle",
+        "Ankita Raturi"
+      ],
+      "doi": "10.1016/j.atech.2026.101799",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Reproduces the paper's HSV-thresholding LiDAR point-cloud segmentation pipeline on the five Transplant-Age_Plants clouds of the PURR dataset, validating against the authors' released processed clouds (99.999-100 percent point-exact, identical sensed heights) and their ground-truth annotations with a documented tolerance-adapted IoU; single-trial scope, not the dataset-wide mIoU.",
+      "semantic_tags": [
+        "crop:pepper",
+        "crop:tomato",
+        "crop:watermelon",
+        "environment:field",
+        "modality:point_cloud",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:segmentation",
+        "task:yield_biomass",
+        "trait:biomass",
+        "trait:plant_height"
+      ],
+      "preview": {
+        "alt": "Big_Beef tomato transplant: raw colorized LiDAR cloud (left), authors' ground-truth plant labels in green (middle), and this notebook's HSV+crop+SOR prediction in red (right).",
+        "caption": "Big_Beef tomato transplant: raw colorized LiDAR cloud (left), authors' ground-truth plant labels in green (middle), and this notebook's HSV+crop+SOR prediction in red (right)."
+      }
     }
   ]
 }
