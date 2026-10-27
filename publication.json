@@ -14695,6 +14695,42 @@
         "alt": "Input sample.png (left) with LeafNet output: annotation of cell walls (green) and stomata (blue), and per-cell colored segmentation overlay.",
         "caption": "Input sample.png (left) with LeafNet output: annotation of cell walls (green) and stomata (blue), and per-cell colored segmentation overlay."
       }
+    },
+    {
+      "public_id": "p-4473289065389c537780fc8f2429ca39",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A Bayesian Approach to Hyperspectral Leaf Trait Prediction with uncertainty quantification",
+      "journal": "California Digital Library (CDL)",
+      "authors": [
+        "Dhruva Kathuria",
+        "Yoseline Angel",
+        "Evan Lang",
+        "Alexey Shiklomanov"
+      ],
+      "doi": "10.31223/x53b3x",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Applies the authors' released full Car_A horseshoe-prior brms model to the held-out CABO test set with their own prediction code (RMSE 0.851 standardized / 3.62 ug cm-2 via their saved reference, Pearson r 0.434 verified against the authors' saved output); single trait, no refit, fast varsel limited to 5 terms.",
+      "semantic_tags": [
+        "modality:spectral",
+        "organ:leaf",
+        "task:physiology",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Predicted vs observed Carotenoid Area (Car_A) on the held-out CABO test set: full Bayesian model posterior means with the 1:1 line (n=1,764, Pearson r 0.434).",
+        "caption": "Predicted vs observed Carotenoid Area (Car_A) on the held-out CABO test set: full Bayesian model posterior means with the 1:1 line (n=1,764, Pearson r 0.434)."
+      }
     }
   ]
 }
