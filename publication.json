@@ -14767,6 +14767,51 @@
         "alt": "Three-panel comparison from the executed notebook: mean of the simulated input time series, phenological Rao's Q with TWDTW, and Euclidean Rao's Q (rasterdiv 0.3.6 paRao, window 5, alpha 2).",
         "caption": "Three-panel comparison from the executed notebook: mean of the simulated input time series, phenological Rao's Q with TWDTW, and Euclidean Rao's Q (rasterdiv 0.3.6 paRao, window 5, alpha 2)."
       }
+    },
+    {
+      "public_id": "p-739793d2399e728d5daa8a1b195b2269",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Prioritizing commercial thinning: quantification of growth and competition with high-density drone laser scanning",
+      "journal": "Forestry: An International Journal of Forest Research",
+      "authors": [
+        "Liam A K Irwin",
+        "Nicholas C Coops",
+        "José Riofrío",
+        "Samuel G Grubinger",
+        "Ignacio Barbeito",
+        "Alexis Achim",
+        "Dominik Roeser"
+      ],
+      "doi": "10.1093/forestry/cpae030",
+      "compute": "CPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Reproduces the paper's competition-metrics subsection (CHM, lmf treetop detection, height-limited watershed segmentation, 3D alpha-shape crown volume, Hegyi index) on the author's 335-tree sample plot in R, matching the author's saved per-tree reference metrics (median absolute difference 0 m3); growth-modeling branch out of scope.",
+      "semantic_tags": [
+        "environment:aerial",
+        "environment:field",
+        "modality:point_cloud",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:object_detection",
+        "task:reconstruction",
+        "trait:architecture",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Hegyi competition index (vol_concave, maxR = 6 m) binned over the smoothed 0.1 m CHM of the author's sample plot - the thinning-prioritization layer reproduced from the pinned CompTreeR workflow.",
+        "caption": "Hegyi competition index (vol_concave, maxR = 6 m) binned over the smoothed 0.1 m CHM of the author's sample plot - the thinning-prioritization layer reproduced from the pinned CompTreeR workflow."
+      }
     }
   ]
 }
