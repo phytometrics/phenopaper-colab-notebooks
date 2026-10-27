@@ -14090,6 +14090,43 @@
         "alt": "Abies alba SEM input (left) and Detectron2 stomata instances detected with the authors' fine-tuned Mask R-CNN at score above 0.8 (right).",
         "caption": "Abies alba SEM input (left) and Detectron2 stomata instances detected with the authors' fine-tuned Mask R-CNN at score above 0.8 (right)."
       }
+    },
+    {
+      "public_id": "p-939ca4b128a99e45d521ca0a1dd63255",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "SMPTS: Segmentation Method for Physically Touching Soybean Images",
+      "journal": "2024 9th International Conference on Image, Vision and Computing (ICIVC)",
+      "authors": [
+        "Wei Lin",
+        "Jiarui Fang",
+        "Qin Su",
+        "Hongjian Liao",
+        "Shuo Liu",
+        "Heyang Yao",
+        "Peiquan Xu"
+      ],
+      "doi": "10.1109/icivc61627.2024.10837290",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Executed the released SMPTS C++ pipeline (ported to Python/OpenCV) on the repository's two bundled 3072x2048 touching-soybean test images, producing 568 individual 227x227 seed crops; a two-image partial demo, not a verification of the paper's Jetson TX2 accuracy/speed claims.",
+      "semantic_tags": [
+        "crop:soybean",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Original touching-soybean test input with SMPTS predicted seed regions (green bounding boxes) from this run",
+        "caption": "Original touching-soybean test input with SMPTS predicted seed regions (green bounding boxes) from this run"
+      }
     }
   ]
 }
