@@ -13930,6 +13930,46 @@
         "alt": "Deposited SAMP11 microCT ML-labeled cross-section (mesophyll/vascular/epidermis/airspace classes) with the deposited stomatal-dot annotation overlay, demonstration subvolume.",
         "caption": "Deposited SAMP11 microCT ML-labeled cross-section (mesophyll/vascular/epidermis/airspace classes) with the deposited stomatal-dot annotation overlay, demonstration subvolume."
       }
+    },
+    {
+      "public_id": "p-79285ea1c8988980e56b934421ee831c",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Estimation of fruit number in coffee trees by maturity level, based on color space weighting, using a new segmentation algorithm",
+      "journal": "IEEE Latin America Transactions",
+      "authors": [
+        "Mário Luiz Tronco",
+        "Ingrid Lorena Argote Pedraza",
+        "Emerson Carlos Pedrino",
+        "Carlos Roberto Valêncio"
+      ],
+      "doi": "10.1109/tla.2025.11072497",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Runs the authors' MATLAB coffee4view pipeline (committed verdolengo thresholds, LoG zero-crossing arcs, ellipse-projection counting) under Octave on two committed samples; faithful counting output is 0 because the committed 0.7 acceptance metric is never met, and the paper-level accuracy comparison is not reproduced.",
+      "semantic_tags": [
+        "crop:coffee",
+        "environment:field",
+        "modality:rgb",
+        "organ:fruit",
+        "task:classification",
+        "task:counting",
+        "task:segmentation",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "IMG1.jpg (authors' Proof.m entry image) with the committed-threshold global mask and the segmented fruits",
+        "caption": "IMG1.jpg (authors' Proof.m entry image) with the committed-threshold global mask and the segmented fruits"
+      }
     }
   ]
 }
