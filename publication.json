@@ -14550,6 +14550,45 @@
         "alt": "Input fad7_12.jpg with the run's SMART segmentation-mask overlay, the author reference-mask overlay (pinned commit), and dominant-color clustering.",
         "caption": "Input fad7_12.jpg with the run's SMART segmentation-mask overlay, the author reference-mask overlay (pinned commit), and dominant-color clustering."
       }
+    },
+    {
+      "public_id": "p-f28439f7df6527fb54b27a0b1d3ec281",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Heliocot: A Field RGB Imaging Approach for Diurnal Canopy Orientation Dynamics in Early-Season Cotton",
+      "journal": "Agriculture",
+      "authors": [
+        "Uğur Çakaloğulları",
+        "Deniz İştipliler"
+      ],
+      "doi": "10.3390/agriculture16111141",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Reproduces the paper's derived-index step (author README Step 5): the pinned, unmodified compute_doa_poi.py (v1.0.5) computes DOA and POI from the archived C112 standardized PLA table (30 rows), matching the authors' archived reference output exactly; upstream segmentation/PLA steps are out of scope.",
+      "semantic_tags": [
+        "crop:cotton",
+        "environment:field",
+        "modality:rgb",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:segmentation",
+        "task:time_series",
+        "trait:architecture",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "DOA and POI distributions computed from the paper's analysis-ready wide_by_time table (30 rows), from the author's pinned script",
+        "caption": "DOA and POI distributions computed from the paper's analysis-ready wide_by_time table (30 rows), from the author's pinned script"
+      }
     }
   ]
 }
