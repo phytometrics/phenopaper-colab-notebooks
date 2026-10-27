@@ -14656,6 +14656,45 @@
         "alt": "Observed vs predicted leaf traits (Cab, Car, Cw, Cm): grey = LOPEX+ANGERS training, colors = held-out validation sites, from the demo PINN run",
         "caption": "Observed vs predicted leaf traits (Cab, Car, Cw, Cm): grey = LOPEX+ANGERS training, colors = held-out validation sites, from the demo PINN run"
       }
+    },
+    {
+      "public_id": "p-b4942a5007c50d6d2afed8d22475f392",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "No more manual counting: LeafNet quantifies the leaf surface",
+      "journal": "The Plant Cell",
+      "authors": [
+        "Ching Chan"
+      ],
+      "doi": "10.1093/plcell/koac022",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Minimal LeafNet reproduction: the authors' leafnet-cli (pinned commit 6ef237d, recreated Python 3.6/TF 1.13.1 env) segments the bundled bright-field Arabidopsis epidermis sample.png into stomata and pavement cells with statistics; single-image demo, no benchmark claims.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "environment:laboratory",
+        "modality:fluorescence",
+        "modality:microscopy",
+        "organ:cell",
+        "organ:stomata",
+        "task:morphology",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:stomatal_traits"
+      ],
+      "preview": {
+        "alt": "Input sample.png (left) with LeafNet output: annotation of cell walls (green) and stomata (blue), and per-cell colored segmentation overlay.",
+        "caption": "Input sample.png (left) with LeafNet output: annotation of cell walls (green) and stomata (blue), and per-cell colored segmentation overlay."
+      }
     }
   ]
 }
