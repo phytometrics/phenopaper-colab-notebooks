@@ -14406,6 +14406,42 @@
         "alt": "Terre Blanche LiDAR track (794 3-m segments, Lambert-93 coordinates), coloured by applied dose (% of homologated dose) from the authors' pinned embedded CSV (commit f9bb1302).",
         "caption": "Terre Blanche LiDAR track (794 3-m segments, Lambert-93 coordinates), coloured by applied dose (% of homologated dose) from the authors' pinned embedded CSV (commit f9bb1302)."
       }
+    },
+    {
+      "public_id": "p-7a487d84381348cc82551ad54c2f009c",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Segmentation of Overlapping Plants in Multi-plant Image Time Series",
+      "journal": "Wiley",
+      "authors": [
+        "Jorge Alberto Gutierrez Ortega",
+        "Noah Fahlgren",
+        "Malia Gehan",
+        "S. Elizabeth Castillo"
+      ],
+      "doi": "10.1002/essoar.10508337.2",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Runs the authors' PlantCV segment_image_series watershed label propagation on their bundled 54-frame multi-plant example (pos-165-003-019), propagating 7 early-frame ROI labels to the overlapping final frame on CPU; single-example scope only, ROI extraction is an AI adaptation.",
+      "semantic_tags": [
+        "organ:whole_plant",
+        "task:segmentation",
+        "task:time_series",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Final frame RGB input with predicted propagated plant labels (colors) from segment_image_series; plants overlap but keep individual labels.",
+        "caption": "Final frame RGB input with predicted propagated plant labels (colors) from segment_image_series; plants overlap but keep individual labels."
+      }
     }
   ]
 }
