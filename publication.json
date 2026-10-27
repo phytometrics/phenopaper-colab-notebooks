@@ -14364,6 +14364,48 @@
         "alt": "Cross-method severity correlation figure produced by the authors' pipeline 05 (Method_Correlations.tiff) on Full_dataset.csv.",
         "caption": "Cross-method severity correlation figure produced by the authors' pipeline 05 (Method_Correlations.tiff) on Full_dataset.csv."
       }
+    },
+    {
+      "public_id": "p-c9cf8016d89b7b8785af1c446d491bb5",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "TechnodoseViti: Experimental modelling for the prediction of phytosanitary product deposits within the plant canopy in viticultureApplication to dose expression and precision viticultureAgronomic Innovations 88, 29-43.",
+      "journal": null,
+      "authors": [
+        "Sébastien Codis",
+        "Anice Cheraïet",
+        "Xavier Delpuech",
+        "Mathilde Carra",
+        "Xavier Ribeyrolles",
+        "Elodie Trinquier",
+        "Adrien Vergès",
+        "Olivier Naud"
+      ],
+      "doi": "10.17180/ciag-2024-vol88-art03-gb",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Re-runs the TechnoDoseViti simulator's own Node services on 8 embedded LiDAR canopy tracks to reproduce the sprayer-scenario applied-dose comparison and inter-plot canopy descriptors for one parcel (Terre Blanche) at one phenological stage; model calibration and dataset-level conclusions are out of scope.",
+      "semantic_tags": [
+        "crop:grapevine",
+        "environment:field",
+        "modality:point_cloud",
+        "organ:whole_plant",
+        "task:reconstruction",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Terre Blanche LiDAR track (794 3-m segments, Lambert-93 coordinates), coloured by applied dose (% of homologated dose) from the authors' pinned embedded CSV (commit f9bb1302).",
+        "caption": "Terre Blanche LiDAR track (794 3-m segments, Lambert-93 coordinates), coloured by applied dose (% of homologated dose) from the authors' pinned embedded CSV (commit f9bb1302)."
+      }
     }
   ]
 }
