@@ -14589,6 +14589,41 @@
         "alt": "DOA and POI distributions computed from the paper's analysis-ready wide_by_time table (30 rows), from the author's pinned script",
         "caption": "DOA and POI distributions computed from the paper's analysis-ready wide_by_time table (30 rows), from the author's pinned script"
       }
+    },
+    {
+      "public_id": "p-c055c0ddae4b1c4e56db07964736b38d",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Resource allocation modeling for autonomous prediction of plant cell phenotypes.",
+      "journal": "Metabolic engineering",
+      "authors": [
+        "Goelzer A, Rajjou L, Chardon F, Loudet O, Fromion V."
+      ],
+      "doi": "10.1016/j.ymben.2024.03.009",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Solves the authors' pinned PlantCellRBA Arabidopsis Col-0 RBA model (RBApy 3.0.3) at its default medium with a validated HiGHS LP bisection port, reproducing the committed reference growth rate 0.210190 h-1 and compartmental allocation; single fixed condition only.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "organ:cell",
+        "organ:leaf",
+        "task:physiology",
+        "trait:growth_development",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "Compartmental resource allocation predicted by this run vs the authors' committed reference (PlantCellRBA outputs)",
+        "caption": "Compartmental resource allocation predicted by this run vs the authors' committed reference (PlantCellRBA outputs)"
+      }
     }
   ]
 }
