@@ -14624,6 +14624,38 @@
         "alt": "Compartmental resource allocation predicted by this run vs the authors' committed reference (PlantCellRBA outputs)",
         "caption": "Compartmental resource allocation predicted by this run vs the authors' committed reference (PlantCellRBA outputs)"
       }
+    },
+    {
+      "public_id": "p-973c138af941010fb3f7a9a212efe9bc",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Hybrid modelling of leaf traits: Integrating neural networks with radiative transfer theory",
+      "journal": "Remote Sensing of Environment",
+      "authors": [
+        "Sun P, van Bodegom PM, Timmermans J, Liu S, Wu J, Visser MD."
+      ],
+      "doi": null,
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Trained the paper's attention-encoder + full-physics PROSPECT5B-decoder PINN for ~1000 epochs (single seed, demo scale vs 20,000 in the paper) on the pinned LOPEX/ANGERS/unlabeled spectra and evaluated observed-vs-predicted leaf traits on the held-out sites; benchmarks and CNN-replaced decoder variants are out of scope.",
+      "semantic_tags": [
+        "organ:leaf",
+        "task:morphology",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Observed vs predicted leaf traits (Cab, Car, Cw, Cm): grey = LOPEX+ANGERS training, colors = held-out validation sites, from the demo PINN run",
+        "caption": "Observed vs predicted leaf traits (Cab, Car, Cw, Cm): grey = LOPEX+ANGERS training, colors = held-out validation sites, from the demo PINN run"
+      }
     }
   ]
 }
