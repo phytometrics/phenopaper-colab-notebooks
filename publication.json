@@ -14245,6 +14245,44 @@
         "alt": "Input view: the authors' documented example treelist - 10 x 10 m estimation window with detected tree crowns (T1-T6; T6 center outside the window), rendered in-notebook from the example data.",
         "caption": "Input view: the authors' documented example treelist - 10 x 10 m estimation window with detected tree crowns (T1-T6; T6 center outside the window), rendered in-notebook from the example data."
       }
+    },
+    {
+      "public_id": "p-889ba96090fb06c57802a3193db44a5c",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Cell segmentation in imaging-based spatial transcriptomics",
+      "journal": "Nature Biotechnology",
+      "authors": [
+        "Viktor Petukhov",
+        "Rosalind J. Xu",
+        "Ruslan A. Soldatov",
+        "Paolo Cadinu",
+        "Konstantin Khodosevich",
+        "Jeffrey R. Moffitt",
+        "Peter V. Kharchenko"
+      ],
+      "doi": "10.1038/s41587-021-01044-w",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Runs the authors' osm-FISH example commands (Baysor cpp-0.9.0, CPU) on a deterministic 151k-molecule crop of published osmFISH data, comparing transcript-only vs polyT-prior segmentation; one-crop partial demonstration, not the paper's full benchmarks.",
+      "semantic_tags": [
+        "modality:fluorescence",
+        "organ:cell",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "osmFISH crop: molecule positions with the published polyT segmentation reference (orange boundaries) and the rasterized prior label mask.",
+        "caption": "osmFISH crop: molecule positions with the published polyT segmentation reference (orange boundaries) and the rasterized prior label mask."
+      }
     }
   ]
 }
