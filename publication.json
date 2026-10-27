@@ -14205,6 +14205,46 @@
         "alt": "Paper Figure 1 regenerated from author script S3: proportional Ci without (dashed) and with (solid) gcw correction and their error, per Ca level",
         "caption": "Paper Figure 1 regenerated from author script S3: proportional Ci without (dashed) and with (solid) gcw correction and their error, per Ca level"
       }
+    },
+    {
+      "public_id": "p-187d7e1f38b2a4425eb3ebdba448a71f",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Refining and evaluating a Horvitz–Thompson-like stand density estimator in individual tree detection based on airborne laser scanning",
+      "journal": "Canadian Journal of Forest Research",
+      "authors": [
+        "Kasper Kansanen",
+        "Petteri Packalen",
+        "Timo Lähivaara",
+        "Aku Seppänen",
+        "Jari Vauhkonen",
+        "Matti Maltamo",
+        "Lauri Mehtätalo"
+      ],
+      "doi": "10.1139/cjfr-2021-0123",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Executed the authors' pinned lmfor::HTest HT-like stand density estimator on the documented synthetic six-tree example for alpha = 1, 0 and -0.75 on a Colab CPU runtime; the paper's own ALS datasets, functional k-NN tuning-parameter estimation and the RMSE benchmark are out of scope.",
+      "semantic_tags": [
+        "environment:aerial",
+        "modality:point_cloud",
+        "organ:whole_plant",
+        "task:counting",
+        "task:object_detection"
+      ],
+      "preview": {
+        "alt": "Input view: the authors' documented example treelist - 10 x 10 m estimation window with detected tree crowns (T1-T6; T6 center outside the window), rendered in-notebook from the example data.",
+        "caption": "Input view: the authors' documented example treelist - 10 x 10 m estimation window with detected tree crowns (T1-T6; T6 center outside the window), rendered in-notebook from the example data."
+      }
     }
   ]
 }
