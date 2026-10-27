@@ -14850,6 +14850,44 @@
         "alt": "Open-loop vs UKF-assimilated plant fresh mass against the 04:00 load-cell observations (cps_n04, cycle 2, DAT 0-108)",
         "caption": "Open-loop vs UKF-assimilated plant fresh mass against the 04:00 load-cell observations (cps_n04, cycle 2, DAT 0-108)"
       }
+    },
+    {
+      "public_id": "p-6e1b872a804d5cf5b1c17b595fbf38ec",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "The role of time averaging of eddy covariance fluxes on water use efficiency dynamics of maize",
+      "journal": "Atmospheric Measurement Techniques",
+      "authors": [
+        "Arun Rao Karimindla",
+        "Shweta Kumari",
+        "Saipriya S R",
+        "Syam Chintala",
+        "BVN P. Kambhammettu​​​​​​​"
+      ],
+      "doi": "10.5194/amt-17-5477-2024",
+      "compute": "CPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Reproduces paper Fig. 1 (30-min diurnal H+LE vs Rn-G with energy-balance shading) and Table 2 (per-averaging-period regressions matching the publisher's values); growth-stage, Ogive and WUE analyses are out of scope.",
+      "semantic_tags": [
+        "crop:maize",
+        "environment:field",
+        "organ:whole_plant",
+        "task:physiology",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Reproduction of paper Fig. 1: crop-cycle diurnal means of H+LE (solid) and Rn-G (dashed) at 30 min EC averaging, energy-balance difference shaded",
+        "caption": "Reproduction of paper Fig. 1: crop-cycle diurnal means of H+LE (solid) and Rn-G (dashed) at 30 min EC averaging, energy-balance difference shaded"
+      }
     }
   ]
 }
