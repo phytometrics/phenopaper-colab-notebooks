@@ -14812,6 +14812,44 @@
         "alt": "Hegyi competition index (vol_concave, maxR = 6 m) binned over the smoothed 0.1 m CHM of the author's sample plot - the thinning-prioritization layer reproduced from the pinned CompTreeR workflow.",
         "caption": "Hegyi competition index (vol_concave, maxR = 6 m) binned over the smoothed 0.1 m CHM of the author's sample plot - the thinning-prioritization layer reproduced from the pinned CompTreeR workflow."
       }
+    },
+    {
+      "public_id": "p-9888479560ca2e5f2161c3567b7f5862",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Leveraging data from plant monitoring into crop models",
+      "journal": "FapUNIFESP (SciELO)",
+      "authors": [
+        "Oliveira M, Zorzeto-Cesar T, Attux R, Rodrigues LH."
+      ],
+      "doi": "10.1590/scielopreprints.7663",
+      "compute": "CPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Re-runs the authors' Reduced State TOMGRO for greenhouse experiment cps_n04 (cycle 2) and assimilates the load-cell plant fresh-mass stream with their FilterPy UKF (config id 80) on a fresh Colab CPU runtime; partial one-cycle demonstration using the authors' full public-data preparation chain, with documented compatibility fixes and no image-based observations.",
+      "semantic_tags": [
+        "crop:tomato",
+        "environment:field",
+        "environment:greenhouse",
+        "organ:whole_plant",
+        "task:time_series",
+        "task:tracking",
+        "trait:biomass",
+        "trait:growth_development",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Open-loop vs UKF-assimilated plant fresh mass against the 04:00 load-cell observations (cps_n04, cycle 2, DAT 0-108)",
+        "caption": "Open-loop vs UKF-assimilated plant fresh mass against the 04:00 load-cell observations (cps_n04, cycle 2, DAT 0-108)"
+      }
     }
   ]
 }
