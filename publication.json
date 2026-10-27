@@ -14283,6 +14283,45 @@
         "alt": "osmFISH crop: molecule positions with the published polyT segmentation reference (orange boundaries) and the rasterized prior label mask.",
         "caption": "osmFISH crop: molecule positions with the published polyT segmentation reference (orange boundaries) and the rasterized prior label mask."
       }
+    },
+    {
+      "public_id": "p-ca008032c9ca3c64326ec8bd0d086b9c",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Weighted skip-connection feature fusion: A method for augmenting UAV oriented rice panicle image segmentation",
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Luolin Xiao",
+        "Zhibin Pan",
+        "Xiaoyong Du",
+        "Wei Chen",
+        "Wenpeng Qu",
+        "Youda Bai",
+        "Tian Xu"
+      ],
+      "doi": "10.1016/j.compag.2023.107754",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Minimal WSUNet demonstration: trains the paper's weighted skip-connection U-Net on 400 FSF1E 256x256 UAV tiles for 8 epochs (AI-authored protocol, not the authors') and evaluates IoU/Dice/pixel-F1 on all 328 validation tiles (mean IoU 0.56).",
+      "semantic_tags": [
+        "crop:rice",
+        "environment:aerial",
+        "organ:inflorescence",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "FSF1E 256x256 tiles from the pinned author repository: original UAV images with reference panicle annotation (red mask contour) and binary ground-truth masks.",
+        "caption": "FSF1E 256x256 tiles from the pinned author repository: original UAV images with reference panicle annotation (red mask contour) and binary ground-truth masks."
+      }
     }
   ]
 }
