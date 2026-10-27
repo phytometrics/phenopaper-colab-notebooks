@@ -475,6 +475,22 @@
       "notebook_sha256": "4f851d0912f1b70bb134e05032df61d3d8ac32444f5dabb9657da07a2a843e83",
       "source_sha256": "b8f54890ecf29ec19af1af8ad65a9350f1d12cd4a89db220633cf7c0ee56e7ca",
       "code_cells": 15
+    },
+    {
+      "public_id": "p-97c933d2370a0c4f6e0ed35465442fbb",
+      "title": "Sea dispersal potential and colonization of the Galápagos littoral flora",
+      "journal": "Journal of biogeography",
+      "authors": [
+        "Fuster‐Calvo A, Nogales M, Heleno R, Vera C, Vargas P."
+      ],
+      "investigation_run_id": "p-97c933d2370a0c4f6e0ed35465442fbb-20260929T235838Z-3092806",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-27T14:25:07.522Z] EOF failed | [2026-10-27T14:25:07.522Z] Error: The user rejected permission to use this specific tool call. | [2026-10-27T14:25:09.603Z] All author reference p-values reproduce exactly; only the graph filename bug (`%%03d`) needs repair. Archiving attempt 1, fixing the builder, testing the repair in the diagnostic session, then a fresh full run in  | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-27",
+      "notebook_path": "notebooks/unverified/p-97c933d2370a0c4f6e0ed35465442fbb.ipynb",
+      "notebook_sha256": "220c73013f691bb24c697c5a2f1797e7e0885d69afd1203bacc20fd8a5b706dd",
+      "source_sha256": "04d5618a797bb9936d35f6f57c55dfe5c57aea8830fafbb823e25becf1a3db20",
+      "code_cells": 12
     }
   ]
 }

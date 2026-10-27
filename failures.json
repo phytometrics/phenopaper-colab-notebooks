@@ -515,17 +515,6 @@
       "created_on": "2026-10-25"
     },
     {
-      "public_id": "p-97c933d2370a0c4f6e0ed35465442fbb",
-      "title": "p-97c933d2370a0c4f6e0ed35465442fbb",
-      "journal": null,
-      "authors": [],
-      "investigation_run_id": "p-97c933d2370a0c4f6e0ed35465442fbb-20260929T235838Z-3092806",
-      "run_id": "p-97c933d2370a0c4f6e0ed35465442fbb",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-97c933d2370a0c4f6e0ed35465442fbb-20261025T002513Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25"
-    },
-    {
       "public_id": "p-97b435094d9e8c6452c9ce7a70e21501",
       "title": "p-97b435094d9e8c6452c9ce7a70e21501",
       "journal": null,
@@ -1876,6 +1865,20 @@
         "Kalhari Manawasinghe",
         "Karen Tanino"
       ]
+    },
+    {
+      "public_id": "p-97c933d2370a0c4f6e0ed35465442fbb",
+      "title": "Sea dispersal potential and colonization of the Galápagos littoral flora",
+      "journal": "Journal of biogeography",
+      "authors": [
+        "Fuster‐Calvo A, Nogales M, Heleno R, Vera C, Vargas P."
+      ],
+      "investigation_run_id": "p-97c933d2370a0c4f6e0ed35465442fbb-20260929T235838Z-3092806",
+      "run_id": "p-97c933d2370a0c4f6e0ed35465442fbb",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-27T14:25:07.522Z] EOF failed | [2026-10-27T14:25:07.522Z] Error: The user rejected permission to use this specific tool call. | [2026-10-27T14:25:09.603Z] All author reference p-values reproduce exactly; only the graph filename bug (`%%03d`) needs repair. Archiving attempt 1, fixing the builder, testing the repair in the diagnostic session, then a fresh full run in  | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-27",
+      "notebook_path": "notebooks/unverified/p-97c933d2370a0c4f6e0ed35465442fbb.ipynb"
     }
   ]
 }
