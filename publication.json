@@ -14508,6 +14508,48 @@
         "alt": "Notebook-created summary of germination proportions by day incubation temperature (T_day) across all 4680 MedGermDB tests (236 species); not a figure from the paper.",
         "caption": "Notebook-created summary of germination proportions by day incubation temperature (T_day) across all 4680 MedGermDB tests (236 species); not a figure from the paper."
       }
+    },
+    {
+      "public_id": "p-64118216d3c05b591360cb6e01b26085",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "OPEN leaf : an open‐source cloud‐based phenotyping system for tracking dynamic changes at leaf‐specific resolution in Arabidopsis",
+      "journal": "The Plant Journal",
+      "authors": [
+        "Landon G. Swartz",
+        "Suxing Liu",
+        "Drew Dahlquist",
+        "Skyler T. Kramer",
+        "Emily S. Walter",
+        "Samuel A. McInturf",
+        "Alexander Bucksch",
+        "David G. Mendoza‐Cózatl"
+      ],
+      "doi": "10.1111/tpj.16449",
+      "compute": "CPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Executed the authors' SMART release pipeline (commit 7d3fe41) on the bundled sample fad7_12.jpg on a Colab CPU runtime, reproducing rosette segmentation, dominant-color traits, and the 23-leaf watershed count matching the bundled reference; the device workflow and treatment experiments are out of scope.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "modality:rgb",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:time_series"
+      ],
+      "preview": {
+        "alt": "Input fad7_12.jpg with the run's SMART segmentation-mask overlay, the author reference-mask overlay (pinned commit), and dominant-color clustering.",
+        "caption": "Input fad7_12.jpg with the run's SMART segmentation-mask overlay, the author reference-mask overlay (pinned commit), and dominant-color clustering."
+      }
     }
   ]
 }
