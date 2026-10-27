@@ -441,6 +441,22 @@
       "notebook_sha256": "a8076ae2ca5e65d9fdc62b190065ae576cfe05fdb6c43cbbaedf20c3881540ca",
       "source_sha256": "af6b23e00c50e45b4d2d53548ddd1db826825c2f5de23fdeaa9221ef45b1bb52",
       "code_cells": 10
+    },
+    {
+      "public_id": "p-5fa6e89c52271fc28166e30ece7bd1df",
+      "title": "User-friendly assessment of pavement cell shape features with PaCeQuant: Novel functions and tools.",
+      "journal": "Methods in cell biology",
+      "authors": [
+        "Poeschl Y, Möller B, Müller L, Bürstenbinder K."
+      ],
+      "investigation_run_id": "p-5fa6e89c52271fc28166e30ece7bd1df-20260930T004538Z-3124122",
+      "status": "blocked",
+      "reason": "Material availability blocker: the authors' PaCeQuantAna_1.0.3 R package and all sample-data archives (mutantScreening.zip, developmentalStages.zip, sampleData.zip, sampleDataResults-v2.0.zip) are unretrievable through every documented public route as of 2026-10-27 - author servers www2/mitobo.informatik.uni-halle.de are down (connection failure from DGX and Colab), informatik.uni-halle.de/~poeschl/ paths return 404, the Wayback Machine has zero captures of any payload URL (availability API + CDX verified), and no GitHub/web mirror exists. A code-only NOT EXECUTED reference notebook was delivered; no faithful executed demonstration is possible without these materials. This is not a capacity or execution failure.",
+      "created_on": "2026-10-27",
+      "notebook_path": "notebooks/unverified/p-5fa6e89c52271fc28166e30ece7bd1df.ipynb",
+      "notebook_sha256": "fa733f88ed41d3038658faea47ea0e5669d294abd98e256e397d78c31dbf566d",
+      "source_sha256": "b06210759a403454624b0b8075f33c18f214be904cdb7916dafa9e9fd42cd9f2",
+      "code_cells": 4
     }
   ]
 }
