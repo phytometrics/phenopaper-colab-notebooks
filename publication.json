@@ -14731,6 +14731,42 @@
         "alt": "Predicted vs observed Carotenoid Area (Car_A) on the held-out CABO test set: full Bayesian model posterior means with the 1:1 line (n=1,764, Pearson r 0.434).",
         "caption": "Predicted vs observed Carotenoid Area (Car_A) on the held-out CABO test set: full Bayesian model posterior means with the 1:1 line (n=1,764, Pearson r 0.434)."
       }
+    },
+    {
+      "public_id": "p-3c57af1c590b0d1a8b6b1f4845c86ba5",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Phenological Diversity Trends with Remote Sensing Datacubes",
+      "journal": null,
+      "authors": [
+        "Shayle ES, Marcantonio M, Labadessa R, Richiardi C, Vicario S."
+      ],
+      "doi": "10.37044/osf.io/pqfws",
+      "compute": "CPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Runs the rasterdiv 0.3.6 vignette example end to end in Colab: a simulated 40x40x100 seasonal raster time series is analyzed with paRao using TWDTW phenological distances versus Euclidean distances; the Calabria Sentinel-2 PPI case study remains out of scope because its data were never archived.",
+      "semantic_tags": [
+        "environment:aerial",
+        "environment:field",
+        "modality:spectral",
+        "organ:whole_plant",
+        "task:classification",
+        "task:time_series",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Three-panel comparison from the executed notebook: mean of the simulated input time series, phenological Rao's Q with TWDTW, and Euclidean Rao's Q (rasterdiv 0.3.6 paRao, window 5, alpha 2).",
+        "caption": "Three-panel comparison from the executed notebook: mean of the simulated input time series, phenological Rao's Q with TWDTW, and Euclidean Rao's Q (rasterdiv 0.3.6 paRao, window 5, alpha 2)."
+      }
     }
   ]
 }
