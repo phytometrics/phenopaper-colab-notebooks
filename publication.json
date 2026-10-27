@@ -13970,6 +13970,41 @@
         "alt": "IMG1.jpg (authors' Proof.m entry image) with the committed-threshold global mask and the segmented fruits",
         "caption": "IMG1.jpg (authors' Proof.m entry image) with the committed-threshold global mask and the segmented fruits"
       }
+    },
+    {
+      "public_id": "p-f7eb9041bcbeb134561ba6360e365393",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Self-supervised Pretraining for Hyperspectral Classification of Fruit Ripeness",
+      "journal": "OCM 2023 - 6th International Conference on Optical Characterization of Materials, March 22nd – 23rd, 2023, Karlsruhe, Germany : Conference Proceedings",
+      "authors": [
+        "Leon Amadeus Varga",
+        "Hannah Frank",
+        "Andreas Zell"
+      ],
+      "doi": "10.58895/ksp/1000155014-9",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-27",
+      "demonstration": "Trains the authors' HS-CNN supervised baseline for 3-class kaki ripeness classification on DeepHS-Fruit v2 in Colab (CPU + T4); the paper's SSL pretraining code is unreleased and this 80-cube minimal subset reaches only chance-level test accuracy.",
+      "semantic_tags": [
+        "modality:spectral",
+        "organ:fruit",
+        "task:classification",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Test kaki hyperspectral cubes (Specim FX10 pseudo-RGB) with the authors' reference ripeness annotation versus the HS-CNN prediction.",
+        "caption": "Test kaki hyperspectral cubes (Specim FX10 pseudo-RGB) with the authors' reference ripeness annotation versus the HS-CNN prediction."
+      }
     }
   ]
 }
