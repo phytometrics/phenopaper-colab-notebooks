@@ -15217,6 +15217,43 @@
         "alt": "Author sample halved-tuber scans with ground-truth labels (hollow_heart vs others)",
         "caption": "Author sample halved-tuber scans with ground-truth labels (hollow_heart vs others)"
       }
+    },
+    {
+      "public_id": "p-51129a1dd360cad6da8a7b15817ed28d",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "LabelStoma: A tool for stomata detection based on the YOLO algorithm",
+      "journal": "Computers and Electronics in Agriculture.",
+      "authors": [
+        "Casado-García A, del-Canto A, Sanz-Saez A, Pérez-López U, Bilbao-Kareaga A, Fritschi FB, Miranda-Apodaca J, Muñoz-Rueda A, Sillero-Martínez A, Yoldi-Achalandabaso A, Lacuesta M, Heras J."
+      ],
+      "doi": null,
+      "compute": "CPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Runs LabelStoma's released pretrained YOLOv3 stomata detector on one held-out microscope patch via the authors' OpenCV-DNN CPU path (OpenCV 4.14 pinned), showing 4 detections against 5 reference boxes with 4 matched at IoU 0.5 or higher; single-image demo, not a dataset-level F1 reproduction.",
+      "semantic_tags": [
+        "modality:microscopy",
+        "organ:leaf",
+        "organ:stomata",
+        "task:counting",
+        "task:object_detection",
+        "trait:photosynthesis",
+        "trait:stomatal_traits",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Held-out test patch 0_4_1044: reference stomata annotation (green, left) vs the released YOLOv3 detections (red, right); 4 of 5 reference boxes matched at IoU 0.5 or higher.",
+        "caption": "Held-out test patch 0_4_1044: reference stomata annotation (green, left) vs the released YOLOv3 detections (red, right); 4 of 5 reference boxes matched at IoU 0.5 or higher."
+      }
     }
   ]
 }
