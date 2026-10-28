@@ -15064,6 +15064,39 @@
         "alt": "Input pear-orchard sample (left), this notebook's automatic annotation (center), and the author's pre-computed reference for the same image and parameters (right).",
         "caption": "Input pear-orchard sample (left), this notebook's automatic annotation (center), and the author's pre-computed reference for the same image and parameters (right)."
       }
+    },
+    {
+      "public_id": "p-06ccf323b9f40f7e9bf954fce74a5b77",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Smart Cultivation and Marketing of Indigenous Fruit Crops: An AI-Driven Approach",
+      "journal": null,
+      "authors": [
+        "M S, Suraj"
+      ],
+      "doi": "10.6084/m9.figshare.30853271",
+      "compute": "CPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Pretrained inference only: the bundled CNN via the disease_detection.py path on three healthy-leaf samples and the Random-Forest crop recommender with the author's defaults; no training, no accuracy claims (the released CNN yields low-confidence predictions on the healthy samples).",
+      "semantic_tags": [
+        "organ:leaf",
+        "task:classification",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "The three bundled healthy-leaf sample inputs (Ramphala, Lakshmanphala, Wood Apple) used for CNN disease detection, exactly as distributed in the author's Figshare record.",
+        "caption": "The three bundled healthy-leaf sample inputs (Ramphala, Lakshmanphala, Wood Apple) used for CNN disease detection, exactly as distributed in the author's Figshare record."
+      }
     }
   ]
 }
