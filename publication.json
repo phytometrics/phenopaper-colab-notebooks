@@ -14922,6 +14922,71 @@
         "alt": "Posterior-predicted An-Ci and Y(II)-Ci response curves (1000 posterior samples, gray) over the observed rice IR64 points for replication 1, from the authors' own Step 3 output",
         "caption": "Posterior-predicted An-Ci and Y(II)-Ci response curves (1000 posterior samples, gray) over the observed rice IR64 points for replication 1, from the authors' own Step 3 output"
       }
+    },
+    {
+      "public_id": "p-0ea759148d5f9bd8d1c7f6cd9da464c9",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Integrating airborne remote sensing and field campaigns for ecology and Earth system science",
+      "journal": "Methods in Ecology and Evolution",
+      "authors": [
+        "K. Dana Chadwick",
+        "Philip G. Brodrick",
+        "Kathleen Grant",
+        "Tristan Goulden",
+        "Amanda Henderson",
+        "Nicola Falco",
+        "Haruko Wainwright",
+        "Kenneth H. Williams",
+        "Markus Bill",
+        "Ian Breckheimer",
+        "Eoin L. Brodie",
+        "Heidi Steltzer",
+        "Charles F. Rick Williams",
+        "Benjamin Blonder",
+        "Jiancong Chen",
+        "Baptiste Dafflon",
+        "Joan Damerow",
+        "Matt Hancher",
+        "Aizah Khurram",
+        "Jack Lamb",
+        "Corey R. Lawrence",
+        "Maeve McCormick",
+        "John Musinsky",
+        "Samuel Pierce",
+        "Alexander Polussa",
+        "Maceo Hastings Porro",
+        "Andea Scott",
+        "Hans Wu Singh",
+        "Patrick O. Sorensen",
+        "Charuleka Varadharajan",
+        "Bizuayehu Whitney",
+        "Katharine Maher"
+      ],
+      "doi": "10.1111/2041-210x.13463",
+      "compute": "CPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Executes the authors' released East River ensemble-PLSR pipeline (v1.0.0) for one held-out fold on the author-bundled spectra extraction and foliar chemistry, producing per-chemistry crown-level validation statistics and the coefficient-uncertainty layer; mosaic processing, the conifer classifier and the full 10-fold campaign are out of scope.",
+      "semantic_tags": [
+        "environment:aerial",
+        "environment:field",
+        "modality:spectral",
+        "organ:leaf",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Observed vs predicted foliar nitrogen (%) at crown level from the authors' ensemble PLSR (aggregated group, held-out validation crowns in red, calibration crowns in grey, dashed 1:1 line).",
+        "caption": "Observed vs predicted foliar nitrogen (%) at crown level from the authors' ensemble PLSR (aggregated group, held-out validation crowns in red, calibration crowns in grey, dashed 1:1 line)."
+      }
     }
   ]
 }
