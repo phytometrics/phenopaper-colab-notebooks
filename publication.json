@@ -15026,6 +15026,44 @@
         "alt": "Grad-CAM overlays for one correctly classified MangoLeafBD grouped-test image per class: original input with EfficientNetB0 attention heatmap.",
         "caption": "Grad-CAM overlays for one correctly classified MangoLeafBD grouped-test image per class: original input with EfficientNetB0 attention heatmap."
       }
+    },
+    {
+      "public_id": "p-627ef54d1bdae1ca3978c878af209c8c",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Automatic labeling to overcome the limitations of deep learning in applications with insufficient training data: A case study on fruit detection in pear orchards",
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "María Culman",
+        "Stephanie Delalieux",
+        "Bart Beusen",
+        "Ben Somers"
+      ],
+      "doi": "10.1016/j.compag.2023.108196",
+      "compute": "CPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Executed the paper's automatic labeling stage (DINO ViT-B/8 features, modified LOST multi-object discovery, NMS, ConvNeXt-XL ImageNet-21k classification) on one author pear-orchard sample on CPU, compared against the author's shipped pre-computed annotation; no training, dataset generation, or benchmark results are reproduced.",
+      "semantic_tags": [
+        "crop:pear",
+        "environment:field",
+        "organ:fruit",
+        "task:counting",
+        "task:object_detection",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Input pear-orchard sample (left), this notebook's automatic annotation (center), and the author's pre-computed reference for the same image and parameters (right).",
+        "caption": "Input pear-orchard sample (left), this notebook's automatic annotation (center), and the author's pre-computed reference for the same image and parameters (right)."
+      }
     }
   ]
 }
