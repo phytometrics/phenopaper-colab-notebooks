@@ -14987,6 +14987,45 @@
         "alt": "Observed vs predicted foliar nitrogen (%) at crown level from the authors' ensemble PLSR (aggregated group, held-out validation crowns in red, calibration crowns in grey, dashed 1:1 line).",
         "caption": "Observed vs predicted foliar nitrogen (%) at crown level from the authors' ensemble PLSR (aggregated group, held-out validation crowns in red, calibration crowns in grey, dashed 1:1 line)."
       }
+    },
+    {
+      "public_id": "p-46d37a3b4d66873738dcb1531ee1bdca",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Leakage-Aware Transfer Learning with Explainable AI and CPU-Efficient Deployment for Mango Leaf Disease Classification on the MangoLeafBD Benchmark",
+      "journal": "Applied Sciences",
+      "authors": [
+        "Wirapong Chansanam",
+        "Avshalom Elmalech",
+        "Suparp Kanyacome",
+        "Prasert Luekhong",
+        "Natthakan Iam-On",
+        "Tossapon Boongoen"
+      ],
+      "doi": "10.3390/app16146989",
+      "compute": "CPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Runs the authors' pinned leakage-audit/grouped-split script on MangoLeafBD, verifies the 2,800/601/599 zero-overlap partition is identical to the published split, and evaluates the exported EfficientNetB0 on the 599-image grouped test set (accuracy 0.9983) with Grad-CAM and a CPU latency benchmark on a Colab CPU VM; retraining and cross-validation are out of scope.",
+      "semantic_tags": [
+        "crop:mango",
+        "organ:leaf",
+        "task:classification",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Grad-CAM overlays for one correctly classified MangoLeafBD grouped-test image per class: original input with EfficientNetB0 attention heatmap.",
+        "caption": "Grad-CAM overlays for one correctly classified MangoLeafBD grouped-test image per class: original input with EfficientNetB0 attention heatmap."
+      }
     }
   ]
 }
