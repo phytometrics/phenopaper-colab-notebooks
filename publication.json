@@ -15370,6 +15370,40 @@
         "alt": "Reproduced Figure 1-style diurnal composite (30-min averaging): H+LE and Rn-G by time of day with energy surplus (grey) and deficit (black) shading, from the authors' released data and verbatim plotting code.",
         "caption": "Reproduced Figure 1-style diurnal composite (30-min averaging): H+LE and Rn-G by time of day with energy surplus (grey) and deficit (black) shading, from the authors' released data and verbatim plotting code."
       }
+    },
+    {
+      "public_id": "p-8017e25ee1d8f1179850f06f27e05459",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Accelerating Leaf Area Measurement Using a Volumetric Approach",
+      "journal": "Springer Science and Business Media LLC",
+      "authors": [
+        "Abbas Haghshenas",
+        "Yahya Emam"
+      ],
+      "doi": "10.21203/rs.3.rs-1370314/v1",
+      "compute": "CPU",
+      "validated_on": "2026-10-29",
+      "demonstration": "Reproduces the OLA ImageJ macro's camera-mode workflow in Python: 20 mm-disc calibration and Huang-threshold leaf-area measurement of the authors' three camera samples (AI-assisted port; VLA/SGB need physical equipment).",
+      "semantic_tags": [
+        "crop:wheat",
+        "organ:leaf",
+        "task:morphology",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Authors' camera leaf samples with OLA threshold outlines and measured areas (mm2); AI-assisted port of the OLA ImageJ macro",
+        "caption": "Authors' camera leaf samples with OLA threshold outlines and measured areas (mm2); AI-assisted port of the OLA ImageJ macro"
+      }
     }
   ]
 }
