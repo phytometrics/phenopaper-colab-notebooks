@@ -2,6 +2,17 @@
   "schema_version": 1,
   "failures": [
     {
+      "public_id": "p-95c3f45f933235add6de6be81923a2bf",
+      "title": "p-95c3f45f933235add6de6be81923a2bf",
+      "journal": null,
+      "authors": [],
+      "investigation_run_id": "p-95c3f45f933235add6de6be81923a2bf-20260929T102758Z-2522632",
+      "run_id": "p-95c3f45f933235add6de6be81923a2bf",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-28T02:09:03.485Z] - 予算3/3消費のため、修復版（sha256 `d10d6ef7…`、静的検証クリア）の新鮮な全体実行は次回invokeへ。所有セッション3つは全て停止・ログ保存済み | [2026-10-28T02:09:03.485Z] **成果物**: `deliverables/p-95c3f45f933235add6de6be81923a2bf.ipynb`、`report.md`、`queue-result.json`（status=`failed`、スキーマ検証済み）、`logs/` に全失敗証拠。 | [2026-10-28T02:09:03.485Z] **次回invokeの指示**（STATE.mdに記載済み）：修復済みノートブックを新鮮CPUセッションで約80〜95分の全体実行 → セルエラーゼロ確認 → `publication.py --compute CPU` で公開。 | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-28"
+    },
+    {
       "public_id": "p-d09aaac1e54e7ace6bc2213351a11bb3",
       "title": "StomaAI : an efficient and user‐friendly tool for measurement of stomatal pores and density using deep computer vision",
       "journal": "The New phytologist",
@@ -14,6 +25,20 @@
       "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-26T20:15:26.495Z] EOF | [2026-10-26T20:15:26.495Z] RUN=/home/phyto/phenotyping-colab/runs/p-d09aaac1e54e7ace6bc2213351a11bb3-20261026T194037Z; python3 $RUN/notes/build_notebook.py && python3 /home/phyto/phenotyping-colab/tools/validate_notebook.py $RUN/deliverable | [2026-10-26T20:15:26.495Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
       "created_on": "2026-10-27",
       "notebook_path": "notebooks/unverified/p-d09aaac1e54e7ace6bc2213351a11bb3.ipynb"
+    },
+    {
+      "public_id": "p-97c933d2370a0c4f6e0ed35465442fbb",
+      "title": "Sea dispersal potential and colonization of the Galápagos littoral flora",
+      "journal": "Journal of biogeography",
+      "authors": [
+        "Fuster‐Calvo A, Nogales M, Heleno R, Vera C, Vargas P."
+      ],
+      "investigation_run_id": "p-97c933d2370a0c4f6e0ed35465442fbb-20260929T235838Z-3092806",
+      "run_id": "p-97c933d2370a0c4f6e0ed35465442fbb",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-27T14:25:07.522Z] EOF failed | [2026-10-27T14:25:07.522Z] Error: The user rejected permission to use this specific tool call. | [2026-10-27T14:25:09.603Z] All author reference p-values reproduce exactly; only the graph filename bug (`%%03d`) needs repair. Archiving attempt 1, fixing the builder, testing the repair in the diagnostic session, then a fresh full run in  | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-27",
+      "notebook_path": "notebooks/unverified/p-97c933d2370a0c4f6e0ed35465442fbb.ipynb"
     },
     {
       "public_id": "p-4ebf3615dbb08288d8c72e58156747e6",
@@ -534,17 +559,6 @@
       "run_id": "p-973c138af941010fb3f7a9a212efe9bc",
       "status": "failed",
       "reason": "OpenCode/reporter exited with status 1; see run log p-973c138af941010fb3f7a9a212efe9bc-20261025T002345Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
-      "created_on": "2026-10-25"
-    },
-    {
-      "public_id": "p-95c3f45f933235add6de6be81923a2bf",
-      "title": "p-95c3f45f933235add6de6be81923a2bf",
-      "journal": null,
-      "authors": [],
-      "investigation_run_id": "p-95c3f45f933235add6de6be81923a2bf-20260929T102758Z-2522632",
-      "run_id": "p-95c3f45f933235add6de6be81923a2bf",
-      "status": "failed",
-      "reason": "OpenCode/reporter exited with status 1; see run log p-95c3f45f933235add6de6be81923a2bf-20261025T002857Z.log.\n直近のツールエラー（最終原因との一致はログで確認）:\nError: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"}",
       "created_on": "2026-10-25"
     },
     {
@@ -1865,20 +1879,6 @@
         "Kalhari Manawasinghe",
         "Karen Tanino"
       ]
-    },
-    {
-      "public_id": "p-97c933d2370a0c4f6e0ed35465442fbb",
-      "title": "Sea dispersal potential and colonization of the Galápagos littoral flora",
-      "journal": "Journal of biogeography",
-      "authors": [
-        "Fuster‐Calvo A, Nogales M, Heleno R, Vera C, Vargas P."
-      ],
-      "investigation_run_id": "p-97c933d2370a0c4f6e0ed35465442fbb-20260929T235838Z-3092806",
-      "run_id": "p-97c933d2370a0c4f6e0ed35465442fbb",
-      "status": "failed",
-      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-27T14:25:07.522Z] EOF failed | [2026-10-27T14:25:07.522Z] Error: The user rejected permission to use this specific tool call. | [2026-10-27T14:25:09.603Z] All author reference p-values reproduce exactly; only the graph filename bug (`%%03d`) needs repair. Archiving attempt 1, fixing the builder, testing the repair in the diagnostic session, then a fresh full run in  | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-27",
-      "notebook_path": "notebooks/unverified/p-97c933d2370a0c4f6e0ed35465442fbb.ipynb"
     }
   ]
 }
