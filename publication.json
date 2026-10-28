@@ -15097,6 +15097,38 @@
         "alt": "The three bundled healthy-leaf sample inputs (Ramphala, Lakshmanphala, Wood Apple) used for CNN disease detection, exactly as distributed in the author's Figshare record.",
         "caption": "The three bundled healthy-leaf sample inputs (Ramphala, Lakshmanphala, Wood Apple) used for CNN disease detection, exactly as distributed in the author's Figshare record."
       }
+    },
+    {
+      "public_id": "p-0ab7fba09c2a46cd0cec4ef8db687835",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "3D plant phenotyping from a single image: learning fine-scale organ morphology with monocular depth estimation",
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Yue Zhuo",
+        "Fengqi You"
+      ],
+      "doi": "10.1016/j.compag.2025.110925",
+      "compute": "CPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Runs the authors' organ-wise monocular depth demo (MDE_organ_wise.ipynb) on their bundled spinach example: PlantMDE (ViT-S) vs Depth Anything V2 per-organ Pearson to GT depth; single example, no benchmark evaluation.",
+      "semantic_tags": [
+        "task:morphology",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Spinach example: ground-truth depth vs PlantMDE prediction with per-organ Pearson correlation overlay (mean 0.816) at pinned commit e0592af.",
+        "caption": "Spinach example: ground-truth depth vs PlantMDE prediction with per-organ Pearson correlation overlay (mean 0.816) at pinned commit e0592af."
+      }
     }
   ]
 }
