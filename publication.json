@@ -15254,6 +15254,45 @@
         "alt": "Held-out test patch 0_4_1044: reference stomata annotation (green, left) vs the released YOLOv3 detections (red, right); 4 of 5 reference boxes matched at IoU 0.5 or higher.",
         "caption": "Held-out test patch 0_4_1044: reference stomata annotation (green, left) vs the released YOLOv3 detections (red, right); 4 of 5 reference boxes matched at IoU 0.5 or higher."
       }
+    },
+    {
+      "public_id": "p-a5f3610e6b43e1b937d8f5ef2879a6f2",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "LeafNet: a tool for segmenting and quantifying stomata and pavement cells",
+      "journal": "The Plant cell",
+      "authors": [
+        "Li S, Li L, Fan W, Ma S, Zhang C, Kim JC, Wang K, Russinova E, Zhu Y, Zhou Y."
+      ],
+      "doi": "10.1093/plcell/koac021",
+      "compute": "CPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Runs the authors' LeafNet CLI (pinned commit 6ef237d) end-to-end on the bundled sample.png bright-field Arabidopsis epidermal image with default StomaNet+LeafSeg, producing preview, annotation and morphology statistics; single-image demonstration, not a benchmark.",
+      "semantic_tags": [
+        "environment:field",
+        "modality:microscopy",
+        "organ:cell",
+        "organ:leaf",
+        "organ:stomata",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:stomatal_traits"
+      ],
+      "preview": {
+        "alt": "Left: LeafNet preview of sample.png with segmented pavement cells colored and detected stomata marked. Right: the tool's annotation image (cell walls green, stomata blue).",
+        "caption": "Left: LeafNet preview of sample.png with segmented pavement cells colored and detected stomata marked. Right: the tool's annotation image (cell walls green, stomata blue)."
+      }
     }
   ]
 }
