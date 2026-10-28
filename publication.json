@@ -15129,6 +15129,50 @@
         "alt": "Spinach example: ground-truth depth vs PlantMDE prediction with per-organ Pearson correlation overlay (mean 0.816) at pinned commit e0592af.",
         "caption": "Spinach example: ground-truth depth vs PlantMDE prediction with per-organ Pearson correlation overlay (mean 0.816) at pinned commit e0592af."
       }
+    },
+    {
+      "public_id": "p-434b06b113a87f45238a86408dff8108",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Integrating Automated Detection and Segmentation for Quantitative Analysis of Stomata and Pavement Cells using StomataQuant",
+      "journal": "Journal Of Plant Ecology",
+      "authors": [
+        "Meng-Long Liu",
+        "Zi-Rong Ren",
+        "Jian Wei",
+        "He Zhang",
+        "Yu-Kang Li",
+        "Gu-Yan Wang",
+        "Peng Xie",
+        "Yin Wang"
+      ],
+      "doi": "10.1093/jpe/rtag063",
+      "compute": "CPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Headless StomataQuant stomata detection with the released s weight and GUI-default parameters on three S2 independent test images, comparing predicted counts and per-stoma MER measurements against the released ground-truth labels; CPU single-model demonstration, not a dataset-level verification.",
+      "semantic_tags": [
+        "organ:cell",
+        "organ:stomata",
+        "task:morphology",
+        "task:object_detection",
+        "task:physiology",
+        "task:segmentation",
+        "trait:architecture",
+        "trait:stomatal_traits"
+      ],
+      "preview": {
+        "alt": "S2 independent test image with the released ground-truth stomata annotations (red boxes) used as reference; StomataQuant predictions are shown separately in the notebook.",
+        "caption": "S2 independent test image with the released ground-truth stomata annotations (red boxes) used as reference; StomataQuant predictions are shown separately in the notebook."
+      }
     }
   ]
 }
