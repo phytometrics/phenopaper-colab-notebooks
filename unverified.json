@@ -491,6 +491,23 @@
       "notebook_sha256": "220c73013f691bb24c697c5a2f1797e7e0885d69afd1203bacc20fd8a5b706dd",
       "source_sha256": "04d5618a797bb9936d35f6f57c55dfe5c57aea8830fafbb823e25becf1a3db20",
       "code_cells": 12
+    },
+    {
+      "public_id": "p-26ff2584da9abdb7eb0c9266d19fc880",
+      "title": "GinJinn2: Object detection and segmentation for ecology and evolution",
+      "journal": "Methods in Ecology and Evolution",
+      "authors": [
+        "Tankred Ott",
+        "Ulrich Lautenschlager"
+      ],
+      "investigation_run_id": "p-26ff2584da9abdb7eb0c9266d19fc880-20261008T163334Z-1263924",
+      "status": "failed",
+      "reason": "Notebook repaired and passed a complete diagnostic T4 run (15/15 cells, 0 errors, AP 85.8 test bbox, counts produced), but the 3-session budget was exhausted before a fresh-runtime Run-all validation could be repeated; diagnostic success does not replace fresh validation, so no publication. Requeue path: allocate one fresh T4 session and exec deliverables/p-26ff2584da9abdb7eb0c9266d19fc880.ipynb (sha256 9778620364fbb1f9d1bd9276a3d799789d88e1d405b56c6ca36395cc075aa206), archive *_output.ipynb + CLI log, then publish. Fixes applied this invocation: pip arg order, zip layout (no wrapping folder), non-interactive split acceptance with printed proposal, idempotent COCOEvaluator patch, output pre-cleanup.",
+      "created_on": "2026-10-28",
+      "notebook_path": "notebooks/unverified/p-26ff2584da9abdb7eb0c9266d19fc880.ipynb",
+      "notebook_sha256": "b6c47d0b92ab3841d36ceffb3ed8b5f12c7769a8735420c63d269fa2c6e38dd6",
+      "source_sha256": "9778620364fbb1f9d1bd9276a3d799789d88e1d405b56c6ca36395cc075aa206",
+      "code_cells": 15
     }
   ]
 }
