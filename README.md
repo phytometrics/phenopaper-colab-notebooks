@@ -10,9 +10,9 @@ AI-verified Google Colab demonstrations for selected plant phenotyping papers. E
 
 ## About PhenoPaper / PhenoPaperについて
 
-This repository is part of [PhenoPaper](https://phenopaper.smartbreed-plant-phenotyping-platform.com/). Browse this collection on the [PhenoPaper Colab notebooks page](https://phenopaper.smartbreed-plant-phenotyping-platform.com/colab-notebooks).
+This repository is part of [PhenoPaper](https://phenopaper.smartbreed-plant-phenotyping-platform.com/). Browse this collection on the [public Colab notebook gallery (no account required)](https://phytometrics.github.io/phenopaper-colab-notebooks/).
 
-このリポジトリは[PhenoPaper](https://phenopaper.smartbreed-plant-phenotyping-platform.com/)プロジェクトの機能の一つです。ノートブック一覧は[PhenoPaperのColabノートブックページ](https://phenopaper.smartbreed-plant-phenotyping-platform.com/colab-notebooks)から閲覧できます。
+このリポジトリは[PhenoPaper](https://phenopaper.smartbreed-plant-phenotyping-platform.com/)プロジェクトの機能の一つです。ノートブック一覧は[ログイン不要のColabノートブック一覧](https://phytometrics.github.io/phenopaper-colab-notebooks/)から閲覧できます。
 
 ### What “AI-verified” means / 「AI-verified」の意味
 

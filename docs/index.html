@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Browse, filter and run public plant phenotyping Colab demonstrations from PhenoPaper. No account required.">
+  <meta name="color-scheme" content="light">
+  <title>Colab notebooks · PhenoPaper</title>
+  <link rel="stylesheet" href="./gallery.css">
+  <script type="module" src="./gallery.mjs"></script>
+</head>
+<body>
+  <header><a class="brand" href="./">Pheno<span>Paper</span></a><nav aria-label="Project"><a href="https://github.com/phytometrics/phenopaper-colab-notebooks">GitHub ↗</a><a href="https://phenopaper.smartbreed-plant-phenotyping-platform.com/">PhenoPaper ↗</a></nav></header>
+  <main>
+    <p class="eyebrow">PUBLIC COLLECTION · NO ACCOUNT REQUIRED</p>
+    <h1>Colab notebooks</h1>
+    <p class="intro">Explore runnable demonstrations from plant phenotyping papers.<br>植物フェノタイピング論文の解析を、Colabで試せます。</p>
+    <details class="notice"><summary>About execution checks and limitations / 実行確認と制約</summary><p>“AI-verified” means the notebook completed its recorded checks in the stated Colab runtime. It does not establish scientific correctness, authenticate provenance, or reproduce every experiment. Read each demonstration’s scope before using its results.</p><p>「AI-verified」は記録されたColab実行チェックの完了を示します。科学的な正確さや論文全体の忠実な再現を保証するものではありません。各Notebookの実行範囲・制約を確認してください。</p><a href="https://github.com/phytometrics/phenopaper-colab-notebooks/blob/main/UNVERIFIED.md">Unverified and incomplete notebooks ↗</a> · <a href="https://github.com/phytometrics/phenopaper-colab-notebooks/blob/main/FAILED.md">Failed attempts ↗</a></details>
+    <section class="controls" aria-label="Search and display settings">
+      <label class="search">Keyword search<input id="query" type="search" placeholder="Title, authors, crop, task…" autocomplete="off"></label>
+      <label>Runtime<select id="runtime"><option value="">All runtimes</option><option>CPU</option><option>T4 GPU</option><option>CPU + T4 GPU</option></select></label>
+      <label>Tag<select id="tag"><option value="">All tags</option></select></label>
+      <label>Sort<select id="sort"><option value="newest">Latest checked</option><option value="title">Title A–Z</option></select></label>
+      <label class="size">Display size<input id="size" type="range" min="0" max="100" value="80"><span id="size-label">Default</span></label>
+      <button id="reset" type="button">Clear filters</button>
+    </section>
+    <div class="statusbar"><p id="status" role="status" aria-live="polite">Loading notebooks…</p><button id="retry" type="button" hidden>Retry</button></div>
+    <div id="gallery" class="gallery" aria-label="Notebook results"></div>
+    <p id="empty" hidden>No matching notebooks. Try fewer keywords or clear the filters.</p>
+    <noscript>Enable JavaScript to search this collection, or <a href="https://github.com/phytometrics/phenopaper-colab-notebooks#notebooks">browse the GitHub index</a>.</noscript>
+    <footer>Public metadata and previews are loaded from GitHub. Search runs in your browser; no PhenoPaper account is needed.</footer>
+  </main>
+  <dialog id="detail" aria-labelledby="detail-title"><button id="close" type="button" aria-label="Close notebook details">Close ×</button><div id="detail-content"></div></dialog>
+</body>
+</html>
