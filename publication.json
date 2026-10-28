@@ -14888,6 +14888,40 @@
         "alt": "Reproduction of paper Fig. 1: crop-cycle diurnal means of H+LE (solid) and Rn-G (dashed) at 30 min EC averaging, energy-balance difference shaded",
         "caption": "Reproduction of paper Fig. 1: crop-cycle diurnal means of H+LE (solid) and Rn-G (dashed) at 30 min EC averaging, energy-balance difference shaded"
       }
+    },
+    {
+      "public_id": "p-a61f290c567c7bbcfc79e8a0f69a3255",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Estimating uncertainty: A Bayesian approach to modelling photosynthesis in C3 leaves.",
+      "journal": "Plant, cell & environment",
+      "authors": [
+        "Xiao Y, Sloan J, Hepworth C, Osborne CP, Fleming AJ, Chen X, Zhu XG."
+      ],
+      "doi": "10.1111/pce.13995",
+      "compute": "CPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Runs the authors' released R/JAGS Bayesian FvCB estimation (pinned commit) verbatim on their rice IR64 demo (4 replications, Km=428 fixed) on a Colab CPU, showing posterior summaries, reference comparison, and posterior-predicted curves; one-example scope only.",
+      "semantic_tags": [
+        "crop:rice",
+        "modality:fluorescence",
+        "organ:leaf",
+        "task:physiology",
+        "trait:photosynthesis"
+      ],
+      "preview": {
+        "alt": "Posterior-predicted An-Ci and Y(II)-Ci response curves (1000 posterior samples, gray) over the observed rice IR64 points for replication 1, from the authors' own Step 3 output",
+        "caption": "Posterior-predicted An-Ci and Y(II)-Ci response curves (1000 posterior samples, gray) over the observed rice IR64 points for replication 1, from the authors' own Step 3 output"
+      }
     }
   ]
 }
