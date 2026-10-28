@@ -15293,6 +15293,45 @@
         "alt": "Left: LeafNet preview of sample.png with segmented pavement cells colored and detected stomata marked. Right: the tool's annotation image (cell walls green, stomata blue).",
         "caption": "Left: LeafNet preview of sample.png with segmented pavement cells colored and detected stomata marked. Right: the tool's annotation image (cell walls green, stomata blue)."
       }
+    },
+    {
+      "public_id": "p-38822584108104d5d5e7b396d9598ee4",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "YOLOv9s-multi: orientation-based fruit selection for robotic apple thinning",
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Meiwei Li",
+        "Muhammad Hilal Kabir",
+        "Zhao Zhang"
+      ],
+      "doi": "10.1016/j.compag.2026.111664",
+      "compute": "CPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Single-image demo inference with the released best.pt on the authors' demo image via the pinned Ultralytics fork, with AI-implemented centroid-to-calyx orientation estimation; no fruit-selection decision (paper full text unavailable).",
+      "semantic_tags": [
+        "crop:apple",
+        "modality:rgbd",
+        "organ:flower",
+        "organ:fruit",
+        "task:object_detection",
+        "task:pose",
+        "task:segmentation",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Authors' demo image (left) with the repository's reference annotation overlay (right): green_fruit/flower boxes, segmentation polygons, and calyx keypoints from the pinned label file.",
+        "caption": "Authors' demo image (left) with the repository's reference annotation overlay (right): green_fruit/flower boxes, segmentation polygons, and calyx keypoints from the pinned label file."
+      }
     }
   ]
 }
