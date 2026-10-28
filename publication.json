@@ -15404,6 +15404,40 @@
         "alt": "Authors' camera leaf samples with OLA threshold outlines and measured areas (mm2); AI-assisted port of the OLA ImageJ macro",
         "caption": "Authors' camera leaf samples with OLA threshold outlines and measured areas (mm2); AI-assisted port of the OLA ImageJ macro"
       }
+    },
+    {
+      "public_id": "p-23d854b36cc7977e0d56816908f179fe",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Accelerating leaf area measurement using a volumetric approach",
+      "journal": "Plant Methods",
+      "authors": [
+        "Abbas Haghshenas",
+        "Yahya Emam"
+      ],
+      "doi": "10.1186/s13007-022-00896-w",
+      "compute": "CPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Runs the authors' own OLA.ijm ImageJ macro headlessly (ImageJ1 batch mode under Xvfb) on the bundled sample camera images with the 20 mm calibration disc, producing per-particle CSVs, drawings and total optical leaf areas; the paper's volumetric (VLA/SGB) experiments and VLA-OLA statistics are out of scope.",
+      "semantic_tags": [
+        "crop:wheat",
+        "organ:leaf",
+        "task:morphology",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Top: the authors' bundled sample camera images (inputs). Bottom: the OLA macro's own drawing outputs (Outlines & labels) — each detected leaf particle outlined and numbered.",
+        "caption": "Top: the authors' bundled sample camera images (inputs). Bottom: the OLA macro's own drawing outputs (Outlines & labels) — each detected leaf particle outlined and numbered."
+      }
     }
   ]
 }
