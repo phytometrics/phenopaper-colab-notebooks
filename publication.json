@@ -15173,6 +15173,50 @@
         "alt": "S2 independent test image with the released ground-truth stomata annotations (red boxes) used as reference; StomataQuant predictions are shown separately in the notebook.",
         "caption": "S2 independent test image with the released ground-truth stomata annotations (red boxes) used as reference; StomataQuant predictions are shown separately in the notebook."
       }
+    },
+    {
+      "public_id": "p-888ea3a86cab5524b2fb2d9980de2b64",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A scalable, low‐cost phenotyping strategy to assess tuber size, shape, and the colorimetric features of tuber skin and flesh in potato breeding populations",
+      "journal": "The Plant Phenome Journal",
+      "authors": [
+        "Max J. Feldman",
+        "Jaebum Park",
+        "Nathan Miller",
+        "Collins Wakholi",
+        "Katelyn Greene",
+        "Arash Abbasi",
+        "Devin A. Rippner",
+        "Duroy Navarre",
+        "Cari Schmitz Carley",
+        "Laura M. Shannon",
+        "Rich Novy"
+      ],
+      "doi": "10.1002/ppj2.20099",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Reduced-scope faithful demo: trains the authors' custom 512x512 CNN (10 epochs, one run) on their 172-image labeled sample with the authors' preprocessing and evaluates the saved model on the held-out test split; accuracy is a pipeline check only and is not comparable to the paper's 20-run, 400-epoch full-dataset results.",
+      "semantic_tags": [
+        "crop:potato",
+        "task:classification",
+        "task:morphology",
+        "trait:architecture",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "Author sample halved-tuber scans with ground-truth labels (hollow_heart vs others)",
+        "caption": "Author sample halved-tuber scans with ground-truth labels (hollow_heart vs others)"
+      }
     }
   ]
 }
