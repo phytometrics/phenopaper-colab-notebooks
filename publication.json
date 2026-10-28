@@ -15332,6 +15332,44 @@
         "alt": "Authors' demo image (left) with the repository's reference annotation overlay (right): green_fruit/flower boxes, segmentation polygons, and calyx keypoints from the pinned label file.",
         "caption": "Authors' demo image (left) with the repository's reference annotation overlay (right): green_fruit/flower boxes, segmentation polygons, and calyx keypoints from the pinned label file."
       }
+    },
+    {
+      "public_id": "p-74406c771fce81281ee1993df6ca70be",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Role of time-averaging of eddy covariance fluxes on water use efficiency dynamics of Maize crop",
+      "journal": "Copernicus GmbH",
+      "authors": [
+        "Arun Rao Karimindla",
+        "Shweta Kumari",
+        "Saipriya SR",
+        "Syam Chintala",
+        "BVN Phanindra Kambhammettu"
+      ],
+      "doi": "10.5194/amt-2023-253",
+      "compute": "CPU",
+      "validated_on": "2026-10-28",
+      "demonstration": "Reproduces the paper's Figure 1 diurnal H+LE vs Rn-G composite with the authors' verbatim notebook cells on the released 30-min table, extends it to all eight averaging periods, and computes a Table 2-analog daily EBR/regression ranking that selects exactly the paper's 45/60-min optimum; raw 10 Hz EddyPro processing is out of scope.",
+      "semantic_tags": [
+        "crop:maize",
+        "environment:field",
+        "organ:whole_plant",
+        "task:physiology",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Reproduced Figure 1-style diurnal composite (30-min averaging): H+LE and Rn-G by time of day with energy surplus (grey) and deficit (black) shading, from the authors' released data and verbatim plotting code.",
+        "caption": "Reproduced Figure 1-style diurnal composite (30-min averaging): H+LE and Rn-G by time of day with energy surplus (grey) and deficit (black) shading, from the authors' released data and verbatim plotting code."
+      }
     }
   ]
 }
