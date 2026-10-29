@@ -15438,6 +15438,45 @@
         "alt": "Top: the authors' bundled sample camera images (inputs). Bottom: the OLA macro's own drawing outputs (Outlines & labels) — each detected leaf particle outlined and numbered.",
         "caption": "Top: the authors' bundled sample camera images (inputs). Bottom: the OLA macro's own drawing outputs (Outlines & labels) — each detected leaf particle outlined and numbered."
       }
+    },
+    {
+      "public_id": "p-9935ba78b65bcda15acc4004d71b4bed",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Gas exchange analysers exhibit large measurement error driven by internal thermal gradients",
+      "journal": "New Phytologist",
+      "authors": [
+        "Josef C. Garen",
+        "Haley A. Branch",
+        "Isaac Borrego",
+        "Benjamin Blonder",
+        "Joseph R. Stinziano",
+        "Sean T. Michaletz"
+      ],
+      "doi": "10.1111/nph.18347",
+      "compute": "CPU",
+      "validated_on": "2026-10-29",
+      "demonstration": "Reproduces Garen et al. 2022 Figs. 2, 5 and 6 plus their statistics from the authors' pinned R scripts and released trial data on a Colab CPU runtime; remaining figures (Vcmax/Jmax, A-Ci, supplements) are out of scope.",
+      "semantic_tags": [
+        "organ:leaf",
+        "task:preprocessing",
+        "trait:photosynthesis",
+        "trait:temperature",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Reproduced Fig. 2: reported vs independently measured in-cuvette air temperature (empty chamber) for LI-6400XT and LI-6800, from the authors' pinned make_fig2.R and licor_trials_all.csv.",
+        "caption": "Reproduced Fig. 2: reported vs independently measured in-cuvette air temperature (empty chamber) for LI-6400XT and LI-6800, from the authors' pinned make_fig2.R and licor_trials_all.csv."
+      }
     }
   ]
 }
