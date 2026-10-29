@@ -508,6 +508,26 @@
       "notebook_sha256": "b6c47d0b92ab3841d36ceffb3ed8b5f12c7769a8735420c63d269fa2c6e38dd6",
       "source_sha256": "9778620364fbb1f9d1bd9276a3d799789d88e1d405b56c6ca36395cc075aa206",
       "code_cells": 15
+    },
+    {
+      "public_id": "p-9a58bdb409187db68c0bc4aca3b42431",
+      "title": "DIRT/mu: Automatic root hair measurement in maize (Zea mays ssp.) from microscopy images",
+      "journal": "Wiley",
+      "authors": [
+        "Peter Pietrzyk",
+        "Neen Phan-Udom",
+        "Chartinun Chutoe",
+        "Patompong Saengwilai",
+        "Alexander Bucksch"
+      ],
+      "investigation_run_id": "p-9a58bdb409187db68c0bc4aca3b42431-20261028T175055Z-4095007",
+      "status": "failed",
+      "reason": "Faithful author-default full-image run measured infeasible (>16 h CPU: 896456 candidates, merging ~130-160 idx/min); re-scoped to a deterministic 1024x1024 crop with unchanged pipeline/parameters. The crop run completed all computation (candidates 49m42s, optimization 2h45m) but crashed saving outputs because the notebook run cell lacked 'mkdir -p /content/dirtmu/out' (OSError in rh_io.save_table); 4 downstream result cells then failed on missing files. Three-session budget exhausted; notebook repaired (sha256 290e85d69f6e02294f4146da921ee63365fe69c8e096e34a24954b77e68be01e) and statically valid; fresh full validation required on requeue.",
+      "created_on": "2026-10-29",
+      "notebook_path": "notebooks/unverified/p-9a58bdb409187db68c0bc4aca3b42431.ipynb",
+      "notebook_sha256": "a83e41abcc744c4a240edc87fefcf886949e7b1db2992a893d23c911f450a5a8",
+      "source_sha256": "290e85d69f6e02294f4146da921ee63365fe69c8e096e34a24954b77e68be01e",
+      "code_cells": 13
     }
   ]
 }
