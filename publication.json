@@ -15477,6 +15477,46 @@
         "alt": "Reproduced Fig. 2: reported vs independently measured in-cuvette air temperature (empty chamber) for LI-6400XT and LI-6800, from the authors' pinned make_fig2.R and licor_trials_all.csv.",
         "caption": "Reproduced Fig. 2: reported vs independently measured in-cuvette air temperature (empty chamber) for LI-6400XT and LI-6800, from the authors' pinned make_fig2.R and licor_trials_all.csv."
       }
+    },
+    {
+      "public_id": "p-67afd7ca882ff4339577b2697ec2104e",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Rice seed size measurement using a rotational perception deep learning model",
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Jinfeng Zhao",
+        "Yan Ma",
+        "Kaicheng Yong",
+        "Min Zhu",
+        "Yueqi Wang",
+        "Xuan Wang",
+        "Wei Li",
+        "Xin Wei",
+        "Xuehui Huang"
+      ],
+      "doi": "10.1016/j.compag.2022.107583",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-30",
+      "demonstration": "Inference-only YOLO-rot seed counting and mm measurement on the authors' six sample photos; single-example demo, not a dataset-level accuracy verification.",
+      "semantic_tags": [
+        "crop:rice",
+        "organ:seed",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Author sample rice-seed photo (left) with the script's YOLO-rot rotated-box predictions (right).",
+        "caption": "Author sample rice-seed photo (left) with the script's YOLO-rot rotated-box predictions (right)."
+      }
     }
   ]
 }
