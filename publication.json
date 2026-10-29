@@ -15596,6 +15596,43 @@
         "alt": "Reconstructed individual root hairs (thin colored curves) overlaid by the authors' pipeline on the 600x600 crop of the classified maize root sample (input class labels: 1=root hair, 2=background, 3=root)",
         "caption": "Reconstructed individual root hairs (thin colored curves) overlaid by the authors' pipeline on the 600x600 crop of the classified maize root sample (input class labels: 1=root hair, 2=background, 3=root)"
       }
+    },
+    {
+      "public_id": "p-91bdfd332c1f55db2a44b47f989ce995",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "From Leaf to Label: A robust automated workflow for stomata detection",
+      "journal": "Biodiversity Information Science and Standards",
+      "authors": [
+        "Sofie Meeus",
+        "Francis wyffels",
+        "Jan Van den Bulcke"
+      ],
+      "doi": "10.3897/biss.3.37504",
+      "compute": "T4 GPU",
+      "validated_on": "2026-10-30",
+      "demonstration": "Executes the authors' LeafToLabel tutorial end to end on the didactic Carapa procera patch set (VGG19 training, threshold-0.7 sliding-window detection and mean-shift clustering on the demo micrograph); single didactic example, not a dataset-level validation.",
+      "semantic_tags": [
+        "organ:leaf",
+        "organ:stomata",
+        "task:object_detection",
+        "task:reconstruction",
+        "trait:stomatal_traits",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Detected stoma centers (red x, model prediction) overlaid on the Carapa_procero_demo.jpg micrograph after 50-epoch VGG19 training and mean-shift clustering",
+        "caption": "Detected stoma centers (red x, model prediction) overlaid on the Carapa_procero_demo.jpg micrograph after 50-epoch VGG19 training and mean-shift clustering"
+      }
     }
   ]
 }
