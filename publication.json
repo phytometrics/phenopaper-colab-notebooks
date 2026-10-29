@@ -15555,6 +15555,47 @@
         "alt": "Original deposited S. coutinhoi composition with measured seed regions (red) and centreline-corrected DM6 model regions (blue) overlaid; per-seed J mean 90.28 vs published 90.7 (Table 4).",
         "caption": "Original deposited S. coutinhoi composition with measured seed regions (red) and centreline-corrected DM6 model regions (blue) overlaid; per-seed J mean 90.28 vs published 90.7 (Table 4)."
       }
+    },
+    {
+      "public_id": "p-3911da5272e798d234428300d7198638",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Automatic root hair measurement to quantify abiotic stresses in microscopy images",
+      "journal": "Wiley",
+      "authors": [
+        "Peter Pietrzyk",
+        "Neen Phan-Udom",
+        "Chartinun Chutoe",
+        "Patompong Saengwilai",
+        "Alexander Bucksch"
+      ],
+      "doi": "10.1002/essoar.10508328.1",
+      "compute": "CPU",
+      "validated_on": "2026-10-30",
+      "demonstration": "Runs the authors' DIRT/mu v1.1 pipeline unmodified on a deterministic 600x600 crop of the repository's classified maize root sample, reconstructing 11 individual root hairs with per-hair lengths, summary statistics and overlay/density plots; the pixel-classification stage is out of scope and n_levels uses the authors' documented minimum (100), so the pipeline cell takes about 75 minutes on a free Colab CPU runtime.",
+      "semantic_tags": [
+        "crop:maize",
+        "modality:microscopy",
+        "organ:root",
+        "task:morphology",
+        "task:reconstruction",
+        "task:segmentation",
+        "trait:root_architecture",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "Reconstructed individual root hairs (thin colored curves) overlaid by the authors' pipeline on the 600x600 crop of the classified maize root sample (input class labels: 1=root hair, 2=background, 3=root)",
+        "caption": "Reconstructed individual root hairs (thin colored curves) overlaid by the authors' pipeline on the 600x600 crop of the classified maize root sample (input class labels: 1=root hair, 2=background, 3=root)"
+      }
     }
   ]
 }
