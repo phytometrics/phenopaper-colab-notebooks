@@ -15633,6 +15633,44 @@
         "alt": "Detected stoma centers (red x, model prediction) overlaid on the Carapa_procero_demo.jpg micrograph after 50-epoch VGG19 training and mean-shift clustering",
         "caption": "Detected stoma centers (red x, model prediction) overlaid on the Carapa_procero_demo.jpg micrograph after 50-epoch VGG19 training and mean-shift clustering"
       }
+    },
+    {
+      "public_id": "p-6beb95e7fb6ddbdf6c930afaa25937f3",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "AgriDefend: A $205 Offline Edge Device that Detects Crop Stress Before Visible Symptoms via Multimodal AI Fusion",
+      "journal": "XSci Ltd.",
+      "authors": [
+        "George Xu",
+        "Nikhil Vincent",
+        "Elizabeth S. Forbes"
+      ],
+      "doi": "10.66977/xsci.2610.0031",
+      "compute": "CPU",
+      "validated_on": "2026-10-30",
+      "demonstration": "Executed the author's pinned train_fusion.py unmodified on stored CNN/RF validation probabilities in Colab CPU, reproducing the fusion ablation (CNN-only 99.2%, RF-only 77.9%, fused 99.7%, R2=0.99, MAE=0.01) exactly matching the author's reference metrics; the in-situ 87% headline and branch retraining remain out of scope.",
+      "semantic_tags": [
+        "crop:radish",
+        "environment:greenhouse",
+        "modality:multimodal",
+        "organ:whole_plant",
+        "task:classification",
+        "task:stress_disease",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "Fusion meta-learner confusion matrix on the multi-species validation set, saved by the author's train_fusion.py (actual rows vs predicted columns)",
+        "caption": "Fusion meta-learner confusion matrix on the multi-species validation set, saved by the author's train_fusion.py (actual rows vs predicted columns)"
+      }
     }
   ]
 }
