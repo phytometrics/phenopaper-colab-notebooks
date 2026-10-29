@@ -15517,6 +15517,44 @@
         "alt": "Author sample rice-seed photo (left) with the script's YOLO-rot rotated-box predictions (right).",
         "caption": "Author sample rice-seed photo (left) with the script's YOLO-rot rotated-box predictions (right)."
       }
+    },
+    {
+      "public_id": "p-fbb38ad1b0359d1d5c678140ab439154",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "New Geometric Models for Shape Quantification of the Dorsal View in Seeds of Silene Species",
+      "journal": "Plants",
+      "authors": [
+        "José Luis Rodríguez-Lorenzo",
+        "José Javier Martín-Gómez",
+        "Ángel Tocino",
+        "Ana Juan",
+        "Bohuslav Janoušek",
+        "Emilio Cervantes"
+      ],
+      "doi": "10.3390/plants11070958",
+      "compute": "CPU",
+      "validated_on": "2026-10-30",
+      "demonstration": "Recomputes the paper's J-index for Silene coutinhoi vs dorsal model DM6 per seed (16 seeds) from the authors' deposited compositions in Python: mean J 90.28 (sd 2.17) vs published 90.7 (2.14); an AI-assisted Python adaptation of the manual ImageJ protocol, not a full-paper reproduction.",
+      "semantic_tags": [
+        "organ:seed",
+        "task:classification",
+        "task:morphology",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Original deposited S. coutinhoi composition with measured seed regions (red) and centreline-corrected DM6 model regions (blue) overlaid; per-seed J mean 90.28 vs published 90.7 (Table 4).",
+        "caption": "Original deposited S. coutinhoi composition with measured seed regions (red) and centreline-corrected DM6 model regions (blue) overlaid; per-seed J mean 90.28 vs published 90.7 (Table 4)."
+      }
     }
   ]
 }

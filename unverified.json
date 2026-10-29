@@ -528,27 +528,6 @@
       "notebook_sha256": "a83e41abcc744c4a240edc87fefcf886949e7b1db2992a893d23c911f450a5a8",
       "source_sha256": "290e85d69f6e02294f4146da921ee63365fe69c8e096e34a24954b77e68be01e",
       "code_cells": 13
-    },
-    {
-      "public_id": "p-fbb38ad1b0359d1d5c678140ab439154",
-      "title": "New Geometric Models for Shape Quantification of the Dorsal View in Seeds of Silene Species",
-      "journal": "Plants",
-      "authors": [
-        "José Luis Rodríguez-Lorenzo",
-        "José Javier Martín-Gómez",
-        "Ángel Tocino",
-        "Ana Juan",
-        "Bohuslav Janoušek",
-        "Emilio Cervantes"
-      ],
-      "investigation_run_id": "p-fbb38ad1b0359d1d5c678140ab439154-20261029T163717Z-1176116",
-      "status": "failed",
-      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-29T17:37:40.583Z] ✗ cd /home/phyto/phenotyping-colab/runs/p-fbb38ad1b0359d1d5c678140ab439154-20261029T165808Z && mv deliverables/p-fbb38ad1b0359d1d5c678140ab439154_output.ipynb logs/diag1_output.ipynb 2>/dev/null; mv deliverables/p | [2026-10-29T17:37:40.583Z] Error: The user rejected permission to use this specific tool call. | [2026-10-29T17:37:42.245Z] Now the diagnostic full-notebook run to verify the repaired pipeline end to end: | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-30",
-      "notebook_path": "notebooks/unverified/p-fbb38ad1b0359d1d5c678140ab439154.ipynb",
-      "notebook_sha256": "962aa4c6f44efa3ca2d30ac6e82e233643bbba40b7e343980b2427aeb6fb09f8",
-      "source_sha256": "2349ab7ffe239871de8940296a708a826059b7e2a0f71753d18e05f13ebe929e",
-      "code_cells": 11
     }
   ]
 }
