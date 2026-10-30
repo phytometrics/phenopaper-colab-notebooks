@@ -528,6 +528,25 @@
       "notebook_sha256": "a83e41abcc744c4a240edc87fefcf886949e7b1db2992a893d23c911f450a5a8",
       "source_sha256": "290e85d69f6e02294f4146da921ee63365fe69c8e096e34a24954b77e68be01e",
       "code_cells": 13
+    },
+    {
+      "public_id": "p-ed7b7c55865a51b68f3cec66b4685c0e",
+      "title": "Plants disease detection and identification system using AI and computer vision techniques",
+      "journal": "PeerJ Computer Science",
+      "authors": [
+        "Abid Iqbal",
+        "Irfan Ahmed",
+        "Saud Rehman",
+        "Ali S. Alzahrani"
+      ],
+      "investigation_run_id": "p-ed7b7c55865a51b68f3cec66b4685c0e-20261030T191316Z-3655608",
+      "status": "blocked",
+      "reason": "Blocked by material data availability: the labeled four-class wheat corpus required by the author's Random Forest notebook is not publicly available. The only public data release (Kaggle engrirf/wheat-plants-disease-dataset-for-kp-pakistan v1, 64,936,832 B, verified in Colab) contains 25 unlabeled field photographs with empty VOC XML annotations and a 2-class labelmap; the author's notebook loads a private Drive DATA.zip; Zenodo archives code only; no PMC/OpenAlex copy of the paper exists and PeerJ serves a Cloudflare challenge. A partial executed demonstration (data acquisition, real-image preview, author preprocessing on the 25-image sample) plus a designed RuntimeError training guard was delivered as an UNVERIFIED/INCOMPLETE reference under deliverables/. No publication: the accuracy claims (paper 89%, author run 87.68%) cannot be faithfully re-measured.",
+      "created_on": "2026-10-31",
+      "notebook_path": "notebooks/unverified/p-ed7b7c55865a51b68f3cec66b4685c0e.ipynb",
+      "notebook_sha256": "d72916b5a4bfa9f40435ee65a6eec2958340c9c71a7075045880054370b9dbe9",
+      "source_sha256": "4742ab42daa2e02f21850b6715c32e74754d05ac420efeb14105cae0ed6c20f0",
+      "code_cells": 10
     }
   ]
 }
