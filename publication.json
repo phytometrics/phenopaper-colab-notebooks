@@ -15671,6 +15671,45 @@
         "alt": "Fusion meta-learner confusion matrix on the multi-species validation set, saved by the author's train_fusion.py (actual rows vs predicted columns)",
         "caption": "Fusion meta-learner confusion matrix on the multi-species validation set, saved by the author's train_fusion.py (actual rows vs predicted columns)"
       }
+    },
+    {
+      "public_id": "p-e537263e974a487a9b585dabfaba613e",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Blender tissue cartography: An intuitive tool for analyzing 3D microscopy data",
+      "journal": "Development",
+      "authors": [
+        "Nikolas Claussen",
+        "Cécile Regis",
+        "Susan Wopat",
+        "Matthew F. Lefebvre",
+        "Sebastian Streichan"
+      ],
+      "doi": "10.1242/dev.205909",
+      "compute": "CPU",
+      "validated_on": "2026-10-30",
+      "demonstration": "Headless reproduction of the blender-tissue-cartography workflow on the shipped Drosophila blastoderm light-sheet sample: ilastik probabilities to marching-cubes mesh, automated spherical-cylindrical UV map, and a 512x512 five-layer cartographic projection; single example, Blender GUI steps omitted.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "modality:microscopy",
+        "organ:tissue",
+        "task:morphology",
+        "task:preprocessing",
+        "task:visualization"
+      ],
+      "preview": {
+        "alt": "Cartographic projection of the Drosophila blastoderm membrane channel (CAAX-mCherry) onto the 512x512 UV map at 0 um normal offset - the curved epithelium unrolled into 2D.",
+        "caption": "Cartographic projection of the Drosophila blastoderm membrane channel (CAAX-mCherry) onto the 512x512 UV map at 0 um normal offset - the curved epithelium unrolled into 2D."
+      }
     }
   ]
 }
