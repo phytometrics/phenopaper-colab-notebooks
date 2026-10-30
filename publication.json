@@ -15710,6 +15710,52 @@
         "alt": "Cartographic projection of the Drosophila blastoderm membrane channel (CAAX-mCherry) onto the 512x512 UV map at 0 um normal offset - the curved epithelium unrolled into 2D.",
         "caption": "Cartographic projection of the Drosophila blastoderm membrane channel (CAAX-mCherry) onto the 512x512 UV map at 0 um normal offset - the curved epithelium unrolled into 2D."
       }
+    },
+    {
+      "public_id": "p-c6122665cc225259f0e4d37e864ce925",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A model and measurement comparison of diurnal cycles of sun-induced chlorophyll fluorescence of crops",
+      "journal": "Remote Sensing of Environment",
+      "authors": [
+        "Christiaan van der Tol",
+        "Micol Rossini",
+        "Sergio Cogliati",
+        "Wouter Verhoef",
+        "Roberto Colombo",
+        "Uwe Rascher",
+        "Gina Mohammed"
+      ],
+      "doi": "10.1016/j.rse.2016.09.021",
+      "compute": "CPU",
+      "validated_on": "2026-10-30",
+      "demonstration": "Runs the authors' SCOPE 2.1 MATLAB sources headlessly in Octave on Colab CPU to simulate half-hourly diurnal F760 cycles of the bundled crop example under constant, variable and theoretical-maximum ChlF emission efficiency; the paper's field-measurement comparisons are not reproducible because the field datasets are not public.",
+      "semantic_tags": [
+        "crop:alfalfa",
+        "crop:rice",
+        "environment:field",
+        "modality:fluorescence",
+        "modality:spectral",
+        "organ:leaf",
+        "task:physiology",
+        "task:time_series",
+        "trait:leaf_traits",
+        "trait:photosynthesis",
+        "trait:pigment_color"
+      ],
+      "preview": {
+        "alt": "Simulated diurnal cycles of F760 at 760 nm for the three ChlF emission-efficiency scenarios with shortwave forcing (left) and the midday fluorescence spectrum (right); SCOPE 2.1 on the bundled mSCOPE_ts example, 2006-06-17.",
+        "caption": "Simulated diurnal cycles of F760 at 760 nm for the three ChlF emission-efficiency scenarios with shortwave forcing (left) and the midday fluorescence spectrum (right); SCOPE 2.1 on the bundled mSCOPE_ts example, 2006-06-17."
+      }
     }
   ]
 }
