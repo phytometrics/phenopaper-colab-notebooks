@@ -15869,6 +15869,38 @@
         "alt": "Reproduction of paper Fig. 6: fitted area-ratio and diameter-ratio changes between 60-90% RH per experiment group (stationary/levitated Lilium and Populus), with individual experiments overlaid",
         "caption": "Reproduction of paper Fig. 6: fitted area-ratio and diameter-ratio changes between 60-90% RH per experiment group (stationary/levitated Lilium and Populus), with individual experiments overlaid"
       }
+    },
+    {
+      "public_id": "p-7fbd086030611784efc7e53d071abc16",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Plant-pollinator specialization: Origin and measurement of curvature",
+      "journal": "openRxiv",
+      "authors": [
+        "Boehm MM, Jankowski JE, Cronk QC."
+      ],
+      "doi": "10.1101/2021.10.05.429567",
+      "compute": "CPU",
+      "validated_on": "2026-10-31",
+      "demonstration": "Reproduces the paper's metric-comparison subsection by running the author's 7_compare_altmetrics.R on the committed derived-data values for 57 Epimedium nectar spurs (partial scope: no landmark re-measurement, geomorph PCA, or supplement tables).",
+      "semantic_tags": [
+        "organ:flower",
+        "task:morphology",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Pairwise comparison of total spline curvature with the four historical curvature metrics, coloured by Epimedium taxon (author's ggpairs panel reproduced in Colab).",
+        "caption": "Pairwise comparison of total spline curvature with the four historical curvature metrics, coloured by Epimedium taxon (author's ggpairs panel reproduced in Colab)."
+      }
     }
   ]
 }
