@@ -15795,6 +15795,44 @@
         "alt": "Deterministic test samples per class with ground-truth label vs model prediction and confidence (green correct, red wrong)",
         "caption": "Deterministic test samples per class with ground-truth label vs model prediction and confidence (green correct, red wrong)"
       }
+    },
+    {
+      "public_id": "p-b98b5bc808db6c428bed118ff03e16c5",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "LadderFuelsR: A new automated tool for vertical fuel continuity analysis and crown base height detection using light detection and ranging",
+      "journal": "Methods in Ecology and Evolution",
+      "authors": [
+        "O. Viedma",
+        "C. A. Silva",
+        "J. M. Moreno",
+        "A. T. Hudak"
+      ],
+      "doi": "10.1111/2041-210x.14427",
+      "compute": "CPU",
+      "validated_on": "2026-10-31",
+      "demonstration": "Runs the authors' unmodified LadderFuelsR 0.0.7 gap/FBH, distance, depth, effective-layer, LAD% and CBH-criteria + breakpoint workflow (paper §2.2-2.9, README steps 8-22) on the authors' bundled Eglin sample LAD profiles for three trees on CPU; CHM/crown-segmentation and leafR LAD profiling steps are out of scope (leafR removed from CRAN).",
+      "semantic_tags": [
+        "environment:field",
+        "modality:point_cloud",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:object_detection",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Input LAD profile of sample tree 100_Eglin_zone1_CROWN with detected gaps (red) and fuel base heights (green) from the authors' get_gaps_fbhs()",
+        "caption": "Input LAD profile of sample tree 100_Eglin_zone1_CROWN with detected gaps (red) and fuel base heights (green) from the authors' get_gaps_fbhs()"
+      }
     }
   ]
 }
