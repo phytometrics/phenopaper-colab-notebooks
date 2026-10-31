@@ -15756,6 +15756,45 @@
         "alt": "Simulated diurnal cycles of F760 at 760 nm for the three ChlF emission-efficiency scenarios with shortwave forcing (left) and the midday fluorescence spectrum (right); SCOPE 2.1 on the bundled mSCOPE_ts example, 2006-06-17.",
         "caption": "Simulated diurnal cycles of F760 at 760 nm for the three ChlF emission-efficiency scenarios with shortwave forcing (left) and the midday fluorescence spectrum (right); SCOPE 2.1 on the bundled mSCOPE_ts example, 2006-06-17."
       }
+    },
+    {
+      "public_id": "p-0b2abe7b96bc135697b6921d84cf8eea",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "From Pixels to Diagnosis: Implementing and Evaluating a CNN Model for Tomato Leaf Disease Detection",
+      "journal": "Information",
+      "authors": [
+        "Zamir Osmenaj",
+        "Evgenia-Maria Tseliki",
+        "Sofia H. Kapellaki",
+        "George Tselikis",
+        "Nikolaos D. Tselikas"
+      ],
+      "doi": "10.3390/info16030231",
+      "compute": "CPU",
+      "validated_on": "2026-10-31",
+      "demonstration": "Loaded the authors' released custom CNN checkpoint and ran their documented 224x224/255 preprocessing over the entire 1100-image 80-10-10 test split on CPU, measuring 96.00% accuracy and 12.54% loss (paper Table 1: 96.00%/12.54%); VGG/ensemble training and the Greek-garden experiments are out of scope.",
+      "semantic_tags": [
+        "crop:tomato",
+        "environment:field",
+        "organ:leaf",
+        "task:classification",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Deterministic test samples per class with ground-truth label vs model prediction and confidence (green correct, red wrong)",
+        "caption": "Deterministic test samples per class with ground-truth label vs model prediction and confidence (green correct, red wrong)"
+      }
     }
   ]
 }
