@@ -15833,6 +15833,42 @@
         "alt": "Input LAD profile of sample tree 100_Eglin_zone1_CROWN with detected gaps (red) and fuel base heights (green) from the authors' get_gaps_fbhs()",
         "caption": "Input LAD profile of sample tree 100_Eglin_zone1_CROWN with detected gaps (red) and fuel base heights (green) from the authors' get_gaps_fbhs()"
       }
+    },
+    {
+      "public_id": "p-48a04d692d0b5f3862264b629ba9ee1c",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Acoustic levitation of pollen and visualisation of hygroscopic behaviour",
+      "journal": "Atmospheric Measurement Techniques",
+      "authors": [
+        "Sophie A. Mills",
+        "Adam Milsom",
+        "Christian Pfrang",
+        "A. Rob MacKenzie",
+        "Francis D. Pope"
+      ],
+      "doi": "10.5194/amt-16-4885-2023",
+      "compute": "CPU",
+      "validated_on": "2026-10-31",
+      "demonstration": "Re-executed the authors' summarised pollen hygroscopicity analysis (per-experiment linear regressions, 60-90% RH endpoint predictions, Fig. 6 group box-plots and paired t-tests) from the authors' AllDataProcessed.csv on CPU; the image-level pipeline needing the 1 GB ImageData.zip is out of scope.",
+      "semantic_tags": [
+        "crop:poplar",
+        "environment:laboratory",
+        "task:morphology"
+      ],
+      "preview": {
+        "alt": "Reproduction of paper Fig. 6: fitted area-ratio and diameter-ratio changes between 60-90% RH per experiment group (stationary/levitated Lilium and Populus), with individual experiments overlaid",
+        "caption": "Reproduction of paper Fig. 6: fitted area-ratio and diameter-ratio changes between 60-90% RH per experiment group (stationary/levitated Lilium and Populus), with individual experiments overlaid"
+      }
     }
   ]
 }
