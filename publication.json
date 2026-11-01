@@ -15901,6 +15901,43 @@
         "alt": "Pairwise comparison of total spline curvature with the four historical curvature metrics, coloured by Epimedium taxon (author's ggpairs panel reproduced in Colab).",
         "caption": "Pairwise comparison of total spline curvature with the four historical curvature metrics, coloured by Epimedium taxon (author's ggpairs panel reproduced in Colab)."
       }
+    },
+    {
+      "public_id": "p-c6582411aaa8aa0aef6e3b970a1bad74",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Comparing Inception V3, VGG 16, VGG 19, CNN, and ResNet 50: A Case Study on Early Detection of a Rice Disease",
+      "journal": "Agronomy",
+      "authors": [
+        "Syed Rehan Shah",
+        "Salman Qadri",
+        "Hadia Bibi",
+        "Syed Muhammad Waqas Shah",
+        "Muhammad Imran Sharif",
+        "Francesco Marinello"
+      ],
+      "doi": "10.3390/agronomy13061633",
+      "compute": "CPU",
+      "validated_on": "2026-11-01",
+      "demonstration": "Inference-only demo of the authors' released InceptionV3 rice-blast weights on 20 deterministic images from the cited Kaggle dataset, with an explicit sensitivity analysis because the authors' preprocessing and class names are unrecoverable; no training or accuracy verification.",
+      "semantic_tags": [
+        "crop:rice",
+        "organ:leaf",
+        "task:object_detection"
+      ],
+      "preview": {
+        "alt": "Downloaded rice leaf sample images titled with their reference class labels from the dataset folders",
+        "caption": "Downloaded rice leaf sample images titled with their reference class labels from the dataset folders"
+      }
     }
   ]
 }
