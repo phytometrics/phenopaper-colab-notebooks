@@ -15938,6 +15938,49 @@
         "alt": "Downloaded rice leaf sample images titled with their reference class labels from the dataset folders",
         "caption": "Downloaded rice leaf sample images titled with their reference class labels from the dataset folders"
       }
+    },
+    {
+      "public_id": "p-0736002eac0c069ca8e9961802ae84b5",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Detection and characterization of spike architecture based on deep learning and X-ray computed tomography in barley",
+      "journal": "Research Square Platform LLC",
+      "authors": [
+        "Ling Y, Zhao Q, Liu W, Wei K, Bao R, Song W, Nie X."
+      ],
+      "doi": "10.21203/rs.3.rs-2925483/v1",
+      "compute": "CPU",
+      "validated_on": "2026-11-01",
+      "demonstration": "Runs the authors' pinned Extraction.py point-cloud trait extraction (watershed, DBSCAN eps=3, voxel volume, alpha-shape surface) on one released UNet-predicted barley spike CT stack (s28829), reproducing spike length, grain count, per-grain volume/surface area on CPU; the UNet segmentation stage itself is not included.",
+      "semantic_tags": [
+        "crop:barley",
+        "crop:wheat",
+        "modality:point_cloud",
+        "modality:xray_ct",
+        "organ:inflorescence",
+        "organ:seed",
+        "task:classification",
+        "task:morphology",
+        "task:object_detection",
+        "task:reconstruction",
+        "task:segmentation",
+        "trait:architecture",
+        "trait:reproductive_traits",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Input to the reproduction: the authors' UNet-predicted spike mask stack for variety s28829 (transverse mid-slices from predicted_nii/1721_Unet_predicted_model3_mask3_stacked.nii)",
+        "caption": "Input to the reproduction: the authors' UNet-predicted spike mask stack for variety s28829 (transverse mid-slices from predicted_nii/1721_Unet_predicted_model3_mask3_stacked.nii)"
+      }
     }
   ]
 }
