@@ -15981,6 +15981,51 @@
         "alt": "Input to the reproduction: the authors' UNet-predicted spike mask stack for variety s28829 (transverse mid-slices from predicted_nii/1721_Unet_predicted_model3_mask3_stacked.nii)",
         "caption": "Input to the reproduction: the authors' UNet-predicted spike mask stack for variety s28829 (transverse mid-slices from predicted_nii/1721_Unet_predicted_model3_mask3_stacked.nii)"
       }
+    },
+    {
+      "public_id": "p-650819c551206a400b5a5865a67bb67b",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A photometric stereo-based 3D imaging system using computer vision and deep learning for tracking plant growth",
+      "journal": "GigaScience",
+      "authors": [
+        "Gytis Bernotas",
+        "Livia Scorza",
+        "Mark Hansen",
+        "Ian Hales",
+        "Karen Halliday",
+        "Lyndon Smith",
+        "Melvyn Smith",
+        "Alistair J. McCormick"
+      ],
+      "doi": "10.1093/gigascience/giz056",
+      "compute": "CPU",
+      "validated_on": "2026-11-02",
+      "demonstration": "Executed the full PS-Plant chain (adaptive LSV, photometric-stereo solve, rosette/leaf segmentation with the authors' Mask R-CNN weights, tracking, trait CSVs) on the 10 supplied test acquisitions of plant 0 on a Colab CPU runtime, with machine-precision adaptive-LSV agreement; instance-level IoU against the shipped per-plant bbox-crop mask products is reported as frame-mismatched rather than forced.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:segmentation",
+        "task:tracking",
+        "trait:architecture",
+        "trait:growth_development",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Frame 1 of acquisition 2017-11-11_03-00-08_NIR: 512x512 grayscale crop (input), our rosette/leaf masks and tracked masks, and the author-provided reference products side by side.",
+        "caption": "Frame 1 of acquisition 2017-11-11_03-00-08_NIR: 512x512 grayscale crop (input), our rosette/leaf masks and tracked masks, and the author-provided reference products side by side."
+      }
     }
   ]
 }
