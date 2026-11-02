@@ -16026,6 +16026,46 @@
         "alt": "Frame 1 of acquisition 2017-11-11_03-00-08_NIR: 512x512 grayscale crop (input), our rosette/leaf masks and tracked masks, and the author-provided reference products side by side.",
         "caption": "Frame 1 of acquisition 2017-11-11_03-00-08_NIR: 512x512 grayscale crop (input), our rosette/leaf masks and tracked masks, and the author-provided reference products side by side."
       }
+    },
+    {
+      "public_id": "p-9a58bdb409187db68c0bc4aca3b42431",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "DIRT/mu: Automatic root hair measurement in maize (Zea mays ssp.) from microscopy images",
+      "journal": "Wiley",
+      "authors": [
+        "Peter Pietrzyk",
+        "Neen Phan-Udom",
+        "Chartinun Chutoe",
+        "Patompong Saengwilai",
+        "Alexander Bucksch"
+      ],
+      "doi": "10.1002/essoar.10508833.1",
+      "compute": "CPU",
+      "validated_on": "2026-11-02",
+      "demonstration": "Runs the author's unmodified DIRT/mu 1.1 pipeline (README example command) on a deterministic 1024x1024 crop of the bundled classified sample to extract individual root hairs and measure length/density; the full-image default run exceeds 12 CPU-hours, so results are crop-level only.",
+      "semantic_tags": [
+        "crop:maize",
+        "modality:microscopy",
+        "organ:root",
+        "task:morphology",
+        "task:reconstruction",
+        "task:segmentation",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "Left: input 1024px crop of the classified sample TAKFA3-n3-1 (red = root hair, green = parent root, white = background). Right: DIRT/mu predicted root hairs (author output roothairs.png) for the same crop.",
+        "caption": "Left: input 1024px crop of the classified sample TAKFA3-n3-1 (red = root hair, green = parent root, white = background). Right: DIRT/mu predicted root hairs (author output roothairs.png) for the same crop."
+      }
     }
   ]
 }
