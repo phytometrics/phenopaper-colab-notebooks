@@ -16141,6 +16141,43 @@
         "alt": "KGCV-Strawberry demo overview: six observations of tagged fruit No. 12 with aligned predicted boxes (red), estimated vs observed sizes, remaining-days and final-size predictions.",
         "caption": "KGCV-Strawberry demo overview: six observations of tagged fruit No. 12 with aligned predicted boxes (red), estimated vs observed sizes, remaining-days and final-size predictions."
       }
+    },
+    {
+      "public_id": "p-a3eca218d6b1924e7979bac50450edd3",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "High-Throughput Phenotyping of Soybean Maturity Using Time Series UAV Imagery and Convolutional Neural Networks",
+      "journal": "Remote Sensing",
+      "authors": [
+        "Rodrigo Trevisan",
+        "Osvaldo Pérez",
+        "Nathan Schmitz",
+        "Brian W. Diers",
+        "Nicolás F. Martín"
+      ],
+      "doi": "10.3390/rs12213617",
+      "compute": "CPU",
+      "validated_on": "2026-11-03",
+      "demonstration": "Pretrained two-stage CNN inference (model_2018.pth) on the authors' example trial examples/2019_F05A (100 plots x 6 UAV dates), exporting per-plot Mat predictions; single-field CPU demo without ground truth or the paper's dataset-level validation.",
+      "semantic_tags": [
+        "crop:soybean",
+        "environment:field",
+        "task:time_series",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Original UAV input image of plot F05A_0000 (DOY 273) with the model's predicted Mat value overlaid (notebook addition)",
+        "caption": "Original UAV input image of plot F05A_0000 (DOY 273) with the model's predicted Mat value overlaid (notebook addition)"
+      }
     }
   ]
 }
