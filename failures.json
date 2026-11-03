@@ -16,6 +16,23 @@
       "created_on": "2026-11-03"
     },
     {
+      "public_id": "p-0195a942b03487ad5f2e888284141768",
+      "title": "In-field apple size estimation using photogrammetry-derived 3D point clouds: Comparison of 4 different methods considering fruit occlusions",
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Jordi Gené-Mola",
+        "Ricardo Sanz",
+        "Joan R. Rosell-Polo",
+        "Alexandre Escolà",
+        "Eduard Gregorio"
+      ],
+      "investigation_run_id": "p-0195a942b03487ad5f2e888284141768-20260930T123422Z-3659936",
+      "run_id": "p-0195a942b03487ad5f2e888284141768",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-11-03T04:31:34.933Z] ! permission requested: external_directory (/home/phenotyping-colab/runs/p-0195a942b03487ad5f2e888284141768/notes/*); auto-rejecting | [2026-11-03T04:31:34.949Z] ✗ Write /home/phenotyping-colab/runs/p-0195a942b03487ad5f2e888284141768/notes/feasibility.md failed | [2026-11-03T04:31:34.949Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-11-03"
+    },
+    {
       "public_id": "p-fbb38ad1b0359d1d5c678140ab439154",
       "title": "New Geometric Models for Shape Quantification of the Dorsal View in Seeds of Silene Species",
       "journal": "Plants",
@@ -223,17 +240,6 @@
       "reason": "OpenCode exited with status 1 without a valid queue-result.json. Last captured output: [2026-10-09T16:04:53.746Z] > build · GLM-5.3-Flash-EXL3 | [2026-10-09T16:05:57.599Z] Error: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"} | Required queue-result.json is unavailable or invalid: FileNotFoundError",
       "created_on": "2026-10-27",
       "notebook_path": "notebooks/unverified/p-4ebf3615dbb08288d8c72e58156747e6.ipynb"
-    },
-    {
-      "public_id": "p-0195a942b03487ad5f2e888284141768",
-      "title": "p-0195a942b03487ad5f2e888284141768",
-      "journal": null,
-      "authors": [],
-      "investigation_run_id": "p-0195a942b03487ad5f2e888284141768-20260930T123422Z-3659936",
-      "run_id": "p-0195a942b03487ad5f2e888284141768",
-      "status": "failed",
-      "reason": "OpenCode exited with status 1 without a valid queue-result.json. Last captured output: [2026-10-09T16:11:39.550Z] > build · GLM-5.3-Flash-EXL3 | [2026-10-09T16:12:44.074Z] Error: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"} | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-27"
     },
     {
       "public_id": "p-a3eca218d6b1924e7979bac50450edd3",
