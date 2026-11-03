@@ -16105,6 +16105,42 @@
         "alt": "Original X-ray CT slices (z=200/430/660) of the demo paddy soil monolith (860x1024x1024 voxels @ 0.3 mm/voxel) - the input handled by this reproduction; no overlay is shown because the vectorization stages were skipped by the feasibility guard.",
         "caption": "Original X-ray CT slices (z=200/430/660) of the demo paddy soil monolith (860x1024x1024 voxels @ 0.3 mm/voxel) - the input handled by this reproduction; no overlay is shown because the vectorization stages were skipped by the feasibility guard."
       }
+    },
+    {
+      "public_id": "p-1ac9a74760da303db353fcccfe250a65",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Predicting the growth trajectory and yield of greenhouse strawberries based on knowledge-guided computer vision",
+      "journal": "Computers and Electronics in Agriculture",
+      "authors": [
+        "Qi Liang Yang",
+        "Licheng Liu",
+        "Junxiong Zhou",
+        "Mary Rogers",
+        "Zhenong Jin"
+      ],
+      "doi": "10.1016/j.compag.2024.108911",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-11-03",
+      "demonstration": "Author demo of the KGCV-Strawberry framework (paper Fig. 17) on one tagged fruit: Faster R-CNN detection, densenet121 size/phenology estimation, knowledge-guided S-curve fitting, growth-Net final-size and harvest-time prediction, fresh-weight estimate 8.06 g vs observed 7.28 g; single-fruit scope only.",
+      "semantic_tags": [
+        "crop:strawberry",
+        "environment:greenhouse",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "KGCV-Strawberry demo overview: six observations of tagged fruit No. 12 with aligned predicted boxes (red), estimated vs observed sizes, remaining-days and final-size predictions.",
+        "caption": "KGCV-Strawberry demo overview: six observations of tagged fruit No. 12 with aligned predicted boxes (red), estimated vs observed sizes, remaining-days and final-size predictions."
+      }
     }
   ]
 }
