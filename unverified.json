@@ -351,6 +351,22 @@
       "notebook_sha256": "d72916b5a4bfa9f40435ee65a6eec2958340c9c71a7075045880054370b9dbe9",
       "source_sha256": "4742ab42daa2e02f21850b6715c32e74754d05ac420efeb14105cae0ed6c20f0",
       "code_cells": 10
+    },
+    {
+      "public_id": "p-95c3f45f933235add6de6be81923a2bf",
+      "title": "\"You Are Not My Type\": An Evaluation of Classification Methods for Automatic Phytolith Identification.",
+      "journal": "Microscopy and microanalysis : the official journal of Microscopy Society of America, Microbeam Analysis Society, Microscopical Society of Canada",
+      "authors": [
+        "Díez-Pastor JF, Latorre-Carmona P, Arnaiz-González Á, Ruiz-Pérez J, Zurro D."
+      ],
+      "investigation_run_id": "p-95c3f45f933235add6de6be81923a2bf-20260929T102758Z-2522632",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-11-03T04:58:38.568Z] ! permission requested: external_directory (/*); auto-rejecting | [2026-11-03T04:58:38.580Z] ✗ cd /home/phyto/phenotyping-colab && rc=0; for i in $(seq 1 9); do python3 tools/wait_colab_exec.py --record runs/p-95c3f45f933235add6de6be81923a2bf/logs/final_run3_20261103T044713Z.log.execution.json --max-wait  | [2026-11-03T04:58:38.580Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-11-03",
+      "notebook_path": "notebooks/unverified/p-95c3f45f933235add6de6be81923a2bf.ipynb",
+      "notebook_sha256": "b11fe5f8ba6f977d06822b7f415c149e415e55d9e6f60009f0b1872ec46dfcfe",
+      "source_sha256": "d10d6ef7f2f7b48badace6de1a41a50486b3f7ad96e5221ac75eb0a455d6e548",
+      "code_cells": 39
     }
   ]
 }

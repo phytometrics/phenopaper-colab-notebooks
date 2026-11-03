@@ -70,17 +70,6 @@
       "notebook_path": "notebooks/unverified/p-9a58bdb409187db68c0bc4aca3b42431.ipynb"
     },
     {
-      "public_id": "p-95c3f45f933235add6de6be81923a2bf",
-      "title": "p-95c3f45f933235add6de6be81923a2bf",
-      "journal": null,
-      "authors": [],
-      "investigation_run_id": "p-95c3f45f933235add6de6be81923a2bf-20260929T102758Z-2522632",
-      "run_id": "p-95c3f45f933235add6de6be81923a2bf",
-      "status": "failed",
-      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-28T02:09:03.485Z] - 予算3/3消費のため、修復版（sha256 `d10d6ef7…`、静的検証クリア）の新鮮な全体実行は次回invokeへ。所有セッション3つは全て停止・ログ保存済み | [2026-10-28T02:09:03.485Z] **成果物**: `deliverables/p-95c3f45f933235add6de6be81923a2bf.ipynb`、`report.md`、`queue-result.json`（status=`failed`、スキーマ検証済み）、`logs/` に全失敗証拠。 | [2026-10-28T02:09:03.485Z] **次回invokeの指示**（STATE.mdに記載済み）：修復済みノートブックを新鮮CPUセッションで約80〜95分の全体実行 → セルエラーゼロ確認 → `publication.py --compute CPU` で公開。 | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-28"
-    },
-    {
       "public_id": "p-26ff2584da9abdb7eb0c9266d19fc880",
       "title": "GinJinn2: Object detection and segmentation for ecology and evolution",
       "journal": "Methods in Ecology and Evolution",
@@ -1929,6 +1918,20 @@
         "Kalhari Manawasinghe",
         "Karen Tanino"
       ]
+    },
+    {
+      "public_id": "p-95c3f45f933235add6de6be81923a2bf",
+      "title": "\"You Are Not My Type\": An Evaluation of Classification Methods for Automatic Phytolith Identification.",
+      "journal": "Microscopy and microanalysis : the official journal of Microscopy Society of America, Microbeam Analysis Society, Microscopical Society of Canada",
+      "authors": [
+        "Díez-Pastor JF, Latorre-Carmona P, Arnaiz-González Á, Ruiz-Pérez J, Zurro D."
+      ],
+      "investigation_run_id": "p-95c3f45f933235add6de6be81923a2bf-20260929T102758Z-2522632",
+      "run_id": "p-95c3f45f933235add6de6be81923a2bf",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-11-03T04:58:38.568Z] ! permission requested: external_directory (/*); auto-rejecting | [2026-11-03T04:58:38.580Z] ✗ cd /home/phyto/phenotyping-colab && rc=0; for i in $(seq 1 9); do python3 tools/wait_colab_exec.py --record runs/p-95c3f45f933235add6de6be81923a2bf/logs/final_run3_20261103T044713Z.log.execution.json --max-wait  | [2026-11-03T04:58:38.580Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-11-03",
+      "notebook_path": "notebooks/unverified/p-95c3f45f933235add6de6be81923a2bf.ipynb"
     }
   ]
 }
