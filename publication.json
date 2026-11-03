@@ -16350,6 +16350,45 @@
         "alt": "Notebook-added result graph: observed island counts versus SDP33 with fitted Poisson mean response for present and palaeo-island configurations (flat, non-significant slopes).",
         "caption": "Notebook-added result graph: observed island counts versus SDP33 with fitted Poisson mean response for present and palaeo-island configurations (flat, non-significant slopes)."
       }
+    },
+    {
+      "public_id": "p-26ff2584da9abdb7eb0c9266d19fc880",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "GinJinn2: Object detection and segmentation for ecology and evolution",
+      "journal": "Methods in Ecology and Evolution",
+      "authors": [
+        "Tankred Ott",
+        "Ulrich Lautenschlager"
+      ],
+      "doi": "10.1111/2041-210x.13787",
+      "compute": "T4 GPU",
+      "validated_on": "2026-11-03",
+      "demonstration": "Runs the GinJinn2 seed-mixture example end to end (authors' CLI: split, 300-iteration Faster R-CNN training from deposited seeds.yaml, COCO test evaluation, prediction and per-genus counting on 3 held-out images); results are demonstrative of the pipeline, not published performance.",
+      "semantic_tags": [
+        "environment:field",
+        "organ:leaf",
+        "organ:seed",
+        "organ:stomata",
+        "organ:whole_plant",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:leaf_traits",
+        "trait:stomatal_traits"
+      ],
+      "preview": {
+        "alt": "PLACEHOLDER — test image with reference COCO annotations (GT overlay) from the GFBio GinJinn2 seeds dataset",
+        "caption": "PLACEHOLDER — test image with reference COCO annotations (GT overlay) from the GFBio GinJinn2 seeds dataset"
+      }
     }
   ]
 }
