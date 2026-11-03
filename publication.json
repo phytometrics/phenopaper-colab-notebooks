@@ -16066,6 +16066,45 @@
         "alt": "Left: input 1024px crop of the classified sample TAKFA3-n3-1 (red = root hair, green = parent root, white = background). Right: DIRT/mu predicted root hairs (author output roothairs.png) for the same crop.",
         "caption": "Left: input 1024px crop of the classified sample TAKFA3-n3-1 (red = root hair, green = parent root, white = background). Right: DIRT/mu predicted root hairs (author output roothairs.png) for the same crop."
       }
+    },
+    {
+      "public_id": "p-183d5b4abeda554cbd985222856739a5",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Detection of quantitative trait loci for rice root systems grown in paddies based on nondestructive phenotyping using X‐ray computed tomography",
+      "journal": "The Plant Journal",
+      "authors": [
+        "Shota Teramoto",
+        "Yusaku Uga"
+      ],
+      "doi": "10.1111/tpj.17171",
+      "compute": "T4 GPU",
+      "validated_on": "2026-11-03",
+      "demonstration": "Executed the authors' RSAvis3D edge extraction, soil-surface mask and RSApaddy3D root-segmentation/distance-map stages on the demo paddy CT monolith (T4 GPU, 4150 s); the vectorization and trait stages were skipped by an evidence-based feasibility guard because the authors' leaf-pair search would enumerate 6,212,981 pairs on this volume, so no trait values are reported.",
+      "semantic_tags": [
+        "crop:rice",
+        "environment:field",
+        "modality:xray_ct",
+        "organ:root",
+        "organ:whole_plant",
+        "task:morphology",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "Original X-ray CT slices (z=200/430/660) of the demo paddy soil monolith (860x1024x1024 voxels @ 0.3 mm/voxel) - the input handled by this reproduction; no overlay is shown because the vectorization stages were skipped by the feasibility guard.",
+        "caption": "Original X-ray CT slices (z=200/430/660) of the demo paddy soil monolith (860x1024x1024 voxels @ 0.3 mm/voxel) - the input handled by this reproduction; no overlay is shown because the vectorization stages were skipped by the feasibility guard."
+      }
     }
   ]
 }
