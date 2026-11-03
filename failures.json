@@ -2,6 +2,57 @@
   "schema_version": 1,
   "failures": [
     {
+      "public_id": "p-a07c85ffebedbf10d8d7f19fae48c5b2",
+      "title": "Pineapple fruit detection and size determination in a juicing factory in the Eastern Cape, South Africa",
+      "journal": "South African Journal of Science",
+      "authors": [
+        "Jessica Harris",
+        "Sebnem Er"
+      ],
+      "investigation_run_id": "p-a07c85ffebedbf10d8d7f19fae48c5b2-20261007T133909Z-4135620",
+      "run_id": "p-a07c85ffebedbf10d8d7f19fae48c5b2",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-11-03T03:03:07.731Z] ! permission requested: external_directory (/home/*); auto-rejecting | [2026-11-03T03:03:07.742Z] ✗ cd /home/phyto/phenotyping-colab/runs/p-a07c85ffebedbf10d8d7f19fae48c5b2-20261026T055239Z/sources/code/mask_rcnn && ls mrcnn && grep -n \"^import \\|^from \\|    import \\|    from \" mrcnn/model.py | grep -i keras;  | [2026-11-03T03:03:07.742Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-11-03"
+    },
+    {
+      "public_id": "p-fbb38ad1b0359d1d5c678140ab439154",
+      "title": "New Geometric Models for Shape Quantification of the Dorsal View in Seeds of Silene Species",
+      "journal": "Plants",
+      "authors": [
+        "José Luis Rodríguez-Lorenzo",
+        "José Javier Martín-Gómez",
+        "Ángel Tocino",
+        "Ana Juan",
+        "Bohuslav Janoušek",
+        "Emilio Cervantes"
+      ],
+      "investigation_run_id": "p-fbb38ad1b0359d1d5c678140ab439154-20261029T163717Z-1176116",
+      "run_id": "p-fbb38ad1b0359d1d5c678140ab439154-20261029T165808Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-29T17:37:40.583Z] ✗ cd /home/phyto/phenotyping-colab/runs/p-fbb38ad1b0359d1d5c678140ab439154-20261029T165808Z && mv deliverables/p-fbb38ad1b0359d1d5c678140ab439154_output.ipynb logs/diag1_output.ipynb 2>/dev/null; mv deliverables/p | [2026-10-29T17:37:40.583Z] Error: The user rejected permission to use this specific tool call. | [2026-10-29T17:37:42.245Z] Now the diagnostic full-notebook run to verify the repaired pipeline end to end: | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-10-30",
+      "notebook_path": "notebooks/unverified/p-fbb38ad1b0359d1d5c678140ab439154.ipynb"
+    },
+    {
+      "public_id": "p-9a58bdb409187db68c0bc4aca3b42431",
+      "title": "DIRT/mu: Automatic root hair measurement in maize (Zea mays ssp.) from microscopy images",
+      "journal": "Wiley",
+      "authors": [
+        "Peter Pietrzyk",
+        "Neen Phan-Udom",
+        "Chartinun Chutoe",
+        "Patompong Saengwilai",
+        "Alexander Bucksch"
+      ],
+      "investigation_run_id": "p-9a58bdb409187db68c0bc4aca3b42431-20261028T175055Z-4095007",
+      "run_id": "p-9a58bdb409187db68c0bc4aca3b42431-20261028T181035Z",
+      "status": "failed",
+      "reason": "Faithful author-default full-image run measured infeasible (>16 h CPU: 896456 candidates, merging ~130-160 idx/min); re-scoped to a deterministic 1024x1024 crop with unchanged pipeline/parameters. The crop run completed all computation (candidates 49m42s, optimization 2h45m) but crashed saving outputs because the notebook run cell lacked 'mkdir -p /content/dirtmu/out' (OSError in rh_io.save_table); 4 downstream result cells then failed on missing files. Three-session budget exhausted; notebook repaired (sha256 290e85d69f6e02294f4146da921ee63365fe69c8e096e34a24954b77e68be01e) and statically valid; fresh full validation required on requeue.",
+      "created_on": "2026-10-29",
+      "notebook_path": "notebooks/unverified/p-9a58bdb409187db68c0bc4aca3b42431.ipynb"
+    },
+    {
       "public_id": "p-95c3f45f933235add6de6be81923a2bf",
       "title": "p-95c3f45f933235add6de6be81923a2bf",
       "journal": null,
@@ -11,6 +62,21 @@
       "status": "failed",
       "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-28T02:09:03.485Z] - 予算3/3消費のため、修復版（sha256 `d10d6ef7…`、静的検証クリア）の新鮮な全体実行は次回invokeへ。所有セッション3つは全て停止・ログ保存済み | [2026-10-28T02:09:03.485Z] **成果物**: `deliverables/p-95c3f45f933235add6de6be81923a2bf.ipynb`、`report.md`、`queue-result.json`（status=`failed`、スキーマ検証済み）、`logs/` に全失敗証拠。 | [2026-10-28T02:09:03.485Z] **次回invokeの指示**（STATE.mdに記載済み）：修復済みノートブックを新鮮CPUセッションで約80〜95分の全体実行 → セルエラーゼロ確認 → `publication.py --compute CPU` で公開。 | Required queue-result.json is unavailable or invalid: FileNotFoundError",
       "created_on": "2026-10-28"
+    },
+    {
+      "public_id": "p-26ff2584da9abdb7eb0c9266d19fc880",
+      "title": "GinJinn2: Object detection and segmentation for ecology and evolution",
+      "journal": "Methods in Ecology and Evolution",
+      "authors": [
+        "Tankred Ott",
+        "Ulrich Lautenschlager"
+      ],
+      "investigation_run_id": "p-26ff2584da9abdb7eb0c9266d19fc880-20261008T163334Z-1263924",
+      "run_id": "p-26ff2584da9abdb7eb0c9266d19fc880",
+      "status": "failed",
+      "reason": "Notebook repaired and passed a complete diagnostic T4 run (15/15 cells, 0 errors, AP 85.8 test bbox, counts produced), but the 3-session budget was exhausted before a fresh-runtime Run-all validation could be repeated; diagnostic success does not replace fresh validation, so no publication. Requeue path: allocate one fresh T4 session and exec deliverables/p-26ff2584da9abdb7eb0c9266d19fc880.ipynb (sha256 9778620364fbb1f9d1bd9276a3d799789d88e1d405b56c6ca36395cc075aa206), archive *_output.ipynb + CLI log, then publish. Fixes applied this invocation: pip arg order, zip layout (no wrapping folder), non-interactive split acceptance with printed proposal, idempotent COCOEvaluator patch, output pre-cleanup.",
+      "created_on": "2026-10-28",
+      "notebook_path": "notebooks/unverified/p-26ff2584da9abdb7eb0c9266d19fc880.ipynb"
     },
     {
       "public_id": "p-d09aaac1e54e7ace6bc2213351a11bb3",
@@ -184,17 +250,6 @@
       "run_id": "p-a3eca218d6b1924e7979bac50450edd3",
       "status": "failed",
       "reason": "OpenCode exited with status 1 without a valid queue-result.json. Last captured output: [2026-10-09T15:44:39.583Z] > build · GLM-5.3-Flash-EXL3 | [2026-10-09T15:45:44.807Z] Error: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"} | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-26"
-    },
-    {
-      "public_id": "p-a07c85ffebedbf10d8d7f19fae48c5b2",
-      "title": "p-a07c85ffebedbf10d8d7f19fae48c5b2",
-      "journal": null,
-      "authors": [],
-      "investigation_run_id": "p-a07c85ffebedbf10d8d7f19fae48c5b2-20261007T133909Z-4135620",
-      "run_id": "p-a07c85ffebedbf10d8d7f19fae48c5b2",
-      "status": "failed",
-      "reason": "OpenCode exited with status 1 without a valid queue-result.json. Last captured output: [2026-10-09T15:39:06.065Z] > build · GLM-5.3-Flash-EXL3 | [2026-10-09T15:40:10.353Z] Error: {\"message\":\"the two ranks are out of step after an error; restart both\",\"type\":\"server_error\"} | Required queue-result.json is unavailable or invalid: FileNotFoundError",
       "created_on": "2026-10-26"
     },
     {
@@ -1868,58 +1923,6 @@
         "Kalhari Manawasinghe",
         "Karen Tanino"
       ]
-    },
-    {
-      "public_id": "p-26ff2584da9abdb7eb0c9266d19fc880",
-      "title": "GinJinn2: Object detection and segmentation for ecology and evolution",
-      "journal": "Methods in Ecology and Evolution",
-      "authors": [
-        "Tankred Ott",
-        "Ulrich Lautenschlager"
-      ],
-      "investigation_run_id": "p-26ff2584da9abdb7eb0c9266d19fc880-20261008T163334Z-1263924",
-      "run_id": "p-26ff2584da9abdb7eb0c9266d19fc880",
-      "status": "failed",
-      "reason": "Notebook repaired and passed a complete diagnostic T4 run (15/15 cells, 0 errors, AP 85.8 test bbox, counts produced), but the 3-session budget was exhausted before a fresh-runtime Run-all validation could be repeated; diagnostic success does not replace fresh validation, so no publication. Requeue path: allocate one fresh T4 session and exec deliverables/p-26ff2584da9abdb7eb0c9266d19fc880.ipynb (sha256 9778620364fbb1f9d1bd9276a3d799789d88e1d405b56c6ca36395cc075aa206), archive *_output.ipynb + CLI log, then publish. Fixes applied this invocation: pip arg order, zip layout (no wrapping folder), non-interactive split acceptance with printed proposal, idempotent COCOEvaluator patch, output pre-cleanup.",
-      "created_on": "2026-10-28",
-      "notebook_path": "notebooks/unverified/p-26ff2584da9abdb7eb0c9266d19fc880.ipynb"
-    },
-    {
-      "public_id": "p-9a58bdb409187db68c0bc4aca3b42431",
-      "title": "DIRT/mu: Automatic root hair measurement in maize (Zea mays ssp.) from microscopy images",
-      "journal": "Wiley",
-      "authors": [
-        "Peter Pietrzyk",
-        "Neen Phan-Udom",
-        "Chartinun Chutoe",
-        "Patompong Saengwilai",
-        "Alexander Bucksch"
-      ],
-      "investigation_run_id": "p-9a58bdb409187db68c0bc4aca3b42431-20261028T175055Z-4095007",
-      "run_id": "p-9a58bdb409187db68c0bc4aca3b42431-20261028T181035Z",
-      "status": "failed",
-      "reason": "Faithful author-default full-image run measured infeasible (>16 h CPU: 896456 candidates, merging ~130-160 idx/min); re-scoped to a deterministic 1024x1024 crop with unchanged pipeline/parameters. The crop run completed all computation (candidates 49m42s, optimization 2h45m) but crashed saving outputs because the notebook run cell lacked 'mkdir -p /content/dirtmu/out' (OSError in rh_io.save_table); 4 downstream result cells then failed on missing files. Three-session budget exhausted; notebook repaired (sha256 290e85d69f6e02294f4146da921ee63365fe69c8e096e34a24954b77e68be01e) and statically valid; fresh full validation required on requeue.",
-      "created_on": "2026-10-29",
-      "notebook_path": "notebooks/unverified/p-9a58bdb409187db68c0bc4aca3b42431.ipynb"
-    },
-    {
-      "public_id": "p-fbb38ad1b0359d1d5c678140ab439154",
-      "title": "New Geometric Models for Shape Quantification of the Dorsal View in Seeds of Silene Species",
-      "journal": "Plants",
-      "authors": [
-        "José Luis Rodríguez-Lorenzo",
-        "José Javier Martín-Gómez",
-        "Ángel Tocino",
-        "Ana Juan",
-        "Bohuslav Janoušek",
-        "Emilio Cervantes"
-      ],
-      "investigation_run_id": "p-fbb38ad1b0359d1d5c678140ab439154-20261029T163717Z-1176116",
-      "run_id": "p-fbb38ad1b0359d1d5c678140ab439154-20261029T165808Z",
-      "status": "failed",
-      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-10-29T17:37:40.583Z] ✗ cd /home/phyto/phenotyping-colab/runs/p-fbb38ad1b0359d1d5c678140ab439154-20261029T165808Z && mv deliverables/p-fbb38ad1b0359d1d5c678140ab439154_output.ipynb logs/diag1_output.ipynb 2>/dev/null; mv deliverables/p | [2026-10-29T17:37:40.583Z] Error: The user rejected permission to use this specific tool call. | [2026-10-29T17:37:42.245Z] Now the diagnostic full-notebook run to verify the repaired pipeline end to end: | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-10-30",
-      "notebook_path": "notebooks/unverified/p-fbb38ad1b0359d1d5c678140ab439154.ipynb"
     }
   ]
 }
