@@ -16320,6 +16320,36 @@
         "alt": "Kept-vs-removed ErrorRisk screening histogram for the largest Trait x species group (Plant height, vegetative / Vaccinium vitis-idaea, 4,222 records), rendered with the authors' ggplot call",
         "caption": "Kept-vs-removed ErrorRisk screening histogram for the largest Trait x species group (Plant height, vegetative / Vaccinium vitis-idaea, 4,222 records), rendered with the authors' ggplot call"
       }
+    },
+    {
+      "public_id": "p-97c933d2370a0c4f6e0ed35465442fbb",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Sea dispersal potential and colonization of the Galápagos littoral flora",
+      "journal": "Journal of biogeography",
+      "authors": [
+        "Fuster‐Calvo A, Nogales M, Heleno R, Vera C, Vargas P."
+      ],
+      "doi": null,
+      "compute": "CPU",
+      "validated_on": "2026-11-03",
+      "demonstration": "Re-runs the author's pinned Poisson GLM branch (SDPi vs inter-island distribution, 19 Galapagos littoral species) verbatim via Rscript on a Colab CPU runtime, reproducing every author reference p-value; limited to this single analysis branch (no wet-lab or morphology parts).",
+      "semantic_tags": [
+        "organ:seed"
+      ],
+      "preview": {
+        "alt": "Notebook-added result graph: observed island counts versus SDP33 with fitted Poisson mean response for present and palaeo-island configurations (flat, non-significant slopes).",
+        "caption": "Notebook-added result graph: observed island counts versus SDP33 with fitted Poisson mean response for present and palaeo-island configurations (flat, non-significant slopes)."
+      }
     }
   ]
 }
