@@ -16389,6 +16389,44 @@
         "alt": "PLACEHOLDER — test image with reference COCO annotations (GT overlay) from the GFBio GinJinn2 seeds dataset",
         "caption": "PLACEHOLDER — test image with reference COCO annotations (GT overlay) from the GFBio GinJinn2 seeds dataset"
       }
+    },
+    {
+      "public_id": "p-eb6567442d04f5abb15494e72d80a379",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "CellScore: an open-source image-based pipeline for automated cell quantification in microalgae",
+      "journal": "Advanced Biotechnology",
+      "authors": [
+        "Sally Do",
+        "Shijie Huang",
+        "Angelyn Plan",
+        "Noah Birn",
+        "Alexander Walker",
+        "Zhi-Yan Du"
+      ],
+      "doi": "10.1007/s44307-026-00131-w",
+      "compute": "CPU",
+      "validated_on": "2026-11-14",
+      "demonstration": "Headless Fiji reproduction of the CellScore demo (auto_run.ijm on raw_picture.jpg): the author macro verbatim cannot binarize the committed re-encoded JPEG (threshold saturation), so a disclosed single-parameter adaptation (threshold 156 to 132) reproduces the committed reference within 0.7% count and 87% centroid agreement on one demo image; not a verification of the paper's 36-image accuracy claims.",
+      "semantic_tags": [
+        "environment:laboratory",
+        "modality:microscopy",
+        "organ:cell",
+        "task:counting"
+      ],
+      "preview": {
+        "alt": "CellScore demo reproduction: manual clicks (blue) versus the adapted-run automated count (red rings) overlaid on the raw hemocytometer image, after the authors' annotate.ipynb.",
+        "caption": "CellScore demo reproduction: manual clicks (blue) versus the adapted-run automated count (red rings) overlaid on the raw hemocytometer image, after the authors' annotate.ipynb."
+      }
     }
   ]
 }
