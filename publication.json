@@ -16532,6 +16532,39 @@
         "alt": "Original iPhone RGB inputs with MobileSAMv2 trunk masks (red tint) and estimated breast-height points (yellow dot) — model predictions from the authors' exporter, not reference annotations.",
         "caption": "Original iPhone RGB inputs with MobileSAMv2 trunk masks (red tint) and estimated breast-height points (yellow dot) — model predictions from the authors' exporter, not reference annotations."
       }
+    },
+    {
+      "public_id": "p-adaab1acba5e07841a8eeb4070c437f5",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Knowledge-guided multi-task learning with cascade out-of-distribution rejection for rice leaf disease diagnosis.",
+      "journal": "PloS one",
+      "authors": [
+        "Lyu X, Bai L, Yu Y, Liu L."
+      ],
+      "doi": "10.1371/journal.pone.0362080",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-11-14",
+      "demonstration": "Reproduced the released MTRNet checkpoint's Cascade Inference System OOD rejection on the fixed reference split (FRR 38/595, ORR 813/1000 = Stage I 763 + Stage II 50, matching the authors' recorded values exactly); training and cross-validation are out of scope.",
+      "semantic_tags": [
+        "crop:rice",
+        "organ:leaf",
+        "task:classification",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Stage I Bio-Grey Filter overlay on an actual rice test leaf and an OOD image: green pixels are the HSV plant mask (H 12 to 65, S greater than 60, V greater than 40) that rejects OOD inputs.",
+        "caption": "Stage I Bio-Grey Filter overlay on an actual rice test leaf and an OOD image: green pixels are the HSV plant mask (H 12 to 65, S greater than 60, V greater than 40) that rejects OOD inputs."
+      }
     }
   ]
 }
