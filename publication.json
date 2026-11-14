@@ -16427,6 +16427,38 @@
         "alt": "CellScore demo reproduction: manual clicks (blue) versus the adapted-run automated count (red rings) overlaid on the raw hemocytometer image, after the authors' annotate.ipynb.",
         "caption": "CellScore demo reproduction: manual clicks (blue) versus the adapted-run automated count (red rings) overlaid on the raw hemocytometer image, after the authors' annotate.ipynb."
       }
+    },
+    {
+      "public_id": "p-ed85d50666420edac69da00787da07d5",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Bayesian Logistic Disease Progress Curves for Modeling Plant Disease Epidemics",
+      "journal": null,
+      "authors": [
+        "Silva CDd, Kerns A, DeWolf E, Hefley T, Onofre KA."
+      ],
+      "doi": "10.21203/rs.3.rs-11484962/v1",
+      "compute": "CPU",
+      "validated_on": "2026-11-14",
+      "demonstration": "Executes the paper's case study 2 (SY Monument 2024 stripe rust severity) with the authors' pinned JAGS code: posterior summaries of K, r, y0, phi, 100% in-sample predictive coverage, and the prior-prediction figure; case study 1 and supplementary models are out of scope.",
+      "semantic_tags": [
+        "crop:wheat",
+        "task:time_series",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Case study 2 posterior predicted severity curves with 95% posterior predictive intervals and the observed y* points (authors' Figure 8 chunk, executed on Colab CPU).",
+        "caption": "Case study 2 posterior predicted severity curves with 95% posterior predictive intervals and the observed y* points (authors' Figure 8 chunk, executed on Colab CPU)."
+      }
     }
   ]
 }
