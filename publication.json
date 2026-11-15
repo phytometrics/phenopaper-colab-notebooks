@@ -16565,6 +16565,41 @@
         "alt": "Stage I Bio-Grey Filter overlay on an actual rice test leaf and an OOD image: green pixels are the HSV plant mask (H 12 to 65, S greater than 60, V greater than 40) that rejects OOD inputs.",
         "caption": "Stage I Bio-Grey Filter overlay on an actual rice test leaf and an OOD image: green pixels are the HSV plant mask (H 12 to 65, S greater than 60, V greater than 40) that rejects OOD inputs."
       }
+    },
+    {
+      "public_id": "p-33e25089a4e518318cd34001ca88d4d2",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "PhenoFrame: Phenotyping Plant Descriptor and Software Suite",
+      "journal": null,
+      "authors": [
+        "Vazquez J, Cuellar-Perez K, Davis J, Ji Z, Mankar S, Schnable J, Benes B."
+      ],
+      "doi": "10.21203/rs.3.rs-11381357/v1",
+      "compute": "CPU",
+      "validated_on": "2026-11-15",
+      "demonstration": "Single-sample reproduction on the author's 8-leaf descriptor plant_0.xml: XSD validation, pure-Python trait extraction, declared-vs-measured self-consistency, and a C++/Python cross-check with OBJ export; population-scale statistics and S-mode skeletons are out of scope.",
+      "semantic_tags": [
+        "crop:maize",
+        "crop:sorghum",
+        "organ:leaf",
+        "organ:whole_plant",
+        "task:morphology",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Measured leaf center splines of the sample descriptor plant_0.xml in 3D (circles: connection points; triangles: blade tips; dark green: stem axis).",
+        "caption": "Measured leaf center splines of the sample descriptor plant_0.xml in 3D (circles: connection points; triangles: blade tips; dark green: stem axis)."
+      }
     }
   ]
 }
