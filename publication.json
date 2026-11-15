@@ -16600,6 +16600,41 @@
         "alt": "Measured leaf center splines of the sample descriptor plant_0.xml in 3D (circles: connection points; triangles: blade tips; dark green: stem axis).",
         "caption": "Measured leaf center splines of the sample descriptor plant_0.xml in 3D (circles: connection points; triangles: blade tips; dark green: stem axis)."
       }
+    },
+    {
+      "public_id": "p-4e448c3f7412bc04c5a91fc86de20dfe",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Rail-Guided IoT Imaging System for Leaf-Level Monitoring in Small-Scale Citrus Plots",
+      "journal": "International Journal of Electronics and Communication Engineering",
+      "authors": [
+        "José Fabián Huamaní Zegarra",
+        "German Alberto Echaiz Espinoza",
+        "Daniel Domingo Yanyachi Aco Cardenas",
+        "Andrés Ortiz Salazar"
+      ],
+      "doi": "10.14445/23488549/ijece-v13i10p101",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-11-15",
+      "demonstration": "Pretrained-inference reproduction: the author's released YOLO11s-seg wax segmenter evaluated on the repository's 43-image field test split (mask mAP50 0.209 vs paper 0.209) and 74-image synthetic validation split (0.572 vs paper 0.575); training and the rail hardware pipeline are out of scope.",
+      "semantic_tags": [
+        "crop:citrus",
+        "environment:field",
+        "organ:leaf"
+      ],
+      "preview": {
+        "alt": "Field test image with reference GT wax polygons (middle) and best_model.pt predicted masks (right), conf=0.3",
+        "caption": "Field test image with reference GT wax polygons (middle) and best_model.pt predicted masks (right), conf=0.3"
+      }
     }
   ]
 }
