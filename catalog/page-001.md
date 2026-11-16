@@ -1,8 +1,8 @@
-# Notebook catalog — page 1 of 9
+# Notebook catalog — page 1 of 10
 
 [README / notebook index](../README.md#notebooks) · [Next](page-002.md)
 
-Alphabetical entries 1–50 of 450. Generated from publication.json; includes generation conditions and execution previews.
+Alphabetical entries 1–50 of 451. Generated from publication.json; includes generation conditions and execution previews.
 
 | Paper and run details | Preview |
 | --- | --- |

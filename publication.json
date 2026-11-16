@@ -16701,6 +16701,39 @@
         "alt": "Input UAV LAI maps (2022-06-14, 2022-06-28) beside the predicted earliest estimated epidemic onset (EEEO) map in days after sowing (cultivar susceptibility 6).",
         "caption": "Input UAV LAI maps (2022-06-14, 2022-06-28) beside the predicted earliest estimated epidemic onset (EEEO) map in days after sowing (cultivar susceptibility 6)."
       }
+    },
+    {
+      "public_id": "p-4c443930b9a6c1cd7cc4e3252c96a71b",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "LeafContourEFD: a reproducible workflow for elliptic Fourier analysis with orientation normalization and lateral asymmetry",
+      "journal": null,
+      "authors": [
+        "Konrai K, Ito R, Sunayama S, Omura K, Isagi Y, Kitajima K, Onoda Y."
+      ],
+      "doi": "10.64898/2026.04.16.718881",
+      "compute": "CPU",
+      "validated_on": "2026-11-17",
+      "demonstration": "Partial CPU demonstration of the Triadica sebifera PCA comparison (conventional/true/oriented-true EFD normalization) using the authors' own R code on the 30 Dryad contours, plus the contour-check overlay and an nb_h 5/10 sensitivity check; not a full-paper reproduction and the preprint-reported nb_h is not resolved.",
+      "semantic_tags": [
+        "organ:leaf",
+        "task:morphology",
+        "task:segmentation",
+        "trait:leaf_traits"
+      ],
+      "preview": {
+        "alt": "Contour check for all 30 Triadica sebifera samples: grey = original contour (centroid-centered), orange = reconstruction from the author-published oriented-true-normalized EFD coefficients (authors' compare_contour function, nb.h=5).",
+        "caption": "Contour check for all 30 Triadica sebifera samples: grey = original contour (centroid-centered), orange = reconstruction from the author-published oriented-true-normalized EFD coefficients (authors' compare_contour function, nb.h=5)."
+      }
     }
   ]
 }
