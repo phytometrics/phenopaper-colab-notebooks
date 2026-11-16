@@ -2,6 +2,19 @@
   "schema_version": 1,
   "failures": [
     {
+      "public_id": "p-4c443930b9a6c1cd7cc4e3252c96a71b",
+      "title": "LeafContourEFD: a reproducible workflow for elliptic Fourier analysis with orientation normalization and lateral asymmetry",
+      "journal": null,
+      "authors": [
+        "Konrai K, Ito R, Sunayama S, Omura K, Isagi Y, Kitajima K, Onoda Y."
+      ],
+      "investigation_run_id": "p-4c443930b9a6c1cd7cc4e3252c96a71b-20261116T153832Z-1730220",
+      "run_id": "p-4c443930b9a6c1cd7cc4e3252c96a71b-20261116T155603Z",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-11-16T16:07:36.621Z] ✗ cd /tmp 2>/dev/null; gh api \"search/code?q=repo:vbonhomme/Momocs+plot_PCA+in:file+filename:*.R\" --jq '.items[].path' 2>/dev/null | head; gh api repos/vbonhomme/Momocs/git/trees/master?recursive=1 --jq '.tree[].p | [2026-11-16T16:07:36.621Z] Error: The user rejected permission to use this specific tool call. | [2026-11-16T16:07:38.740Z] Checking how Momocs' PCA object exposes variance (source metadata/code from the Momocs repo). | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-11-17"
+    },
+    {
       "public_id": "p-a07c85ffebedbf10d8d7f19fae48c5b2",
       "title": "Pineapple fruit detection and size determination in a juicing factory in the Eastern Cape, South Africa",
       "journal": "South African Journal of Science",
@@ -14,6 +27,20 @@
       "status": "failed",
       "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-11-03T03:03:07.731Z] ! permission requested: external_directory (/home/*); auto-rejecting | [2026-11-03T03:03:07.742Z] ✗ cd /home/phyto/phenotyping-colab/runs/p-a07c85ffebedbf10d8d7f19fae48c5b2-20261026T055239Z/sources/code/mask_rcnn && ls mrcnn && grep -n \"^import \\|^from \\|    import \\|    from \" mrcnn/model.py | grep -i keras;  | [2026-11-03T03:03:07.742Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
       "created_on": "2026-11-03"
+    },
+    {
+      "public_id": "p-95c3f45f933235add6de6be81923a2bf",
+      "title": "\"You Are Not My Type\": An Evaluation of Classification Methods for Automatic Phytolith Identification.",
+      "journal": "Microscopy and microanalysis : the official journal of Microscopy Society of America, Microbeam Analysis Society, Microscopical Society of Canada",
+      "authors": [
+        "Díez-Pastor JF, Latorre-Carmona P, Arnaiz-González Á, Ruiz-Pérez J, Zurro D."
+      ],
+      "investigation_run_id": "p-95c3f45f933235add6de6be81923a2bf-20260929T102758Z-2522632",
+      "run_id": "p-95c3f45f933235add6de6be81923a2bf",
+      "status": "failed",
+      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-11-03T04:58:38.568Z] ! permission requested: external_directory (/*); auto-rejecting | [2026-11-03T04:58:38.580Z] ✗ cd /home/phyto/phenotyping-colab && rc=0; for i in $(seq 1 9); do python3 tools/wait_colab_exec.py --record runs/p-95c3f45f933235add6de6be81923a2bf/logs/final_run3_20261103T044713Z.log.execution.json --max-wait  | [2026-11-03T04:58:38.580Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
+      "created_on": "2026-11-03",
+      "notebook_path": "notebooks/unverified/p-95c3f45f933235add6de6be81923a2bf.ipynb"
     },
     {
       "public_id": "p-0195a942b03487ad5f2e888284141768",
@@ -1918,20 +1945,6 @@
         "Kalhari Manawasinghe",
         "Karen Tanino"
       ]
-    },
-    {
-      "public_id": "p-95c3f45f933235add6de6be81923a2bf",
-      "title": "\"You Are Not My Type\": An Evaluation of Classification Methods for Automatic Phytolith Identification.",
-      "journal": "Microscopy and microanalysis : the official journal of Microscopy Society of America, Microbeam Analysis Society, Microscopical Society of Canada",
-      "authors": [
-        "Díez-Pastor JF, Latorre-Carmona P, Arnaiz-González Á, Ruiz-Pérez J, Zurro D."
-      ],
-      "investigation_run_id": "p-95c3f45f933235add6de6be81923a2bf-20260929T102758Z-2522632",
-      "run_id": "p-95c3f45f933235add6de6be81923a2bf",
-      "status": "failed",
-      "reason": "OpenCode exited with status 0 without a valid queue-result.json. Last captured output: [2026-11-03T04:58:38.568Z] ! permission requested: external_directory (/*); auto-rejecting | [2026-11-03T04:58:38.580Z] ✗ cd /home/phyto/phenotyping-colab && rc=0; for i in $(seq 1 9); do python3 tools/wait_colab_exec.py --record runs/p-95c3f45f933235add6de6be81923a2bf/logs/final_run3_20261103T044713Z.log.execution.json --max-wait  | [2026-11-03T04:58:38.580Z] Error: The user rejected permission to use this specific tool call. | Required queue-result.json is unavailable or invalid: FileNotFoundError",
-      "created_on": "2026-11-03",
-      "notebook_path": "notebooks/unverified/p-95c3f45f933235add6de6be81923a2bf.ipynb"
     }
   ]
 }
