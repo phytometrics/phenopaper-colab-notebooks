@@ -16797,6 +16797,40 @@
         "alt": "Per-epoch Pearson correlation of the executed T4 demo run versus the repository's archived expected training log (test and train curves).",
         "caption": "Per-epoch Pearson correlation of the executed T4 demo run versus the repository's archived expected training log (test and train curves)."
       }
+    },
+    {
+      "public_id": "p-dafd297cf548388708792ff89c206fda",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Interplay between high-energy quenching and state transitions in Chlamydomonas reinhardtii: a single-cell approach.",
+      "journal": "The New phytologist",
+      "authors": [
+        "Lahlou A, Orlando M, Bujaldon S, Gaultier W, Israelievitch E, Hanappe P, Le Saux T, Jullien L, Colliaux D, Bailleul B."
+      ],
+      "doi": "10.1111/nph.71001",
+      "compute": "CPU",
+      "validated_on": "2026-11-19",
+      "demonstration": "Pretrained-inference reproduction: scores 4255 labelled single-cell Fm' traces in the authors' 3D qE/qT/qI NPQ space (2302 training traces match the paper); no training or microscope acquisition is reproduced.",
+      "semantic_tags": [
+        "modality:fluorescence",
+        "organ:cell",
+        "task:physiology",
+        "trait:photosynthesis",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "Single-cell NPQ scores in the (qT, qE) plane for six labelled populations, using the authors' pretrained dictionary and projection",
+        "caption": "Single-cell NPQ scores in the (qT, qE) plane for six labelled populations, using the authors' pretrained dictionary and projection"
+      }
     }
   ]
 }
