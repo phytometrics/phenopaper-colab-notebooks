@@ -16769,6 +16769,34 @@
         "alt": "LOOCV predicted vs. true total root length (spectral PCs, 68 plants); R-squared 0.361 vs published 0.36",
         "caption": "LOOCV predicted vs. true total root length (spectral PCs, 68 plants); R-squared 0.361 vs published 0.36"
       }
+    },
+    {
+      "public_id": "p-dd012c31b7aab5ca0bff2e183ead3a15",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Leveraging weighted embedding and Transformer architecture to improve phenotype prediction of complex traits for crops.",
+      "journal": "Nature communications",
+      "authors": [
+        "Li J, Yu L, Li M, Han R, Li Y, Shaibu AS, Agyenim-Boateng KG, Hao Z, Liu Y, Li B, Zhang S, Li L, Qiu L, Sun J."
+      ],
+      "doi": "10.1038/s41467-026-71035-5",
+      "compute": "T4 GPU",
+      "validated_on": "2026-11-18",
+      "demonstration": "Executed the authors' unmodified GP-WAITER demo (train+test on the bundled oil-trait subset, 50 accessions x 66,864 SNPs) in a legacy Python 3.9 environment on a Colab T4 and compared it with the repository's archived expected outputs; dataset-level benchmark claims remain unverified.",
+      "semantic_tags": [],
+      "preview": {
+        "alt": "Per-epoch Pearson correlation of the executed T4 demo run versus the repository's archived expected training log (test and train curves).",
+        "caption": "Per-epoch Pearson correlation of the executed T4 demo run versus the repository's archived expected training log (test and train curves)."
+      }
     }
   ]
 }
