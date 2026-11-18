@@ -16734,6 +16734,41 @@
         "alt": "Contour check for all 30 Triadica sebifera samples: grey = original contour (centroid-centered), orange = reconstruction from the author-published oriented-true-normalized EFD coefficients (authors' compare_contour function, nb.h=5).",
         "caption": "Contour check for all 30 Triadica sebifera samples: grey = original contour (centroid-centered), orange = reconstruction from the author-published oriented-true-normalized EFD coefficients (authors' compare_contour function, nb.h=5)."
       }
+    },
+    {
+      "public_id": "p-1e8e6dc75c3ab58b3156310330d65d7c",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash-EXL3",
+        "parameters": {
+          "variant": "high",
+          "reasoning_effort": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A leaf phenomics approach for estimating belowground traits in North American licorice",
+      "journal": "American Journal of Botany",
+      "authors": [
+        "Harris ZN, Tran V, Piotter E, Hanlon MT, Rubin MJ, Miller AJ."
+      ],
+      "doi": null,
+      "compute": "CPU",
+      "validated_on": "2026-11-18",
+      "demonstration": "Reproduces the paper's leave-one-out spectral-PC regression of 31 root traits (authors' verbatim R pipeline on the deposited data); Total root length LOOCV R2 = 0.361 vs published 0.36, on 68 plants, CPU-only, with the cPC/ePC modalities and adjusted models out of scope.",
+      "semantic_tags": [
+        "modality:spectral",
+        "organ:leaf",
+        "organ:root",
+        "task:morphology",
+        "trait:leaf_traits",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "LOOCV predicted vs. true total root length (spectral PCs, 68 plants); R-squared 0.361 vs published 0.36",
+        "caption": "LOOCV predicted vs. true total root length (spectral PCs, 68 plants); R-squared 0.361 vs published 0.36"
+      }
     }
   ]
 }
