@@ -1945,6 +1945,20 @@
         "Kalhari Manawasinghe",
         "Karen Tanino"
       ]
+    },
+    {
+      "public_id": "p-893c402cd8617ba29fb0cbcc969410fb",
+      "title": "MycorrhizaFinder: a user-friendly machine learning tool to quantify endomycorrhizal colonisation of real-world roots",
+      "journal": null,
+      "authors": [
+        "Kowal J, Upham R, Buckley S, Kiani A, Rickards M, Serpell E, Bidartondo MI, Evangelisti E, Schornack S, Sibbit J, Treder KP, Weidinger S, Suz LM."
+      ],
+      "investigation_run_id": "p-893c402cd8617ba29fb0cbcc969410fb-20261119T061304Z-127549",
+      "run_id": "p-893c402cd8617ba29fb0cbcc969410fb-20261119T065132Z",
+      "status": "failed",
+      "reason": "T4 execution reached 14/15 code cells: full 29,630-tile AM test evaluation recomputed Macro F1 65.50% (published ~66%), but one display-only metrics-table cell errored (Styler.format on a str column). The repaired notebook is preserved in deliverables/, but a fresh full validation is required and the hard 3-session budget was exhausted (4th session refused). No publication.",
+      "created_on": "2026-11-19",
+      "notebook_path": "notebooks/unverified/p-893c402cd8617ba29fb0cbcc969410fb.ipynb"
     }
   ]
 }
