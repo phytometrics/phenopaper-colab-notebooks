@@ -1959,6 +1959,26 @@
       "reason": "T4 execution reached 14/15 code cells: full 29,630-tile AM test evaluation recomputed Macro F1 65.50% (published ~66%), but one display-only metrics-table cell errored (Styler.format on a str column). The repaired notebook is preserved in deliverables/, but a fresh full validation is required and the hard 3-session budget was exhausted (4th session refused). No publication.",
       "created_on": "2026-11-19",
       "notebook_path": "notebooks/unverified/p-893c402cd8617ba29fb0cbcc969410fb.ipynb"
+    },
+    {
+      "public_id": "p-920ac198d9ff0fb3b83c5af1baed4f1a",
+      "title": "From smartphone to gene: Automated image-based phenotyping captures flowering diversity of common buckwheat",
+      "journal": "bioRxiv",
+      "authors": [
+        "Carles Quesada‐Traver",
+        "Fabian Hess",
+        "Flavian Tschurr",
+        "Lukas Kronenberg",
+        "Gabriele Rimat",
+        "Steven Andrew Yates",
+        "Bruno Studer"
+      ],
+      "investigation_run_id": "p-920ac198d9ff0fb3b83c5af1baed4f1a-20261125T183632Z-2181608",
+      "run_id": "p-920ac198d9ff0fb3b83c5af1baed4f1a-20261125T191640Z",
+      "status": "failed",
+      "reason": "Notebook authored and executed 3x on fresh CPU Colab runtimes; no single fresh run completed all 10 cells. Best attempt (logs/attempt1_output.ipynb) executed 9/10 cells including the complete Table S7 verification analysis (171 unique genes matched the paper's 171; 95 vs 93 CDS genes), the per-trait association graph, and the live DSpace re-check. It failed only on an R-install output-capture bug (fixed and verified in attempts 2-3, which installed all 6 R packages); attempts 2-3 then hit persistent transient bioRxiv 429 on the supplement download (bounded retry executed). Two evidence-led repairs spent and the 3-session budget exhausted, so execution stopped per the bounded-repair rule. Material core blocker, verified in every run and from DGX metadata: the ETH Research Collection dataset (handle 20.500.11850/809138) publicly enumerates only LICENSE and TEXT bundles, so the archived tables required by the authors' Pipeline B/C are not publicly retrievable; the guarded core raises Runt",
+      "created_on": "2026-11-26",
+      "notebook_path": "notebooks/unverified/p-920ac198d9ff0fb3b83c5af1baed4f1a.ipynb"
     }
   ]
 }

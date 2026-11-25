@@ -366,6 +366,28 @@
       "notebook_sha256": "0aec5d532c54a06d4fd36cfd332997c71bb9c54ff489142f9c64fd45be54bd5f",
       "source_sha256": "12c44e3d2e5162bbb8f36009e8f278854396f6cb16d4479fa3f622950998458a",
       "code_cells": 15
+    },
+    {
+      "public_id": "p-920ac198d9ff0fb3b83c5af1baed4f1a",
+      "title": "From smartphone to gene: Automated image-based phenotyping captures flowering diversity of common buckwheat",
+      "journal": "bioRxiv",
+      "authors": [
+        "Carles Quesada‐Traver",
+        "Fabian Hess",
+        "Flavian Tschurr",
+        "Lukas Kronenberg",
+        "Gabriele Rimat",
+        "Steven Andrew Yates",
+        "Bruno Studer"
+      ],
+      "investigation_run_id": "p-920ac198d9ff0fb3b83c5af1baed4f1a-20261125T183632Z-2181608",
+      "status": "failed",
+      "reason": "Notebook authored and executed 3x on fresh CPU Colab runtimes; no single fresh run completed all 10 cells. Best attempt (logs/attempt1_output.ipynb) executed 9/10 cells including the complete Table S7 verification analysis (171 unique genes matched the paper's 171; 95 vs 93 CDS genes), the per-trait association graph, and the live DSpace re-check. It failed only on an R-install output-capture bug (fixed and verified in attempts 2-3, which installed all 6 R packages); attempts 2-3 then hit persistent transient bioRxiv 429 on the supplement download (bounded retry executed). Two evidence-led repairs spent and the 3-session budget exhausted, so execution stopped per the bounded-repair rule. Material core blocker, verified in every run and from DGX metadata: the ETH Research Collection dataset (handle 20.500.11850/809138) publicly enumerates only LICENSE and TEXT bundles, so the archived tables required by the authors' Pipeline B/C are not publicly retrievable; the guarded core raises Runt",
+      "created_on": "2026-11-26",
+      "notebook_path": "notebooks/unverified/p-920ac198d9ff0fb3b83c5af1baed4f1a.ipynb",
+      "notebook_sha256": "1364e6df365a38fa038b9c355c665571e171b20224ff6de198d7c1ee8e0457ff",
+      "source_sha256": "70405629f15845b02f9e4ec2bcafba3c01c309213365a38600c9e7a426accb78",
+      "code_cells": 10
     }
   ]
 }
