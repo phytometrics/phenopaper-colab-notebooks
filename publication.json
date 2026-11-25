@@ -16872,6 +16872,41 @@
         "alt": "Probe-split held-out maize and potato leaf images with true class labels from the authors' split lists (inputs to the executed transfer evaluation)",
         "caption": "Probe-split held-out maize and potato leaf images with true class labels from the authors' split lists (inputs to the executed transfer evaluation)"
       }
+    },
+    {
+      "public_id": "p-77a1c4921d9890cd7aba6d0d39149afa",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Computational method for mapping mass signatures along developmental gradients reveals a novel role for a monosaccharide tetrose in maize salt-stress response",
+      "journal": "bioRxiv",
+      "authors": [
+        "Sama AM, Cahill SB, Luo S, Tripka A, Meng Y, Noll SE, Zare RN, Shah P, Dickinson AJ."
+      ],
+      "doi": "10.1101/2025.09.22.677919",
+      "compute": "CPU",
+      "validated_on": "2026-11-26",
+      "demonstration": "Adapted Python re-run of the DIMPLE DESI-MSI pipeline (consensus peaks, harmonization, linescans, Ward clustering) on one published B73 maize root section, validated against the authors' saved MATLAB workspace; the proprietary mspeaks wavelet denoising is replaced by a documented noise-threshold adaptation recovering 86% of the authors' final peaks.",
+      "semantic_tags": [
+        "crop:maize",
+        "environment:laboratory",
+        "modality:spectroscopy",
+        "organ:root",
+        "task:preprocessing",
+        "trait:growth_development",
+        "trait:stress_response"
+      ],
+      "preview": {
+        "alt": "Total-ion image of the B73 root 3 DESI-MSI section (79x38 pixels, log10 intensity) with the authors' root-section mask overlay (red)",
+        "caption": "Total-ion image of the B73 root 3 DESI-MSI section (79x38 pixels, log10 intensity) with the authors' root-section mask overlay (red)"
+      }
     }
   ]
 }
