@@ -16831,6 +16831,47 @@
         "alt": "Single-cell NPQ scores in the (qT, qE) plane for six labelled populations, using the authors' pretrained dictionary and projection",
         "caption": "Single-cell NPQ scores in the (qT, qE) plane for six labelled populations, using the authors' pretrained dictionary and projection"
       }
+    },
+    {
+      "public_id": "p-4213fbc6f337be535f4d500ec20c27a4",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Cross-crop generalization in multi-species leaf disease recognition.",
+      "journal": "Frontiers in Plant Science",
+      "authors": [
+        "Zhaopeng Cai",
+        "Nadia Farhana",
+        "Jiawei Li",
+        "Asif Mahbub Karim",
+        "Lizheng Guo",
+        "Junhui Cao"
+      ],
+      "doi": "10.3389/fpls.2026.1970636",
+      "compute": "T4 GPU",
+      "validated_on": "2026-11-25",
+      "demonstration": "Re-runs the paper's Section 3.6 frozen-backbone cross-crop linear-probe transfer on fold split1 with the authors' unmodified code and deposited leak-free splits, reproducing the deposited split1 accuracy on maize exactly and on potato within one test image; single-fold scope only, ImageNet control cited not re-run.",
+      "semantic_tags": [
+        "crop:maize",
+        "crop:potato",
+        "organ:fruit",
+        "organ:leaf",
+        "organ:stem",
+        "task:classification",
+        "task:preprocessing",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Probe-split held-out maize and potato leaf images with true class labels from the authors' split lists (inputs to the executed transfer evaluation)",
+        "caption": "Probe-split held-out maize and potato leaf images with true class labels from the authors' split lists (inputs to the executed transfer evaluation)"
+      }
     }
   ]
 }
