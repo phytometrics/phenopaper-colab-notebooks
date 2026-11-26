@@ -17002,6 +17002,44 @@
         "alt": "TreePoints mini v0.25 input images with author ground-truth tree-centroid annotations (purple x), from the MillionTrees benchmark package at pinned commit b6ebe7e.",
         "caption": "TreePoints mini v0.25 input images with author ground-truth tree-centroid annotations (purple x), from the MillionTrees benchmark package at pinned commit b6ebe7e."
       }
+    },
+    {
+      "public_id": "p-25ee8ba86e9324081a069f1f10a2607b",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Statistical Descriptors of β-Variational Autoencoder Latent Feature Maps for Image-Based Blueberry Canopy-Size Phenotyping",
+      "journal": "Agronomy",
+      "authors": [
+        "A. G. M. Zaman",
+        "Kallol Roy",
+        "Jüri Olt"
+      ],
+      "doi": "10.3390/agronomy16212222",
+      "compute": "CPU",
+      "validated_on": "2026-11-26",
+      "demonstration": "Reproduces the paper's classical image-descriptor baseline (author scripts 17-19, pinned commit a9be840) end-to-end on all four evaluation splits of the 2,043-image Zenodo dataset on Colab CPU; the beta-VAE and EfficientNet subsections are out of scope because no trained weights are released.",
+      "semantic_tags": [
+        "crop:blueberry",
+        "environment:field",
+        "modality:rgb",
+        "organ:whole_plant",
+        "task:annotation_qc",
+        "task:classification",
+        "task:reconstruction",
+        "trait:architecture"
+      ],
+      "preview": {
+        "alt": "Original blueberry canopy images (one deterministic sample per size class) with the pipeline's automatic ExG+Otsu vegetation-mask boundaries.",
+        "caption": "Original blueberry canopy images (one deterministic sample per size class) with the pipeline's automatic ExG+Otsu vegetation-mask boundaries."
+      }
     }
   ]
 }
