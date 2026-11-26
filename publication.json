@@ -17119,6 +17119,40 @@
         "alt": "Synthetic rhizotron patches (Zenodo 23566224) with the authors' exact paired ground-truth root masks (red)",
         "caption": "Synthetic rhizotron patches (Zenodo 23566224) with the authors' exact paired ground-truth root masks (red)"
       }
+    },
+    {
+      "public_id": "p-6649a693354e6daf22a986aa72d2fb02",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A hierarchical Bayesian model for dynamic phenotypes in multi-environment trials with genotype by environment interaction",
+      "journal": null,
+      "authors": [
+        "Gugushvili S, van Voorn GAK, Boer MP, Bustos-Korts D, Huynh Truong S, Friedenberg NA, McCormick R, Chapman S, van Eeuwijk F."
+      ],
+      "doi": "10.64898/2026.11.05.764527",
+      "compute": "CPU",
+      "validated_on": "2026-11-26",
+      "demonstration": "Loads the authors' released brmsfit (2 GB) on CPU and reproduces the draw-based results: variance decomposition, significant GxE interaction frequencies, environment types with medoid fitted curves, and APSIM-parameter correlations; the MCMC refit and PPC are out of scope.",
+      "semantic_tags": [
+        "crop:wheat",
+        "organ:whole_plant",
+        "task:time_series",
+        "trait:biomass",
+        "trait:growth_development",
+        "trait:yield"
+      ],
+      "preview": {
+        "alt": "Observed biweekly APSIM biomass (points) with posterior median log-logistic curves and 95% bands per genotype for the three environment-type medoid environments",
+        "caption": "Observed biweekly APSIM biomass (points) with posterior median log-logistic curves and 95% bands per genotype for the three environment-type medoid environments"
+      }
     }
   ]
 }
