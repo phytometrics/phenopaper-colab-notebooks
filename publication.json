@@ -17075,6 +17075,50 @@
         "alt": "Detected potato plots overlaid as blue bounding boxes with red region indices on the author sample NDVI orthomosaic (port of ObjectsDetection.m)",
         "caption": "Detected potato plots overlaid as blue bounding boxes with red region indices on the author sample NDVI orthomosaic (port of ObjectsDetection.m)"
       }
+    },
+    {
+      "public_id": "p-be2829a128c16ec7eab3724f43f42ece",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Diffusion-Based Synthetic Pretraining for Root Segmentation in Rhizotron Images",
+      "journal": "bioRxiv",
+      "authors": [
+        "Lu, F.",
+        "Kootstra, G.",
+        "Hartley, Z. K. J.",
+        "van de Zedde, R.",
+        "Pound, M. P.",
+        "Willemsen, V."
+      ],
+      "doi": "10.64898/2026.10.30.763050",
+      "compute": "T4 GPU",
+      "validated_on": "2026-11-26",
+      "demonstration": "Loads the authors' released YOLO26s-seg checkpoints (Synthetic_only, Real_only) from Zenodo via their published README access link, runs the authors' own prediction/evaluation script and metrics on six held-out synthetic rhizotron patches; training, other model arms, real-data experiments and image generation are out of scope.",
+      "semantic_tags": [
+        "crop:barley",
+        "crop:cucumber",
+        "crop:lettuce",
+        "crop:maize",
+        "crop:tomato",
+        "crop:wheat",
+        "environment:field",
+        "organ:root",
+        "organ:whole_plant",
+        "task:segmentation",
+        "trait:root_architecture"
+      ],
+      "preview": {
+        "alt": "Synthetic rhizotron patches (Zenodo 23566224) with the authors' exact paired ground-truth root masks (red)",
+        "caption": "Synthetic rhizotron patches (Zenodo 23566224) with the authors' exact paired ground-truth root masks (red)"
+      }
     }
   ]
 }
