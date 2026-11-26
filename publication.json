@@ -17040,6 +17040,41 @@
         "alt": "Original blueberry canopy images (one deterministic sample per size class) with the pipeline's automatic ExG+Otsu vegetation-mask boundaries.",
         "caption": "Original blueberry canopy images (one deterministic sample per size class) with the pipeline's automatic ExG+Otsu vegetation-mask boundaries."
       }
+    },
+    {
+      "public_id": "p-9e13c83653f8919d8460c0a1a259e8bb",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Prediction of late blight severity in a large panel of potato genotypes using low-altitude aerial images and machine learning methods.",
+      "journal": "PloS one",
+      "authors": [
+        "Loayza H, Ninanya J, Palacios S, Silva L, Pujaico Rivera F, Rinza J, Gastelo M, Aponte M, Kreuze JF, Lindqvist-Kreuze H, Heider B, Kante M, Ramírez DA."
+      ],
+      "doi": "10.1371/journal.pone.0347446",
+      "compute": "CPU",
+      "validated_on": "2026-11-26",
+      "demonstration": "Python port of the authors' MATLAB plot-detection scripts run on their deposited NDVI sample grid: 463 plots detected with bounding boxes and per-plot NDVI pixel statistics; mask adapted to an NDVI-positive binarization because the authors' RGB input is not in the repository.",
+      "semantic_tags": [
+        "crop:potato",
+        "environment:aerial",
+        "environment:field",
+        "modality:spectral",
+        "organ:whole_plant",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Detected potato plots overlaid as blue bounding boxes with red region indices on the author sample NDVI orthomosaic (port of ObjectsDetection.m)",
+        "caption": "Detected potato plots overlaid as blue bounding boxes with red region indices on the author sample NDVI orthomosaic (port of ObjectsDetection.m)"
+      }
     }
   ]
 }
