@@ -17269,6 +17269,47 @@
         "alt": "Real tatsoi plant photographs (early season and bolting period) with the authors' Labelme tatsoi_canopy polygon annotations overlaid",
         "caption": "Real tatsoi plant photographs (early season and bolting period) with the authors' Labelme tatsoi_canopy polygon annotations overlaid"
       }
+    },
+    {
+      "public_id": "p-d02a7251b85b5d6105bfedd9b125a70d",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Using UAV-LiDAR for stem volume phenotyping in the genetic selection of radiata pine (Pinus radiata D Don)",
+      "journal": "Annals of Forest Science",
+      "authors": [
+        "Joane Simone Elleouet",
+        "Sadeepa Jayathunga",
+        "Natalie J. Graham",
+        "Mark F. Paget",
+        "Jaroslav Klápště",
+        "Robin J.L. Hartley"
+      ],
+      "doi": "10.1186/s13595-026-01379-x",
+      "compute": "CPU",
+      "validated_on": "2026-11-27",
+      "demonstration": "Single-site ssGBLUP heritability of UAV-LiDAR tree height (zmax) for one anonymised radiata pine trial using the authors' A/G/H matrix pipeline with sommer REML replacing the commercial ASReml-R; h2=0.316 (SE 0.061) vs published per-site range 0.23-0.50.",
+      "semantic_tags": [
+        "environment:aerial",
+        "modality:point_cloud",
+        "organ:stem",
+        "organ:whole_plant",
+        "task:morphology",
+        "trait:architecture",
+        "trait:biomass",
+        "trait:plant_height"
+      ],
+      "preview": {
+        "alt": "Narrow-sense heritability of UAV-LiDAR tree height (zmax) from single-site ssGBLUP (H, blending 0.5, sommer REML) for trial_1, compared with the paper's published per-site values (Table 4)",
+        "caption": "Narrow-sense heritability of UAV-LiDAR tree height (zmax) from single-site ssGBLUP (H, blending 0.5, sommer REML) for trial_1, compared with the paper's published per-site values (Table 4)"
+      }
     }
   ]
 }
