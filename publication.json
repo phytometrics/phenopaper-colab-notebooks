@@ -17463,6 +17463,41 @@
         "alt": "Reproduced Figure 2 (Arabidopsis): NPQ, Y(II), PQ and Y(II)' versus RWC - author-embedded measurements with the ported OLS regression; computed R2/p match the paper-reported values.",
         "caption": "Reproduced Figure 2 (Arabidopsis): NPQ, Y(II), PQ and Y(II)' versus RWC - author-embedded measurements with the ported OLS regression; computed R2/p match the paper-reported values."
       }
+    },
+    {
+      "public_id": "p-036221a7a78d36e0505cdffd620e1d60",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "MACE: Memory-Augmented Crop-Disease Evaluation of Frozen Vision-Language Models",
+      "journal": "arXiv",
+      "authors": [
+        "Tirtho Roy",
+        "Shreyan Ganguly",
+        "Muhammad Arbab Arshad",
+        "Nikhil Bhattacharya",
+        "Soumik Sarkar"
+      ],
+      "doi": "10.48550/arxiv.2611.28573",
+      "compute": "CPU",
+      "validated_on": "2026-11-27",
+      "demonstration": "Recomputes the paper's reported equal-crop accuracies, 15 follow-up contrasts, and the full locked analysis pipeline from the authors' released result files with their pinned verification code (CPU-only; no model calls or images are rerun).",
+      "semantic_tags": [
+        "task:classification",
+        "task:stress_disease",
+        "trait:disease_symptoms"
+      ],
+      "preview": {
+        "alt": "Equal-crop accuracy (%) of SAGE, DINOv2 1-NN and MACE retrieval recomputed from the released results_wide.csv (notebook-created figure, in-distribution vs held-out)",
+        "caption": "Equal-crop accuracy (%) of SAGE, DINOv2 1-NN and MACE retrieval recomputed from the released results_wide.csv (notebook-created figure, in-distribution vs held-out)"
+      }
     }
   ]
 }
