@@ -17498,6 +17498,36 @@
         "alt": "Equal-crop accuracy (%) of SAGE, DINOv2 1-NN and MACE retrieval recomputed from the released results_wide.csv (notebook-created figure, in-distribution vs held-out)",
         "caption": "Equal-crop accuracy (%) of SAGE, DINOv2 1-NN and MACE retrieval recomputed from the released results_wide.csv (notebook-created figure, in-distribution vs held-out)"
       }
+    },
+    {
+      "public_id": "p-6bfbd9d8cc2c3a07d17c29e6e80bf1fa",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Trait-specific image-based phenotyping enables nondestructive prediction of pigment-related traits in pak choi",
+      "journal": "Smart Agricultural Technology",
+      "authors": [
+        "Lizhi Fei",
+        "Jian Luo",
+        "Yuchen Zhou",
+        "Hengmin Lv"
+      ],
+      "doi": "10.1016/j.atech.2026.102781",
+      "compute": "CPU",
+      "validated_on": "2026-11-27",
+      "demonstration": "Reconstructs the author deposit at pinned commit 2e54f50, audits all 864 images and 36 archived trait-model test metrics against the manifest, and re-runs the authors' traditional-ML pipeline for chlorophyll a (PLS/SVR/RF/XGBoost/KNN) under the frozen splits, reproducing the archived test metrics; ResNet18 branch and other trait re-fits are out of scope.",
+      "semantic_tags": [],
+      "preview": {
+        "alt": "Deposited pak choi leaf images (top) with the authors' legacy HSV+LAB foreground mask overlay (bottom)",
+        "caption": "Deposited pak choi leaf images (top) with the authors' legacy HSV+LAB foreground mask overlay (bottom)"
+      }
     }
   ]
 }
