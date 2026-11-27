@@ -17228,6 +17228,47 @@
         "alt": "Bundled demo microscopy image with the authors' ground-truth polygons (green/blue/orange: immature conidia, conidiophore bases, mature conidia)",
         "caption": "Bundled demo microscopy image with the authors' ground-truth polygons (green/blue/orange: immature conidia, conidiophore bases, mature conidia)"
       }
+    },
+    {
+      "public_id": "p-89e09ff527c47473394c9ad1d59467aa",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "A time-resolved image-environment dataset for tatsoi growth monitoring and intelligent phytoprotection benchmarking.",
+      "journal": "Frontiers in Plant Science",
+      "authors": [
+        "Xing Yang",
+        "Jiayi Wang",
+        "Haozhe Yang",
+        "Fan Yu",
+        "Lei Shu",
+        "Xuanchen Guo"
+      ],
+      "doi": "10.3389/fpls.2026.1978055",
+      "compute": "CPU",
+      "validated_on": "2026-11-27",
+      "demonstration": "Reran the paper's released feature-level trait-recognition baseline (authors' run_baseline_models.py) on all 3,456 tatsoi images; plant-holdout mean macro-F1 0.828 image-only and 0.874 with the 96 environment features, matching Table 4; deep-learning benchmarks not included.",
+      "semantic_tags": [
+        "crop:brassica_vegetables",
+        "environment:field",
+        "modality:multimodal",
+        "organ:whole_plant",
+        "task:classification",
+        "task:object_detection",
+        "task:segmentation",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Real tatsoi plant photographs (early season and bolting period) with the authors' Labelme tatsoi_canopy polygon annotations overlaid",
+        "caption": "Real tatsoi plant photographs (early season and bolting period) with the authors' Labelme tatsoi_canopy polygon annotations overlaid"
+      }
     }
   ]
 }
