@@ -17382,6 +17382,48 @@
         "alt": "Annotated seed analysis output for the authors' demo image dataset/Seed/seed_1.jpg: depth-gated SAM masks plus watershed separation with seed contours and IDs overlaid (PhytoDA SeedStrategy, SAM ViT-B + Depth Anything V2 ViT-L).",
         "caption": "Annotated seed analysis output for the authors' demo image dataset/Seed/seed_1.jpg: depth-gated SAM masks plus watershed separation with seed contours and IDs overlaid (PhytoDA SeedStrategy, SAM ViT-B + Depth Anything V2 ViT-L)."
       }
+    },
+    {
+      "public_id": "p-ea00a20498fd5264e4a243a15ea49216",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Evaluating GNSS-T VOD sensitivity to plant water dynamics, rainfall interception, and dew in a coniferous forest",
+      "journal": "Biogeosciences",
+      "authors": [
+        "Konstantin Schellenberg",
+        "Sinikka J. Paulus",
+        "Ronald Queck",
+        "David Chaparro",
+        "Oliver Binks",
+        "Maurizio Mencuccini",
+        "Sharath S. Paligi",
+        "Henrik Hartmann",
+        "Christiane Schmullius",
+        "Clémence Dubois",
+        "Thomas Jagdhuber"
+      ],
+      "doi": "10.5194/bg-23-8507-2026",
+      "compute": "CPU",
+      "validated_on": "2026-11-27",
+      "demonstration": "Regenerates the paper's interception-storage figure group (Fig. 4 scatter of 30-min VOD vs CanWat canopy storage, monthly b, event-size regressions) from the authors' pinned code and the two Zenodo analysis CSVs on a CPU runtime; raw GNSS preprocessing and CanWat re-runs are out of scope.",
+      "semantic_tags": [
+        "environment:field",
+        "organ:whole_plant",
+        "task:physiology",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Reproduced paper Fig. 4: 30-min VOD vs CanWat interception storage for cone and column footprints with origin regressions and 95% CI bands",
+        "caption": "Reproduced paper Fig. 4: 30-min VOD vs CanWat interception storage for cone and column footprints with origin regressions and 95% CI bands"
+      }
     }
   ]
 }
