@@ -17310,6 +17310,43 @@
         "alt": "Narrow-sense heritability of UAV-LiDAR tree height (zmax) from single-site ssGBLUP (H, blending 0.5, sommer REML) for trial_1, compared with the paper's published per-site values (Table 4)",
         "caption": "Narrow-sense heritability of UAV-LiDAR tree height (zmax) from single-site ssGBLUP (H, blending 0.5, sommer REML) for trial_1, compared with the paper's published per-site values (Table 4)"
       }
+    },
+    {
+      "public_id": "p-2942bb14ff5d63920dbe1131380b116a",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "pxGPT: a schema-constrained multimodal large language model framework for plant phenotyping.",
+      "journal": "Bioinformatics",
+      "authors": [
+        "Po‐Xing Zheng",
+        "Jheng-Yan Ou",
+        "Yu-Lin Wu",
+        "Ruei-Shiuan Wang",
+        "WU Ting-li",
+        "Te-Chang Hsu",
+        "Yao-Cheng Lin"
+      ],
+      "doi": "10.1093/bioinformatics/btag781",
+      "compute": "CPU",
+      "validated_on": "2026-11-27",
+      "demonstration": "Reproduces the paper's seedling evaluation stage from the authors' deposited Zenodo artifacts: per-trait accuracy 0.6190 (published 0.619), raw agreement 0.5723/0.6196, and the authors' json-to-table CLI on record s0001; live LLM extraction requires a paid API key and is out of scope.",
+      "semantic_tags": [
+        "crop:brassica_vegetables",
+        "task:classification",
+        "task:organ_identification"
+      ],
+      "preview": {
+        "alt": "Input sample seedling/s0001: the 7 multi-view photos that pxGPT Step 3 sends to the vision LLM (Zenodo 10.5281/zenodo.22907554 v2.0.0, CC BY 4.0)",
+        "caption": "Input sample seedling/s0001: the 7 multi-view photos that pxGPT Step 3 sends to the vision LLM (Zenodo 10.5281/zenodo.22907554 v2.0.0, CC BY 4.0)"
+      }
     }
   ]
 }
