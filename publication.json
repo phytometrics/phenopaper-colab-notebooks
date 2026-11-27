@@ -17424,6 +17424,45 @@
         "alt": "Reproduced paper Fig. 4: 30-min VOD vs CanWat interception storage for cone and column footprints with origin regressions and 95% CI bands",
         "caption": "Reproduced paper Fig. 4: 30-min VOD vs CanWat interception storage for cone and column footprints with origin regressions and 95% CI bands"
       }
+    },
+    {
+      "public_id": "p-dbe8ba0bb7a0dac24ca9bf981de73e62",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Characteristics of chlorophyll fluorescence in the light‐adapted state as indicators of plant leaf relative water content",
+      "journal": "Applications in Plant Sciences",
+      "authors": [
+        "Junqing Chen",
+        "Lijiang Fu",
+        "Ya Guo",
+        "Felix B. Fritschi",
+        "Jinglu Tan"
+      ],
+      "doi": "10.1002/aps3.70090",
+      "compute": "CPU",
+      "validated_on": "2026-11-27",
+      "demonstration": "Reproduced Figures 2 and 4: pooled OLS regressions of NPQ, Y(II), PQ and Y(II)' vs RWC for Arabidopsis and spinach from the author's embedded MATLAB data, with all computed R2/p matching the paper's reported values; raw fluorometer time courses, Table 1 and Figures 3/6 are not reproducible from the deposit.",
+      "semantic_tags": [
+        "crop:arabidopsis",
+        "crop:spinach",
+        "modality:fluorescence",
+        "organ:leaf",
+        "task:physiology",
+        "trait:photosynthesis",
+        "trait:water_status"
+      ],
+      "preview": {
+        "alt": "Reproduced Figure 2 (Arabidopsis): NPQ, Y(II), PQ and Y(II)' versus RWC - author-embedded measurements with the ported OLS regression; computed R2/p match the paper-reported values.",
+        "caption": "Reproduced Figure 2 (Arabidopsis): NPQ, Y(II), PQ and Y(II)' versus RWC - author-embedded measurements with the ported OLS regression; computed R2/p match the paper-reported values."
+      }
     }
   ]
 }
