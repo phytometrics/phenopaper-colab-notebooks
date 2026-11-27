@@ -17347,6 +17347,41 @@
         "alt": "Input sample seedling/s0001: the 7 multi-view photos that pxGPT Step 3 sends to the vision LLM (Zenodo 10.5281/zenodo.22907554 v2.0.0, CC BY 4.0)",
         "caption": "Input sample seedling/s0001: the 7 multi-view photos that pxGPT Step 3 sends to the vision LLM (Zenodo 10.5281/zenodo.22907554 v2.0.0, CC BY 4.0)"
       }
+    },
+    {
+      "public_id": "p-008244fa16decf6ff8490e5e06b0165e",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "PhytoDA: a depth-guided plant phenotyping and annotation platform for complex crop-image analysis",
+      "journal": "Crop Design",
+      "authors": [
+        "Yan Ma",
+        "Pu Jing",
+        "Jinfeng Zhao",
+        "Xuehui Huang",
+        "Xiaoyi Zhou"
+      ],
+      "doi": "10.1016/j.cropd.2026.100168",
+      "compute": "CPU + T4 GPU",
+      "validated_on": "2026-11-27",
+      "demonstration": "Headless reproduction of PhytoDA's depth-gated seed pipeline: the authors' 12-test unittest suite plus real SAM ViT-B + Depth Anything V2 ViT-L inference on one author demo image producing the six engine stage views and a 9-seed measurement table; GUI, Copilot and dataset-level benchmarks are out of scope.",
+      "semantic_tags": [
+        "modality:rgb",
+        "task:morphology",
+        "task:segmentation"
+      ],
+      "preview": {
+        "alt": "Annotated seed analysis output for the authors' demo image dataset/Seed/seed_1.jpg: depth-gated SAM masks plus watershed separation with seed contours and IDs overlaid (PhytoDA SeedStrategy, SAM ViT-B + Depth Anything V2 ViT-L).",
+        "caption": "Annotated seed analysis output for the authors' demo image dataset/Seed/seed_1.jpg: depth-gated SAM masks plus watershed separation with seed contours and IDs overlaid (PhytoDA SeedStrategy, SAM ViT-B + Depth Anything V2 ViT-L)."
+      }
     }
   ]
 }
