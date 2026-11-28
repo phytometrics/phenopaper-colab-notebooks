@@ -17559,6 +17559,39 @@
         "alt": "Committed validation images: author reference annotations (green, left) vs. this notebook's model predictions (orange, right) with the committed best.pt checkpoint at conf=0.25.",
         "caption": "Committed validation images: author reference annotations (green, left) vs. this notebook's model predictions (orange, right) with the committed best.pt checkpoint at conf=0.25."
       }
+    },
+    {
+      "public_id": "p-b0f122af914788373557116b16d28981",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "Deepweed: automated individual segmentation and tracking for duckweed lineage analysis.",
+      "journal": "Bioinformatics (Oxford, England)",
+      "authors": [
+        "Oyeniran T, Akindipe B, Islam T, Scheel JD, Josephs EA, Oliveira SMD."
+      ],
+      "doi": "10.1093/bioinformatics/btag779",
+      "compute": "T4 GPU",
+      "validated_on": "2026-11-28",
+      "demonstration": "Runs the authors' pinned evaluation script and published 512x512 U-Net on their independent petri-dish test set (Dice 0.908, IoU 0.832, recall 85.8%, precision 99.3% - matching the paper) and executes a documented 20-cell subset of the authors' published notebook in microfluidics mode on the first 80 frames (~26.7 h) after a lossless AVI conversion; training, full benchmarks and video rendering are out of scope.",
+      "semantic_tags": [
+        "environment:laboratory",
+        "organ:whole_plant",
+        "task:segmentation",
+        "task:tracking",
+        "trait:growth_development"
+      ],
+      "preview": {
+        "alt": "Independent test-set frame: raw input, the authors' blank-canvas ground-truth annotation, and the published 512x512 U-Net prediction from this run",
+        "caption": "Independent test-set frame: raw input, the authors' blank-canvas ground-truth annotation, and the published 512x512 U-Net prediction from this run"
+      }
     }
   ]
 }
