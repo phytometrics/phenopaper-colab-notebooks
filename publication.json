@@ -17528,6 +17528,37 @@
         "alt": "Deposited pak choi leaf images (top) with the authors' legacy HSV+LAB foreground mask overlay (bottom)",
         "caption": "Deposited pak choi leaf images (top) with the authors' legacy HSV+LAB foreground mask overlay (bottom)"
       }
+    },
+    {
+      "public_id": "p-2f3d2696a7d16ae270f2c67261033708",
+      "generation": {
+        "harness": "OpenCode",
+        "harness_version": "1.18.34",
+        "model": "spark-local/GLM-5.3-Flash",
+        "parameters": {
+          "variant": "high"
+        },
+        "source": "host_process",
+        "run_id": null
+      },
+      "title": "IVG-UAV: An Intelligent Voice-Guided UAV System for Autonomous Ripe Fruit Harvesting with Vision-Based Classification and Adaptive Path Planning",
+      "journal": null,
+      "authors": [
+        "Trung Duong Dinh"
+      ],
+      "doi": "10.13140/rg.2.2.24215.53923",
+      "compute": "CPU",
+      "validated_on": "2026-11-28",
+      "demonstration": "Runs the paper's committed fine-tuned YOLOv8n checkpoint (conf=0.25) on the four committed validation orchard images and the author's Gazebo sample on CPU, comparing predictions with the committed reference annotations; the voice/LLM planning and Gazebo/PX4 navigation pipeline is out of scope.",
+      "semantic_tags": [
+        "organ:fruit",
+        "task:classification",
+        "trait:reproductive_traits"
+      ],
+      "preview": {
+        "alt": "Committed validation images: author reference annotations (green, left) vs. this notebook's model predictions (orange, right) with the committed best.pt checkpoint at conf=0.25.",
+        "caption": "Committed validation images: author reference annotations (green, left) vs. this notebook's model predictions (orange, right) with the committed best.pt checkpoint at conf=0.25."
+      }
     }
   ]
 }
